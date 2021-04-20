@@ -1,0 +1,1041 @@
+Chapter 6. Global Replacement
+
+
+
+
+
+Sometimes, halfway through a document or at the end of a draft, you may recognize inconsistencies in the way that you refer to certain things. Or, in a manual, some product whose name appears throughout your file is suddenly renamed (marketing!). Often enough it happens that you have to go back and change what you’ve already written, and you need to make the changes in several places.
+
+The way to make these changes is with a powerful change command called global replacement. With one command you can automatically replace a word (or a string of characters) wherever it occurs in the file.
+
+In a global replacement, the ex editor checks each line of a file for a given pattern of characters. On all lines where the pattern is found, ex replaces the pattern with a new string of characters. For right now, we’ll treat the search pattern as if it were a simple string; later in the chapter we’ll look at the powerful pattern-matching language known as regular expressions.
+
+Global replacement really uses two ex commands: :g (global) and :s (substitute). Since the syntax of global replacement commands can get fairly complex, let’s look at it in stages.
+
+The substitute command has the syntax:
+
+:s/old/new/
+
+This changes the first occurrence of the pattern old to new on the current line. The / (slash) is the delimiter between the various parts of the command. (The slash is optional when it is the last character on the line.)
+
+A substitute command with the syntax:
+
+:s/old/new/g
+
+changes every occurrence of old to new on the current line, not just the first occurrence. The :s command allows options following the substitution string. The g option in the syntax above stands for global. (The g option affects each pattern on a line; don’t confuse it with the :g command, which affects each line of a file.)
+
+By prefixing the :s command with addresses, you can extend its range to more than one line. For example, this command will change every occurrence of old to new from line 50 to line 100:
+
+:50,100s/old/new/g
+
+This command will change every occurrence of old to new within the entire file:
+
+:1,$s/old/new/g
+
+You can also use % instead of 1,$ to specify every line in a file. Thus, the last command could also be given like this:
+
+:%s/old/new/g
+
+Global replacement is much faster than finding each instance of a string and replacing it individually. Because the command can be used to make many different kinds of changes, and because it is so powerful, we will first illustrate simple replacements and then build up to complex, context-sensitive replacements.
+
+
+
+
+
+Confirming Substitutions
+
+
+
+
+
+It makes sense to be overly careful when using a search and replace command. It sometimes happens that what you get is not what you expect. You can undo any search and replacement command by entering u, provided that the command was the most recent edit you made. But you don’t always catch undesired changes until it is too late to undo them. Another way to protect your edited file is to save the file with :w before performing a global replacement. Then at least you can quit the file without saving your edits and can go back to where you were before the change was made. You can also read the previous version of the buffer back in with :e!.
+
+It’s wise to be cautious and know exactly what is going to be changed in your file. If you’d like to see what the search turns up and confirm each replacement before it is made, add the c option (for confirm) at the end of the substitute command:
+
+:1,30s/his/the/gc
+
+ex will display the entire line where the string has been located, and the string will be marked by a series of carets (^^^^):
+
+copyists at his school ^^^
+
+If you want to make the replacement, you must enter y (for yes) and press ENTER. If you don’t want to make a change, simply press ENTER.
+
+this can be used for invitations, signs, and menus. ^^^
+
+The combination of the vi commands n (repeat last search) and dot (.) (repeat last command) is also an extraordinarily useful and quick way to page through a file and make repetitive changes that you may not want to make globally. So, for example, if your editor has told you that you’re using which when you should be using that, you can spot-check every occurrence of which, changing only those that are incorrect:
+
+/which Search for which
+
+cwthat ESC Change to that
+
+n Repeat search
+
+n Repeat search, skip a change
+
+. Repeat change (if appropriate)
+
+(Etc.)
+
+
+
+
+
+Context-Sensitive Replacement
+
+
+
+
+
+The simplest global replacements substitute one word (or a phrase) for another. If you have typed a file with several misspellings (editer for editor), you can do the global replacement:
+
+:%s/editer/editor/g
+
+This substitutes editor for every occurrence of editer throughout the file.
+
+There is a second, slightly more complex syntax for global replacement. This syntax lets you search for a pattern, and then, once you find the line with the pattern, make a substitution on a string different from the pattern. You can think of this as context-sensitive replacement.
+
+The syntax is as follows:
+
+:g/pattern/s/old/new/g
+
+The first g tells the command to operate on all lines of a file. pattern identifies the lines on which a substitution is to take place. On those lines containing pattern, ex is to substitute (s) for old the characters in new. The last g indicates that the substitution is to occur globally on that line.
+
+For example, as we write this book, the XML directives <keycap> and </keycap> place a box around ESC to show the Escape key. You want ESC to be all in caps, but you don’t want to change any instances of Escape that might be in the text. To change instances of Esc to ESC only when Esc is on a line that contains the <keycap> directive, you could enter:
+
+:g/<keycap>/s/Esc/ESC/g
+
+If the pattern being used to find the line is the same as the one you want to change, you don’t have to repeat it. The command:
+
+:g/string/s//new/g
+
+would search for lines containing string and substitute for that same string.
+
+Note that:
+
+:g/editer/s//editor/g
+
+has the same effect as:
+
+:%s/editer/editor/g
+
+You can save some typing by using the second form. It is also possible to combine the :g command with :d, :mo, :co, and other ex commands besides :s. As we’ll show, you can thus make global deletions, moves, and copies.
+
+
+
+
+
+Pattern-Matching Rules
+
+
+
+
+
+In making global replacements, Unix editors such as vi allow you to search not just for fixed strings of characters, but also for variable patterns of words, referred to as regular expressions.
+
+When you specify a literal string of characters, the search might turn up other occurrences that you didn’t want to match. The problem with searching for words in a file is that a word can be used in different ways. Regular expressions help you conduct a search for words in context. Note that regular expressions can be used with the vi search commands / and ?, as well as in the ex commands :g and :s.
+
+For the most part, the same regular expressions work with other Unix programs, such as grep, sed, and awk.[21]
+
+Regular expressions are made up by combining normal characters with a number of special characters called metacharacters.[22] The metacharacters and their uses are listed next.
+
+
+
+
+
+Metacharacters Used in Search Patterns
+
+
+
+
+
+. (period, dot)
+
+Matches any single character except a newline. Remember that spaces are treated as characters. For example, p.p matches character strings such as pep, pip, and pcp.
+
+
+
+*
+
+Matches zero or more (as many as there are) of the single character that immediately precedes it. For example, bugs* will match bugs (one s) or bug (no s). (It will also match bugss, bugsss, and so on.)
+
+The * can follow a metacharacter. For example, since . (dot) means any character, .* means “match any number of any character.”
+
+Here’s a specific example of this: the command :s/End.*/End/ removes all characters after End (it replaces the remainder of the line with nothing).
+
+
+
+^
+
+When used at the start of a regular expression, requires that the following regular expression be found at the beginning of the line. For example, ^Part matches Part when it occurs at the beginning of a line, and ^... matches the first three characters of a line. When not at the beginning of a regular expression, ^ stands for itself.
+
+
+
+$
+
+When used at the end of a regular expression, requires that the preceding regular expression be found at the end of the line; for example, here:$ matches only when here: occurs at the end of a line. When not at the end of a regular expression, $ stands for itself.
+
+
+
+\
+
+Treats the following special character as an ordinary character. For example, \. matches an actual period instead of “any single character,” and \* matches an actual asterisk instead of “any number of a character.” The \ (backslash) prevents the interpretation of a special character. This prevention is called “escaping the character.” (Use \\ to get a literal backslash.)
+
+
+
+[ ]
+
+Matches any one of the characters enclosed between the brackets. For example, [AB] matches either A or B, and p[aeiou]t matches pat, pet, pit, pot, or put. A range of consecutive characters can be specified by separating the first and last characters in the range with a hyphen. For example, [A-Z] will match any uppercase letter from A to Z, and [0-9] will match any digit from 0 to 9.
+
+You can include more than one range inside brackets, and you can specify a mix of ranges and separate characters. For example, [:;A-Za-z()] will match four different punctuation marks, plus all letters.
+
+
+
+
+
+Note
+
+
+When regular expressions and vi were first developed, they were meant to work only with the ASCII character set. In today’s global market, modern systems support locales, which provide different interpretations of the characters that lie between a and z. To get accurate results, you should use POSIX bracket expressions (discussed shortly) in your regular expressions, and avoid ranges of the form a-z.
+
+
+
+Most metacharacters lose their special meaning inside brackets, so you don’t need to escape them if you want to use them as ordinary characters. Within brackets, the three metacharacters you still need to escape are \ - ]. The hyphen (-) acquires meaning as a range specifier; to use an actual hyphen, you can also place it as the first character inside the brackets.
+
+A caret (^) has special meaning only when it is the first character inside the brackets, but in this case the meaning differs from that of the normal ^ metacharacter. As the first character within brackets, a ^ reverses their sense: the brackets will match any one character not in the list. For example, [^0-9] matches any character that is not a digit.
+
+
+
+\( \)
+
+Saves the pattern enclosed between \( and \) into a special holding space, or a “hold buffer.” Up to nine patterns can be saved in this way on a single line. For example, the pattern:
+
+\(That\) or \(this\)
+
+saves That in hold buffer number 1 and saves this in hold buffer number 2. The patterns held can be “replayed” in substitutions by the sequences \1 to \9. For example, to rephrase That or this to read this or That, you could enter:
+
+:%s/\(That\) or \(this\)/\2 or \1/
+
+You can also use the \n notation within a search or substitute string. For example:
+
+:s/\(abcd\)\1/alphabet-soup/
+
+changes abcdabcd into alphabet-soup.[23]
+
+
+
+\< \>
+
+Matches characters at the beginning (\<) or at the end (\>) of a word. The end or beginning of a word is determined either by a punctuation mark or by a space. For example, the expression \<ac will match only words that begin with ac, such as action. The expression ac\> will match only words that end with ac, such as maniac. Neither expression will match react. Note that unlike \(...\), these do not have to be used in matched pairs.
+
+
+
+~
+
+Matches whatever regular expression was used in the last search. For example, if you searched for The, you could search for Then with /~n. Note that you can use this pattern only in a regular search (with /).[24] It won’t work as the pattern in a substitute command. It does, however, have a similar meaning in the replacement portion of a substitute command.
+
+
+
+
+
+All of the clones support optional, extended regular expression syntaxes. See the section Extended Regular Expressions for more information.
+
+
+
+
+
+POSIX Bracket Expressions
+
+
+
+
+
+We have just described the use of brackets for matching any one of the enclosed characters, such as [a-z]. The POSIX standard introduced additional facilities for matching characters that are not in the English alphabet. For example, the French è is an alphabetic character, but the typical character class [a-z] would not match it. Additionally, the standard provides for sequences of characters that should be treated as a single unit when matching and collating (sorting) string data.
+
+POSIX also formalizes the terminology. Groups of characters within brackets are called “bracket expressions” in the POSIX standard. Within bracket expressions, beside literal characters such as a, !, and so on, you can have additional components. These components are:
+
+Character classes
+
+A POSIX character class consists of keywords bracketed by [: and :]. The keywords describe different classes of characters, such as alphabetic characters, control characters, and so on (see Table 6-1).
+
+
+
+Collating symbols
+
+A collating symbol is a multicharacter sequence that should be treated as a unit. It consists of the characters bracketed by [. and .].
+
+
+
+Equivalence classes
+
+An equivalence class lists a set of characters that should be considered equivalent, such as e and è. It consists of a named element from the locale, bracketed by [= and =].
+
+
+
+
+
+All three of these constructs must appear inside the square brackets of a bracket expression. For example, [[:alpha:]!] matches any single alphabetic character or the exclamation point, [[.ch.]] matches the collating element ch, but does not match just the letter c or the letter h. In a French locale, [[=e=]] might match any of e, è, or é. Classes and matching characters are shown in Table 6-1.
+
+Table 6-1. POSIX character classes
+
+ClassMatching characters
+
+[:alnum:] Alphanumeric characters
+
+[:alpha:] Alphabetic characters
+
+[:blank:] Space and tab characters
+
+[:cntrl:] Control characters
+
+[:digit:] Numeric characters
+
+[:graph:] Printable and visible (nonspace) characters
+
+[:lower:] Lowercase characters
+
+[:print:] Printable characters (includes whitespace)
+
+[:punct:] Punctuation characters
+
+[:space:] Whitespace characters
+
+[:upper:] Uppercase characters
+
+[:xdigit:] Hexadecimal digits
+
+
+
+
+
+vi on HP-UX 9.x (and newer) systems support POSIX bracket expressions, as does /usr/xpg4/bin/vi on Solaris (but not /usr/bin/vi). This facility is also available in nvi, elvis, Vim, and vile. Current GNU/Linux systems, in particular, are sensitive to the locale chosen at installation time, and you can expect to get reasonable results, particularly when trying to match only lowercase or uppercase letters, just by using the POSIX bracket expressions.
+
+
+
+
+
+Metacharacters Used in Replacement Strings
+
+
+
+
+
+When you make global replacements, the regular expression metacharacters discussed earlier carry their special meanings only within the search portion (the first part) of the command.
+
+For example, when you type this:
+
+:%s/1\. Start/2. Next, start with $100/
+
+note that the replacement string treats the characters . and $ literally, without your having to escape them. By the same token, let’s say you enter:
+
+:%s/[ABC]/[abc]/g
+
+If you’re hoping to replace A with a, B with b, and C with c, you’ll be surprised. Since brackets behave like ordinary characters in a replacement string, this command will change every occurrence of A, B, or C to the five-character string [abc].
+
+To solve problems like this, you need a way to specify variable replacement strings. Fortunately, there are additional metacharacters that have special meaning in a replacement string.
+
+\ n
+
+Is replaced with the text matched by the nth pattern previously saved by \( and \), where n is a number from 1 to 9, and previously saved patterns (kept in hold buffers) are counted from the left on the line. See the explanation for \( and \) in the earlier section Metacharacters Used in Search Patterns.
+
+
+
+\
+
+Treats the following special character as an ordinary character. Backslashes are metacharacters in replacement strings as well as in search patterns. To specify a real backslash, type two in a row (\\).
+
+
+
+&
+
+Is replaced with the entire text matched by the search pattern when used in a replacement string. This is useful when you want to avoid retyping text:
+
+:%s/Yazstremski/&, Carl/
+
+The replacement will say Yazstremski, Carl. The & can also replace a variable pattern (as specified by a regular expression). For example, to surround each line from 1 to 10 with parentheses, type:
+
+:1,10s/.*/(&)/
+
+The search pattern matches the whole line, and the & “replays” the line, included within your text.
+
+
+
+~
+
+Has a similar meaning as when it is used in a search pattern: the string found is replaced with the replacement text specified in the last substitute command. This is useful for repeating an edit. For example, you could say :s/thier/their/ on one line and repeat the change on another with :s/thier/~/. The search pattern doesn’t need to be the same, though.
+
+For example, you could say :s/his/their/ on one line and repeat the replacement on another with :s/her/~/.[25]
+
+
+
+\u or \l
+
+Causes the next character in the replacement string to be changed to uppercase or lowercase, respectively. For example, to change yes, doctor into Yes, Doctor, you could say:
+
+:%s/yes, doctor/\uyes, \udoctor/
+
+This is a pointless example, though, since it’s easier just to type the replacement string with initial caps in the first place. As with any regular expression, \u and \l are most useful with a variable string. Take, for example, the command we used earlier:
+
+:%s/\(That\) or \(this\)/\2 or \1/
+
+The result is this or That, but we need to adjust the cases. We’ll use \u to uppercase the first letter in this (currently saved in hold buffer 2); we’ll use \l to lowercase the first letter in That (currently saved in hold buffer 1):
+
+:s/\(That\) or \(this\)/\u\2 or \l\1/
+
+The result is This or that. (Don’t confuse the number one with the lowercase l; the one comes after.)
+
+
+
+\U or \L and \e or \E
+
+\U and \L are similar to \u or \l, but all following characters are converted to uppercase or lowercase until the end of the replacement string or until \e or \E is reached. If there is no \e or \E, all characters of the replacement text are affected by the \U or \L. For example, to uppercase Fortran, you could say:
+
+:%s/Fortran/\UFortran/
+
+or, using the & character to repeat the search string:
+
+:%s/Fortran/\U&/
+
+
+
+
+
+All pattern searches are case-sensitive. That is, a search for the will not find The. You can get around this by specifying both uppercase and lowercase in the pattern:
+
+/[Tt]he
+
+You can also instruct vi to ignore case by typing :setic. See Chapter 7 for additional details.
+
+
+
+
+
+More Substitution Tricks
+
+
+
+
+
+You should know some additional important facts about the substitute command:
+
+A simple :s is the same as :s//~/. In other words, repeat the last substitution. This can save enormous amounts of time and typing when you are working your way through a document making the same change repeatedly but you don’t want to use a global substitution.
+
+
+
+If you think of the & as meaning “the same thing” (as in, what was just matched), this command is relatively mnemonic. You can follow the & with a g, to make the substitution globally on the line, and even use it with a line range:
+
+:%&gRepeat the last substitution everywhere
+
+
+
+The & key can be used as a vi command to perform the :& command, i.e., to repeat the last substitution. This can save even more typing than :s ENTER—one keystroke versus three.
+
+
+
+The :~ command is similar to the :& command but with a subtle difference. The search pattern used is the last regular expression used in any command, not necessarily the one used in the last substitute command.
+
+For example,[26] in the sequence:
+
+:s/red/blue/ :/green :~
+
+the :~ is equivalent to :s/green/blue/.
+
+
+
+Besides the / character, you may use any nonalphanumeric, nonwhitespace character as your delimiter, except backslash, double quotes, and the vertical bar (\, ", and |). This is particularly handy when you have to make a change to a pathname.
+
+:%s;/user1/tim;/home/tim;g
+
+
+
+When the edcompatible option is enabled, vi remembers the flags (g for global and c for confirmation) used on the last substitution and applies them to the next one.
+
+This is most useful when you are moving through a file and you wish to make global substitutions. You can make the first change:
+
+:s/old/new/g :set edcompatible
+
+and after that, subsequent substitute commands will be global.
+
+Despite the name, no known version of Unix ed actually works this way.
+
+
+
+
+
+* * *
+
+
+
+[21] Much more information on regular expressions can be found in the two O’Reilly books sed & awk, by Dale Dougherty and Arnold Robbins, and Mastering Regular Expressions, by Jeffrey E.F. Friedl.
+
+
+
+[22] Technically speaking, we should probably call these metasequences, since sometimes two characters together have special meaning, and not just single characters. Nevertheless, the term metacharacters is in common use in Unix literature, so we follow that convention here.
+
+
+
+[23] This works with vi, nvi, and Vim, but not with elvis or vile.
+
+
+
+[24] This is a rather flaky feature of the original vi. After using it, the saved search pattern is set to the new text typed after the ~, not the combined new pattern, as one might expect. Also, none of the clones behave this way. So, while this feature exists, it has little to recommend its use.
+
+
+
+[25] Modern versions of the ed editor use % as the sole character in the replacement text to mean “the replacement text of the last substitute command.”
+
+
+
+[26] Thanks to Keith Bostic, in the nvi documentation, for this example.
+
+
+
+
+
+Pattern-Matching Examples
+
+
+
+
+
+Unless you are already familiar with regular expressions, the preceding discussion of special characters probably looks forbiddingly complex. A few more examples should make things clearer. In the examples that follow, a square (□) is used to mark a space; it is not a special character.
+
+Let’s work through how you might use some special characters in a replacement. Suppose that you have a long file and that you want to substitute the word child with the word children throughout that file. You first save the edited buffer with :w, then try the global replacement:
+
+:%s/child/children/g
+
+When you continue editing, you notice occurrences of words such as childrenish. You have unintentionally matched the word childish. Returning to the last saved buffer with :e!, you now try:
+
+:%s/child□/children□/g
+
+(Note that there is a space after child.) But this command misses the occurrences child., child,, child: and so on. After some thought, you remember that brackets allow you to specify one character from among a list, so you realize a solution:
+
+:%s/child[□,.;:!?]/children[□,.;:!?]/g
+
+This searches for child followed by either a space (indicated by □) or any one of the punctuation characters ,.;:!?. You expect to replace this with children followed by the corresponding space or punctuation mark, but you’ve ended up with a bunch of punctuation marks after every occurrence of children. You need to save the space and punctuation marks inside a \( and \). Then you can “replay” them with a \1. Here’s the next attempt:
+
+:%s/child\([□,.;:!?]\)/children\1/g
+
+When the search matches a character inside the \( and \), the \1 on the righthand side restores the same character. The syntax may seem awfully complicated, but this command sequence can save you a lot of work. Any time you spend learning regular expression syntax will be repaid a thousandfold!
+
+The command is still not perfect, though. You’ve noticed that occurrences of Fairchild have been changed, so you need a way to match child when it isn’t part of another word.
+
+As it turns out, vi (but not all other programs that use regular expressions) has a special syntax for saying “only if the pattern is a complete word.” The character sequence \< requires the pattern to match at the beginning of a word, whereas \> requires the pattern to match at the end of a word. Using both will restrict the match to a whole word. So, in the example task, \<child\> will find all instances of the word child, whether followed by punctuation or spaces. Here’s the substitution command you should use:
+
+:%s/\<child\>/children/g
+
+
+
+
+
+Search for General Class of Words
+
+
+
+
+
+Suppose your subroutine names begin with the prefixes mgi, mgr, and mga:
+
+mgibox routine, mgrbox routine, mgabox routine,
+
+
+
+If you want to save the prefixes, but want to change the name box to square, either of the following replacement commands will do the trick. The first example illustrates how \( and \) can be used to save whatever pattern was actually matched. The second example shows how you can search for one pattern but change another:
+
+:g/mg\([ira]\)box/s//mg\1square/g
+
+mgisquare routine, mgrsquare routine, mgasquare routine,
+
+The global replacement keeps track of whether an i, r, or a is saved. In that way, box is changed to square only when box is part of the routine’s name.
+
+:g/mg[ira]box/s/box/square/g
+
+mgisquare routine, mgrsquare routine, mgasquare routine,
+
+This has the same effect as the previous command, but it is a little less safe since it could change other instances of box on the same line, not just those within the routine names.
+
+
+
+
+
+Block Move by Patterns
+
+
+
+
+
+You can also move blocks of text delimited by patterns. For example, assume you have a 150-page reference manual written in troff. Each page is organized into three paragraphs with the same three headings: SYNTAX, DESCRIPTION, and PARAMETERS. A sample of one reference page follows:
+
+.Rh 0 "Get status of named file" "STAT" .Rh "SYNTAX" .nf integer*4 stat, retval integer*4 status(11) character*123 filename ... retval = stat (filename, status) .fi .Rh "DESCRIPTION" Writes the fields of a system data structure into the status array. These fields contain (among other things) information about the file's location, access privileges, owner, and time of last modification. .Rh "PARAMETERS" .IP "\fBfilename\fR" 15n A character string variable or constant containing the Unix pathname for the file whose status you want to retrieve. You can give the ...
+
+Suppose that you decide to move DESCRIPTION above the SYNTAX paragraph. With pattern matching, you can move blocks of text on all 150 pages with one command!
+
+:g /SYNTAX/.,/DESCRIPTION/-1 move /PARAMETERS/-1
+
+This command works as follows. First, ex finds and marks each line that matches the first pattern (i.e., that contains the word SYNTAX). Second, for each marked line, it sets . (dot, the current line) to that line, and executes the command. Using the move command, the command moves the block of lines from the current line (dot) to the line before the one containing the word DESCRIPTION (/DESCRIPTION/-1) to just before the line containing PARAMETERS (/PARAMETERS/-1).
+
+Note that ex can place text only below the line specified. To tell ex to place text above a line, you first subtract one with -1, and then ex places your text below the previous line. In a case like this, one command saves literally hours of work. (This is a real-life example—we once used a pattern match like this to rearrange a reference manual containing hundreds of pages.)
+
+Block definition by patterns can be used equally well with other ex commands. For example, if you wanted to delete all DESCRIPTION paragraphs in the reference chapter, you could enter:
+
+:g/DESCRIPTION/,/PARAMETERS/-1d
+
+This very powerful kind of change is implicit in ex’s line addressing syntax, but it is not readily apparent even to experienced users. For this reason, whenever you are faced with a complex, repetitive editing task, take the time to analyze the problem and find out if you can apply pattern-matching tools to get the job done.
+
+
+
+
+
+More Examples
+
+
+
+
+
+Since the best way to learn pattern matching is by example, here is a list of pattern-matching examples, with explanations. Study the syntax carefully, so that you understand the principles at work. You should then be able to adapt these examples to your own situation:
+
+Put troff italicization codes around the word ENTER:
+
+:%s/ENTER/\\fI&\\fP/g
+
+Notice that two backslashes (\\) are needed in the replacement, because the backslash in the troff italicization code will be interpreted as a special character. (\fI alone would be interpreted as fI; you must type \\fI to get \fI.)
+
+
+
+Modify a list of pathnames in a file:
+
+:%s/\/home\/tim/\/home\/linda/g
+
+A slash (used as a delimiter in the global replacement sequence) must be escaped with a backslash when it is part of the pattern or replacement; use \/ to get /. An alternate way to achieve this same effect is to use a different character as the pattern delimiter. For example, you could make the previous replacement using colons as delimiters. (The delimiter colons and the ex command colon are separate entities.) Thus:
+
+:%s:/home/tim:/home/linda:g
+
+This is much more readable.
+
+
+
+Put HTML italicization codes around the word ENTER:
+
+:%s:ENTER:<I>&</I>:g
+
+Notice here the use of & to represent the text that was actually matched, and, as just described, the use of colons as delimiters instead of slashes.
+
+
+
+Change all periods to semicolons in lines 1 to 10:
+
+:1,10s/\./;/g
+
+A dot has special meaning in regular expression syntax and must be escaped with a backslash (\.).
+
+
+
+Change all occurrences of the word help (or Help) to HELP:
+
+:%s/[Hh]elp/HELP/g
+
+or:
+
+:%s/[Hh]elp/\U&/g
+
+The \U changes the pattern that follows to all uppercase. The pattern that follows is the repeated search pattern, which is either help or Help.
+
+
+
+Replace one or more spaces with a single space:
+
+:%s/□□*/□/g
+
+Make sure you understand how the asterisk works as a special character. An asterisk following any character (or following any regular expression that matches a single character, such as . or [[:lower:]]) matches zero or more instances of that character. Therefore, you must specify two spaces followed by an asterisk to match one or more spaces (one space, plus zero or more spaces).
+
+
+
+Replace one or more spaces following a colon with two spaces:
+
+:%s/:□□*/:□□/g
+
+
+
+Replace one or more spaces following a period or a colon with two spaces:
+
+:%s/\([:.]\)□□*/\1□□/g
+
+Either of the two characters within brackets can be matched. This character is saved into a hold buffer, using \( and \), and restored on the righthand side by the \1. Note that within brackets a special character such as a dot does not need to be escaped.
+
+
+
+Standardize various uses of a word or heading:
+
+:%s/^Note[□:s]*/Notes:□/g
+
+The brackets enclose three characters: a space, a colon, and the letter s. Therefore, the pattern Note[□s:] will match Note□, Notes, or Note:. An asterisk is added to the pattern so that it also matches Note (with zero spaces after it) and Notes: (the already correct spelling). Without the asterisk, Note would be missed entirely and Notes: would be incorrectly changed to Notes:□:.
+
+
+
+Delete all blank lines:
+
+:g/^$/d
+
+What you are actually matching here is the beginning of the line (^) followed by the end of the line ($), with nothing in between.
+
+
+
+Delete all blank lines, plus any lines that contain only whitespace:
+
+:g/^[□tab]*$/d
+
+(In the example, a tab is shown as tab.) A line may appear to be blank, but may in fact contain spaces or tabs. The previous example will not delete such a line. This example, like the previous one, searches for the beginning and end of the line. But instead of having nothing in between, the pattern tries to find any number of spaces or tabs. If no spaces or tabs are matched, the line is blank. To delete lines that contain whitespace but that aren’t empty, you would have to match lines with at least one space or tab:
+
+:g/^[□tab][□tab]*$/d
+
+
+
+Delete all leading spaces on every line:
+
+:%s/^□□*\(.*\)/\1/
+
+Use ^□□* to search for one or more spaces at the beginning of each line; then use \(.*\) to save the rest of the line into the first hold buffer. Restore the line without leading spaces, using \1.
+
+
+
+Delete all spaces at the end of every line:
+
+:%s/\(.*\)□□*$/\1/
+
+For each line, use \(.*\) to save all the text on the line, but only up until one or more spaces at the end of the line. Restore the saved text without the spaces.
+
+The substitutions in this example and the previous one will happen only once on any given line, so the g option doesn’t need to follow the replacement string.
+
+
+
+Insert a >□□ at the start of every line in a file:
+
+:%s/^/>□□/
+
+What we’re really doing here is “replacing” the start of the line with >□□. Of course, the start of the line (being a logical construct, not an actual character) isn’t really replaced!
+
+This command is useful when replying to mail or Usenet news postings. Frequently, it is desirable to include part of the original message in your reply. By convention, the inclusion is distinguished from your reply by setting off the included text with a right angle bracket and a couple of spaces at the start of the line. This can be done easily, as shown in the example. (Typically, only part of the original message will be included. Unneeded text can be deleted either before or after the replacement.) Advanced mail systems do this automatically. However, if you’re using vi to edit your mail, you can do it with this command.
+
+
+
+Add a period to the end of the next six lines:
+
+:.,+5s/$/./
+
+The line address indicates the current line plus five lines. The $ indicates the end of line. As in the previous example, the $ is a logical construct. You aren’t really replacing the end of the line.
+
+
+
+Reverse the order of all hyphen-separated items in a list:
+
+:%s/\(.*\)□-□\(.*\)/\2□-□\1/
+
+Use \(.*\) to save text on the line into the first hold buffer, but only until you find □-□. Then use \(.*\) to save the rest of the line into the second hold buffer. Restore the saved portions of the line, reversing the order of the two hold buffers. The effect of this command on several items is shown here:
+
+more - display files
+
+becomes:
+
+display files - more
+
+and:
+
+lp - print files
+
+becomes:
+
+print files - lp
+
+
+
+Change every letter in a file to uppercase:
+
+:%s/.*/\U&/
+
+or:
+
+:%s/./\U&/g
+
+The \U flag at the start of the replacement string tells vi to change the replacement to uppercase. The & character replays the text matched by the search pattern as the replacement. These two commands are equivalent; however, the first form is considerably faster, since it results in only one substitution per line (.* matches the entire line, once per line), whereas the second form results in repeated substitutions on each line (. matches only a single character, with the replacement repeated on account of the trailing g).
+
+
+
+Reverse the order of lines in a file:[27]
+
+:g/.*/mo0
+
+The search pattern matches all lines (a line contains zero or more characters). Each line is moved, one by one, to the top of the file (that is, moved after imaginary line 0). As each matched line is placed at the top, it pushes the previously moved lines down, one by one, until the last line is on top. Since all lines have a beginning, the same result can be achieved more succinctly:
+
+:g/^/mo0
+
+
+
+In a text-file database, on all lines not marked Paid in full, append the phrase Overdue:
+
+:g!/Paid in full/s/$/ Overdue/
+
+or the equivalent:
+
+:v/Paid in full/s/$/ Overdue/
+
+To affect all lines except those matching your pattern, add a ! to the g command, or simply use the v command.
+
+
+
+For any line that doesn’t begin with a number, move the line to the end of the file:
+
+:g!/^[[:digit:]]/m$
+
+or:
+
+:g/^[^[:digit:]]/m$
+
+As the first character within brackets, a caret negates the sense, so the two commands have the same effect. The first one says, “Don’t match lines that begin with a number,” and the second one says, “Match lines that don’t begin with a number.”
+
+
+
+Change manually numbered section heads (e.g., 1.1, 1.2, etc.) to a troff macro (e.g., .Ah for an A-level heading):
+
+:%s/^[1-9]\.[1-9]/.Ah/
+
+The search string matches a digit other than zero, followed by a period, followed by another nonzero digit. Notice that the period doesn’t need to be escaped in the replacement (though a \ would have no effect, either). The command just shown won’t find chapter numbers containing two or more digits. To do so, modify the command like this:
+
+:%s/^[1-9][0-9]*\.[1-9]/.Ah/
+
+Now it will match chapters 10 to 99 (digits 1 to 9, followed by a digit), 100 to 999 (digits 1 to 9, followed by two digits), etc. The command still finds chapters 1 to 9 (digits 1 to 9, followed by no digit).
+
+
+
+Remove numbering from section headings in a document. You want to change the sample lines:
+
+2.1 Introduction 10.3.8 New Functions
+
+into the lines:
+
+Introduction New Functions
+
+Here’s the command to do this:
+
+:%s/^[1-9][0-9]*\.[1-9][0-9.]*□//
+
+The search pattern resembles the one in the previous example, but now the numbers vary in length. At a minimum, the headings contain number, period, number, so you start with the search pattern from the previous example:
+
+[1-9][0-9]*\.[1-9]
+
+But in this example, the heading may continue with any number of digits or periods:
+
+[0-9.]*
+
+
+
+Change the word Fortran to the phrase FORTRAN (acronym of FORmula TRANslation):
+
+:%s/\(For\)\(tran\)/\U\1\2\E□(acronym□of□\U\1\Emula□\U\2\Eslation)/g
+
+First, since we notice that the words FORmula and TRANslation use portions of the original words, we decide to save the search pattern in two pieces: \(For\) and \(tran\). The first time we restore it, we use both pieces together, converting all characters to uppercase: \U\1\2. Next, we undo the uppercase with \E; otherwise, the remaining replacement text would all be uppercase. The replacement continues with actual typed words, and then we restore the first hold buffer. This buffer still contains For, so again we convert to uppercase first: \U\1. Immediately after, we lowercase the rest of the word: \Emula. Finally, we restore the second hold buffer. This contains tran, so we precede the “replay” with uppercase, follow it with lowercase, and type out the rest of the word: \U\2\Eslation).
+
+
+
+
+
+* * *
+
+
+
+[27] From an article by Walter Zintz in Unix World, May 1990.
+
+
+
+
+
+A Final Look at Pattern Matching
+
+
+
+
+
+We conclude this chapter by presenting sample tasks that involve complex pattern-matching concepts. Rather than solve the problems right away, we’ll work toward the solutions step by step.
+
+
+
+
+
+Deleting an Unknown Block of Text
+
+
+
+
+
+Suppose you have a few lines with this general form:
+
+the best of times; the worst of times: moving The coolest of times; the worst of times: moving
+
+The lines that you’re concerned with always end with moving, but you never know what the first two words might be. You want to change any line that ends with moving to read:
+
+The greatest of times; the worst of times: moving
+
+Since the changes must occur on certain lines, you need to specify a context-sensitive global replacement. Using :g/moving$/ will match lines that end with moving. Next, you realize that your search pattern could be any number of any character, so the metacharacters .* come to mind. But these will match the whole line unless you somehow restrict the match. Here’s your first attempt:
+
+:g/moving$/s/.*of/The□greatest□of/
+
+This search string, you decide, will match from the beginning of the line to the first of. Since you needed to specify the word of to restrict the search, you simply repeat it in the replacement. Here’s the resulting line:
+
+The greatest of times: moving
+
+Something went wrong. The replacement gobbled the line up to the second of instead of the first. Here’s why: when given a choice, the action of “match any number of any character” will match as much text as possible. In this case, since the word of appears twice, your search string finds:
+
+the best of times; the worst of
+
+rather than:
+
+the best of
+
+Your search pattern needs to be more restrictive:
+
+:g/moving$/s/.*of times;/The greatest of times;/
+
+Now the .* will match all characters up to the instance of the phrase of times;. Since there’s only one instance, it has to be the first.
+
+There are cases, though, when it is inconvenient, or even incorrect, to use the .* metacharacters. For example, you might find yourself typing many words to restrict your search pattern, or you might be unable to restrict the pattern by specific words (if the text in the lines varies widely). The next section presents such a case.
+
+
+
+
+
+Switching Items in a Textual Database
+
+
+
+
+
+Suppose you want to switch the order of all last names and first names in a (text) database. The lines look like this:
+
+Name: Feld, Ray; Areas: PC, Unix; Phone: 123-4567 Name: Joy, Susan S.; Areas: Graphics; Phone: 999-3333
+
+The name of each field ends with a colon, and each field is separated by a semicolon. Using the top line as an example, you want to change Feld, Ray to Ray Feld. We’ll present some commands that look promising but don’t work. After each command, we show you the line the way it looked before the change and after the change.
+
+:%s/: \(.*\), \(.*\);/: \2 \1;/ Name:Feld, Ray; Areas: PC, Unix; Phone: 123-4567 Before Name: Unix Feld, Ray; Areas: PC; Phone: 123-4567After
+
+We’ve highlighted the contents of the first hold buffer in bold and the contents of the second hold buffer in italic. Note that the first hold buffer contains more than you want. Since it was not sufficiently restricted by the pattern that follows it, the hold buffer was able to save up to the second comma. Now you try to restrict the contents of the first hold buffer:
+
+:%s/: \(....\), \(.*\);/: \2 \1;/ Name:Feld, Ray; Areas: PC, Unix; Phone: 123-4567 Before Name: Ray; Areas: PC, Unix Feld; Phone: 123-4567After
+
+Here you’ve managed to save the last name in the first hold buffer, but now the second hold buffer will save anything up to the last semicolon on the line. Now you restrict the second hold buffer, too:
+
+:%s/: \(....\), \(...\);/: \2 \1;/ Name:Feld, Ray; Areas: PC, Unix; Phone: 123-4567 Before Name: Ray Feld; Areas: PC, Unix; Phone: 123-4567After
+
+This gives you what you want, but only in the specific case of a four-letter last name and a three-letter first name. (The previous attempt included the same mistake.) Why not just return to the first attempt, but this time be more selective about the end of the search pattern?
+
+:%s/: \(.*\), \(.*\); Area/: \2 \1; Area/ Name:Feld, Ray; Areas: PC, Unix; Phone: 123-4567 Before Name: Ray Feld; Areas: PC, Unix; Phone: 123-4567After
+
+This works, but we’ll continue the discussion by introducing an additional concern. Suppose that the Area field isn’t always present or isn’t always the second field. The command just shown won’t work on such lines.
+
+We introduce this problem to make a point. Whenever you rethink a pattern match, it’s usually better to work toward refining the variables (the metacharacters), rather than using specific text to restrict patterns. The more variables you use in your patterns, the more powerful your commands will be.
+
+In the current example, think again about the patterns you want to switch. Each word starts with an uppercase letter and is followed by any number of lowercase letters, so you can match the names like this:
+
+[[:upper:]][[:lower:]]*
+
+A last name might also have more than one uppercase letter (McFly, for example), so you’d want to search for this possibility in the second and succeeding letters:
+
+[[:upper:]][[:alpha:]]*
+
+It doesn’t hurt to use this for the first name, too (you never know when McGeorge Bundy will turn up). Your command now becomes:
+
+:%s/: \([[:upper:]][[:alpha:]]*\), \([[:upper:]][[:alpha:]]*\);/: \2 \1;/
+
+Quite forbidding, isn’t it? It still doesn’t cover the case of a name like Joy, Susan S. Since the first-name field might include a middle initial, you need to add a space and a period within the second pair of brackets. But enough is enough. Sometimes, specifying exactly what you want is more difficult than specifying what you don’t want. In your sample database, the last names end with a comma, so a last-name field can be thought of as a string of characters that are not commas:
+
+[^,]*
+
+This pattern matches characters up until the first comma. Similarly, the first-name field is a string of characters that are not semicolons:
+
+[^;]*
+
+Putting these more efficient patterns back into your previous command, you get:
+
+:%s/: \([^,]*\), \([^;]*\);/: \2 \1;/
+
+The same command could also be entered as a context-sensitive replacement. If all lines begin with Name, you can say:
+
+:g/^Name/s/: \([^,]*\), \([^;]*\);/: \2 \1;/
+
+You can also add an asterisk after the first space, in order to match a colon that has extra spaces (or no spaces) after it:
+
+:g/^Name/s/: *\([^,]*\), \([^;]*\);/: \2 \1;/
+
+
+
+
+
+Using :g to Repeat a Command
+
+
+
+
+
+In the usual way we’ve seen the :g command used, it selects lines that are typically then edited by subsequent commands on the same line—for example, we select lines with g, and then make substitutions on them, or select them and delete them:
+
+:g/mg[ira]box/s/box/square/g :g/^$/d
+
+However, in his two-part tutorial in Unix World,[28] Walter Zintz makes an interesting point about the g command. This command selects lines, but the associated editing commands need not actually affect the lines that are selected.
+
+Instead, he demonstrates a technique by which you can repeat ex commands some arbitrary number of times. For example, suppose you want to place 10 copies of lines 12 through 17 of your file at the end of your current file. You could type:
+
+:1,10g/^/ 12,17t$
+
+This is a very unexpected use of g, but it works! The g command selects line 1, executes the specified t command, then goes on to line 2 to execute the next copy command. When line 10 is reached, ex will have made 10 copies.
+
+
+
+
+
+Collecting Lines
+
+
+
+
+
+Here’s another advanced g example, again building on suggestions provided in Zintz’s article. Suppose you’re editing a document that consists of several parts. Part 2 of this file is shown here, using ellipses to show omitted text and displaying line numbers for reference:
+
+301 Part 2 302 Capability Reference 303 .LP 304 Chapter 7 305 Introduction to the Capabilities306 This and the next three chapters ... 400 ... and a complete index at the end. 401 .LP 402 Chapter 8 403 Screen Dimensions 404 Before you can do anything useful 405 on the screen, you need to know ... 555 .LP 556 Chapter 9 557 Editing the Screen 558 This chapter discusses ... 821 .LP 822 Part 3: 823 Advanced Features 824 .LP 825 Chapter 10
+
+The chapter numbers appear on one line, their titles appear on the line below, and the chapter text (marked in bold for emphasis) begins on the line below that. The first thing you’d like to do is copy the beginning line of each chapter, sending it to an already existing file called begin.
+
+Here’s the command that does this:
+
+:g /^Chapter/ .+2w >> begin
+
+You must be at the top of your file before issuing this command. First, you search for Chapter at the start of a line, but then you want to run the command on the beginning line of each chapter—the second line below Chapter. Because a line beginning with Chapter is now selected as the current line, the line address .+2 will indicate the second line below it. The equivalent line addresses +2 or ++ work as well. You want to write these lines to an existing file named begin, so you issue the w command with the append operator >>.
+
+Suppose you want to send the beginnings of chapters that are only within Part 2. You need to restrict the lines selected by g, so you change your command to this:
+
+:/^Part 2/,/^Part 3/g /^Chapter/ .+2w >> begin
+
+Here, the g command selects the lines that begin with Chapter, but it searches only that portion of the file from a line starting with Part 2 through a line starting with Part 3. If you issue the command just shown, the last lines of the file begin will read as follows:
+
+This and the next three chapters ... Before you can do anything useful This chapter discusses ...
+
+These are the lines that begin Chapters 7, 8, and 9.
+
+In addition to the lines you’ve just sent, you’d like to copy chapter titles to the end of the document, in preparation for making a table of contents. You can use the vertical bar to tack on a second command after your first command, like so:
+
+:/^Part 2/,/^Part 3/g /^Chapter/ .+2w >> begin | +t$
+
+Remember that with any subsequent command, line addresses are relative to the previous command. The first command has marked lines (within Part 2) that start with Chapter, and the chapter titles appear on a line below such lines. Therefore, to access chapter titles in the second command, the line address is + (or the equivalents +1 or .+1). Then, use t$ to copy the chapter titles to the end of the file.
+
+As these examples illustrate, thought and experimentation may lead you to some unusual editing solutions. Don’t be afraid to try things. Just be sure to back up your file first! (Of course, with the infinite “undo” facilities in the clones, you may not even need to save a backup copy.)
+
+
+
+
+
+* * *
+
+
+
+[28] Part one, “vi Tips for Power Users,” appears in the April 1990 issue of UNIX World. Part two, “Using vi to Automate Complex Edits,” appears in the May 1990 issue. The examples presented are from Part 2.
+
+
+
+
+

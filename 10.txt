@@ -1,0 +1,789 @@
+Chapter 10. Major Vim Improvements over vi
+
+
+
+
+
+Vim’s improvements over vi are myriad, ranging from multiple color syntax definitions to full-blown scripting. If vi is excellent (it is), Vim is amazing. In this chapter we discuss how Vim fills in many features that users have complained were missing from vi. Some of these include:
+
+Built-in help
+
+
+
+Startup and initialization options
+
+
+
+New motion commands
+
+
+
+Extended regular expressions
+
+
+
+Extended undo
+
+
+
+Customizing the executable
+
+
+
+
+
+Built-in Help
+
+
+
+
+
+As mentioned in the previous chapter, Vim comes with more than 100,000 lines of documentation. Almost all of this is immediately available to you from Vim’s built-in help facility. In its simplest form, you invoke the :help command. (This is interesting because it exposes users to their first example of Vim’s multiple window editing.)
+
+While this is nice, it presents a bit of a chicken-and-egg conundrum because the built-in help requires a modicum of understanding of vi navigation techniques; for it to be really effective, users must know how to jump back and forth in tags. We’ll give an overview of help screen navigation here.
+
+The :help command brings up something similar to:
+
+*help.txt* For Vim version 7.0. Last change: 2006 May 07 VIM - main help file k Move around: Use the cursor keys, or "h" to go left, h l "j" to go down, "k" to go up, "l" to go right. j Close this window: Use ":q[Enter]". Get out of Vim: Use ":qa![Enter]" (careful, all changes are lost!). Jump to a subject: Position the cursor on a tag (e.g. |bars|) and hit CTRL-]. With the mouse: ":set mouse=a" to enable the mouse (in xterm or GUI). Double-click the left mouse button on a tag, e.g. |bars|. Jump back: Type CTRL-T or CTRL-O (repeat to go further back). Get specific help: It is possible to go directly to whatever you want help on, by giving an argument to the |:help| command. It is possible to further specify the context: *help-context* WHAT PREPEND EXAMPLE ~ Normal mode command (nothing) :help x
+
+Thankfully, Vim accommodates the potential navigation problem for beginners and considerately opens with basic guidelines for navigation, and even tells you how to exit the help screen. We recommend this as a starting point and urge you to spend time exploring the help.
+
+Once you are familiar with help, you can branch out by using tab completion in Vim’s command line. For any command at the command prompt (:), pressing the Tab key results in context-sensitive command-line completion. For example, the following:
+
+:e /etc/termc[TAB]
+
+on any Unix system would expand to:
+
+:e /etc/termcap
+
+The :e command implies that the command argument is a file, so command completion looks for files that match the partial filename to complete the input.
+
+But :help has its own context, covering the help topics. The partial topic string you type is matched by a substring in any available Vim help topic. We strongly encourage you to learn and use this feature. It saves time and reveals new and interesting features you probably didn’t know about.
+
+For example, suppose you want to know how to split a screen. Start with:
+
+:help split
+
+and press the Tab key. In the current session, the help command cycles through: split(); :split; :split_f; splitview; splitfind; 'splitright'; 'splitbelow'; g:netrw_browse_split; :dsplit; :vsplit; :isplit; :diffsplit; +vertsplit; and more. To see help for any topic, press the ENTER key when that topic is highlighted. You’ll not only see what you’re probably looking for (:split), but you will also discover things you didn’t realize you could do, such as :vsplit, the “vertical split” command.
+
+
+
+
+
+Startup and Initialization Options
+
+
+
+
+
+Vim uses different mechanisms to set up its environment at startup. It inspects command-line options. It self-inspects (how was it invoked, and by what name?). There are different compiled binaries to serve different needs (GUI versus text window). Vim also uses a sequence of initialization files in which uncountable combinations of behaviors can be defined and modified. There are too many options to cover completely; we will touch on some of the interesting ones. In the next sections, we discuss Vim’s starting sequence along the following lines:
+
+Command-line options
+
+
+
+Behaviors associated to command name
+
+
+
+Configuration files (system-wide and per-user)
+
+
+
+Environment variables
+
+
+
+
+
+This section introduces you to some of the ways to start Vim. For a more detailed discussion of many more options, use the help command:
+
+:help startup
+
+
+
+
+
+Command-Line Options
+
+
+
+
+
+Vim’s command-line options provide flexibility and power. Some options invoke extra features, whereas others override and suppress default behavior. We will discuss the command-line syntax as it would be used in a typical Unix environment. Single-letter options begin with - (one hyphen), as in -b, which allows editing of binary files. Word-length options begin with -- (two hyphens), as in --noplugin, which overrides the default behavior of loading plugins. A command-line argument of two hyphens by themselves tells Vim that the rest of the command line contains no options (this is a standard Unix behavior).
+
+Following the command-line options, you can optionally list one or more filenames to be edited. (Actually, there is an interesting case where a filename can be a single “-”, telling Vim that input comes from the standard input, stdin. This will be covered later, but you are encouraged to look at uses for this on your own.)
+
+The following is a partial list of Vim command-line options not available in vi (all vi options are available in Vim):
+
+-b
+
+Edit in binary mode. This is self-explanatory and very cool. Editing binary files is an acquired taste, but this is a powerful way to edit files not touchable by most other tools. Users should read Vim’s help section on editing binary files.
+
+
+
+-c command
+
+command will be executed as an ex command. vi has this same option, but Vim allows up to 10 -c instances in one command.
+
+
+
+-C
+
+Run Vim in compatible (vi) mode. For obvious reasons, this option would never be in vi.
+
+
+
+-cmd command
+
+command executes before vimrc files. This is the long form of the -c option.
+
+
+
+-d
+
+Start in diff mode. Vim performs a diff on two, three, or four files and sets options making inspection of files differences simple (scrollbind, foldcolumn, etc.).
+
+Vim uses the OS-available diff command, which is diff on Unix systems. The Windows version offers a downloadable executable with which Vim can perform the diff.
+
+
+
+-E
+
+Start in improved ex mode. For example, improved ex mode would use extended regular expressions.
+
+
+
+-F or -A
+
+Farsi or Arabic modes, respectively. These require key and character maps to be useful and draw the screen from right to left.
+
+
+
+-g
+
+Start gvim (GUI).
+
+
+
+-m
+
+Turn off the write option. Buffers will not be modifiable.
+
+
+
+-o
+
+Open all files in a separate window. Optionally an integer can specify the number of windows to open. Files named on the command line fill that number of windows only (the rest are in Vim buffers). If the specified number of windows exceeds the listed files, Vim opens empty windows to satisfy the request count of windows.
+
+
+
+-O
+
+Like -o, but opens vertically split windows.
+
+
+
+-y
+
+Run Vim in easy mode. This sets options to a more intuitive behavior for beginners. While “easy” may help the uninitiated, seasoned users will find this mode confusing and irritating.
+
+
+
+-z
+
+Run in restricted mode. This basically turns off all external interfaces and prevents access to the system features. For example, users can’t use !G!sort to sort from the current line in the buffer to end-of-file; the filter sort will not be available.
+
+
+
+
+
+The following is a series of related options to use a remote instance of a server Vim. remote commands tell a remote Vim (which may or may not be executing on the same machine) to edit a file or evaluate an expression in that remote server. The server commands tell Vim which server to send to or can declare itself as a server. serverlist simply lists available servers:
+
+-remote file
+
+-remote-silent file
+
+-remote-wait file
+
+-remote-send file
+
+-servername name
+
+-remote-expr expr
+
+-remote-wait-silent file
+
+-remote-tab
+
+-remote-send keys
+
+-remote-wait-silent file
+
+-serverlist
+
+For a more complete discussion of all command-line options, including the complete vi set, refer to the section Command-Line Syntax.
+
+
+
+
+
+Behaviors Associated to Command Name
+
+
+
+
+
+Vim comes in two main flavors, graphical (using the X Window System under Unix variants and native GUIs in other operating systems) and text, each of which can start up with subsets of characteristics. Unix users simply use one of the commands in the following list to get the desired behavior:
+
+vim
+
+Start the text-based Vim.
+
+
+
+gvim
+
+Start Vim in graphical mode. In many environments, gvim is a different binary file of Vim with all of the GUI options turned on during compilation. Same as vim -g. (In Unix environments, gvim requires the X Window System.)
+
+
+
+view, gview
+
+Start Vim or gvim in read-only mode. Same as vim -R.
+
+
+
+rvim
+
+Start Vim in restrictive mode. All external access to shell commands is disabled, as well as the ability to suspend the edit session with the ^Z command.
+
+
+
+rgvim
+
+Same as rvim but for the graphical version.
+
+
+
+rview
+
+Analogous to view, but start in restricted mode. In restricted mode, users do not have access to filters, outside enviroments, or OS features. Same as vim -Z (the -R option invokes just the read-only effect described previously).
+
+
+
+rgview
+
+Same as rview but for the graphical version.
+
+
+
+evim, eview
+
+Use “easy” mode for editing or read-only viewing. Vim sets options and features so it behaves in a more intuitive way for those who are not familiar with the Vim paradigm. Same as vim -y. Expert users probably won’t find this mode easy because they’re already used to standard vi behavior.
+
+Note there is no analogous gXXX version of these commands, because gvim is ostensibly thought to be already easy, or at least intuitive to learn, with predictable point-and-click behavior.
+
+
+
+vimdiff, gvimdiff
+
+Start in “diff” mode and perform a diff on the input files. This is covered in depth later in the section What’s the Difference?.
+
+
+
+ex, gex
+
+Use the old line-editing ex mode. Useful in scripts. Same as vim -e.
+
+
+
+
+
+Windows users can access a similar choice of Vim versions in the program list (Start menu).
+
+
+
+
+
+System and User Configuration Files
+
+
+
+
+
+Vim looks for initialization cues in a special sequence. It executes the first set of instructions it finds (either in the form of an environment variable or in a file) and begins editing. So, the first element of the following list that is encountered is the only element of the list that is executed. The sequence follows:
+
+VIMINIT. This is an environment variable. If it is nonempty, Vim executes its content as an ex command.
+
+
+
+User vimrc files. The vimrc (Vim resource) initialization file is a cross-platform concept, but because of subtle operating system and platform differences, Vim looks for it in different places in the following order:
+
+$HOME/.vimrc (Unix, OS/2, and Mac OS X)
+
+s:.vimrc (Amiga)
+
+home:.vimrc (Amiga)
+
+$VIM/.vimrc (OS/2 and Amiga)
+
+$HOME/_vimrc (DOS and Windows)
+
+$VIM/_vimrc (DOS and Windows)
+
+
+
+exrc option. If the Vim exrc option is set, Vim looks for the three additional config files: [._]vimrc; [._]vimrc; and [._]exrc.
+
+
+
+
+
+The vimrc file is a good place to configure Vim’s editing characteristics. Virtually any Vim option can be set or unset in this file, and it is particularly suited to setting up global variables and defining functions, abbreviations, key mappings, etc. Here are a few things to know about the vimrc file:
+
+Comments begin with a double quote ("), and the double quote can be anywhere in the line. All text after and including the double quote is ignored.
+
+
+
+ex commands can be specified with or without a colon. For example, set autoindent is identical to :set autoindent.
+
+
+
+The file is much more manageable if you break large sets of option definitions into separate lines. For example:
+
+set terse sw=1 ai ic wm=15 sm nows ruler wc=<Tab> more
+
+is equivalent to:
+
+set terse " short error and info messages set shiftwidth=1 set autoindent set ignorecase set wrapmargin=15 set nowrapscan " don't scan past end or top of file in searches set ruler set wildchar=<TAB> set more
+
+Notice how much more readable the second set of commands is. The second method is also much easier to maintain through deletions, insertions, and temporarily commenting out lines when debugging settings in the configuration file. For example, should you want to temporarily disable line numbering in the startup configuration, you simply insert the double quote (") at the beginning of the set number line in your configuration file.
+
+
+
+
+
+Environment Variables
+
+
+
+
+
+Many environment variables affect Vim’s startup behavior and even some edit-session behavior. These are mostly transparent and handled with defaults if not configured.
+
+
+
+
+
+How to set environment variables
+
+
+
+
+
+The command environment you have when you log in (called the shell in Unix) sets variables to reflect or control its behavior. Environment variables are especially powerful because they affect programs invoked within the command environment. The following instructions are not specific to Vim; they can be used to set any environment variables you want set in the command environment.
+
+Windows
+
+To set an environment variable:
+
+Bring up the control panel.
+
+
+
+Double-click System.
+
+
+
+Click the Advanced tab.
+
+
+
+Click the Environment Variables button.
+
+
+
+
+
+The result is a window divided into two environment variable areas, User and System. Novices shouldn’t modify the System environment variables. In the User area, you can set environment variables related to Vim and make them persist across login sessions.
+
+
+
+Unix/Linux Bash and other Bourne shells
+
+Edit the appropriate shell configuration file (such as .bashrc for Bash users) and insert lines resembling:
+
+VARABC=somevalueVARXYZ=someothervalueMYVIMRC=myfavoritevimrcfile exportVARABCVARXYZMYVIMRC
+
+The order of these lines is irrelevant. The export statement just makes variables visible to programs that run in the shell, and thus turns them into environment variables. The value of exported variables can be set before or after exporting them.
+
+
+
+Unix/Linux C shells
+
+Edit the appropriate shell configuration file (such as .cshrc) and insert lines resembling the following:
+
+setenvVARABC somevalue setenv VARXYZ someothervalue setenvMYVIMRCmyfavoritevimrcfile
+
+
+
+
+
+Environment variables relevant to Vim
+
+
+
+
+
+The following list shows most of Vim’s environment variables and their effects.
+
+The Vim -u command-line option overrides Vim’s environment variables and goes directly to the specified initialization file. The -u does not override non-Vim environment variables:
+
+SHELL
+
+Specifies which shell or external command interpreter Vim uses for shell commands (!!, :!, etc.). In MS-DOS, if SHELL is not set, the COMSPEC environment variable is used instead.
+
+
+
+TERM
+
+Sets Vim’s internal term option. This is somewhat unnecessary, because the editor sets its terminal itself as it deems appropriate. In other words, Vim probably knows what the terminal is better than a predefined variable.
+
+
+
+MYVIMRC
+
+Overrides Vim’s search for initialization files. If MYVIMRC has a value when starting, Vim assumes the value is the name of an initialization file and, if the file exists, takes initial settings from it. No other file is consulted (see the search sequence in the previous section).
+
+
+
+VIMINIT
+
+Specifies ex commands to execute when Vim starts. Define multiple commands by separating them with vertical bars (|).
+
+
+
+EXINIT
+
+Same as VIMINIT.
+
+
+
+VIM
+
+Contains the path of a system directory where standard Vim installation information is found (for information only and not used by Vim).
+
+
+
+
+
+Note
+
+
+If more than one version of Vim exists on a machine, VIM will likely reflect different values depending upon which version the user started. For example, on one author’s machine, the Cygwin version sets the VIM environment variable to /usr/share/vim, whereas the vim.org package sets it to C:\Program Files\Vim.
+
+This is important to know if you are making changes to Vim files, as changes may not take effect if you edit the wrong files!
+
+
+
+
+
+VIMRUNTIME
+
+Points to Vim support files, such as online documentation, syntax definitions, and plug-in directories. Vim typically figures this out on its own. If the user sets the variable—for example, in the vimrc file—it can cause errors if a newer version of Vim is installed because the user’s personal VIMRUNTIME variable may point to an old, nonexistent, or invalid location.
+
+
+
+
+
+New Motion Commands
+
+
+
+
+
+Vim provides all vi movement or motion commands, most of which are listed in Chapter 3, and adds several others, summarized in Table 10-1.
+
+Table 10-1. Motion commands in Vim
+
+CommandDescription
+
+<C-End> Go to the end of the file, i.e., the last character of the last line of the file. If a count is given, go to the last character of the line count.
+
+<C-Home> Go to the first nonwhitespace character of the first line of the file. This differs from <C-End> because <C-Home> does not move the cursor to whitespace.
+
+count % Go to the line count percent into the file, putting the cursor on the first nonblank line. It’s important to note that Vim bases its calculation on the number of lines in the file, not the total character count. This may not seem important, but consider an example of a file containing 200 lines, of which the first 195 contain 5 characters (for example, prices such as $4.98), and the last four lines contain 1,000 characters. In Unix, accounting for the newline character, the file would contain approximately:
+
+(195 * (5 + 1)) (The number of characters in the first 5-character lines)
+
++ 2 + (4 * (1000 + 1)) (The number of characters in the 1,000-character lines)
+
+or 5,200 characters. A true 50% count would place the cursor on line 96, and Vim’s 50% motion command would place the cursor on line 100.
+
+
+
+:go n
+
+n go
+
+Go to the nth byte in the buffer. All characters, including end-of-line characters, are counted.
+
+
+
+
+
+Visual Mode Motion
+
+
+
+
+
+Vim lets users define selections visually and perform editing commands on the visual selection. This is similar to what many users see in graphical editors where they highlight areas by clicking and dragging the mouse. What Vim offers with its visual mode is the convenience of seeing the selection on which work is done and all of the powerful Vim commands with which to do work on the visually selected text. This lets you do much more sophisticated work on highlighted text than the traditional cut and paste actions in less sophisticated editors.
+
+You can select a visual area in Vim in the same manner as other editors, by clicking and dragging the mouse. But Vim also lets you use its powerful motion commands and some special visual mode commands to define the visual selection.
+
+For example, you can type v in normal mode to start visual mode. Once you are in visual mode, any motion commands move the cursor and highlight text as the cursor moves to a new position. So, the “next word” command (w) in visual mode moves the cursor to the next word and highlights the selected text. Additional movements extend the selected region appropriately.
+
+In visual mode, Vim uses some specialized commands with which you conveniently extend the selected text by selecting the text object around the cursor. For example, the cursor can be within a “word,” and at the same time be within a “sentence,” and also be within a “paragraph.” Vim lets you add to the visual selection with commands that extend the highlighted region to a text object. To visually select a word, you can use aw (when in visual mode).
+
+Vim uses the following motion commands by taking advantage of “visual mode,” which highlights lines and characters in the buffer in order to provide visual cues about what text will be targeted by subsequent Vim actions. You can highlight visual areas of the buffer in several ways. In text-based mode, simply type v to toggle visual mode on and off. When on, visual mode selects and highlights the buffer as the cursor moves. In gvim, just click and drag the mouse across the desired region. This sets Vim’s visual flag.
+
+Table 10-2 shows some of Vim’s visual mode motion commands.
+
+Table 10-2. Visual mode motion commands in Vim
+
+CommandDescription
+
+countaw, countaW Select count words. Intervening whitespace is included. This is slightly different from iw (see next entry). Lowercase w looks for punctuation-delimited words, whereas uppercase W looks for whitespace-delimited words.
+
+countiw, countiW Select count words. Add words but not whitespace. Lowercase w looks for punctuation-delimited words, whereas uppercase W looks for whitespace-delimited words.
+
+as, is Add sentence, or inner sentence.
+
+ap, ip Add paragraph, or inner paragraph.
+
+
+
+
+
+For a more detailed discussion of text objects and how they are used in visual mode, use the help command:
+
+:help text-objects
+
+
+
+
+
+Extended Regular Expressions
+
+
+
+
+
+Of all the clones, Vim provides the richest set of regular expression matching facilities. Much of the descriptive text in the following list is borrowed from the Vim documentation:
+
+\|
+
+Indicates alternation, house\|home.
+
+
+
+\+
+
+Matches one or more of the preceding regular expression.
+
+
+
+\=
+
+Matches zero or one of the preceding regular expression.
+
+
+
+\{ n , m }
+
+Matches n to m of the preceding regular expression, as much as possible. n and m are numbers between 0 and 32,000. Vim requires only the left brace to be preceded by a backslash, not the right brace.
+
+
+
+\{ n }
+
+Matches n of the preceding regular expression.
+
+
+
+\{ n ,}
+
+Matches at least n of the preceding regular expression, as much as possible.
+
+
+
+\{, m }
+
+Matches 0 to m of the preceding regular expression, as much as possible.
+
+
+
+\{}
+
+Matches 0 or more of the preceding regular expression, as much as possible (same as *).
+
+
+
+\{- n , m }
+
+Matches n to m of the preceding regular expression, as few as possible.
+
+
+
+\{- n }
+
+Matches n of the preceding regular expression.
+
+
+
+\{- n ,}
+
+Matches at least n of the preceding regular expression, as few as possible.
+
+
+
+\{-, m }
+
+Matches 0 to m of the preceding regular expression, as few as possible.
+
+
+
+\i
+
+Matches any identifier character, as defined by the isident option.
+
+
+
+\I
+
+Like \i, but excluding digits.
+
+
+
+\k
+
+Matches any keyword character, as defined by the iskeyword option.
+
+
+
+\K
+
+Like \k, but excluding digits.
+
+
+
+\f
+
+Matches any filename character, as defined by the isfname option.
+
+
+
+\F
+
+Like \f, but excluding digits.
+
+
+
+\p
+
+Matches any printable character, as defined by the isprint option.
+
+
+
+\P
+
+Like \p, but excluding digits.
+
+
+
+\s
+
+Matches a whitespace character (exactly a space or a tab).
+
+
+
+\S
+
+Matches anything that isn’t a space or a tab.
+
+
+
+\b
+
+Backspace.
+
+
+
+\e
+
+Escape.
+
+
+
+\r
+
+Carriage return.
+
+
+
+\t
+
+Tab.
+
+
+
+\n
+
+Reserved for future use. Eventually, it will be used for matching multiline patterns. See the Vim documentation for more details.
+
+
+
+~
+
+Matches the last given substitute (i.e., replacement) string.
+
+
+
+\(…\)
+
+Provides grouping for *, \+, and \=, as well as making matched subtexts available in the replacement part of a substitute command (\1, \2, etc.).
+
+
+
+\1
+
+Matches the same string that was matched by the first subexpression in \( and \). For example, \([a-z]\).\1 matches ata, ehe, tot, etc. \2, \3, and so on may be used to represent the second, third, and so on subexpressions.
+
+
+
+
+
+The isident, iskeyword, isfname, and isprint options define the characters that appear in identifiers, keywords, and filenames, and that are printable. Use of these options makes regular expression matching very flexible.
+
+
+
+
+
+Customizing the Executable
+
+
+
+
+
+For most users, the default Vim suffices nicely. Today’s computers provide enough processing power (memory and processing cycles) for the full-featured Vim executable. You get all of Vim’s extended features with the confidence of good performance. However, in some instances, environment or circumstance may dictate a more stripped down Vim.
+
+Users may need Vim to take up a minimal footprint, for example, on a handheld device running Linux that has limited memory. Users may also have no use for compiled-in features such as spellcheck (because they may be programmers with no interest in features that mimic word processing) or perl (because perl may not be installed on their machines).
+
+It’s much easier to live with the available features than to reconfigure, recompile, and reinstall Vim with all new options, just to add missing features.
+
+
+
+
+

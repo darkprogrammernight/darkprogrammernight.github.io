@@ -1,0 +1,831 @@
+Chapter 13. Graphical Vim (gvim)
+
+
+
+
+
+A longtime complaint about vi and its clones was the lack of a graphical user interface (GUI). Especially for those caught up in the Emacs versus vi religious wars, vi’s lack of a GUI was the ultimate trump card to argue that vi was a nonstarter when discussing editors.
+
+Eventually, the vi clones and “work-alikes” created their own GUI versions. Graphical Vim is called gvim. Like the other vi clones, gvim offers robust and extensible GUI functions and features. We’ll cover the most useful ones in this chapter.
+
+Some of gvim’s graphical functionality wraps commonly used Vim features, whereas others introduce the point-and-click convenience functionality most computer users now expect. Although some veteran Vim users (this author included!) may cringe at the thought of grafting a GUI onto their workhorse editor, gvim is thoughtfully conceived and implemented. gvim offers functionality and features spanning the range of its users’ abilities, softening Vim’s steep learning curve for beginners and transparently bringing expert users extra editing power. This strikes a nice compromise.
+
+
+
+
+
+Tip
+
+
+gvim for MS Windows comes with a menu entry labeled “easy gvim.” This is indeed valuable to people who have never used Vim, but, ironically, it is anything but easy for expert users.
+
+
+
+In this chapter we first discuss the general gvim GUI concepts and features, with a brief introductory section about mouse interaction. Additionally, we refine the discussion around differences and things you should know for different gvim environments. Specifically, we focus on MS Windows and the X Window System, the two main graphical platforms. We touch briefly on other platforms and guide you to appropriate resources for more complete information. We also provide a brief list of GUI options with synopses.
+
+
+
+
+
+General Introduction to gvim
+
+
+
+
+
+gvim brings all the functionality, power, and features of Vim while adding the convenience and intuitive nature of a GUI environment. From traditional menus to visual highlighting editing, gvim provides the GUI experience today’s users expect. For veteran, console-based, text-environment vi users, gvim still gives the familiar core power and doesn’t dumb down the paradigm that garnered vi its reputation as a power editor.
+
+
+
+
+
+Starting gvim
+
+
+
+
+
+When Vim is compiled with GUI support, you can invoke it by issuing a gvim command or a Vim command with an added -g option. On Windows, the self-installing executable adds one interesting feature that many discover only accidentally after installation: a new Windows Explorer menu item labeled “Edit with Vim.” This provides quick and easy access to gvim by integrating it into the Windows environment. It is worth trying on files you maybe wouldn’t have considered before, especially unusual files such as binaries. However, it is potentially dangerous to edit binary files, and we caution you to use extreme care when editing these files.
+
+The configuration files and options recognized by gvim are slightly different from those used by Vim. gvim reads and executes two startup files: .vimrc, followed by .gvimrc. Although you can put gvim-specific options and definitions in .vimrc, it’s better to define them in .gvimrc. This provides a nice separation of regular Vim and gvim customization. It also assures proper behavior on startup. For example, :set columns=100 isn’t valid in Vim and will generate an error when Vim is started.
+
+If a system gvimrc exists (usually in $VIM/gvimrc), it is executed. Administrators can use this system-wide configuration file to set common options for their users. This provides a baseline configuration so that users will share a common editing experience.
+
+More experienced Vim users can add their own favorite custom settings and features. After gvim reads the optional system configuration, it looks in four places for additional configuration information, in the following order, and stops searching after finding any one of these:
+
+An exrc command stored in the $GVIMINIT environment variable.
+
+
+
+A user’s gvimrc file, usually stored in $HOME/.gvimrc. If it is found, it is sourced.
+
+
+
+In a Windows environment, if $HOME is not set, gvim looks in $VIM/_gvimrc. (This is the normal situation for Windows users, but it’s an important distinction for users who have Unix work-alikes installed and are likely to have the $HOME variable set. One example would be the popular Cygwin suite of Unix tools.)
+
+
+
+If a _gvimrc isn’t found, gvim finally looks again for .gvimrc.
+
+
+
+
+
+If gvim finds a nonempty file to execute, that file’s name is stored in the $MYGVIMRC variable and further initialization stops.
+
+There is one more option for customization. If, in the cascading sequence of initialization just described, the option exrc is set:
+
+set exrc
+
+gvim will additionally look in the current directory for .gvimrc, .exrc, or .vimrc and source that file if it isn’t one of the previously listed files (i.e., it hasn’t already been discovered as an initialization file and already executed).
+
+
+
+
+
+Warning
+
+
+In a Unix environment, there are security issues around local directories containing configuration files (both .gvimrc and .vimrc files), and gvim defaults to enforcing some restrictions on what can be executed from these files by setting the secure option if the file is not owned by the user. This helps prevent malicious code from being malicious. If you want to be sure, set the secure option explicitly in your .vimrc or .gvimrc file.
+
+
+
+
+
+Using the Mouse
+
+
+
+
+
+The mouse in gvim does something useful in every editing mode. Let’s look at the standard Vim editing modes and how gvim treats the mouse in each:
+
+Command mode
+
+You enter this mode when you open the command buffer at the bottom of the window by typing a colon (:). If the window is in command mode, you can use the mouse to reposition the cursor anywhere in the command line. This is enabled by default or when you include the c flag in your mouse option.
+
+
+
+Insert mode
+
+This is the mode for entering text. If you click in a buffer that’s in insert mode, the mouse repositions the cursor and lets you immediately start entering text at that position. This mode is enabled by default or when you include the i flag in your mouse option.
+
+The mouse’s behavior in insert mode provides easy and intuitive point-and-click positioning. In particular, it bypasses the need to exit insert mode, navigate with the mouse, motion commands, or other methods, and then reenter insert mode.
+
+Superficially, this seems like a great idea, but in practice it will appeal to only a subset of users. It may be more annoying than helpful to experienced Vim users.
+
+Consider what happens when you are in insert mode and leave gvim for some other application. When you click back into the gvim window, the point you click is now the insertion point for text, and probably not the one you want. In a single-window gvim session, you could land in a different spot from where you were originally working; in a multiple-window gvim screen, you could end up with the mouse in a completely different window. You might end up entering text into the wrong file!
+
+
+
+Normal mode
+
+This includes any time you’re not in insert mode or on the command line. Clicking the mouse in the screen simply leaves the cursor on the character where you clicked. This mode is enabled by default or when you include the n flag in your mouse option.
+
+Normal mode provides a straightforward and easy method to position the cursor, but it offers only clunky support for moving beyond the top or bottom of the visible window. Click and hold the mouse and slide to the top or bottom of a window; gvim will scroll up and down correspondingly. If scrolling stops, move the mouse back and forth sideways to make it resume. (It’s not clear why normal mode acts this way.)
+
+Another drawback to normal mode is that users, especially beginners, can come to rely on point and click as the positioning method of choice. This can hold back their motivation to learn Vim’s navigation commands, and hence its power-editing methods. Finally, it creates the same potential confusion as insert mode.
+
+
+
+
+
+Additionally, gvim offers visual mode, also known as select mode. This mode is enabled by default, or when you include the v flag in your mouse option. Visual is the most versatile mode, because it lets you select text by dragging the mouse, which highlights the selection. It can be used in combination with command, insert, and normal modes.
+
+Any combination of flags can be specified in the mouse option. The syntax to use is illustrated by the following commands:
+
+:set mouse=""
+
+Disable all mouse behavior.
+
+
+
+:set mouse=a
+
+Enable all mouse behavior (the default).
+
+
+
+:set mouse+=v
+
+Enable visual mode (v). This example uses the += syntax to add a flag to the current mouse setting.
+
+
+
+:set mouse-=c
+
+Disable mouse behavior in command mode (c). This example uses the -= syntax to remove a flag from the current mouse setting.
+
+
+
+
+
+Beginners may prefer more “on” settings, whereas experts may turn the mouse off completely (as the author of this chapter does).
+
+If you use the mouse, we recommend choosing a familiar behavior through gvim’s :behave command, which accepts either mswin or xterm as an argument. As suggested by the names of the arguments, mswin will set options to closely mimic Windows behavior, whereas xterm mimics a window on the X Window System.
+
+Vim has a number of other mouse options, including mousefocus, mousehide, mousemodel, and selectmode. For more information, refer to the Vim built-in documentation for these options.
+
+If you have a mouse with a scroll wheel, gvim handles it well by default, scrolling the screen or window up and down predictably, regardless of how you set the mouse option.
+
+
+
+
+
+Useful Menus
+
+
+
+
+
+One nice touch gvim brings to the GUI environment is menu actions that simplify some of Vim’s more esoteric commands. There are two worth mentioning.
+
+
+
+
+
+gvim’s Window menu
+
+
+
+
+
+gvim’s Window menu contains many of the most useful and common Vim window management commands: commands that split a single GUI window into multiple display areas. You may find it worth “tearing off” this menu, as shown in Figure 13-1, so that you can conveniently open and bounce around among windows. The result is shown in Figure 13-2.
+
+
+
+
+
+Figure 13-1. gvim Window menu
+
+
+
+
+
+Figure 13-2. gvim Window menu, torn off and floating
+
+
+
+
+
+gvim’s right-click pop-up menu
+
+
+
+
+
+gvim pops up the menu shown in Figure 13-3 when you right-click within a buffer you’re editing.
+
+
+
+
+
+Figure 13-3. gvim general editing menu
+
+
+
+If any text is selected (highlighted), another menu pops up when you right-click, as shown in Figure 13-4.
+
+
+
+
+
+Figure 13-4. gvim editing menu when text is selected
+
+
+
+Notice how the menu in Figure 13-3 is moved and floats over completely unrelated application. This is a nice way to have an often-used menu conveniently available but out of the way of the editing. Both of these are handy for common select, cut, copy, delete, and paste operations. Users of other GUI editors employ this kind of feature all the time, but this is useful even for long-time Vim users. It is especially useful in that it interacts with the Windows clipboard in a predictable way.
+
+
+
+
+
+Customizing Scrollbars, Menus, and Toolbars
+
+
+
+
+
+gvim provides the usual GUI widgets, such as scrollbars, menus, and toolbars. Like most modern GUI applications, these widgets are customizable.
+
+The gvim window, by default, shows several menus and a toolbar at the top, as illustrated by Figure 13-5.
+
+
+
+
+
+Figure 13-5. Top of gvim window
+
+
+
+
+
+Scrollbars
+
+
+
+
+
+Scrollbars, which let you navigate up and down or right and left quickly through a file, are optional in gvim. You can display or hide them with the guioptions option, described at the end of this chapter in GUI Options and Command Synopsis.
+
+Because Vim’s standard behavior is to show all text in the file (wrapping lines in the window if necessary), it’s interesting to note that the horizontal scrollbar serves no purpose in typically configured gvim sessions.
+
+Turn the left and right scrollbars on and off by including or excluding r or l in the guioptions option. l makes sure the screen always has a left scrollbar, whereas r makes it always have a right scrollbar. The uppercase variants L and R tell gvim to show left or right scrollbars only when there is a vertically split window.
+
+The horizontal scrollbar is controlled by including or excluding b in the guioptions option.
+
+And yes, you can scroll the right and left scrollbars at the same time! More precisely, scrolling either one causes the other to move in the corresponding direction. It can be pretty convenient to have scrollbars configured on both sides. Depending upon where your mouse is positioned, you simply click and drag the nearest scrollbar.
+
+
+
+
+
+Note
+
+
+Many options, including guioptions, control many behaviors, and thus can include many flags by default. New flags could even be added in future versions of gvim. Hence, it is important to use the += and -= syntax in the :set guioptions command, to avoid deleting desirable behaviors. For example, :set guioptions+=l adds the “scrollbar always on left” option to gvim, leaving the other components in the guioptions string intact.
+
+
+
+
+
+Menus
+
+
+
+
+
+gvim has a fully customizable menu feature. In this section we describe the default menu characteristics, which appeared earlier in Figure 13-5, and show how you can control the menu layout.
+
+Figure 13-6 shows one example of using a menu. In this case we’re choosing Global Settings from the Edit menu.
+
+
+
+
+
+Figure 13-6. Cascading Edit menu
+
+
+
+It’s interesting to note these menu options are merely wrappers for Vim commands. In fact, that is exactly how you can create and customize your own menu entries, which we discuss shortly.
+
+
+
+
+
+Tip
+
+
+Notice that if you pay attention to the menus, including the keystrokes or commands shown on the right side, you can learn Vim commands over time. For example, in Figure 13-6, although it’s handy for beginners to find the familiar Undo command in the Edit menu, where it appears in other popular applications, it is much faster and easier to use the Vim u keystroke, which is shown in the menu.
+
+
+
+As shown in Figure 13-6, each menu starts with a dashed line containing a picture of scissors. Clicking this line “tears off” the menu to create a free-standing window in which that submenu’s options are available without going to the menu bar. If you clicked the dashed line above the Toggle Pattern Highlight menu in Figure 13-6, you would see something like Figure 13-7. You can position the free-floating menu anywhere on your desktop.
+
+
+
+
+
+Figure 13-7. Tearing off a menu
+
+
+
+Now, all of the commands on this submenu are immediately available with just one click in the submenu’s window. Each menu selection is mapped to a button. If a menu selection itself is a submenu, it is represented by a button with greater-than signs (which look like rightward-pointing arrows) at the right side of the button. Clicking these arrows expands the submenu.
+
+
+
+
+
+Basic menu customization
+
+
+
+
+
+gvim stores menu definitions in a file named $VIMRUNTIME/menu.vim.
+
+Defining menu items is similar to mapping. As you saw in the section Using the map Command, you can map a key like this:
+
+:map <F12> :set syntax=html<CR>
+
+Menus are handled very similarly.
+
+Suppose that, rather than map F12 to set the syntax to html, we want a special “HTML” entry on our File menu to do this task. Use the :amenu command:
+
+:amenu File.HTML :set syntax=html<CR>
+
+The four characters <CR> are to be typed as shown, and are part of the command.
+
+Now look at your file menu. You should see a new HTML entry, as shown in Figure 13-8. By using amenu instead of menu, we ensure that the entry is available in all modes (command, insert, and normal).
+
+
+
+
+
+Figure 13-8. HTML menu item under File menu
+
+
+
+
+
+Note
+
+
+The menu command adds the entry to the menu only in command mode; the entry does not appear in insert and normal modes.
+
+
+
+The location for a menu entry is specified by a series of cascading menu entries separated by periods (.). In our example, File.HTML added the menu entry “HTML” to the File menu. The last entry in the series is the one you want to add. Here we’ve added it to an existing menu, but we’ll soon see that we can just as easily create a whole cascading series of new menus.
+
+Be sure to test your new menu selection. For example, we started editing a file that Vim treats as an XML file, as can be seen in the status line in Figure 13-9. We’ve customized the status line so that Vim and gvim display the currently active syntax on the far right. (See A Nice Vim Piggybacking Trick.)
+
+
+
+
+
+Figure 13-9. Status line showing XML syntax before new menu action
+
+
+
+After invoking our new HTML menu item, the Vim status line verifies that the menu item worked and that the syntax is now HTML. See Figure 13-10.
+
+
+
+
+
+Figure 13-10. Status line showing HTML syntax after new menu action
+
+
+
+Notice that the HTML menu item we added doesn’t have a shortcut or command on the righthand side. So let’s redo the menu addition and include this nice enhancement.
+
+First, delete the existing entry:
+
+:aunmenu File.HTML
+
+
+
+
+
+Note
+
+
+If you add a menu entry for command mode only using the menu command, you can remove it using unmenu.
+
+
+
+Next, add a new HTML menu item that displays the command you associated to the item:
+
+:amenu File.HTML<TAB>syntax=html<CR> :set syntax=html<CR>
+
+The specification of the menu entry is now followed by <TAB> (typed literally) and syntax=html<CR>. In general, to display text on the righthand side of the menu, place it after the string <TAB> and terminate it with <CR>. Figure 13-11 shows the resulting File menu.
+
+
+
+
+
+Figure 13-11. HTML menu item, displaying associated command
+
+
+
+
+
+Note
+
+
+If you want spaces in the descriptive text of the menu item (or in the menu name itself), quote the spaces with backslashes (\). If you don’t, Vim uses everything after the first space character for the definition of the menu action. In the previous example, if we wanted :set syntax=html instead of just syntax=html for the descriptive text, the :amenu command would have to be:
+
+:amenu File.HTML<TAB>set\ syntax=html<CR> :set syntax=html<CR>
+
+
+
+In most cases, it’s probably best not to modify the default menu definitions, but instead to create separate and independent entries. This requires defining a new menu at the root level, but this is just as simple as adding an entry to an existing menu.
+
+Continuing our example, let’s create a new menu tree called MyMenu on the menu bar, and then add an HTML menu item to it. First, remove the HTML item from the File menu:
+
+:aunmenu File.HTML
+
+Next, enter the command:
+
+:amenu MyMenu.HTML<TAB>syntax=html :set syntax=html<CR>
+
+Figure 13-12 shows how your menu bar may appear.
+
+
+
+
+
+Figure 13-12. Menu bar with “MyMenu” menu added
+
+
+
+The menu commands offer more subtle control over where the menus appear and their behavior, such as whether the command indicates any activity, or even whether the menu item is visible. We discuss these possibilities further in the following section.
+
+
+
+
+
+More menu customization
+
+
+
+
+
+Now that we see how easy it is to modify and extend gvim’s menus, let’s look at more examples of customization and control.
+
+Our previous example didn’t specify where to put the new MyMenu menu, and gvim arbitrarily placed it on the menu bar between Window and Help. gvim lets us control the position with its notion of priority, which is simply a numerical value assigned to each menu to determine where it goes on the menu bar. The higher this value is, the further to the right the menu appears. Unfortunately, the way users think of priority is the opposite of how it’s defined by gvim. To get priority straight, look back at the order of menus in Figure 13-5 and compare it to gvim’s default menu priorities, as listed in Table 13-1.
+
+Table 13-1. gvim’s default menu priorities
+
+MenuPriority
+
+File 10
+
+Edit 20
+
+Tools 40
+
+Syntax 50
+
+Buffers 60
+
+Window 70
+
+Help 9999
+
+
+
+
+
+Most users would consider File a higher priority than Help (which is why File is on the left and Help on the right), but the priority of Help is higher. So, just think of the priority value as an indication of how far to the right a menu appears.
+
+You can define a menu’s priority by prepending its numeric value to the menu command. If no value is specified, a default value of 500 is assigned, which explains why MyMenu ended up where it did in our earlier example: it landed between Window (priority 70) and Help (priority 9999).
+
+Assume we want our new menu to be between the File and Edit menus. We need to assign MyMenu a numeric priority greater than 10 and less than 20. The following command assigns a priority of 15, leading to the desired effect:
+
+:15amenu MyMenu.HTML<TAB>syntax=html :set syntax=html<CR>
+
+
+
+
+
+Note
+
+
+Once a menu exists, its position is fixed for an entire editing session and does not change in response to additional commands that affect the menu. For example, you cannot change a menu’s position by adding a new item to it and prefixing the command with a different priority value.
+
+
+
+To add some more confusion to priorities and menu placement, you can also control item placement within a menu by specifying a priority. Higher-priority menu items appear further down in the menu than lower-priority items, but the syntax is different from priority definitions for menus.
+
+We’ll extend one of our earlier menu examples here by assigning a very high value (9999) to the HTML menu item, so that it appears at the bottom of the File menu:
+
+:amenu File.HTML .9999 <TAB>syntax=html<CR> :set syntax=html<CR>
+
+Why is there a period before 9999? You need to specify two priorities here, separated by a period: one for File and one for HTML. We are leaving the File priority blank because it’s a pre-existing menu and can’t be changed.
+
+In general, priorities for a menu item appear between the item’s menu placement and the item’s definition. For every level in the menu hierarchy, you must specify a priority, or include a period to indicate that you’re leaving it blank. Thus, if you add an item deep in the menu hierarchy—such as under Edit → Global Settings → Context lines→ Display—and you want to assign the priority 30 to the last item (Display), you would specify the priority as ...30, and the placement together with the priority would look like:
+
+Edit.Global\ Settings.Context\ lines.Display ...30
+
+As with menu priorities, menu item priorities are fixed once they are assigned.
+
+Finally, you can control menu “whitespace” with gvim’s menu separators. Use the same definition as you would to add a menu item, but instead of a command named “…”, place a hyphen (-) before and after it.
+
+
+
+
+
+Putting it all together
+
+
+
+
+
+Now we know how to create, place, and customize menus. Let’s make our example a permanent part of our gvim environment by adding the commands we discussed to the .gvimrc file. The sequence of lines should look something like:
+
+" add HTML menu between File and Edit menus15amenu MyMenu.XML<TAB>syntax=xml :set syntax=xml<CR> amenu .600 MyMenu.-Sep- : amenu .650 MyMenu.HTML<TAB>syntax=html :set syntax=html<CR> amenu .700 MyMenu.XHTML<TAB>syntax=xhtml :set syntax=xhtml<CR>
+
+We now have a top-level, personalized menu with three favorite syntax commands quickly available to us. There are a few important things to note in this example:
+
+The first command () uses the prefix 15, telling gvim to use priority 15. For an uncustomized environment, this places the new menu between the File and Edit menus.
+
+
+
+The subsequent commands (, , and ) do not specify the priority, because once a priority is determined, no other values are used.
+
+
+
+We’ve used the submenu priority syntax (, , and ) after the first command to ensure the correct order for each new item. Notice we started with the first definition of .600. This assures that the submenu item is placed behind the first one we defined, because we didn’t assign that priority and it therefore defaulted to 500.
+
+
+
+
+
+For even handier access, click on the “scissors” tear-off line to have your personalized floating menu, as shown in Figure 13-13.
+
+
+
+
+
+Figure 13-13. Personalized floating tearoff menu
+
+
+
+
+
+Toolbars
+
+
+
+
+
+Toolbars are long strips of icons that allow quick access to program functions. On Windows, for instance, gvim displays the toolbar shown in Figure 13-14 at the top of the window.
+
+
+
+
+
+Figure 13-14. gvim’s toolbar
+
+
+
+Table 13-2 shows the toolbar icons and their meanings.
+
+
+
+Table 13-2. gvim toolbar icons and their meanings
+
+IconDescriptionIconDescription
+
+Open file dialog Find next occurence of search pattern
+
+Save current file Find previous occurence of search pattern
+
+Save all files Choose saved edit session to load
+
+Print buffer Save current edit session
+
+Undo last change Choose Vim script to run
+
+Redo last action Make current project with make command
+
+Cut selection to clipboard Build tags for current directory tree
+
+Copy selection to clipboard Jump to tag under cursor
+
+Paste clipboard into buffer Open help
+
+Find and replace Search help
+
+
+
+
+
+If these icons are not familiar or intuitive, you can make the toolbar show both text and icons. Issue this command:
+
+:set toolbar="text,icons"
+
+
+
+
+
+Note
+
+
+As with many advanced features, Vim requires toolbar features to be turned on during compilation so people who don’t want them can save memory by not including them. The toolbar does not exist unless one of the +GUI_GTK, +GUI_Athena, +GUI_Motif, or +GUI_Photon features is compiled into your version of gvim. Chapter 9 explains how to recompile Vim, during which the link to the gvim executable is created.
+
+
+
+We modify the toolbar very much like we do menus. As a matter of fact, we use the same :menu command, but with extra syntax to specify graphics. Although an algorithm exists to help gvim find the icon associated with each command, we recommend explicitly pointing to the icon graphic.
+
+gvim treats the toolbar as a one-dimensional menu. And, just as you control the right-to-left position of new menus, you can control the position of new toolbar entries by prefixing the menu command with a number that determines its positional priority. Unlike menus, there is no notion of creating a new toolbar. All new toolbar definitions appear on the single toolbar. The syntax for adding a toolbar selection is:
+
+:amenu icon=/some/icon/image.bmp ToolBar.NewToolBarSelectionAction
+
+where /some/icon/image.bmp is the path of the file containing the toolbar button or image (usually an icon) to display in the toolbar, NewToolBarSelection is the new entry for the toolbar button, and Action defines what the button does.
+
+For example, let’s define a new toolbar selection that, when clicked or selected, brings up a DOS window in Windows. Assuming the Windows path is set up correctly (it should be), we will define our toolbar selection to start a DOS window from within gvim by executing the following (this is its Action):
+
+:!cmd
+
+For the new selection’s toolbar button, or image, we use an icon showing a DOS command prompt, shown in Figure 13-15, which on our system is stored in $HOME/dos.bmp.
+
+
+
+
+
+Figure 13-15. DOS icon
+
+
+
+
+
+Execute the command:
+
+:amenu icon="c:$HOME/dos.bmp" ToolBar.DOSWindow :!cmd<CR>
+
+This creates a toolbar entry and adds our icon at the end of the toolbar. The toolbar should now look like Figure 13-16. The new icon appears on the rightmost end of the toolbar.
+
+
+
+
+
+Figure 13-16. Toolbar with added DOS command
+
+
+
+
+
+Tooltips
+
+
+
+
+
+gvim lets you define tooltips for both menu entries and toolbar icons. Menu tooltips display in the gvim command-line area when the mouse is over that menu selection. Toolbar tooltips pop up graphically when the mouse hovers over a toolbar icon. For example, Figure 13-17 shows the tooltip that pops up when we put the mouse over the toolbar’s Find Previous button.
+
+
+
+
+
+Figure 13-17. Tooltip for the Find Previous icon
+
+
+
+
+
+The :tmenu command defines tooltips for both menus and toolbar items. The syntax is:
+
+:tmenuTopMenu.NextLevelMenu.MenuItemtool tip text
+
+where TopMenu.NextLevellMenu.MenuItem defines the menu as it cascades from the top level all the way to the menu item for which you wish to define a tooltip. So, for example, a tooltip for the Open menu item under the File menu would be defined with the command:
+
+:tmenu File.Open Open a file
+
+Use ToolBar for the top-level “menu” if you are defining a toolbar item (there is no real top-level menu for a toolbar).
+
+Let’s define a pop-up tooltip for the DOS toolbar icon we created in the previous section. Enter the command:
+
+:tmenu ToolBar.DOSWindow Open up a DOS window
+
+Now when you hover over the newly added toolbar icon, you can see the tooltip, as shown in Figure 13-18.
+
+
+
+
+
+Figure 13-18. Toolbar with added DOS command and its new tooltip
+
+
+
+
+
+gvim in Microsoft Windows
+
+
+
+
+
+gvim is increasingly popular among Windows users. Veteran vi and Vim users will find the Windows version excellent, and it is probably the most current version across all operating systems.
+
+
+
+
+
+Note
+
+
+The self-installing executable should automatically and seamlessly integrate Vim into the Windows environment. If it doesn’t, consult the gui-w32.txt help file in the Vim runtime directory for regedit instructions. Because this involves editing the Windows Registry, do not try it if it’s a procedure with which you are the slightest bit uncomfortable. You may be able to find someone with more expertise to help you. It is a common but nontrivial exercise.
+
+
+
+Long-time Windows users are familiar with the clipboard, a storage area where text and other information is kept to facilitate copy, cut, and paste operations. Vim supports interaction with the Windows clipboard. Simply highlight text in visual mode and click the Copy or Cut menu item to store Vim text in the Windows clipboard. You can then paste that text into other Windows applications.
+
+
+
+
+
+gvim in the X Window System
+
+
+
+
+
+Users familiar with the X environment can define and use many of the tunable X features. For example, you can define many resources with the standard class definitions typically defined in the .Xdefaults file.
+
+
+
+
+
+Caution
+
+
+Note that these standard X resources are useful only for the Motif or Athena versions of the GUI. Obviously, the Windows version has no understanding of X resources. Not so obviously, X resources are not picked up by KDE or GNOME either.
+
+
+
+A full discussion of X and how you configure and customize it has been exhaustively documented elsewhere and is beyond the scope of this book. For a brief (or not so brief) introduction to X, we suggest the X manpage.
+
+
+
+
+
+GUI Options and Command Synopsis
+
+
+
+
+
+Table 13-3 summarizes the commands and options specially associated with gvim. These are added to Vim when it is compiled with GUI support, and they take effect when it is invoked as gvim or vim -g.
+
+Table 13-3. gvim-specific options
+
+Command or optionTypeDescription
+
+guicursor Option Settings for cursor shape and blinking
+
+guifont Option Names of single-byte fonts to be used
+
+guifontset Option Names of multi-byte fonts to be used
+
+guifontwide Option List of font names for double-wide characters
+
+guiheadroom Option Number of pixels to leave for window decorations
+
+guioptions Option Which components and options are used
+
+guipty Option Use a pseudo-tty for “:!” commands
+
+guitablabel Option Custom label for a tab page
+
+guitabtooltip Option Custom tooltip for a tab page
+
+toolbar Option Items to show in the toolbar
+
+-g Option Start the GUI (which also allows the other options)
+
+-U gvimrc Option Use gvim startup file, named gvimrc or something similar, when starting the GUI
+
+:gui Command Start the GUI (on Unix-like systems only)
+
+:gui filename... Command Start the GUI and edit the specified files
+
+:menu Command List all menus
+
+:menu menupath Command List menus starting with menupath
+
+:menu menupath action Command Add menu menupath, to perform action action
+
+:menu n menupath action Command Add menu menupath with positional priority of n
+
+:menu ToolBar.toolbarname action Command Add toolbar item toolbarname to perform action action
+
+:tmenu menupath text Command Create tooltip for menu item menupath with text of text
+
+:unmenu menupath Command Remove menu menupath
+
+
+
+
+

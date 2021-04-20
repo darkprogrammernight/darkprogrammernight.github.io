@@ -1,0 +1,1136 @@
+Chapter 12. Vim Scripts
+
+
+
+
+
+Sometimes customization alone isn’t enough for your editing environment. Vim lets you define all of your favorite settings in your .vimrc file, but maybe you want more dynamic or “just in time” configuration. Vim scripts let you do that.
+
+From inspecting buffer contents to handling unanticipated external factors, Vim’s scripting language lets you complete complex tasks and make decisions based on your needs.
+
+If you have a Vim configuration file (.vimrc, .gvimrc, or both), you are already scripting in Vim; you just don’t know it. All of the Vim commands and options are valid inputs to scripts. And, as you’d expect, Vim provides all of the standard flow control (if...then...else, while, etc.), variables, and functions typical in any language.
+
+In this chapter, we’ll walk through an example and incrementally build up a script. We’ll look at simple constructs, use some of Vim’s built-in functions, and examine rules you must consider in order to write well-behaved and predictable Vim scripts.
+
+
+
+
+
+What’s Your Favorite Color (Scheme)?
+
+
+
+
+
+Let’s begin with the simplest of configurations. We’ll customize our environment to a color scheme we prefer. This is simple, and uses one of the basics of Vim scripts, the simple Vim command.
+
+Vim ships with 17 customized color schemes. You can choose and activate a color scheme by putting the colorscheme command in your .vimrc or .gvimrc file. A favorite “understated” color scheme of one author is the desert scheme:
+
+colorscheme desert
+
+Put a colorscheme like that in your configuration file, and now every time you edit with Vim you will see your favorite colors.
+
+So our first script is trivial. What if your tastes for your color scheme are more complex? What if you like more than one color scheme? What if the time of day correlates to your preferences? Vim scripts easily let you do this.
+
+
+
+
+
+Note
+
+
+Choosing an alternate color scheme depending on the time of day may seem trite, but maybe not as much as you may think. Even Google changes the colors and tone of your iGoogle home page throughout the day.
+
+
+
+
+
+Conditional Execution
+
+
+
+
+
+One of the authors likes to divide the day into four partitions, each with its own dedicated color scheme:
+
+darkblue
+
+Midnight to 6 a.m.
+
+
+
+morning
+
+6 a.m. to noon
+
+
+
+shine
+
+Noon to 6 p.m.
+
+
+
+evening
+
+6 p.m. to midnight
+
+
+
+
+
+We’ll build a nested if...then...else... block of code for this purpose. There are a couple of different syntaxes you can use for this block. One is more traditional, with an explicitly laid out syntax:
+
+ifcond expr line of vim code another line of vim code ... elseif some secondary cond expr code for this case else code that runs if none of the cases apply endif
+
+The elseif and else blocks are optional, and you can include multiple elseif blocks. Vim also allows the more terse and C-like construct:
+
+cond ?expr 1 :expr 2
+
+Vim checks the condition cond. If it’s true, expr 1 executes; otherwise, expr 2 executes.
+
+
+
+
+
+Using the strftime() function
+
+
+
+
+
+Now that we can conditionally execute code, we need to figure out what part of the day it is. Vim has built-in functions that return this kind of information. In our case, we use the strftime() function. strftime accepts two parameters, the first of which defines the output format of a time string. (This format is system dependent, and not portable, so you must pay due care when choosing a format. Fortunately, most mainstream formats are common across systems.) The second optional parameter is a time measured in seconds since Jan 1, 1970 (standard C time representation). This optional parameter defaults to the current time. For our example, we can use the time format %H, producing strftime("%H"), because the hour of the day is all we need to decide on our color scheme.
+
+Now that we know how to use conditional code, we have the Vim built-in function to give us the information about the time of day with which we choose our matching color scheme. Put this code into your .vimrc file:
+
+" progressively check higher values... falls out on first "true" " (note addition of zero ... this guarantees return from function is numeric if strftime("%H") < 6 + 0 colorscheme darkblue echo "setting colorscheme to darkblue" elseif strftime("%H") < 12 + 0 colorscheme morning echo "setting colorscheme to morning" elseif strftime("%H") < 18 + 0 colorscheme shine echo "setting colorscheme to shine" else colorscheme evening echo "setting colorscheme to evening" endif
+
+Notice that we introduce another Vim script command, echo. As a convenience, we add this to echo the current scheme to ourselves; it also lets us check that the code actually ran and produced the desired result. The message should appear in Vim’s command status window or as a pop up, depending on where in the startup sequence the echo command is encountered.
+
+
+
+
+
+Note
+
+
+When we issue the command colorscheme, we use the name of the scheme (e.g., desert) without surrounding quotes, but when we use the echo command, we do quote the name ("desert"). This is an important distinction!
+
+In the case of the colorscheme command in our script, we are issuing a direct Vim command, and the parameter for this command is a literal. If we include surrounding quotes, the quotes are interpreted as part of the name of the color scheme by the colorscheme. This is an error because none of the schemes include quotes in their names.
+
+On the other hand, the echo command interpolates words without quotes as expressions (calculations that return values) or functions. Therefore, we need to quote the name of the color scheme we choose.
+
+
+
+
+
+Variables
+
+
+
+
+
+If you are a programmer, you probably see a problem with the script we just presented. While it’s unlikely to be a big concern in what we are trying to do, we are executing a conditional check of the hour of the day by invoking the strftime() function at each conditional point. Technically, we are conditionally checking one thing, but we are evaluating it as an expression multiple times, potentially making a conditional decision on something that changes value mid-execution.
+
+Instead of executing the function each time, let’s evaluate it once and store the results in a Vim script variable. We can then use the variable as often as we want in our conditional, without incurring the overhead of a function call.
+
+Vim variables are fairly straightforward, but there are a few things to know and manage. Specifically, we must manage our variable’s scope. Vim defines a variable’s scope through a convention that depends on the name’s prefix. The prefixes include:
+
+b:
+
+A variable recognized in a single Vim buffer
+
+
+
+w:
+
+A variable recognized in a single Vim window
+
+
+
+t:
+
+A variable recognized in a single Vim tab
+
+
+
+g:
+
+A variable recognized globally—i.e., it can be referenced anywhere
+
+
+
+l:
+
+A variable recognized within the function (a local variable)
+
+
+
+s:
+
+A variable recognized within the sourced Vim script
+
+
+
+a:
+
+A function argument
+
+
+
+v:
+
+A Vim variable—one controlled by Vim (these are also global variables)
+
+
+
+
+
+Note
+
+
+If you do not define a Vim variable’s scope with a prefix, it defaults to a global (g:) variable when defined outside a function, and to a local (l:) variable when defined within a function.
+
+
+
+You assign a value to a variable with the let command:
+
+:letvar = "value"
+
+For our purposes, we can define our variable any way we want (context allowing) because we use it only once (though this will change later). For now, we use no prefix and let Vim treat it as global by default. Let’s call our variable currentHour. By assigning the result from strftime() only once, we now have a more efficient script:
+
+" progressively check higher values... falls out on first "true" " (note addition of zero ... this guarantees return from function is numeric) let currentHour = strftime ("%H") echo "currentHour is " currentHour if currentHour < 6 + 0 colorscheme darkblue echo "setting colorscheme to darkblue" elseif currentHour < 12 + 0 colorscheme morning echo "setting colorscheme to morning" elseif currentHour < 18 + 0 colorscheme shine echo "setting colorscheme to shine" else colorscheme evening echo "setting colorscheme to evening" endif
+
+We can clean up the code a little more and get rid of a few lines by introducing a variable named colorScheme. This variable holds the value of the color scheme that we determine by time of day. We’ve added a capital “S” to distinguish the variable from the name of the colorscheme command, but we could use the exact same letters and it wouldn’t matter: Vim can determine from the context what is a command and what is a variable.
+
+
+
+
+
+Note
+
+
+Notice the use of the dot (.) notation with the echo command. This operator concatenates expressions into one string, which echo ultimately displays. In this case we concatenate a literal string, "setting color scheme to ", and the value assigned to the variable colorScheme.
+
+
+
+" progressively check higher values... falls out on first "true" " (note addition of zero ... this guarantees return from function is numeric let currentHour = strftime("%H") echo "currentHour is " . currentHour if currentHour < 6 + 0 let colorScheme ="darkblue" elseif currentHour < 12 + 0 let colorScheme = "morning" elseif currentHour < 18 + 0 let colorScheme = "shine" else let colorScheme = "evening" endif echo "setting color scheme to" . colorScheme colorscheme colorScheme
+
+
+
+
+
+Warning
+
+
+We made an incorrect assumption about executing commands within this script. If you coded along with the example, you already know this. We correct the error in the next section.
+
+
+
+
+
+The execute Command
+
+
+
+
+
+So far we have improved how we pick our color scheme, but our last change introduced a slight twist. Initially, we decided to execute a color scheme discretely based on time of day. Our last improvement looks correct, but after defining a variable (colorScheme) to hold the value of our color scheme, we find that the command:
+
+colorscheme colorScheme
+
+results in the error shown in Figure 12-1.
+
+
+
+
+
+Figure 12-1. colorscheme colorScheme error
+
+
+
+We need a way to execute a Vim command that refers to a variable instead of a literal string such as darkblue. Vim gives us the execute command for this purpose. When passed a command, it evaluates variables and expressions and substitutes their values into the command. We can exploit this feature along with the concatenation shown in the previous section to pass the value of our variable to the colorscheme command:
+
+execute "colorscheme " . colorScheme
+
+The exact syntax used here (particularly the quotation marks) may be confusing. The execute command expects variables or expressions, but colorscheme is just a plain string, not a variable or expression. We don’t want execute to evaluate colorscheme; we just want it to accept the name as is. So we turn the name of the command into a literal string by enclosing it in quotation marks. While we’re at it, we add a blank space to the end, before the final quotation mark. This is important because we need a space between the command and the value.
+
+Our variable colorScheme must be outside the quotation marks so that it’s evaluated by execute. Think of execute’s behavior this way:
+
+Plain words are evaluated as variables or expressions, and execute substitutes their values.
+
+
+
+Quotation marks enclosing strings are taken literally; execute does not try to evaluate them to return a value.
+
+
+
+
+
+Using execute fixes our error, and Vim now loads the color scheme as expected.
+
+After loading Vim, you can verify that you loaded the proper color scheme. The colorscheme command sets its own variable, colors_name. In addition to echoing values of the variables you set in your script, you can manually execute the echo command and examine the colors_name variable to see whether our script has in fact executed the correct colorscheme command based on the time of day:
+
+echo colors_name
+
+
+
+
+
+Defining Functions
+
+
+
+
+
+So far we’ve created a script that works nicely for us. Now let’s create code we can execute at any time during a session, not just when Vim starts. We will give an example of this soon, but first we need to create a function containing the code of our script.
+
+Vim lets you define your own functions with function...endfunction statements. Here is a sample skeleton of a user-defined function:
+
+functionmyFunction (arg1, arg2...) line of code another line of code endfunction
+
+We can easily turn our script into a function. Notice that we don’t need to pass in any arguments, so the parentheses in the function definition are empty:
+
+function SetTimeOfDayColors() " progressively check higher values... falls out on first "true" " (note addition of zero ... this guarantees return from function is numeric) let currentHour = strftime("%H") echo "currentHour is " . currentHour if currentHour < 6 + 0let colorScheme = "darkblue" elseif currentHour < 12 + 0 let colorScheme = "morning" elseif currentHour < 18 + 0 let colorScheme = "shine" else let colorScheme = "evening" endif echo "setting color scheme to" . colorScheme execute "colorscheme " . colorScheme endfunction
+
+
+
+
+
+Note
+
+
+Vim user-defined function names must begin with a capital letter.
+
+
+
+Now we have a function defined in our .gvimrc file. But if we don’t call it, the code will never execute. You call a function with Vim’s call statement. In our example it would look like:
+
+call SetTimeOfDayColors()
+
+Now we can set our color scheme at any time, anywhere within a Vim session. One option is just to put the previous call line in our .gvimrc. The results are the same as our earlier example, where we ran the code without using a function. But in the next section, we’ll see a neat Vim trick that calls our function repeatedly so that our color scheme gets set regularly throughout our session, thus changing dynamically throughout the day! Of course, this introduces other problems that we must address.
+
+
+
+
+
+A Nice Vim Piggybacking Trick
+
+
+
+
+
+In the previous section we defined a Vim function, SetTimeOfDayColors(), which we call once to define our color scheme. What if we want to repeatedly check the time of day and change the color scheme accordingly? Obviously the one-time call in .gvimrc doesn’t accomplish this. To fix this, we introduce a neat Vim trick using the statusline option.
+
+Most Vim users take the Vim status line for granted. By default, statusline has no value, but you can define it to display virtually any information available to Vim in the status line. And because the status line can display dynamic information, such as the current line and column, Vim recalculates and redisplays statusline any time the edit status changes. Almost any action in Vim triggers a statusline redraw. So we’ll use this as a trick to call our color scheme function and change the color scheme dynamically. As we will soon see, this is an imperfect approach.
+
+The statusline accepts an expression, evaluates it, and displays it in the status line. This includes functions. We use this feature to call our SetTimeOfDayColors() every time the status line is updated, which is often. Because this feature overrides the default status line and we don’t want to lose the valuable information we get by default, let’s incorporate a wealth of information in the following initial definition of our status line:
+
+set statusline=%<%t%h%m%r\ \ %a\ %{strftime(\"%c\")}%=0x%B\ \\ line:%l,\ \ col:%c%V\ %P
+
+
+
+
+
+Note
+
+
+The definition for statusline is split across two lines. Vim considers any line with an initial nonblank character of backslash (\) to be a continuation of the previous line, and it ignores all whitespace up to the backslash. So if you use our definition, make sure it is copied and entered exactly. If you can’t get it to work, you can revert to starting with an undefined statusline.
+
+
+
+You can look up the meaning of the various characters preceded by percent signs in the Vim documentation. The definition produces a status line like the following:
+
+ch12.xml Wed 13 Feb 2008 06:24:25 PM EST 0x3C line:1, col:1 Top
+
+Our focus in this chapter is not on what the status line can display, but on exploiting the statusline option to evaluate a function.
+
+Now we add our SetTimeOfDayColors() function to the statusline. By using += instead of a plain equals sign, we add something to the end instead of replacing what we defined earlier:
+
+set statusline += \ %{SetTimeOfDayColors()}
+
+Now our function is part of the status line. Even though it doesn’t contribute interesting information to the status line, it now checks the time of day and potentially updates our color scheme as the hour of the day progresses. Can you see a problem with this?
+
+We now have a Vim script function that inspects the hour of the day each time the Vim status line gets updated. In an earlier section we put some effort into eliminating a few calls to strftime() for the sake of efficiency, but now we’ve added so many calls to our session that the number is dizzying.
+
+When our session happens to evaluate the statusline at the proper hour of the day, it does what we want and changes the color scheme. But as we’ve defined it, it checks the time and resets the color scheme regardless of whether there’s a change. In the next section, we examine more efficient means to this end by using global variables outside of our function.
+
+
+
+
+
+Tuning a Vim Script with Global Variables
+
+
+
+
+
+As we discovered with our last modification to our Vim script, we almost have the desired behavior. Our function is called every time the Vim status line is updated, but because that happens quite often, it’s problematic on several levels.
+
+First, because it’s called so often, we might be concerned about the load it creates on the computer’s processor. Fortunately, with today’s computers this is unlikely to be of much concern, but it’s still probably bad form to redefine the color scheme over and over so often. If this were the only issue, we might consider our script complete and not bother tuning it further. However, it is not.
+
+If you’ve coded along with the examples, you already know the problem. The constant reestablishment of the color scheme while you move around in the edit session creates a noticeable and annoying flicker, because each definition of the color scheme, even if it’s the same as the current color scheme, requires Vim to reread the color scheme definition script, reinterpret the text, and reapply all of the color syntax highlight rules. Even computers with extremely high computing power are unlikely to provide enough graphics processing power to render the constant updating flicker-free. We need to fix this.
+
+We can define our color scheme once, and then, within a conditional block, determine each time whether the color scheme changes and consequently needs to be defined and drawn. We do this by taking advantage of the global variable set by the colorscheme command: colors_name. Let’s recast our function to take this into consideration:
+
+function SetTimeOfDayColors() " progressively check higher values... falls out on first "true" " (note addition of zero ... this guarantees return from function is numeric) let currentHour = strftime("%H") if currentHour < 6 + 0 let colorScheme = "darkblue" elseif currentHour < 12 + 0 let colorScheme = "morning" elseif currentHour < 18 + 0 let colorScheme = "shine" else let colorScheme = "evening" endif" if our calculated value is different, call the colorscheme command. if g:colors_name !~ colorScheme echo "setting color scheme to " . colorScheme execute "colorscheme " . colorScheme endif endfunction
+
+This would seem to solve our problem, but now we have a different one. We now get the error shown in Figure 12-2.
+
+
+
+
+
+Figure 12-2. Undefined variable
+
+
+
+It turns out that Vim takes a very stern attitude when we try to refer to a variable that hasn’t yet been defined. But what’s wrong with the colors_name variable? We know that colorscheme sets it. We’ve even taken the precaution of using the g: prefix to indicate that it’s a global variable. But the first time this function executes, g:colors_name has no value and hasn’t even been defined, because the colorscheme command hasn’t executed. Only after the command runs can we safely check g:colors_name.
+
+This is simple to fix, and we can do it one of two ways. Insert either:
+
+let g:colors_name = "xyzzy"
+
+or:
+
+colorscheme default
+
+in your .gvimrc file. Either statement defines the global variable as soon as your session starts, so the comparison in our function will always be valid. Now we have a dynamic and efficient function. We will make one last improvement in the following section.
+
+
+
+
+
+Arrays
+
+
+
+
+
+It would be nice if somehow we could just extract our color scheme value without the extended if...then...else block. With Vim arrays, we can improve the script and make it eminently more readable.
+
+Vim arrays are created by defining a variable’s value as a comma-separated list of values within square brackets. We introduce an array named Favcolorschemes for our function. We could define it within the scope of the function, but to leave open the possibility of accessing the array elsewhere in our session, we’ll define the array outside of the function as a global array:
+
+let g:Favcolorschemes = ["darkblue", "morning", "shine", "evening"]
+
+This line should go in your .gvimrc file. Now we can reference any value within the array variable g:Favcolorschemes by its subscript, starting with element zero. For example, g:Favcolorschemes[2] is equal to the string "shine".
+
+Taking advantage of Vim’s treatment of math functions, where results of integer division are integers (the remainder gets truncated), we can now quickly and easily get our preferred color scheme based on the hour of the day. Let’s look at a final version of our function:
+
+function SetTimeOfDayColors() " currentHour will be 0, 1, 2, or 3 let g:CurrentHour = (strftime("%H") + 0) / 6 if g:colors_name !~ g:Favcolorschemes[g:CurrentHour] execute "colorscheme " . g:Favcolorschemes[g:CurrentHour] echo "execute " "colorscheme " . g:Favcolorschemes[g:CurrentHour] redraw endif endfunction
+
+Congratulations! You have built a complete Vim script that takes into consideration many of the factors needed to build any useful script you may want.
+
+
+
+
+
+Dynamic File Type Configuration Through Scripting
+
+
+
+
+
+Let’s look at another nifty script example. Normally, when editing a new file, the only clue Vim gets in order to determine and set filetype is the file’s extension. For example, .c means the file is C code. Vim easily determines this and loads the correct behavior to make it easy to edit a C program.
+
+But not all files require an extension. For example, while it’s become common convention to create shell scripts with a .sh extension, this author doesn’t like or abide by this convention, especially having created thousands of scripts before a notion of this convention arose. Vim is actually sufficiently well-trained to recognize a shell script without the crutch of a file extension, by looking at the text inside the file. However, it can do so only on the second edit, when the file provides some context for determining the type. Vim scripts can fix that!
+
+
+
+
+
+Autocommands
+
+
+
+
+
+In our first script example, we relied on Vim’s habit of updating the status line constantly and “hid” our function in the status line to set the color scheme by time of day. Our script to determine the file type dynamically relies on a bit more formal Vim convention, autocommands.
+
+Autocommands include any valid Vim commands. Vim uses events to execute commands. Some examples of Vim events include:
+
+BufNewFile
+
+Triggers an associated command when Vim begins editing a new file
+
+
+
+BufReadPre
+
+Triggers an associated command before Vim moves to a new buffer
+
+
+
+BufRead
+
+BufReadPost
+
+Trigger an associated command when editing a new buffer, but after reading the file
+
+
+
+BufWrite
+
+BufWritePre
+
+Trigger an associated command before writing a buffer to a file
+
+
+
+FileType
+
+Triggers an associated command after setting the filetype
+
+
+
+VimResized
+
+Triggers an associated command after a Vim window size has changed
+
+
+
+WinEnter
+
+WinLeave
+
+Trigger an associated command upon entering or leaving a Vim window, respectively
+
+
+
+CursorMoved
+
+CursorMovedI
+
+Trigger an associated command every time the cursor moves in normal mode or in insert mode, respectively
+
+
+
+
+
+Altogether there are almost 80 Vim events. For any of these events, you can define an automatic autocmd that executes when that event occurs. The autocmd format is:
+
+autocmd [group] event pattern [nested]command
+
+The elements of this format are:
+
+group
+
+An optional command group (described later)
+
+
+
+event
+
+The event that will trigger command
+
+
+
+pattern
+
+The pattern matching the filename for which command should execute
+
+
+
+nested
+
+If present, allows this autocommand to be nested within others
+
+
+
+command
+
+The Vim command, function, or user-defined script to execute when the event occurs
+
+
+
+
+
+For our example, our goal is to identify the file type for any new file we open, so we use * for pattern.
+
+The next decision is which event to use to trigger our script. Because we want to try to identify our file type as early as possible, two good candidates suggest themselves: CursorMovedI and CursorMoved.
+
+CursorMoved triggers an event when the cursor moves, which seems wasteful because merely moving the cursor is not likely to provide more information about a file’s type. CursorMovedI, in contrast, fires when text is input, and therefore seems like the best candidate.
+
+We must write a function to do the work each time. Let’s call it CheckFileType. We now have enough information to define our autocmd command. It looks like this:
+
+autocmd CursorMovedI * call CheckFileType()
+
+
+
+
+
+Checking Options
+
+
+
+
+
+In our CheckFileType function, we need to inspect the value of the filetype option. Vim scripts use special variables to extract values from options, by prefixing the option name (filetype in our case) with an ampersand (&) character. Hence we will use the variable &filetype in our function.
+
+We start with a simple version of our CheckFileType function:
+
+function CheckFileType() if &filetype == "" filetype detect endif endfunction
+
+The Vim command filetype detect is a Vim script installed in the $VIMRUNTIME directory. It runs through many criteria and tries to assign a file type to your file. Normally this occurs once, so if the file is new and filetype cannot determine a file type, the edit session cannot assign syntax formatting.
+
+There is a problem: we call our function each time the cursor moves during input mode, continually trying to detect the file type. We first check to see whether the file already has a file type, which would mean that our function succeeded in its previous execution and therefore does not need to do it anymore. We won’t worry about anomalies, such as a mistaken identification or a file that we start in one programming language and then decide to change to another.
+
+Let’s edit a new shell script file and see the results:
+
+$vim ScriptWithoutSuffix
+
+Input the following:
+
+#! /bin/sh inputFile="DailyReceipts"
+
+By now, Vim turns on color syntax, as shown in Figure 12-3.
+
+
+
+
+
+Figure 12-3. File type of new file detected
+
+
+
+You can tell from the picture that Vim is using gray for the string, but the black-and-white image does not show that # /bin/sh is blue, inputFile= is black, and "DailyReceipts" is purple. Unfortunately, these aren’t the colors for shell syntax highlighting. A quick check of the filetype option through the command set filetype displays the message shown in Figure 12-4.
+
+
+
+
+
+Figure 12-4. conf file type detected
+
+
+
+Vim assigned file type conf to our file, which is not what we want. What went wrong?
+
+If you try this example, you will see that Vim assigned the file type immediately when you entered the first character, #, at the first CursorMovedI event. Configuration files for Unix utilities and daemons typically use the # character to start a comment, so Vim’s heuristics assume that a # at the beginning of the line is the beginning of a comment in a configuration file. We have to teach Vim to be more patient.
+
+Let’s change our function to allow for more context. Instead of trying to detect the file type at the first available opportunity, let’s allow the user to enter about 20 characters first.
+
+
+
+
+
+Buffer Variables
+
+
+
+
+
+We need to introduce a variable into our function to tell Vim to hold off and not try to detect the file type until the CursorMovedI autocommand calls the function more than 20 times. Our notion of what is a new file, as well as the number of characters we want to enter into that file, are specific to a buffer. In other words, cursor movement in other buffers of the edit session should not count against the check. Therefore, we use a buffer variable and call it b:countCheck.
+
+Next, we revise the function to check for at least 20 moves of the cursor in input mode (implying approximately 20 characters entered), along with checking whether a file type has already been assigned:
+
+function CheckFileType() let b:countCheck += 1 " Don’t start detecting until approx. 20 chars. if &filetype == "" && b:countCheck > 20 filetype detect endif endfunction
+
+But now we get the error shown in Figure 12-5.
+
+
+
+
+
+Figure 12-5. b:countCheck generates an “undefined” error
+
+
+
+That’s a familiar error. As before, we had the gall to check a variable before it was defined. And this time, it’s all our fault because our script is responsible for defining b:countCheck. We’ll handle this subtlety in the next section.
+
+
+
+
+
+The exists() Function
+
+
+
+
+
+It’s important to know how to manage all of your variables and functions: Vim requires you to define each one so it already exists before any type of evaluation references it.
+
+We can easily resolve our script error by checking for b:countCheck’s existence and assigning it a value with the :let command shown earlier:
+
+function CheckFileType() if exists(“b:countCheck”) == 0 let b:countCheck = 0 endif let b:countCheck += 1 " Don't start detecting until approx. 20 chars. if &filetype == "" && b:countCheck > 20 filetype detect endif endfunction
+
+Now test the code. Figure 12-6 shows the moment before the 20-character limit is reached, and Figure 12-7 shows the effect of entering the 21st character.
+
+
+
+
+
+Figure 12-6. No file type detected yet
+
+
+
+
+
+Figure 12-7. File type detected
+
+
+
+The /bin/sh text suddenly has syntax color highlighting. A quick check with set filetype verifies that Vim has made the correct assignment, as shown in Figure 12-8.
+
+
+
+
+
+Figure 12-8. Correct detection
+
+
+
+For all practical purposes, we have a complete and satisfactory solution, but for good form we add another check to stop Vim from trying to detect a file type after approximately 200 characters have been entered:
+
+function CheckFileType() if exists("b:countCheck") == 0 let b:countCheck = 0 endif let b:countCheck += 1 " Don't start detecting until approx. 20 chars. if &filetype == "" && b:countCheck > 20 && b:countCheck < 200 filetype detect endif endfunction
+
+Now, even though our function CheckFileType is called each time Vim’s cursor moves, we incur little overhead because the initial checks exit the function once a file type is detected or the threshold of 200 characters is exceeded. Although this is probably all we need for reasonable functionality and minimal processing overhead, we’ll continue to look at more mechanisms to give us a more complete and satisfactory solution that not only incurs minimal overhead, but actually “goes away” when we don’t need it any more.
+
+
+
+
+
+Note
+
+
+You may have noticed we have been slightly vague about the exact meaning of our threshold count of 20 characters. This ambiguity is intentional. Because we are counting cursor movements, in input mode it’s reasonable to assume each movement of the cursor corresponds to a new character, adding to the “sufficient” context text from which CheckFileType() will determine the file type. However, all cursor movement in input mode counts, so any backspacing to correct typing errors also counts against the threshold counter. To confirm this, try our example, type #, and backspace over it and retype it 10 times. The 11th time should reveal a color-coded #, and the file type should now be (incorrectly) set to conf.
+
+
+
+
+
+Autocommands and Groups
+
+
+
+
+
+Our script so far ignores any side effects introduced by calling our function for every movement of the cursor. We minimized overhead through reasonableness checks that avoid calling the heavy filetype detect command unnecessarily. But what if even minimal code for our function is expensive? We need a way to stop calling code when we don’t need it. For this we leverage Vim’s notion of autocommand groups and their ability to remove commands based on their group association.
+
+We modify our example by first associating our function called by the CursorMovedI event with a group. Vim provides an augroup command to do this. Its syntax is:
+
+augroupgroupname
+
+All subsequent autocmd definitions become associated with group groupname until the statement:
+
+augroup END
+
+(There’s also a default group for commands not entered within an augroup block.)
+
+Now we associate our previous autocmd command with our own group.
+
+augroup newFileDetection autocmd CursorMovedI * call CheckFileType() augroup END
+
+Our CursorMovedI-triggered function is part of the autocommand group newFileDetection. We will explore the usefulness of this in the next section.
+
+
+
+
+
+Deleting Autocommands
+
+
+
+
+
+To implement our function as cleanly as possible, we strive to have it remain effective only as long as necessary. We want to undefine its reference once it has exceeded its useful life (that is, as soon as we’ve either detected a file type or decided we can’t). Vim lets you delete an autocommand simply by referencing the event, the pattern that filenames must match, or its group.
+
+autocmd! [group] [event] [pattern]
+
+The usual Vim “force” character—an exclamation point (!)—follows the autocmd keyword to indicate that commands associated with the group, event, or pattern are to be removed.
+
+Because we previously associated our function with our user-defined group newFileDetection, we now have control over it and can remove it by referencing the group in the autocommand remove syntax. We do so with:
+
+autocmd! newFileDetection
+
+This deletes all autocommands associated with the group newFileDetection, which in our case is only our function.
+
+We verify both the definition and removal of our autocommand by querying Vim at startup (when creating the new file) with the command:
+
+autocmd newFileDetection
+
+Vim responds as shown in Figure 12-9.
+
+
+
+
+
+Figure 12-9. Response to autocmd newFileDetection command
+
+
+
+After a file type has been detected and assigned or the threshold of 200 characters has been exceeded, we no longer want the autocommand definition. So, we add the final touch to our code. Combining the definition of our augroup, our autocmd command, and our function, the lines in our .vimrc look like:
+
+augroup newFileDetection autocmd CursorMovedI * call CheckFileType() augroup END function CheckFileType() if exists("b:countCheck") == 0 let b:countCheck = 0 endif let b:countCheck += 1 " Don't start detecting until approx. 20 chars. if &filetype == "" && b:countCheck > 20 && b:countCheck < 200 filetype detect " If we’ve exceeded the count threshold (200), OR a filetype has been detected " delete the autocmd! elseif b:countCheck >= 200 || &filetype != "" autocmd! newFileDetection endif endfunction
+
+After the syntax color highlighting begins, we can verify that our function deletes itself by entering the same command as when we entered the buffer:
+
+autocmd newFileDetection
+
+Vim’s response is shown in Figure 12-10.
+
+
+
+
+
+Figure 12-10. After the deletion criteria have been met for our autocommand group
+
+
+
+Notice now that no autocommands are defined for the newFileDetection group. You can delete the auto group as follows:
+
+augroup!groupname
+
+but doing so does not delete the associated autocommands, and Vim will create an error condition each time those autocommands are referenced. Therefore, make sure to delete the autocommands within a group before deleting the group.
+
+
+
+
+
+Warning
+
+
+Do not confuse deleting autocommands with deleting auto groups.
+
+
+
+Congratulations! You have completed your second Vim script. This script extends your Vim knowledge and gives you a peek at the different features accessible with scripting.
+
+
+
+
+
+Some Additional Thoughts About Vim Scripting
+
+
+
+
+
+We’ve covered only a small corner of the entire Vim scripting universe, but we hope you get the sense of Vim’s power. Virtually everything you can do interactively using Vim can be coded in a script.
+
+In this section we look at a nice example included in the built-in Vim documentation, discuss in more detail concepts we touched on earlier, and look at a few new features.
+
+
+
+
+
+A Useful Vim Script Example
+
+
+
+
+
+Vim’s built-in documentation includes a handy script we think you’ll want to use. It specifically addresses keeping a current timestamp in the meta line of an HTML file, but it could easily be used for many other types of files where it is useful to have the most recent modification time of the file within the text of that file.
+
+Here is the example essentially intact (we have modified it slightly):
+
+autocmd BufWritePre,FileWritePre *.html mark s|call LastMod()|'s fun LastMod() " if there are more than 20 lines, set our max to 20, otherwise, scan " entire file. if line("$") > 20 let lastModifiedline = 20 else let lastModifiedline = line("$") endif exe "1," . lastModifiedline . "g/Last modified: /s/Last modified: .*/Last modified: " . \ strftime("%Y %b %d") endfun
+
+Here’s a brief breakdown of the autocmd command:
+
+BufWritePre, FileWritePre
+
+These are the events for which the command is triggered. In this case, Vim executes the autocommand before the file or buffer gets written to the storage device.
+
+
+
+*.html
+
+Execute this autocommand for any file whose name ends in .html.
+
+
+
+mark s
+
+We changed this for readability from the original. Instead of ks, we used the equivalent but more obvious command mark s. This simply creates a marked position named s in the file so we can return to this point later.
+
+
+
+|
+
+Pipe characters separate multiple Vim commands that are executed within an autocommand definition. These are simple separators with no relationship to Unix shell pipes.
+
+
+
+call LastMod()
+
+This calls our user-defined LastMod function.
+
+
+
+|
+
+Same as previous.
+
+
+
+'s
+
+Return to the line we marked with the name s.
+
+
+
+
+
+It’s worth verifying this script by editing a .html file, adding the line “Last modified: "”, and issuing the w command.
+
+
+
+
+
+Note
+
+
+This example is useful, but it’s not canonically correct in relation to its stated goal of substituting the HTML meta statement. More appropriately, if indeed it were meant to address a meta statement, the substitution should look for the content=... part of the meta statement. Still, this example is a good start toward solving that problem and is a useful example for other file types.
+
+
+
+
+
+More About Variables
+
+
+
+
+
+We now discuss in more detail what makes up Vim variables and how they’re used. Vim has five variable types:
+
+Number
+
+A signed 32-bit number. This number can be represented in decimal, hexadecimal (e.g., 0xffff), or octal (e.g., 0177).
+
+
+
+String
+
+A string of characters.
+
+
+
+Funcref
+
+A reference to a function.
+
+
+
+List
+
+This is Vim’s version of an array. It is an ordered “list” of values and can contain any mix of Vim values as elements.
+
+
+
+Dictionary
+
+This is Vim’s version of a hash, often also referred to as an associative array. It is an unordered collection of value-pairs, the first being a key that can be used to retrieve an associated value.
+
+
+
+
+
+Vim performs convenience conversions of variables where context allows, most notably back and forth between strings and numbers. To be safe (as we were in our first script example), when using a string as a number, ensure conversion by adding 0 to it:
+
+if strftime("%H") < 6 + 0
+
+
+
+
+
+Expressions
+
+
+
+
+
+Vim evaluates expressions in a fairly straightforward way. An expression can be as simple as a number or literal string, or it can be as complex as a compound statement, itself composed of expressions.
+
+It is important to note that Vim’s math functions work with integers only. If you want floating-point and precision, you need to use extensions, such as system calls to external math-capable routines.
+
+
+
+
+
+Extensions
+
+
+
+
+
+Vim offers a number of extensions and interfaces to other scripting languages. Notably, these include perl, Python, and Ruby, three of the most popular scripting languages. See Vim’s built-in documentation for details on usage.
+
+
+
+
+
+A Few More Comments About autocmd
+
+
+
+
+
+In our earlier example in the section Dynamic File Type Configuration Through Scripting, we used Vim’s autocmd command to key on events from which our user-defined functions are called. This is very powerful, but do not discount simpler uses of autocmd. For example, you can use autocmd to tune specific Vim options for different file types.
+
+A good example might be to change the shiftwidth option for different file types. File types with copious indentation and nesting levels may benefit from more modest indentation. You may want to define your shiftwidth as 2 for HTML in order to prevent code from “walking” off the right side of the screen, but use a shiftwidth of 4 for C programs. To accomplish this distinction, include these lines in your .vimrc or .gvimrc file:
+
+autocmd BufRead,BufNewFile *.html set shiftwidth=2 autocmd BufRead,BufNewFile *.c,*.h set shiftwidth=4
+
+
+
+
+
+Internal Functions
+
+
+
+
+
+In addition to all the Vim commands, you have access to about 200 built-in functions. It is beyond the scope of this discussion to identify and document all of these functions, but it is useful to know what categories or types of functions are available. The following categories are taken from the Vim built-in help file, usr_41.txt:
+
+String manipulation
+
+All of the standard string functions that programmers expect are included in these functions, from conversion routines to substring routines and more.
+
+
+
+List functions
+
+This is an entire array of array functions. They mirror closely the array functions found in perl.
+
+
+
+Dictionary (associative array) functions
+
+These functions include extraction, manipulation, verification, and other types of functions. Again, these closely resemble perl hash functions.
+
+
+
+Variable functions
+
+These functions are “getters” and “setters” to move variables around in Vim windows and buffers. There is also a type to determine variable types.
+
+
+
+Cursor and position functions
+
+These functions allow moving around in files and buffers, and creating marks so that positions can be remembered and returned to. There are also functions that give positional information (e.g., cursor line and column).
+
+
+
+Text in current buffer functions
+
+These functions manipulate text within buffers, for example, changing a line, retrieving a line, etc. There are also search functions.
+
+
+
+System and file manipulation functions
+
+These include functions to navigate the operating system on which Vim is running, for example, finding files within paths, determining the current working directory, creating and deleting files, etc. This group includes the system() function, which passes commands to the operating system for external execution.
+
+
+
+Date and time functions
+
+These do a wide variety of manipulations of date and time formats.
+
+
+
+Buffer, window, and argument list functions
+
+These functions provide mechanisms to gather information about buffers, and the arguments for each one.
+
+
+
+Command-line functions
+
+These functions get command-line position, the command line, and the command-line type, and set the cursor position within the command line.
+
+
+
+Quick fix and location lists functions
+
+These functions retrieve and modify the quick fix lists.
+
+
+
+Insert mode completion functions
+
+These functions are used for command and insertion completion features.
+
+
+
+Folding functions
+
+These functions give information for folds, and expand text displayed for closed folds.
+
+
+
+Syntax and highlighting functions
+
+These functions retrieve information about syntax highlighting groups and syntax IDs.
+
+
+
+Spelling functions
+
+These functions find suspected misspelled words and offer suggested correct spellings.
+
+
+
+History functions
+
+These functions get, add, and delete history items.
+
+
+
+Interactive functions
+
+These functions provide an interface to the user for activities such as file selection.
+
+
+
+GUI functions
+
+There are three simple functions here to get the name of the current font, get the GUI window x coordinate, and get the GUI window y coordinate.
+
+
+
+Vim server functions
+
+These functions communicate with a (possibly) remote Vim server.
+
+
+
+Window size and position functions
+
+These functions get window information and allow for saving and restoring window “views.”
+
+
+
+Various functions
+
+These are the miscellaneous “other” functions that don’t fit nicely in the previous categories. They include functions such as exists, which checks for the existence of a Vim item, and has, which checks to see whether Vim supports a certain feature.
+
+
+
+
+
+Resources
+
+
+
+
+
+We hope we’ve piqued enough interest and provided enough information to get you started with Vim scripts. An entire book could be devoted to the subject of Vim scripting. Luckily, there are other resources to turn to for help.
+
+A good starting point is to go to the source of Vim itself and visit the pages specifically dedicated to scripting: http://www.vim.org/scripts/index.php. Here you will find over 2,000 scripts available for download. The entire body of work is searchable and you are invited to participate by rating scripts and even contributing your own.
+
+We also remind you that the built-in Vim help is invaluable. The most productive help topics we recommend are:
+
+help autocmd help scripts help variables help functions help usr_41.txt
+
+And don’t forget the myriad Vim scripts in the Vim runtime directories. All of the files with the suffix .vim are scripts, and these provide an excellent and fertile playground for learning how to code by example.
+
+Go play. It’s the best way to learn.
+
+
+
+
+

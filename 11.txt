@@ -1,0 +1,1177 @@
+Chapter 11. Multiple Windows in Vim
+
+
+
+
+
+By default, Vim edits all its files in a single window, showing just one buffer at a time as you move between files or to different parts of a single file. But Vim also offers multi-window editing, which can make complex editing tasks easier. This is different from starting multiple instances of Vim on a graphical terminal. This chapter covers the use of multiple windows in a single instance of a running Vim process (which we’ll call a session).
+
+You can initiate your editing session with multiple windows or create new windows after a session starts. You can add windows to your edit session up to the limit imposed by sanity, and you can delete them back to a single edit window.
+
+Here are some examples where multiple windows make your life easier:
+
+Editing a number of files that need to be formatted the same way, where you would like to compare them visually as you go along
+
+
+
+Cutting and pasting text quickly and repeatedly among multiple files or multiple parts of a single file
+
+
+
+Displaying one part of a file for reference, to facilitate work elsewhere in the same file
+
+
+
+Comparing two versions of a file
+
+
+
+
+
+Vim offers many window-managing convenience features, including the ability to:
+
+Split windows horizontally or vertically
+
+
+
+Navigate from one window to another and back again quickly
+
+
+
+Copy and move text to and from multiple windows
+
+
+
+Move and reposition windows
+
+
+
+Work with buffers, including hidden buffers (to be described later)
+
+
+
+Use external tools such as the diff command with multiple windows
+
+
+
+
+
+In this chapter, we guide you through the multiwindow experience. We show you how to start a multiwindow session, discuss features and tips for the edit session, and describe how to exit your work and ensure that all your work is properly saved (or abandoned, if you wish!). The following topics are covered:
+
+Initializing or starting multiwindow editing
+
+
+
+Multiwindow :ex commands
+
+
+
+Moving the cursor from window to window
+
+
+
+Moving windows around the display
+
+
+
+Resizing windows
+
+
+
+Buffers and their interaction with windows
+
+
+
+Tabbed editing (like the tabs offered by modern Internet browsers and dialog boxes)
+
+
+
+Closing and quitting windows
+
+
+
+
+
+Initiating Multiwindow Editing
+
+
+
+
+
+You can initiate multiwindow editing when you start Vim, or you can split windows within your editing session. Multiwindow editing is dynamic in Vim, allowing you to open, close, and navigate among multiple windows at any point, from most contexts.
+
+
+
+
+
+Multiwindow Initiation from the Command Line (Shell)
+
+
+
+
+
+By default, Vim opens only one window for a session, even if you specify more than one file. While we don’t know for sure why Vim would not open multiple windows for multiple files, it may be because using just a single window is consistent with vi behavior. Multiple files occupy multiple buffers, with each file in its own buffer. (Buffers are discussed shortly.)
+
+To open multiple windows from the command line, use Vim’s -o option. For example:
+
+$ Vim -o file1 file2
+
+This opens the edit session with the display horizontally split into two equal-sized windows, one for each file (see Figure 11-1). For each file named on the command line, Vim tries to open a window for editing. If Vim cannot split the screen into enough windows for the files, the first files listed in the command-line arguments get windows, while the remaining files are loaded into buffers not visible (but still available) to the user.
+
+
+
+
+
+Figure 11-1. Results of “Vim -o5 file1 file2”
+
+
+
+Another form of the command line preallocates the windows by appending a number n to -o:
+
+$ Vim -o5 file1 file2
+
+This opens a session with the display horizontally split into five equal-sized windows, the topmost of which contains file1 and the second of which contains file2 (see Figure 11-2).
+
+
+
+
+
+Figure 11-2. Results of “Vim -o5 file1 file2”
+
+
+
+
+
+Tip
+
+
+When Vim creates more than one window, its default behavior is to create a status line for each window (whereas the default behavior for a single window is not to display any status line). You can control this behavior with Vim’s laststatus option, e.g.:
+
+:set laststatus=1
+
+Set laststatus to 2 to always see a status line for each window, even in single window mode. (It is best to set this in your .vimrc file.)
+
+
+
+Because window size affects readability and usability, you may want to control Vim’s limits for window sizes. Use Vim’s winheight and winwidth options to define reasonable limits for the current window (other windows may be resized to accommodate it).
+
+
+
+
+
+Multiwindow Editing Inside Vim
+
+
+
+
+
+You can initiate and modify the window configuration from within Vim. Create a new window with the :split command. This breaks the current window in half, showing the same buffer in both halves. Now you can navigate independently in each window on the same file.
+
+
+
+
+
+Note
+
+
+There are convenience key sequences for many of the commands in this chapter. In this case, for instance, ^Ws splits a window. (All Vim window-related commands begin with ^W, with the “W” being mnemonic for “window.”) For the purposes of discussion, we show only the command-line methods because they provide the added power of optional parameters that customize the default behavior. If you find yourself using commands routinely, you can easily find the corresponding key sequence in the Vim documentation, as described in Built-in Help.
+
+
+
+Similarly, you can create a new, vertically separated edit window with the :vsplit command (see Figure 11-3).
+
+
+
+
+
+Figure 11-3. Vertically split window
+
+
+
+For each of these methods, Vim splits the window (horizontally or vertically), and since no file was specified on the :split command line, you end up editing the same file with two views or windows.
+
+
+
+
+
+Tip
+
+
+Don’t believe you’re editing the same file at the same time? Split the edit window and scroll each window so that each shows the same area of the file. Make changes. Watch the other window. Magic.
+
+
+
+Why or how is this useful? One common use by this author, when writing shell scripts or C programs, is to code a block of text that describes the program’s usage. (Typically, the program will display the block when passed a --help option.) I split the display so that one window displays the usage text, and I use this as a template to edit the code in the other window that parses all the options and command-line arguments described in the usage text. Often (almost always) this code is complex and ends up far enough from the usage text that I can’t display everything I want in a single window.
+
+If you want to edit or browse another file without losing your place in your current file, provide the new file as an argument to your :split command. For instance:
+
+:split otherfile
+
+The next section describes splitting and unsplitting windows in more detail.
+
+
+
+
+
+Opening Windows
+
+
+
+
+
+This section goes into depth about how to get the precise behavior you want when you split your window.
+
+
+
+
+
+New Windows
+
+
+
+
+
+As discussed previously, the simplest way to open a new window is to issue :split (for a horizontal division) or :vsplit (for a vertical division). A more in-depth discussion of the many commands and variations follows. We also include a command synopsis for quick reference.
+
+
+
+
+
+Options During Splits
+
+
+
+
+
+The full :split command to open a new horizontal window is:
+
+:[n]split [++opt] [+cmd] [file]
+
+where:
+
+n
+
+Tells Vim how many lines to display in the new window, which goes at the top.
+
+
+
+opt
+
+Passes Vim option information to the new window session (note that it must be preceded by two plus signs).
+
+
+
+cmd
+
+Passes a command for execution in the new window (note that it must be preceded by a single plus sign).
+
+
+
+file
+
+Specifies a file to edit in the new window.
+
+
+
+
+
+For example, suppose you are editing a file and want to split the window to edit another file named otherfile. You want to ensure that the session uses a fileformat of unix (which ensures the use of a line feed to end each line instead of a carriage return and line feed combination). Finally, you want the window to be 15 lines tall. Enter:
+
+:15split ++fileformat=unix otherfile
+
+To simply split the screen, showing the same file in both windows and using all the current defaults, you can use the key commands ^Ws, ^WS, or ^W^S.
+
+
+
+
+
+Tip
+
+
+If you want windows to always split equally, set the equalalways option, preferably putting it in your .vimrc to make it persistent over sessions. By default, setting equalalways splits both horizontal and vertical windows equally. Add the eadirection option (hor, ver, both, for horizontal, vertical, or both, respectively) to control which direction splits equally.
+
+
+
+The following form of the :split command opens a new horizontal window as before, but with a slight nuance:
+
+:[n]new [++opt] [+cmd] [file]
+
+In addition to creating the new window, the WinLeave, WinEnter, BufLeave, and BufEnter autocommands execute. (For more information on autocommands, see the section Autocommands.)
+
+Along with the horizontal split commands, Vim offers analogous vertical ones. So, for example, to split a vertical window, instead of :split or :new, use :vsplit and :vnew respectively. The same optional parameters are available as for the horizontal split commands.
+
+There are two horizontal split commands without vertical cousins:
+
+:sview filename
+
+Splits the screen horizontally to open a new window and sets the readonly for that buffer. :sview requires the filename argument.
+
+
+
+:sfind [++ opt ] [+ cmd ] filename
+
+Works like :split, but looks for the filename in the path. If Vim does not find the file, it doesn’t split the window.
+
+
+
+
+
+Conditional Split Commands
+
+
+
+
+
+Vim lets you specify a command that causes a window to open if a new file is found. :topleft cmd tells Vim to execute cmd and display a new window with the cursor at the top left if cmd opens a new file. The command can produce three different results:
+
+cmd splits the window horizontally, and the new window spans the top of the Vim window.
+
+
+
+cmd splits the window vertically, and the new window spans the left side of the Vim window.
+
+
+
+cmd causes no split but instead positions the cursor at the top left of the current window.
+
+
+
+
+
+Window Command Summary
+
+
+
+
+
+Table 11-1 summarizes the commands for splitting windows.
+
+Table 11-1. Summary of window commands
+
+ex commandvi commandDescription
+
+:[n]split [++opt] [+cmd] [file]
+
+^Ws
+
+^WS
+
+^W^S
+
+Split the current window into two from side to side, placing the cursor in the new window. The optional file argument places that file in the newly created window. The windows are created as equal in size as possible, determined by free window space.
+
+
+
+:[n]new [++opt] [+cmd]
+
+^Wn
+
+^W^N
+
+Same as :split, but start the new window editing an empty file. Note that the buffer will have no name until one is assigned.
+
+
+
+:[n]sview [++opt] [+cmd] [file]
+
+Read-only version of :split.
+
+
+
+:[n]sfind [++opt] [+cmd] [file]
+
+Split window and open file (if specified) in the new window. Look for file in the path.
+
+
+
+:[n]vsplit [++opt] [+cmd] [file]
+
+^Wv
+
+^W^V
+
+Split current window into two from top to bottom and open file (if specified) in the new window.
+
+
+
+:[n]vnew [++opt] [+cmd]
+
+Vertical version of :new.
+
+
+
+
+
+Moving Around Windows (Getting Your Cursor from Here to There)
+
+
+
+
+
+It’s easy to move from window to window with a mouse in both gvim and Vim. gvim supports clicking with the mouse by default, whereas in Vim you can enable the behavior with the mouse option. A good default setting for Vim is :set mouse=a, to activate the mouse for all uses: command line, input, and navigation.
+
+If you don’t have a mouse, or prefer to control your session from the keyboard, Vim provides a full set of navigation commands to move quickly and accurately among session windows. Happily, Vim uses the mnemonic prefix keystroke ^W consistently for window navigation. The keystroke that follows defines the motion or other action, and should be familiar to experienced vi and Vim users because they map closely to the same motion commands for editing.
+
+Rather than describe each command and its behavior, we will consider an example. The command-synopsis table should then be self-explanatory.
+
+To move from the current Vim window to the next one, type CTRL-W j (or CTRL-W <down> or CTRL-W CTRL-J). The CTRL-W is the mnemonic for “window” command, and the j is analogous to Vim’s j command, which moves the cursor to the next line.
+
+Table 11-2 summarizes the window navigation commands.
+
+
+
+
+
+Note
+
+
+As with many Vim and vi commands, these can be multiply executed by prefixing them with a count. For example, 3^Wj tells Vim to jump to the third window down from the current window.
+
+
+
+Table 11-2: Window navigation commands
+
+
+
+
+
+Mnemonic Tips
+
+t and b are mnemonic for top and bottom windows.
+
+In keeping with the convention that lowercase and uppercase implement opposites, CTRL-W w moves you through the windows in the opposite direction from CTRL-W W.
+
+The Control characters do not distinguish between uppercase and lowercase; in other words, pressing the Shift key while pressing a CTRL- key itself has no effect. However, an upper/lowercase distinction is recognized for the regular keyboard key you press afterward.
+
+
+
+
+
+Moving Windows Around
+
+
+
+
+
+You can move windows two ways in Vim. One way simply swaps the windows on the screen. The other way changes the actual window layouts. In the first case, window sizes remain constant while windows change position on the screen. In the second case, windows not only move but are resized to fill the position to which they’ve moved.
+
+
+
+
+
+Moving Windows (Rotate or Exchange)
+
+
+
+
+
+Three commands move windows without modifying layout. Two of these rotate the windows positionally in one direction (to the right or down) or the other (to the left or up), and the other one exchanges the position of two possibly nonadjacent windows. These commands operate only on the row or column in which the current window lives.
+
+CTRL-Wr rotates windows to the right or down. Its complement is CTRL-WR, which rotates windows in the opposite direction.
+
+An easier way to imagine how these work is to think of a row or column of Vim windows as a one-dimensional array. CTRL-W r would shift each element of the array one position to the right, and move the last element into the vacated first position. CTRL-W R simply moves the elements the other direction.
+
+If there are no windows in a column or row that aligns with the current window, this command does nothing.
+
+After Vim rotates the windows, the cursor remains in the window from which the rotate command executed; thus, the cursor moves with the window.
+
+CTRL-Wx and CTRL-WCTRL-X let you exchange two windows in a row or column of windows. By default, Vim exchanges the current window with the next window, and if there is no next window, Vim tries to exchange with the previous window. You can exchange with the nth next window by prepending a count before the command. For example, to switch the current window with the third next window, use the command 3^Wx.
+
+As with the two previous commands, the cursor stays in the window from which the exchange command executes.
+
+
+
+
+
+Moving Windows and Changing Their Layout
+
+
+
+
+
+Five commands move and reflow the windows: two move the current window to a full-width top or bottom window, two move the current window to a full-height left or right window, and the fifth moves the current window to another existing tab. (See the section Tabbed Editing.) The first four commands bear familiar mnemonic relationships to other Vim commands; for instance, CTRL-W K maps to the traditional notion of k as “up.” Table 11-2 summarizes these commands.
+
+Table 11-2. Commands to move and reflow windows
+
+CommandDescription
+
+^WK Move the current window to the top of the screen, using the full width of the screen.
+
+
+
+^WJ Move the current window to the bottom of the screen, using the full width of the screen.
+
+
+
+^WH Move the current window to the left of the screen, using the full height of the screen.
+
+
+
+^WL Move the current window to the right of the screen, using the full height of the screen.
+
+
+
+^WT Move the current window to a new existing tab.
+
+
+
+
+
+It is difficult to describe the exact behavior of these layout commands. After the move and expansion of the window to the full height or width of the screen, Vim reflows the windows in a reasonable way. The behavior of the reflow can also be influenced by some of the windows options settings.
+
+
+
+
+
+Window Move Commands: Synopsis
+
+
+
+
+
+Tables 11-3 and 11-4 summarize the commands introduced in this section.
+
+Table 11-3. Commands to rotate window positions
+
+CommandDescription
+
+^Wr
+
+^W^R Rotate windows down or to the right.
+
+^WR Rotate windows up or to the left.
+
+^Wx
+
+^W^X Swap positions with the next window, or if issued with a count n, swap with nth next window.
+
+
+
+
+
+Table 11-4. Commands to change position and layout
+
+CommandDescription
+
+^WK Move window to top of screen and use full width. The cursor stays with the moved window.
+
+
+
+^WJ Move window to bottom of screen and use full width. The cursor stays with the moved window.
+
+
+
+^WH Move window to left of screen and use full height. The cursor stays with the moved window.
+
+
+
+^WL Move window to right of screen and use full height. The cursor stays with the moved window.
+
+
+
+^WT Move window to new tab. The cursor stays with the moved window. If the current window is the only window in the current tab, no action is taken.
+
+
+
+
+
+Resizing Windows
+
+
+
+
+
+Now that you’re more familiar with Vim’s multiwindowing features, you need a little more control over them. This section addresses how you can change the size of the current window, with, of course, effects on other windows in the screen. Vim provides options to control window sizes and window sizing behavior when opening new windows with split commands.
+
+If you’d rather control window sizes sans commands, use gvim and let the mouse do the work for you. Simply click and drag window boundaries with the mouse to resize. For vertically separated windows, click the mouse on the vertical separator of | characters. Horizontal windows are separated by their status lines.
+
+
+
+
+
+Window Resize Commands
+
+
+
+
+
+As you’d expect, Vim has vertical and horizontal resize commands. Like the other window commands, these all begin with CTRL-W and map nicely to mnemonic devices, making them easy to learn and remember.
+
+CTRL-W= tries to resize all windows to equal size. (This is also influenced by the current values of winheight and windwidth, discussed in the following section.) If the available screen real estate doesn’t divide equally, Vim sizes the windows to be as close to equal as possible.
+
+CTRL-W- decreases the current window height by one line. Vim also has an ex command that lets you decrease the window size explicitly. For example, the command resize -4 decreases the current window by four lines and gives those lines to the window below it.
+
+
+
+
+
+Note
+
+
+It’s interesting to note that Vim obediently decreases your window size even if you are not in a multiple window edit session. While it may seem counterintuitive at first, the side effect is that Vim decreases the window as requested and the vacated screen real estate is allocated to the command-line window. Typically, the command-line window always uses a single line, but there are reasons to use a command-line window larger than one line high. (The most common reason we know of is to provide enough space to let Vim display complete command-line status and feedback without intermediate prompts.) That said, it’s best to use the :resize command to resize your current window, and to use the winheight option to size your command window.
+
+
+
+CTRL-W+ increases the current window by one line. The :resize +n command increases the current window size by n lines. Once the window’s maximum height is reached, further use of this command has no effect.
+
+
+
+
+
+Tip
+
+
+One of the authors’ favorite ways to use the CTRL-W + and CTRL-W - commands is by mapping each to keys, both keys adjacent. The + key is a convenient choice. Though it is already the Vim “up” command, that behavior is redundant and little used by veteran Vim users (who use the k command instead). Therefore, this key is a good candidate to map to something else, in this case CTRL-W +. Immediately to that key’s left (on most standard keyboards) is the -. But since it is unshifted and the + is shifted, map the shifted key, _, to CTRL-W -. Now you have two convenient side-by-side keys to easily and quickly expand and contract your current window horizontally.
+
+
+
+:resizen sets the horizontal size of the current window to n lines. It sets an absolute size, in contrast to the previously described commands that make a relative change.
+
+zn sets the current window height to n lines. Note that n is not optional! Omitting it results in the vi/Vim command z, which moves the cursor to the top of the screen.
+
+CTRL-W< and CTRL-W> decrease and increase the window width, respectively. Think of the mnemonic device of “shift left” (<<) and “shift right” (>>) to associate these commands to their function.
+
+Finally, CTRL-W | resizes the current window to the widest size possible (by default). You can also specify explicitly how to change the window width with vertical resize n. The n defines the window’s new width.
+
+
+
+
+
+Window Sizing Options
+
+
+
+
+
+Several Vim options influence the behavior of the resize commands described in the previous section.
+
+winheight and winwidth define the minimal window height and width, respectively, when a window becomes active. For example, if the screen accommodates two equal-sized windows of 45 lines, the default Vim behavior is to split them equally. If you were to set winheight to a value larger than 45—say, 60—Vim will resize the window to which you move each time to 60 lines, and will resize the other window to 30. This is handy for editing two files simultaneously; you automatically increase the allocated window size for maximum context when you switch from window to window and from file to file.
+
+equalalways tells Vim to always resize windows equally after splitting or closing a window. This is a good option to set in order to ensure equitable allocation of windows as you add and delete them.
+
+eadirection defines directional jurisdiction for equalalways. The possible values hor, ver, and both tell Vim to make windows of equal size horizontally, vertically, or both, respectively. The resizing applies each time you split or delete a window.
+
+cmdheight sets the command line height. As described previously, decreasing a window’s height when there is only one window increases the command-line height. You can keep the command line the height you want using this option.
+
+Finally, winminwidth and winminheight tell Vim the minimum width and height to size windows. Vim considers these to be hard values, meaning that windows will never be allowed to get smaller than these values.
+
+
+
+
+
+Resizing Command Synopsis
+
+
+
+
+
+Table 11-5 summarizes the ways to resize windows. Options are set with the :set command.
+
+Table 11-5. Window resizing commands
+
+Command or optionDescription
+
+^W= Resize all windows equally. The current window honors the settings of the winheight and winwidth options.
+
+
+
+:resize -n
+
+^W- Decrease the current window size. The default amount is one line.
+
+
+
+:resize +n
+
+^W+
+
+Increase the current window size. The default amount is one line.
+
+
+
+:resizen
+
+^W^_
+
+^W_
+
+Set the current window height. The default is to maximize window height (unless n is specified).
+
+
+
+zn <ENTER> Set the current window height to n.
+
+
+
+^W< Increase the current window width. The default amount is one column.
+
+
+
+^W> Decrease the current window width. The default amount is one column.
+
+
+
+:vertical resizen
+
+^W|
+
+Set the current window width to n. The default is to make window as wide as possible.
+
+
+
+winheight option When entering or creating a window, set its height to at least the specified value.
+
+
+
+winwidth option When entering or creating a window, set its width to at least the specified value.
+
+
+
+equalalways option When the number of windows changes, either by splitting or closing windows, resize them to be the same size.
+
+
+
+eadirection option Define whether Vim resizes windows equally vertically, horizontally, or both.
+
+
+
+cmdheight option Set the command line height.
+
+
+
+winminheight option Define the minimum window height, which applies to all windows created.
+
+
+
+winminwidth option Define the minimum window width, which applies to all windows created.
+
+
+
+
+
+Buffers and Their Interaction with Windows
+
+
+
+
+
+Vim uses buffers as containers for work. Understanding buffers completely is an acquired skill; there are many commands for manipulating and navigating them. However, it is worthwhile to familiarize yourself with some of the buffer basics and understand how and why they exist throughout a Vim session.
+
+A good starting point is to open up a few windows editing different files. For example, start Vim by opening file1. Then, within the session, issue :split file2 and then :split file3. You should now have three open files in three separate Vim windows.
+
+Now use the commands :ls, :files, or :buffers to list the buffers. You should see three lines, each numbered and including the filenames, along with additional information. These are Vim’s buffers for this session. There is one buffer for each file and each buffer has a unique, nonchanging associated number. In this example, file1 is in buffer 1, file2 is in buffer 2, etc.
+
+Additional information on each buffer can be displayed if you append an exclamation point (!) after any of the commands.
+
+To the right of each buffer number are status flags. These flags describe the buffers as shown in Table 11-6.
+
+Table 11-6. Status flags describing buffers
+
+CodeDescription
+
+u Unlisted buffer. This buffer is not listed unless you use the ! modifier. To see an example of an unlisted buffer, type :help. Vim splits the current window to include a new window in which the built-in help appears. The plain :ls command will not show the help buffer, but :ls! includes it.
+
+
+
+% or (mutually exclusive) # % is the buffer for the current window.# is the buffer to which you would switch with the :edit # command.
+
+
+
+a or (mutually exclusive) h aindicates an active buffer. That means the buffer is loaded and visible. h indicates a hidden buffer. The hidden buffer exists but is not visible in any window.
+
+
+
+- or (mutually exclusive) = - means that a buffer has the modifiable option turned off. The file is read-only. = is a read-only buffer that cannot be made modifiable (for instance, because you don’t have filesystem privileges to write to the file).
+
+
+
++ or (mutually exclusive) x + indicates a modified buffer. x is a buffer with read errors.
+
+
+
+
+
+Tip
+
+
+The u flag is an interesting way to know what help file you are viewing in Vim. For example, had you issued :help split followed by :ls!, you would see that the unlisted buffer refers to the built-in Vim help file, windows.txt.
+
+
+
+Now that you can list Vim buffers, we can talk about them and their various uses.
+
+
+
+
+
+Vim’s Special Buffers
+
+
+
+
+
+Vim uses some buffers for its own purposes, called special buffers. For instance, the help buffers described in the previous section are special. Typically, these buffers cannot be edited or modified.
+
+Here are four examples of Vim special buffers:
+
+quickfix
+
+Contains the list of errors created by your commands (which can be viewed with :cwindow) or the location list (which can be viewed with the :lwindow command). Do not edit the contents of this buffer! It helps programmers iterate through the edit-compile-debug cycle. See Chapter 14.
+
+
+
+help
+
+Contains Vim help files, described earlier in the section Built-in Help. :help loads these text files into this special buffer.
+
+
+
+directory
+
+Contain directory contents, that is, a list of files for a directory (and some helpful extra command hints). This is a handy tool within Vim that lets you move around in this buffer as you would in a regular text file and select files under the cursor for editing by pressing ENTER.
+
+
+
+scratch
+
+These buffers contain text for general purposes. This text is expendable and can be deleted at any time.
+
+
+
+
+
+Hidden Buffers
+
+
+
+
+
+Hidden buffers are Vim buffers that are not currently displayed in any window. This makes it easier to edit multiple files, considering the limited screen real estate for multiple windows, without constantly retrieving and rewriting files. For example, imagine you are editing the myfile file but wish to momentarily edit some other file, myOtherfile. If the hidden option is set, you can edit myOtherfile through :edit myOtherfile, causing Vim to hide the myfile buffer and display myOtherfile in its place. You can verify this with :ls and see both buffers listed with myfile flagged as hidden.
+
+
+
+
+
+Buffer Commands
+
+
+
+
+
+There are almost 50 commands that specifically target buffers. Many are useful but are for the most part outside the scope of this discussion. Vim manages buffers automatically as you open and close multiple files and windows. The suite of buffer commands allows you to do almost anything with buffers. Often they are used within scripts to handle such tasks as unloading, deleting, and modifying buffers.
+
+Two buffer commands are worth knowing for general use because of their power to do lots of work across many files:
+
+windo cmd
+
+Short for “window do” (at least we think it’s a decent mnemonic), this pseudo-buffer command (actually it’s a window command) executes the command cmd in each window. It acts as if you go to the top of the screen (^Wt), and cycles through each window to execute the specified command as :cmd in that window. It acts only within the current tab and stops at any window where :cmd generates an error. The window in which the error occurs becomes the new current window.
+
+cmd is not permitted to change the state of the windows; that is, it cannot delete, add, or change the order of the windows.
+
+
+
+
+
+Note
+
+
+cmd can concatenate multiple commands with the pipe (|) symbol. Do not confuse this notation with the Unix shell convention of piping commands! The commands are executed in sequence, with the first command executed sequentially through all windows, then the second command in all windows, etc.
+
+
+
+As an example of :windo in action, suppose you are editing a suite of Java files and for some reason you have a class name that is improperly capitalized. You need to repair this by changing every occurrence of myPoorlyCapitalizedClass to MyPoorlyCapitalizedClass. With :windo you can do that with:
+
+:windo %s/myPoorlyCapitalizedClass/MyPoorlyCapitalizedClass/g
+
+Pretty cool!
+
+
+
+bufdo[!] cmd
+
+This is analogous to windo but operates on all of the buffers in your editing session, not just visible buffers in the current tab. bufdo stops at the first error encountered, just like windo, and leaves the cursor in the buffer where the command fails.
+
+The following example changes all buffers to Unix file format:
+
+:bufdo set fileformat=unix
+
+
+
+
+
+Buffer Command Synopsis
+
+
+
+
+
+Table 11-7 makes no attempt to describe all the commands related to buffers; instead it summarizes the ones described in this section and some other popular commands.
+
+Table 11-7. Summary of buffer commands
+
+CommandDescription
+
+:ls[!]
+
+:files[!]
+
+:buffers[!]
+
+List buffers and file names. Include unlisted buffers if ! modifier is included.
+
+
+
+:ball
+
+:sball
+
+Edit all args or buffers. (sball opens them in new windows.)
+
+
+
+:unhide
+
+:sunhide
+
+Edit all loaded buffers. (sunhide opens them in new windows.)
+
+
+
+:baddfile
+
+Add file to list.
+
+
+
+:bunload[!]
+
+Unload buffer from memory. The ! modifier forces a modified buffer to be unloaded without being saved.
+
+
+
+:bdelete[!]
+
+Unload buffer and delete it from the buffer list. The ! modifier forces a modified buffer to be unloaded without being saved.
+
+
+
+:buffer [n]
+
+:sbuffer [n]
+
+Move to buffer n. (sbuffer opens a new window.)
+
+
+
+:bnext [n]
+
+:sbnext [n]
+
+Move to next nth buffer. (sbnext opens a new window.)
+
+
+
+:bNext [n]
+
+:sbNext [n]
+
+:bprevious [n]
+
+:sbprevious [n]
+
+Move to nth next or previous buffer. (sbNext and sbprevious open a new window.)
+
+
+
+:bfirst
+
+:sbfirst
+
+Move to first buffer (sbfirst opens a new window).
+
+
+
+:bfirst
+
+:sbfirst
+
+Move to last buffer (sblast opens a new window).
+
+
+
+:bmod [n]
+
+:sbmod [n]
+
+Move to nth modified buffer (sbmod opens a new window).
+
+
+
+
+
+Playing Tag with Windows
+
+
+
+
+
+Vim extends the vi tag functionality into windows by offering the same tag traversal mechanisms through multiple windows. Following a tag can also open a file in the associated place in a new window.
+
+The tag windowing commands split the current window and follow a tag either to a file matching the tag or to the file matching the filename under the cursor.
+
+:stag[!]tag splits the window to display the location for the tag found. The new file containing the matched tag becomes the current window, and the cursor is placed over the matched tag. If no tag is found, the command fails and no new window is created.
+
+
+
+
+
+Tip
+
+
+As you become more familiar with Vim’s help system, you can use this :stag command to split your way through the help system rather than jumping from file to file in the same window.
+
+
+
+^WJ or ^W^J splits the window and opens a window above the current window. The new window becomes the current window, and the cursor is placed on the matching tag. If there is no match on the tag, the command fails.
+
+^Wg] splits the window and creates a new window above the current window. In the new window, Vim performs the command :tselecttag, where tag was the tag identifier under the cursor. If no matching tag exists, the command fails. The cursor is placed in the new window, and that new window becomes the current window.
+
+^Wg^J works exactly like ^Wg], except that instead of performing :tselect, it performs :tjump.
+
+^Wf (or ^W^F) splits the window and edits the filename underneath the cursor. Vim will look sequentially through the files set in the option variable path to find the file. If the file doesn’t exist in any of the path directories, the command fails and does not create a new window.
+
+^WF splits the window and edits the filename under the cursor. The cursor is placed in the new window editing that file and positioned at the line number matching the number following the filename in the first window.
+
+^Wgf opens the file under the cursor in a new tab. If the file doesn’t exist, the new tab is not created.
+
+^Wgf opens the file under the cursor in a new tab and positions the cursor on the line specified by the number following the filename in the first window. If the file doesn’t exist, the new tab is not created.
+
+
+
+
+
+Tabbed Editing
+
+
+
+
+
+Did you know that in addition to editing in multiple windows, you can create multiple tabs? Vim lets you create new tabs, each of which behaves independently. In each tab you can split the screen, edit multiple files—virtually anything you would normally do in a single window, but now all of your work is easily managed in one window with tabs.
+
+Many Firefox users are very familiar with and dependent on tabbed browsing and will recognize what this feature brings to power editing. For the uninitiated, it’s worth trying.
+
+You can use tabs in both regular Vim and gvim, but gvim is much nicer and easier. Some of the more important ways to create and manage tabs include:
+
+:tabnew filename
+
+Open a new tab and edit a file (optional). If no file is specified Vim opens a new tab with an empty buffer.
+
+
+
+:tabclose
+
+Close the current tab.
+
+
+
+:tabonly
+
+Close all other tabs. If other tabs have modified files, they are not removed unless the autowrite option is set, in which case all modified files are written before the other tabs are closed.
+
+
+
+
+
+In gvim you can activate any tab simply by clicking the tab at the top of the screen. You can also activate tabs in character-based terminals with the mouse if the mouse is configured (see the mouse option). Also, it’s easy to move right and left from tab to tab with CTRL PAGE DOWN (move one tab to the right) and CTRL PAGE UP (move one tab to the left). If you are in the leftmost or rightmost tabs and you try to move left or right respectively, Vim moves to the far right or far left tab.
+
+gvim offers right-click pop-up menus for the tab, from which you can open a new tab (with or without a new file to edit) and close a tab.
+
+Figure 11-4 is an example of a set of tabs (notice the tab pop-up menu).
+
+
+
+
+
+Figure 11-4. Example of gvim tabs and tabbed editing
+
+
+
+
+
+Closing and Quitting Windows
+
+
+
+
+
+There are four different ways to close a window that are specific to window editing: quit, close, hide, and close all others.
+
+^Wq (or ^W^Q, or :quit) is really just a window version of the:quit command. In its simplest form (i.e., a single session edit with only one window), it behaves exactly like vi’s :quit command. If the hidden option is set and the current window is the last window on the screen referencing that file, the window is closed but the file buffer is retained (it can be retrieved) and hidden. In other words, Vim is still storing the file and you can return to editing it later. If hidden is not set, the window is the last one referencing that file, and there are unsaved changes in the current window buffer, the command fails in order to avoid losing your changes. But if some other window displays the file, the current window closes.
+
+^Wc (or :close[!]) closes the current window. If the hidden option is set and this is the last window referencing this file, Vim closes the window and the buffer is hidden. If this window is on a tab page and is the last window for that tab page, the window and the tab page are closed. As long as you don’t use the ! modifier, this command will not abandon any file with unsaved changes. The ! modifier tells Vim to close the current window unconditionally.
+
+
+
+
+
+Note
+
+
+Note that this command does not use ^W^C, because Vim uses ^C to cancel commands. Therefore, if you try to use ^W^C, the ^C simply cancels the command.
+
+Similarly, while the ^W commands are used in combination with ^S and ^Q, some users may find their terminals frozen because some interpret ^S and ^Q as control characters to stop and start displaying information to the screen. If you find your screen freezing mysteriously when using these combinations, try the other listed combinations instead.
+
+
+
+^Wo, ^W^O, and :only[!] close all windows except the current window. If the hidden option is set, all closed windows hide their buffers. If it’s not set, any window referencing a file with unsaved changes remains on the screen, unless you included the ! modifier, in which case all windows are closed and the files are abandoned. The behavior of this command can be affected by the autowrite option: if it’s set, all windows are closed, but windows containing unsaved changes are written to the files on disk before being exited.
+
+:hide [cmd] quits the current window and hides the buffer if no other window references it. If the optional cmd is supplied, the buffer is hidden and the command is executed.
+
+Table 11-8 provides a summary of these commands.
+
+Table 11-8. Commands for closing and quitting windows
+
+CommandDescription
+
+:quit[!]
+
+^Wq
+
+^W^Q
+
+Quit the current window.
+
+
+
+:close[!]
+
+^Wc
+
+Close the current window.
+
+
+
+:only[!]
+
+^Wo
+
+^W^O
+
+Make the current window the only window.
+
+
+
+
+
+Summary
+
+
+
+
+
+As you now appreciate, Vim ramps up the editing horsepower with its many windowing features. Vim lets you create and delete windows easily and on the fly. Additionally, Vim provides the under-the-hood power of the raw buffer commands, buffers being the underlying file management infrastructure with which Vim manages window editing. This is once again a perfect example of how Vim brings multiwindow editing to beginners while simultaneously giving power users the tools they need to tune their windowing experience.
+
+
+
+
+

@@ -1,0 +1,1051 @@
+Chapter 8. Introduction to the vi Clones
+
+
+
+
+
+And These Are My Brothers, Darrell, Darrell, and Darrell
+
+
+
+
+
+There are a number of freely available “clones” of the vi editor. Appendix D provides a pointer to a web site that lists all known vi clones, and Part II covers Vim in great detail. Part III covers an additional three of the more popular clones. They are:
+
+Version 1.79 of Keith Bostic’s nvi (Chapter 16)
+
+
+
+Version 2.2.0 of Steve Kirkendall’s elvis (Chapter 17)
+
+
+
+Version 9.6.4 of vile, by Kevin Buettner, Tom Dickey, Paul Fox, and Clark Morgan (Chapter 18)
+
+
+
+
+
+All the clones were written either because the source code for vi was not freely available—making it impossible to port vi to a non-Unix environment or to study the code—or because Unix vi (or another clone!) did not provide desired functionality. For example, Unix vi often has limits on the maximum length of a line, and it cannot edit binary files. (The chapters on the various programs present more information about each one’s history.)
+
+Each program provides a large number of extensions to Unix vi; often, several of the clones provide the same extensions, although usually not in an identical way. Instead of repeating the treatment of each common feature in each program’s chapter, we have centralized the discussion here. You can think of this chapter as presenting “what the clones do,” with each clone’s own chapter presenting “how the clone does it.”
+
+The order in which topics are presented in this chapter is used in an expanded fashion in Part II on Vim, and in a much more compact fashion in the chapters in Part III. This chapter covers the following:
+
+Multiwindow editing
+
+This is the ability to split the (terminal) screen into multiple “windows,” and/or the ability to use multiple windows within a GUI environment. You can edit a different file in each window or have several views into the same file. This is perhaps the single most important extension over regular vi.
+
+
+
+GUI interfaces
+
+All of the clones except nvi can be compiled to support an X Window interface. If you have a system running X, use of the GUI version may be preferable to splitting the screen of an xterm (or other terminal emulator); the GUI versions generally provide such nice features as scrollbars and multiple fonts. The native GUIs of other operating systems may also be supported.
+
+
+
+Extended regular expressions
+
+All of the clones make it possible to match text using regular expressions that are similar or identical to those provided by the Unix egrep command.
+
+
+
+Enhanced tags
+
+As described earlier in Using Tags, you can use the ctags program to build up a searchable database of your files. The clones make it possible to “stack” tags by saving your current location when you do a tag search. You can then return to that location. Multiple locations can be saved in a “last in, first out” (LIFO) order, producing a stack of locations.
+
+Several of the vi clone authors and the author of at least one ctags clone have gotten together to define a standard form for an enhanced version of the ctags format. In particular, it is now easier to use the tag functionality with programs written in C++, which allows overloaded function names.
+
+
+
+Improved editing facilities
+
+All of the clones provide the ability to edit the ex command line, an “infinite undo” capability, arbitrary length lines and 8-bit data, incremental searching, an option to scroll the screen left to right for long lines instead of wrapping long lines, and mode indicators, as well as other features.
+
+
+
+Programming assistance
+
+Several of the editors provide features that allow you to stay within the editor during the typical “edit-compile-debug” cycle of software development.
+
+
+
+Syntax highlighting
+
+In elvis, Vim, and vile, you can arrange to display different parts of a file in different colors and fonts. This is particularly useful for editing program source code.
+
+
+
+
+
+Multiwindow Editing
+
+
+
+
+
+Perhaps the single most important feature that the clones offer over standard vi is the ability to edit files in multiple “windows.” This makes it possible to easily work on more than one file at the same time, and to “cut and paste” text from one file to another via yanking and putting.
+
+
+
+
+
+Note
+
+
+In the clones, you need not split the screen to yank and put between files; only the original vi discards the cut buffers when switching between files.
+
+
+
+There are two fundamental concepts underlying each editor’s multiwindow implementation: buffers and windows.
+
+A buffer holds text to be edited. The text may come from a file, or it may be brand new text to be eventually written to a file. Any given file has only one buffer associated with it.
+
+A window provides a view into a buffer, allowing you to see and modify the text in the buffer. There may be multiple windows associated with the same buffer. Changes made to the buffer in one window are reflected in any other windows open on the same buffer. A buffer may also have no windows associated with it. In that case, you can’t do a whole lot with the buffer, although you can open a window on it later. Closing the last window open on a buffer effectively “hides” the file. If the buffer has been modified but not written to disk, the editor may or may not let you close the last window that’s open on it.
+
+When you create a new window, the editor splits the current screen. For most of the editors, this new window shows another view on the file you’re currently editing. You then switch to the window where you wish to edit the next file, and instruct the editor to start editing the file there. Each editor provides vi and ex commands to switch back and forth between windows, as well as the ability to change the window size and hide and restore windows.
+
+Chapter 11 is devoted to multiwindow editing in Vim. In each of the other editors’ chapters in Part III, we show a sample split screen (editing the same two files), and describe how to split the screen and move between windows.
+
+
+
+
+
+GUI Interfaces
+
+
+
+
+
+elvis, Vim, and vile provide graphical user interface (GUI) versions that can take advantage of a bitmapped display and mouse. Besides supporting X Windows under Unix, support for Microsoft Windows or other windowing systems may also be available. Table 8-1 summarizes the available GUIs for the different clones.
+
+Table 8-1. Available GUIs
+
+EditorTerminalX11Microsoft WindowsOS/2BeOSMacintoshAmigaQNXOpenVMS
+
+Vim • • • • • • •
+
+nvi •
+
+elvis • • • •
+
+vile • • • • • • •
+
+
+
+
+
+Extended Regular Expressions
+
+
+
+
+
+The metacharacters available in vi’s search and substitution regular expressions are described back in Chapter 6 in the section Metacharacters Used in Search Patterns. Each of the clones provides some form of extended regular expressions, which are either optional or always available. Typically, these are the same (or almost the same) as those provided by egrep. Unfortunately, each clone’s extended flavor is slightly different from the others’.
+
+To give you a feel for what extended regular expressions can do, we present them in the context of nvi. The section Extended Regular Expressions describes Vim’s extended regular expressions, and each clone’s chapter in Part III describes that editor’s extended syntax, without repeating the examples.
+
+nvi’s extended regular expressions are the Extended Regular Expressions (EREs) as defined by the POSIX standard. To enable this feature, use set extended from either your .nexrc file or from the ex colon prompt.
+
+Besides the standard metacharacters described in Chapter 6 and the POSIX bracket expressions mentioned in POSIX Bracket Expressions in the same chapter, the following metacharacters are available:
+
+|
+
+Indicates alternation. For example, a|b matches either a or b. However, this construct is not limited to single characters: house|home matches either of the strings house or home.
+
+
+
+(...)
+
+Used for grouping, to allow the application of additional regular expression operators. For example, house|home can be shortened (if not simplified) to ho(use|me). The * operator can be applied to text in parentheses: (house|home)* matches home, homehouse, househomehousehouse, and so on.
+
+When extended is set, text grouped with parentheses acts like text grouped in \(...\) in regular vi: the actual text matched can be retrieved in the replacement part of a substitute command with \1, \2, etc. In this case, \( represents a literal left parenthesis.
+
+
+
++
+
+Matches one or more of the preceding regular expressions. This is either a single character or a group of characters enclosed in parentheses. Note the difference between + and *. The * is allowed to match nothing, but with + there must be at least one match. For example, ho(use|me)* matches ho as well as home and house, but ho(use|me)+ will not match ho.
+
+
+
+?
+
+Matches zero or one occurrence of the preceding regular expression. This indicates “optional” text that is either present or not present. For example, free?d will match either fred or freed, but nothing else.
+
+
+
+{...}
+
+Defines an interval expression. Interval expressions describe counted numbers of repetitions. In the following descriptions, n and m represent integer constants:
+
+{ n }
+
+Matches exactly n repetitions of the previous regular expression. For example, (home|house){2} matches homehome, homehouse, househome, and househouse, but nothing else.
+
+
+
+{ n ,}
+
+Matches n or more repetitions of the previous regular expression. Think of it as “as least n” repetitions.
+
+
+
+{ n , m }
+
+Matches n to m repetitions. The bounding is important, since it controls how much text would be replaced during a substitute command.[40]
+
+
+
+
+
+When extended is not set, nvi provides the same functionality with \{ and \}.
+
+
+
+
+
+* * *
+
+
+
+[40] The *, +, and ? operators can be reduced to {0,}, {1,}, and {0,1} respectively, but the former are much more convenient to use. Also, interval expressions were developed later in the history of Unix regular expressions.
+
+
+
+
+
+Enhanced Tags
+
+
+
+
+
+The “Exuberant ctags” program is a ctags clone that is considerably more capable than Unix ctags. It produces an extended tags file format that makes the tag searching and matching process more flexible and powerful. We describe the Exuberant version first, since it is supported by most of the vi clones.
+
+This section also describes tag stacks: the ability to save multiple locations visited with the :tag or ^] commands. All of the clones support tag stacking.
+
+
+
+
+
+Exuberant ctags
+
+
+
+
+
+The Exuberant ctags program was written by Darren Hiebert, and, as of this writing, the current version is 5.7. Its home page is http://ctags.sourceforget.net/. The following list of the program’s features is adapted from the README file in the ctags distribution:
+
+It is capable of generating tags for all types of C and C++ language tags, including class names, macro definitions, enum names, enumerators (values inside an enumeration), function (method) definitions, function (method) prototypes/declarations, structure members and class data members, struct names, typedefs, union names, and variables. (Whew!)
+
+
+
+It supports both C and C++ code.
+
+
+
+Twenty-nine other languages are also supported, including C# and Java.
+
+
+
+It is very robust in parsing code and is far less easily fooled by code containing #if preprocessor conditional constructs.
+
+
+
+It can be used to print out a human-readable list of selected objects found in source files.
+
+
+
+It supports generation of GNU Emacs-style tag files (etags).
+
+
+
+It works on Amiga, Cray, MS-DOS, Macintosh, OS/2, QDOS, QNX, RISC OS, Unix, VMS, and Windows 95 through XP. Some precompiled binaries are available on the web site.
+
+
+
+
+
+Exuberant ctags produces tags files in the form described next.
+
+
+
+
+
+The New tags Format
+
+
+
+
+
+Traditionally, a tags file has three tab-separated fields: the tag name (typically an identifier); the source file containing the tag; and an indication of where to find the identifier. This indication is either a simple line number or a nomagic search pattern enclosed either in slashes or question marks. Furthermore, the tags file is always sorted.
+
+This is the format generated by the Unix ctags program. In fact, many versions of vi allowed any command in the search pattern field (a rather gaping security hole). Furthermore, due to an undocumented implementation quirk, if the line ended with a semicolon and then a double quote (;"), anything following those two characters would be ignored. (The double quote starts a comment, as it does in .exrc files.)
+
+The new format is backward compatible with the traditional one. The first three fields are the same: tag, filename, and search pattern. Exuberant ctags only generates search patterns, not arbitrary commands. Extended attributes are placed after a separating ;". Each attribute is separated from the next by a tab character, and consists of two colon-separated subfields. The first subfield is a keyword describing the attribute; the second is the actual value. Table 8-2 lists the supported keywords.
+
+Table 8-2. Extended ctags keywords
+
+KeywordMeaning
+
+kind The value is a single letter that indicates the tag’s lexical type. It can be f for a function, v for a variable, and so on. Since the default attribute name is kind, a solitary letter can denote the tag’s type (e.g., f for a function).
+
+
+
+file For tags that are “static,” i.e., local to the file. The value should be the name of the file.
+
+If the value is given as an empty string (just file:), it is understood to be the same as the filename field; this special case was added partly for the sake of compactness, and partly to provide an easy way to handle tags files that aren’t in the current directory. The value of the filename field is always relative to the directory in which the tags file itself resides.
+
+
+
+function For local tags. The value is the name of function in which they’re defined.
+
+
+
+struct For fields in a struct. The value is the name of the structure.
+
+
+
+enum For values in an enum data type. The value is the name of the enum type.
+
+
+
+class For C++ member functions and variables. The value is the name of the class.
+
+
+
+scope Intended mostly for C++ class member functions. It will usually be private for private members or omitted for public members, so users can restrict tag searches to only public members.
+
+
+
+arity For functions. Defines the number of arguments.
+
+
+
+
+
+If the field does not contain a colon, it is assumed to be of type kind. Here are some examples:
+
+ARRAYMAXED awk.h 427;" d AVG_CHAIN_MAX array.c 38;" d file: array.c array.c 1;" F
+
+ARRAYMAXED is a C #define macro defined in awk.h. AVG_CHAIN_MAX is also a C macro, but it is used only in array.c. The third line is a bit different: it is a tag for the actual source file! This is generated with the -i F option to Exuberant ctags, and allows you to give the command :tag array.c. More usefully, you can put the cursor over a filename and use the ^] command to go to that file (for example, if you’re editing a Makefile and wish to go to a particular source file).
+
+Within the value part of each attribute, the backslash, tab, carriage return, and newline characters should be encoded as \\, \t, \r, and \n, respectively.
+
+Extended tags files may have some number of initial tags that begin with !_TAG_. These tags usually sort to the front of the file and are useful for identifying which program created the file. Here is what Exuberant ctags generates:
+
+!_TAG_FILE_FORMAT 2 /extended format; --format=1 will not append ;" to lines/ !_TAG_FILE_SORTED 1 /0=unsorted, 1=sorted, 2=foldcase/ !_TAG_PROGRAM_AUTHOR Darren Hiebert /dhiebert@users.sourceforge.net/ !_TAG_PROGRAM_NAME Exuberant Ctags // !_TAG_PROGRAM_URL http://ctags.sourceforge.net /official site/ !_TAG_PROGRAM_VERSION 5.7 //
+
+Editors can take advantage of these special tags to implement special features. For example, Vim pays attention to the !_TAG_FILE_SORTED tag and will use a binary search to search the tags file instead of a linear search if the file is indeed sorted.
+
+If you use tags files, we recommend that you get and install Exuberant ctags.
+
+
+
+
+
+Tag Stacks
+
+
+
+
+
+The ex command :tag and the vi mode ^] command provide a limited means of finding identifiers, based on the information provided in a tags file. Each of the clones extends this ability by maintaining a stack of tag locations. Each time you issue the ex command :tag, or use the vi mode ^] command, the editor saves the current location before searching for the specified tag. You may then return to a saved location using (usually) the vi command ^T or an ex command.
+
+Solaris vi tag stacking and an example are presented next. Vim’s tag stacking is described in the section Tag Stacking. The ways the other clones handle tag stacking is described in each editor’s respective chapter in Part III.
+
+
+
+
+
+Solaris vi
+
+
+
+
+
+Surprisingly enough, the Solaris version of vi supports tag stacking. Perhaps not so surprisingly, this feature is completely undocumented in the Solaris ex(1) and vi(1) manual pages. For completeness, we summarize Solaris vi tag stacking in Tables 8-3, 8-4, and 8-5. Tag stacking in Solaris vi is quite simple.[41]
+
+Table 8-3. Solaris vi tag commands
+
+CommandFunction
+
+ta[g][!] tagstring Edit the file containing tagstring as defined in the tags file. The ! forces vi to switch to the new file if the current buffer has been modified but not saved.
+
+
+
+po[p][!] Pop the tag stack by one element.
+
+
+
+
+
+Table 8-4. Solaris vi command mode tag commands
+
+CommandFunction
+
+^] Look up the location of the identifier under the cursor in the tags file, and move to that location. If tag stacking is enabled, the current location is automatically pushed onto the tag stack.
+
+
+
+^T Return to the previous location in the tag stack, i.e., pop off one element.
+
+
+
+
+
+Table 8-5. Solaris vi options for tag management
+
+OptionFunction
+
+taglength, tl Controls the number of significant characters in a tag that is to be looked up. The default value of zero indicates that all characters are significant.
+
+
+
+tags, tagpath The value is a list of filenames in which to look for tags. The default value is "tags /usr/lib/tags".
+
+
+
+tagstack When set to true, vi stacks each location on the tag stack. Use :set notagstack to disable tag stacking.
+
+
+
+
+
+Exuberant ctags and Vim
+
+
+
+
+
+To give you a feel for using tag stacks, we present a short example that uses Exuberant ctags and Vim.
+
+Suppose you are working with a program that uses the GNU getopt_long function, and you need to understand more about it.
+
+GNU getopt consists of three files: getopt.h, getopt.c, and getopt1.c.
+
+First, you create the tags file, and then you start by editing the main program, found in main.c:
+
+$ctags *.[ch] $ ls Makefile getopt.c getopt.h getopt1.c main.c tags $vim main.c
+
+KeystrokesResults
+
+/getopt_ /* option processing. ready, set, go! */ for (optopt = 0, old_optind = 1; (c =getopt_long(argc, argv, optlist, optab, NULL)) != EOF; optopt = 0, old_optind = optind) { if (do_posix) opterr = TRUE;
+
+
+
+Edit main.c and move to the call to getopt_long.
+
+
+
+^] intgetopt_long (int argc, char *const *argv, const char *options, const struct option *long_options, int *opt_index) { return _getopt_internal (argc, argv, options, long_options, opt_index, 0); } "getopt1.c" 192L, 4781C
+
+
+
+Do a tag lookup on getopt_long. Vim moves to getopt1.c, placing the cursor on the definition of getopt_long.
+
+
+
+
+
+It turns out that getopt_long is a “wrapper” function for _getopt_internal. You place the cursor on _getopt_internal and do another tag search.
+
+KeystrokesResults
+
+3jf_ ^] int_getopt_internal (int argc, char *const *argv, const char *optstring, const struct option *longopts, int *longind, int long_only) { int result; getopt_data.optind = optind; getopt_data.opterr = opterr; result = _getopt_internal_r (argc, argv, optstring, longopts, longind, long_only, &getopt_data); optind = getopt_data.optind; "getopt.c" 1225L, 33298C
+
+
+
+You have now moved to getopt.c. To find out more about struct option, move the cursor to option and do another tag search.
+
+
+
+jfo; ^] one). For long options that have a zero `flag' field, `getopt' returns the contents of the `val' field. */struct option { const char *name; /* has_arg can't be an enum because some compilers complain about type mismatches in all the code that assumes it is an int. */ int has_arg; int *flag; int val; }; /* Names for the values of the `has_arg' field of `struct option'. */ "getopt.h" 177L, 6130C
+
+
+
+The editor moves to the definition of struct option in getopt.h. You may now look over the comments that explain how it’s used.
+
+
+
+:tags # TO tag FROM line in file/text 1 1 getopt_long 310 main.c 2 1 _getopt_internal 67 getopt1.c 3 1 option 1129 getopt.c
+
+
+
+The :tags command in Vim displays the tag stack.
+
+
+
+
+
+Typing ^T three times would move you back to main.c, where you started. The tag facilities make it easy to move around as you edit source code.
+
+
+
+
+
+* * *
+
+
+
+[41] This information was discovered based on experimentation. YMMV (your mileage may vary).
+
+
+
+
+
+Improved Facilities
+
+
+
+
+
+All of the clones provide additional features that make simple text editing easier and more powerful:
+
+Editing the ex command line
+
+The ability to edit ex mode commands as you type them, possibly including a saved history of ex commands. Also, the ability to complete filenames and possibly other things, such as commands and options.
+
+
+
+No line length limit
+
+The ability to edit lines of essentially arbitrary length. Also, the ability to edit files containing any 8-bit character.
+
+
+
+Infinite undo
+
+The ability to successively undo all of the changes you’ve made to a file.
+
+
+
+Incremental searching
+
+The ability to search for text while you are typing the search pattern.
+
+
+
+Left/right scrolling
+
+The ability to let long lines trail off the edge of the screen instead of wrapping.
+
+
+
+Visual mode
+
+The ability to select arbitrary contiguous chunks of texts upon which some operation will be done.
+
+
+
+Mode indicators
+
+A visible indication of insert mode versus command mode, as well as indicators of the current line and column.
+
+
+
+
+
+Command-Line History and Completion
+
+
+
+
+
+Users of the csh, tcsh, ksh, zsh, and bash shells have known for years that being able to recall previous commands, edit them slightly, and resubmit them makes them more productive.
+
+This is no less true for editor users than it is for shell users; unfortunately, Unix vi does not have any facility to save and recall ex commands.
+
+This lack is remedied in each of the clones. Although each one provides a different way of saving and recalling the command history, each one’s mechanism is usable and useful.
+
+In addition to a command history, all of the editors can do some kind of completion. This is where you type the beginning of, for example, a filename. You then type a special character (such as tab), and the editor completes the filename for you. All of the editors can do filename completion, and some of them can complete other things as well. Details for Vim are found in the section Keyword and Dictionary Word Completion. Details for the other editors are provided in each editor’s chapter in Part III.
+
+
+
+
+
+Arbitrary Length Lines and Binary Data
+
+
+
+
+
+All the clones can handle lines of any length.[42] Historic versions of vi often had limits of around 1,000 characters per line; longer lines would be truncated.
+
+All are also 8-bit clean, meaning that they can edit files containing any 8-bit character. It is even possible to edit binary and executable files, if necessary. This can be really useful at times. You may or may not have to tell each editor that a file is binary:
+
+nvi
+
+Automatically handles binary data. No special command-line or ex options are required.
+
+
+
+elvis
+
+Under Unix, does not treat a binary file differently from any other file. On other systems, it uses the elvis.brf file to set the binary option, to avoid newline translation issues. (The elvis.brf file and hex display modes are described in the section Interesting Features.)
+
+
+
+Vim
+
+Does not limit the length of a line. When binary is not set, Vim is like nvi and automatically handles binary data. However, when editing a binary file, you should either use the -b command-line option or :set binary. These set several other Vim options that make it easier to edit binary files.
+
+
+
+vile
+
+Automatically handles binary data. No special command-line or ex options are required.
+
+
+
+
+
+Finally, there is one tricky detail. Traditional vi always writes the file with a final newline appended. When editing a binary file, this might add one character to the file and cause problems. nvi and Vim are compatible with vi by default and add that newline. In Vim you can set the binary option so this doesn’t happen. elvis and vile never append the extra newline.
+
+
+
+
+
+Infinite Undo
+
+
+
+
+
+Unix vi allows you to undo only your last change, or to restore the current line to the state it was in before you started making any changes. All of the clones provide “infinite undo,” the ability to keep undoing your changes, all the way back to the state the file was in before you started any editing.
+
+
+
+
+
+Incremental Searching
+
+
+
+
+
+When incremental searching is used, the editor moves the cursor through the file, matching text as you type the search pattern. When you finally type ENTER, the search is finished.[43] If you’ve never seen it before, it is rather disconcerting at first. However, after a while you get used to it, and eventually you come to wonder how you ever did without it.
+
+nvi, Vim, and elvis enable incremental searching with an option, and vile uses two special vi mode commands. vile can be compiled with incremental searching disabled, but it is enabled by default. Table 8-6 shows the options each editor provides.
+
+Table 8-6. Incremental searching
+
+EditorOption Command Action
+
+nvi searchincr The cursor moves through the file as you type, always being placed on the first character of the text that matches.
+
+
+
+Vim incsearch The cursor moves through the file as you type. Vim highlights the text that matches what you’ve typed so far.
+
+
+
+elvis incsearch The cursor moves through the file as you type. elvis highlights the text that matches what you’ve typed so far.
+
+
+
+vile ^X S, ^X R The cursor moves through the file as you type, always being placed on the first character of the text that matches. ^X S incrementally searches forward through the file, while ^X R incrementally searches backward.
+
+
+
+
+
+Left-Right Scrolling
+
+
+
+
+
+By default, vi and most of the clones wrap long lines around the screen. Thus, a single logical line of the file may occupy multiple physical lines on your screen.
+
+There are times when it might be preferable for a long line to simply disappear off the righthand edge of the screen instead of wrapping. Moving onto that line and then moving to the right would “scroll” the screen sideways. This feature is available in all of the clones. Typically, a numeric option controls how much to scroll the screen, and a Boolean option controls whether lines wrap or disappear off the edge of the screen. vile also has command keys to perform sideways scrolling of the entire screen. Table 8-7 shows how to use horizontal scrolling with each editor.
+
+Table 8-7. Sideways scrolling
+
+EditorScroll amountOptionAction
+
+nvi sidescroll = 16 leftright Off by default. When set, long lines simply go off the edge of the screen. The screen scrolls left or right by 16 characters at a time.
+
+
+
+elvis sidescroll = 8 wrap Off by default. When set, long lines simply go off the edge of the screen. The screen scrolls left or right by eight characters at a time.
+
+
+
+Vim sidescroll = 0 wrap Off by default. When set, long lines simply go off the edge of the screen. With sidescroll set to zero, each scroll puts the cursor in the middle of the screen. Otherwise, the screen scrolls by the desired number of characters.
+
+
+
+vile sideways = 0 linewrap Off by default. When set, long lines wrap. Thus, the default is to have long lines go off the edge of the screen. Long lines are marked at the left and right edges with < and >. With sideways set to zero, each scroll moves the screen by ⅓. Otherwise, the screen scrolls by the desired number of characters.
+
+
+
+horizscroll On by default. When set, moving the cursor along a long line offscreen shifts the whole screen. When not set, only the current line shifts; this may be desirable on slower displays.
+
+
+
+
+
+vile has two additional commands, ^X ^R and ^X ^L. These two commands scroll the screen right and left, respectively, leaving the cursor in its current location on the line. You cannot scroll so far that the cursor position would go off the screen.
+
+
+
+
+
+Visual Mode
+
+
+
+
+
+Typically, operations in vi apply to units of text—such as lines, words, or characters—or to sections of text from the current cursor position to a position specified by a search command. For example, d/^} deletes up to the next line that starts with a right brace. elvis and vile provide a mechanism to explicitly select a region of text to which an operation will apply. In particular, it is possible to select a rectangular block of text and apply an operation to all the text within the rectangle. See the section Visual Mode Motion for details on Vim. For details on the other editors, see each editor’s respective chapter in Part III.
+
+
+
+
+
+Mode Indicators
+
+
+
+
+
+As you know by now, vi has two modes—command mode and insert mode. Usually, you can’t tell by looking at the screen which mode you’re in. Furthermore, it’s often useful to know where in the file you are, without having to use the ^G or ex:= commands.
+
+Two options address these issues: showmode and ruler. All the clones agree on the option names and meanings, and even Solaris vi has the showmode option.
+
+Table 8-8 lists the special features in each editor.
+
+Table 8-8. Position and mode indicators
+
+EditorWith ruler, displaysWith showmode, displays
+
+nvi Row and column Insert, change, replace, and command mode indicators
+
+
+
+elvis Row and column Input and command mode indicators
+
+
+
+Vim Row and column Insert, replace, and visual mode indicators
+
+
+
+vile Row, column, and percent of file Insert, replace, and overwrite mode indicators
+
+
+
+vi N/A Separate mode indicators for open, input, insert, append, change, replace, replace one character, and substitute modes
+
+
+
+
+
+The GUI version of elvis changes the cursor shape depending on the current mode.
+
+
+
+
+
+* * *
+
+
+
+[42] Well, up to the maximum value of a C long, 2,147,483,647 (on a 32-bit computer).
+
+
+
+[43] Emacs has always had incremental searching.
+
+
+
+
+
+Programming Assistance
+
+
+
+
+
+vi was developed primarily as a programmer’s editor. It has features that make things especially easy for the traditional-style Unix programmer—someone writing C programs and troff documentation. (Real programmers write real documentation in troff.) Several of the clones are proud bearers of this tradition, adding a number of features that make them even more usable and capable for the “power user.”[44]
+
+Two features (among many) most deserve discussion:
+
+Edit-compile speedup
+
+elvis, Vim, and vile allow you to easily invoke make, capture the errors from your compiler, and automatically move to the lines containing the errors. You can then fix the errors and rerun make, all from within the editor.
+
+
+
+Syntax highlighting
+
+elvis, Vim, and vile have the ability to highlight and/or change the color of different syntactic elements in different kinds of files.
+
+
+
+
+
+Edit-Compile Speedup
+
+
+
+
+
+Programming often consists of an “edit-compile-debug” cycle. You make changes, compile the new code, and then test and debug it. When learning a new language, syntax errors are especially common, and it is frustrating to be constantly stopping and restarting (or suspending and resuming) the editor in between compiles.
+
+elvis, Vim, and vile all provide facilities that allow you to stay within the editor while compiling your program. Furthermore, they capture the compiler’s output and use it to automatically go to each line that contains an error.[45] Consistent use of this capability can save time and improve programmer productivity.
+
+Here is an example, using elvis. You are beginning to learn C++, so you start out with the obligatory first program:
+
+KeystrokesResults
+
+:w hello.C #include <iostream> int main() { std::cout << "hello, world!\n ; return 0; }
+
+
+
+You enter the program, forgetting the closing quote, and then write the program to hello.C.
+
+
+
+:make hello g++ hello.C -o hello hello.C:5: error: missing terminating " character hello.C: In function 'int main()': hello.C:6: error: expected primary-expression before 'return' hello.C:6: error: expected `;' before 'return' make: *** [hello] Error 1
+
+
+
+You type the :make command to run make, which in turn runs the C++ compiler. (In this case, g++.) The output from g++ describes each error.
+
+
+
+#include <iostream> int main() { std::cout << "hello, world\n ; return 0; } ~ line 5: missing terminating " character 5,8 Command
+
+
+
+The make output disappears quickly, and elvis replaces the status line with the first error message, positioning the cursor on the line that needs to be fixed.
+
+
+
+
+
+You can fix the error, resave the file, rerun :make, and eventually compile your program without errors.
+
+All of the editors have similar facilities. They will all compensate for changes in the file, correctly moving you to subsequent lines with errors. See the section Compiling and Checking Errors with Vim for details on Vim. For details on the other editors, see each editor’s respective chapter in Part III.
+
+
+
+
+
+Syntax Highlighting
+
+
+
+
+
+elvis, Vim, and vile all provide some form of syntax highlighting. All three also provide syntax coloring, which changes the color of different parts of the file on displays that can do so (such as under X11 or the Linux console). See the section Syntax Highlighting for more information on syntax highlighting in Vim. For information on the other editors, see each editor’s chapter in Part III.
+
+
+
+
+
+* * *
+
+
+
+[44] In contrast to the What You See Is What You Get (WYSIWYG) philosophy, Unix is the You Asked For It, You Got It operating system. (With thanks to Scott Lee.)
+
+
+
+[45] Yet another feature that Emacs users are accustomed to comes to vi.
+
+
+
+
+
+Editor Comparison Summary
+
+
+
+
+
+Most of the clones support most or all of the features described earlier in this chapter. Table 8-9 summarizes what each editor supports. Of course, the table does not tell the full story; the details are provided in the rest of the book.
+
+Table 8-9. Feature summary chart
+
+Featurenvielvisvimvile
+
+Multiwindow editing • • • •
+
+GUI • • •
+
+Extended regular expressions • • • •
+
+Enhanced tags • • •
+
+Tag stacks • • • •
+
+Arbitrary length lines • • • •
+
+8-bit data • • • •
+
+Infinite undo • • • •
+
+Incremental searching • • • •
+
+Left-right scrolling • • • •
+
+Mode indicators • • • •
+
+Visual mode • • •
+
+Edit-compile speedup • • •
+
+Syntax highlighting • • •
+
+Multiple OS support • • •
+
+
+
+
+
+Nothing Like the Original
+
+
+
+
+
+For many, many years, the source code to the original vi was unavailable without a Unix source code license. Although educational institutions were able to get licenses at a relatively low cost, commercial licenses were always expensive. This fact prompted the creation of all of the vi clones described in this book.
+
+In January 2002, the source code for V7 and 32V UNIX was made available under an open source-style license.[46] This opened up access to almost all of the code developed for BSD Unix, including ex and vi.
+
+The original code does not compile “out of the box” on modern systems, such as GNU/Linux, and porting it is difficult.[47] Fortunately, the work has already been done. If you would like to use the original, “real” vi, you can download the source code and build it yourself. See http://ex-vi.sourceforge.net/ for more information.
+
+
+
+
+
+* * *
+
+
+
+[46] For more information about this, see the Unix Historical Society web site at http://www.tuhs.org.
+
+
+
+[47] We know. We tried.
+
+
+
+
+
+A Look Ahead
+
+
+
+
+
+
+
+The three chapters in Part III cover nvi, elvis, and vile, in that order. Each chapter has the following outline:
+
+Who wrote the editor, and why.
+
+
+
+Important command-line arguments.
+
+
+
+Online help and other documentation.
+
+
+
+Initialization—what files and environment variables the program reads, and in what order.
+
+
+
+Multiwindow editing.
+
+
+
+GUI interface(s), if any.
+
+
+
+Extended regular expressions.
+
+
+
+Improved editing facilities (tag stacks, infinite undo, etc.).
+
+
+
+Programming assistance (edit-compile speedup, syntax highlighting).
+
+
+
+Interesting features unique to the program.
+
+
+
+Where to get the sources, and what operating systems the editor runs on.
+
+All of the distributions are compressed with gzip, GNU zip. If you don’t already have it, you can get gzip from ftp://ftp.gnu.org//gnu/gzip/gzip-1.3.12.tar.[48] The untar.c program available from the elvis FTP site is a very portable, simple program for unpacking gziped tar files on non-Unix systems.
+
+
+
+
+
+Because each of the programs discussed in Part III continues to undergo development, we have not attempted an exhaustive treatment of each one’s features. Such an approach would quickly become outdated. Instead, we have “hit the highlights,” covering the features that you are most likely to need and that are least likely to change as the program evolves. You should supplement this book with each program’s online documentation if you need to know how to use every last feature of your editor.
+
+
+
+
+
+* * *
+
+
+
+[48] This is current as of this writing. You may find a newer version.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

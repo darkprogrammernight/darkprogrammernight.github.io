@@ -1,0 +1,599 @@
+Chapter 16. nvi: New vi
+
+
+
+
+
+nvi is short for “new vi.” It was developed initially at the University of California at Berkeley (UCB), home of the famous Berkeley Software Distribution (BSD) versions of Unix. It was used for writing this chapter.
+
+
+
+
+
+Author and History
+
+
+
+
+
+The original vi was developed at UCB in the late 1970s by Bill Joy, then a computer science graduate student, and later a founder and vice president of Sun Microsystems.
+
+Prior to nvi, Bill Joy first built ex, by starting with and heavily enhancing the sixth edition ed editor. The first enhancement was open mode, done with Chuck Haley. Between 1976 and 1979, ex evolved into vi. Mark Horton then came to Berkeley, added macros “and other features,”[51] and did much of the labor on vi to make it work on a large number of terminals and Unix systems. By 4.1 BSD (1981), the vi editor already had essentially all of the features we have described in Part I of this book.
+
+Despite all of the changes, vi’s core was (and is) the original Unix ed editor. As such, it was code that could not be freely distributed. By the early 1990s, when they were working on 4.4 BSD, the BSD developers wanted a version of vi that could be freely distributed in source code form.
+
+Keith Bostic of UCB started with elvis 1.8,[52] which was a freely distributable vi clone, and began turning it into a “bug for bug compatible” clone of vi. nvi also complies with the POSIX Command Language and Utilities Standard (IEEE P1003.1) where it makes sense to do so.
+
+Although no longer affiliated with UCB, Keith Bostic continues to distribute nvi. The current version at the time of this writing is nvi 1.79.
+
+nvi is important because it is the “official” Berkeley version of vi. It is part of 4.4 BSD-Lite II, and it is the vi version used on the various popular BSD variants, such as NetBSD and FreeBSD.
+
+
+
+
+
+* * *
+
+
+
+[51] From the nvi reference manual. Unfortunately, it does not say which features.
+
+
+
+[52] Although little or no original elvis code is left.
+
+
+
+
+
+Important Command-Line Arguments
+
+
+
+
+
+In a pure BSD environment, nvi is installed under the names ex, vi, and view. Typically they are all links to the same executable, and nvi looks at how it is invoked to determine its behavior. (Unix vi works this way, too.) It allows the Q command from vi mode to switch it into ex mode. The view variant is like vi, except that the readonly option is set initially.
+
+nvi has a number of command-line options. The most useful are described here:
+
+-c command
+
+Execute command upon startup. This is the POSIX version of the historical +command syntax, but nvi is not limited to positioning commands. (The old syntax is also accepted.)
+
+
+
+-F
+
+Don’t copy the entire file when starting to edit. This may be faster, but it allows the possibility of someone else changing the file while you’re working on it.
+
+
+
+-r
+
+Recover specified files, or if no files are listed on the command line, list all the files that can be recovered.
+
+
+
+-R
+
+Start in read-only mode, setting the readonly option.
+
+
+
+-s
+
+Enter batch (script) mode. This is only for ex and is intended for running editing scripts. Prompts and nonerror messages are disabled. This is the POSIX version of the historic “-” argument; nvi supports both.
+
+
+
+-S
+
+Run with the secure option set, disallowing access to external programs.[53]
+
+
+
+-t tag
+
+Start editing at the specified tag.
+
+
+
+-w size
+
+Set the initial window size to size lines.
+
+
+
+
+
+* * *
+
+
+
+[53] As with anything labeled “secure,” blind trust is usually inappropriate. Keith Bostic says, though, that you can trust nvi’s secure option.
+
+
+
+
+
+Online Help and Other Documentation
+
+
+
+
+
+nvi comes with quite comprehensive printable documentation. In particular, it comes with troff source, formatted ASCII, and formatted PostScript for the following documents:
+
+The vi reference manual
+
+The reference manual for nvi. This manual describes all of the nvi command-line options, commands, options, and ex commands.
+
+
+
+The vi manpage
+
+The manpage for nvi.
+
+
+
+The vi tutorial
+
+This document is a tutorial introduction to editing with vi.
+
+
+
+The ex reference manual
+
+The reference manual for ex. This manual is the original one for ex; it is a bit out-of-date with respect to the facilities in nvi.
+
+
+
+
+
+Also included are ASCII files that document some of the nvi internals and provide a list of features that should be implemented, along with files that can be used as an online tutorial to vi.
+
+The online help built into nvi is minimal, consisting of two commands, :exusage and :viusage. These commands provide one-line summaries of each ex and vi command. This is usually sufficient to remind you about how something works, but not very good for learning about new or obscure features in nvi.
+
+You can give a command as an argument to the :exusage and :viusage commands, in which case nvi will display the help just for that command. nvi prints one line explaining what the command does, and a one-line summary of the command’s usage.
+
+
+
+
+
+Initialization
+
+
+
+
+
+If the -s or “-” options have been specified, then nvi will bypass all initializations. Otherwise, nvi performs the following steps:
+
+Read and execute the file /etc/vi.exrc. It must be owned either by root or by you.
+
+
+
+Execute the value of the NEXINIT environment variable if it exists; otherwise, use EXINIT if it exists. Only one will be used, not both. Bypass executing $HOME/.nexrc or $HOME/.exrc.
+
+
+
+If $HOME/.nexrc exists, read and execute it. Otherwise, if $HOME/.exrc exists, read and execute it. Only one will be used.
+
+
+
+If the exrc option has been set, then look for and execute either ./.nexrc if it exists, or ./.exrc. Only one will be used.
+
+
+
+
+
+nvi will not execute any file that is writable by anyone other than the file’s owner.
+
+The nvi documentation suggests putting common initialization actions into your .exrc file (i.e., options and commands for Unix vi), and having your .nexrc file execute :source .exrc before or after the nvi-specific initializations.
+
+
+
+
+
+Multiwindow Editing
+
+
+
+
+
+To create a new window in nvi, you use a capitalized version of one of the ex editing commands: Edit, Fg, Next, Previous, Tag, or Visual. (As usual, these commands can be abbreviated.) If your cursor is in the top half of the screen, the new window is created on the bottom half, and vice versa. You then switch to another window with CTRL-W:
+
+<preface id="VI6-CH-0"> <title>Preface </title> <para> Text editing is one of the most common uses of any computer system, and <command>vi</command> is one of the most useful standard text editors on your system. With <command>vi</command> you can create new files, or edit any existing Unix text file. </para>ch00.sgm: unmodified: line 1 # Makefile for vi book # # Arnold Robbins CHAPTERS = ch00_6.sgm ch00_5.sgm ch00.sgm ch01.sgm ch02.sgm ch03.sgm \ 	ch04.sgm ch05.sgm ch06.sgm ch07.sgm ch08.sgm APPENDICES = appa.sgm appb.sgm appc.sgm appd.sgm POSTSCRIPT = ch00_6.ps ch00_5.ps ch00.ps ch01.ps ch02.ps ch03.ps \ 	ch04.ps ch05.ps ch06.ps ch07.ps ch08.ps \Makefile: unmodified: line 1
+
+This example shows nvi editing two files, ch00.sgm and Makefile. The split screen is the result of typing nvi ch00.sgm followed by :Edit Makefile. The last line of each window acts as the status line, and it’s where colon commands are executed for that window. The status lines are highlighted in reverse video.
+
+The windowing ex mode commands and what they do are described in Table 16-1.
+
+Table 16-1. nvi window management commands
+
+CommandFunction
+
+bg Hide the current window. It can be recalled with the fg and Fg commands.
+
+
+
+di[splay] b[uffers] Display all buffers, including named, unnamed, and numeric buffers.
+
+
+
+di[splay] s[creens] Display the filenames of all backgrounded windows.
+
+
+
+Edit filename Edit filename in a new window.
+
+
+
+Edit /tmp Create a new window editing an empty buffer. /tmp is interpreted specially to create a new temporary file.
+
+
+
+fg filename Uncover filename into the current window. The previous file moves to the background.
+
+
+
+Fg filename Uncover filename in a new window. The current window is split, instead of redistributing the screen space among all open windows.
+
+
+
+Next Edit the next file in the argument list in a new window.
+
+
+
+Previous Edit the previous file in the argument list in a new window. (The corresponding previous command, which moves back to the previous file, exists in nvi; it is not in Unix vi.)
+
+
+
+resize ±nrows Increase or decrease the size of the current window by nrows rows.
+
+
+
+Tag tagstring Edit the file containing tagstring in a new window.
+
+
+
+
+
+The CTRL-W command cycles between windows, top to bottom. The :q and ZZ commands exit the current window.
+
+You may have multiple windows open on the same file. Changes made in one window are reflected in the other, although changes made in nvi’s insert mode are not seen in the other window until after you finalize the change by typing ESC. You will not be prompted to save your changes until you issue a command that would cause nvi to leave the last window open upon a file.
+
+
+
+
+
+GUI Interfaces
+
+
+
+
+
+nvi does not provide a graphical user interface (GUI) version.
+
+
+
+
+
+Extended Regular Expressions
+
+
+
+
+
+We introduced extended regular expressions earlier in the section Extended Regular Expressions. Here, we just summarize the metacharacters that nvi provides. nvi also supports the POSIX bracket expressions, [[:alnum:]], and so on.
+
+You use :set extended to enable extended regular expression matching:
+
+|
+
+Indicates alternation. The left and right sides need not be just single characters.
+
+
+
+(...)
+
+Used for grouping, to allow the application of additional regular expression operators.
+
+When extended is set, text grouped with parentheses acts like text grouped in \(...\) in regular vi; the actual text matched can be retrieved in the replacement part of a substitute command with \1, \2, etc. In this case, \( represents a literal left parenthesis.
+
+
+
++
+
+Matches one or more of the preceding regular expressions. This is either a single character or a group of characters enclosed in parentheses.
+
+
+
+?
+
+Matches zero or one occurrence of the preceding regular expression.
+
+
+
+{...}
+
+Defines an interval expression. Interval expressions describe counted numbers of repetitions. In the following descriptions, n and m represent integer constants:
+
+{ n }
+
+Matches exactly n repetitions of the previous regular expression.
+
+
+
+{ n ,}
+
+Matches n or more repetitions of the previous regular expression.
+
+
+
+{ n , m }
+
+Matches n to m repetitions.
+
+
+
+
+
+When extended is not set, nvi provides the same functionality with \{ and \}.
+
+
+
+
+
+As might be expected, when extended is set, you should precede metacharacters with a backslash in order to match them literally.
+
+
+
+
+
+Improvements for Editing
+
+
+
+
+
+This section describes the features of nvi that make simple text editing easier and more powerful.
+
+
+
+
+
+Command-Line History and Completion
+
+
+
+
+
+nvi saves your ex command lines and makes it possible for you to edit them for resubmission.
+
+This facility is controlled with the cedit option, whose value is a string.
+
+When you type the first character of this string on the colon command line, nvi opens a new window on the command history that you can then edit. On any given line when you hit ENTER, nvi executes that line. ESC is a good choice for this option. (Use ^V ^[ to enter it.)
+
+Because the ENTER key actually executes the command, be careful to use either the j or ↓ keys to move down from one line to the next.
+
+In addition to being able to edit your command line, you can also do filename expansion. This feature is controlled with the filec option.
+
+When you type the first character of this string on the colon command line, nvi treats the blank delimited word in front of the cursor as if it had an * appended to it and does shell-style filename expansion. ESC is also a good choice for this option. (Use ^V ^[ to enter it.) When this character is the same as for the cedit option, the command-line editing is performed only when it is entered as the first character on the colon command line.
+
+
+
+
+
+Note
+
+
+The nvi documentation indicates that TAB is another common choice for the filec option. To make this work, you must type :set filec=\TAB. In any case, in practice, using ESC for both options works well.
+
+
+
+It is easiest to set these options in your .nexrc file:
+
+set cedit=^[ set filec=^[
+
+
+
+
+
+Tag Stacks
+
+
+
+
+
+Tag stacking is described earlier in the section Tag Stacks. nvi’s tag stack is the simplest of the four clones. Tables 16-2 and 16-3 show the commands it uses.
+
+Table 16-2. nvi tag commands
+
+CommandFunction
+
+di[splay] t[ags] Display the tag stack.
+
+
+
+ta[g][!] tagstring Edit the file containing tagstring as defined in the tags file. The ! forces nvi to switch to the new file if the current buffer has been modified but not saved.
+
+
+
+Ta[g][!] tagstring Just like :tag, except that the file is edited in a new window.
+
+
+
+tagp[op][!] tagloc Pop to the given tag, or to the most recently used tag if no tagloc is supplied. The location may be either a filename of the tag of interest or a number indicating a position in the stack.
+
+
+
+tagt[op][!] Pop to the oldest tag in the stack, clearing the stack in the process.
+
+
+
+
+
+Table 16-3. nvi command mode tag commands
+
+CommandFunction
+
+^] Look up the location of the identifier under the cursor in the tags file, and move to that location. The current location is automatically pushed onto the tag stack.
+
+
+
+^T Return to the previous location in the tag stack, i.e., pop off one element.
+
+
+
+
+
+You can set the tags option to a list of filenames where nvi should look for a tag. This provides a simplistic search path mechanism. The default value is "tags /var/db/libc.tags /sys/kern/tags", which on a 4.4 BSD system looks in the current directory, and then in the files for the C library and the operating system source code.
+
+The taglength option controls how many characters in a tag string are significant. The default value of zero means to use all the characters.
+
+nvi behaves like vi: it uses the “word” under the cursor starting at the current cursor position. If your cursor is on the i in main, nvi searches for the identifier in, not main.
+
+nvi relies on the traditional tags file format. Unfortunately, this format is very limited. In particular, it has no concept of programming language scope, which allows the same identifier to be used in different contexts to mean different things. The problem is exacerbated by C++, which explicitly allows function name overloading, i.e., the use of the same name for different functions.
+
+nvi gets around the tags file limitations by using a different mechanism entirely: the cscope program. cscope, once proprietary, is now an open source program available from the Bell Labs World-Wide Exptools project (see http://www.bell-labs.com/project/wwexptools/). It reads C source files and builds a database describing the program. nvi provides commands that query the database and allow you to process the results. Because cscope is not universally available, we do not cover its use here. Details of the nvi commands are provided in the nvi documentation.
+
+The extended tags file format produced by Exuberant ctags does not produce any errors with nvi 1.79; however, nvi does not take advantage of this format, either.
+
+
+
+
+
+Infinite Undo
+
+
+
+
+
+In vi, the dot (.) command generally acts as the “do again” command; it repeats the last editing action you performed, be it a deletion, insertion, or replacement.
+
+nvi generalizes the dot command into a full “redo” command, applying it even if the last command was u for “undo.”
+
+Thus, to begin a series of “undo” commands, first type a u. Then, for each . (dot) that you type, nvi will continue to undo changes, moving the file progressively closer to its original state.
+
+Eventually, you will reach the initial state of your file. At that point, typing . will just ring the bell (or flash the screen). You can now begin redoing by typing u to “undo the undos” and then using . to reapply successive changes.
+
+nvi does not allow you to provide a count to either the u or . command.
+
+
+
+
+
+Arbitrary Length Lines and Binary Data
+
+
+
+
+
+nvi can edit files with arbitrary length lines and with an arbitrary number of lines.
+
+nvi automatically handles binary data. No special command-line options or ex options are required. You use ^X followed by one or two hexadecimal digits to enter any 8-bit character into your file.
+
+
+
+
+
+Incremental Searching
+
+
+
+
+
+Enable incremental searching in nvi using :set searchincr.
+
+The cursor moves through the file as you type, always being placed on the first character of the text that matches.
+
+
+
+
+
+Left-Right Scrolling
+
+
+
+
+
+Enable left-right scrolling in nvi using :set leftright. The value of sidescroll controls the number of characters by which nvi shifts the screen when scrolling left to right.
+
+
+
+
+
+Programming Assistance
+
+
+
+
+
+nvi does not provide specific programming assistance facilities.
+
+
+
+
+
+Interesting Features
+
+
+
+
+
+nvi is the most minimal of the clones, without a large number of additional features that have not yet been covered. However, it does have several important features worthy of mention:
+
+Internationalization support
+
+Most of the informational and warning messages in nvi can be replaced with translations into a different language, using a facility known as a “message catalog.” nvi implements this facility itself, using a straightforward mechanism documented in the file catalog/README in the nvi distribution. Message catalogs are provided for Dutch, English, French, German, Russian, Spanish, and Swedish.
+
+
+
+Arbitrary buffer names
+
+Historically, vi buffer names are limited to the 26 characters of the alphabet. nvi allows you to use any character as a buffer name.
+
+
+
+Special interpretation of /tmp
+
+For any ex command that needs a filename argument, if you use the special name /tmp, nvi will replace it with the name of a unique temporary file.
+
+
+
+
+
+Sources and Supported Operating Systems
+
+
+
+
+
+nvi can be obtained from http://www.bostic.com/vi. This is a web page from which you can download the current version,[54] and can also ask to be added to a mailing list that sends notifications about new versions of nvi and new features.
+
+The source code for nvi is freely distributable. The licensing terms are described in the LICENSE file in the distribution, and they permit distribution in source and binary form.
+
+nvi builds and runs under Unix. It can also be built to run under LynxOS 2.4.0, and possibly later versions. It may build and run on other POSIX-compliant systems as well, but the documentation does not contain a specific list of known operating systems.
+
+Compiling nvi is straightforward. Retrieve the distribution via ftp. Uncompress and untar it, run the configure program, and then run make:
+
+$gzip -d < nvi.tar.gz | tar -xvpf - ... $ cd nvi-1.79; ./configure ... $ make ...
+
+nvi should configure and build with no problems. Use make install to install it.
+
+Should you need to report a bug or problem in nvi, the person to contact is Keith Bostic, at bostic@bostic.com.
+
+
+
+
+
+* * *
+
+
+
+[54] A GUI version of nvi is under development; see the web page for contact information if you’re interested.
+
+
+
+
+
