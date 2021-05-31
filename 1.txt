@@ -1,376 +1,728 @@
-Chapter 1. The vi Text Editor
+Preface
 
 
+“Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.” (From the Go web site at golang.org)
 
+Go was conceived in September 2007 by Robert Griesemer, Rob Pike, and Ken Thompson, all at Google, and was announced in November 2009. The goals of the language and its accompanying tools were to be expressive, efficient in both compilation and execution, and effective in writing reliable and robust programs.
 
+Go bears a surface similarity to C and, like C, is a tool for professional programmers, achieving maximum effect with minimum means. But it is much more than an updated version of C. It borrows and adapts good ideas from many other languages, while avoiding features that have led to complexity and unreliable code. Its facilities for concurrency are new and efficient, and its approach to data abstraction and object-oriented programming is unusually flexible. It has automatic memory management or garbage collection.
 
-Unix[4] has a number of editors that can process the contents of text files, whether those files contain data, source code, or sentences. There are line editors, such as ed and ex, which display a line of the file on the screen; and there are screen editors, such as vi and Emacs, which display a part of the file on your terminal screen. Text editors based on the X Window System are also commonly available and are becoming increasing popular. Both GNU Emacs and its derivative, XEmacs, provide multiple X windows; two interesting alternatives are the sam and Acme editors from Bell Labs. Vim also provides an X-based interface.
+Go is especially well suited for building infrastructure like networked servers, and tools and systems for programmers, but it is truly a general-purpose language and finds use in domains as diverse as graphics, mobile applications, and machine learning. It has become popular as a replacement for untyped scripting languages because it balances expressiveness with safety: Go programs typically run faster than programs written in dynamic languages and suffer far fewer crashes due to unexpected type errors.
 
-vi is the most useful standard text editor on your system. (vi is short for visual editor and is pronounced “vee-eye.” This is illustrated graphically in Figure 1-1.) Unlike Emacs, it is available in nearly identical form on every modern Unix system, thus providing a kind of text-editing lingua franca.[5] The same might be said of ed and ex, but screen editors are generally much easier to use. (So much so, in fact, that line editors have generally fallen into disuse.) With a screen editor, you can scroll the page, move the cursor, delete lines, insert characters, and more, while seeing the results of your edits as you make them. Screen editors are very popular, since they allow you to make changes as you read through a file, like you would edit a printed copy, only faster.
+Go is an open-source project, so source code for its compiler, libraries, and tools is freely available to anyone. Contributions to the project come from an active worldwide community. Go runs on Unix-like systems—Linux, FreeBSD, OpenBSD, Mac OS X—and on Plan 9 and Microsoft Windows. Programs written in one of these environments generally work without modification on the others.
 
+This book is meant to help you start using Go effectively right away and to use it well, taking full advantage of Go’s language features and standard libraries to write clear, idiomatic, and efficient programs.
 
 
 
 
-Figure 1-1. Correct pronunciation of vi
 
+The Origins of Go
 
 
-To many beginners, vi looks unintuitive and cumbersome—instead of using special control keys for word processing functions and just letting you type normally, it uses all of the regular keyboard keys for issuing commands. When the keyboard keys are issuing commands, vi is said to be in command mode. You must be in a special insert mode before you can type actual text on the screen. In addition, there seem to be so many commands.
+Like biological species, successful languages beget offspring that incorporate the advantages of their ancestors; interbreeding sometimes leads to surprising strengths; and, very occasionally, a radical new feature arises without precedent. We can learn a lot about why a language is the way it is and what environment it has been adapted for by looking at these influences.
 
-Once you start learning, however, you realize that vi is well designed. You need only a few keystrokes to tell vi to do complex tasks. As you learn vi, you learn shortcuts that transfer more and more of the editing work to the computer—where it belongs.
+The figure below shows the most important influences of earlier programming languages on the design of Go.
 
-vi (like any text editor) is not a “what you see is what you get” word processor. If you want to produce formatted documents, you must type in codes that are used by another formatting program to control the appearance of the printed copy. If you want to indent several paragraphs, for instance, you put a code where the indent begins and ends. Formatting codes allow you to experiment with or change the appearance of your printed files, and, in many ways, they give you much more control over the appearance of your documents than a word processor. Unix supports the troff formatting package.[6] The TeX and LaTeX formatters are popular, commonly available alternatives.[7]
 
-(vi does support some simple formatting mechanisms. For example, you can tell it to automatically wrap when you come to the end of a line, or to automatically indent new lines. In addition, Vim version 7 provides automatic spellchecking.)
 
-As with any skill, the more editing you do, the easier the basics become, and the more you can accomplish. Once you are used to all the powers you have while editing with vi, you may never want to return to any “simpler” editor.
+Go is sometimes described as a “C-like language,” or as “C for the 21st century.” From C, Go inherited its expression syntax, control-flow statements, basic data types, call-by-value parameter passing, pointers, and above all, C’s emphasis on programs that compile to efficient machine code and cooperate naturally with the abstractions of current operating systems.
 
-What are the components of editing? First, you want to insert text (a forgotten word or a new or missing sentence), and you want to delete text (a stray character or an entire paragraph). You also need to change letters and words (to correct misspellings or to reflect a change of mind about a term). You might want to move text from one place to another part of your file. And, on occasion, you want to copy text to duplicate it in another part of your file.
+But there are other ancestors in Go’s family tree. One major stream of influence comes from languages by Niklaus Wirth, beginning with Pascal. Modula-2 inspired the package concept. Oberon eliminated the distinction between module interface files and module implementation files. Oberon-2 influenced the syntax for packages, imports, and declarations, and Object Oberon provided the syntax for method declarations.
 
-Unlike many word processors, vi’s command mode is the initial or “default” mode. Complex, interactive edits can be performed with only a few keystrokes. (And to insert raw text, you simply give any of the several “insert” commands and then type away.)
+Another lineage among Go’s ancestors, and one that makes Go distinctive among recent programming languages, is a sequence of little-known research languages developed at Bell Labs, all inspired by the concept of communicating sequential processes (CSP) from Tony Hoare’s seminal 1978 paper on the foundations of concurrency. In CSP, a program is a parallel composition of processes that have no shared state; the processes communicate and synchronize using channels. But Hoare’s CSP was a formal language for describing the fundamental concepts of concurrency, not a programming language for writing executable programs.
 
-One or two characters are used for the basicIp commands. For example:
+Rob Pike and others began to experiment with CSP implementations as actual languages. The first was called Squeak (“A language for communicating with mice”), which provided a language for handling mouse and keyboard events, with statically created channels. This was followed by Newsqueak, which offered C-like statement and expression syntax and Pascal-like type notation. It was a purely functional language with garbage collection, again aimed at managing keyboard, mouse, and window events. Channels became first-class values, dynamically created and storable in variables.
 
-i
+The Plan 9 operating system carried these ideas forward in a language called Alef. Alef tried to make Newsqueak a viable system programming language, but its omission of garbage collection made concurrency too painful.
 
-Insert
+Other constructions in Go show the influence of non-ancestral genes here and there; for example iota is loosely from APL, and lexical scope with nested functions is from Scheme (and most languages since). Here too we find novel mutations. Go’s innovative slices provide dynamic arrays with efficient random access but also permit sophisticated sharing arrangements reminiscent of linked lists. And the defer statement is new with Go.
 
 
 
-cw
 
-Change word
 
+The Go Project
 
 
+All programming languages reflect the programming philosophy of their creators, which often includes a significant component of reaction to the perceived shortcomings of earlier languages. The Go project was born of frustration with several software systems at Google that were suffering from an explosion of complexity. (This problem is by no means unique to Google.)
 
+As Rob Pike put it, “complexity is multiplicative”: fixing a problem by making one part of the system more complex slowly but surely adds complexity to other parts. With constant pressure to add features and options and configurations, and to ship code quickly, it’s easy to neglect simplicity, even though in the long run simplicity is the key to good software.
 
-Using letters as commands, you can edit a file with great speed. You don’t have to memorize banks of function keys or stretch your fingers to reach awkward combinations of keys. You never have to remove your hands from the keyboard, or mess around with multiple levels of menus! Most of the commands can be remembered by the letters that perform them, and nearly all commands follow similar patterns and are related to each other.
+Simplicity requires more work at the beginning of a project to reduce an idea to its essence and more discipline over the lifetime of a project to distinguish good changes from bad or pernicious ones. With sufficient effort, a good change can be accommodated without compromising what Fred Brooks called the “conceptual integrity” of the design but a bad change cannot, and a pernicious change trades simplicity for its shallow cousin, convenience. Only through simplicity of design can a system remain stable, secure, and coherent as it grows.
 
-In general, vi commands:
+The Go project includes the language itself, its tools and standard libraries, and last but not least, a cultural agenda of radical simplicity. As a recent high-level language, Go has the benefit of hindsight, and the basics are done well: it has garbage collection, a package system, first-class functions, lexical scope, a system call interface, and immutable strings in which text is generally encoded in UTF-8. But it has comparatively few features and is unlikely to add more. For instance, it has no implicit numeric conversions, no constructors or destructors, no operator overloading, no default parameter values, no inheritance, no generics, no exceptions, no macros, no function annotations, and no thread-local storage. The language is mature and stable, and guarantees backwards compatibility: older Go programs can be compiled and run with newer versions of compilers and standard libraries.
 
-Are case-sensitive (uppercase and lowercase keystrokes mean different things; I is different from i).
+Go has enough of a type system to avoid most of the careless mistakes that plague programmers in dynamic languages, but it has a simpler type system than comparable typed languages. This approach can sometimes lead to isolated pockets of “untyped” programming within a broader framework of types, and Go programmers do not go to the lengths that C++ or Haskell programmers do to express safety properties as type-based proofs. But in practice Go gives programmers much of the safety and run-time performance benefits of a relatively strong type system without the burden of a complex one.
 
+Go encourages an awareness of contemporary computer system design, particularly the importance of locality. Its built-in data types and most library data structures are crafted to work naturally without explicit initialization or implicit constructors, so relatively few memory allocations and memory writes are hidden in the code. Go’s aggregate types (structs and arrays) hold their elements directly, requiring less storage and fewer allocations and pointer indirections than languages that use indirect fields. And since the modern computer is a parallel machine, Go has concurrency features based on CSP, as mentioned earlier. The variable-size stacks of Go’s lightweight threads or goroutines are initially small enough that creating one goroutine is cheap and creating a million is practical.
 
+Go’s standard library, often described as coming with “batteries included,” provides clean building blocks and APIs for I/O, text processing, graphics, cryptography, networking, and distributed applications, with support for many standard file formats and protocols. The libraries and tools make extensive use of convention to reduce the need for configuration and explanation, thus simplifying program logic and making diverse Go programs more similar to each other and thus easier to learn. Projects built using the go tool use only file and identifier names and an occasional special comment to determine all the libraries, executables, tests, benchmarks, examples, platform-specific variants, and documentation for a project; the Go source itself contains the build specification.
 
-Are not shown (or “echoed”) on the screen when you type them.
 
 
 
-Do not require an ENTER after the command.
 
+Organization of the Book
 
 
+We assume that you have programmed in one or more other languages, whether compiled like C, C++, and Java, or interpreted like Python, Ruby, and JavaScript, so we won’t spell out everything as if for a total beginner. Surface syntax will be familiar, as will variables and constants, expressions, control flow, and functions.
 
+Chapter 1 is a tutorial on the basic constructs of Go, introduced through a dozen programs for everyday tasks like reading and writing files, formatting text, creating images, and communicating with Internet clients and servers.
 
-There is also a group of commands that echo on the bottom line of the screen. Bottom-line commands are preceded by different symbols. The slash (/) and the question mark (?) begin search commands, and are discussed in Chapter 3. A colon (:) begins all ex commands. ex commands are those used by the ex line editor. The ex editor is available to you when you use vi, because ex is the underlying editor and vi is really just its “visual” mode. ex commands and concepts are discussed fully in Chapter 5, but this chapter introduces you to the ex commands to quit a file without saving edits.
+Chapter 2 describes the structural elements of a Go program—declarations, variables, new types, packages and files, and scope. Chapter 3 discusses numbers, booleans, strings, and constants, and explains how to process Unicode. Chapter 4 describes composite types, that is, types built up from simpler ones using arrays, maps, structs, and slices, Go’s approach to dynamic lists. Chapter 5 covers functions and discusses error handling, panic and recover, and the defer statement.
 
+Chapters 1 through 5 are thus the basics, things that are part of any mainstream imperative language. Go’s syntax and style sometimes differ from other languages, but most programmers will pick them up quickly. The remaining chapters focus on topics where Go’s approach is less conventional: methods, interfaces, concurrency, packages, testing, and reflection.
 
+Go has an unusual approach to object-oriented programming. There are no class hierarchies, or indeed any classes; complex object behaviors are created from simpler ones by composition, not inheritance. Methods may be associated with any user-defined type, not just structures, and the relationship between concrete types and abstract types (interfaces) is implicit, so a concrete type may satisfy an interface that the type’s designer was unaware of. Methods are covered in Chapter 6 and interfaces in Chapter 7.
 
+Chapter 8 presents Go’s approach to concurrency, which is based on the idea of communicating sequential processes (CSP), embodied by goroutines and channels. Chapter 9 explains the more traditional aspects of concurrency based on shared variables.
 
+Chapter 10 describes packages, the mechanism for organizing libraries. This chapter also shows how to make effective use of the go tool, which provides for compilation, testing, benchmarking, program formatting, documentation, and many other tasks, all within a single command.
 
-A Brief Historical Perspective
+Chapter 11 deals with testing, where Go takes a notably lightweight approach, avoiding abstraction-laden frameworks in favor of simple libraries and tools. The testing libraries provide a foundation atop which more complex abstractions can be built if necessary.
 
+Chapter 12 discusses reflection, the ability of a program to examine its own representation during execution. Reflection is a powerful tool, though one to be used carefully; this chapter explains finding the right balance by showing how it is used to implement some important Go libraries. Chapter 13 explains the gory details of low-level programming that uses the unsafe package to step around Go’s type system, and when that is appropriate.
 
+Each chapter has a number of exercises that you can use to test your understanding of Go, and to explore extensions and alternatives to the examples from the book.
 
+All but the most trivial code examples in the book are available for download from the public Git repository at gopl.io. Each example is identified by its package import path and may be conveniently fetched, built, and installed using the go get command. You’ll need to choose a directory to be your Go workspace and set the GOPATH environment variable to point to it. The go tool will create the directory if necessary. For example:
 
+Click here to view code image
 
-Before diving into all the ins and outs of vi, it will help you to understand vi’s worldview of your environment. In particular, this will help you make sense of many of vi’s otherwise more obscure error messages, and also appreciate how the vi clones have evolved beyond the original vi.
+$ export GOPATH=$HOME/gobook # choose workspace directory $ go get gopl.io/ch1/helloworld # fetch, build, install $ $GOPATH/bin/helloworld # run Hello,
 
-vi dates back to a time when computer users worked on terminals connected via serial lines to central mini-computers. Hundreds of different kinds of terminals existed and were in use worldwide. Each one did the same kind of actions (clear the screen, move the cursor, etc.), but the commands needed to make them do these actions were different. In addition, the Unix system let you choose the characters to use for backspace, generating an interrupt signal, and other commands useful on serial terminals, such as suspending and resuming output. These facilities were (and still are) managed with the sttycommand.
+To run the examples, you will need at least version 1.5 of Go.
 
-The original UCB version of vi abstracted out the terminal control information from the code (which was hard to change) into a text-file database of terminal capabilities (which was easy to change), managed by the termcap library. In the early 1980s, System V introduced a binary terminal information database and terminfo library. The two libraries were largely functionally equivalent. In order to tell vi which terminal you had, you had to set the TERM environment variable. This was typically done in a shell startup file, such as .profile or .login.
+$ go version go version go1.5 linux/amd64
 
-Today, everyone uses terminal emulators in a graphic environment (such as xterm). The system almost always takes care of setting TERM for you. (You can use vi from a PC non-GUI console too, of course. This is very useful when doing system recovery work in single-user mode. There aren’t too many people left who would want to work this way on a regular basis, though.) For day-to-day use, it is likely that you will want to use a GUI version of vi, such as Vim or one of the other clones. On a Microsoft Windows or Mac OS X system, this will probably be the default. However, when you run vi (or some other screen editor of the same vintage) inside a terminal emulator, it still uses TERM and termcap or terminfo and pays attention to the stty settings. And using it inside a terminal emulator is just as easy a way to learn vi as any other.
+Follow the instructions at https://golang.org/doc/install if the go tool on your computer is older or missing.
 
-Another important fact to understand about vi is that it was developed at a time when Unix systems were considerably less stable than they are today. The vi user of yesteryear had to be prepared for the system to crash at arbitrary times, and so vi included support for recovering files that were in the middle of being edited when the system crashed.[8] So, as you learn vi and see the descriptions of various problems that might occur, bear these historical developments in mind.
 
 
 
 
+Where to Find More Information
 
-* * *
 
+The best source for more information about Go is the official web site, https://golang.org, which provides access to the documentation, including the Go Programming Language Specification, standard packages, and the like. There are also tutorials on how to write Go and how to write it well, and a wide variety of online text and video resources that will be valuable complements to this book. The Go Blog at blog.golang.org publishes some of the best writing on Go, with articles on the state of the language, plans for the future, reports on conferences, and in-depth explanations of a wide variety of Go-related topics.
 
+One of the most useful aspects of online access to Go (and a regrettable limitation of a paper book) is the ability to run Go programs from the web pages that describe them. This functionality is provided by the Go Playground at play.golang.org, and may be embedded within other pages, such as the home page at golang.org or the documentation pages served by the godoc tool.
 
-[4] These days, the term “Unix” includes both commercial systems derived from the original Unix code base, and Unix work-alikes whose source code is available. Solaris, AIX, and HP-UX are examples of the former, and GNU/Linux and the various BSD-derived systems are examples of the latter. Unless otherwise noted, everything in this book applies across the board to all those systems.
+The Playground makes it convenient to perform simple experiments to check one’s understanding of syntax, semantics, or library packages with short programs, and in many ways takes the place of a read-eval-print loop (REPL) in other languages. Its persistent URLs are great for sharing snippets of Go code with others, for reporting bugs or making suggestions.
 
+Built atop the Playground, the Go Tour at tour.golang.org is a sequence of short interactive lessons on the basic ideas and constructions of Go, an orderly walk through the language.
 
+The primary shortcoming of the Playground and the Tour is that they allow only standard libraries to be imported, and many library features—networking, for example—are restricted for practical or security reasons. They also require access to the Internet to compile and run each program. So for more elaborate experiments, you will have to run Go programs on your own computer. Fortunately the download process is straightforward, so it should not take more than a few minutes to fetch the Go distribution from golang.org and start writing and running Go programs of your own.
 
-[5] GNU Emacs has become the universal version of Emacs. The only problem is that it doesn’t come standard with most commercial Unix systems; you must retrieve and install it yourself.
+Since Go is an open-source project, you can read the code for any type or function in the standard library online at https://golang.org/pkg; the same code is part of the downloaded distribution. Use this to figure out how something works, or to answer questions about details, or merely to see how experts write really good Go.
 
 
 
-[6] troff is for laser printers and typesetters. Its “twin brother” is nroff, for line printers and terminals. Both accept the same input language. Following common Unix convention, we refer to both with the name troff. Today, anyone using troff uses the GNU version, groff. See http://www.gnu.org/software/groff/ for more information.
 
 
+Acknowledgments
 
-[7] See http://www.ctan.org and http://www.latex-project.org for information on TeX and LaTeX, respectively.
 
+Rob Pike and Russ Cox, core members of the Go team, read the manuscript several times with great care; their comments on everything from word choice to overall structure and organization have been invaluable. While preparing the Japanese translation, Yoshiki Shibata went far beyond the call of duty; his meticulous eye spotted numerous inconsistencies in the English text and errors in the code. We greatly appreciate thorough reviews and critical comments on the entire manuscript from Brian Goetz, Corey Kosak, Arnold Robbins, Josh Bleecher Snyder, and Peter Weinberger.
 
+We are indebted to Sameer Ajmani, Ittai Balaban, David Crawshaw, Billy Donohue, Jonathan Feinberg, Andrew Gerrand, Robert Griesemer, John Linderman, Minux Ma, Bryan Mills, Bala Natarajan, Cosmos Nicolaou, Paul Staniforth, Nigel Tao, and Howard Trickey for many helpful suggestions. We also thank David Brailsford and Raph Levien for typesetting advice, and Chris Loper for explaining many mysteries of e-book production.
 
-[8] Thankfully, this kind of thing is much less common, although systems can still crash due to external circumstances, such as a power outage.
+Our editor Greg Doench at Addison-Wesley got the ball rolling originally and has been continuously helpful ever since. The AW production team—John Fuller, Dayna Isley, Julie Nahil, Chuti Prasertsith, and Barbara Wood—has been outstanding; authors could not hope for better support.
 
+Alan Donovan wishes to thank: Sameer Ajmani, Chris Demetriou, Walt Drummond, and Reid Tatge at Google for allowing him time to write; Stephen Donovan, for his advice and timely encouragement; and above all, his wife Leila Kazemi, for her unhesitating enthusiasm and unwavering support for this project, despite the long hours of distraction and absenteeism from family life that it entailed.
 
+Brian Kernighan is deeply grateful to friends and colleagues for their patience and forbearance as he moved slowly along the path to understanding, and especially to his wife Meg, who has been unfailingly supportive of book-writing and so much else.
 
+New York
 
+October 2015
 
-Opening and Closing Files
 
 
 
 
+1. Tutorial
 
-You can use vi to edit any text file. vi copies the file to be edited into a buffer (an area temporarily set aside in memory), displays the buffer (though you can see only one screenful at a time), and lets you add, delete, and change text. When you save your edits, vi copies the edited buffer back into a permanent file, replacing the old file of the same name. Remember that you are always working on acopy of your file in the buffer, and that your edits will not affect your original file until you save the buffer. Saving your edits is also called “writing the buffer,” or more commonly, “writing your file.”
 
+This chapter is a tour of the basic components of Go. We hope to provide enough information and examples to get you off the ground and doing useful things as quickly as possible. The examples here, and indeed in the whole book, are aimed at tasks that you might have to do in the real world. In this chapter we’ll try to give you a taste of the diversity of programs that one might write in Go, ranging from simple file processing and a bit of graphics to concurrent Internet clients and servers. We certainly won’t explain everything in the first chapter, but studying such programs in a new language can be an effective way to get started.
 
+When you’re learning a new language, there’s a natural tendency to write code as you would have written it in a language you already know. Be aware of this bias as you learn Go and try to avoid it. We’ve tried to illustrate and explain how to write good Go, so use the code here as a guide when you’re writing your own.
 
 
 
-Opening a File
 
 
+1.1 Hello, World
 
 
+We’ll start with the now-traditional “hello, world” example, which appears at the beginning of The C Programming Language, published in 1978. C is one of the most direct influences on Go, and “hello, world” illustrates a number of central ideas.
 
-vi is the Unix command that invokes the vi editor for an existing file or for a brand new file. The syntax for the vi command is:
+Click here to view code image
 
-$vi [filename]
+gopl.io/ch1/helloworld
 
-The brackets shown on the above command line indicate that the filename is optional. The brackets should not be typed. The $ is the Unix prompt. If the filename is omitted, vi will open an unnamed buffer. You can assign the name when you write the buffer into a file. For right now, though, let’s stick to naming the file on the command line.
+package main import "fmt" func main() { fmt.Println("Hello, ") }
 
-A filename must be unique inside its directory. A filename can include any 8-bit character except a slash (/), which is reserved as the separator between files and directories in a pathname, and ASCII NUL, the character with all zero bits. You can even include spaces in a filename by typing a backslash (\) before the space. In practice, though, filenames generally consist of any combination of uppercase and lowercase letters, numbers, and the characters dot (.) and underscore (_). Remember that Unix is case-sensitive: lowercase letters are distinct from uppercase letters. Also remember that you must press ENTER to tell Unix that you are finished issuing your command.
 
-When you want to open a new file in a directory, give a new filename with the vi command. For example, if you want to open a new file called practice in the current directory, you would enter:
 
-$vi practice
+Go is a compiled language. The Go toolchain converts a source program and the things it depends on into instructions in the native machine language of a computer. These tools are accessed through a single command called go that has a number of subcommands. The simplest of these subcommands is run, which compiles the source code from one or more source files whose names end in .go, links it with libraries, then runs the resulting executable file. (We will use $ as the command prompt throughout the book.)
 
-Since this is a new file, the buffer is empty and the screen appears as follows:
+$ go run helloworld.go
 
-~ ~ ~ "practice" [New file]
+Not surprisingly, this prints
 
-The tildes (~) down the lefthand column of the screen indicate that there is no text in the file, not even blank lines. The prompt line (also called the status line) at the bottom of the screen echoes the name and status of the file.
+Hello,
 
-You can also edit any existing text file in a directory by specifying its filename. Suppose that there is a Unix file with the pathname /home/john/letter. If you are already in the /home/john directory, use the relative pathname. For example:
+Go natively handles Unicode, so it can process text in all the world’s languages.
 
-$vi letter
+If the program is more than a one-shot experiment, it’s likely that you would want to compile it once and save the compiled result for later use. That is done with go build:
 
-brings a copy of the file letter to the screen.
+$ go build helloworld.go
 
-If you are in another directory, give the full pathname to begin editing:
+This creates an executable binary file called helloworld that can be run any time without further processing:
 
-$vi /home/john/letter
+$ ./helloworld Hello,
 
 
 
+We have labeled each significant example as a reminder that you can obtain the code from the book’s source code repository at gopl.io:
 
+gopl.io/ch1/helloworld
 
-Problems Opening Files
 
 
+If you run go get gopl.io/ch1/helloworld, it will fetch the source code and place it in the corresponding directory. There’s more about this topic in Section 2.6 and Section 10.7.
 
+Let’s now talk about the program itself. Go code is organized into packages, which are similar to libraries or modules in other languages. A package consists of one or more .go source files in a single directory that define what the package does. Each source file begins with a package declaration, here package main, that states which package the file belongs to, followed by a list of other packages that it imports, and then the declarations of the program that are stored in that file.
 
+The Go standard library has over 100 packages for common tasks like input and output, sorting, and text manipulation. For instance, the fmt package contains functions for printing formatted output and scanning input. Println is one of the basic output functions in fmt; it prints one or more values, separated by spaces, with a newline character at the end so that the values appear as a single line of output.
 
-When you invoke vi , the message [open mode] appears.
+Package main is special. It defines a standalone executable program, not a library. Within package main the function main is also special—it’s where execution of the program begins. Whatever main does is what the program does. Of course, main will normally call upon functions in other packages to do much of the work, such as the function fmt.Println.
 
-Your terminal type is probably incorrectly identified. Quit the editing session immediately by typing :q. Check the environment variable $TERM. It should be set to the name of your terminal. Or ask your system administrator to provide an adequate terminal type setting.
+We must tell the compiler what packages are needed by this source file; that’s the role of the import declaration that follows the package declaration. The “hello, world” program uses only one function from one other package, but most programs will import more packages.
 
+You must import exactly the packages you need. A program will not compile if there are missing imports or if there are unnecessary ones. This strict requirement prevents references to unused packages from accumulating as programs evolve.
 
+The import declarations must follow the package declaration. After that, a program consists of the declarations of functions, variables, constants, and types (introduced by the keywords func, var, const, and type); for the most part, the order of declarations does not matter. This program is about as short as possible since it declares only one function, which in turn calls only one other function. To save space, we will sometimes not show the package and import declarations when presenting examples, but they are in the source file and must be there to compile the code.
 
-You see one of the following messages:
+A function declaration consists of the keyword func, the name of the function, a parameter list (empty for main), a result list (also empty here), and the body of the function—the statements that define what it does—enclosed in braces. We’ll take a closer look at functions in Chapter 5.
 
-Visual needs addressable cursor or upline capability Bad termcap entry Termcap entry too longterminal: Unknown terminal type Block device required Not a typewriter
+Go does not require semicolons at the ends of statements or declarations, except where two or more appear on the same line. In effect, newlines following certain tokens are converted into semicolons, so where newlines are placed matters to proper parsing of Go code. For instance, the opening brace { of the function must be on the same line as the end of the func declaration, not on a line by itself, and in the expression x + y, a newline is permitted after but not before the + operator.
 
-Your terminal type is either undefined, or there’s probably something wrong with your terminfo or termcap entry. Enter :q to quit. Check your $TERM environment variable, or ask your system administrator to select a terminal type for your environment.
+Go takes a strong stance on code formatting. The gofmt tool rewrites code into the standard format, and the go tool’s fmt subcommand applies gofmt to all the files in the specified package, or the ones in the current directory by default. All Go source files in the book have been run through gofmt, and you should get into the habit of doing the same for your own code. Declaring a standard format by fiat eliminates a lot of pointless debate about trivia and, more importantly, enables a variety of automated source code transformations that would be infeasible if arbitrary formatting were allowed.
 
+Many text editors can be configured to run gofmt each time you save a file, so that your source code is always properly formatted. A related tool, goimports, additionally manages the insertion and removal of import declarations as needed. It is not part of the standard distribution but you can obtain it with this command:
 
+Click here to view code image
 
-A [new file] message appears when you think a file already exists.
+$ go get golang.org/x/tools/cmd/goimports
 
-Check that you have used correct case in the filename (Unix filenames are case-sensitive). If you have, then you are probably in the wrong directory. Enter :q to quit. Then check to see that you are in the correct directory for that file (enter pwd at the Unix prompt). If you are in the right directory, check the list of files in the directory (with ls) to see whether the file exists under a slightly different name.
+For most users, the usual way to download and build packages, run their tests, show their documentation, and so on, is with the go tool, which we’ll look at in Section 10.7.
 
 
 
-You invoke vi , but you get a colon prompt (indicating that you’re in ex line-editing mode).
 
-You probably typed an interrupt before vi could draw the screen. Enter vi by typing vi at the ex prompt (:).
 
+1.2 Command-Line Arguments
 
 
-One of the following messages appears:
+Most programs process some input to produce some output; that’s pretty much the definition of computing. But how does a program get input data on which to operate? Some programs generate their own data, but more often, input comes from an external source: a file, a network connection, the output of another program, a user at a keyboard, command-line arguments, or the like. The next few examples will discuss some of these alternatives, starting with command-line arguments.
 
-[Read only] File is read only Permission denied
+The os package provides functions and other values for dealing with the operating system in a platform-independent fashion. Command-line arguments are available to a program in a variable named Args that is part of the os package; thus its name anywhere outside the os package is os.Args.
 
-“Read only” means that you can only look at the file; you cannot save any changes you make. You may have invoked vi in view mode (with view or vi -R), or you do not have write permission for the file. See the section Problems Saving Files.
+The variable os.Args is a slice of strings. Slices are a fundamental notion in Go, and we’ll talk a lot more about them soon. For now, think of a slice as a dynamically sized sequence s of array elements where individual elements can be accessed as s[i] and a contiguous subsequence as s[m:n]. The number of elements is given by len(s). As in most other programming languages, all indexing in Go uses half-open intervals that include the first index but exclude the last, because it simplifies logic. For example, the slice s[m:n], where 0 ≤ m ≤ n ≤ len(s), contains n-m elements.
 
+The first element of os.Args, os.Args[0], is the name of the command itself; the other elements are the arguments that were presented to the program when it started execution. A slice expression of the form s[m:n] yields a slice that refers to elements m through n-1, so the elements we need for our next example are those in the slice os.Args[1:len(os.Args)]. If m or n is omitted, it defaults to 0 or len(s) respectively, so we can abbreviate the desired slice as os.Args[1:].
 
+Here’s an implementation of the Unix echo command, which prints its command-line arguments on a single line. It imports two packages, which are given as a parenthesized list rather than as individual import declarations. Either form is legal, but conventionally the list form is used. The order of imports doesn’t matter; the gofmt tool sorts the package names into alphabetical order. (When there are several versions of an example, we will often number them so you can be sure of which one we’re talking about.)
 
-One of the following messages appears:
+Click here to view code image
 
-Bad file number Block special file Character special file Directory Executable Non-ascii filefile non-ASCII
+gopl.io/ch1/echo1
 
-The file you’ve called up to edit is not a regular text file. Type :q! to quit, then check the file you wish to edit, perhaps with the file command.
+// Echo1 prints its command-line arguments. package main import ( "fmt" "os" ) func main() { var s, sep string for i := 1; i < len(os.Args); i++ { s += sep + os.Args[i] sep = " " } fmt.Println(s) }
 
 
 
-When you type :q because of one of the previously mentioned difficulties, this message appears:
+Comments begin with //. All text from a // to the end of the line is commentary for programmers and is ignored by the compiler. By convention, we describe each package in a comment immediately preceding its package declaration; for a main package, this comment is one or more complete sentences that describe the program as a whole.
 
-No write since last change (:quit! overrides).
+The var declaration declares two variables s and sep, of type string. A variable can be initialized as part of its declaration. If it is not explicitly initialized, it is implicitly initialized to the zero value for its type, which is 0 for numeric types and the empty string "" for strings. Thus in this example, the declaration implicitly initializes s and sep to empty strings. We’ll have more to say about variables and declarations in Chapter 2.
 
-You have modified the file without realizing it. Type :q! to leave vi. Your changes from this session will not be saved in the file.
+For numbers, Go provides the usual arithmetic and logical operators. When applied to strings, however, the + operator concatenates the values, so the expression
 
+sep + os.Args[i]
 
+represents the concatenation of the strings sep and os.Args[i]. The statement we used in the program,
 
+s += sep + os.Args[i]
 
+is an assignment statement that concatenates the old value of s with sep and os.Args[i] and assigns it back to s; it is equivalent to
 
-Modus Operandi
+s = s + sep + os.Args[i]
 
+The operator += is an assignment operator. Each arithmetic and logical operator like + or * has a corresponding assignment operator.
 
+The echo program could have printed its output in a loop one piece at a time, but this version instead builds up a string by repeatedly appending new text to the end. The string s starts life empty, that is, with value "", and each trip through the loop adds some text to it; after the first iteration, a space is also inserted so that when the loop is finished, there is one space between each argument. This is a quadratic process that could be costly if the number of arguments is large, but for echo, that’s unlikely. We’ll show a number of improved versions of echo in this chapter and the next that will deal with any real inefficiency.
 
+The loop index variable i is declared in the first part of the for loop. The := symbol is part of a short variable declaration, a statement that declares one or more variables and gives them appropriate types based on the initializer values; there’s more about this in the next chapter.
 
+The increment statement i++ adds 1 to i; it’s equivalent to i += 1 which is in turn equivalent to i = i + 1. There’s a corresponding decrement statement i-- that subtracts 1. These are statements, not expressions as they are in most languages in the C family, so j = i++ is illegal, and they are postfix only, so --i is not legal either.
 
-As mentioned earlier, the concept of the current “mode” is fundamental to the way vi works. There are two modes, command mode and insert mode. You start out in command mode, where every keystroke represents a command. In insert mode, everything you type becomes text in your file.
+The for loop is the only loop statement in Go. It has a number of forms, one of which is illustrated here:
 
-Sometimes, you can accidentally enter insert mode, or conversely, leave insert mode accidentally. In either case, what you type will likely affect your files in ways you did not intend.
+Click here to view code image
 
-Press the ESC key to force vi to enter command mode. If you are already in command mode, vi will beep at you when you press the ESC key. (Command mode is thus sometimes referred to as “beep mode.”)
+for initialization; condition; post { // zero or more statements }
 
-Once you are safely in command mode, you can proceed to repair any accidental changes, and then continue editing your text.
+Parentheses are never used around the three components of a for loop. The braces are mandatory, however, and the opening brace must be on the same line as the post statement.
 
+The optional initialization statement is executed before the loop starts. If it is present, it must be a simple statement, that is, a short variable declaration, an increment or assignment statement, or a function call. The condition is a boolean expression that is evaluated at the beginning of each iteration of the loop; if it evaluates to true, the statements controlled by the loop are executed. The post statement is executed after the body of the loop, then the condition is evaluated again. The loop ends when the condition becomes false.
 
+Any of these parts may be omitted. If there is no initialization and no post, the semicolons may also be omitted:
 
+// a traditional "while" loop for condition { // ... }
 
 
-Saving and Quitting a File
 
+If the condition is omitted entirely in any of these forms, for example in
 
+// a traditional infinite loop for { // ... }
 
 
 
-You can quit working on a file at any time, save your edits, and return to the Unix prompt. The vi command to quit and save edits is ZZ. Note that ZZ is capitalized.
+the loop is infinite, though loops of this form may be terminated in some other way, like a break or return statement.
 
-Let’s assume that you do create a file called practice to practice vi commands, and that you type in six lines of text. To save the file, first check that you are in command mode by pressing ESC, and then enter ZZ.
+Another form of the for loop iterates over a range of values from a data type like a string or a slice. To illustrate, here’s a second version of echo:
 
-KeystrokesResults
+Click here to view code image
 
-ZZ "practice" [New file] 6 lines, 320 characters
+gopl.io/ch1/echo2
 
+// Echo2 prints its command-line arguments. package main import ( "fmt" "os" ) func main() { s, sep := "", "" for _, arg := range os.Args[1:] { s += sep + arg sep = " " } fmt.Println(s) }
 
 
-Give the write and save command, ZZ. Your file is saved as a regular Unix file.
 
+In each iteration of the loop, range produces a pair of values: the index and the value of the element at that index. In this example, we don’t need the index, but the syntax of a range loop requires that if we deal with the element, we must deal with the index too. One idea would be to assign the index to an obviously temporary variable like temp and ignore its value, but Go does not permit unused local variables, so this would result in a compilation error.
 
+The solution is to use the blank identifier, whose name is _ (that is, an underscore). The blank identifier may be used whenever syntax requires a variable name but program logic does not, for instance to discard an unwanted loop index when we require only the element value. Most Go programmers would likely use range and _ to write the echo program as above, since the indexing over os.Args is implicit, not explicit, and thus easier to get right.
 
-ls ch01 ch02 practice
+This version of the program uses a short variable declaration to declare and initialize s and sep, but we could equally well have declared the variables separately. There are several ways to declare a string variable; these are all equivalent:
 
+s := "" var s string var s = "" var s string = ""
 
+Why should you prefer one form to another? The first form, a short variable declaration, is the most compact, but it may be used only within a function, not for package-level variables. The second form relies on default initialization to the zero value for strings, which is "". The third form is rarely used except when declaring multiple variables. The fourth form is explicit about the variable’s type, which is redundant when it is the same as that of the initial value but necessary in other cases where they are not of the same type. In practice, you should generally use one of the first two forms, with explicit initialization to say that the initial value is important and implicit initialization to say that the initial value doesn’t matter.
 
-Listing the files in the directory shows the new file practice that you created.
+As noted above, each time around the loop, the string s gets completely new contents. The += statement makes a new string by concatenating the old string, a space character, and the next argument, then assigns the new string to s. The old contents of s are no longer in use, so they will be garbage-collected in due course.
 
+If the amount of data involved is large, this could be costly. A simpler and more efficient solution would be to use the Join function from the strings package:
 
+Click here to view code image
 
+gopl.io/ch1/echo3
 
+func main() { fmt.Println(strings.Join(os.Args[1:], " ")) }
 
-You can also save your edits with ex commands. Type :w to save (write) your file but not quit vi; type :q to quit if you haven’t made any edits; and type :wq to both save your edits and quit. (:wq is equivalent to ZZ.) We’ll explain fully how to use ex commands in Chapter 5; for now, you should just memorize a few commands for writing and saving files.
+Finally, if we don’t care about format but just want to see the values, perhaps for debugging, we can let Println format the results for us:
 
+fmt.Println(os.Args[1:])
 
+The output of this statement is like what we would get from strings.Join, but with surrounding brackets. Any slice may be printed this way.
 
+Exercise 1.1: Modify the echo program to also print os.Args[0], the name of the command that invoked it.
 
+Exercise 1.2: Modify the echo program to print the index and value of each of its arguments, one per line.
 
-Quitting Without Saving Edits
+Exercise 1.3: Experiment to measure the difference in running time between our potentially inefficient versions and the one that uses strings.Join. (Section 1.6 illustrates part of the time package, and Section 11.4 shows how to write benchmark tests for systematic performance evaluation.)
 
 
 
 
 
-When you are first learning vi, especially if you are an intrepid experimenter, there are two other ex commands that are handy for getting out of any mess that you might create.
+1.3 Finding Duplicate Lines
 
-What if you want to wipe out all of the edits you have made in a session and then return to the original file? The command:
 
-:e!ENTER
+Programs for file copying, printing, searching, sorting, counting, and the like all have a similar structure: a loop over the input, some computation on each element, and generation of output on the fly or at the end. We’ll show three variants of a program called dup; it is partly inspired by the Unix uniq command, which looks for adjacent duplicate lines. The structures and packages used are models that can be easily adapted.
 
-returns you to the last saved version of the file, so you can start over.
+The first version of dup prints each line that appears more than once in the standard input, preceded by its count. This program introduces the if statement, the map data type, and the bufio package.
 
-Suppose, however, that you want to wipe out your edits and then just quit vi? The command:
+Click here to view code image
 
-:q!ENTER
+gopl.io/ch1/dup1
 
-quits the file you’re editing and returns you to the Unix prompt. With both of these commands, you lose all edits made in the buffer since the last time you saved the file. vi normally won’t let you throw away your edits. The exclamation point added to the :e or :q command causes vi to override this prohibition, performing the operation even though the buffer has been modified.
+// Dup1 prints the text of each line that appears more than // once in the standard input, preceded by its count. package main import ( "bufio" "fmt" "os" ) func main() { counts := make(map[string]int) input := bufio.NewScanner(os.Stdin) for input.Scan() { counts[input.Text()]++ } // NOTE: ignoring potential errors from input.Err() for line, n := range counts { if n > 1 { fmt.Printf("%d\t%s\n", n, line) } } }
 
 
 
 
 
-Problems Saving Files
+As with for, parentheses are never used around the condition in an if statement, but braces are required for the body. There can be an optional else part that is executed if the condition is false.
 
+A map holds a set of key/value pairs and provides constant-time operations to store, retrieve, or test for an item in the set. The key may be of any type whose values can be compared with ==, strings being the most common example; the value may be of any type at all. In this example, the keys are strings and the values are ints. The built-in function make creates a new empty map; it has other uses too. Maps are discussed at length in Section 4.3.
 
+Each time dup reads a line of input, the line is used as a key into the map and the corresponding value is incremented. The statement counts[input.Text()]++ is equivalent to these two statements:
 
+Click here to view code image
 
+line := input.Text() counts[line] = counts[line] + 1
 
-You try to write your file, but you get one of the following messages:
+It’s not a problem if the map doesn’t yet contain that key. The first time a new line is seen, the expression counts[line] on the right-hand side evaluates to the zero value for its type, which is 0 for int.
 
-File exists Filefile exists - use w! [Existing file] File is read only
+To print the results, we use another range-based for loop, this time over the counts map. As before, each iteration produces two results, a key and the value of the map element for that key. The order of map iteration is not specified, but in practice it is random, varying from one run to another. This design is intentional, since it prevents programs from relying on any particular ordering where none is guaranteed.
 
-Type :w! file to overwrite the existing file, or type :w newfile to save the edited version in a new file.
+Onward to the bufio package, which helps make input and output efficient and convenient. One of its most useful features is a type called Scanner that reads input and breaks it into lines or words; it’s often the easiest way to process input that comes naturally in lines.
 
+The program uses a short variable declaration to create a new variable input that refers to a bufio.Scanner:
 
+Click here to view code image
 
-You want to write a file, but you don’t have write permission for it. You get the message “Permission denied.”
+input := bufio.NewScanner(os.Stdin)
 
-Use :w newfile to write out the buffer into a new file. If you have write permission for the directory, you can use mv to replace the original version with your copy of it. If you don’t have write permission for the directory, type :w pathname/file to write out the buffer to a directory in which you do have write permission (such as your home directory, or /tmp).
+The scanner reads from the program’s standard input. Each call to input.Scan() reads the next line and removes the newline character from the end; the result can be retrieved by calling input.Text(). The Scan function returns true if there is a line and false when there is no more input.
 
+The function fmt.Printf, like printf in C and other languages, produces formatted output from a list of expressions. Its first argument is a format string that specifies how subsequent arguments should be formatted. The format of each argument is determined by a conversion character, a letter following a percent sign. For example, %d formats an integer operand using decimal notation, and %s expands to the value of a string operand.
 
+Printf has over a dozen such conversions, which Go programmers call verbs. This table is far from a complete specification but illustrates many of the features that are available:
 
-You try to write your file, but you get a message telling you that the file system is full.
 
-Type :!rm junkfile to delete a (large) unneeded file and free some space. (Starting an ex command with an exclamation point gives you access to Unix.)
 
-Or type :!df to see whether there’s any space on another file system. If there is, choose a directory on that file system and write your file to it with :wpathname. (df is the Unix command to check a disk’s free space.)
 
 
+View table image
 
-The system puts you into open mode and tells you that the file system is full.
+%d decimal integer
 
-The disk with vi’s temporary files is filled up. Type :!ls /tmp to see whether there are any files you can remove to gain some disk space.[9] If there are, create a temporary Unix shell from which you can remove files or issue other Unix commands. You can create a shell by typing :sh; type CTRL-D or exit to terminate the shell and return to vi. (On modern Unix systems, when using a job-control shell, you can simply type CTRL-Z to suspend vi and return to the Unix prompt; type fg to return to vi.) Once you’ve freed up some space, write your file with :w!.
+%x, %o, %b integer in hexadecimal, octal, binary
 
+%f, %g, %e floating-point number: 3.141593 3.141592653589793 3.141593e+00
 
+%t boolean: true or false
 
-You try to write your file, but you get a message telling you that your disk quota has been reached.
+%c rune (Unicode code point)
 
-Try to force the system to save your buffer with the ex command :pre (short for :preserve). If that doesn’t work, look for some files to remove. Use :sh (or CTRL-Z if you are using a job-control system) to move out of vi and remove files. Use CTRL-D (or fg) to return to vi when you’re done. Then write your file with :w!.
+%s string
 
+%q quoted string "abc" or rune 'c'
 
+%v any value in a natural format
 
+%T type of any value
 
+%% literal percent sign (no operand)
 
-Exercises
+The format string in dup1 also contains a tab \t and a newline \n. String literals may contain such escape sequences for representing otherwise invisible characters. Printf does not write a newline by default. By convention, formatting functions whose names end in f, such as log.Printf and fmt.Errorf, use the formatting rules of fmt.Printf, whereas those whose names end in ln follow Println, formatting their arguments as if by %v, followed by a newline.
 
+Many programs read either from their standard input, as above, or from a sequence of named files. The next version of dup can read from the standard input or handle a list of file names, using os.Open to open each one:
 
+Click here to view code image
 
+gopl.io/ch1/dup2
 
+// Dup2 prints the count and text of lines that appear more than once // in the input. It reads from stdin or from a list of named files. package main import ( "bufio" "fmt" "os" ) func main() { counts := make(map[string]int) files := os.Args[1:] if len(files) == 0 { countLines(os.Stdin, counts) } else { for _, arg := range files { f, err := os.Open(arg) if err != nil { fmt.Fprintf(os.Stderr, "dup2: %v\n", err) continue } countLines(f, counts) f.Close() } } for line, n := range counts { if n > 1 { fmt.Printf("%d\t%s\n", n, line) } } } func countLines(f *os.File, counts map[string]int) { input := bufio.NewScanner(f) for input.Scan() { counts[input.Text()]++ } // NOTE: ignoring potential errors from input.Err() }
 
-The only way to learn vi is to practice. You now know enough to create a new file and to return to the Unix prompt. Create a file called practice, insert some text, and then save and quit the file.
 
-Open a file called practice in the current directory: vi practice
 
-Insert text: i any text you like
+The function os.Open returns two values. The first is an open file (*os.File) that is used in subsequent reads by the Scanner.
 
-Return to command mode: ESC
+The second result of os.Open is a value of the built-in error type. If err equals the special built-in value nil, the file was opened successfully. The file is read, and when the end of the input is reached, Close closes the file and releases any resources. On the other hand, if err is not nil, something went wrong. In that case, the error value describes the problem. Our simple-minded error handling prints a message on the standard error stream using Fprintf and the verb %v, which displays a value of any type in a default format, and dup then carries on with the next file; the continue statement goes to the next iteration of the enclosing for loop.
 
-Quit vi, saving edits: ZZ
+In the interests of keeping code samples to a reasonable size, our early examples are intentionally somewhat cavalier about error handling. Clearly we must check for an error from os.Open; however, we are ignoring the less likely possibility that an error could occur while reading the file with input.Scan. We will note places where we’ve skipped error checking, and we will go into the details of error handling in Section 5.4.
 
+Notice that the call to countLines precedes its declaration. Functions and other package-level entities may be declared in any order.
 
+A map is a reference to the data structure created by make. When a map is passed to a function, the function receives a copy of the reference, so any changes the called function makes to the underlying data structure will be visible through the caller’s map reference too. In our example, the values inserted into the counts map by countLines are seen by main.
 
+The versions of dup above operate in a “streaming” mode in which input is read and broken into lines as needed, so in principle these programs can handle an arbitrary amount of input. An alternative approach is to read the entire input into memory in one big gulp, split it into lines all at once, then process the lines. The following version, dup3, operates in that fashion. It introduces the function ReadFile (from the io/ioutil package), which reads the entire contents of a named file, and strings.Split, which splits a string into a slice of substrings. (Split is the opposite of strings.Join, which we saw earlier.)
 
+We’ve simplified dup3 somewhat. First, it only reads named files, not the standard input, since ReadFile requires a file name argument. Second, we moved the counting of the lines back into main, since it is now needed in only one place.
 
-* * *
+Click here to view code image
 
+gopl.io/ch1/dup3
 
+package main import ( "fmt" "io/ioutil" "os" "strings" ) func main() { counts := make(map[string]int) for _, filename := range os.Args[1:] { data, err := ioutil.ReadFile(filename) if err != nil { fmt.Fprintf(os.Stderr, "dup3: %v\n", err) continue } for _, line := range strings.Split(string(data), "\n") { counts[line]++ } } for line, n := range counts { if n > 1 { fmt.Printf("%d\t%s\n", n, line) } } }
 
-[9] Your vi may keep its temporary files in /usr/tmp, /var/tmp, or your current directory; you may need to poke around a bit to figure out where exactly you’ve run out of room. Vim generally keeps its temporary file in the same directory as the file being edited.
 
 
+ReadFile returns a byte slice that must be converted into a string so it can be split by strings.Split. We will discuss strings and byte slices at length in Section 3.5.4.
 
+Under the covers, bufio.Scanner, ioutil.ReadFile, and ioutil.WriteFile use the Read and Write methods of *os.File, but it’s rare that most programmers need to access those lower-level routines directly. The higher-level functions like those from bufio and io/ioutil are easier to use.
 
+Exercise 1.4: Modify dup2 to print the names of all files in which each duplicated line occurs.
 
+
+
+
+
+1.4 Animated GIFs
+
+
+The next program demonstrates basic usage of Go’s standard image packages, which we’ll use to create a sequence of bit-mapped images and then encode the sequence as a GIF animation. The images, called Lissajous figures, were a staple visual effect in sci-fi films of the 1960s. They are the parametric curves produced by harmonic oscillation in two dimensions, such as two sine waves fed into the x and y inputs of an oscilloscope. Figure 1.1 shows some examples.
+
+Figure 1.1. Four Lissajous figures.
+
+
+
+There are several new constructs in this code, including const declarations, struct types, and composite literals. Unlike most of our examples, this one also involves floating-point computations. We’ll discuss these topics only briefly here, pushing most details off to later chapters, since the primary goal right now is to give you an idea of what Go looks like and the kinds of things that can be done easily with the language and its libraries.
+
+Click here to view code image
+
+gopl.io/ch1/lissajous
+
+// Lissajous generates GIF animations of random Lissajous figures. package main import ( "image" "image/color" "image/gif" "io" "math" "math/rand" "os" ) var palette = []color.Color{color.White, color.Black} const ( whiteIndex = 0 // first color in palette blackIndex = 1 // next color in palette ) func main() { lissajous(os.Stdout) } func lissajous(out io.Writer) { const ( cycles = 5 // number of complete x oscillator revolutions res = 0.001 // angular resolution size = 100 // image canvas covers [-size..+size] nframes = 64 // number of animation frames delay = 8 // delay between frames in 10ms units ) freq := rand.Float64() * 3.0 // relative frequency of y oscillator anim := gif.GIF{LoopCount: nframes} phase := 0.0 // phase difference for i := 0; i < nframes; i++ { rect := image.Rect(0, 0, 2*size+1, 2*size+1) img := image.NewPaletted(rect, palette) for t := 0.0; t < cycles*2*math.Pi; t += res { x := math.Sin(t) y := math.Sin(t*freq + phase) img.SetColorIndex(size+int(x*size+0.5), size+int(y*size+0.5), blackIndex) } phase += 0.1 anim.Delay = append(anim.Delay, delay) anim.Image = append(anim.Image, img) } gif.EncodeAll(out, &anim) // NOTE: ignoring encoding errors }
+
+
+
+
+
+After importing a package whose path has multiple components, like image/color, we refer to the package with a name that comes from the last component. Thus the variable color.White belongs to the image/color package and gif.GIF belongs to image/gif.
+
+A const declaration (§3.6) gives names to constants, that is, values that are fixed at compile time, such as the numerical parameters for cycles, frames, and delay. Like var declarations, const declarations may appear at package level (so the names are visible throughout the package) or within a function (so the names are visible only within that function). The value of a constant must be a number, string, or boolean.
+
+The expressions []color.Color{...} and gif.GIF{...} are composite literals (§4.2, §4.4.1), a compact notation for instantiating any of Go’s composite types from a sequence of element values. Here, the first one is a slice and the second one is a struct.
+
+The type gif.GIF is a struct type (§4.4). A struct is a group of values called fields, often of different types, that are collected together in a single object that can be treated as a unit. The variable anim is a struct of type gif.GIF. The struct literal creates a struct value whose LoopCount field is set to nframes; all other fields have the zero value for their type. The individual fields of a struct can be accessed using dot notation, as in the final two assignments which explicitly update the Delay and Image fields of anim.
+
+The lissajous function has two nested loops. The outer loop runs for 64 iterations, each producing a single frame of the animation. It creates a new 201×201 image with a palette of two colors, white and black. All pixels are initially set to the palette’s zero value (the zeroth color in the palette), which we set to white. Each pass through the inner loop generates a new image by setting some pixels to black. The result is appended, using the built-in append function (§4.2.1), to a list of frames in anim, along with a specified delay of 80ms. Finally the sequence of frames and delays is encoded into GIF format and written to the output stream out. The type of out is io.Writer, which lets us write to a wide range of possible destinations, as we’ll show soon.
+
+The inner loop runs the two oscillators. The x oscillator is just the sine function. The y oscillator is also a sinusoid, but its frequency relative to the x oscillator is a random number between 0 and 3, and its phase relative to the x oscillator is initially zero but increases with each frame of the animation. The loop runs until the x oscillator has completed five full cycles. At each step, it calls SetColorIndex to color the pixel corresponding to (x, y) black, which is at position 1 in the palette.
+
+The main function calls the lissajous function, directing it to write to the standard output, so this command produces an animated GIF with frames like those in Figure 1.1:
+
+Click here to view code image
+
+$ go build gopl.io/ch1/lissajous $ ./lissajous >out.gif
+
+Exercise 1.5: Change the Lissajous program’s color palette to green on black, for added authenticity. To create the web color #RRGGBB, use color.RGBA{0xRR, 0xGG, 0xBB, 0xff}, where each pair of hexadecimal digits represents the intensity of the red, green, or blue component of the pixel.
+
+Exercise 1.6: Modify the Lissajous program to produce images in multiple colors by adding more values to palette and then displaying them by changing the third argument of SetColorIndex in some interesting way.
+
+
+
+
+
+1.5 Fetching a URL
+
+
+For many applications, access to information from the Internet is as important as access to the local file system. Go provides a collection of packages, grouped under net, that make it easy to send and receive information through the Internet, make low-level network connections, and set up servers, for which Go’s concurrency features (introduced in Chapter 8) are particularly useful.
+
+To illustrate the minimum necessary to retrieve information over HTTP, here’s a simple program called fetch that fetches the content of each specified URL and prints it as uninterpreted text; it’s inspired by the invaluable utility curl. Obviously one would usually do more with such data, but this shows the basic idea. We will use this program frequently in the book.
+
+Click here to view code image
+
+gopl.io/ch1/fetch
+
+// Fetch prints the content found at a URL. package main import ( "fmt" "io/ioutil" "net/http" "os" ) func main() { for _, url := range os.Args[1:] { resp, err := http.Get(url) if err != nil { fmt.Fprintf(os.Stderr, "fetch: %v\n", err) os.Exit(1) } b, err := ioutil.ReadAll(resp.Body) resp.Body.Close() if err != nil { fmt.Fprintf(os.Stderr, "fetch: reading %s: %v\n", url, err) os.Exit(1) } fmt.Printf("%s", b) } }
+
+
+
+
+
+This program introduces functions from two packages, net/http and io/ioutil. The http.Get function makes an HTTP request and, if there is no error, returns the result in the response struct resp. The Body field of resp contains the server response as a readable stream. Next, ioutil.ReadAll reads the entire response; the result is stored in b. The Body stream is closed to avoid leaking resources, and Printf writes the response to the standard output.
+
+Click here to view code image
+
+$ go build gopl.io/ch1/fetch $ ./fetch http://gopl.io <html> <head> <title>The Go Programming Language</title> ...
+
+If the HTTP request fails, fetch reports the failure instead:
+
+Click here to view code image
+
+$ ./fetch http://bad.gopl.io fetch: Get http://bad.gopl.io: dial tcp: lookup bad.gopl.io: no such host
+
+In either error case, os.Exit(1) causes the process to exit with a status code of 1.
+
+Exercise 1.7: The function call io.Copy(dst, src) reads from src and writes to dst. Use it instead of ioutil.ReadAll to copy the response body to os.Stdout without requiring a buffer large enough to hold the entire stream. Be sure to check the error result of io.Copy.
+
+Exercise 1.8: Modify fetch to add the prefix http:// to each argument URL if it is missing. You might want to use strings.HasPrefix.
+
+Exercise 1.9: Modify fetch to also print the HTTP status code, found in resp.Status.
+
+
+
+
+
+1.6 Fetching URLs Concurrently
+
+
+One of the most interesting and novel aspects of Go is its support for concurrent programming. This is a large topic, to which Chapter 8 and Chapter 9 are devoted, so for now we’ll give you just a taste of Go’s main concurrency mechanisms, goroutines and channels.
+
+The next program, fetchall, does the same fetch of a URL’s contents as the previous example, but it fetches many URLs, all concurrently, so that the process will take no longer than the longest fetch rather than the sum of all the fetch times. This version of fetchall discards the responses but reports the size and elapsed time for each one:
+
+Click here to view code image
+
+gopl.io/ch1/fetchall
+
+// Fetchall fetches URLs in parallel and reports their times and sizes. package main import ( "fmt" "io" "io/ioutil" "net/http" "os" "time" ) func main() { start := time.Now() ch := make(chan string) for _, url := range os.Args[1:] { go fetch(url, ch) // start a goroutine } for range os.Args[1:] { fmt.Println(<-ch) // receive from channel ch } fmt.Printf("%.2fs elapsed\n", time.Since(start).Seconds()) } func fetch(url string, ch chan<- string) { start := time.Now() resp, err := http.Get(url) if err != nil { ch <- fmt.Sprint(err) // send to channel ch return } nbytes, err := io.Copy(ioutil.Discard, resp.Body) resp.Body.Close() // don't leak resources if err != nil { ch <- fmt.Sprintf("while reading %s: %v", url, err) return } secs := time.Since(start).Seconds() ch <- fmt.Sprintf("%.2fs %7d %s", secs, nbytes, url) }
+
+
+
+
+
+Here’s an example:
+
+Click here to view code image
+
+$ go build gopl.io/ch1/fetchall $ ./fetchall https://golang.org http://gopl.io https://godoc.org 0.14s 6852 https://godoc.org 0.16s 7261 https://golang.org 0.48s 2475 http://gopl.io 0.48s elapsed
+
+A goroutine is a concurrent function execution. A channel is a communication mechanism that allows one goroutine to pass values of a specified type to another goroutine. The function main runs in a goroutine and the go statement creates additional goroutines.
+
+The main function creates a channel of strings using make. For each command-line argument, the go statement in the first range loop starts a new goroutine that calls fetch asynchronously to fetch the URL using http.Get. The io.Copy function reads the body of the response and discards it by writing to the ioutil.Discard output stream. Copy returns the byte count, along with any error that occurred. As each result arrives, fetch sends a summary line on the channel ch. The second range loop in main receives and prints those lines.
+
+When one goroutine attempts a send or receive on a channel, it blocks until another goroutine attempts the corresponding receive or send operation, at which point the value is transferred and both goroutines proceed. In this example, each fetch sends a value (ch <- expression) on the channel ch, and main receives all of them (<-ch). Having main do all the printing ensures that output from each goroutine is processed as a unit, with no danger of interleaving if two goroutines finish at the same time.
+
+Exercise 1.10: Find a web site that produces a large amount of data. Investigate caching by running fetchall twice in succession to see whether the reported time changes much. Do you get the same content each time? Modify fetchall to print its output to a file so it can be examined.
+
+Exercise 1.11: Try fetchall with longer argument lists, such as samples from the top million web sites available at alexa.com. How does the program behave if a web site just doesn’t respond? (Section 8.9 describes mechanisms for coping in such cases.)
+
+
+
+
+
+1.7 A Web Server
+
+
+Go’s libraries makes it easy to write a web server that responds to client requests like those made by fetch. In this section, we’ll show a minimal server that returns the path component of the URL used to access the server. That is, if the request is for http://localhost:8000/hello, the response will be URL.Path = "/hello".
+
+Click here to view code image
+
+gopl.io/ch1/server1
+
+// Server1 is a minimal "echo" server. package main import ( "fmt" "log" "net/http" ) func main() { http.HandleFunc("/", handler) // each request calls handler log.Fatal(http.ListenAndServe("localhost:8000", nil)) } // handler echoes the Path component of the requested URL. func handler(w http.ResponseWriter, r *http.Request) { fmt.Fprintf(w, "URL.Path = %q\n", r.URL.Path) }
+
+
+
+
+
+The program is only a handful of lines long because library functions do most of the work. The main function connects a handler function to incoming URLs whose path begins with /, which is all URLs, and starts a server listening for incoming requests on port 8000. A request is represented as a struct of type http.Request, which contains a number of related fields, one of which is the URL of the incoming request. When a request arrives, it is given to the handler function, which extracts the path component (/hello) from the request URL and sends it back as the response, using fmt.Fprintf. Web servers will be explained in detail in Section 7.7.
+
+Let’s start the server in the background. On Mac OS X or Linux, add an ampersand (&) to the command; on Microsoft Windows, you will need to run the command without the ampersand in a separate command window.
+
+Click here to view code image
+
+$ go run src/gopl.io/ch1/server1/main.go &
+
+We can then make client requests from the command line:
+
+Click here to view code image
+
+$ go build gopl.io/ch1/fetch $ ./fetch http://localhost:8000 URL.Path = "/" $ ./fetch http://localhost:8000/help URL.Path = "/help"
+
+Alternatively, we can access the server from a web browser, as shown in Figure 1.2.
+
+Figure 1.2. A response from the echo server.
+
+
+
+It’s easy to add features to the server. One useful addition is a specific URL that returns a status of some sort. For example, this version does the same echo but also counts the number of requests; a request to the URL /count returns the count so far, excluding /count requests themselves:
+
+Click here to view code image
+
+gopl.io/ch1/server2
+
+// Server2 is a minimal "echo" and counter server. package main import ( "fmt" "log" "net/http" "sync" ) var mu sync.Mutex var count int func main() { http.HandleFunc("/", handler) http.HandleFunc("/count", counter) log.Fatal(http.ListenAndServe("localhost:8000", nil)) } // handler echoes the Path component of the requested URL. func handler(w http.ResponseWriter, r *http.Request) { mu.Lock() count++ mu.Unlock() fmt.Fprintf(w, "URL.Path = %q\n", r.URL.Path) } // counter echoes the number of calls so far. func counter(w http.ResponseWriter, r *http.Request) { mu.Lock() fmt.Fprintf(w, "Count %d\n", count) mu.Unlock() }
+
+
+
+The server has two handlers, and the request URL determines which one is called: a request for /count invokes counter and all others invoke handler. A handler pattern that ends with a slash matches any URL that has the pattern as a prefix. Behind the scenes, the server runs the handler for each incoming request in a separate goroutine so that it can serve multiple requests simultaneously. However, if two concurrent requests try to update count at the same time, it might not be incremented consistently; the program would have a serious bug called a race condition (§9.1). To avoid this problem, we must ensure that at most one goroutine accesses the variable at a time, which is the purpose of the mu.Lock() and mu.Unlock() calls that bracket each access of count. We’ll look more closely at concurrency with shared variables in Chapter 9.
+
+As a richer example, the handler function can report on the headers and form data that it receives, making the server useful for inspecting and debugging requests:
+
+Click here to view code image
+
+gopl.io/ch1/server3
+
+// handler echoes the HTTP request. func handler(w http.ResponseWriter, r *http.Request) { fmt.Fprintf(w, "%s %s %s\n", r.Method, r.URL, r.Proto) for k, v := range r.Header { fmt.Fprintf(w, "Header[%q] = %q\n", k, v) } fmt.Fprintf(w, "Host = %q\n", r.Host) fmt.Fprintf(w, "RemoteAddr = %q\n", r.RemoteAddr) if err := r.ParseForm(); err != nil { log.Print(err) } for k, v := range r.Form { fmt.Fprintf(w, "Form[%q] = %q\n", k, v) } }
+
+
+
+
+
+This uses the fields of the http.Request struct to produce output like this:
+
+Click here to view code image
+
+GET /?q=query HTTP/1.1 Header["Accept-Encoding"] = ["gzip, deflate, sdch"] Header["Accept-Language"] = ["en-US,en;q=0.8"] Header["Connection"] = ["keep-alive"] Header["Accept"] = ["text/html,application/xhtml+xml,application/xml;..."] Header["User-Agent"] = ["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5)..."] Host = "localhost:8000" RemoteAddr = "127.0.0.1:59911" Form["q"] = ["query"]
+
+Notice how the call to ParseForm is nested within an if statement. Go allows a simple statement such as a local variable declaration to precede the if condition, which is particularly useful for error handling as in this example. We could have written it as
+
+err := r.ParseForm() if err != nil { log.Print(err) }
+
+but combining the statements is shorter and reduces the scope of the variable err, which is good practice. We’ll define scope in Section 2.7.
+
+In these programs, we’ve seen three very different types used as output streams. The fetch program copied HTTP response data to os.Stdout, a file, as did the lissajous program. The fetchall program threw the response away (while counting its length) by copying it to the trivial sink ioutil.Discard. And the web server above used fmt.Fprintf to write to an http.ResponseWriter representing the web browser.
+
+Although these three types differ in the details of what they do, they all satisfy a common interface, allowing any of them to be used wherever an output stream is needed. That interface, called io.Writer, is discussed in Section 7.1.
+
+Go’s interface mechanism is the topic of Chapter 7, but to give an idea of what it’s capable of, let’s see how easy it is to combine the web server with the lissajous function so that animated GIFs are written not to the standard output, but to the HTTP client. Just add these lines to the web server:
+
+Click here to view code image
+
+handler := func(w http.ResponseWriter, r *http.Request) { lissajous(w) } http.HandleFunc("/", handler)
+
+
+
+
+
+or equivalently:
+
+Click here to view code image
+
+http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) { lissajous(w) })
+
+The second argument to the HandleFunc function call immediately above is a function literal, that is, an anonymous function defined at its point of use. We will explain it further in Section 5.6.
+
+Once you’ve made this change, visit http://localhost:8000 in your browser. Each time you load the page, you’ll see a new animation like the one in Figure 1.3.
+
+Exercise 1.12: Modify the Lissajous server to read parameter values from the URL. For example, you might arrange it so that a URL like http://localhost:8000/?cycles=20 sets the number of cycles to 20 instead of the default 5. Use the strconv.Atoi function to convert the string parameter into an integer. You can see its documentation with go doc strconv.Atoi.
+
+Figure 1.3. Animated Lissajous figures in a browser.
+
+
+
+
+
+1.8 Loose Ends
+
+
+There is a lot more to Go than we’ve covered in this quick introduction. Here are some topics we’ve barely touched upon or omitted entirely, with just enough discussion that they will be familiar when they make brief appearances before the full treatment.
+
+Control flow: We covered the two fundamental control-flow statements, if and for, but not the switch statement, which is a multi-way branch. Here’s a small example:
+
+Click here to view code image
+
+switch coinflip() { case "heads": heads++ case "tails": tails++ default: fmt.Println("landed on edge!") }
+
+The result of calling coinflip is compared to the value of each case. Cases are evaluated from top to bottom, so the first matching one is executed. The optional default case matches if none of the other cases does; it may be placed anywhere. Cases do not fall through from one to the next as in C-like languages (though there is a rarely used fallthrough statement that overrides this behavior).
+
+A switch does not need an operand; it can just list the cases, each of which is a boolean expression:
+
+func Signum(x int) int { switch { case x > 0: return +1 default: return 0 case x < 0: return -1 } }
+
+This form is called a tagless switch; it’s equivalent to switch true.
+
+Like the for and if statements, a switch may include an optional simple statement—a short variable declaration, an increment or assignment statement, or a function call—that can be used to set a value before it is tested.
+
+The break and continue statements modify the flow of control. A break causes control to resume at the next statement after the innermost for, switch, or select statement (which we’ll see later), and as we saw in Section 1.3, a continue causes the innermost for loop to start its next iteration. Statements may be labeled so that break and continue can refer to them, for instance to break out of several nested loops at once or to start the next iteration of the outermost loop. There is even a goto statement, though it’s intended for machine-generated code, not regular use by programmers.
+
+Named types: A type declaration makes it possible to give a name to an existing type. Since struct types are often long, they are nearly always named. A familiar example is the definition of a Point type for a 2-D graphics system:
+
+type Point struct { X, Y int } var p Point
+
+Type declarations and named types are covered in Chapter 2.
+
+Pointers: Go provides pointers, that is, values that contain the address of a variable. In some languages, notably C, pointers are relatively unconstrained. In other languages, pointers are disguised as “references,” and there’s not much that can be done with them except pass them around. Go takes a position somewhere in the middle. Pointers are explicitly visible. The & operator yields the address of a variable, and the * operator retrieves the variable that the pointer refers to, but there is no pointer arithmetic. We’ll explain pointers in Section 2.3.2.
+
+Methods and interfaces: A method is a function associated with a named type; Go is unusual in that methods may be attached to almost any named type. Methods are covered in Chapter 6. Interfaces are abstract types that let us treat different concrete types in the same way based on what methods they have, not how they are represented or implemented. Interfaces are the subject of Chapter 7.
+
+Packages: Go comes with an extensive standard library of useful packages, and the Go community has created and shared many more. Programming is often more about using existing packages than about writing original code of one’s own. Throughout the book, we will point out a couple of dozen of the most important standard packages, but there are many more we don’t have space to mention, and we cannot provide anything remotely like a complete reference for any package.
+
+Before you embark on any new program, it’s a good idea to see if packages already exist that might help you get your job done more easily. You can find an index of the standard library packages at https://golang.org/pkg and the packages contributed by the community at https://godoc.org. The go doc tool makes these documents easily accessible from the command line:
+
+Click here to view code image
+
+$ go doc http.ListenAndServe package http // import "net/http" func ListenAndServe(addr string, handler Handler) error ListenAndServe listens on the TCP network address addr and then calls Serve with handler to handle requests on incoming connections. ...
+
+Comments: We have already mentioned documentation comments at the beginning of a program or package. It’s also good style to write a comment before the declaration of each function to specify its behavior. These conventions are important, because they are used by tools like go doc and godoc to locate and display documentation (§10.7.4).
+
+For comments that span multiple lines or appear within an expression or statement, there is also the /* ... */ notation familiar from other languages. Such comments are sometimes used at the beginning of a file for a large block of explanatory text to avoid a // on every line. Within a comment, // and /* have no special meaning, so comments do not nest.
