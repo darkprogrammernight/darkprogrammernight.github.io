@@ -1,2248 +1,527 @@
-Chapter 14. Vim Enhancements for Programmers
+1
 
+GO FUNDAMENTALS
 
 
 
 
-Text editing is only one of Vim’s strong suits. Good programmers demand powerful tools to ensure efficient and proficient work. A good editor is only a start and, by itself, isn’t enough. Many modern programming environments attempt to provide comprehensive solutions when all that is really necessary is a strong editor with some extra smarts.
+This chapter will guide you through the process of setting up your Go development environment and introduce you to the language’s syntax. People have written entire books on the fundamental mechanics of the language; this chapter covers the most basic concepts you’ll need in order to work through the code examples in the following chapters. We’ll cover everything from primitive data types to implementing concurrency. For readers who are already well versed in the language, you’ll find much of this chapter to be a review.
 
-Programming tools offer extra features ranging from editors with syntax coloring, auto indentation and formatting, keyword completion, and so on, to full-blown Integrated Development Environments (IDEs) with sophisticated integration that build up complete development ecosystems. These IDEs can be expensive (e.g., Visual Studio) or free (Eclipse), but their disk and memory requirements are large, their learning curves steep, and their demand for resources immense.
 
-Programmers’ tasks vary, and so do their technology requirements. Small development tasks are easily completed with simple editors that offer little more than text editing capabilities. Large, multicomponent, multiplatform, and multistaff efforts almost demand the heavy lifting IDEs provide. But from anecdotal experience, many veteran programmers feel that IDEs offer little more than extra complexity with no higher probability of success.
 
-Vim strikes a nice compromise between simple editors and monolithic IDEs. It has features that until recently were available only in expensive IDEs. It lets you do quick and simple programming tasks without the overhead and learning curve of an IDE.
 
-The many options, features, commands, and functions especially suited to making the programmer’s life easier range from folding lines of code into one line, to syntax coloring, to automatic formatting. Vim affords programmers many tools that can be fully appreciated only by using them. At the high end, it offers a sort of mini-IDE called Quickfix, but it also has convenience features specific to various programming tasks. We present the following topics in this chapter:
 
-Folding
+Setting Up a Development Environment
 
 
+To get started with Go, you’ll need a functional development environment. In this section, we’ll walk you through the steps to download Go and set up your workspace and environment variables. We’ll discuss various options for your integrated development environment and some of the standard tooling that comes with Go.
 
-Auto and smart indenting
 
 
 
-Keyword and dictionary word completion
 
+Downloading and Installing Go
 
 
-Tags and extended tags
+Start by downloading the Go binary release most appropriate to your operating system and architecture from https://golang.org/dl/. Binaries exist for Windows, Linux, and macOS. If you’re using a system that doesn’t have an available precompiled binary, you can download the Go source code from that link.
 
+Execute the binary and follow the prompts, which will be minimal, in order to install the entire set of Go core packages. Packages, called libraries in most other languages, contain useful code you can use in your Go programs.
 
 
-Syntax highlighting
 
 
 
-Syntax highlight authoring (roll your own)
+Setting GOROOT to Define the Go Binary Location
 
 
+Next, the operating system needs to know how to find the Go installation. In most instances, if you’ve installed Go in the default path, such as /usr/local/go on a *Nix/BSD-based system, you don’t have to take any action here. However, in the event that you’ve chosen to install Go in a nonstandard path or are installing Go on Windows, you’ll need to tell the operating system where to find the Go binary.
 
-Quickfix, Vim’s mini-IDE
+You can do this from your command line by setting the reserved GOROOT environment variable to the location of your binary. Setting environment variables is operating-system specific. On Linux or macOS, you can add this to your ~/.profile:
 
+set GOROOT=/path/to/go
 
+On Windows, you can add this environment variable through the System (Control Panel), by clicking the Environment Variables button.
 
 
 
-Folding and Outlining (Outline Mode)
 
 
+Setting GOPATH to Determine the Location of Your Go Workspace
 
 
+Unlike setting your GOROOT, which is necessary in only certain installation scenarios, you must always define an environment variable named GOPATH to instruct the Go toolset where your source code, third-party libraries, and compiled programs will exist. This can be any location of your choosing. Once you’ve chosen or created this base workspace directory, create the following three subdirectories within: bin, pkg, and src (more on these directories shortly). Then, set an environment variable named GOPATH that points to your base workspace directory. For example, if you want to place your projects in a directory called gocode located within your home directory on Linux, you set GOPATH to the following:
 
-Folding lets you define what parts of the file you see. For instance, in a block of code you can hide anything within curly braces, or hide all comments. Folding is a two-stage process. First, using any of several fold methods (we’ll talk more about these later), you define what constitutes a block of text to fold. Then, when you use a fold command, Vim hides the designated text and leaves in its place a one-line placeholder. Figure 14-1 shows what folds look like in Vim. You can manage the lines hidden by the fold with the fold placeholder.
+GOPATH=$HOME/gocode
 
+The bin directory will contain your compiled and installed Go executable binaries. Binaries that are built and installed will be automatically placed into this location. The pkg directory stores various package objects, including third-party Go dependencies that your code might rely on. For example, perhaps you want to use another developer’s code that more elegantly handles HTTP routing. The pkg directory will contain the binary artifacts necessary to consume their implementation in your code. Finally, the src directory will contain all the evil source code you’ll write.
 
+The location of your workspace is arbitrary, but the directories within must match this naming convention and structure. The compilation, build, and package management commands you’ll learn about later in this chapter all rely on this common directory structure. Without this important setup, Go projects won’t compile or be able to locate any of their necessary dependencies!
 
+After configuring the necessary GOROOT and GOPATH environment variables, confirm that they’re properly set. You can do this on Linux and Windows via the set command. Also, check that your system can locate the binary and that you’ve installed the expected Go version with the go version command:
 
+$ go version go version go1.11.5 linux/amd64
 
-Figure 14-1. Example of Vim folds
+This command should return the version of the binary you installed.
 
 
 
-In the example, line 11 is hidden by a two-line fold starting with line 10. An eight-line fold starting at line 15 hides lines 16 through 22. And a four-line fold starting at line 26 hides lines 27 through 29.
 
-There are virtually no limits on how many folds you can create. You can even create nested folds (folds within folds).
 
-Several options control how Vim creates and displays folds. Also, if you’ve taken the time to create many folds, Vim provides the convenience commands :mkview and :loadview to preserve folds between sessions so you don’t have to create them again.
+Choosing an Integrated Development Environment
 
-Folds require some effort to learn but, when mastered, add a powerful way to control what to display and when. Do not underestimate the power this brings. Correct and maintainable programs require robust design at several levels, so good programming often requires looking at the forest rather than the trees—in other words, ignoring details of implementation in order to see the overall structure of a file.
 
-For power users, Vim offers six different ways to define, create, and manipulate folds. This flexibility lets you create and manage folds in different contexts. Ultimately, once created, folds open and close and behave similarly for the whole suite of fold commands.
+Next, you’ll probably want to select an integrated development environment (IDE) in which to write your code. Although an IDE isn’t required, many have features that help reduce errors in your code, add version-control shortcuts, aid in package management, and more. As Go is still a fairly young language, there may not be as many mature IDEs as for other languages.
 
-The six methods of creating folds are:
+Fortunately, advancements over the last few years leave you with several, full-featured options. We’ll review some of them in this chapter. For a more complete list of IDE or editor options, check out the Go wiki page at https://github.com/golang/go/wiki/IDEsAndTextEditorPlugins/. This book is IDE/editor agnostic, meaning we won’t force you into any one solution.
 
-manual
 
-Define the span of a fold with standard Vim constructs, such as motion commands.
 
 
 
-indent
+Vim Editor
 
-Folds and fold levels correspond to the indentation of text and the value of the option shiftwidth.
 
+The Vim text editor, available in many operating-system distributions, provides a versatile, extensible, and completely open source development environment. One appealing feature of Vim is that it lets users run everything from their terminal without fancy GUIs getting in the way.
 
+Vim contains a vast ecosystem of plug-ins through which you can customize themes, add version control, define snippets, add layout and code-navigation features, include autocomplete, perform syntax highlighting and linting, and much, much more. Vim’s most common plug-in management systems include Vundle and Pathogen.
 
-expr
+To use Vim for Go, install the vim-go plug-in (https://github.com/fatih/vim-go/) shown in Figure 1-1.
 
-Regular expressions define folds.
 
 
+Figure 1-1: The vim-go plug-in
 
-syntax
+Of course, to use Vim for Go development, you’ll have to become comfortable with Vim. Further, customizing your development environment with all the features you desire might be a frustrating process. If you use Vim, which is free, you’ll likely need to sacrifice some of the conveniences of commercial IDEs.
 
-Folds correspond to the semantics of a file’s language (e.g., a C program’s function blocks could fold).
 
 
 
-diff
 
-The differences between two files define folds.
+GitHub Atom
 
 
+GitHub’s IDE, called Atom (https://atom.io/), is a hackable text editor with a large offering of community-driven packages. Unlike Vim, Atom provides a dedicated IDE application rather than an in-terminal solution, as shown in Figure 1-2.
 
-marker
 
-Predefined (but also user-definable) markers in the file specify fold boundaries.
 
+Figure 1-2: Atom with Go support
 
+Like Vim, Atom is free. It provides tiling, package management, version control, debugging, autocomplete, and a myriad of additional features out of the box or through the use of the go-plus plug-in, which provides dedicated Go support (https://atom.io/packages/go-plus/).
 
 
 
-The manipulation of folds (opening and closing, deleting, etc.) is the same for all methods. We’ll examine manual folds and discuss Vim fold commands in detail. We address some details for the other methods, but they are complex, specialized, and beyond the scope of this introduction. We hope our coverage will prompt you to explore the richness of these other methods.
 
-So, let’s take a brief look at the important fold commands and go through a short example of what folds look like.
 
+Microsoft Visual Studio Code
 
 
+Microsoft’s Visual Studio Code, or VS Code (https://code.visualstudio.com), is arguably one of the most feature-rich and easiest IDE applications to configure. VS Code, shown in Figure 1-3, is completely open source and distributed under an MIT license.
 
 
-The Fold Commands
 
+Figure 1-3: The VS Code IDE with Go support
 
+VS Code supports a diverse set of extensions for themes, versioning, code completion, debugging, linting, and formatting. You can get Go integration with the vscode-go extension (https://github.com/Microsoft/vscode-go/).
 
 
 
-Fold commands all begin with z. As a mnemonic to remember this, think of the side view of a folded piece of paper (when folded correctly) and how it looks like the letter “z.”
 
-There are about 20 z fold commands. With these commands you create and delete folds, open and close folds (hide and expose text belonging to folds), and toggle the expose/hide state of the folds. Here are short descriptions:
 
-zA
+JetBrains GoLand
 
-Toggle the state of folds, recursively.
 
+The JetBrains collection of development tools are efficient and feature-rich, making both professional development and hobbyist projects easy to accomplish. Figure 1-4 shows what the JetBrains GoLand IDE looks like.
 
+GoLand is the JetBrains commercial IDE dedicated to the Go language. Pricing for GoLand ranges from free for students, to $89 annually for individuals, to $199 annually for organizations. GoLand offers all the expected features of a rich IDE, including debugging, code completion, version control, linting, formatting, and more. Although paying for a product may not sound appealing, commercial products such as GoLand typically have official support, documentation, timely bug fixes, and some of the other assurances that come with enterprise software.
 
-zC
 
-Close folds, recursively.
 
+Figure 1-4: The GoLand commercial IDE
 
 
-zD
 
-Delete folds, recursively.
 
 
+Using Common Go Tool Commands
 
-zE
 
-Eliminate all folds.
+Go ships with several useful commands that simplify the development process. The commands themselves are commonly included in IDEs, making the tooling consistent across development environments. Let’s take a look at some of these commands.
 
 
 
-zf
 
-Create a fold from the current line to the one where the following motion command takes the cursor.
 
+The go run Command
 
 
-countzF
+One of the more common commands you’ll execute during development, go run will compile and execute the main package—your program’s entry point.
 
-Create a fold covering count lines, starting with the current line.
+As an example, save the following code under a project directory within $GOPATH/src (remember, you created this workspace during installation) as main.go:
 
+package main import ( "fmt" ) func main() { fmt.Println("Hello, Black Hat Gophers!") }
 
+From the command line, within the directory containing this file, execute go run main.go. You should see Hello, Black Hat Gophers! printed to your screen.
 
-zM
 
-Set option foldlevel to 0.
 
 
 
-zN
+The go build Command
 
-zn
 
-Set (zN) or reset (zn) the foldenable option.
+Note that go run executed your file, but it didn’t produce a standalone binary file. That’s where go build comes in. The go build command compiles your application, including any packages and their dependencies, without installing the results. It creates a binary file on disk but doesn’t execute your program. The files it creates follow reasonable naming conventions, but it’s not uncommon to change the name of the created binary file by using the -o output command line option.
 
+Rename main.go from the previous example to hello.go. In a terminal window, execute go build hello.go. If everything goes as intended, this command should create an executable file with the name hello. Now enter this command:
 
+$ ./hello Hello, Black Hat Gophers!
 
-zO
+This should run the standalone binary file.
 
-Open folds, recursively.
+By default, the produced binary file contains debugging information and the symbol table. This can bloat the size of the file. To reduce the file size, you can include additional flags during the build process to strip this information from the binary. For example, the following command will reduce the binary size by approximately 30 percent:
 
+$ go build -ldflags "-w -s"
 
+Having a smaller binary will make it more efficient to transfer or embed while pursuing your nefarious endeavors.
 
-za
 
-Toggle the state of one fold.
 
 
 
-zc
+Cross-Compiling
 
-Close one fold.
 
+Using go build works great for running a binary on your current system or one of identical architecture, but what if you want to create a binary that can run on a different architecture? That’s where cross-compiling comes in. Cross-compiling is one of the coolest aspects of Go, as no other language can do it as easily. The build command allows you to cross-compile your program for multiple operating systems and architectures. Reference the official Go documentation at https://golang.org/doc/install/source#environment/ for further details regarding allowable combinations of compatible operating system and architecture compilation types.
 
+To cross-compile, you need to set a constraint. This is just a means to pass information to the build command about the operating system and architecture for which you’d like to compile your code. These constraints include GOOS (for the operating system) and GOARCH (for the architecture).
 
-zd
+You can introduce build constraints in three ways: via the command line, code comments, or a file suffix naming convention. We’ll discuss the command line method here and leave the other two methods for you to research if you wish.
 
-Delete one fold.
+Let’s suppose that you want to cross-compile your previous hello.go program residing on a macOS system so that it runs on a Linux 64-bit architecture. You can accomplish this via the command line by setting the GOOS and GOARCH constraints when running the build command:
 
+$ GOOS="linux" GOARCH="amd64" go build hello.go $ ls hello hello.go $ file hello hello: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
 
+The output confirms that the resulting binary is a 64-bit ELF (Linux) file.
 
-zi
+The cross-compilation process is much simpler in Go than in just about any other modern programming language. The only real “gotcha” happens when you try to cross-compile applications that use native C bindings. We’ll stay out of the weeds and let you dig into those challenges independently. Depending on the packages you import and the projects you develop, you may not have to worry about that very often.
 
-Toggle the value of the foldenable option.
 
 
 
-zj
 
-zk
+The go doc Command
 
-Move cursor to the start (zj) of the next fold or to the end (zk) of the previous fold. (Note the mnemonic of the j (“jump”) and k motion commands and how they are analogous to motions within the context of folds.)
 
+The go doc command lets you interrogate documentation about a package, function, method, or variable. This documentation is embedded as comments through your code. Let’s take a look at how to obtain details about the fmt.Println() function:
 
+$ go doc fmt.Println func Println(a ...interface{}) (n int, err error) Println formats using the default formats for its operands and writes to standard output. Spaces are always added between operands and a newline is appended. It returns the number of bytes written and any write error encountered.
 
-zm
+The output that go doc produces is taken directly out of the source code comments. As long as you adequately comment your packages, functions, methods, and variables, you’ll be able to automatically inspect the documentation via the go doc command.
 
-zr
 
-Decrement (zm) or increment (zr) the value of the foldlevel option by one.
 
 
 
-zo
+The go get Command
 
-Open one fold.
 
+Many of the Go programs that you’ll develop in this book will require third-party packages. To obtain package source code, use the go get command. For instance, let’s assume you’ve written the following code that imports the stacktitan/ldapauth package:
 
+package main import ( "fmt" "net/http" ❶ "github.com/stacktitan/ldapauth" )
 
+Even though you’ve imported the stacktitan/ldapauth package ❶, you can’t access the package quite yet. You first have to run the go get command. Using go get github.com/stacktitan/ldapauth downloads the actual package and places it within the $GOPATH/src directory.
 
+The following directory tree illustrates the placement of the ldapauth package within your GOPATH workspace:
 
-Warning
+$ tree src/github.com/stacktitan/ ❶ src/github.com/stacktitan/ └── ldapauth ├── LICENSE ├── README.md └── ldap_auth.go
 
+Notice that the path ❶ and the imported package name are constructed in a way that avoids assigning the same name to multiple packages. Using github.com/stacktitan as a preface to the actual package name ldapauth ensures that the package name remains unique.
 
-Don’t confuse delete fold with the delete command. Use the delete fold command to remove, or undefine, a fold. A deleted fold has no effect on the text contained in that fold.
+Although Go developers traditionally install dependencies with go get, problems can arise if those dependent packages receive updates that break backward compatibility. Go has introduced two separate tools—dep and mod—to lock dependencies in order to prevent backward compatibility issues. However, this book almost exclusively uses go get to pull down dependencies. This will help avoid inconsistencies with ongoing dependency management tooling and hopefully make it easier for you to get the examples up and running.
 
 
 
-zA, zC, zD, and zO are called recursive because they operate on all folds nested within the one where you issue the commands.
 
 
+The go fmt Command
 
 
+The go fmt command automatically formats your source code. For example, running go fmt /path/to/your/package will style your code by enforcing the use of proper line breaks, indentation, and brace alignment.
 
-Manual Folding
+Adhering to arbitrary styling preferences might seem strange at first, particularly if they differ from your habits. However, you should find this consistency refreshing over time, as your code will look similar to other third-party packages and feel more organized. Most IDEs contain hooks that will automatically run go fmt when you save your file, so you don’t need to explicitly run the command.
 
 
 
 
 
-If you know Vim motion commands, you already know half of what you must learn to be proficient with manual fold commands.
+The golint and go vet Commands
 
-For example, to hide three lines in a fold, enter either of the following:
 
-3zF 2zfj
+Whereas go fmt changes the syntactical styling of your code, golint reports style mistakes such as missing comments, variable naming that doesn’t follow conventions, useless type specifications, and more. Notice that golint is a standalone tool, and not a subcommand of the main go binary. You’ll need to install it separately by using go get -u golang.org/x/lint/golint.
 
-3zf executes the zF folding command over three lines, starting with the current one. 2zfj executes the zf folding command from the current line to the line where j moves the cursor (two lines down).
+Similarly, go vet inspects your code and uses heuristics to identify suspicious constructs, such as calling Printf() with the incorrect format string types. The go vet command attempts to identify issues, some of which might be legitimate bugs, that a compiler might miss.
 
-Let’s try a more sophisticated command of use to C programmers. To fold a block of C code, position the cursor over the beginning or ending brace ({ or }) of a block of code and type zf%. (Remember that % moves to the matching brace.)
 
-Create a fold from the cursor to the beginning of file by typing zfgg. (gg goes to the beginning of the file.)
 
-It is easier to understand folds by seeing an example. We’ll take a simple file, create and manipulate folds, and watch the behavior. We’ll also see some of the enhanced visual folding cues that Vim provides.
 
-First consider the example file in Figure 14-2, which contains some (meaningless) lines of C code. Initially, there are no folds.
 
+Go Playground
 
 
+The Go Playground is an execution environment hosted at https://play.golang.org/ that provides a web-based frontend for developers to quickly develop, test, execute, and share snippets of Go code. The site makes it easy to try out various Go features without having to install or run Go on your local system. It’s a great way to test snippets of code before integrating them within your projects.
 
+It also allows you to simply play with various nuances of the language in a preconfigured environment. It’s worth noting that the Go Playground restricts you from calling certain dangerous functions to prevent you from, for example, executing operating-system commands or interacting with third-party websites.
 
-Figure 14-2. Sample file with no folds
 
 
 
-There are a few things to note in this picture. First, Vim displays line numbers on the left side of the screen. We recommend that you always turn them on (using the number option) for added visual information about file location, and in this context the information becomes more valuable when you fold lines out of view. Vim tells you how many lines are not displayed, and the line numbers confirm and reinforce that information.
 
-Also notice the gray columns to the left of the line numbers. These columns are reserved for more folding visual cues. As we create and use folds, we will see the visual cues Vim inserts into these columns.
+Other Commands and Tools
 
-In Figure 14-2, notice that the cursor is on line 18. Let’s fold that line and the two following lines into one fold. We type zf2j. Figure 14-3 shows the result.
 
+Although we won’t explicitly discuss other tools and commands, we encourage you to do your own research. As you create increasingly complex projects, you’re likely to run into a desire to, for example, use the go test tool to run unit tests and benchmarks, cover to check for test coverage, imports to fix import statements, and more.
 
 
 
 
-Figure 14-3. Three lines folded at line 18
 
+Understanding Go Syntax
 
 
-Notice how Vim creates an easily identified marker with the +-- as a prefix, and how it displays text from the first folded line in the fold placeholder. Now notice the far left side of the screen where Vim inserted the +. This is another visual cue.
+An exhaustive review of the entire Go language would take multiple chapters, if not an entire book. This section gives a brief overview of Go’s syntax, particularly relative to data types, control structures, and common patterns. This should act as a refresher for casual Go coders and an introduction for those new to the language.
 
-In the same file, we’ll next fold the block of code between and including the braces after the if statement. Position the cursor on either one of the braces and type zf%. The file now appears as in Figure 14-4.
+For an in-depth, progressive review of the language, we recommend that you work through the excellent A Tour of Go (https://tour.golang.org/) tutorial. It’s a comprehensive, hands-on discussion of the language broken into bite-sized lessons that use an embedded playground to enable you to try out each of the concepts.
 
+The language itself is a much cleaner version of C that removes a lot of the lower-level nuances, resulting in better readability and easier adoption.
 
 
 
 
-Figure 14-4. Block of code folded following an if statement
 
+Data Types
 
 
-Now there are eight lines of code folded, three of which are contained in a fold already created. This is called a nested fold. Note there is no indication of the nested fold.
+Like most modern programming languages, Go provides a variety of primitive and complex data types. Primitive types consist of the basic building blocks (such as strings, numbers, and booleans) that you’re accustomed to in other languages. Primitives make up the foundation of all information used within a program. Complex data types are user-defined structures composed of a combination of one or more primitive or other complex types.
 
-Our next experiment is to position the cursor on line 25 and fold all lines up to and including the function declaration for fcn. This time we use the Vim search motion. We initiate the fold command with zf, search backward to the beginning of the fcn function using ?int fcn (the backward search command in Vim), and press the ENTER key. The screen now looks like Figure 14-5.
 
 
 
 
+Primitive Data Types
 
-Figure 14-5. Folding to the beginning of a function
 
+The primitive types include bool, string, int, int8, int16, int32, int64, uint, uint8, uint16, uint32, uint64, uintptr, byte, rune, float32, float64, complex64, and complex128.
 
+You typically declare a variable’s type when you define it. If you don’t, the system will automatically infer the variable’s data type. Consider the following examples:
 
+var x = "Hello World" z := int(42)
 
+In the first example, you use the keyword var to define a variable named x and assign to it the value "Hello World". Go implicitly infers x to be a string, so you don’t have to declare that type. In the second example, you use the := operator to define a new variable named z and assign to it an integer value of 42. There really is no difference between the two operators. We’ll use both throughout this book, but some people feel that the := operator is an ugly symbol that reduces readability. Choose whatever works best for you.
 
-Note
+In the preceding example, you explicitly wrap the 42 value in an int call to force a type on it. You could omit the int call but would have to accept whatever type the system automatically uses for that value. In some cases, this won’t be the type you intended to use. For instance, perhaps you want 42 to be represented as an unsigned integer, rather than an int type, in which case you’d have to explicitly wrap the value.
 
 
-If you count lines and create a fold that spans another fold (for example, 3zf), all lines contained in the spanned fold count as one line. For example, if the cursor is on line 30, and lines 31–35 are hidden in a fold on the next screen line, so that the next line on the screen displays line 36, 3zf creates a new fold containing three lines as they appear on the screen: the text line 30, the five lines contained in the fold holding lines 31–35, and the text line 36 displayed in the next line on the screen. Confusing? A little. You might say that the zf command counts lines in accordance with the rule, “What you see is what you fold.”
 
 
 
-Let’s try some other features. First, open all the folds with the command zO (that’s z followed by the letter O, not z followed by a zero). Now we start seeing some visual cues in the left margin about the folds we made, as shown in Figure 14-6. Each of the columns in this margin is called a foldcolumn.
+Slices and Maps
 
 
+Go also has more-complex data types, such as slices and maps. Slices are like arrays that you can dynamically resize and pass to functions more efficiently. Maps are associative arrays, unordered lists of key/value pairs that allow you to efficiently and quickly look up values for a unique key.
 
+There are all sorts of ways to define, initialize, and work with slices and maps. The following example demonstrates a common way to define both a slice s and a map m and add elements to both:
 
+var s = make([]string, 0) var m = make(map[string]string) s = append(s, "some string") m["some key"] = "some value"
 
-Figure 14-6. All folds opened
+This code uses the two built-in functions: make() to initialize each variable and append() to add a new item to a slice. The last line adds the key/value pair of some key and some value to the map m. We recommend that you read the official Go documentation to explore all the methods for defining and using these data types.
 
 
 
-In this figure, the first line of each fold is marked with a minus sign (–), and all the other lines of the fold are marked by a vertical bar or pipe character (|). The largest (outermost) fold is in the leftmost column, and the innermost fold is in the rightmost column. As you see in our picture, lines 5–25 represent the lowest fold level (in this case, 1), lines 15–22 represent the next fold level (2), and lines 18–20 represent the highest fold level.
 
 
+Pointers, Structs, and Interfaces
 
 
+A pointer points to a particular area in memory and allows you to retrieve the value stored there. As you do in C, you use the & operator to retrieve the address in memory of some variable, and the * operator to dereference the address. The following example illustrates this:
 
-Tip
+❶ var count = int(42) ❷ ptr := &count ❸ fmt.Println(*ptr) ❹ *ptr = 100 ❺ fmt.Println(count)
 
+The code defines an integer, count ❶, and then creates a pointer ❷ by using the & operator. This returns the address of the count variable. You dereference the variable ❸ while making a call to fmt.Println() to log the value of count to stdout. You then use the * operator ❹ to assign a new value to the memory location pointed to by ptr. Because this is the address of the count variable, the assignment changes the value of that variable, which you confirm by printing it to the screen ❺.
 
-By default, this helpful visual metaphor is turned off (we don’t know why; perhaps because it uses up screen space). Turn it on and define its width with the following command:
+You use the struct type to define new data types by specifying the type’s associated fields and methods. For example, the following code defines a Person type:
 
-:set foldcolumns=n
+❶ type Person struct { ❷ Name string ❸ Age int } ❹ func (p *Person) SayHello() { fmt.Println("Hello,", p.Name❺) } func main() { var guy = new❻(Person) ❼ guy.Name = "Dave" ❽ guy.SayHello() }
 
-where n is the number of columns to use (maximum is 12, default is 0). In the figure, we use foldcolumn=5. (For those paying close attention, yes, the earlier figures had foldcolumn set to 3. We changed the value for a better visual presentation.)
+The code uses the type keyword ❶ to define a new struct containing two fields: a string named Name ❷ and an int named Age ❸.
 
+You define a method, SayHello(), on the Person type assigned to variable p ❹. The method prints a greeting message to stdout by looking at the struct, p ❺, that received the call. Think of p as a reference to self or this in other languages. You also define a function, main(), which acts as the program’s entry point. This function uses the new keyword ❻ to initialize a new Person. It assigns the name Dave to the person ❼ and then tells the person to SayHello() ❽.
 
+Structs lack scoping modifiers—such as private, public, or protected—that are commonly used in other languages to control access to their members. Instead, Go uses capitalization to determine scope: types and fields that begin with a capital letter are exported and accessible outside the package, whereas those starting with a lowercase letter are private, accessible only within the package.
 
-Now create more folds to observe their effects.
+You can think of Go’s interface type as a blueprint or a contract. This blueprint defines an expected set of actions that any concrete implementation must fulfill in order to be considered a type of that interface. To define an interface, you define a set of methods; any data type that contains those methods with the correct signatures fulfills the contract and is considered a type of that interface. Let’s take a look at an example:
 
-First, refold the deepest fold, which covers lines 18–20, by positioning the cursor on any line within the range of that fold and typing zc (close fold). Figure 14-7 shows the result.
+❶ type Friend interface { ❷ SayHello() }
 
+In this sample, you’ve defined an interface called Friend ❶ that requires one method to be implemented: SayHello() ❷. That means that any type that implements the SayHello() method is a Friend. Notice that the Friend interface doesn’t actually implement that function—it just says that if you’re a Friend, you need to be able to SayHello().
 
+The following function, Greet(), takes a Friend interface as input and says hello in a Friend-specific way:
 
+func Greet❶ (f Friend❷) { f.SayHello() }
 
+You can pass any Friend type to the function. Luckily, the Person type used in the previous example can SayHello()—it’s a Friend. Therefore, if a function named Greet() ❶, as shown in the preceding code, expects a Friend as an input parameter ❷, you can pass it a Person, like this:
 
-Figure 14-7. After refolding lines 18–20
+func main() { var guy = new(Person) guy.Name = "Dave" Greet(guy) }
 
+Using interfaces and structs, you can define multiple types that you can pass to the same Greet() function, so long as these types implement the Friend interface. Consider this modified example:
 
+❶ type Dog struct {} func (d *Dog) SayHello()❷ { fmt.Println("Woof woof") } func main() { var guy = new(Person) guy.Name = "Dave" ❸ Greet(guy) var dog = new(Dog) ❹ Greet(dog) }
 
-See the change in the gray margin? Vim maintains the visual cues, making visualization and management of your folds easy.
+The example shows a new type, Dog ❶, that is able to SayHello() ❷ and, therefore, is a Friend. You are able to Greet() both a Person ❸ and a Dog ❹, since both are capable of SayHello().
 
-Now let’s see what a typical “one line” command does to a fold. Position the cursor on the folded line (18). Type ~~ (toggle case for all characters in the current line). Remember that in Vim, ~ is an object operator (unless the compatible option is set) and therefore should toggle the case of all the characters in the line for this example. Next, open the fold by typing zo (open fold). The code now looks like Figure 14-8.
+We’ll cover interfaces multiple times throughout the book to help you better understand the concept.
 
 
 
 
 
-Figure 14-8. Case change applied to a fold
+Control Structures
 
 
+Go contains slightly fewer control structures than other modern languages. Despite that, you can still accomplish complex processing, including conditionals and loops, with Go.
 
-This is a powerful feature. Line commands or operators act on the entire text represented by a fold line! Admittedly this may seem like a contrived example, but it illustrates nicely the potential of this technique.
+Go’s primary conditional is the if/else structure:
 
+if x == 1 { fmt.Println("X is equal to 1") } else { fmt.Println("X is not equal to 1") }
 
+Go’s syntax deviates slightly from the syntax of other languages. For instance, you don’t wrap the conditional check—in this case, x == 1—in parentheses. You must wrap all code blocks, even the preceding single-line blocks, in braces. Many other modern languages make the braces optional for single-line blocks, but they’re required in Go.
 
+For conditionals involving more than two choices, Go provides a switch statement. The following is an example:
 
+switch x❶ { case "foo"❷: fmt.Println("Found foo") case "bar"❸: fmt.Println("Found bar") default❹: fmt.Println("Default case") }
 
-Note
+In this example, the switch statement compares the contents of a variable x ❶ against various values—foo ❷ and bar ❸—and logs a message to stdout if x matches one of the conditions. This example includes a default case ❹, which executes in the event that none of the other conditions match.
 
+Note that, unlike many other modern languages, your cases don’t have to include break statements. In other languages, execution often continues through each of the cases until the code reaches a break statement or the end of the switch. Go will execute no more than one matching or default case.
 
-Any action on a fold affects the whole fold. For instance, in Figure 14-7, if you position the cursor over line 18—a fold hiding lines 18 through 20—and type dd (delete line), all three lines are deleted and the fold is removed.
+Go also contains a special variation on the switch called a type switch that performs type assertions by using a switch statement. Type switches are useful for trying to understand the underlying type of an interface. For example, you might use a type switch to retrieve the underlying type of an interface called i:
 
-It’s also important to note that Vim manages all edit actions as if there were no folds, so any undos will undo an entire edit’s action. So, if we typed u (undo) after the previous change, all three lines that had been deleted would be restored. The undo feature is separate from the “one line” actions discussed in this section, although sometimes they seem to act similarly.
+func foo(i❶ interface{}) { switch v := i.(type)❷ { case int: fmt.Println("I'm an integer!") case string: fmt.Println("I'm a string!") default: fmt.Println("Unknown type!") } }
 
+This example uses special syntax, i.(type) ❷, to retrieve the type of the i interface variable ❶. You use this value in a switch statement in which each case matches against a specific type. In this example, your cases check for int or string primitive types, but you could very well check for pointers or user-defined struct types, for instance.
 
+Go’s last flow control structure is the for loop. The for loop is Go’s exclusive construct for performing iteration or repeating sections of code. It might seem odd to not have conventions such as do or while loops at your disposal, but you can re-create them by using variations of the for loop syntax. Here’s one variation of a for loop:
 
-Now is a good time to familiarize yourself with the visual cues in the foldcolumn margin. They make it easy to see what fold you are about to act on. For example, the zc (close fold) command closes the innermost fold containing the line the cursor is on. You can see how large this fold is through the vertical bars in the foldcolumns. Once mastered, actions such as opening, closing, and deleting folds become second nature.
+for i := 0; i < 10; i++ { fmt.Println(i) }
 
+The code loops through numbers 0 to 9, printing each number to stdout. Notice the semicolons in the first line. Unlike many other languages, which use semicolons as line delimiters, Go uses them for various control structures to perform multiple distinct, but related, subtasks in a single line of code. The first line uses the semicolons to separate the initialization logic (i := 0), the conditional expression (i < 10), and the post statement (i++). This structure should be very, very familiar to anyone who has coded in any modern language, as it closely follows the conventions of those languages.
 
+The following example shows a slight variation of the for loop that loops over a collection, such as a slice or a map:
 
+❶ nums := []int{2,4,6,8} for idx❷, val❸ := range❹ nums { fmt.Println(idx, val) }
 
+In this example, you initialize a slice of integers named nums ❶. You then use the keyword range ❹ within the for loop to iterate over the slice. The range keyword returns two values: the current index ❷ and a copy of the current value ❸ at that index. If you don’t intend to use the index, you could replace idx in the for loop with an underscore to tell Go you won’t need it.
 
-Outlining
+You can use this exact same looping logic with maps as well to return each key/value pair.
 
 
 
 
 
-Consider the following simple (and contrived) file using tabs for indentation:
+Concurrency
 
-1. This is Headline ONE with NO indentation and NO fold level. 1.1 This is sub-headline ONE under headline ONE This is a paragraph under the headline. Its fold level is 2. 1.2 This is sub-headline TWO under headline ONE. 2. This is Headline TWO. No indentation, so no folds! 2.1 This is sub-headline ONE under headline TWO. Like the indented paragraph above, this has fold level 2. - Here is a bullet at fold level 3. A paragraph at fold level 4. - Here is the next bullet, again back at fold level 3. And, another set of bullets: - Bullet one. - Bullet two. 2.2 This is heading TWO under Headline TWO. 3. This is Headline THREE.
 
-You can use Vim folds to look at your file as a pseudo-outline. Define your folding method as indent:
+Much like the control structures already reviewed, Go has a much simpler concurrency model than other languages. To execute code concurrently, you can use goroutines, which are functions or methods that can run simultaneously. These are often described as lightweight threads because the cost of creating them is minimal when compared to actual threads.
 
-:set foldmethod=indent
+To create a goroutine, use the go keyword before the call to a method or function you wish to run concurrently:
 
-In our file we define the shiftwidth (the indentation level for tabs) to be 4. Now we can open and close folds based on indentation of lines. For each shiftwidth (a multiple of four columns in this case) to a line that is indented, its fold level increases by 1. For example, the subheadlines in our file are indented one shiftwidth, or four columns, and hence have a fold level of 1. Lines indented eight columns (two shiftwidths) have a fold level of 2, etc.
+❶ func f() { fmt.Println("f function") } func main() { ❷ go f() time.Sleep(1 * time.Second) fmt.Println("main function") }
 
-You can control the level of folds you see with the foldlevel command. It takes an integer as its argument and displays only lines whose fold levels are less than or equal to the argument. In our file we can ask to view only the highest-level headings with:
+In this example, you define a function, f() ❶, that you call in your main() function, the program’s entry point. You preface the call with the keyword go ❷, meaning that the program will run function f() concurrently; in other words, the execution of your main() function will continue without waiting for f() to complete. You then use a time.Sleep(1 * time.Second) to force the main() function to pause temporarily so that f() can complete. If you didn’t pause the main() function, the program would likely exit prior to the completion of function f(), and you would never see its results displayed to stdout. Done correctly, you’ll see messages printed to stdout indicating that you’ve finished executing both the f() and main() functions.
 
-:set foldlevel=0
+Go contains a data type called channels that provide a mechanism through which goroutines can synchronize their execution and communicate with one another. Let’s look at an example that uses channels to display the length of different strings and their sum simultaneously:
 
-and our screen now looks like Figure 14-9.
+❶ func strlen(s string, c chan int) { ❷ c <- len(s) } func main() { ❸ c := make(chan int) ❹ go strlen("Salutations", c) go strlen("World", c) ❺ x, y := <-c, <-c fmt.Println(x, y, x+y) }
 
+First, you define and use a variable c of type chan int. You can define channels of various types, depending on the type of data you intend to pass via the channel. In this case, you’ll be passing the lengths of various strings as integer values between goroutines, so you should use an int channel.
 
+Notice a new operator: <-. This operator indicates whether the data is flowing to or from a channel. You can think of this as the equivalent of placing items into a bucket or removing items from a bucket.
 
+The function you define, strlen() ❶, accepts a word as a string, as well as a channel that you’ll use for synchronizing data. The function contains a single statement, c <- len(s) ❷, which uses the built-in len() function to determine the length of the string, and then puts the result into the c channel by using the <- operator.
 
+The main() function pieces everything together. First, you issue a call to make(chan int) ❸ to create the integer channel. You then issue multiple concurrent calls to the strlen() function by using the go keyword ❹, which spins up multiple goroutines. You pass to the strlen() function two string values, as well as the channel into which you want the results placed. Lastly, you read data from the channel by using the <- operator ❺, this time with data flowing from the channel. This means you’re taking items out of your bucket, so to speak, and assigning those values to the variables x and y. Note that execution blocks at this line until adequate data can be read from the channel.
 
-Figure 14-9. fold level = 0
+When the line completes, you display the length of each string as well as their sum to stdout. In this example, it produces the following output:
 
+5 11 16
 
+This may seem overwhelming, but it’s key to highlight basic concurrency patterns, as Go shines in this area. Because concurrency and parallelism in Go can become rather complicated, feel free to explore on your own. Throughout this book, we’ll talk about more realistic and complicated implementations of concurrency as we introduce buffered channels, wait groups, mutexes, and more.
 
-Display everything up to and including the bullets by setting foldlevel to 2. Everything with a fold level greater than or equal to 2 is then displayed, as in Figure 14-10.
 
 
 
 
+Error Handling
 
-Figure 14-10. fold level = 2
 
+Unlike most other modern programming languages, Go does not include syntax for try/catch/finally error handling. Instead, it adopts a minimalistic approach that encourages you to check for errors where they occur rather than allowing them to “bubble up” to other functions in the call chain.
 
+Go defines a built-in error type with the following interface declaration:
 
-Using this technique to inspect your file, you can quickly expand and collapse the level of detail you see with Vim’s fold increment (zr) and decrement (zm) commands.
+type error interface { Error() string }
 
+This means you can use any data type that implements a method named Error(), which returns a string value, as an error. For example, here’s a custom error you could define and use throughout your code:
 
+❶ type MyError string func (e MyError) Error() string❷ { return string(e) }
 
+You create a user-defined string type named MyError ❶ and implement an Error() string method ❷ for the type.
 
+When it comes to error handling, you’ll quickly get accustomed to the following pattern:
 
-A Few Words About the Other Fold Methods
+func foo() error { return errors.New("Some Error Occurred") } func main() { if err := foo()❶;err != nil❷ { // Handle the error } }
 
+You’ll find that it’s fairly common for functions and methods to return at least one value. One of these values is almost always an error. In Go, the error returned may be a value of nil, indicating that the function generated no error and everything seemingly ran as expected. A non-nil value means something broke in the function.
 
+Thus, you can check for errors by using an if statement, as shown in the main() function. You’ll typically see multiple statements, separated by a semicolon. The first statement calls the function and assigns the resulting error to a variable ❶. The second statement then checks whether that error is nil ❷. You use the body of the if statement to handle the error.
 
+You’ll find that philosophies differ on the best way to handle and log errors in Go. One of the challenges is that, unlike other languages, Go’s built-in error type doesn’t implicitly include a stack trace to help you pinpoint the error’s context or location. Although you can certainly generate one and assign it to a custom type in your application, its implementation is left up to the developers. This can be a little annoying at first, but you can manage it through proper application design.
 
 
-We don’t have time to cover all of the other fold methods, but to whet your appetite, we invite you to take a quick peek at the syntax folding method.
 
-We use the same C file as before, but this time we let Vim decide what to fold based on C syntax. The rules governing folding within C are complex, but this simple snippet of code suffices to demonstrate Vim’s automatic capabilities.
 
-First, make sure to get rid of all folds by typing zD (delete all folds). The screen now displays all code with no visual markers in the fold column.
 
-Make sure folding is turned on with the command:
+Handling Structured Data
 
-:set foldenable
 
-(You didn’t need to do this before for manual folding, because foldenable was automatically set when foldmethod was set to manual.) Now type the command:
+Security practitioners will often write code that handles structured data, or data with common encoding, such as JSON or XML. Go contains standard packages for data encoding. The most common packages you’re likely to use include encoding/json and encoding/xml.
 
-:set foldmethod=syntax
+Both packages can marshal and unmarshal arbitrary data structures, which means they can turn strings to structures, and structures to strings. Let’s look at the following sample, which serializes a structure to a byte slice and then subsequently deserializes the byte slice back to a structure:
 
-The folds appear as in Figure 14-11.
+❶ type Foo struct { Bar string Baz string } func main() { ❷ f := Foo{"Joe Junior", "Hello Shabado"} b, _❸ := json.Marshal❹(f❺) ❻ fmt.Println(string(b)) json.Unmarshal(b❼, &f❽) }
 
+This code (which deviates from best practices and ignores possible errors) defines a struct type named Foo ❶. You initialize it in your main() function ❷ and then make a call to json.Marshal() ❹, passing it the Foo instance ❺. This Marshal() method encodes the struct to JSON, returning a byte slice ❸ that you subsequently print to stdout ❻. The output, shown here, is a JSON-encoded string representation of our Foo struct:
 
+{"Bar":"Joe Junior","Baz":"Hello Shabado"}
 
+Lastly, you take that same byte slice ❼ and decode it via a call to json.Unmarshal(b, &f). This produces a Foo struct instance ❽. Dealing with XML is nearly identical to this process.
 
+When working with JSON and XML, you’ll commonly use field tags, which are metadata elements that you assign to your struct fields to define how the marshaling and unmarshaling logic can find and treat the affiliated elements. Numerous variations of these field tags exist, but here is a short example that demonstrates their usage for handling XML:
 
-Figure 14-11. After the command set foldmethod=syntax
+type Foo struct { Bar string `xml:"id,attr"` Baz string `xml:"parent>child"` }
 
+The string values, wrapped in backticks and following the struct fields, are field tags. Field tags always begin with the tag name (xml in this case), followed by a colon and the directive enclosed in double quotes. The directive defines how the fields should be handled. In this case, you are supplying directives that declare that Bar should be treated as an attribute named id, not an element, and that Baz should be found in a subelement of parent, named child. If you modify the previous JSON example to now encode the structure as XML, you would see the following result:
 
+<Foo id="Joe Junior"><parent><child>Hello Shabado</child></parent></Foo>
 
-Vim folded all bracketed blocks of code, because those are logical semantic blocks in C. If you type zo on line 6 of this example, Vim expands the fold and reveals the inner fold.
+The XML encoder reflectively determines the names of elements, using the tag directives, so each field is handled according to your needs.
 
-Each fold method uses different rules to define folds. We encourage you to roll up (fold up?) your sleeves and read more on these powerful methods in the Vim documentation.
+Throughout this book, you’ll see these field tags used for dealing with other data serialization formats, including ASN.1 and MessagePack. We’ll also discuss some relevant examples of defining your own custom tags, specifically when you learn how to handle the Server Message Block (SMB) Protocol.
 
-The Vim diff mode (also invoked through the vimdiff command) is a powerful combination of folding, windowing, and syntax highlighting, a feature we discuss later. As illustrated in Figure 14-12, the mode shows the differences between files, usually between two versions of the same file.
 
 
 
 
+Summary
 
-Figure 14-12. Vim diff feature and its use of folds
 
-
-
-
-
-Auto and Smart Indenting
-
-
-
-
-
-Vim offers four increasingly complex and powerful methods to automatically indent text. In its simplest form, Vim behaves almost identically to vi’s autoindent option, and indeed it uses the same name to describe the behavior.
-
-You can choose the indentation method simply by specifying it in a :set command, such as:
-
-:set cindent
-
-Vim offers the following methods, listed in order of increasing sophistication:
-
-autoindent
-
-Auto indentation closely mimics vi’s autoindent. It differs subtly as to where the cursor is placed after indentation is deleted.
-
-
-
-smartindent
-
-Slightly more powerful than autoindent, but it recognizes some basic C syntax primitives for defining indentation levels.
-
-
-
-cindent
-
-As its name implies, cindent embodies a much richer awareness of C syntax and introduces sophisticated customization beyond simple indentation levels. For example, cindent can be configured to match your (or your boss’s) favorite coding style rules, including but not limited to how braces ({}) indent, where braces are placed, whether either or both braces are indented, and even how indentation matches included text.
-
-
-
-indentexpr
-
-Lets you define your own expression, which Vim evaluates in the context of each new line you begin. With this feature, you write your own rules. We refer you to the discussions of scripting and functions in this book and to the Vim documentation for details. If the other three options don’t give you enough flexibility for automatic indentation, indentexpr certainly will.
-
-
-
-
-
-Vim autoindent Extensions to vi’s autoindent
-
-
-
-
-
-autoindent for Vim behaves almost like vi’s and can be made identical by setting the compatible option. One nice extension to vi’s autoindent is Vim’s ability to recognize a file’s “type” and insert appropriate comment characters when comment lines in a file wrap to a new line. This feature works cooperatively with either the wrapmargin (text wraps within wrapmargin columns of the right margin) or textwidth (text wraps when characters in a line exceed textwidth characters) options. Figure 14-13 shows the results of identical inputs, one using Vim’s autoindent and the other using vi.
-
-
-
-
-
-Figure 14-13. Difference between Vim and vi autoindent
-
-
-
-Notice that in the second block of text (line 16 and beyond) there is no leading comment character. Also, with the compatible option set (to mimic vi’s behavior), the textwidth option isn’t recognized, and now the text wraps only because option wrapmargin has a value.
-
-
-
-
-
-smartindent
-
-
-
-
-
-smartindent extends autoindent, slightly. It’s useful, but if you are writing code in a C-like programming language with a fairly complex syntax, you are better served by using cindent instead.
-
-smartindent automatically inserts indents when:
-
-A new line follows a line with a left brace ({).
-
-
-
-A new line begins with a keyword that’s contained in the option cinwords.
-
-
-
-A new line is created preceding a line starting with a right brace (}), if the cursor is positioned on the line containing the brace and the user creates a new line using the O (open line above) command.
-
-
-
-A new line is a closing, or right, brace (}).
-
-
-
-
-
-cindent
-
-
-
-
-
-Regular Vim users who program in C-like languages will want to use either cindent or indentexpr for coding. Although indentexpr is more powerful, flexible, and customizable, cindent is more practical for most programming tasks. It has plenty of settings for most programmers’ needs (and corporate standards). Try it for a while with its default settings, and then customize it if your standards differ.
-
-
-
-
-
-Note
-
-
-If the indentexpr option has a defined value, it overrides cindent’s actions.
-
-
-
-Three options define cindent’s behavior:
-
-cinkeys
-
-Defines keyboard keys that signal Vim to reevaluate indentation
-
-
-
-cinoptions
-
-Defines the indentation style
-
-
-
-cinwords
-
-Defines keywords that signal when Vim should add an extra indent in subsequent lines
-
-
-
-
-
-cindent uses the string defined by cinkeys as its ruleset to define how to indent. We’ll examine the default value of cinkeys and then look at other settings you can define and how they work.
-
-
-
-
-
-The cinkeys option
-
-
-
-
-
-cinkeys is a comma-separated list of values:
-
-0{,0},0),:,0#,!^X^F,o,O,e
-
-Here are the values, broken into their separate contexts, with brief descriptions for each behavior:
-
-0{
-
-0 (zero) sets a beginning of line context for the following character, {. That is, if you type the character { as the first character of a line, Vim will reevaluate the indentation for that line.
-
-Do not confuse the zero in this option with the behavior “use zero indentation here,” a common practice in C indentation. The zero here means “if the character is typed at the beginning of the line,” not “force the character to appear at the beginning of the line.”
-
-The default indentation for { is zero: no added indentation beyond the current level. The following example shows typical results:
-
-main () { if ( argv[0] == (char *)NULL ) { ...
-
-
-
-0}
-
-0)
-
-As in the previous description, these two settings define beginning of line context. Thus, if you type either } or ) at the beginning of a line, Vim reevaluates indentation.
-
-The default indentation for } matches the indentation defined for its matching open brace {.
-
-The default indentation for ) is one shiftwidth.
-
-
-
-:
-
-This is the C label or case statement context. If a : (colon) is typed at the end of a label or case statement statement, Vim reevaluates indentation.
-
-The default indentation for : is column 1, the first column in a line. Do not confuse this with zero indentation, which leaves the new line at the same indentation level as the previous one. When the indentation is 1, the first character of a new line is shifted left all the way to the first column.
-
-
-
-0#
-
-Again, this is a beginning of line context. When # is the first character typed in a line, Vim reevaluates indentation.
-
-Default indentation, as in the previous definition, shifts the entire line to the first column. This is consistent with the practice of beginning macros (#define...) in column 1.
-
-
-
-!^F
-
-The special character ! defines any following character as a trigger to reevaluate the indentation in the current line. In this case, the triggering character is ^F, which stands for CTRL-F, so the default behavior is for Vim to reevaluate a line’s indentation any time you type CTRL-F.
-
-
-
-o
-
-This context defines any new line you create, whether by pressing the ENTER key in insert mode or by using the o (open new line) command.
-
-
-
-O
-
-This context covers the creation of a new line above the current line using the O (open new line above) command.
-
-
-
-e
-
-This is the else context. If you begin a line with the word else, Vim reevaluates indentation. Vim does not recognize this context until the final “e” of else is typed.
-
-
-
-
-
-cinkeys syntax rules. Each cinkeys definition consists of an optional prefix (one of !, *, or 0) and the key for which indentation is reevaluated. The prefixes have the following meanings:
-
-!
-
-Indicates a key (default CTRL-F) that causes Vim to reevaluate indentation on the current line. You can add an additional key definition as a command (by using the += syntax) without overriding the preexisting command. In other words, you can provide multiple keys to trigger line indentation. Any key you add to the ! definition still performs its old function as well.
-
-
-
-*
-
-Tells Vim to reevaluate the current line indentation before inserting the key.
-
-
-
-0
-
-Sets a beginning of line context. The key you specify after the 0 triggers a reevaluation of indentation only when typed as the first character of a line.
-
-
-
-
-
-Note
-
-
-Be aware of the distinction in vi and Vim between “first character in a line” and “first column in a line.” You already know that typing ^ moves to the first character of a line, not necessarily the first column (flush left); the same is true of inserting with I. In the same way, the 0 prefix applies to entering a character as the first character in a line, regardless of whether it is flush left.
-
-
-
-
-
-cinkeys has special key names and provides ways to override any reserved characters, such as those used as prefix characters. Here are the special key options:
-
-<>
-
-Use this form to define keys literally. For special nonprinting keys, use the spelled-out versions. For example, you can define the literal character “:” with <:>. Another example for a nontyping key is to define the “up arrow” as <Up>.
-
-
-
-^
-
-Use the caret (^) to signify a control character. For example, ^F defines the key CTRL-F.
-
-
-
-o
-
-O
-
-e
-
-:
-
-We saw these special keys in the default value for cinkeys.
-
-
-
-= word
-
-=~ word
-
-Use these to define a word that should receive special behavior. Once the string word is matched, if it is the first text on a new line, Vim reevaluates indentation.
-
-The form =~word is the same as =word except that it ignores case.
-
-
-
-
-
-Note
-
-
-The term word is an unfortunate misnomer. More properly, it represents beginning of word, because the trigger occurs as soon as the string matches, but it does not require that the matched end of string also be the end of word. Vim’s built-in documentation gives the example of end matching both end and endif.
-
-
-
-
-
-The cinwords option
-
-
-
-
-
-cinwords defines keywords that, when typed, trigger extra indentation on the following line. The option’s default value is:
-
-if,else,while,do,for,switch
-
-This covers the standard keywords in the C programming language.
-
-
-
-
-
-Note
-
-
-These keywords are case-sensitive. In checking for them, Vim even ignores the setting of the ignorecase option. If you need variations for different cases of keywords, you must specify all combinations in the cinwords string.
-
-
-
-
-
-The cinoptions option
-
-
-
-
-
-cinoptions controls how Vim reindents lines of text in their C context. It includes settings to control a number of code formatting standards, such as:
-
-How far to indent a code block enclosed by braces
-
-
-
-Whether to insert a newline in front of a brace that follows a condition statement
-
-
-
-How to align blocks of code relative to their enclosing braces
-
-
-
-
-
-cinoptions defines 28 settings with its default value:
-
-s,e0,n0,f0,{0,}0,^0,:s,=s,l0,b0,gs,hs,ps,ts,is,+s,c3,C0,/0,(2s,us,U0,w0,W0, m0,j0,)20,*30
-
-The very length of the option gives you a sense of how many ways Vim lets you customize indentation. Most customization with cinoptions defines slight differences in context blocks. Some customizations define how far to scan (how many lines forward and backward in the file to go) in order to establish the right context and properly evaluate indentation.
-
-Settings that alter the amount of indentations for various contexts can increase or decrease levels of indentation. Also, you can redefine the number of columns to use for indentation. For example, setting cinoptions=f5 causes an opening brace ({) to be indented five columns, so long as it is not inside any other braces.
-
-Another way to define increments of indentation is by some multiplier (which doesn’t have to be an integer) of shiftwidth. If, in the previous example, you append w to the definition (i.e., cinoptions=f5w), the opening brace shifts five shiftwidths.
-
-Insert a minus sign (-) before any numeric value to alter the indentation level to the left (a negative indentation).
-
-
-
-
-
-Warning
-
-
-This option and its string value is one to modify with great care. Remember that when you use = syntax, you redefine an option completely. Because cinoptions carries so many possible settings, use very fine-grained commands to make changes: += to add a setting, -= to remove an existing setting, and -= followed by += to change an existing setting.
-
-
-
-The following is a brief list of the options you are most likely to change. It is a small subset of the settings in cinoptions, and many readers may find the other (or even all) settings useful to customize.
-
->n (default is s)
-
-Any line where indentation is indicated should be indented n places. The default for this is s, meaning that the default indentation for a line is one shiftwidth.
-
-
-
-f n
-
-{ n
-
-The f defines how far to indent an opening unnested brace ({). The default value is zero, thus aligning braces with their logical counterpart. For example, a brace following a line with a while statement is placed under the “w” of the while.
-
-The { behaves the same way as the f but applies to nested opening braces. Again, this one defaults to an indent level of zero.
-
-Figures 14-14 and 14-15 show two examples of identical text entry in Vim, the first example with cinoptions=s,f0,{0, and the second with cinoptions=s,fs,{s. For both examples, option shiftwidth has the value 4 (four columns).
-
-
-
-
-
-Figure 14-14. cinoptions=s,f0,{0
-
-
-
-
-
-Figure 14-15. cinoptions=s,fs,{s
-
-
-
-
-
-} n
-
-Use this setting to define a closing brace’s (}) offset from its matching brace. The default is zero (aligned with the matching brace).
-
-
-
-^ n
-
-Add n to the current indentation inside a set of braces ({...}) if the opening brace is in column one.
-
-
-
-: n
-
-= n
-
-b n
-
-These three control indentation in case statements. With :, Vim indents case labels n characters from the position of its corresponding switch statement. The default is one shiftwidth.
-
-The = setting defines the offset for lines of code from their corresponding case label. The default is to indent statements one shiftwidth.
-
-The b setting defines where to place break statements. The default (zero) aligns break with the other statements within the corresponding case block. Any nonzero value aligns the break with its corresponding case label.
-
-
-
-) n
-
-* n
-
-These two settings tell Vim how many lines to scan to find unclosed parentheses (default is 20 lines) and unclosed comments (default is 30 lines), respectively.
-
-
-
-
-
-Tip
-
-
-Ostensibly, these two settings limit how hard Vim has to work to look for matches. With today’s powerful computers, you should consider ratcheting these values up to assure more complete scope management to match comments and parentheses. Try doubling each to 40 and 60 as a starting point.
-
-
-
-
-
-indentexpr
-
-
-
-
-
-indentexpr, if defined, overrides cindent so that you can define indentation rules and tailor them exactly to your language editing needs.
-
-indentexpr defines an expression to be evaluated each time a new line is created in a file. This expression resolves to an integer that Vim uses as the indentation of the new line.
-
-In addition, the option indentkeys can define useful keywords in the same way that cinkeys keywords define lines after which indentation is reevaluated.
-
-The bad news is that it is a nontrivial project to write customized indentation rules from scratch for any language. The good news is it’s likely that the work is already done. Look in the $VIMRUNTIME/indent directory to see whether your favorite language is represented. A quick peek today reveals more than 70 indent files.
-
-The most common programming languages are represented, including ada, awk, docbook (the indent file is named docbk), eiffel, fortran, html, java, lisp, pascal, perl, php, python, ruby, scheme, sh, sql, and zsh. There is even an indent file defined for xinetd!
-
-You can tell Vim to automatically detect your file type and load the indent file by putting the command filetype indent on in your .vimrc file. Now Vim will try to detect what file type you are editing and load a corresponding indent definition file for you. If the indent rules do not fill your needs—for example, if they indent in some unfamiliar or unwanted fashion—turn the definitions off with the command :filetype indent off.
-
-We encourage power users to explore and learn from the indent definition files that come with Vim. And if you develop new definition files or improvements to existing ones, we encourage you to submit them to vim.org for possible addition to the Vim package.
-
-
-
-
-
-A Final Word on Indentation
-
-
-
-
-
-Before ending our discussion, it’s worth noting a couple of points about working with automatic indenting:
-
-When automatic indenting isn’t
-
-Any time you act on a line in an edit session with automatic indenting and you change that line’s indentation manually, Vim flags that line and will no longer try to automatically define its indentation.
-
-
-
-Copy and paste
-
-When you paste text into your file where automatic indenting is turned on, Vim considers this regular input and applies all automatic indentation rules. In most cases, this is probably not what you intend. Any indentation in pasted text is tacked on to applied indentation rules. Typically the result is text that progressively skews to the right side of the screen with large indentation and no corresponding retreat to the left side.
-
-
-
-
-
-To avoid this awkward situation and to paste text intact without side effects, set Vim’s paste option before adding the imported text. paste comprehensively reconfigures all of Vim’s automatic features to faithfully incorporate pasted text. To return to automatic mode, simply reset the paste option with the command :set nopaste.
-
-
-
-
-
-Keyword and Dictionary Word Completion
-
-
-
-
-
-Vim offers a comprehensive suite of insertion-completion capabilities. From programming language-specific keywords to filenames, dictionary words, and even entire lines, Vim knows how to offer possible completions to partially entered text. Not only that, but Vim abstracts the semantic of dictionary-based completion to include completions based on synonyms for the completed word from a thesaurus!
-
-In this section we look at the different completion methods, their syntaxes, and descriptions of how they work with examples. The methods of completion include:
-
-Whole line
-
-
-
-Current file keywords
-
-
-
-dictionary option keywords
-
-
-
-thesaurus option keywords
-
-
-
-Current and included file keywords
-
-
-
-Tags (as in ctags)
-
-
-
-Filenames
-
-
-
-Macros
-
-
-
-Vim command line
-
-
-
-User-defined
-
-
-
-Omni
-
-
-
-Spelling suggestions
-
-
-
-complete option keywords
-
-
-
-
-
-Except for complete keywords, all completion commands start with CTRL-X. The second key specifically defines the type of completion Vim attempts. For example, the command to autocomplete filenames is CTRL-X CTRL-F. (Not all the commands are so mnemonic, unfortunately.) Vim uses unmapped (default) keys, which allows you to shorten most of these commands to just the second keystroke by mapping the commands appropriately. (For instance, you can map CTRL-X CTRL-N to just CTRL-N.)
-
-All completion methods have virtually identical behavior: they cycle through a list of candidate completions as you retype the second keystroke. Thus, if you choose filename autocompletion through CTRL-X CTRL-F and you don’t get the right word on the first try, you can repeatedly press CTRL-F to see the other options. Additionally, if you press CTRL-N (for “next”), you move forward through the possibilities, whereas CTRL-P (for “previous”) moves backward.
-
-Let’s look at some of these autocompletion methods with examples and consider how they might be useful.
-
-
-
-
-
-Insertion Completion Commands
-
-
-
-
-
-These methods range in function from simply looking for words in your current file to spanning the range of function, variable, macro, and other names throughout an entire suite of code. The final method combines features of the others for a nice compromise between power and sophistication.
-
-
-
-
-
-Tip
-
-
-You may want to find your favorite completion method and map it to a single easy-to-use key. I map mine to the Tab key:
-
-:imap Tab <C-P>
-
-This sacrifices my ability to insert tabs easily, but it allows me to use the same key I use (available by default) in command-line environments such as DOS and shell (xterm, konsole, etc.) to complete partially typed information. (Remember, you can always insert a tab by quoting it with CTRL-V.) Mapping to the Tab key also corresponds to the normal completion key in Vim’s command-line mode.
-
-
-
-
-
-Completing whole lines
-
-
-
-
-
-This is invoked through CTRL-X CTRL-L. The method looks backward in the current file for a line matching the characters you’ve typed. We’ll try an example to give you a sense of how completion works.
-
-Consider a file that contains terminal, or console, definitions that characterize the features of terminals and how to manipulate them. Say your screen resembles Figure 14-16.
-
-
-
-
-
-Figure 14-16. Example of completion by line
-
-
-
-Note the highlighted line containing “This terminal widely used in our company...”. You need this line in many places as you mark terminals as “widely used” for your company. Simply type enough of the line to make it unique, or close to unique, and then type CTRL-X CTRL-L. Thus, Figure 14-17 contains the partial input line:
-
-# Thi
-
-
-
-
-
-Figure 14-17. Partially typed line waiting for completion
-
-
-
-CTRL-XCTRL-L causes Vim to show a set of possible completions for the line, based on lines previously entered in the file. The list of completions is shown in Figure 14-18.
-
-
-
-
-
-Figure 14-18. After typing CTRL-X CTRL-L
-
-
-
-It is hard to see in grayscale, but the screen offers a colored pop-up window containing multiple occurrences of lines matching the beginning of our partial line. Also displayed, but not visible in the screenshot, is information describing where the match is found. This method uses the complete option to define the scope for searching for matches. Scope is discussed in detail in the last method of this section.
-
-The pop up[50] list highlights selections as you move forward (CTRL-N) or backward (CTRL-P) through the list. Press ENTER to select your match. If you do not want any of the choices in the list, type CTRL-E to halt the match method without substituting any text. Your cursor returns to its original position on the same partial input.
-
-Figure 14-19 shows the results after we select an option from the list.
-
-
-
-
-
-Figure 14-19. After typing CTRL-X CTRL-L and selecting our matching line
-
-
-
-
-
-Completion by keyword in file
-
-
-
-
-
-CTRL-XCTRL-N searches forward through the current file for keywords matching the keyword in front of the cursor. Once you enter those keystrokes, you can use CTRL-N and CTRL-P to search forward or backward, respectively. Press ENTER to select a match.
-
-
-
-
-
-Note
-
-
-Note that “keyword” is loosely defined. While it may be keywords programmers are familiar with, it can really match any word in the file. Words are defined as a contiguous set of characters in the iskeyword option. The iskeyword defaults are pretty sane, but you can redefine the option if you want to include or leave out some punctuation. Characters in iskeyword can be specified either directly (such as a–z) or through ASCII code (such as using 97-122 to represent a–z).
-
-For instance, the defaults allow an underscore as part of a word, but consider a period or hyphen to be a delimiter. This works fine for C-like languages, but may not be the best choice for other environments.
-
-
-
-
-
-Completion by dictionary
-
-
-
-
-
-CTRL-XCTRL-K searches forward through the files defined by the dictionary option for keywords matching the keyword in front of the cursor.
-
-The default setup leaves the dictionary option undefined. There are common places to find dictionary files, and you can define your own. The most common dictionary files are:
-
-/usr/dict/words (Cygwin on XP)
-
-
-
-/usr/share/dict/words (FreeBSD)
-
-
-
-$HOME/.mydict (personal list of dictionary words)
-
-
-
-
-
-Notice that for Windows XP, the dictionary word file is provided by Cygwin (http://www.cygwin.com/), a free software emulation suite of Unix utilities. Although installation of Cygwin is beyond the scope of this discussion, it is worth noting that you can selectively install small portions of it, and you may find it worthwhile to install the piece that contains the word dictionary.
-
-
-
-
-
-Completion by thesaurus
-
-
-
-
-
-CTRL-XCTRL-T searches forward through the files defined by the thesaurus option for keywords that match the keyword in front of the cursor.
-
-This method offers an interesting twist. When Vim finds a match, if the line in the thesaurus file contains more than one word, Vim includes all the words in the list of completion candidates.
-
-Ostensibly (and implied by the option’s name), this method provides synonyms but allows you to define your own standard. Consider the example file containing these lines:
-
-fun enjoyable desirable funny hilarious lol rotfl lmao retrieve getchar getcwd getdirentries getenv getgrent ...
-
-The first two lines are typical English-language synonyms (matching “fun” and “funny,” respectively), while the third line might be useful for C programmers who regularly insert function names that begin with get. The synonym we use for these functions is “retrieve.”
-
-In real life, we’d separate the English-language thesaurus from the C-language one, because Vim can search multiple thesauruses.
-
-In input mode, type the word fun, then CTRL-X CTRL-T. Figure 14-20 shows the resulting pop up in gvim.
-
-
-
-
-
-Figure 14-20. Thesaurus completion of “fun”
-
-
-
-Notice the following:
-
-Vim matches any word it can find in a thesaurus entry, not just the first word of each line in the thesaurus file.
-
-
-
-Vim includes candidate words from all lines in the thesaurus that have a match with the keyword in front of the cursor. Thus, in this case, it finds the matches for both “fun” and “funny.”
-
-
-
-
-
-Note
-
-
-Another interesting and perhaps unanticipated behavior of thesaurus is that the match can be on words on a line in the thesaurus file other than the first word. For instance, in the line from the previous example file:
-
-funnyhilarious lol rotfl lmao
-
-If you type hilar and complete it, Vim will include in the list all words from hilarious on that line, i.e., “hilarious,” “lol,” “rotfl,” and “lmao.” Funny!
-
-
-
-Did you notice the extra information in the list of candidates for completion? You can get information about where Vim found the match in the pop-up menu by adding the value preview to the completeopt option.
-
-Now consider an example, using the same file as before, in which you type the partial word retrie. This matches “retrieve,” a synonym we like as a mnemonic for “getting” stuff, and we include all “get” function names as synonyms. Now, CTRL-X CTRL-T gives us the pop-up menu (in gvim) of all of our functions as choices for completion. See Figure 14-21.
-
-
-
-
-
-Figure 14-21. Thesaurus completion of string “retrie”
-
-
-
-As with other completion methods, press ENTER to select the match.
-
-
-
-
-
-Completion by keyword in current file and included files
-
-
-
-
-
-CTRL-XCTRL-I searches forward through the current file and included files for keywords matching the keyword in front of the cursor. This method differs from the “search current file” method (CTRL-XCTRL-P) in that Vim inspects the current file for include file references and searches those files, too.
-
-Vim uses the value in include to detect lines referencing include files. The default is a pattern telling Vim to find lines matching the standard C construct:
-
-# include <somefile.h>
-
-In this case, Vim would find matches in the file somefile.h in the standard include file directories on the system. Vim also uses the path option as a list of directories to search for the included files.
-
-
-
-
-
-Completion by tag
-
-
-
-
-
-CTRL-XCTRL-] searches forward through the current file and included files for keywords matching tags. (See the earlier section Using Tags for a discussion of tags.)
-
-
-
-
-
-Completion by filename
-
-
-
-
-
-CTRL-XCTRL-F searches for filenames matching the keyword in front of the cursor. Note that this causes Vim to complete the keyword with the name of the file, not with words found in files.
-
-
-
-
-
-Note
-
-
-As of Vim 7.1, Vim searches only in the current directory for files with possible filename matches. This is in contrast to many Vim features that use the path option to look for files. The built-in Vim documentation hints that this behavior is temporary, by pointing out that path isn’t used “yet.”
-
-
-
-
-
-Completion by macro and definition names
-
-
-
-
-
-CTRL-XCTRL-D searches forward through the current file and included files for macro names and definitions defined by the #define directive. This method inspects the current file for include file references and searches those files, too.
-
-
-
-
-
-Completion method with Vim commands
-
-
-
-
-
-This method, invoked through CTRL-X CTRL-V, is meant for use on the Vim command line and tries to guess the best completions for words. This context is provided to assist users developing Vim scripts.
-
-
-
-
-
-Completion by user functions
-
-
-
-
-
-This method, invoked through CTRL-X CTRL-U, lets you define the completion method with your own function. Vim uses the function pointed to by the option completefunc to make the completion. Refer to Chapter 12 for discussions about scripting and writing Vim functions.
-
-
-
-
-
-Completion by omni function
-
-
-
-
-
-This method, invoked through CTRL-X CTRL-O, uses user-defined functions much like the previous user function method. The significant difference is that this method expects the functions to be file type-specific, and hence, determined and loaded as a file is loaded. Omni completion files are already available for C, CSS, HTML, JavaScript, PHP, Python, Ruby, SQL, and XML. The built-in Vim documentation mentions that more scripts will be available soon for Vim 7.1, including an omni function file for C++. We encourage you to experiment with them.
-
-
-
-
-
-Completion for spelling correction
-
-
-
-
-
-This method is invoked through CTRL-X CTRL-S. The word in front of the cursor is used as the base word for which Vim offers candidates for completion. If the word appears to be badly spelled, Vim offers suggested “more correct” spellings.
-
-
-
-
-
-Completion with the complete option
-
-
-
-
-
-This is the most generic option, invoked through CTRL-N, and lets you combine all the other searches into one. For many users, this may be the most satisfactory because it requires little understanding of the nuances of the more specific methods.
-
-Define where and how this completion acts by setting the comma-separated list of available sources in the complete option. Each available source is denoted by a single character. The choices include:
-
-. (period)
-
-Search the current buffer
-
-
-
-w
-
-Search buffers in other windows (within the screen containing your Vim session)
-
-
-
-b
-
-Search other loaded buffers in the buffer list (which might not be visible in any Vim windows)
-
-
-
-u
-
-Search the unloaded buffers in the buffer list
-
-
-
-U
-
-Search the buffers not in the buffer list
-
-
-
-k
-
-Search the dictionary files (listed in the dictionary option)
-
-
-
-kspell
-
-Use the current spellchecking scheme (this is the only option that is not a single character)
-
-
-
-s
-
-Search the thesaurus files (listed in the thesaurus option)
-
-
-
-i
-
-Search the current and included files
-
-
-
-d
-
-Search the current and included files for defined macros
-
-
-
-t
-
-]
-
-Search for tag completion
-
-
-
-
-
-Some Final Comments on Vim Autocompletion
-
-
-
-
-
-We’ve covered a lot of material related to autocompletion, but there’s lots more. The autocompletion methods yield great returns for the time you invest in mastering their use. If you edit a lot, and if there’s any notion or context of text to be completed, find the method best suited to that and learn it.
-
-One final tip. Combinations with two keystrokes (more if you are a typical Unix user and count key combinations as “more than one”) can be error-prone, especially given that they are combinations with the CTRL key. If you think you’d use autocompletion heavily, consider mapping your favorite autocompletion to just one keystroke or key combination. Large numbers of autocompletion commands abbreviated to half the length offer that much more efficiency.
-
-The following example shows you why we find this customization so valuable. I map the Tab key to generic keyword matching, as mentioned earlier. While editing this book using DocBook XML tags, I have (using a conservative grep of the files) typed “emphasis” more than 1,200 times! Using keyword completion, I know the partial “emph” always matches to one choice, the “emphasis” tag I want. Thus, for each occurence of this word, I save at least three keystrokes (assuming perfect typing for the three initial letters), giving me a total savings of at least 3,600 keystrokes!
-
-Here’s another way to measure the efficiency of this method: I already know I type about four characters per second, thus gaining a savings in typing for one keyword alone of 3,600 divided by 4, or 15 minutes time saved. For the same DocBook files, I complete another 20 to 30 keywords in the same fashion. The savings in time accrue quickly!
-
-
-
-
-
-* * *
-
-
-
-[50] The pop up is in gvim; Vim behaves slightly differently.
-
-
-
-
-
-Tag Stacking
-
-
-
-
-
-Tag stacking is described earlier in the section Tag Stacks. Besides moving back and forth among the tags you search for, you can choose among multiple matching tags. You can also do tag selection and window splitting with one command. The Vim ex mode commands for working with tags are provided in Table 14-1.
-
-Table 14-1. Vim tag commands
-
-CommandFunction
-
-ta[g][!] [tagstring] Edit the file containing tagstring as defined in the tags file. The ! forces Vim to switch to the new file if the current buffer has been modified but not saved. The file may or may not be written out, depending on the setting of the autowrite option.
-
-
-
-[count]ta[g][!] Jump to the count’th newer entry in the tag stack.
-
-
-
-[count]po[p][!] Pop a cursor position off the stack, restoring the cursor to its previous position. If supplied, go to the count’th older entry.
-
-
-
-tags Display the contents of the tag stack.
-
-
-
-ts[elect][!] [tagstring] List the tags that match tagstring, using the information in the tags file(s). If no tagstring is given, the last tag name from the tag stack is used.
-
-
-
-sts[elect][!] [tagstring] Like :tselect, but splits the window for the selected tag.
-
-
-
-[count]tn[ext][!] Jump to the count’th next matching tag (default is 1).
-
-
-
-[count]tp[revious][!] Jump to the count’th previous matching tag (default is 1).
-
-
-
-[count]tN[ext][!]
-
-[count]tr[ewind][!] Jump to the first matching tag. With count, jump to the count’th matching tag.
-
-
-
-tl[ast][!] Jump to the last matching tag.
-
-
-
-
-
-Normally, Vim shows you which matching tag out of how many it has jumped to. For example:
-
-tag 1 of >3
-
-It uses a greater-than sign (>) to indicate that it has not yet tried all the matches. You can use :tnext or :tlast to try more matches. If this message is not displayed because of some other message, use :0tn to see it.
-
-Here is the output of the :tags command, with the current location marked with a greater-than sign (>):
-
-# TO tag FROM line in file 1 1 main 1 harddisk2:text/vim/test > 2 2 FuncA 58 -current- 3 1 FuncC 357 harddisk2:text/vim/src/amiga.c
-
-The :tselect command lets you pick from more than one matching tag. The “priority” (pri field) indicates the quality of the match (global versus static, exact case versus case-independent, etc.); this is described more fully in the vim documentation.
-
-nr pri kind tag file ~ 1 F f mch_delay os_amiga.c mch_delay(msec, ignoreinput) > 2 F f mch_delay os_msdos.c mch_delay(msec, ignoreinput) 3 F f mch_delay os_unix.c mch_delay(msec, ignoreinput) Enter nr of choice (<CR> to abort):
-
-The :tag and :tselect commands can be given an argument that starts with /. In that case, the command uses it as a regular expression, and Vim will find all the tags that match the given regular expression. For example, :tag /normal will find the macro NORMAL, the function normal_cmd, and so on. Use :tselect /normal and enter the number of the tag you want.
-
-The vi command mode commands are described in Table 14-2. Besides using the keyboard, as in the other editors, you can also use the mouse if mouse support is enabled in your version of Vim.
-
-Table 14-2. Vim command mode tag commands
-
-CommandFunction
-
-^] Look up the location of the identifier under the cursor in the tags file, and move to that location. The current location is automatically pushed onto the tag stack.
-
-
-
-g <LeftMouse>
-
-CTRL-<LeftMouse>
-
-^T Return to the previous location in the tag stack, i.e., pop off one element. A preceding count specifies how many elements to pop off the stack.
-
-
-
-
-
-The Vim options that affect tag searching are described in Table 14-3.
-
-Table 14-3. Vim options for tag management
-
-OptionFunction
-
-taglength, tl Controls the number of significant characters in a tag that is to be looked up. The default value of zero indicates that all characters are significant.
-
-
-
-tags The value is a list of filenames in which to look for tags. As a special case, if a filename starts with ./, the dot is replaced with the directory part of the current file’s pathname, making it possible to use tags files in a different directory. The default value is "./tags,tags".
-
-
-
-tagrelative When set to true (the default) and using a tags file in another directory, filenames in that tags file are considered to be relative to the directory where the tags file is.
-
-
-
-
-
-Vim can use Emacs-style etags files, but this is only for backward compatibility; the format is not documented in the Vim documentation, nor is the use of etags files encouraged.
-
-Finally, Vim also looks up the entire word containing the cursor, not just the part of the word from the cursor location forward.
-
-
-
-
-
-Syntax Highlighting
-
-
-
-
-
-One of Vim’s strongest enhancements to vi is its syntax highlighting. Vim’s syntax formatting relies heavily on the use of color, but it also degrades gracefully on screens that do not support color. In this section we discuss three topics: getting started, customizing, and rolling your own. Syntax highlighting for Vim contains features that go beyond the scope of this book, so we focus on providing enough information to get you familiar with it and enable you to extend it to fit your needs.
-
-
-
-
-
-Note
-
-
-Because the impact of Vim’s syntax highlighting is most dramatic in color, and this book isn’t (in color), we strongly encourage you to try syntax highlighting to fully appreciate the power of color in defining context. I have never met a user who tried it and then did not continue to always use it.
-
-
-
-
-
-Getting Started
-
-
-
-
-
-Displaying a file’s syntax highlighting is simple. Just issue the command:
-
-:syntax enable
-
-If all is well, and if you edit a file with a formal syntax, such as a programming language, you should see text in various colors, all determined by context and syntax. If nothing changed, try turning syntax on:
-
-:syntax on
-
-Enabling syntax should be enough by itself, but we have encountered situations where the additional command was required to turn on the syntax highlighting.
-
-If you still see no syntax highlights, Vim may not know what your file type is and thus not understand which syntax is appropriate. There are a number of reasons this happens.
-
-For example, if you create a new file and don’t use a recognized suffix, or no suffix at all, Vim cannot determine the file type because the file is new and therefore empty. For instance, I write shell scripts without any .sh suffix. Each new shell script begins its editing life without syntax highlighting. Fortunately, once the file contains code, Vim knows how to figure out the file type and syntax highlighting works as expected.
-
-It’s also possible (though not likely) that Vim doesn’t recognize your file type. This is very rare, and usually you just need to specify a file type explicitly, because someone has already written a syntax file for the language. Unfortunately, creating one from scratch is a complex undertaking, although we give you some tips later in this chapter.
-
-You can force Vim to use the syntax highlighting of your choice by setting the syntax manually from the command line. When starting a new shell script, for instance, I always define the syntax with:
-
-:set syntax=sh
-
-The section Dynamic File Type Configuration Through Scripting shows a clever and rather roundabout way to avoid this step.
-
-When you enable syntax, Vim sets up syntax highlighting by going through a checklist. Without getting mired in too many technical details, we’ll just say that Vim ultimately determines your file type, finds the appropriate syntax definition file, and loads it for you. The standard location for syntax files is the $VIMRUNTIME/syntax directory.
-
-To get a sense of the comprehensive coverage of syntax definitions, the Vim syntax file directory contains almost 500 syntax files. Available syntaxes span the gamut from languages (C, Java, HTML) to content (calendar) to well-known configuration files (fstab, xinetd, crontab). If Vim doesn’t recognize your file type, try looking in the $VIMRUNTIME/syntax directory for a syntax file that closely matches yours.
-
-
-
-
-
-Customization
-
-
-
-
-
-Once you start using syntax highlighting, you may find that some of the colors do not work for you. They may be difficult to see or just not suit your taste. Vim has a few ways to customize and tune colors.
-
-Here are some things to try before taking more drastic measures (e.g., writing your own syntax, as described in the next section) to make syntax highlighting work for you.
-
-Two of the most common and dramatic symptoms of syntax highlighting gone amok are:
-
-Bad contrast, with colors too similar and hard to see distinctly as different from each other
-
-
-
-Too many, or too varied, colors, which creates a harsh look to the text
-
-
-
-
-
-Although these are subjective deficiencies, it’s nice that Vim lets you make corrections. Two commands, colorscheme and highlight, and one option, background, can probably bring the colors to a satisfactory balance for most users.
-
-There are a few other commands and options with which you can customize your syntax highlighting. After a brief introduction to syntax groups, we will talk about these commands and options in the following sections, with an emphasis on the three just mentioned.
-
-
-
-
-
-Syntax groups
-
-
-
-
-
-Vim classifies different types of text into groups. These groups each receive color and highlight definitions. Additionally, Vim allows groups of groups. You can address definitions at different levels. If you assign a definition to a group containing subgroups, unless otherwise defined, each subgroup inherits the parent group’s definitions.
-
-Some high-level groups for syntax highlighting include:
-
-Comment
-
-Comments specific to the programming language, e.g.:
-
-// I am both a C++ and a JavaScript comment
-
-
-
-Constant
-
-Any constant, e.g. TRUE
-
-
-
-Identifier
-
-Variable and function names
-
-
-
-Type
-
-Declarations, such as int and struct in C
-
-
-
-Special
-
-Special characters, such as delimiters
-
-
-
-
-
-Taking the “special” group from the previous list, we can look at an example of subgroups:
-
-SpecialChar
-
-
-
-Tag
-
-
-
-Delimiter
-
-
-
-SpecialComment
-
-
-
-Debug
-
-
-
-
-
-With a basic understanding of syntax highlighting, groups, and subgroups, we now know enough to modify syntax highlighting to suit our tastes.
-
-
-
-
-
-The colorscheme command
-
-
-
-
-
-This command changes colors for different syntax highlights such as comments, keywords, or strings by redefining these syntax groups. Vim ships with the following color scheme choices:
-
-blue
-
-
-
-darkblue
-
-
-
-default
-
-
-
-delek
-
-
-
-desert
-
-
-
-elflord
-
-
-
-evening
-
-
-
-koehler
-
-
-
-morning
-
-
-
-murphy
-
-
-
-pablo
-
-
-
-peachpuff
-
-
-
-ron
-
-
-
-shine
-
-
-
-slate
-
-
-
-torte
-
-
-
-zellner
-
-
-
-
-
-These files are in the directory $VIMRUNTIME/colors. You can activate any one of them with:
-
-:colorschemeschemeName
-
-
-
-
-
-Tip
-
-
-In non-GUI Vim, you can quickly cycle through the different schemes this way: type the partial command :color, press the Tab key to start command completion, press the Space bar, then repeatedly press the Tab key to cycle through the different choices.
-
-In gvim, the choice is even easier. Click on the Edit menu, move the mouse over the Colorscheme submenu, and select the “tear off” (the line with scissors) menu. Now you can look at all the choices by clicking each button.
-
-
-
-
-
-Setting the background option
-
-
-
-
-
-When Vim sets colors, it first tries to determine what kind of background color your screen has. Vim has just two categories for background: dark or light. Based on Vim’s determination, it sets colors differently for each, with the end result hopefully being a set of colors that works well with that background (one with good contrast and color compatibility). Although Vim does try very hard, a correct assessment is tricky, and an assignment to dark or light is subjective. Sometimes the contrasts render the session uncomfortable to view, and sometimes they are unreadable.
-
-So, if the colors don’t look good, try explicitly choosing a background setting. Make sure first to identify the setting:
-
-:set background?
-
-so that you know that you are changing the setting. Then, issue a command such as:
-
-:set background=dark
-
-Use the background option in tandem with the colorscheme command to fine-tune your screen colors. These two together can usually produce a satisfactory color palette that is comfortable to view.
-
-
-
-
-
-The highlight command
-
-
-
-
-
-Vim’s highlight command lets you manipulate different groups and control how they are highlighted in your edit session. This command is powerful. You can inspect settings for various groups either as a list or by requesting specific group highlight information. For example:
-
-:highlight comment
-
-in my edit session returns Figure 14-22.
-
-
-
-
-
-Figure 14-22. Highlight for comments
-
-
-
-The output shows how comments in this file will appear. The xxx is dark gray on this page, but on the screen it’s blue. The term=bold output means that on a terminal incapable of color, comments will be shown in bold. ctermfg=4 means that on a color terminal, such as an xterm on a color monitor, the foreground color for comments will be the matching DOS color dark blue. Finally, guifg=Blue means the GUI interface will display comments with the foreground color blue.
-
-
-
-
-
-Note
-
-
-The DOS color scheme is a more restricted set of colors than modern GUI sets. For the DOS colors, there are eight: black, red, green, yellow, blue, magenta, cyan, and white. Each of these can be set for text foreground or background and optionally can be defined as “bright,” a brighter color on the screen. Vim uses analogous mappings for defining text colors in non-GUI windows, e.g., xterms.
-
-GUI windows offer virtually unlimited color definitions. Vim lets you define some colors with common names such as Blue, but you can also define these colors with red, green, and blue values. The format is #rrggbb where the # is literal, and rr, gg, and bb are hex numbers representing the level of each color. For example, red could be defined with #ff0000.
-
-
-
-Use the highlight command to change settings for groups whose colors you don’t like. For example, we can find that identifiers in this file are dark cyan for our GUI interface, as shown in the output in Figure 14-23.
-
-:highlight identifier
-
-
-
-
-
-Figure 14-23. Highlight for identifiers
-
-
-
-We can redefine the color for identifiers with the command:
-
-:highlight identifiers guifg=red
-
-Now all identifiers on the screen are (a rather ugly) red. This kind of customization is fairly inflexible: it applies to all file types and does not adapt to different backgrounds or color schemes.
-
-To see how many highlight definitions exist and what their values are, again use highlight:
-
-:highlight
-
-Figure 14-24 shows a small sample of the results from the highlight command.
-
-
-
-
-
-Figure 14-24. Partial results from the highlight command
-
-
-
-Note how some lines contain full definitions (listing term, ctermfg, and so on), whereas others receive their attributes from parent groups (e.g., String links back to Constant).
-
-
-
-
-
-Overriding syntax files
-
-
-
-
-
-In the previous section, we learned how to define syntax group attributes for all instances of a group. Suppose you want to change a group for only one or a few syntax definitions. Vim lets you do this with the after directory. This is a directory in which you can create any number of after syntax files that Vim will execute after the normal syntax file.
-
-To do this, simply include highlight commands (or any processing commands—the notion of “after” processing is generic) in the specific file in a directory named after that is included in the runtimepath option. Now, when Vim sets up syntax highlighting rules for your file type, it will also execute your custom commands in the after file.
-
-For example, let’s apply a customization to XML files, which use the xml syntax. This means Vim loaded syntax definitions from a file in the syntax directory named xml.vim. As in the previous example, we want to define identifiers always to be red. So we create our own file named xml.vim in a directory named ~/.vim/after/syntax. In our xml.vim file we put the line:
-
-highlight identifier ctermfg=red guifg=red
-
-Before this customization works, we must ensure that ~/.vim/after/syntax is in the runtimepath path:
-
-:set runtimepath+=~/.vim/after/syntaxIn our .vimrc
-
-To make the change permanent, of course, the line should go in our .vimrc file.
-
-Now, whenever Vim loads syntax definitions for xml, it will override the definitions for identifier with our own customization.
-
-
-
-
-
-Rolling Your Own
-
-
-
-
-
-With the building blocks of the previous sections, we now have enough knowledge to write our own syntax files, simple as they might be. There are still many facets to learn before we can fully develop a syntax file.
-
-We will incrementally build our own syntax file. Because syntax definitions can be extremely complex, let’s consider something simple enough to be easily grasped, but complex enough to show its potential power.
-
-Consider an excerpt from a generated Latin file, loremipsum.latin:
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin eget tellus. Suspendisse ac magna at elit pulvinar aliquam. Pellentesque iaculis augue sit amet massa. Aliquam erat volutpat. Donec et dui at massa aliquet molestie. Ut vel augue id tellus hendrerit porta. Quisque condimentum tempor arcu. Aenean pretium suscipit felis. Curabitur semper eleifend lectus. Praesent vitae sapien. Ut ornare tempus mauris. Quisque ornare sapien congue tortor. In dui. Nam adipiscing ligula at lorem. Vestibulum gravida ipsum iaculis justo. Integer a ipsum ac est cursus gravida. Etiam eu turpis. Nam laoreet ligula mollis diam. In aliquam semper nisi. Nunc tristique tellus eu erat. Ut purus. Nulla venenatis pede ac erat. ...
-
-Create a new syntax by creating a new file of that syntax name, in this case latin. Its corresponding Vim file is latin.vim, which you can create in your personal Vim runtime directory, $HOME/.vim. Then, start your syntax definition simply by creating some keywords with the syntax keyword command. Choosing lorem, dolor, nulla, and lectus as our keywords, you can inaugurate the syntax file with the line:
-
-syntax keyword identifier lorem dolor nulla lectus
-
-There still isn’t any syntax highlighting when you edit loremipsum.latin. More work needs to be done before highlighting is automatic. But for the time being, activate the syntax with the command:
-
-:set syntax=latin
-
-Because the $HOME/.vim directory is one of the directories in the runtimepath option, the text should now look something like Figure 14-25.
-
-
-
-
-
-Figure 14-25. Latin file with keywords defined
-
-
-
-It is a little difficult to see, but the keywords you defined that are visible in this snapshot are dark gray instead of black, indicating a different color from the rest of the text. (The actual colors on the screen were black text with blue keywords.)
-
-You may have noticed that the first occurence of Lorem isn’t highlighted. By default, syntax keywords are case-sensitive. Add the line at the top of our syntax file:
-
-:syntax case ignore
-
-and you should now see Lorem included as a highlighted keyword.
-
-Before we try this again, let’s make it all work automatically. After Vim tries to detect any file type, it optionally checks for other definitions, or even overriding definitions (which are not recommended), in a directory named ftdetect in your runtimepath. Therefore, create that directory under $HOME/.vim and create a file in it named latin.vim containing a single line:
-
-au BufRead,BufNewFile *.latin set filetype=latin
-
-This line tells Vim that any files with the suffix .latin are latin files, and therefore that Vim should execute the syntax file in $HOME/.vim/syntax/latin.vim when displaying them.
-
-Now when you edit loremipsum.latin, you see Figure 14-26.
-
-
-
-
-
-Figure 14-26. Latin file with keywords defined, ignoring case
-
-
-
-First, notice that the syntax was active right away, as Vim correctly detected your new syntax file type, latin. And keywords now match without any sensitivity to case.
-
-For some more interesting extensions, define a match and assign it to group Comment. The match method uses a regular expression to define what is highlighted. For example, we will define all words beginning with s and ending with t to be Comment syntax (remember, this is just an example!). Our regular expression is: \<s[^\t ]*t\> (trust us). We also will define a region and highlight it as a Number. Regions are defined with a start and end regular expression.
-
-Our region begins with Suspendisse and ends with sapien\.. To add even more of a twist, we decide that the keyword lectus is contained within our region. Our latin.vim syntax file now looks like:
-
-syntax case ignore syntax keyword identifier lorem dolor nulla lectus syntax keyword identifier lectus contained syntax match comment /\<s[^\t ]*t\>/ syntax region number start=/Suspendisse/ end=/sapien\./ contains=identifier
-
-Now, when we edit loremipsum.latin, we see Figure 14-27.
-
-
-
-
-
-Figure 14-27. New latin syntax highlighting
-
-
-
-There are several things to notice, which you can see much more easily if you run the example and view the results in color:
-
-The new match highlights appear. On the first line, sit is highlighted in blue because it satisfies the regular expression for the match.
-
-
-
-The new region highlights appear. The entire section of the paragraph beginning with Suspendisse through sapien. is highlighted in purple (ick).
-
-
-
-The keywords are still highlighted as before.
-
-
-
-Within the highlighted region, the keyword lectus is still highlighted in green because we defined group identifier as contained and defined our region as contains identifier.
-
-
-
-
-
-This example only begins to tap the rich powers of syntax highlighting. Although this particular example is somewhat useless, we hope that it demonstrates enough to convince you of its power and encourages you to experiment and create your own syntax definitions.
-
-
-
-
-
-Compiling and Checking Errors with Vim
-
-
-
-
-
-Vim isn’t an Integrated Development Environment (IDE), but it tries to make life a little easier for programmers by incorporating compilation into the edit session and providing a quick and easy way to find and correct errors.
-
-Additionally, Vim offers some convenience functions to track and navigate locations in your files. We discuss a simple example: the edit-compile-edit cycle using Vim’s built-in features and some of its related commands and options, as well as the convenience functions. All of these depend on the same Vim Quickfix List window.
-
-As a simple starting point, Vim lets you compile files using make each time you change one. Vim uses default behavior to manage the results of your build so that you can easily alternate between editing and compilation. Compilation errors appear in Vim’s special Quickfix List window, where you can inspect, jump to, and correct errors.
-
-For this topic we use a little C program that generates Fibonacci numbers. In its correct and compilable form, the code is:
-
-# include <stdio.h> int main(int argc, char *argv[]) { /* * arg 1: starting value * arg 2: second value * arg 3: number of entries to print * */ if (argc - 1 != 3) { printf ("Three command line args: (you used %d)\n", argc); printf ("usage: value 1, value 2, number of entries\n"); return (1); } /* count = how many to print */ int count = atoi(argv[3]); /* index = which to print */ long int index; /* first and second passed in on command line */ long int first, second; /* these get calculated */ long int current, nMinusOne, nMinusTwo; first = atoi(argv[1]); second = atoi(argv[2]); printf("%d fibonacci numbers with starting values: %d, %d\n", count, first, second); printf("=======================================\n"); /* print the first 2 from the starter values */ printf("%d %04d\n", 1, first); printf("%d %04d ratio (golden?) %.3f\n", 2, second, (double) second/first); nMinusTwo = first; nMinusOne = second; for (index=1; index<=count; index++) { current = nMinusTwo + nMinusOne; printf("%d %04d ratio (golden?) %.3f\n", index, current, (double) current/nMinusOne); nMinusTwo = nMinusOne; nMinusOne = current; } }
-
-From Vim, compile this program (assuming a filename of fibonacci.c) with the command:
-
-:make fibonacci
-
-By default, Vim passes the make command through to the external shell and captures the results in the special Quickfix List window. After compiling the previous code, the screen with the Quickfix List window looks something like Figure 14-28.
-
-
-
-
-
-Figure 14-28. Quickfix List window after a clean compile
-
-
-
-Next, we change enough lines in our program to introduce a healthy number of errors.
-
-Change:
-
-long int current, nMinusOne, nMinusTwo;
-
-to the invalid declaration:
-
-longish int current, nMinusOne, nMinusTwo;
-
-Change:
-
-nMinusTwo = first; nMinusOne = second;
-
-to misspelled variables xfirst and xsecond:
-
-nMinusTwo = xfirst; nMinusOne = xsecond;
-
-Change:
-
-printf("%d %04d ratio (golden?) %.3f\n", 2, second, (float) second/first);
-
-to this, with missing commas:
-
-printf("%d %04d ratio (golden?) %.3f\n", 2 second (float) second/first);
-
-Now recompile the program. Figure 14-29 shows what the Quickfix List window now contains.
-
-
-
-
-
-Figure 14-29. Quickfix List window after a compilation with errors
-
-
-
-Line 1 of the Quickfix List window shows the compile command executed. If there had been no errors, this would be the only line in the window. But because there are errors, line 3 begins the list of errors and their context.
-
-Vim lists all errors in the Quickfix List window and lets you access the code, where errors are indicated in several ways. Vim starts with the convenience behavior by highlighting the first error in the Quickfix List window. It then repositions the source file (scrolling if necessary) and places the cursor at the beginning of the source code line corresponding to the error.
-
-As you fix errors, you can navigate to the next error in one of a couple ways: enter the command :cnext, or position the cursor over the error line in the Quickfix List window and press ENTER. Again, Vim scrolls the source file if necessary, and positions the cursor at the beginning of the offending source code line.
-
-After you’ve made changes and are satisfied that you’ve corrected your errors, you’re ready to begin the compile-edit cycle again using the same technique. If you have a standard developer’s environment (which is almost always true for Unix/Linux machines), Vim’s default behaviors will handle edit-compile-edit as described without any tweaking.
-
-If Vim’s defaults don’t find a proper compile program, it has options you can use to define where utilities are located, to let you do your work. The details about programming environments and compilers are outside the scope of this discussion, but we present these Vim options as a starting point in case you need to play with your environment:
-
-makeprg
-
-An option containing the name of the development environment’s make or compile program.
-
-
-
-:cnext
-
-:cprevious
-
-Commands that move the cursor to next and previous error locations, as defined in the Quickfix List window, respectively.
-
-
-
-:colder
-
-:cnewer
-
-Vim remembers the last 10 lists of errors. These commands load the next older or next newer list of errors in the Quickfix List window. Each command takes an optional integer n to load the nth older or newer error list.
-
-
-
-errorformat
-
-An option defining a format that Vim matches to find errors returned from a compile. Vim’s built-in documentation gives much more detailed information on how this is defined, but the default almost always works. If you need to tune the option, view its details with:
-
-:help errorformat
-
-
-
-
-
-More Uses for the Quickfix List Window
-
-
-
-
-
-Vim also lets you build your own list of locations within files, specifying the locations through a grep-like syntax. The Quickfix List window returns the results you asked for in a format closely resembling the lines returned from the compilation process described earlier.
-
-This feature is useful for such tasks as refactoring. As an example, we composed this manuscript in DocBook, a form similar to XML. At some point in the composition process we switched the notation for any occurence of “vim” from <emphasis> to <literal>. So, each occurence like:
-
-<emphasis>vim</emphasis>
-
-needed to be changed to:
-
-<literal>vim</literal>
-
-After executing this command:
-
-:vimgrep /<emphasis>vim<\/emphasis>/ *.xml
-
-the Quickfix List window contained the information shown in Figure 14-30.
-
-
-
-
-
-Figure 14-30. Quickfix List window after :vimgrep command
-
-
-
-Then it was a simple matter to navigate through all occurrences and quickly change to the new values.
-
-
-
-
-
-Note
-
-
-This example may seem to solve a problem more easily solved with this simple command:
-
-:%s/<emphasis>vim<\/emphasis>/<literal>vim<\/literal>/g
-
-But remember, vimgrep is more general and operates against multiple files. This is an example of what vimgrep does, not a definitive way to perform this task. In Vim, there are usually many ways to complete a task.
-
-
-
-
-
-Some Final Thoughts on Vim for Writing Programs
-
-
-
-
-
-We have looked at many powerful features in this chapter. Spend some time mastering these techniques and you’ll gain great productivity. If you’re a long-time vi user, you’ve already climbed one steep learning curve. The extra effort to learn Vim’s additional features is worth a second learning curve.
-
-If you’re a programmer, we hope this chapter shows how much Vim offers for your programming tasks. We encourage you to try some of these features and even to extend Vim to your own needs. And maybe you will create extensions to give back to the Vim community. Now, go program!
-
-
-
+In this chapter, you set up your Go environment and learned about the fundamental aspects of the Go language. This is not an exhaustive list of all Go’s characteristics; the language is far too nuanced and large for us to cram it all into a single chapter. Instead, we included the aspects that will be most useful in the chapters that follow. We’ll now turn our attention to practical applications of the language for security practitioners and hackers. Here we Go!
 
 
