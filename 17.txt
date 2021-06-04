@@ -1,1412 +1,866 @@
-Chapter 17. Elvis
+8. Goroutines and Channels
 
 
 
 
+Concurrent programming, the expression of a program as a composition of several autonomous activities, has never been more important than it is today. Web servers handle requests for thousands of clients at once. Tablet and phone apps render animations in the user interface while simultaneously performing computation and network requests in the background. Even traditional batch problems—read some data, compute, write some output—use concurrency to hide the latency of I/O operations and to exploit a modern computer’s many processors, which every year grow in number but not in speed.
 
-elvis was written and is maintained by Steve Kirkendall. An earlier version became the basis for nvi. This chapter was originally written using elvis.
+Go enables two styles of concurrent programming. This chapter presents goroutines and channels, which support communicating sequential processes or CSP, a model of concurrency in which values are passed between independent activities (goroutines) but variables are for the most part confined to a single activity. Chapter 9 covers some aspects of the more traditional model of shared memory multithreading, which will be familiar if you’ve used threads in other mainstream languages. Chapter 9 also points out some important hazards and pitfalls of concurrent programming that we won’t delve into in this chapter.
 
+Even though Go’s support for concurrency is one of its great strengths, reasoning about concurrent programs is inherently harder than about sequential ones, and intuitions acquired from sequential programming may at times lead us astray. If this is your first encounter with concurrency, we recommend spending a little extra time thinking about the examples in these two chapters.
 
 
 
 
-Author and History
 
+8.1 Goroutines
 
 
+In Go, each concurrently executing activity is called a goroutine. Consider a program that has two functions, one that does some computation and one that writes some output, and assume that neither function calls the other. A sequential program may call one function and then call the other, but in a concurrent program with two or more goroutines, calls to both functions can be active at the same time. We’ll see such a program in a moment.
 
+If you have used operating system threads or threads in other languages, then you can assume for now that a goroutine is similar to a thread, and you’ll be able to write correct programs. The differences between threads and goroutines are essentially quantitative, not qualitative, and will be described in Section 9.8.
 
-With our thanks for his help, we’ll let Steve Kirkendall give the history in his own words:
+When a program starts, its only goroutine is the one that calls the main function, so we call it the main goroutine. New goroutines are created by the go statement. Syntactically, a go statement is an ordinary function or method call prefixed by the keyword go. A go statement causes the function to be called in a newly created goroutine. The go statement itself completes immediately:
 
-I started writing elvis 1.0 after an early clone called stevie crashed on me, causing me to lose a few hours’ work and totally destroying my confidence in that program. Also, stevie stored the edit buffer in RAM, which simply wasn’t practical in Minix. So I started writing my own clone, which stored its edit buffer in a file. And even if my editor crashed, the edited text could still be retrieved from that file.
+Click here to view code image
 
-elvis 2.x is almost completely separate from 1.x. I wrote this, my second vi clone, because my first one inherited too many limitations from the real vi, and from Minix. The biggest change is the support for multiple edit buffers and multiple windows, neither of which could be retrofitted into 1.x very easily. I also wanted to shed the line-length limitation, and have online help written in HTML.
+f() // call f(); wait for it to return go f() // create a new goroutine that calls f(); don't wait
 
+In the example below, the main goroutine computes the 45th Fibonacci number. Since it uses the terribly inefficient recursive algorithm, it runs for an appreciable time, during which we’d like to provide the user with a visual indication that the program is still running, by displaying an animated textual “spinner.”
 
+Click here to view code image
 
+gopl.io/ch8/spinner
 
+func main() { go spinner(100 * time.Millisecond) const n = 45 fibN := fib(n) // slow fmt.Printf("\rFibonacci(%d) = %d\n", n, fibN) } func spinner(delay time.Duration) { for { for _, r := range `-\|/` { fmt.Printf("\r%c", r) time.Sleep(delay) } } } func fib(x int) int { if x < 2 { return x } return fib(x-1) + fib(x-2) }
 
-As to the name “elvis,” Steve says that at least part of the reason he chose the name was to see how many people would ask him why he chose the name![55] It is also common for vi clones to have the letters “vi” somewhere in their names.
 
 
 
 
+After several seconds of animation, the fib(45) call returns and the main function prints its result:
 
-* * *
+Fibonacci(45) = 1134903170
 
+The main function then returns. When this happens, all goroutines are abruptly terminated and the program exits. Other than by returning from main or exiting the program, there is no programmatic way for one goroutine to stop another, but as we will see later, there are ways to communicate with a goroutine to request that it stop itself.
 
+Notice how the program is expressed as the composition of two autonomous activities, spinning and Fibonacci computation. Each is written as a separate function but both make progress concurrently.
 
-[55] ☺ In around eight years, I was only number four! —A.R.
 
 
 
 
+8.2 Example: Concurrent Clock Server
 
-Important Command-Line Arguments
 
 
 
 
+Networking is a natural domain in which to use concurrency since servers typically handle many connections from their clients at once, each client being essentially independent of the others. In this section, we’ll introduce the net package, which provides the components for building networked client and server programs that communicate over TCP, UDP, or Unix domain sockets. The net/http package we’ve been using since Chapter 1 is built on top of functions from the net package.
 
-elvis is not typically installed as vi, though it can be. If invoked as ex, it operates as a line editor and allows the Q command from vi mode to switch into ex mode.
+Our first example is a sequential clock server that writes the current time to the client once per second:
 
-elvis has a number of command-line options. The most useful are described here:
+Click here to view code image
 
--a
+gopl.io/ch8/clock1
 
-Load each file named on the command line into a separate window.
+// Clock1 is a TCP server that periodically writes the time. package main import ( "io" "log" "net" "time" ) func main() { listener, err := net.Listen("tcp", "localhost:8000") if err != nil { log.Fatal(err) } for { conn, err := listener.Accept() if err != nil { log.Print(err) // e.g., connection aborted continue } handleConn(conn) // handle one connection at a time } } func handleConn(c net.Conn) { defer c.Close() for { _, err := io.WriteString(c, time.Now().Format("15:04:05\n")) if err != nil { return // e.g., client disconnected } time.Sleep(1 * time.Second) } }
 
 
 
--c command
+The Listen function creates a net.Listener, an object that listens for incoming connections on a network port, in this case TCP port localhost:8000. The listener’s Accept method blocks until an incoming connection request is made, then returns a net.Conn object representing the connection.
 
-Execute command upon startup. This is the POSIX version of the historical +command syntax. (The old syntax is also accepted.)
+The handleConn function handles one complete client connection. In a loop, it writes the current time, time.Now(), to the client. Since net.Conn satisfies the io.Writer interface, we can write directly to it. The loop ends when the write fails, most likely because the client has disconnected, at which point handleConn closes its side of the connection using a deferred call to Close and goes back to waiting for another connection request.
 
+The time.Time.Format method provides a way to format date and time information by example. Its argument is a template indicating how to format a reference time, specifically Mon Jan 2 03:04:05PM 2006 UTC-0700. The reference time has eight components (day of the week, month, day of the month, and so on). Any collection of them can appear in the Format string in any order and in a number of formats; the selected components of the date and time will be displayed in the selected formats. Here we are just using the hour, minute, and second of the time. The time package defines templates for many standard time formats, such as time.RFC1123. The same mechanism is used in reverse when parsing a time using time.Parse.
 
+To connect to the server, we’ll need a client program such as nc (“netcat”), a standard utility program for manipulating network connections:
 
--f filename
+Click here to view code image
 
-Use filename for the session file instead of the default name. Session files are discussed later in this chapter.
+$ go build gopl.io/ch8/clock1 $ ./clock1 & $ nc localhost 8000 13:58:54 13:58:55 13:58:56 13:58:57 ^C
 
+The client displays the time sent by the server each second until we interrupt the client with Control-C, which on Unix systems is echoed as ^C by the shell. If nc or netcat is not installed on your system, you can use telnet or this simple Go version of netcat that uses net.Dial to connect to a TCP server:
 
+Click here to view code image
 
--G gui
+gopl.io/ch8/netcat1
 
-Use the given interface. The default is the termcap interface. Other choices include x11, windows, curses, open, and quit. Not all the interfaces may be compiled into your version of elvis.
+// Netcat1 is a read-only TCP client. package main import ( "io" "log" "net" "os" ) func main() { conn, err := net.Dial("tcp", "localhost:8000") if err != nil { log.Fatal(err) } defer conn.Close() mustCopy(os.Stdout, conn) } func mustCopy(dst io.Writer, src io.Reader) { if _, err := io.Copy(dst, src); err != nil { log.Fatal(err) } }
 
 
 
--i
 
-Start editing in input mode instead of in command mode. This may be easier for novice users.
 
+This program reads data from the connection and writes it to the standard output until an end-of-file condition or an error occurs. The mustCopy function is a utility used in several examples in this section. Let’s run two clients at the same time on different terminals, one shown to the left and one to the right:
 
+Click here to view code image
 
--o logfile
+$ go build gopl.io/ch8/netcat1 $ ./netcat1 13:58:54 $ ./netcat1 13:58:55 13:58:56 ^C 13:58:57 13:58:58 13:58:59 ^C $ killall clock1
 
-Redirect the startup messages out to a file, instead of stdout/stderr. This is of critical importance to MS Windows users because Windows discards anything written to standard output and standard error, which made WinElvis configuration problems almost impossible to diagnose. With -ofilename you can send the diagnostic info to a file and view it later.
+The killall command is a Unix utility that kills all processes with the given name.
 
+The second client must wait until the first client is finished because the server is sequential; it deals with only one client at a time. Just one small change is needed to make the server concurrent: adding the go keyword to the call to handleConn causes each call to run in its own goroutine.
 
+Click here to view code image
 
--r
+gopl.io/ch8/clock2
 
-Perform recovery after a crash.
+for { conn, err := listener.Accept() if err != nil { log.Print(err) // e.g., connection aborted continue } go handleConn(conn) // handle connections concurrently }
 
 
 
--R
+Now, multiple clients can receive the time at once:
 
-Start editing each file in read-only mode.
+Click here to view code image
 
+$ go build gopl.io/ch8/clock2 $ ./clock2 & $ go build gopl.io/ch8/netcat1 $ ./netcat1 14:02:54 $ ./netcat1 14:02:55 14:02:55 14:02:56 14:02:56 14:02:57 ^C 14:02:58 14:02:59 $ ./netcat1 14:03:00 14:03:00 14:03:01 14:03:01 ^C 14:03:02 ^C $ killall clock2
 
+Exercise 8.1: Modify clock2 to accept a port number, and write a program, clockwall, that acts as a client of several clock servers at once, reading the times from each one and displaying the results in a table, akin to the wall of clocks seen in some business offices. If you have access to geographically distributed computers, run instances remotely; otherwise run local instances on different ports with fake time zones.
 
--s
+Click here to view code image
 
-Read an ex script from standard input and execute (per the POSIX standard). This bypasses all initialization scripts.
+$ TZ=US/Eastern ./clock2 -port 8010 & $ TZ=Asia/Tokyo ./clock2 -port 8020 & $ TZ=Europe/London ./clock2 -port 8030 & $ clockwall NewYork=localhost:8010 London=localhost:8020 Tokyo=localhost:8030
 
+Exercise 8.2: Implement a concurrent File Transfer Protocol (FTP) server. The server should interpret commands from each client such as cd to change directory, ls to list a directory, get to send the contents of a file, and close to close the connection. You can use the standard ftp command as the client, or write your own.
 
 
--S
 
-Set the option security=safer for the whole session, not just execution of .exrc files. This adds a certain amount of security, but it should not necessarily be trusted blindly.
 
 
+8.3 Example: Concurrent Echo Server
 
--SS
 
-Set the option security=restricted, which is even more paranoid than security=safer.
 
 
 
--t tag
+The clock server used one goroutine per connection. In this section, we’ll build an echo server that uses multiple goroutines per connection. Most echo servers merely write whatever they read, which can be done with this trivial version of handleConn:
 
-Start editing at the specified tag.
+Click here to view code image
 
+func handleConn(c net.Conn) { io.Copy(c, c) // NOTE: ignoring errors c.Close() }
 
+A more interesting echo server might simulate the reverberations of a real echo, with the response loud at first ("HELLO!"), then moderate ("Hello!") after a delay, then quiet ("hello!") before fading to nothing, as in this version of handleConn:
 
--V
+Click here to view code image
 
-Output more verbose status information. Useful for diagnosing problems with initialization files.
+gopl.io/ch8/reverb1
 
+func echo(c net.Conn, shout string, delay time.Duration) { fmt.Fprintln(c, "\t", strings.ToUpper(shout)) time.Sleep(delay) fmt.Fprintln(c, "\t", shout) time.Sleep(delay) fmt.Fprintln(c, "\t", strings.ToLower(shout)) } func handleConn(c net.Conn) { input := bufio.NewScanner(c) for input.Scan() { echo(c, input.Text(), 1*time.Second) } // NOTE: ignoring potential errors from input.Err() c.Close() }
 
 
--?
 
-Print a summary of the possible options.
+We’ll need to upgrade our client program so that it sends terminal input to the server while also copying the server response to the output, which presents another opportunity to use concurrency:
 
+Click here to view code image
 
+gopl.io/ch8/netcat2
 
+func main() { conn, err := net.Dial("tcp", "localhost:8000") if err != nil { log.Fatal(err) } defer conn.Close() go mustCopy(os.Stdout, conn) mustCopy(conn, os.Stdin) }
 
 
-Online Help and Other Documentation
 
+While the main goroutine reads the standard input and sends it to the server, a second goroutine reads and prints the server’s response. When the main goroutine encounters the end of the input, for example, after the user types Control-D (^D) at the terminal (or the equivalent Control-Z on Microsoft Windows), the program stops, even if the other goroutine still has work to do. (We’ll see how to make the program wait for both sides to finish once we’ve introduced channels in Section 8.4.1.)
 
+In the session below, the client’s input is left-aligned and the server’s responses are indented. The client shouts at the echo server three times:
 
+$ go build gopl.io/ch8/reverb1 $ ./reverb1 & $ go build gopl.io/ch8/netcat2 $ ./netcat2 Hello? HELLO? Hello? hello? Is there anybody there? IS THERE ANYBODY THERE? Yooo-hooo! Is there anybody there? is there anybody there? YOOO-HOOO! Yooo-hooo! yooo-hooo! ^D $ killall reverb1
 
+Notice that the third shout from the client is not dealt with until the second shout has petered out, which is not very realistic. A real echo would consist of the composition of the three independent shouts. To simulate it, we’ll need more goroutines. Again, all we need to do is add the go keyword, this time to the call to echo:
 
-elvis is very interesting in this department. The online help is comprehensive and written entirely in HTML. This makes is easy to view in your favorite web browser. elvis also has an HTML display mode (discussed later), which makes it easy and pleasant to view the online help from within elvis itself.
+Click here to view code image
 
-When viewing HTML files, you use the tag commands (^] and ^T) to go to different topics and then return, making it easy to browse the help files. We applaud this innovation in online help.
+gopl.io/ch8/reverb2
 
-Of course, elvis also comes with Unix manpages.
+func handleConn(c net.Conn) { input := bufio.NewScanner(c) for input.Scan() { go echo(c, input.Text(), 1*time.Second) } // NOTE: ignoring potential errors from input.Err() c.Close() }
 
 
 
+The arguments to the function started by go are evaluated when the go statement itself is executed; thus input.Text() is evaluated in the main goroutine.
 
+Now the echoes are concurrent and overlap in time:
 
-Initialization
+$ go build gopl.io/ch8/reverb2 $ ./reverb2 & $ ./netcat2 Is there anybody there? IS THERE ANYBODY THERE? Yooo-hooo! Is there anybody there? YOOO-HOOO! is there anybody there? Yooo-hooo! yooo-hooo! ^D $ killall reverb2
 
+All that was required to make the server use concurrency, not just to handle connections from multiple clients but even within a single connection, was the insertion of two go keywords.
 
+However in adding these keywords, we had to consider carefully that it is safe to call methods of net.Conn concurrently, which is not true for most types. We’ll discuss the crucial concept of concurrency safety in the next chapter.
 
 
 
-This section describes elvis’s session files and itemizes the steps it takes during initialization.
 
 
+8.4 Channels
 
 
+If goroutines are the activities of a concurrent Go program, channels are the connections between them. A channel is a communication mechanism that lets one goroutine send values to another goroutine. Each channel is a conduit for values of a particular type, called the channel’s element type. The type of a channel whose elements have type int is written chan int.
 
-The Session File
+To create a channel, we use the built-in make function:
 
+Click here to view code image
 
+ch := make(chan int) // ch has type 'chan int'
 
+As with maps, a channel is a reference to the data structure created by make. When we copy a channel or pass one as an argument to a function, we are copying a reference, so caller and callee refer to the same data structure. As with other reference types, the zero value of a channel is nil.
 
+Two channels of the same type may be compared using ==. The comparison is true if both are references to the same channel data structure. A channel may also be compared to nil.
 
-elvis is intended to eventually meet Common Open System Environment (COSE) standards. These require that programs be able to save their state and return to that saved state at a later time.
+A channel has two principal operations, send and receive, collectively known as communications. A send statement transmits a value from one goroutine, through the channel, to another goroutine executing a corresponding receive expression. Both operations are written using the <- operator. In a send statement, the <- separates the channel and value operands. In a receive expression, <- precedes the channel operand. A receive expression whose result is not used is a valid statement.
 
-To be able to do this, elvis maintains all its state in a session file. Normally elvis creates the session file when it starts and removes it when it exits, but if elvis crashes, a left-over session file can be used to implement recovery of the edited files.
+Click here to view code image
 
+ch <- x // a send statement x = <-ch // a receive expression in an assignment statement <-ch // a receive statement; result is discarded
 
+Channels support a third operation, close, which sets a flag indicating that no more values will ever be sent on this channel; subsequent attempts to send will panic. Receive operations on a closed channel yield the values that have been sent until no more values are left; any receive operations thereafter complete immediately and yield the zero value of the channel’s element type.
 
+To close a channel, we call the built-in close function:
 
+close(ch)
 
-Initialization Steps
+A channel created with a simple call to make is called an unbuffered channel, but make accepts an optional second argument, an integer called the channel’s capacity. If the capacity is non-zero, make creates a buffered channel.
 
+Click here to view code image
 
+ch = make(chan int) // unbuffered channel ch = make(chan int, 0) // unbuffered channel ch = make(chan int, 3) // buffered channel with capacity 3
 
+We’ll look at unbuffered channels first and buffered channels in Section 8.4.4.
 
 
-elvis performs the following initialization steps. Interestingly, much of the customization for elvis is moved out of editor options and into initialization files:
 
-Initialize all hardcoded options.
 
 
+8.4.1 Unbuffered Channels
 
-Select an interface from those compiled into elvis. elvis will choose the “best” of the ones that are compiled in and that can work. For example, the X11 interface is considered to be better than the termcap interface, but it may not be usable if the X Window System is not currently running.
 
-The selected interface can process the command line for initialization options that are specific to it.
+A send operation on an unbuffered channel blocks the sending goroutine until another goroutine executes a corresponding receive on the same channel, at which point the value is transmitted and both goroutines may continue. Conversely, if the receive operation was attempted first, the receiving goroutine is blocked until another goroutine performs a send on the same channel.
 
+Communication over an unbuffered channel causes the sending and receiving goroutines to synchronize. Because of this, unbuffered channels are sometimes called synchronous channels. When a value is sent on an unbuffered channel, the receipt of the value happens before the reawakening of the sending goroutine.
 
+In discussions of concurrency, when we say x happens before y, we don’t mean merely that x occurs earlier in time than y; we mean that it is guaranteed to do so and that all its prior effects, such as updates to variables, are complete and that you may rely on them.
 
-Create the session file if it doesn’t exist; otherwise, read it (in preparation for recovery).
+When x neither happens before y nor after y, we say that x is concurrent with y. This doesn’t mean that x and y are necessarily simultaneous, merely that we cannot assume anything about their ordering. As we’ll see in the next chapter, it’s necessary to order certain events during the program’s execution to avoid the problems that arise when two goroutines access the same variable concurrently.
 
+The client program in Section 8.3 copies input to the server in its main goroutine, so the client program terminates as soon as the input stream closes, even if the background goroutine is still working. To make the program wait for the background goroutine to complete before exiting, we use a channel to synchronize the two goroutines:
 
+Click here to view code image
 
-Initialize the elvispath option from the ELVISPATH environment variable. Otherwise, give it a default value. "~/.elvislib:/usr/local/lib/elvis" is a typical value, but the actual value will depend on how elvis was configured and built.
+gopl.io/ch8/netcat3
 
+func main() { conn, err := net.Dial("tcp", "localhost:8000") if err != nil { log.Fatal(err) } done := make(chan struct{}) go func() { io.Copy(os.Stdout, conn) // NOTE: ignoring errors log.Println("done") done <- struct{}{} // signal the main goroutine }() mustCopy(conn, os.Stdin) conn.Close() <-done // wait for background goroutine to finish }
 
 
-Search elvispath for an ex script named elvis.ini and run it. The default elvis.ini file performs the following actions:
 
-Chooses a digraph table based on the current operating system. (Digraphs are a way to define the system’s extended ASCII character set and how characters from the extended set should be entered.)
+When the user closes the standard input stream, mustCopy returns and the main goroutine calls conn.Close(), closing both halves of the network connection. Closing the write half of the connection causes the server to see an end-of-file condition. Closing the read half causes the background goroutine’s call to io.Copy to return a “read from closed connection” error, which is why we’ve removed the error logging; Exercise 8.3 suggests a better solution. (Notice that the go statement calls a literal function, a common construction.)
 
+Before it returns, the background goroutine logs a message, then sends a value on the done channel. The main goroutine waits until it has received this value before returning. As a result, the program always logs the "done" message before exiting.
 
+Messages sent over channels have two important aspects. Each message has a value, but sometimes the fact of communication and the moment at which it occurs are just as important. We call messages events when we wish to stress this aspect. When the event carries no additional information, that is, its sole purpose is synchronization, we’ll emphasize this by using a channel whose element type is struct{}, though it’s common to use a channel of bool or int for the same purpose since done <- 1 is shorter than done <- struct{}{}.
 
-Sets options based on the program’s name (for example, ex versus vi mode).
+Exercise 8.3: In netcat3, the interface value conn has the concrete type *net.TCPConn, which represents a TCP connection. A TCP connection consists of two halves that may be closed independently using its CloseRead and CloseWrite methods. Modify the main goroutine of netcat3 to close only the write half of the connection so that the program will continue to print the final echoes from the reverb1 server even after the standard input has been closed. (Doing this for the reverb2 server is harder; see Exercise 8.4.)
 
 
 
-Handles system-dependent tweaks, such as setting the colors for X11 and adding menus to the interface.
 
 
+8.4.2 Pipelines
 
-Picks an initialization filename, either .exrc for Unix or elvis.rc for non-Unix systems. Call this file f.
 
+Channels can be used to connect goroutines together so that the output of one is the input to another. This is called a pipeline. The program below consists of three goroutines connected by two channels, as shown schematically in Figure 8.1.
 
+Figure 8.1. A three-stage pipeline.
 
-If the EXINIT environment variable exists, executes its value. Otherwise, it executes :source~/f, where f is the filename chosen previously.
 
 
+The first goroutine, counter, generates the integers 0, 1, 2, ..., and sends them over a channel to the second goroutine, squarer, which receives each value, squares it, and sends the result over another channel to the third goroutine, printer, which receives the squared values and prints them. For clarity of this example, we have intentionally chosen very simple functions, though of course they are too computationally trivial to warrant their own goroutines in a realistic program.
 
-If the exrc option has been set, runs the safely source command on f in the current directory.
+Click here to view code image
 
+gopl.io/ch8/pipeline1
 
+func main() { naturals := make(chan int) squares := make(chan int) // Counter go func() { for x := 0; ; x++ { naturals <- x } }() // Squarer go func() { for { x := <-naturals squares <- x * x } }() // Printer (in main goroutine) for { fmt.Println(<-squares) } }
 
-For X11, sets the normal, bold, and italic fonts, if they have not been set already.
 
 
+As you might expect, the program prints the infinite series of squares 0, 1, 4, 9, and so on. Pipelines like this may be found in long-running server programs where channels are used for lifelong communication between goroutines containing infinite loops. But what if we want to send only a finite number of values through the pipeline?
 
+If the sender knows that no further values will ever be sent on a channel, it is useful to communicate this fact to the receiver goroutines so that they can stop waiting. This is accomplished by closing the channel using the built-in close function:
 
+close(naturals)
 
-Load the pre- and post-read and pre- and post-write command files, if they exist. Also load the elvis.msg file. All of these files are described later in this chapter.
+After a channel has been closed, any further send operations on it will panic. After the closed channel has been drained, that is, after the last sent element has been received, all subsequent receive operations will proceed without blocking but will yield a zero value. Closing the naturals channel above would cause the squarer’s loop to spin as it receives a never-ending stream of zero values, and to send these zeros to the printer.
 
+There is no way to test directly whether a channel has been closed, but there is a variant of the receive operation that produces two results: the received channel element, plus a boolean value, conventionally called ok, which is true for a successful receive and false for a receive on a closed and drained channel. Using this feature, we can modify the squarer’s loop to stop when the naturals channel is drained and close the squares channel in turn.
 
+Click here to view code image
 
-Load and display the first file named on the command line.
+// Squarer go func() { for { x, ok := <-naturals if !ok { break // channel was closed and drained } squares <- x * x } close(squares) }()
 
+Because the syntax above is clumsy and this pattern is common, the language lets us use a range loop to iterate over channels too. This is a more convenient syntax for receiving all the values sent on a channel and terminating the loop after the last one.
 
+In the pipeline below, when the counter goroutine finishes its loop after 100 elements, it closes the naturals channel, causing the squarer to finish its loop and close the squares channel. (In a more complex program, it might make sense for the counter and squarer functions to defer the calls to close at the outset.) Finally, the main goroutine finishes its loop and the program exits.
 
-If the -a option was given, load and display the rest of the files, each in its own window.
+Click here to view code image
 
+gopl.io/ch8/pipeline2
 
+func main() { naturals := make(chan int) squares := make(chan int) // Counter go func() { for x := 0; x < 100; x++ { naturals <- x } close(naturals) }() // Squarer go func() { for x := range naturals { squares <- x * x } close(squares) }() // Printer (in main goroutine) for x := range squares { fmt.Println(x) } }
 
 
 
-Multiwindow Editing
+You needn’t close every channel when you’ve finished with it. It’s only necessary to close a channel when it is important to tell the receiving goroutines that all data have been sent. A channel that the garbage collector determines to be unreachable will have its resources reclaimed whether or not it is closed. (Don’t confuse this with the close operation for open files. It is important to call the Close method on every file when you’ve finished with it.)
 
+Attempting to close an already-closed channel causes a panic, as does closing a nil channel. Closing channels has another use as a broadcast mechanism, which we’ll cover in Section 8.9.
 
 
 
 
-To create a new window in elvis, you use the ex command :split. You then use one of the regular ex commands, such as :efilename or :n to edit a new file. This is the simplest method; other, shorter methods are described later in this chapter. You can switch back and forth between windows with CTRL-WCTRL-W:
 
-<preface id="VI6-CH-0"> <title>Preface </title> <para> Text editing is one of the most common uses of any computer system, and <command>vi</command> is one of the most useful standard text editors on your system. With <command>vi</command> you can create new files, or edit any existing Unix text file. _____________________________________________________________________ # Makefile for vi book # # Arnold Robbins CHAPTERS = ch00_6.sgm ch00_5.sgm ch00.sgm ch01.sgm ch02.sgm ch03.sgm \ ch04.sgm ch05.sgm ch06.sgm ch07.sgm ch08.sgm APPENDICES = appa.sgm appb.sgm appc.sgm appd.sgm POSTSCRIPT = ch00_6.ps ch00_5.ps ch00.ps ch01.ps ch02.ps ch03.ps \ ch04.ps ch05.ps ch06.ps ch07.ps ch08.ps \ appa.ps appb.ps appc.ps appd.ps
+8.4.3 Unidirectional Channel Types
 
-The split screen is the result of typing elvis ch00.sgm followed by :split Makefile.
 
-Like nvi, elvis gives each window its own status line. elvis is unique in that it uses a highlighted line of underscores, instead of reverse video, for the status line. ex colon commands are carried out on each window’s status line.
 
-Table 17-1 describes the windowing ex mode commands and what they do.
 
-Table 17-1. elvis window management commands
+As programs grow, it is natural to break up large functions into smaller pieces. Our previous example used three goroutines, communicating over two channels, which were local variables of main. The program naturally divides into three functions:
 
-CommandFunction
+func counter(out chan int) func squarer(out, in chan int) func printer(in chan int)
 
-sp[lit] [file] Create a new window, and load it with file if supplied. Otherwise, the new window shows the current file.
+The squarer function, sitting in the middle of the pipeline, takes two parameters, the input channel and the output channel. Both have the same type, but their intended uses are opposite: in is only to be received from, and out is only to be sent to. The names in and out convey this intention, but still, nothing prevents squarer from sending to in or receiving from out.
 
+This arrangement is typical. When a channel is supplied as a function parameter, it is nearly always with the intent that it be used exclusively for sending or exclusively for receiving.
 
+To document this intent and prevent misuse, the Go type system provides unidirectional channel types that expose only one or the other of the send and receive operations. The type chan<- int, a send-only channel of int, allows sends but not receives. Conversely, the type <-chan int, a receive-only channel of int, allows receives but not sends. (The position of the <- arrow relative to the chan keyword is a mnemonic.) Violations of this discipline are detected at compile time.
 
-new Create a new empty buffer, and then create a new window to show that buffer.
+Since the close operation asserts that no more sends will occur on a channel, only the sending goroutine is in a position to call it, and for this reason it is a compile-time error to attempt to close a receive-only channel.
 
+Here’s the squaring pipeline once more, this time with unidirectional channel types:
 
+Click here to view code image
 
-sne[w]
+gopl.io/ch8/pipeline3
 
-sn[ext] [file...] Create a new window, showing the next file in the argument list. The current file is not affected.
+func counter(out chan<- int) { for x := 0; x < 100; x++ { out <- x } close(out) } func squarer(out chan<- int, in <-chan int) { for v := range in { out <- v * v } close(out) } func printer(in <-chan int) { for v := range in { fmt.Println(v) } } func main() { naturals := make(chan int) squares := make(chan int) go counter(naturals) go squarer(squares, naturals) printer(squares) }
 
 
 
-sN[ext] Create a new window, showing the previous file in the argument list. The current file is not affected.
 
 
+The call counter(naturals) implicitly converts naturals, a value of type chan int, to the type of the parameter, chan<- int. The printer(squares) call does a similar implicit conversion to <-chan int. Conversions from bidirectional to unidirectional channel types are permitted in any assignment. There is no going back, however: once you have a value of a unidirectional type such as chan<- int, there is no way to obtain from it a value of type chan int that refers to the same channel data structure.
 
-sre[wind][!] Create a new window, showing the first file in the argument list. Reset the “current” file to be the first one with respect to the :next command. The current file is not affected.
 
 
 
-sl[ast] Create a new window, showing the last file in the argument list. The current file is not affected.
 
+8.4.4 Buffered Channels
 
 
-sta[g][!] tag Create a new window showing the file where the requested tag is found.
+A buffered channel has a queue of elements. The queue’s maximum size is determined when it is created, by the capacity argument to make. The statement below creates a buffered channel capable of holding three string values. Figure 8.2 is a graphical representation of ch and the channel to which it refers.
 
+ch = make(chan string, 3)
 
+Figure 8.2. An empty buffered channel.
 
-sa[ll] Create a new window for any files named in the argument list that don’t already have a window.
 
 
+A send operation on a buffered channel inserts an element at the back of the queue, and a receive operation removes an element from the front. If the channel is full, the send operation blocks its goroutine until space is made available by another goroutine’s receive. Conversely, if the channel is empty, a receive operation blocks until a value is sent by another goroutine.
 
-wi[ndow] [target] With no target, list all windows. The possible values for target are described in Table 17-2.
+We can send up to three values on this channel without the goroutine blocking:
 
+ch <- "A" ch <- "B" ch <- "C"
 
+At this point, the channel is full (Figure 8.3), and a fourth send statement would block.
 
-close Close the current window. The buffer that the window was displaying remains intact. If it was modified, the other elvis commands that quit will prevent you from quitting until you explicitly save or discard the buffer.
+Figure 8.3. A full buffered channel.
 
 
 
-wquit Write the buffer back to the file and close the window. The file is saved, regardless of whether it has been modified.
+If we receive one value,
 
+fmt.Println(<-ch) // "A"
 
+the channel is neither full nor empty (Figure 8.4), so either a send operation or a receive operation could proceed without blocking. In this way, the channel’s buffer decouples the sending and receiving goroutines.
 
-qall Issues a :q command for each window. Buffers without windows are not affected.
+Figure 8.4. A partially full buffered channel.
 
 
 
+In the unlikely event that a program needs to know the channel’s buffer capacity, it can be obtained by calling the built-in cap function:
 
+fmt.Println(cap(ch)) // "3"
 
-Table 17-2 describes the windowing ex arguments and their meanings.
+When applied to a channel, the built-in len function returns the number of elements currently buffered. Since in a concurrent program this information is likely to be stale as soon as it is retrieved, its value is limited, but it could conceivably be useful during fault diagnosis or performance optimization.
 
-Table 17-2. Arguments to the elvis window command
+fmt.Println(len(ch)) // "2"
 
-ArgumentMeaning
+After two more receive operations the channel is empty again, and a fourth would block:
 
-+ Switch to the next window, like ^W k.
+fmt.Println(<-ch) // "B" fmt.Println(<-ch) // "C"
 
+In this example, the send and receive operations were all performed by the same goroutine, but in real programs they are usually executed by different goroutines. Novices are sometimes tempted to use buffered channels within a single goroutine as a queue, lured by their pleasingly simple syntax, but this is a mistake. Channels are deeply connected to goroutine scheduling, and without another goroutine receiving from the channel, a sender—and perhaps the whole program—risks becoming blocked forever. If all you need is a simple queue, make one using a slice.
 
+The example below shows an application of a buffered channel. It makes parallel requests to three mirrors, that is, equivalent but geographically distributed servers. It sends their responses over a buffered channel, then receives and returns only the first response, which is the quickest one to arrive. Thus mirroredQuery returns a result even before the two slower servers have responded. (Incidentally, it’s quite normal for several goroutines to send values to the same channel concurrently, as in this example, or to receive from the same channel.)
 
-++ Switch to the next window, wrapping like ^W ^W.
+Click here to view code image
 
+func mirroredQuery() string { responses := make(chan string, 3) go func() { responses <- request("asia.gopl.io") }() go func() { responses <- request("europe.gopl.io") }() go func() { responses <- request("americas.gopl.io") }() return <-responses // return the quickest response } func request(hostname string) (response string) { /* ... */ }
 
+Had we used an unbuffered channel, the two slower goroutines would have gotten stuck trying to send their responses on a channel from which no goroutine will ever receive. This situation, called a goroutine leak, would be a bug. Unlike garbage variables, leaked goroutines are not automatically collected, so it is important to make sure that goroutines terminate themselves when no longer needed.
 
-- Switch to the previous window, like ^W j.
+The choice between unbuffered and buffered channels, and the choice of a buffered channel’s capacity, may both affect the correctness of a program. Unbuffered channels give stronger synchronization guarantees because every send operation is synchronized with its corresponding receive; with buffered channels, these operations are decoupled. Also, when we know an upper bound on the number of values that will be sent on a channel, it’s not unusual to create a buffered channel of that size and perform all the sends before the first value is received. Failure to allocate sufficient buffer capacity would cause the program to deadlock.
 
+Channel buffering may also affect program performance. Imagine three cooks in a cake shop, one baking, one icing, and one inscribing each cake before passing it on to the next cook in the assembly line. In a kitchen with little space, each cook that has finished a cake must wait for the next cook to become ready to accept it; this rendezvous is analogous to communication over an unbuffered channel.
 
+If there is space for one cake between each cook, a cook may place a finished cake there and immediately start work on the next; this is analogous to a buffered channel with capacity 1. So long as the cooks work at about the same rate on average, most of these handovers proceed quickly, smoothing out transient differences in their respective rates. More space between cooks—larger buffers—can smooth out bigger transient variations in their rates without stalling the assembly line, such as happens when one cook takes a short break, then later rushes to catch up.
 
--- Switch to the previous window, wrapping.
+On the other hand, if an earlier stage of the assembly line is consistently faster than the following stage, the buffer between them will spend most of its time full. Conversely, if the later stage is faster, the buffer will usually be empty. A buffer provides no benefit in this case.
 
+The assembly line metaphor is a useful one for channels and goroutines. For example, if the second stage is more elaborate, a single cook may not be able to keep up with the supply from the first cook or meet the demand from the third. To solve the problem, we could hire another cook to help the second, performing the same task but working independently. This is analogous to creating another goroutine communicating over the same channels.
 
+We don’t have space to show it here, but the gopl.io/ch8/cake package simulates this cake shop, with several parameters you can vary. It includes benchmarks (§11.4) for a few of the scenarios described above.
 
-num Switch to the window whose windowid=num.
 
 
 
-buffer-name Switch to the window editing the named buffer.
 
+8.5 Looping in Parallel
 
 
+In this section, we’ll explore some common concurrency patterns for executing all the iterations of a loop in parallel. We’ll consider the problem of producing thumbnail-size images from a set of full-size ones. The gopl.io/ch8/thumbnail package provides an ImageFile function that can scale a single image. We won’t show its implementation but it can be downloaded from gopl.io.
 
+Click here to view code image
 
-elvis provides a number of vi mode commands for moving between windows. They are summarized in Table 17-3.
+gopl.io/ch8/thumbnail
 
-Table 17-3. elvis window commands from vi command mode
+package thumbnail // ImageFile reads an image from infile and writes // a thumbnail-size version of it in the same directory. // It returns the generated file name, e.g., "foo.thumb.jpg". func ImageFile(infile string) (string, error)
 
-CommandFunction
+The program below loops over a list of image file names and produces a thumbnail for each one:
 
-^W c Hide the buffer and close the window. This is identical to the :close command.
+Click here to view code image
 
+gopl.io/ch8/thumbnail
 
+// makeThumbnails makes thumbnails of the specified files. func makeThumbnails(filenames []string) { for _, f := range filenames { if _, err := thumbnail.ImageFile(f); err != nil { log.Println(err) } } }
 
-^W d Toggle the display mode between syntax mode and the other display modes (html, man, tex) if that’s appropriate. This makes editing web pages a little more convenient. This is a per-window option. Display modes are discussed in the later section Display Modes.
 
 
+Obviously the order in which we process the files doesn’t matter, since each scaling operation is independent of all the others. Problems like this that consist entirely of subproblems that are completely independent of each other are described as embarrassingly parallel. Embarrassingly parallel problems are the easiest kind to implement concurrently and enjoy performance that scales linearly with the amount of parallelism.
 
-^W j Move down to the next window.
+Let’s execute all these operations in parallel, thereby hiding the latency of the file I/O and using multiple CPUs for the image-scaling computations. Our first attempt at a concurrent version just adds a go keyword. We’ll ignore errors for now and address them later.
 
+Click here to view code image
 
+// NOTE: incorrect! func makeThumbnails2(filenames []string) { for _, f := range filenames { go thumbnail.ImageFile(f) // NOTE: ignoring errors } }
 
-^W k Move up to the previous window.
+This version runs really fast—too fast, in fact, since it takes less time than the original, even when the slice of file names contains only a single element. If there’s no parallelism, how can the concurrent version possibly run faster? The answer is that makeThumbnails returns before it has finished doing what it was supposed to do. It starts all the goroutines, one per file name, but doesn’t wait for them to finish.
 
+There is no direct way to wait until a goroutine has finished, but we can change the inner goroutine to report its completion to the outer goroutine by sending an event on a shared channel. Since we know that there are exactly len(filenames) inner goroutines, the outer goroutine need only count that many events before it returns:
 
+Click here to view code image
 
-^W n Create a new window, and create a new buffer to be displayed in the window. It is similar to the :snew command.
+// makeThumbnails3 makes thumbnails of the specified files in parallel. func makeThumbnails3(filenames []string) { ch := make(chan struct{}) for _, f := range filenames { go func(f string) { thumbnail.ImageFile(f) // NOTE: ignoring errors ch <- struct{}{} }(f) } // Wait for goroutines to complete. for range filenames { <-ch } }
 
+Notice that we passed the value of f as an explicit argument to the literal function instead of using the declaration of f from the enclosing for loop:
 
+Click here to view code image
 
-^W q Save the buffer and close the window, identical to ZZ.
+for _, f := range filenames { go func() { thumbnail.ImageFile(f) // NOTE: incorrect! // ... }() }
 
+Recall the problem of loop variable capture inside an anonymous function, described in Section 5.6.1. Above, the single variable f is shared by all the anonymous function values and updated by successive loop iterations. By the time the new goroutines start executing the literal function, the for loop may have updated f and started another iteration or (more likely) finished entirely, so when these goroutines read the value of f, they all observe it to have the value of the final element of the slice. By adding an explicit parameter, we ensure that we use the value of f that is current when the go statement is executed.
 
+What if we want to return values from each worker goroutine to the main one? If the call to thumbnail.ImageFile fails to create a file, it returns an error. The next version of makeThumbnails returns the first error it receives from any of the scaling operations:
 
-^W s Split the current window, equivalent to :split.
+Click here to view code image
 
+// makeThumbnails4 makes thumbnails for the specified files in parallel. // It returns an error if any step failed. func makeThumbnails4(filenames []string) error { errors := make(chan error) for _, f := range filenames { go func(f string) { _, err := thumbnail.ImageFile(f) errors <- err }(f) } for range filenames { if err := <-errors; err != nil { return err // NOTE: incorrect: goroutine leak! } } return nil }
 
 
-^W S Toggle the wrap option. This option controls whether long lines wrap or whether the whole screen scrolls to the right. This is a per-window option. This option is discussed in the later section Left-Right Scrolling.
 
+This function has a subtle bug. When it encounters the first non-nil error, it returns the error to the caller, leaving no goroutine draining the errors channel. Each remaining worker goroutine will block forever when it tries to send a value on that channel, and will never terminate. This situation, a goroutine leak (§8.4.4), may cause the whole program to get stuck or to run out of memory.
 
+The simplest solution is to use a buffered channel with sufficient capacity that no worker goroutine will block when it sends a message. (An alternative solution is to create another goroutine to drain the channel while the main goroutine returns the first error without delay.)
 
-^W ] Create a new window, then look up the tag underneath the cursor. It is similar to the :stag command.
+The next version of makeThumbnails uses a buffered channel to return the names of the generated image files along with any errors.
 
+Click here to view code image
 
+// makeThumbnails5 makes thumbnails for the specified files in parallel. // It returns the generated file names in an arbitrary order, // or an error if any step failed. func makeThumbnails5(filenames []string) (thumbfiles []string, err error) { type item struct { thumbfile string err error } ch := make(chan item, len(filenames)) for _, f := range filenames { go func(f string) { var it item it.thumbfile, it.err = thumbnail.ImageFile(f) ch <- it }(f) } for range filenames { it := <-ch if it.err != nil { return nil, it.err } thumbfiles = append(thumbfiles, it.thumbfile) } return thumbfiles, nil }
 
-[count] ^W ^W Move to next window, or to the countth window.
 
 
+Our final version of makeThumbnails, below, returns the total number of bytes occupied by the new files. Unlike the previous versions, however, it receives the file names not as a slice but over a channel of strings, so we cannot predict the number of loop iterations.
 
-^W + Increase the size of the current window (termcap interface only).
+To know when the last goroutine has finished (which may not be the last one to start), we need to increment a counter before each goroutine starts and decrement it as each goroutine finishes. This demands a special kind of counter, one that can be safely manipulated from multiple goroutines and that provides a way to wait until it becomes zero. This counter type is known as sync.WaitGroup, and the code below shows how to use it:
 
+Click here to view code image
 
+// makeThumbnails6 makes thumbnails for each file received from the channel. // It returns the number of bytes occupied by the files it creates. func makeThumbnails6(filenames <-chan string) int64 { sizes := make(chan int64) var wg sync.WaitGroup // number of working goroutines for f := range filenames { wg.Add(1) // worker go func(f string) { defer wg.Done() thumb, err := thumbnail.ImageFile(f) if err != nil { log.Println(err) return } info, _ := os.Stat(thumb) // OK to ignore error sizes <- info.Size() }(f) } // closer go func() { wg.Wait() close(sizes) }() var total int64 for size := range sizes { total += size } return total }
 
-^W - Reduce the size of the current window (termcap interface only).
 
 
 
-^W \ Make the current window as large as possible (termcap interface only).
 
+Note the asymmetry in the Add and Done methods. Add, which increments the counter, must be called before the worker goroutine starts, not within it; otherwise we would not be sure that the Add happens before the “closer” goroutine calls Wait. Also, Add takes a parameter, but Done does not; it’s equivalent to Add(-1). We use defer to ensure that the counter is decremented even in the error case. The structure of the code above is a common and idiomatic pattern for looping in parallel when we don’t know the number of iterations.
 
+The sizes channel carries each file size back to the main goroutine, which receives them using a range loop and computes the sum. Observe how we create a closer goroutine that waits for the workers to finish before closing the sizes channel. These two operations, wait and close, must be concurrent with the loop over sizes. Consider the alternatives: if the wait operation were placed in the main goroutine before the loop, it would never end, and if placed after the loop, it would be unreachable since with nothing closing the channel, the loop would never terminate.
 
+Figure 8.5. The sequence of events in makeThumbnails6.
 
 
-GUI Interfaces
 
+Figure 8.5 illustrates the sequence of events in the makeThumbnails6 function. The vertical lines represent goroutines. The thin segments indicate sleep, the thick segments activity. The diagonal arrows indicate events that synchronize one goroutine with another. Time flows down. Notice how the main goroutine spends most of its time in the range loop asleep, waiting for a worker to send a value or the closer to close the channel.
 
+Exercise 8.4: Modify the reverb2 server to use a sync.WaitGroup per connection to count the number of active echo goroutines. When it falls to zero, close the write half of the TCP connection as described in Exercise 8.3. Verify that your modified netcat3 client from that exercise waits for the final echoes of multiple concurrent shouts, even after the standard input has been closed.
 
+Exercise 8.5: Take an existing CPU-bound sequential program, such as the Mandelbrot program of Section 3.3 or the 3-D surface computation of Section 3.2, and execute its main loop in parallel using channels for communication. How much faster does it run on a multiprocessor machine? What is the optimal number of goroutines to use?
 
 
-The screenshots and explanation for this section were supplied by Steve Kirkendall. We thank him.
 
-elvis’s X11 interface provides a scrollbar and mouse support, and it allows you to select which fonts to use. There is no way to change fonts after elvis has created the first window. The fonts must all be monospace fonts, typically some variation of a Courier or other fixed-width font.
 
-elvis’s X11 interface supports multiple fonts and colors, a blinking cursor that changes shape to indicate your editing mode (insert versus command), a scrollbar, anti-aliased text, an image file to use for the background (with optional tint), a user-specified icon image, and mouse actions. The mouse can be used for selecting text, cutting and pasting between applications, and performing tag searches. In addition, there is a configurable toolbar, dialog windows, a status bar, and the -client flag.
 
+8.6 Example: Concurrent Web Crawler
 
 
 
 
-Note
+In Section 5.6, we made a simple web crawler that explored the link graph of the web in breadth-first order. In this section, we’ll make it concurrent so that independent calls to crawl can exploit the I/O parallelism available in the web. The crawl function remains exactly as it was in gopl.io/ch5/findlinks3:
 
+Click here to view code image
 
-The MS Windows GUI interface also supports a background image file, using the same command and using XPM format files, so that the same background image file may be used in both environments.
+gopl.io/ch8/crawl1
 
+func crawl(url string) []string { fmt.Println(url) list, err := links.Extract(url) if err != nil { log.Print(err) } return list }
 
+The main function resembles breadthFirst (§5.6). As before, a worklist records the queue of items that need processing, each item being a list of URLs to crawl, but this time, instead of representing the queue using a slice, we use a channel. Each call to crawl occurs in its own goroutine and sends the links it discovers back to the worklist.
 
+Click here to view code image
 
+func main() { worklist := make(chan []string) // Start with the command-line arguments. go func() { worklist <- os.Args[1:] }() // Crawl the web concurrently. seen := make(map[string]bool) for list := range worklist { for _, link := range list { if !seen[link] { seen[link] = true go func(link string) { worklist <- crawl(link) }(link) } } } }
 
-The Basic Window
 
 
+Notice that the crawl goroutine takes link as an explicit parameter to avoid the problem of loop variable capture we first saw in Section 5.6.1. Also notice that the initial send of the command-line arguments to the worklist must run in its own goroutine to avoid deadlock, a stuck situation in which both the main goroutine and a crawler goroutine attempt to send to each other while neither is receiving. An alternative solution would be to use a buffered channel.
 
+The crawler is now highly concurrent and prints a storm of URLs, but it has two problems. The first problem manifests itself as error messages in the log after a few seconds of operation:
 
+Click here to view code image
 
-The basic elvis window is shown in Figure 17-1.
+$ go build gopl.io/ch8/crawl1 $ ./crawl1 http://gopl.io/ http://gopl.io/ https://golang.org/help/ https://golang.org/doc/ https://golang.org/blog/ ... 2015/07/15 18:22:12 Get ...: dial tcp: lookup blog.golang.org: no such host 2015/07/15 18:22:12 Get ...: dial tcp 23.21.222.120:443: socket: too many open files ...
 
+The initial error message is a surprising report of a DNS lookup failure for a reliable domain. The subsequent error message reveals the cause: the program created so many network connections at once that it exceeded the per-process limit on the number of open files, causing operations such as DNS lookups and calls to net.Dial to start failing.
 
+The program is too parallel. Unbounded parallelism is rarely a good idea since there is always a limiting factor in the system, such as the number of CPU cores for compute-bound workloads, the number of spindles and heads for local disk I/O operations, the bandwidth of the network for streaming downloads, or the serving capacity of a web service. The solution is to limit the number of parallel uses of the resource to match the level of parallelism that is available. A simple way to do that in our example is to ensure that no more than n calls to links.Extract are active at once, where n is comfortably less than the file descriptor limit—20, say. This is analogous to the way a doorman at a crowded nightclub admits a guest only when some other guest leaves.
 
+We can limit parallelism using a buffered channel of capacity n to model a concurrency primitive called a counting semaphore. Conceptually, each of the n vacant slots in the channel buffer represents a token entitling the holder to proceed. Sending a value into the channel acquires a token, and receiving a value from the channel releases a token, creating a new vacant slot. This ensures that at most n sends can occur without an intervening receive. (Although it might be more intuitive to treat filled slots in the channel buffer as tokens, using vacant slots avoids the need to fill the channel buffer after creating it.) Since the channel element type is not important, we’ll use struct{}, which has size zero.
 
+Let’s rewrite the crawl function so that the call to links.Extract is bracketed by operations to acquire and release a token, thus ensuring that at most 20 calls to it are active at one time. It’s good practice to keep the semaphore operations as close as possible to the I/O operation they regulate.
 
-Figure 17-1. The elvis GUI window
+Click here to view code image
 
+gopl.io/ch8/crawl2
 
+// tokens is a counting semaphore used to // enforce a limit of 20 concurrent requests. var tokens = make(chan struct{}, 20) func crawl(url string) []string { fmt.Println(url) tokens <- struct{}{} // acquire a token list, err := links.Extract(url) <-tokens // release the token if err != nil { log.Print(err) } return list }
 
-elvis provides a separate text search pop-up dialog box, which is shown in Figure 17-2.
 
 
+The second problem is that the program never terminates, even when it has discovered all the links reachable from the initial URLs. (Of course, you’re unlikely to notice this problem unless you choose the initial URLs carefully or implement the depth-limiting feature of Exercise 8.6.) For the program to terminate, we need to break out of the main loop when the worklist is empty and no crawl goroutines are active.
 
+Click here to view code image
 
+func main() { worklist := make(chan []string) var n int // number of pending sends to worklist // Start with the command-line arguments. n++ go func() { worklist <- os.Args[1:] }() // Crawl the web concurrently. seen := make(map[string]bool) for ; n > 0; n-- { list := <-worklist for _, link := range list { if !seen[link] { seen[link] = true n++ go func(link string) { worklist <- crawl(link) }(link) } } } }
 
-Figure 17-2. The elvis search dialog
 
 
+In this version, the counter n keeps track of the number of sends to the worklist that are yet to occur. Each time we know that an item needs to be sent to the worklist, we increment n, once before we send the initial command-line arguments, and again each time we start a crawler goroutine. The main loop terminates when n falls to zero, since there is no more work to be done.
 
-The look and feel are intended to resemble Motif, but elvis doesn’t actually use the Motif libraries.
+Now the concurrent crawler runs about 20 times faster than the breadth-first crawler from Section 5.6, without errors, and terminates correctly if it should complete its task.
 
-Command-line options let you choose the four different fonts that elvis uses: normal, italic, bold, and “control,” which is the font for the toolbar text and button labels. You may also specify foreground and background colors, the initial window geometry, and whether elvis should start out iconified.
+The program below shows an alternative solution to the problem of excessive concurrency. This version uses the original crawl function that has no counting semaphore, but calls it from one of 20 long-lived crawler goroutines, thus ensuring that at most 20 HTTP requests are active concurrently.
 
-The -client option causes elvis to look for an already running elvis process and send it a message requesting it to start editing the files named on the command line. Doing it this way allows you to share yanked text and other information between the files elvis is currently editing and the new files.
+Click here to view code image
 
-Besides the toolbar, there is also a status bar that displays status messages and any available information about toolbar buttons.
+gopl.io/ch8/crawl3
 
+func main() { worklist := make(chan []string) // lists of URLs, may have duplicates unseenLinks := make(chan string) // de-duplicated URLs // Add command-line arguments to worklist. go func() { worklist <- os.Args[1:] }() // Create 20 crawler goroutines to fetch each unseen link. for i := 0; i < 20; i++ { go func() { for link := range unseenLinks { foundLinks := crawl(link) go func() { worklist <- foundLinks }() } }() } // The main goroutine de-duplicates worklist items // and sends the unseen ones to the crawlers. seen := make(map[string]bool) for list := range worklist { for _, link := range list { if !seen[link] { seen[link] = true unseenLinks <- link } } } }
 
 
 
+The crawler goroutines are all fed by the same channel, unseenLinks. The main goroutine is responsible for de-duplicating items it receives from the worklist, and then sending each unseen one over the unseenLinks channel to a crawler goroutine.
 
-Mouse Behavior
+The seen map is confined within the main goroutine; that is, it can be accessed only by that goroutine. Like other forms of information hiding, confinement helps us reason about the correctness of a program. For example, local variables cannot be mentioned by name from outside the function in which they are declared; variables that do not escape (§2.3.4) from a function cannot be accessed from outside that function; and encapsulated fields of an object cannot be accessed except by the methods of that object. In all cases, information hiding helps to limit unintended interactions between parts of the program.
 
+Links found by crawl are sent to the worklist from a dedicated goroutine to avoid deadlock.
 
+To save space, we have not addressed the problem of termination in this example.
 
+Exercise 8.6: Add depth-limiting to the concurrent crawler. That is, if the user sets -depth=3, then only URLs reachable by at most three links will be fetched.
 
+Exercise 8.7: Write a concurrent program that creates a local mirror of a web site, fetching each reachable page and writing it to a directory on the local disk. Only pages within the original domain (for instance, golang.org) should be fetched. URLs within mirrored pages should be altered as needed so that they refer to the mirrored page, not the original.
 
-The mouse behavior tries to strike a balance between xterm and what makes sense for an editor. To do this correctly, elvis distinguishes between clicking and dragging.
 
-Dragging the mouse always selects text. Dragging with button 1 pressed selects characters, dragging with button 2 selects a rectangular area, and dragging with button 3 selects whole lines. (Buttons 1, 2, and 3 correspond to the left, middle, and right buttons for a right-handed user. The order will be the opposite for a left-handed user.) These operations correspond to elvis’s v, ^V, and V commands, respectively. (These commands are described later in this chapter.) When you release the button at the end of the drag, the selected text is immediately copied into an X11 cut buffer, so you can paste it into another application, such as xterm. The text remains selected, so you can apply an operator command to it.
 
-Clicking button 1 cancels any pending selection and moves the cursor to the clicked-on character. Clicking button 3 moves the cursor without canceling the pending selection; you use this to extend a pending selection.
 
-Clicking button 2 “pastes” text from the X11 cut buffer (such as xterm). If you’re entering an ex command line, the text will be pasted into the command line as though you had typed it. If you’re in visual command mode or input mode, the text will be pasted into your edit buffer. When pasting, it doesn’t matter where you click in the window; elvis always inserts the text at the position of the text cursor.
 
-Double-clicking button 1 simulates a ^] keystroke, causing elvis to perform tag lookup on the clicked-on word. If elvis happens to be displaying an HTML document, then tag lookup pursues hypertext links, so you can double-click on any underlined text to view the topic that describes that text. Double-clicking button 3 simulates a ^T keystroke, taking you back to where you did the last tag lookup.
+8.7 Multiplexing with select
 
 
+The program below does the countdown for a rocket launch. The time.Tick function returns a channel on which it sends events periodically, acting like a metronome. The value of each event is a timestamp, but it is rarely as interesting as the fact of its delivery.
 
+Click here to view code image
 
+gopl.io/ch8/countdown1
 
-The Toolbar
+func main() { fmt.Println("Commencing countdown.") tick := time.Tick(1 * time.Second) for countdown := 10; countdown > 0; countdown-- { fmt.Println(countdown) <-tick } launch() }
 
 
 
+Now let’s add the ability to abort the launch sequence by pressing the return key during the countdown. First, we start a goroutine that tries to read a single byte from the standard input and, if it succeeds, sends a value on a channel called abort.
 
+Click here to view code image
 
-The X11 interface supports a user-configurable toolbar. By default, the toolbar is enabled unless your ~/.exrc file has a set notoolbar command.
+gopl.io/ch8/countdown2
 
-The default toolbar already has some buttons defined. You use the :gui command to reconfigure the toolbar.
+abort := make(chan struct{}) go func() { os.Stdin.Read(make([]byte, 1)) // read a single byte abort <- struct{}{} }()
 
-There are a number of commands. In particular, you can reconfigure the toolbar to suit your tastes, deleting one or all of the existing buttons, adding new ones, and controlling the spacing between buttons or groups of buttons. Here is a simple example:
 
-:gui Make:make :gui Make " Rebuild the program :gui Quit:q :gui Quit?!modified
 
-These commands add two new buttons. The first line adds a button named Make, which will execute the :make command when pressed. (The :make command is described later in this chapter.) The second line adds descriptive text for the Make button that shows up in the status line when the button is pressed. In this case, the " does not start a comment; rather it is an operator for the :gui command.
+Now each iteration of the countdown loop needs to wait for an event to arrive on one of the two channels: the ticker channel if everything is fine (“nominal” in NASA jargon) or an abort event if there was an “anomaly.” We can’t just receive from each channel because whichever operation we try first will block until completion. We need to multiplex these operations, and to do that, we need a select statement.
 
-The second button, named Quit, is created by the third line. It exits the program. The fourth line changes its behavior. If the condition (!modified) is true, the button will behave normally. But if it’s false, the button will ignore any mouse clicks, and it will also be displayed as being “flat” instead of having the normal 3-D appearance. Thus, if the current file is modified, you won’t be able to use the Quit button to exit.
+select { case <-ch1: // ... case x := <-ch2: // ...use x... case ch3 <- y: // ... default: // ... }
 
-You can create pop-up dialogs that appear when a toolbar button is pressed. The dialog can set the value(s) of predefined variables (options) that can then be tested from the ex command associated with the button. There are 26 predefined variables, named a–z, that are set aside for user “programs” of this sort to use. This example associates a dialog with a new button named Split:
+The general form of a select statement is shown above. Like a switch statement, it has a number of cases and an optional default. Each case specifies a communication (a send or receive operation on some channel) and an associated block of statements. A receive expression may appear on its own, as in the first case, or within a short variable declaration, as in the second case; the second form lets you refer to the received value.
 
-:gui Split"Create a new window, showing a given file :gui Split;"File to load:" (file) f = filename :gui Split:split (f)
+A select waits until a communication for some case is ready to proceed. It then performs that communication and executes the case’s associated statements; the other communications do not happen. A select with no cases, select{}, waits forever.
 
-The first command associates descriptive text with the Split button. The second command creates the pop-up dialog: its prompt is File to load: and it will set the filename option. The (file) indicates that any string may be entered, but that the TAB key may be used for filename completion. The f = filename copies the value of filename into f. Finally, the third command actually executes the :split command on the value of f, which will be the new filename supplied by the user.
+Let’s return to our rocket launch program. The time.After function immediately returns a channel, and starts a new goroutine that sends a single value on that channel after the specified time. The select statement below waits until the first of two events arrives, either an abort event or the event indicating that 10 seconds have elapsed. If 10 seconds go by with no abort, the launch proceeds.
 
-The facility is quite flexible; see the online help for the full details.
+Click here to view code image
 
+func main() { // ...create abort channel... fmt.Println("Commencing countdown. Press return to abort.") select { case <-time.After(10 * time.Second): // Do nothing. case <-abort: fmt.Println("Launch aborted!") return } launch() }
 
 
 
+The example below is more subtle. The channel ch, whose buffer size is 1, is alternately empty then full, so only one of the cases can proceed, either the send when i is even, or the receive when i is odd. It always prints 0 2 4 6 8.
 
-Options
+Click here to view code image
 
+ch := make(chan int, 1) for i := 0; i < 10; i++ { select { case x := <-ch: fmt.Println(x) // "0" "2" "4" "6" "8" case ch <- i: } }
 
+If multiple cases are ready, select picks one at random, which ensures that every channel has an equal chance of being selected. Increasing the buffer size of the previous example makes its output nondeterministic, because when the buffer is neither full nor empty, the select statement figuratively tosses a coin.
 
+Let’s make our launch program print the countdown. The select statement below causes each iteration of the loop to wait up to 1 second for an abort, but no longer.
 
+Click here to view code image
 
-A large number of options control the X11 interface. You typically set these in your .exrc file. There are options and abbreviations for setting the various fonts, and for enabling and configuring the toolbar, status bar, scrollbars, and the cursor. Other options control the cursor’s behavior when you switch windows with ^W ^W and whether the cursor goes back to the original xterm when elvis exits.
+gopl.io/ch8/countdown3
 
-The online documentation describes all of the X11-related ex options. Here, we describe some of the more interesting ones:
+func main() { // ...create abort channel... fmt.Println("Commencing countdown. Press return to abort.") tick := time.Tick(1 * time.Second) for countdown := 10; countdown > 0; countdown-- { fmt.Println(countdown) select { case <-tick: // Do nothing. case <-abort: fmt.Println("Launch aborted!") return } } launch() }
 
-autoiconify
 
-Normally, when the ^W ^W command switches focus to an iconified window, that window is de-iconified. When autoiconify is true, elvis will iconify the old window, so that the number of open elvis windows remains constant.
 
+The time.Tick function behaves as if it creates a goroutine that calls time.Sleep in a loop, sending an event each time it wakes up. When the countdown function above returns, it stops receiving events from tick, but the ticker goroutine is still there, trying in vain to send on a channel from which no goroutine is receiving—a goroutine leak (§8.4.4).
 
+The Tick function is convenient, but it’s appropriate only when the ticks will be needed throughout the lifetime of the application. Otherwise, we should use this pattern:
 
-blinktime
+Click here to view code image
 
-The value is a number between 1 and 10 that indicates for how many 10ths of a second the cursor should be visible and then invisible. A value of 0 disables blinking.
+ticker := time.NewTicker(1 * time.Second) <-ticker.C // receive from the ticker's channel ticker.Stop() // cause the ticker's goroutine to terminate
 
+Sometimes we want to try to send or receive on a channel but avoid blocking if the channel is not ready—a non-blocking communication. A select statement can do that too. A select may have a default, which specifies what to do when none of the other communications can proceed immediately.
 
+The select statement below receives a value from the abort channel if there is one to receive; otherwise it does nothing. This is a non-blocking receive operation; doing it repeatedly is called polling a channel.
 
-firstx, firsty, stagger
+Click here to view code image
 
-firstx and firsty control the position of the first window that elvis creates. If not set, the -geometry option or the window manager controls placement. If stagger is set to a nonzero value, any new windows are created that many pixels down and to the right of the current window. Setting it to zero lets the window manager do the placement.
+select { case <-abort: fmt.Printf("Launch aborted!\n") return default: // do nothing }
 
+The zero value for a channel is nil. Perhaps surprisingly, nil channels are sometimes useful. Because send and receive operations on a nil channel block forever, a case in a select statement whose channel is nil is never selected. This lets us use nil to enable or disable cases that correspond to features like handling timeouts or cancellation, responding to other input events, or emitting output. We’ll see an example in the next section.
 
+Exercise 8.8: Using a select statement, add a timeout to the echo server from Section 8.3 so that it disconnects any client that shouts nothing within 10 seconds.
 
-stopshell
 
-Stores a command that runs an interactive shell, for the ex commands :shell and :stop, and for the ^Z visual command. The default value is xterm &, which starts an interactive terminal emulator in another window.
 
 
 
-xscrollbar
+8.8 Example: Concurrent Directory Traversal
 
-Values left and right place the scrollbar on the indicated side of the window, and none disables the scrollbar. The default is right.
 
 
 
+In this section, we’ll build a program that reports the disk usage of one or more directories specified on the command line, like the Unix du command. Most of its work is done by the walkDir function below, which enumerates the entries of the directory dir using the dirents helper function.
 
+Click here to view code image
 
-elvis can be configured via X resources.[56] The resource values can be overridden by command-line flags, or by explicit :set or :color commands in the initialization scripts. elvis’s resources are listed in Table 17-4.
+gopl.io/ch8/du1
 
-Table 17-4. elvis X resources
+// walkDir recursively walks the file tree rooted at dir // and sends the size of each found file on fileSizes. func walkDir(dir string, fileSizes chan<- int64) { for _, entry := range dirents(dir) { if entry.IsDir() { subdir := filepath.Join(dir, entry.Name()) walkDir(subdir, fileSizes) } else { fileSizes <- entry.Size() } } } // dirents returns the entries of directory dir. func dirents(dir string) []os.FileInfo { entries, err := ioutil.ReadDir(dir) if err != nil { fmt.Fprintf(os.Stderr, "du1: %v\n", err) return nil } return entries }
 
-Resource class (name is lowercase of class)TypeDefault value
 
-Elvis.Toolbar Boolean true
 
-Elvis.Statusbar Boolean true
+The ioutil.ReadDir function returns a slice of os.FileInfo—the same information that a call to os.Stat returns for a single file. For each subdirectory, walkDir recursively calls itself, and for each file, walkDir sends a message on the fileSizes channel. The message is the size of the file in bytes.
 
-Elvis.Font Font fixed
+The main function, shown below, uses two goroutines. The background goroutine calls walkDir for each directory specified on the command line and finally closes the fileSizes channel. The main goroutine computes the sum of the file sizes it receives from the channel and finally prints the total.
 
-Elvis.Geometry Geometry 80x34
+Click here to view code image
 
-Elvis.Foreground Color black
+// The du1 command computes the disk usage of the files in a directory. package main import ( "flag" "fmt" "io/ioutil" "os" "path/filepath" ) func main() { // Determine the initial directories. flag.Parse() roots := flag.Args() if len(roots) == 0 { roots = []string{"."} } // Traverse the file tree. fileSizes := make(chan int64) go func() { for _, root := range roots { walkDir(root, fileSizes) } close(fileSizes) }() // Print the results. var nfiles, nbytes int64 for size := range fileSizes { nfiles++ nbytes += size } printDiskUsage(nfiles, nbytes) } func printDiskUsage(nfiles, nbytes int64) { fmt.Printf("%d files %.1f GB\n", nfiles, float64(nbytes)/1e9) }
 
-Elvis.Background Color gray90
+This program pauses for a long while before printing its result:
 
-Elvis.MultiClickTimeout Timeout 3
+$ go build gopl.io/ch8/du1 $ ./du1 $HOME /usr /bin /etc 213201 files 62.7 GB
 
-Elvis.Control.Font Font variable
+The program would be nicer if it kept us informed of its progress. However, simply moving the printDiskUsage call into the loop would cause it to print thousands of lines of output.
 
-Elvis.Cursor.Foreground Color red
+The variant of du below prints the totals periodically, but only if the -v flag is specified since not all users will want to see progress messages. The background goroutine that loops over roots remains unchanged. The main goroutine now uses a ticker to generate events every 500ms, and a select statement to wait for either a file size message, in which case it updates the totals, or a tick event, in which case it prints the current totals. If the -v flag is not specified, the tick channel remains nil, and its case in the select is effectively disabled.
 
-Elvis.Cursor.Selected Color red
+Click here to view code image
 
-Elvis.Cursor.BlinkTime Timeout 3
+gopl.io/ch8/du2
 
-Elvis.Tool.Foreground Color black
+var verbose = flag.Bool("v", false, "show verbose progress messages") func main() { // ...start background goroutine... // Print the results periodically. var tick <-chan time.Time if *verbose { tick = time.Tick(500 * time.Millisecond) } var nfiles, nbytes int64 loop: for { select { case size, ok := <-fileSizes: if !ok { break loop // fileSizes was closed } nfiles++ nbytes += size case <-tick: printDiskUsage(nfiles, nbytes) } } printDiskUsage(nfiles, nbytes) // final totals }
 
-Elvis.Tool.Background Color gray75
 
-Elvis.Scrollbar.Foreground Color gray75
 
-Elvis.Scrollbar.Background Color gray60
+Since the program no longer uses a range loop, the first select case must explicitly test whether the fileSizes channel has been closed, using the two-result form of receive operation. If the channel has been closed, the program breaks out of the loop. The labeled break statement breaks out of both the select and the for loop; an unlabeled break would break out of only the select, causing the loop to begin the next iteration.
 
-Elvis.Scrollbar.Width Number 11
+The program now gives us a leisurely stream of updates:
 
-Elvis.Scrollbar.Repeat Timeout 4
+$ go build gopl.io/ch8/du2 $ ./du2 -v $HOME /usr /bin /etc 28608 files 8.3 GB 54147 files 10.3 GB 93591 files 15.1 GB 127169 files 52.9 GB 175931 files 62.2 GB 213201 files 62.7 GB
 
-Elvis.Scrollbar.Position Edge right
+However, it still takes too long to finish. There’s no reason why all the calls to walkDir can’t be done concurrently, thereby exploiting parallelism in the disk system. The third version of du, below, creates a new goroutine for each call to walkDir. It uses a sync.WaitGroup (§8.5) to count the number of calls to walkDir that are still active, and a closer goroutine to close the fileSizes channel when the counter drops to zero.
 
+Click here to view code image
 
+gopl.io/ch8/du3
 
+func main() { // ...determine roots... // Traverse each root of the file tree in parallel. fileSizes := make(chan int64) var n sync.WaitGroup for _, root := range roots { n.Add(1) go walkDir(root, &n, fileSizes) } go func() { n.Wait() close(fileSizes) }() // ...select loop... }
 
 
-The “Timeout” type gives a time value, in 10ths of a second. The “Edge” type gives a scrollbar position, one of left, right, or none.
 
-For example, if your X resource database contains the line elvis.font: 10x20, the default text font would be 10x20. This value would be used if the normalfont option was unset.
+Click here to view code image
 
+func walkDir(dir string, n *sync.WaitGroup, fileSizes chan<- int64) { defer n.Done() for _, entry := range dirents(dir) { if entry.IsDir() { n.Add(1) subdir := filepath.Join(dir, entry.Name()) go walkDir(subdir, n, fileSizes) } else { fileSizes <- entry.Size() } } }
 
+Since this program creates many thousands of goroutines at its peak, we have to change dirents to use a counting semaphore to prevent it from opening too many files at once, just as we did for the web crawler in Section 8.6:
 
+Click here to view code image
 
+// sema is a counting semaphore for limiting concurrency in dirents. var sema = make(chan struct{}, 20) // dirents returns the entries of directory dir. func dirents(dir string) []os.FileInfo { sema <- struct{}{} // acquire token defer func() { <-sema }() // release token // ...
 
-* * *
 
 
 
-[56] X resources are a way to configure X11 applications based on a set of name/value pairs stored in memory by the X server. They are not used very much by the current crop of desktop environments, such as KDE and GNOME. Nonetheless, you can still set them using the xrdb command.
 
+This version runs several times faster than the previous one, though there is a lot of variability from system to system.
 
+Exercise 8.9: Write a version of du that computes and periodically displays separate totals for each of the root directories.
 
 
 
-Extended Regular Expressions
 
 
+8.9 Cancellation
 
 
 
-We introduced extended regular expressions earlier in the section Extended Regular Expressions. The additional metacharacters available in elvis are:
 
-\|
+Sometimes we need to instruct a goroutine to stop what it is doing, for example, in a web server performing a computation on behalf of a client that has disconnected.
 
-Indicates alternation.
+There is no way for one goroutine to terminate another directly, since that would leave all its shared variables in undefined states. In the rocket launch program (§8.7) we sent a single value on a channel named abort, which the countdown goroutine interpreted as a request to stop itself. But what if we need to cancel two goroutines, or an arbitrary number?
 
+One possibility might be to send as many events on the abort channel as there are goroutines to cancel. If some of the goroutines have already terminated themselves, however, our count will be too large, and our sends will get stuck. On the other hand, if those goroutines have spawned other goroutines, our count will be too small, and some goroutines will remain unaware of the cancellation. In general, it’s hard to know how many goroutines are working on our behalf at any given moment. Moreover, when a goroutine receives a value from the abort channel, it consumes that value so that other goroutines won’t see it. For cancellation, what we need is a reliable mechanism to broadcast an event over a channel so that many goroutines can see it as it occurs and can later see that it has occurred.
 
+Recall that after a channel has been closed and drained of all sent values, subsequent receive operations proceed immediately, yielding zero values. We can exploit this to create a broadcast mechanism: don’t send a value on the channel, close it.
 
-\(...\)
+We can add cancellation to the du program from the previous section with a few simple changes. First, we create a cancellation channel on which no values are ever sent, but whose closure indicates that it is time for the program to stop what it is doing. We also define a utility function, cancelled, that checks or polls the cancellation state at the instant it is called.
 
-Used for grouping, to allow the application of additional regular expression operators.
+Click here to view code image
 
+gopl.io/ch8/du4
 
+var done = make(chan struct{}) func cancelled() bool { select { case <-done: return true default: return false } }
 
-\+
+Next, we create a goroutine that will read from the standard input, which is typically connected to the terminal. As soon as any input is read (for instance, the user presses the return key), this goroutine broadcasts the cancellation by closing the done channel.
 
-Matches one or more of the preceding regular expressions.
+Click here to view code image
 
+// Cancel traversal when input is detected. go func() { os.Stdin.Read(make([]byte, 1)) // read a single byte close(done) }()
 
+Now we need to make our goroutines respond to the cancellation. In the main goroutine, we add a third case to the select statement that tries to receive from the done channel. The function returns if this case is ever selected, but before it returns it must first drain the fileSizes channel, discarding all values until the channel is closed. It does this to ensure that any active calls to walkDir can run to completion without getting stuck sending to fileSizes.
 
-\?
+Click here to view code image
 
-Matches zero or one of the preceding regular expressions.
+for { select { case <-done: // Drain fileSizes to allow existing goroutines to finish. for range fileSizes { // Do nothing. } return case size, ok := <-fileSizes: // ... } }
 
+The walkDir goroutine polls the cancellation status when it begins, and returns without doing anything if the status is set. This turns all goroutines created after cancellation into no-ops:
 
+Click here to view code image
 
-\@
+func walkDir(dir string, n *sync.WaitGroup, fileSizes chan<- int64) { defer n.Done() if cancelled() { return } for _, entry := range dirents(dir) { // ... } }
 
-Matches the word under the cursor.
+It might be profitable to poll the cancellation status again within walkDir’s loop, to avoid creating goroutines after the cancellation event. Cancellation involves a trade-off; a quicker response often requires more intrusive changes to program logic. Ensuring that no expensive operations ever occur after the cancellation event may require updating many places in your code, but often most of the benefit can be obtained by checking for cancellation in a few important places.
 
+A little profiling of this program revealed that the bottleneck was the acquisition of a semaphore token in dirents. The select below makes this operation cancellable and reduces the typical cancellation latency of the program from hundreds of milliseconds to tens:
 
+Click here to view code image
 
-\=
+func dirents(dir string) []os.FileInfo { select { case sema <- struct{}{}: // acquire token case <-done: return nil // cancelled } defer func() { <-sema }() // release token // ...read directory... }
 
-Indicates where to put the cursor when the text is matched. For instance, hel\=lo would put the cursor on the second l in the next occurrence of hello.
+Now, when cancellation occurs, all the background goroutines quickly stop and the main function returns. Of course, when main returns, a program exits, so it can be hard to tell a main function that cleans up after itself from one that does not. There’s a handy trick we can use during testing: if instead of returning from main in the event of cancellation, we execute a call to panic, then the runtime will dump the stack of every goroutine in the program. If the main goroutine is the only one left, then it has cleaned up after itself. But if other goroutines remain, they may not have been properly cancelled, or perhaps they have been cancelled but the cancellation takes time; a little investigation may be worthwhile. The panic dump often contains sufficient information to distinguish these cases.
 
+Exercise 8.10: HTTP requests may be cancelled by closing the optional Cancel channel in the http.Request struct. Modify the web crawler of Section 8.6 to support cancellation.
 
+Hint: the http.Get convenience function does not give you an opportunity to customize a Request. Instead, create the request using http.NewRequest, set its Cancel field, then perform the request by calling http.DefaultClient.Do(req).
 
-\{...\}
+Exercise 8.11: Following the approach of mirroredQuery in Section 8.4.4, implement a variant of fetch that requests several URLs concurrently. As soon as the first response arrives, cancel the other requests.
 
-Describes an interval expression, such as x\{1,3\} to match x, xx, or xxx.
 
 
 
 
+8.10 Example: Chat Server
 
-POSIX bracket expressions (character classes, etc.) are available.
 
 
 
+We’ll finish this chapter with a chat server that lets several users broadcast textual messages to each other. There are four kinds of goroutine in this program. There is one instance apiece of the main and broadcaster goroutines, and for each client connection there is one handleConn and one clientWriter goroutine. The broadcaster is a good illustration of how select is used, since it has to respond to three different kinds of messages.
 
+The job of the main goroutine, shown below, is to listen for and accept incoming network connections from clients. For each one, it creates a new handleConn goroutine, just as in the concurrent echo server we saw at the start of this chapter.
 
-Improved Editing Facilities
+Click here to view code image
 
+gopl.io/ch8/chat
 
+func main() { listener, err := net.Listen("tcp", "localhost:8000") if err != nil { log.Fatal(err) } go broadcaster() for { conn, err := listener.Accept() if err != nil { log.Print(err) continue } go handleConn(conn) } }
 
 
 
-This section describes the features of elvis that make simple text editing easier and more powerful.
+Next is the broadcaster. Its local variable clients records the current set of connected clients. The only information recorded about each client is the identity of its outgoing message channel, about which more later.
 
+Click here to view code image
 
+type client chan<- string // an outgoing message channel var ( entering = make(chan client) leaving = make(chan client) messages = make(chan string) // all incoming client messages ) func broadcaster() { clients := make(map[client]bool) // all connected clients for { select { case msg := <-messages: // Broadcast incoming message to all // clients' outgoing message channels. for cli := range clients { cli <- msg } case cli := <-entering: clients[cli] = true case cli := <-leaving: delete(clients, cli) close(cli) } } }
 
+The broadcaster listens on the global entering and leaving channels for announcements of arriving and departing clients. When it receives one of these events, it updates the clients set, and if the event was a departure, it closes the client’s outgoing message channel. The broadcaster also listens for events on the global messages channel, to which each client sends all its incoming messages. When the broadcaster receives one of these events, it broadcasts the message to every connected client.
 
+Now let’s look at the per-client goroutines. The handleConn function creates a new outgoing message channel for its client and announces the arrival of this client to the broadcaster over the entering channel. Then it reads every line of text from the client, sending each line to the broadcaster over the global incoming message channel, prefixing each message with the identity of its sender. Once there is nothing more to read from the client, handleConn announces the departure of the client over the leaving channel and closes the connection.
 
-Command-Line History and Completion
+Click here to view code image
 
+func handleConn(conn net.Conn) { ch := make(chan string) // outgoing client messages go clientWriter(conn, ch) who := conn.RemoteAddr().String() ch <- "You are " + who messages <- who + " has arrived" entering <- ch input := bufio.NewScanner(conn) for input.Scan() { messages <- who + ": " + input.Text() } // NOTE: ignoring potential errors from input.Err() leaving <- ch messages <- who + " has left" conn.Close() } func clientWriter(conn net.Conn, ch <-chan string) { for msg := range ch { fmt.Fprintln(conn, msg) // NOTE: ignoring network errors } }
 
+In addition, handleConn creates a clientWriter goroutine for each client that receives messages broadcast to the client’s outgoing message channel and writes them to the client’s network connection. The client writer’s loop terminates when the broadcaster closes the channel after receiving a leaving notification.
 
+The display below shows the server in action with two clients in separate windows on the same computer, using netcat to chat:
 
+Click here to view code image
 
-Everything you type on the ex command line is saved in a buffer named Elvisexhistory. This is accessible like any other elvis buffer, but it is not directly useful when just viewed in a window.
+$ go build gopl.io/ch8/chat $ go build gopl.io/ch8/netcat3 $ ./chat & $ ./netcat3 You are 127.0.0.1:64208 $ ./netcat3 127.0.0.1:64211 has arrived You are 127.0.0.1:64211 Hi! 127.0.0.1:64208: Hi! 127.0.0.1:64208: Hi! Hi yourself. 127.0.0.1:64211: Hi yourself. 127.0.0.1:64211: Hi yourself. ^C 127.0.0.1:64208 has left $ ./netcat3 You are 127.0.0.1:64216 127.0.0.1:64216 has arrived Welcome. 127.0.0.1:64211: Welcome. 127.0.0.1:64211: Welcome. ^C 127.0.0.1:64211 has left
 
-To access the history, you use the arrow keys to display previous commands and to edit them. Use ↑ and ↓ to page through the list, and ← and → to move around on a command line. You can insert characters by typing, and you can erase them by backspacing over them. Much as when editing in a regular vi buffer, the backspace does remove the characters, but the line is not updated as you type, so be careful!
+While hosting a chat session for n clients, this program runs 2n+2 concurrently communicating goroutines, yet it needs no explicit locking operations (§9.2). The clients map is confined to a single goroutine, the broadcaster, so it cannot be accessed concurrently. The only variables that are shared by multiple goroutines are channels and instances of net.Conn, both of which are concurrency safe. We’ll talk more about confinement, concurrency safety, and the implications of sharing variables across goroutines in the next chapter.
 
-When entering text into the Elvis ex history buffer (i.e., on the colon command line), the TAB key can be used for filename expansion. The preceding word is assumed to be a partial filename, and elvis searches for all matching files. If there are multiple matches, it fills in as many characters of the name as possible, and then beeps; or, if no additional characters are implied by the matching filenames, elvis lists all matching names and redisplays the command line. If there is a single match, elvis completes the name and appends a tab character. If there are no matches, elvis simply inserts a tab character.
+Exercise 8.12: Make the broadcaster announce the current set of clients to each new arrival. This requires that the clients set and the entering and leaving channels record the client name too.
 
-To get a real tab character, precede it with a ^V. You can also disable filename completion entirely by setting the Elvis ex history buffer’s inputtab option to tab, via the following command:
+Exercise 8.13: Make the chat server disconnect idle clients, such as those that have sent no messages in the last five minutes. Hint: calling conn.Close() in another goroutine unblocks active Read calls such as the one done by input.Scan().
 
-:(Elvis ex history)set inputtab=tab
+Exercise 8.14: Change the chat server’s network protocol so that each client provides its name on entering. Use that name instead of the network address when prefixing each message with its sender’s identity.
 
-
-
-
-
-Tag Stacks
-
-
-
-
-
-Tag stacking is described earlier in the section Tag Stacks. In elvis, tag stacking is very straightforward, as shown in Tables 17-5 and 17-6.
-
-Table 17-5. elvis tag commands
-
-CommandFunction
-
-ta[g][!] [tagstring] Edit the file containing tagstring as defined in the tags file. The ! forces elvis to switch to the new file if the current buffer has been modified but not saved.
-
-
-
-stac[k] Display the current tag stack.
-
-
-
-po[p][!] Pop a cursor position off the stack, restoring the cursor to its previous position.
-
-
-
-
-
-Table 17-6. elvis command mode tag commands
-
-CommandFunction
-
-^] Look up the location of the identifier under the cursor in the tags file, and move to that location. The current location is automatically pushed onto the tag stack.
-
-
-
-^T Return to the previous location in the tag stack, i.e., pop off one element.
-
-
-
-
-
-Unlike traditional vi, when you type ^], elvis looks up the entire word containing the cursor, not just the part of the word from the cursor location forward.
-
-In HTML mode (discussed in the later section Display Modes), the commands all work the same, except that :tag expects to be given a URL instead of a tag name. URLs don’t depend on having a tags file, so the tags file is ignored when in HTML mode. elvis supports file:, http:, and ftp: URLs. It can also write via FTP. Simply give a URL wherever elvis expects a filename. To access your own account on an FTP site (instead of the anonymous account), the directory name portion of the URL must begin with /~. elvis will read your ~/.netrc file to find the right name and password. The html display mode makes good use of these features! (The network functions work in Windows and OS/2, too.)
-
-Several :set options affect how elvis works with tags, as described in Table 17-7.
-
-Table 17-7. elvis options for tag management
-
-OptionFunction
-
-taglength, tl Control the number of significant characters in a tag that is to be looked up. The default value of zero indicates that all characters are significant.
-
-
-
-tags, tagpath The value is a list of directories and/or filenames in which to look for tags files. elvis looks for a file named tags in any entry that is a directory. Entries in the list are colon-separated (or semicolon-separated on DOS/Windows), in order to allow spaces in directory names. The default value is just tags, which looks for a file named tags in the current directory. This can be overridden by setting the TAGPATH environment variable.
-
-
-
-tagstack When set to true, elvis stacks each location on the tag stack. Use :set notagstack to disable tag stacking.
-
-
-
-
-
-elvis supports the extended tags file format described in Chapter 8. elvis comes with its own version of ctags (named elvtags, to avoid conflict with the standard version). It generates the enhanced format described earlier. Here is an example of the special !_TAG_ lines it produces:
-
-!_TAG_FILE_FORMAT 2 /supported features/ !_TAG_FILE_SORTED 1 /0=unsorted, 1=sorted/ !_TAG_PROGRAM_AUTHOR Steve Kirkendall /kirkenda@cs.pdx.edu/ !_TAG_PROGRAM_NAME Elvis Ctags // !_TAG_PROGRAM_URL ftp://ftp.cs.pdx.edu/pub/elvis/README.html // !_TAG_PROGRAM_VERSION 2.1 //
-
-In elvis, each window has its own tag stack.
-
-In general, elvis does some innovative things with tags. When reading overloaded tags, it tries to guess which one you’re looking for and presents the most likely one first. If you reject it (by hitting ^] again, or typing :tag again), it then presents you with the next most likely match, and so on. It also notes the attributes of the tags that you reject or accept and uses those to improve its guessing heuristic for later searches.
-
-The :tag command’s syntax has been extended to allow you to search for tags by features other than just the tag name. There are too many details to go into here; see the chapter in the online help that describes the use of tags.
-
-There is also a :browse command, which finds all matching tags at once and builds an HTML table from them. From this table, you can follow hypertext links to any matching tags you want.
-
-Finally, there is the tagprg option, which, if set, discards the built-in tag searching algorithm and instead runs an external program to perform the search.
-
-
-
-
-
-Infinite Undo
-
-
-
-
-
-With elvis, before being able to undo and redo multiple levels of changes, you must first set the undolevels option to the number of levels of “undo” that elvis should allow. A negative value disallows any undoing (which is not terribly useful). The elvis documentation warns that each level of undo uses around 6K bytes of the session file (the file that describes your editing session), and thus can eat up disk space rather quickly. It recommends not setting undolevels any higher than 100 and “probably much lower.”
-
-Once you’ve set undolevels to a nonzero value, you enter text as normal. Then, each successive u command undoes one change. To redo (undo the undo), you use the (rather mnemonic) ^R (Ctrl-R) command.
-
-In elvis, the default value of undolevels is zero, which causes elvis to mimic Unix vi. The option applies per buffer being edited; see the earlier section Initialization Steps for a description of how to set it for every file that you edit.
-
-Once undolevels has been set, adding a count to either the u or ^R commands undoes or redoes the given number of changes.
-
-
-
-
-
-Arbitrary Length Lines and Binary Data
-
-
-
-
-
-elvis can edit files with arbitrary length lines and with an arbitrary number of lines.
-
-Under Unix, elvis does not treat a binary file differently from any other file. On other systems, it uses the elvis.brf file to set the binary option. This avoids newline translation issues. You can enter 8-bit text by typing ^X followed by two hexadecimal digits. Using the hex display mode is an excellent way to edit binary files. The elvis.brf file and the hex display mode are described in the later section Interesting Features.
-
-
-
-
-
-Left-Right Scrolling
-
-
-
-
-
-You enable left-right scrolling in elvis using :set nowrap. The value of sidescroll controls the number of characters by which elvis shifts the screen when scrolling left to right. The ^W S command toggles the value of this option.
-
-
-
-
-
-Visual Mode
-
-
-
-
-
-elvis allows you to select regions one character at a time, one line at a time, or rectangularly, using the commands shown in Table 17-8.
-
-Table 17-8. elvis block mode command characters
-
-CommandFunction
-
-v Start region selection, character-at-a-time mode.
-
-
-
-V Start region selection, line-at-a-time mode.
-
-
-
-^V Start region selection, rectangular mode.
-
-
-
-
-
-elvis highlights the text (using reverse video) as you are selecting it. To make your selection, simply use the normal motion keys. The screen here shows a rectangular region:
-
-The 6th edition of <citetitle>Learning the vi Editor</citetitle> brings thebook into the late 1990&rsquo;s. In particular, besides the &ldquo;original&rdquo; version of <command>vi</command> that comes as a standard part of every Unix system, there are now a number of freely available &ldquo;clones&rdquo; or work-alike editors.
-
-elvis permits only a few operations on selected areas of text. Some operations work only on whole lines, even if you’ve selected a region that does not contain whole lines (see Table 17-9).
-
-Table 17-9. elvis block mode operations
-
-CommandOperation
-
-c, d, y Change, delete, or yank text. Only d works exactly on rectangles.
-
-
-
-<, >, ! Shift text left or right, and filter text. These operate on the whole lines containing the marked region.
-
-
-
-
-
-After using the d command to delete the region, the screen now looks like this:
-
-The 6th edition of <citetitle>Learning the vi Editor</citetitle>brings the 90&rsquo;s. In particulo;original&rdquo; version of <command>vi as a standard part of every system, there are n available &ldquo;clones&rdquo; or work-alike editors.
-
-
-
-
-
-Programming Assistance
-
-
-
-
-
-elvis’s programming assistance capabilities are described in this section.
-
-
-
-
-
-Edit-Compile Speedup
-
-
-
-
-
-elvis provides commands that make it easier to stay within the editor while working on a program. You can recompile a single file, rebuild your entire program, and work through compiler errors one at a time. The elvis commands are summarized in Table 17-10.
-
-Table 17-10. elvis program development commands
-
-CommandOptionFunction
-
-cc[!] [args] ccprg Run the C compiler. Useful for recompiling an individual file.
-
-
-
-mak[e][!] [args] makeprg Recompile everything that needs recompiling (usually via make).
-
-
-
-er[rlist][!] [file] Move to the next error’s location.
-
-
-
-
-
-The cc command recompiles an individual source file. You run it from the colon command line. For example, if you are editing the file hello.c and you type :cc, elvis will compile hello.c for you.
-
-If you supply additional arguments to the :cc command, those arguments will be passed on to the C compiler. In this case, you need to supply all the arguments, including the filename.
-
-The :cc command works by executing the text of the ccprg option. The default value is "cc ($1?$1:$2)". elvis sets $2 to the name of the current source file, and $1 to the arguments you give to the :cc command. The value of ccprg thus uses your arguments if they are present; otherwise, it just passes the current file’s name to the system cc command. (You can, of course, change ccprg to suit your taste.)
-
-Similarly, the :make command is intended to recompile everything that needs recompiling. It does this by executing the contents of the makeprg option, which by default is "make $1". Thus, you could type :make hello to make just the hello program, or just :make to make everything.
-
-elvis captures the output of the compile or make and looks for things that look like filenames and line numbers. When it finds likely candidates, it treats them as such and moves to the location of the first error. The :errlist command moves to each successive error location in turn. elvis displays the error message text in the status line as you move to each location.
-
-If you supply a filename argument to :errlist, elvis will load a fresh batch of error messages from that file, and move to the location of the first error.
-
-The vi mode command * (asterisk) is equivalent to :errlist. This is more convenient to use when you have a lot of errors to step through.
-
-Finally, one really nice feature is that elvis compensates for changes in the file. As you add or delete lines, elvis keeps track, so that when you go to the next error, you end up on the correct line—which is not necessarily the one with the same absolute line number as in the compiler’s error message.
-
-
-
-
-
-Syntax Highlighting
-
-
-
-
-
-To cause elvis to do syntax highlighting, use the :display syntax command. This is a per-window command. (The other elvis display modes are described in Display Modes.)
-
-You specify the appearance of text directly, using the :color command. You first give the type of text to highlight. For example, in the syntax display mode, some of the possibilities are:
-
-comment
-
-How to display comments
-
-
-
-function
-
-How to display identifiers that are function names
-
-
-
-keyword
-
-How to display identifiers that are keywords
-
-
-
-prep
-
-How to display C and C++ preprocessor directives
-
-
-
-string
-
-How to display string constants (such as "Don't panic!" in awk)
-
-
-
-variable
-
-How to display for variables, fields, and so on
-
-
-
-other
-
-How to display things that don’t fall into the other categories but that should not be displayed in the normal font (e.g., type names defined with the C typedefkeyword)
-
-
-
-
-
-Next, you indicate the font face, one of normal, bold, italic, underlined, emphasized, boxed, graphic, proportional, or fixed. (These can be abbreviated to a single letter.) You can then follow the face with a color. For example:
-
-:color function bold yellow
-
-The description of each language’s comments, functions, keywords, etc., is stored in the elvis.syn file. This file comes with a number of specifications in it already. As an example, here is the syntax specification for awk:
-
-# Awk. This is actually for Thompson Automation's AWK compiler, which is # somewhat beefier than the standard AWK interpreter. language tawk awk extension .awk keyword BEGIN BEGINFILE END ENDFILE INIT break continue do else for function keyword global if in local next return while comment # function ( string " regexp / useregexp (,~ other allcaps
-
-The format is mostly self-explanatory and is fully documented in the elvis online documentation.
-
-The reason elvis associates fonts and colors with different parts of a file’s syntax is its ability to print files as they’re shown on the screen (see the discussion of the :lpr command in the later section Display Modes).
-
-On a nonbitmapped display, such as the Linux console, all of the fonts map into the one used by the console driver. This makes it rather difficult to distinguish normal from italic, for example. However, on some displays (such as the Linux console), elvis compensates by changing the color of the different fonts. If you have a GNU/Linux system with elvis, use it to edit a convenient C source file and you will see different parts of the code in different colors. The effect is rather pleasant; we regret that we can’t reproduce it here in print.
-
-In elvis, the syntax colors are per-window attributes. You can change the color for the italic font in one window, and it will not affect the color for the italic font in another window. This is true even if both windows are showing the same file.
-
-Syntax coloring makes program editing much more interesting and lively. But you have to be careful in your choice of colors!
-
-
-
-
-
-Interesting Features
-
-
-
-
-
-elvis has a number of interesting features:
-
-Internationalization support
-
-Like nvi, elvis also has a home-grown method for allowing translations of messages into different languages. The elvis.msg file is searched for along the elvispath and loaded into a buffer named Elvis messages.
-
-Messages have the form “terse message:long message.” Before printing a message, elvis looks up the terse form, and if there is a corresponding long form, that message is used. Otherwise, the terse message is used.
-
-
-
-Display modes
-
-This is perhaps the most interesting of elvis’s features. For certain kinds of files, elvis formats the file content on the screen, giving a surprisingly good approximation of a WYSIWYG effect. elvis can also use the same formatting for printing the buffer to several kinds of printers. Display modes get their own subsection later in this chapter.
-
-
-
-Pre- and post-operation command files
-
-elvis loads four files (if they exist) that allow you to customize its behavior before and after reading and writing a file. This feature also gets its own subsection, later.
-
-
-
-Open mode
-
-elvis is the only one of the clones that actually implements vi’s open mode. (Think of open mode as like vi, but with only a one-line window. The “advantage” of open mode is that it can be used on terminals that don’t have cursor motion capabilities.)
-
-
-
-Security
-
-The :safely command sets the security option for execution of non-home-directory.exrc files, or any other untrusted files. When security=safer is set, “certain commands are disabled, wildcard expansion in filenames is disabled, and certain options are locked (including the security option itself).” The elvisdocumentation provides the details; however, don’t blindly trust elvis to provide complete security for you.
-
-
-
-Built-in calculator
-
-elvis extends the ex command language with a built-in calculator (sometimes referred to as an expression evaluator in the documentation). It understands C expression syntax, and is most used in the :if, :calc, and :eval commands. See the online help for details, as well as examples in the elvis distribution’s sample initialization files.
-
-
-
-Macro debugger
-
-elvis has a debugger for vi macros (the :map command). This can be useful when writing complicated input or command maps.
-
-
-
-Macros for ex mode
-
-The :alias command provides for defining ex macros. It is intended to resemble the alias command in csh. For example, there is a :safer alias for the :safely command, which provides backward compatibility with earlier versions of elvis.
-
-
-
-Smarter % command
-
-The visual % command has been extended to recognize #if, #else, and #endif directives if you’re using the syntax display mode.
-
-
-
-Built-in spellchecker
-
-In syntax display mode, the spellchecker is smart enough to check the tags file for program symbols and a natural-language dictionary for comments. See :help set spell.
-
-
-
-Text folding
-
-Text folding allows you to hide and reveal certain parts of a file, which is useful for working with structured text. See :help :fold.
-
-
-
-Highlighting selected lines
-
-Steve tells us: “elvis can add a highlight to selected lines. See :help :region. For example, the commands :load since and then :rcssince will highlight lines that have been changed since the last time the file was checked into RCS.”
-
-
-
-
-
-Display Modes
-
-
-
-
-
-elvis has several display modes. Depending on the kind of file, elvis produces a formatted version of the file, producing a WYSIWYG effect. The display modes are outlined in Table 17-11.
-
-Table 17-11. elvis display modes
-
-ModeDisplay appearance
-
-normal No formatting; displays your text as it exists in the file.
-
-
-
-syntax Like normal, but with syntax coloring turned on.
-
-
-
-hex An interactive hex dump, reminiscent of mainframe hex dumps. Good for editing binary files.
-
-
-
-html A simple web page formatter. The tag commands can be used to follow links and return to the original starting point.
-
-
-
-man Simple manpage formatter. Like the output of nroff -man.
-
-
-
-tex A simple subset of the TeX formatter.
-
-
-
-
-
-The :normal command will switch the display from one of the formatted views to normal mode. Use :displaymode to switch back. As a shortcut, the ^W d command will toggle the display modes for the window.
-
-Of the available modes, html and man are the most WYSIWYG in nature. The online documentation clearly defines the subset of both markup languages that elvis understands.
-
-elvis uses the html mode for displaying its online help, which is written in HTML and has many cross-referencing links within it.
-
-The example here shows elvis editing one of the HTML help files. The screen is split. Both windows show the same buffer; the bottom window is using the html display mode, whereas the top is using the normal display mode:
-
-<html><head> <title>Elvis 2.0 Sessions</title> </head><body> <h1>10. SESSIONS, INITIALIZATION, AND RECOVERY</h1> This section of the manual describes the life-cycle of an edit session. We begin with the definition of an <a href="#SESSION">edit session</a> and what that means to elvis. This is followed by sections discussing <a href="#INIT">initialization</a> and <a href="#RECOVER">recovery after a crash.</a> _____________________________________________________________________10.0 SESSIONS, INITIALIZATION, AND RECOVERY This section of the manual describes the life-cycle of an edit session. We begin with the definition of an edit session and what that means to elvis. This is followed by sections discussing initialization andrecovery after a crash.10.1 Sessions
-
-The man mode is also interesting, since normally you have to format and print a manpage to be sure you’ve done a decent job of laying it out. The following quote from the online help seems appropriate:
-
-Troff source was never designed to be interactively edited, and although I did the best I could, attempting to edit in man mode is still a disorienting experience. I suggest you get in the habit of using normal mode when making changes, and man mode to preview the effect of those changes. The ^W d command makes switching between modes a pretty easy thing to do.
-
-
-
-
-
-As an interesting adjunct, both the html and man modes also work with the :color command described later in Syntax Highlighting. This is particularly nice with man mode. For example, by default on a Linux console, only bold text (.B) is distinguishable from normal text. But with syntax coloring on, both bold and italic (.I) text become distinct. The mode commands are summarized in Table 17-12.
-
-Table 17-12. elvis display mode commands
-
-CommandFunction
-
-di[splay] [mode [lang]] Change the display mode to mode. Use lang for syntax mode.
-
-
-
-no[rmal] Same as :display normal, but much easier to type.
-
-
-
-
-
-Associated with each window is the bufdisplay option, which should be set to one of the supported display modes. The standard elvis.arf file (see the next subsection) will look at the extension of the buffer’s filename and attempt to set the display to a more interesting mode than normal.
-
-Finally, elvis can also apply its WYSIWYG formatting to printing the contents of a buffer. The :lpr command formats a line range (or the whole buffer, by default) for printing. You can print to a file or down a pipe to a command. By default, elvis prints to a pipe that executes the system print spooling command.
-
-The :lpr command is controlled by several options, described in Table 17-13.
-
-Table 17-13. elvis options for print management
-
-OptionFunction
-
-lptype, lp The printer type.
-
-
-
-lpconvert, lpcvt If set, convert Latin-8 extended ASCII to PC-8 extended ASCII.
-
-
-
-lpcrlf, lpc The printer needs CR/LF to end each line.
-
-
-
-lpout, lpo The file or command to print to.
-
-
-
-lpcolumns, lpcols The printer’s width.
-
-
-
-lpwrap, lpw Simulate line wrapping.
-
-
-
-lplines, lprows The length of the printer’s page.
-
-
-
-lpformfeed, lpff Send a form feed after the last page.
-
-
-
-lpoptions, lpopt Control of various printer features. This matters only for PostScript printers.
-
-
-
-lpcolor, lpcl Enables color printing for PostScript and MS Windows printers.
-
-
-
-lpcontrast, lpct Controls shading and contrast; for use with the lpcolor option.
-
-
-
-
-
-Most of the options are self-explanatory. elvis supports several printer types, as described in Table 17-14.
-
-Table 17-14. Values for the lptype option
-
-NamePrinter Type
-
-ps PostScript, one logical page per sheet of paper.
-
-
-
-ps2 PostScript, two logical pages per sheet of paper.
-
-
-
-epson Most dot-matrix printers; no graphic characters supported.
-
-
-
-pana Panasonic dot-matrix printers.
-
-
-
-ibm Dot-matrix printers with IBM graphic characters.
-
-
-
-hp Hewlett-Packard printers, and most non-PostScript laser printers.
-
-
-
-cr Line printers; overtyping is done with carriage return.
-
-
-
-bs Overtyping is done via backspace characters. This setting is the closest to traditional Unix nroff.
-
-
-
-dumb Plain ASCII, no font control.
-
-
-
-
-
-If you have a PostScript printer, by all means use an lptype of ps or ps2. Use the latter to save paper, which is particularly handy when printing drafts.
-
-
-
-
-
-Pre- and Post-Operation Control Files
-
-
-
-
-
-elvis gives you the ability to control its actions at four points when reading and writing files: before and after reading a file, and before and after writing a file. It does this by executing the contents of four ex scripts at those respective points. These scripts are searched for using the directories listed in the elvispath option:
-
-elvis.brf
-
-This file is executed Before Reading a File (.brf). The default version looks at the file’s extension and attempts to guess whether the file is binary. If it is, the binary option is turned on, to prevent elvis from converting newlines (which may be actual CR/LF pairs in the file) into line feeds internally.
-
-
-
-elvis.arf
-
-This file is executed After Reading a File (.arf). The default version examines the file’s extension in order to turn on syntax highlighting.
-
-
-
-elvis.bwf
-
-This file is executed Before Writing a File (.bwf), in particular, before completely replacing an original file with the contents of the buffer. The default version implements copying the original file to a file with a .bak extension. You must set the backup option for this to work.
-
-
-
-elvis.awf
-
-This file is executed After Writing a File (.awf). There is no default file for this, although it might be a good place to add hooks into a source code control system.
-
-
-
-
-
-The use of command files to control these actions is quite powerful. It allows you to easily tailor elvis’s behavior to suit your needs; in other editors these kinds of features are much more hardwired into the code.
-
-In addition, elvis supports Vim-style autocommands with :autocmd. See the online help for details.
-
-
-
-
-
-elvis Futures
-
-
-
-
-
-Steve Kirkendall informs us that there are a few things he has implemented but not yet released, as described in the following list:
-
-An interface to the GDB (GNU debugger) for use in software development
-
-
-
-A persistence feature similar to Vim’s viminfo file
-
-
-
-The ability to embed one syntax within another, such as JavaScript embedded in HTML
-
-
-
-
-
-Sources and Supported Operating Systems
-
-
-
-
-
-The official WWW location for elvis is ftp://ftp.cs.pdx.edu/pub/elvis/README.html. From there, you can download the elvis distribution or get it directly, using ftp from ftp://ftp.cs.pdx.edu/pub/elvis/elvis-2.2_0.tar.gz.
-
-The source code for elvis is freely distributable. elvis is distributed under the terms of perl’s Artistic License. The licensing terms are described in the doc/license.html file in the distribution.
-
-elvis works under Unix, OS/2, MS-DOS, and modern versions of MS Windows. The Unix and Windows ports provide a graphical user interface. The MS-DOS version includes mouse support.
-
-Compiling elvis is straightforward. Retrieve the distribution via ftp or via a web browser. Uncompress and untar it,[57] run the configure program, and then run make:
-
-$gzip -d < elvis-2.2_0.tar.gz | tar -xvpf - ... $ cd elvis-2.2_0; ./configure ... $ make ...
-
-elvis should configure and build with no problems. Use make install to install it.
-
-
-
-
-
-Note
-
-
-The default configuration causes elvis to install itself in standard system directories, such as /usr/bin, /usr/share, and so on. If you wish to have things installed in /usr/local, use the --prefix option to the configure script.
-
-
-
-Should you need to report a bug or problem in elvis, the person to contact is Steve Kirkendall at kirkenda@cs.pdx.edu.
-
-
-
-
-
-* * *
-
-
-
-[57] The untar.c program available from the elvis ftp site is a very portable, simple program for unpacking gziped tar files on non-Unix systems.
-
-
-
-
-
+Exercise 8.15: Failure of any client program to read data in a timely manner ultimately causes all clients to get stuck. Modify the broadcaster to skip a message rather than wait if a client writer is not ready to accept it. Alternatively, add buffering to each client’s outgoing message channel so that most messages are not dropped; the broadcaster should use a non-blocking send to this channel.
