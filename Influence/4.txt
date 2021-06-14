@@ -1,0 +1,828 @@
+Chapter 4
+
+
+Social Proof
+
+
+Truths Are Us
+
+When people are free to do as they please, they usually imitate one another.
+
+—Eric Hoffer
+
+
+A few years ago, the managers of a chain of restaurants in Beijing, China, partnered with researchers to accomplish something decidedly profitable—increasing the purchase of certain menu items in a way that was effective yet costless. They wanted to see if they could get customers to choose them more frequently without lowering the items’ prices or using more expensive ingredients or hiring a chef who had more experience with the dishes or paying a consultant to write more enticing descriptions of them on the menu. They wanted to see if, instead, they could just give the dishes a label that would do the trick. Although they found a label that worked particularly well, they were surprised it wasn’t one they’d thought to use previously for this purpose, such as “Specialty of the house” or “Our chef’s recommendation for tonight.” Rather, the label merely described the menu items as the restaurant’s “most popular.”
+
+The outcome was impressive. Sales of each dish jumped by an average of 13 to 20 percent. Quite simply, the dishes became more popular because of their popularity. Notably, the increase occurred through a persuasive practice that was costless, completely ethical (the items were indeed the most popular), easy to implement, and yet never before employed by the managers. Something similar happened in London when a local brewery with a pub on its premises agreed to try an experiment. The pub placed a sign on the bar stating, truthfully, that the brewery’s most popular beer that week was its porter. Porter sales doubled immediately. Click, run.
+
+Results such as these make me wonder why other retailers don’t provide similar information. In ice-cream or frozen-yogurt shops, customers can often choose from an array of toppings for their order—chocolate bits or coconut flakes or cookie crumbles, and so on. Owing to the pull of the popular, you’d think managers would know to post signs describing the most frequently chosen topping or topping combination that month. But, they don’t. Too bad for them. Especially for customers who wouldn’t order a topping or who would order just one, true popularity information should result in more selections. For example, many McDonald’s restaurants offer a “McFlurry” dessert. When customers in one set of McDonald’s were told, “How about a dessert? The McFlurry is our visitors’ favorite,” McFlurry sales jumped 55 percent. Then, after a customer ordered a McFlurry, if the clerk said, “The [x] flavor is our visitors’ favorite McFlurry topping,” customers increased their extra topping purchases by an additional 48 percent.
+
+
+
+* * *
+
+
+
+
+
+EBOX 4.1
+
+Although not all retailers understand how to harness popularity profitably, media giant Netflix learned that lesson from its own data and began operating on it immediately. According to technology and entertainment reporter Nicole LaPorte (2018), the company had “long prided itself on being highly secretive about things like watch-time and ratings, gleefully reveling in the fact that because Netflix doesn’t have to answer to advertisers, it doesn’t need to reveal any numbers.” But in an unexpected 2018 policy reversal, it began off-loading reams of information about its most successful offerings. As LaPorte put it, “In its letter to shareholders, Netflix rattled off titles and how many people had streamed them in a way that felt like a drunken sailor had taken over the normally heavily fortified battleship and was spilling trade secrets.”
+
+Why? By then, company officials had seen that popularity precipitates popularity. Chief Product Officer Greg Peters disclosed the results of internal tests in which Netflix members who were told which shows were popular, then made them more so. Other company executives were quick on the uptake. Content head Ted Sarandros declared that going forward, Netflix would be more forthcoming “about what people are watching around the world.” Chairman and CEO Reed Hastings affirmed this promise, stating, “We’re just beginning to share that data. We’ll be leaning into that more quarter by quarter.”
+
+
+Author’s note: These statements from Netflix executives tell us there are no dummies in leadership there. But one additional statement by Sarandros was most impressive to me: “Popularity is a data point that people can choose to use . . . We don’t want to suppress it if it’s helpful to members.” The key insight is that suppressing true popularity, as the company had done in the past, was unhelpful not only to its immediate profits but also to its subscribers’ prudent choices and resultant satisfaction—and, therefore, to the company’s long-term profits.
+
+
+
+* * *
+
+
+
+
+
+Social Proof
+
+
+To discover why popularity is so effective, we need to understand the nature of yet another potent lever of influence: the principle of social proof. This principle states that we determine what is correct by finding out what other people think is correct. Importantly, the principle applies to the way we decide what constitutes correct behavior. We view an action as correct in a given situation to the degree that we see others performing it. As a result, advertisers love to inform us when a product is the “fastest growing” or “largest selling” because they don’t have to convince us directly that their product is good; they need only show that many others think so, which often seems proof enough.
+
+The tendency to see an action as appropriate when others are doing it works quite well normally. As a rule, we make fewer mistakes by acting in accord with social evidence than by acting contrary to it. Usually, when a lot of people are doing something, it is the right thing to do. This feature of the principle of social proof is simultaneously its major strength and major weakness. Like the other levers of influence, it provides a convenient shortcut for determining the way to behave, but at the same time, it makes one who uses the shortcut vulnerable to the attacks of profiteers who lie in wait along its path.
+
+The problem comes when we begin responding to social proof in such a mindless and reflexive fashion we can be fooled by partial or fake evidence. Our folly is not that we use others’ behavior to help decide what to do in a situation; that is in keeping with the well-founded principle of social proof. The folly occurs when we do so automatically in response to counterfeit evidence provided by profiteers. Examples are plentiful. Certain nightclub owners manufacture a brand of visible social proof for their clubs’ quality by creating long waiting lines outside when there is plenty of room inside. Salespeople are taught to spice their pitches with invented accounts of numerous individuals who have purchased the product. Bartenders often salt their tip jars with a few dollar bills at the beginning of an evening to simulate tips left by prior customers. Church ushers sometimes salt collection baskets for the same reason and with the same positive effect on proceeds. Evangelical preachers are known to seed their audience with ringers, who are rehearsed to come forward at a specified time to give witness and donations. And, of course, product-rating websites are regularly infected with glowing reviews that manufacturers have faked or paid people to submit.1
+
+
+
+
+
+People Power
+
+
+Why are these profiteers so ready to use social proof for profit? They know our tendency to assume an action is more correct if others are doing it operates forcefully in a wide variety of settings. Sales and motivation consultant Cavett Robert captured the principle nicely in his advice to sales trainees: “Since 95 percent of the people are imitators and only 5 percent initiators, people are persuaded more by the actions of others than by any proof we can offer.” Evidence that we should believe him is everywhere. Let’s examine a small sample of it.
+
+Morality: In one study, after being told that the majority of their peers favored the use of torture in interrogations, 80 percent of college students saw the practice as more morally acceptable. Criminality: Drinking and driving, parking in handicapped zones, retail theft, and hit-and-run violations (leaving the scene of a caused auto accident) become more likely if possible perpetrators believe the behavior is performed frequently by others. Problematic personal behavior: Men and women who believe that violence against an intimate partner is prevalent are more likely to engage in such violence themselves at a later time. Healthy eating: After learning that the majority of their peers try to eat fruit to be healthy, Dutch high school students increased fruit consumption by 35 percent—even though, in typical adolescent fashion, they had claimed no intention to change upon receiving the information. Online purchases: Although product testimonials are not new, the internet has changed the game by giving prospective customers ready access to the product ratings of numerous prior users; as a result, 98 percent of online shoppers say authentic customer reviews are the most important factor influencing their purchase decisions. Paying bills: When the city of Louisville, Kentucky, sent parking-ticket recipients a letter stating that the majority of such citations are paid within two weeks, payments increased by 130 percent, more than doubling parking-ticket revenue to the city. Science-based recommendations: During the COVID-19 outbreak of 2020, researchers examined the reasons Japanese citizens employed to decide how often to wear face masks, as urged by the country’s health scientists; although multiple reasons were measured—such as perceived severity of the disease, likelihood mask-wearing would protect oneself from infection, likelihood mask-wearing would protect others from infection—only one made a major difference in mask-wearing frequency: seeing other people wearing masks. Environmental action: Observers who perceive that many others are acting to preserve or protect the environment by recycling or conserving energy or saving water in their homes then act similarly.
+
+In the arena of environmental action, social proof works on organizations too. Many governments expend significant resources regulating, monitoring, and sanctioning companies that pollute our air and water; these expenditures often appear wasted on some of the offenders who either flout the regulations altogether or are willing to pay fines that are smaller than the expense of compliance. But certain nations have developed cost-effective programs that work by firing up the (nonpolluting) engine of social proof. They initially rate the environmental performance of polluting firms within an industry and then publicize the ratings so all companies in that industry can see where they stand relative to their peers. The improvements have been dramatic—upwards of 30 percent—almost all of which have come from changes made by the relatively heavy polluters, who recognized how poorly they’d been doing compared with their contemporaries.
+
+Researchers have also found that procedures based in social proof can work early in life—sometimes with astounding results. One psychologist in particular, Albert Bandura, led the way in developing such procedures to eliminate undesirable behavior. Bandura and his colleagues have shown how people suffering from phobias can be rid of these extreme fears in an amazingly simple fashion. For instance, in an initial study, nursery-school-aged children, chosen because they were terrified of dogs, merely watched a little boy playing happily with a dog for twenty minutes a day. This exhibition produced such marked changes in the reactions of the fearful children that after only four days, 67 percent of them were willing to climb into a playpen with a dog and remain confined there petting and scratching the dog while everyone else left the room. Moreover, when the researchers tested the children’s fear levels again, one month later, they found the improvement had not diminished during that time; in fact, the children were more willing than ever to interact with dogs.
+
+An important practical discovery was made in a second study of children who were exceptionally afraid of dogs: To reduce the children’s fears, it was not necessary to provide live demonstrations of another child playing with a dog; film clips had the same impact. Tellingly, the most effective clips were those depicting multiple other children interacting with their dogs. The principle of social proof works best when the proof is provided by the actions of many other people. We’ll have more to say shortly about the amplifying role of “the many.”2
+
+
+
+* * *
+
+
+
+
+
+READER’S REPORT 4.1
+
+From the director of recruitment and training at a Toyota dealership in Tulsa, Oklahoma
+
+I work for the largest automotive retailer in Oklahoma. One of the biggest challenges we face is getting quality sales talent. We had seen poor return on our newspaper ads. So we decided to run our recruitment ads on radio during the after-work drive time. We ran an ad that focused on the great demand for our vehicles, how many people were buying them, and, consequently, how we needed to expand our sales force to keep up. As we hoped, we saw a significant jump in the number of applications to join our sales team.
+
+But, the biggest effect we saw was an increase in customer floor traffic, an increase in sales in both the new and used vehicle departments, and a noticeable difference in the attitudes of our customers. The wildest thing was that the total number of sales increased by 41.7 percent over the previous January!!! We did almost one-and-a-half times the amount of business as the year before in an automotive market that was down by 4.4 percent. Of course, there could be other reasons for our success, such as a management change and a facilities update. But, still, whenever we run recruitment ads saying we need help to keep up with the demand for our vehicles, we see a significant increase in vehicle sales in those months.
+
+
+Author’s note: So a reference to large consumer demand greatly affected customer attitude and actions toward the dealership’s cars and trucks. This is consistent with what we have already described in this chapter. But there’s something we haven’t yet described that helps account for the outsized effects the dealership witnessed. The high-demand information was “slipped into” an ad to recruit salespeople. Its notable success fits with evidence that people are more likely to be persuaded by information, including social-proof information, when they think it is not intended to persuade them (Bergquist, Nilsson, & Schultz, 2019; Howe, Carr, & Walton, in press). I am sure that, if the dealership’s ad had made a direct appeal for purchases—declaring, “People are buying our vehicles like crazy! Come get yours”—it would have been less effective.
+
+
+
+* * *
+
+
+
+
+
+After the Deluge
+
+
+When it comes to illustrating the strength of social proof, one example is far and away my favorite. Several features account for its appeal: it offers a superb instance of the underused method of participant observation, in which a scientist studies a process by becoming immersed in its natural occurrence; it provides information of interest to such diverse groups as historians, psychologists, and theologians; and, most important, it shows how social evidence can be used on us—not by others but by ourselves—to assure us that what we prefer to be true will seem to be true.
+
+The story is an old one, requiring an examination of ancient data, for the past is dotted with end-of-the-world religious movements. Various sects and cults have prophesied that on a particular date there would arrive a period of redemption and great happiness for those who believed in the group’s teachings. In each case, it has been predicted that the beginning of a time of salvation would be marked by an important and undeniable event, usually the cataclysmic end of the world. Of course, these predictions have invariably proved false, to the acute dismay of the members of such groups.
+
+However, immediately following the obvious failure of the prophecy, history records an enigmatic pattern. Rather than disbanding in disillusion, the cultists often become strengthened in their convictions. Risking the ridicule of the populace, they take to the streets, publicly asserting their dogma and seeking converts with a fervor that is intensified, not diminished, by the clear disconfirmation of a central belief. So it was with the Montanists of second-century Turkey, with the Anabaptists of sixteenth-century Holland, with the Sabbataists of seventeenth-century Izmir, and with the Millerites of nineteenth-century America. And, thought a trio of interested social scientists, so it might be with a doomsday cult based in twentieth-century Chicago. The scientists—Leon Festinger, Henry Riecken, and Stanley Schachter—who were then colleagues at the University of Minnesota, heard about the Chicago group and felt it worthy of close study. Their decision to investigate by joining the group, incognito, as new believers and by placing additional paid observers among its ranks resulted in a remarkably rich firsthand account of the goings-on before and after the day of predicted catastrophe, which they provided in their eminently readable book When Prophesy Fails.
+
+The cult of believers was small, never numbering more than thirty members. Its leaders were a middle-aged man and woman, whom, for purposes of publication, the researchers renamed Dr. Thomas Armstrong and Mrs. Marian Keech. Dr. Armstrong, a physician on the staff of a college’s student-health service, had a long-held interest in mysticism, the occult, and flying saucers; as such, he served as a respected authority on these subjects for the group. Mrs. Keech, though, was the center of attention and activity. Earlier in the year, she had begun to receive messages from spiritual beings, whom she called the Guardians, located on other planets. It was these messages, flowing through Marian Keech’s hand via the device of “automatic writing,” that formed the bulk of the cult’s religious belief system. The teachings of the Guardians were a collection of New Age concepts, loosely linked to traditional Christian thought. It was as if the Guardians had read a copy of the Bible while visiting Northern California.
+
+The transmissions from the Guardians, always the subject of much discussion and interpretation among the group, gained new significance when they began to foretell a great impending disaster—a flood that would begin in the Western Hemisphere and eventually engulf the world. Although the cultists were understandably alarmed at first, further messages assured them they, and all those who believed in the lessons sent through Mrs. Keech, would survive. Before the calamity, spacemen were to arrive and carry off the believers in flying saucers to a place of safety, presumably on another planet. Little detail was provided about the rescue except that the believers were to ready themselves for pickup by rehearsing certain passwords to be exchanged (“I left my hat at home.” “What is your question?” “I am my own porter.”) and by removing all metal from their clothes—because the wearing of metal made saucer travel “extremely dangerous.”
+
+As the researchers observed the preparations during the weeks prior to the flood date, they noted with special interest two significant aspects of the members’ behavior. First, the level of commitment to the cult’s belief system was very high. In anticipation of their departure from doomed Earth, irrevocable steps were taken by the group members. Most incurred the opposition of family and friends to their beliefs but persisted, nonetheless, in their convictions, often when it meant losing the affections of these others. Several members were threatened by neighbors or family with legal actions designed to have them declared insane. Dr. Armstrong’s sister filed a motion to have his two younger children removed from his custody. Many believers quit their jobs or neglected their studies to devote all their time to the movement. Some gave or threw away their personal belongings, expecting them shortly to be of no use. These were people whose certainty they had the truth allowed them to withstand enormous social, economic, and legal pressures and whose commitment to their dogma grew as they resisted each pressure.
+
+The second significant aspect of the believers’ preflood actions was a curious form of inaction. For individuals so clearly convinced of the validity of their creed, they did surprisingly little to spread the word. Although they initially publicized the news of the coming disaster, they made no attempt to seek converts, to proselytize actively. They were willing to sound the alarm and to counsel those who voluntarily responded to it, but that was all.
+
+The group’s distaste for recruitment efforts was evident in various ways besides the lack of personal persuasion attempts. Secrecy was maintained in many matters—extra copies of the lessons were burned, passwords and secret signs were instituted, the contents of certain private tape recordings were not to be discussed with outsiders (so secret were the tapes that even longtime believers were prohibited from taking notes on them). Publicity was avoided. As the day of disaster approached, increasing numbers of newspaper, TV, and radio reporters converged on the group’s headquarters in Marian Keech’s house. For the most part, these people were turned away or ignored. The most frequent answer to their questions was, “No comment.”
+
+Although discouraged for a time, the media representatives returned with a vengeance when Dr. Armstrong’s religious activities caused him to be fired from his post on the college health-service staff; one especially persistent newsman had to be threatened with a lawsuit. A similar siege was repelled on the eve of the flood when a swarm of reporters pushed and pestered the believers for information. Afterward, the researchers summarized the group’s preflood stance on public exposure and recruitment in respectful tones: “Exposed to a tremendous burst of publicity, they had made every attempt to dodge fame; given dozens of opportunities to proselyte, they had remained evasive and secretive and behaved with an almost superior indifference.”
+
+Eventually, when all the reporters and would-be converts had been cleared from the house, the believers began making final preparations for the arrival of the spaceship scheduled for midnight that night. The scene as viewed by Festinger, Riecken, and Schachter must have seemed like absurdist theater. Otherwise ordinary people—housewives, college students, a high school boy, a publisher, a physician, a hardware-store clerk and his mother—were participating earnestly in tragic comedy. They took direction from a pair of members who were periodically in touch with the Guardians; Marian Keech’s written messages were being supplemented that evening by “the Bertha,” a former beautician through whose tongue the “Creator” gave instruction. They rehearsed their lines diligently, calling out in chorus the responses to be made before entering the rescue saucer: “I am my own porter.” “I am my own pointer.” They discussed seriously whether the message from a caller identifying himself as Captain Video—a TV space character of the time—was properly interpreted as a prank or a coded communication from their rescuers.
+
+In keeping with the admonition to carry nothing metallic aboard the saucer, the believers wore clothing from which all metal pieces had been torn out. The metal eyelets in their shoes had been ripped away. The women went braless or wore brassieres whose metal stays had been removed. The men had yanked the zippers out of their pants, which were supported by lengths of rope in place of belts.
+
+The group’s fanaticism concerning the removal of all metal was vividly experienced by one of the researchers, who remarked, twenty-five minutes before midnight, that he had forgotten to extract the zipper from his trousers. As the observers tell it, “this knowledge produced a near panic reaction. He was rushed into the bedroom where Dr. Armstrong, his hands trembling and his eyes darting to the clock every few seconds, slashed out the zipper with a razor blade and wrenched its clasps free with wirecutters.” The hurried operation finished, the researcher was returned to the living room—a slightly less metallic but, one supposes, much paler man.
+
+As the time appointed for their departure grew close, the believers settled into a lull of soundless anticipation. Fortunately, the trained scientists were able to provide a detailed account of the events that transpired during this momentous period.
+
+
+The last ten minutes were tense ones for the group in the living room. They had nothing to do but sit and wait, their coats in their laps. In the tense silence two clocks ticked loudly, one about ten minutes faster than the other. When the faster of the two pointed to twelve-five, one of the observers remarked aloud on the fact. A chorus of people replied that midnight had not yet come. Bob Eastman affirmed that the slower clock was correct; he had set it himself only that afternoon. It showed only four minutes before midnight.
+
+These four minutes passed in complete silence except for a single utterance. When the [slower] clock on the mantel showed only one minute remaining before the guide to the saucer was due, Marian exclaimed in a strained, high-pitched voice: “And not a plan has gone astray!” The clock chimed twelve, each stroke painfully clear in the expectant hush. The believers sat motionless.
+
+One might have expected some visible reaction. Midnight had passed and nothing had happened. The cataclysm itself was less than seven hours away. But there was little to see in the reactions of the people in the room. There was no talking, no sound. People sat stock-still, their faces seemingly frozen and expressionless. Mark Post was the only person who even moved. He lay down on the sofa and closed his eyes but did not sleep. Later, when spoken to, he answered monosyllabically but otherwise lay immobile. The others showed nothing on the surface, although it became clear later that they had been hit hard. . . .
+
+Gradually, painfully, an atmosphere of despair and confusion settled over the group. They reexamined the prediction and the accompanying messages. Dr. Armstrong and Mrs. Keech reiterated their faith. The believers mulled over their predicament and discarded explanation after explanation as unsatisfactory. At one point, toward 4 A.M., Mrs. Keech broke down and cried bitterly. She knew, she sobbed, that there were some who were beginning to doubt but that the group must beam light to those who needed it most and that the group must hold together. The rest of the believers were losing their composure, too. They were all visibly shaken and many were close to tears. It was now almost 4:30 A.M. and still no way of handling the disconfirmation had been found. By now, too, most of the group were talking openly about the failure of the escort to come at midnight. The group seemed near dissolution. (pp. 162–63, 168)
+
+
+
+In the midst of gathering doubt, as cracks crawled through the believers’ confidence, the researchers witnessed a pair of remarkable incidents, one after another. The first occurred at about 4:45 a.m. when Marian Keech’s hand suddenly began transcribing through “automatic writing” the text of a holy message from above. When read aloud, the communication proved to be an elegant explanation for the events of that night. “The little group, sitting alone all night long, had spread so much light that God had saved the world from destruction.” Although neat and efficient, this explanation was not wholly satisfying by itself; for example, after hearing it, one member simply rose, put on his hat and coat, and left, never to return. Something additional was needed to restore the believers to their previous levels of faith.
+
+It was at this point that the second notable incident occurred to supply that need. Once again, the words of those who were present offer a vivid description:
+
+
+The atmosphere in the group changed abruptly and so did their behavior. Within minutes after she had read the message explaining the disconfirmation, Mrs. Keech received another message instructing her to publicize the explanation. She reached for the telephone and began dialing the number of a newspaper. While she was waiting to be connected, someone asked: “Marian, is this the first time you have called the newspaper yourself?” Her reply was immediate: “Oh yes, this is the first time I have ever called them. I have never had anything to tell them before, but now I feel it is urgent.” The whole group could have echoed her feelings, for they all felt a sense of urgency. As soon as Marian had finished her call, the other members took turns telephoning newspapers, wire services, radio stations, and national magazines to spread the explanation of the failure of the flood. In their desire to spread the word quickly and resoundingly, the believers now opened for public attention matters that had been thus far utterly secret. Where only hours earlier they had shunned newspaper reporters and felt that the attention they were getting in the press was painful, they now became avid seekers for publicity. (p. 170)
+
+
+
+Not only had the long-standing policies concerning secrecy and publicity done an about-face, but so, too, had the group’s attitude toward potential converts. Whereas likely recruits who previously visited the house had been mostly ignored, turned away, or treated with casual attention, the day following the disconfirmation saw a different story. All callers were admitted, all questions were answered, all visitors were proselytized. The members’ unprecedented willingness to accommodate new recruits was perhaps best demonstrated when nine high school students arrived on the following night to speak with Mrs. Keech.
+
+
+They found her at the telephone deep in a discussion of flying saucers with a caller whom, it later turned out, she believed to be a spaceman. Eager to continue talking to him and at the same time anxious to keep her new guests, Marian simply included them in the conversation and, for more than an hour, chatted alternately with her guests in the living room and the “spaceman” on the other end of the telephone. So intent was she on proselyting that she seemed unable to let any opportunity go by. (p. 178)
+
+
+
+To what can we attribute the believers’ radical turnabout? Within a few hours, they had moved from clannish and taciturn hoarders of the Word to expansive and eager disseminators of it. What could have possessed them to choose such an ill-timed instant—when the failure of the flood was likely to cause nonbelievers to view the group and its dogma as laughable?
+
+The crucial event occurred sometime during “the night of the flood” when it became increasingly clear the prophecy would not be fulfilled. Oddly, it was not their prior certainty that drove the members to propagate the faith, it was an encroaching sense of uncertainty. It was the dawning realization that if the spaceship and flood predictions were wrong, so might be the entire belief system on which they rested. For those huddled in Marian Keech’s living room, that growing possibility must have seemed hideous.
+
+The group members had gone too far, given up too much for their beliefs to see them destroyed; the shame, the economic cost, the mockery would be too great to bear. The overarching need of the cultists to cling to those beliefs seeps poignantly from their own words. From a young woman with a three-year-old child:
+
+
+I have to believe the flood is coming on the twenty-first because I’ve spent all my money. I quit my job, I quit computer school. . . . I have to believe. (p. 168)
+
+
+
+From Dr. Armstrong to one of the researchers four hours after the failure of the saucermen to arrive:
+
+
+I’ve had to go a long way. I’ve given up just about everything. I’ve cut every tie. I’ve burned every bridge. I’ve turned my back on the world. I can’t afford to doubt. I have to believe. And there isn’t any other truth. (p. 168)
+
+
+
+Imagine the corner in which Dr. Armstrong and his followers found themselves as morning approached. So massive was the commitment to their beliefs that no other truth was tolerable. Yet those beliefs had taken a merciless pounding from physical reality: No saucer had landed, no spacemen had knocked, no flood had come, nothing had happened as prophesied. Because the only acceptable form of truth had been undercut by physical proof, there was but one way out of the corner for the group. It had to create another type of proof for the truth of its beliefs: social proof.
+
+This, then, explains the group members’ sudden shift from secretive conspirators to zealous missionaries. It also explains the curious timing of the shift—precisely when a direct disconfirmation of their beliefs had rendered them least convincing to outsiders. It was necessary to risk the scorn and derision of nonbelievers because publicity and recruitment efforts provided the only remaining hope. If they could spread the Word, if they could inform the uninformed, if they could persuade the skeptics, and if, by so doing, they could win new converts, their threatened but treasured beliefs would become truer. The principle of social proof says so: The greater the number of people who find any idea correct, the more a given individual will perceive the idea to be correct. The group’s assignment was clear; because the physical evidence could not be changed, the social evidence had to be. Convince, and ye shall be convinced.3
+
+
+
+
+
+Optimizers
+
+
+All the levers of influence discussed in this book work better under some conditions than others. If we are to defend ourselves adequately against any such lever, it is vital that we know its optimal operating conditions in order to recognize when we are most vulnerable to its influence. In the case of social proof, there are three main optimizing conditions: when we are unsure of what is best to do (uncertainty); when the evidence of what is best to do comes from numerous others (the many); and when that evidence comes from people like us (similarity).
+
+
+
+
+
+Uncertainty: In Its Throes, Conformity Grows
+
+
+We have already had a hint of when the principle of social proof worked best with the Chicago believers. It was when a sense of shaken confidence triggered their craving for converts, for new believers who could validate the truth of the original believers’ views. In general, when we are unsure of ourselves, when the situation is unclear or ambiguous, when uncertainty reigns, we are most likely to accept the actions of others—because those actions reduce our uncertainty about what is correct behavior there.
+
+One way uncertainty develops is through lack of familiarity with the situation. Under such circumstances, people are especially likely to follow the lead of others. Remember this chapter’s account of restaurant managers in Beijing who greatly increased customers’ purchases of certain dishes on the menu by describing them as most popular? Although the labeled popularity of an item elevated its choice by all sorts of diners (males, females, customers of any age), there was one kind of customer that was most likely to choose based on popularity—those who were infrequent and, therefore, unfamiliar visitors. Customers who weren’t in a position to rely on existing experience in the situation had the strongest tendency to resort to social proof.
+
+Consider how this simple insight made one man a multimillionaire. His name was Sylvan Goldman and, after acquiring several small grocery stores in 1934, he noticed his customers stopped buying when their handheld shopping baskets got too heavy. This inspired him to invent the shopping cart, which in its earliest form was a folding chair equipped with wheels and a pair of heavy metal baskets. The contraption was so unfamiliar-looking that, at first, none of Goldman’s customers used one—even after he built a more-than-adequate supply, placed several in a prominent place in the store, and erected signs describing their uses and benefits. Frustrated and about to give up, he tried one more idea to reduce his customers’ uncertainty, one based on social proof. He hired shoppers to wheel the carts through the store. His true customers soon began following suit, his invention swept the nation, and he died a wealthy man with an estate of over $400 million.4
+
+
+
+* * *
+
+
+
+
+
+READER’S REPORT 4.2
+
+From a Danish university student
+
+While in London visiting my girlfriend, I was sitting in an Underground station on a stopped train. The train failed to depart on time, and there was no announcement as to the cause. On the opposite side of the platform, another train had stopped too. Then, a strange thing happened. A few people started leaving my train and boarding the other one, which sparked a self-feeding, self-amplifying reaction, making everybody (about 200 people, including me) disembark my train and board the other. Then, after several minutes, something even more peculiar happened: A few people started leaving the second train, and the whole mechanism was produced again in the reverse order, making everybody (including me, once again) go back to the original train, still without any announcement to justify the retreat.
+
+Needless to say, it left me with a rather silly feeling of being a mindless turkey following every collective impulse of social proof.
+
+
+Author’s note: In addition to a lack of familiarity, a lack of objective cues of correctness in a situation generates feelings of uncertainty. For example, in this situation, there were no announcements. Consequently, social proof took over to guide behavior, no matter how farcically. Click, run (back and forth).
+
+
+
+* * *
+
+
+
+
+
+In the process of trying to resolve our uncertainty by examining the reactions of other people, we are likely to overlook a subtle, but important fact: especially in an ambiguous situation, those people are probably examining the social evidence too. This tendency for everyone to be looking to see what everyone else is doing can lead to a fascinating phenomenon called pluralistic ignorance. A thorough understanding of the phenomenon helps explain a troubling occurrence: the failure of bystanders to aid victims in agonizing need of help.
+
+The classic report of such bystander inaction and the one that has produced the most debate in journalistic, political, and scientific circles began as an article in the New York Times: a woman in her late twenties, Kitty Genovese, was killed in a late-night attack while thirty-eight of her neighbors watched from their apartment windows without lifting a finger to help. News of the killing created a national uproar and led to a line of scientific research investigating when bystanders will and will not help in an emergency. More recently, the details of the neighbors’ inaction—and even whether it had actually occurred—has been debunked by researchers who uncovered shoddy journalistic methods in this specific case. Nonetheless, because such events continue to arise, the question of when bystanders will intervene in an emergency remains important. One answer involves the potentially tragic consequences of the pluralistic-ignorance effect, which are starkly illustrated in a UPI news release from Chicago:
+
+
+A university coed was beaten and strangled in daylight hours near one of the most popular tourist attractions in the city, police said Saturday.
+
+The nude body of Lee Alexis Wilson, 23, was found Friday in dense shrubbery alongside the wall of the Art Institute by a 12-year-old boy playing in the bushes.
+
+Police theorized she may have been sitting or standing by a fountain in the Art Institute’s south plaza when she was attacked. The assailant apparently then dragged her into the bushes. She apparently was sexually assaulted, police said.
+
+Police said thousands of persons must have passed the site and one man told them he heard a scream about 2 p.m. but did not investigate because no one else seemed to be paying attention (emphasis added).
+
+
+
+Often an emergency is not obviously an emergency. Is the man lying in the alley a heart-attack victim or a drunk sleeping one off? Is the commotion next door an assault requiring the police or an especially loud marital spat where intervention would be inappropriate and unwelcome? What is going on? In times of such uncertainty, the natural tendency is to look around at the actions of others for clues. From the principle of social proof, we can determine from the way the other witnesses are reacting whether the event is or is not an emergency.
+
+What is easy to forget, though, is that everybody else observing the event is likely to be looking for social evidence to reduce their uncertainty. Because we all prefer to appear poised and unflustered among others, we are likely to search for that evidence placidly, with brief, camouflaged glances at those around us. Therefore, everyone is likely to see everyone else looking unruffled and failing to act. As a result, and by the principle of social proof, the event will be roundly interpreted as a nonemergency.
+
+
+
+
+
+A Scientific Summary
+
+
+Social scientists have a good idea of when bystanders will offer emergency aid. First, once uncertainty is removed and witnesses are convinced an emergency situation exists, aid is very likely. Under these conditions, the number of bystanders who either intervene themselves or summon help is quite comforting. For example, in four separate experiments done in Florida, accident scenes involving a maintenance man were staged. When it was clear that the man was hurt and required assistance, he was helped 100 percent of the time in two of the experiments. In the other two experiments, where helping involved contact with potentially dangerous electric wires, the victim still received bystander aid in 90 percent of the instances. The situation becomes very different when, as in many cases, bystanders cannot be sure the event is an emergency.
+
+
+
+
+
+Devictimizing Yourself
+
+
+Explaining the dangers of modern life in scientific terms does not dispel them. Fortunately, our current understanding of the bystander-intervention process offers real hope. Armed with scientific knowledge, an emergency victim can increase markedly the chances of receiving aid from others. The key is the realization that groups of bystanders fail to help because the bystanders are unsure rather than unkind. They don’t help because they are unsure an emergency actually exists and whether they are responsible for taking action. When they are confident of their responsibilities for intervening in a clear emergency, people are exceedingly responsive.
+
+
+
+Figure 4.1: Victim?
+
+At times like this one, when the need for emergency aid is unclear, even genuine victims are unlikely to be helped in a crowd. Think how, if you were a second passerby in this situation, you might be influenced by the first passerby to believe that no aid was called for.
+
+Jan Halaska, Photo Researchers, Inc.
+
+
+Once it is understood that the enemy is the state of uncertainty, it becomes possible for emergency victims to reduce this uncertainty, thereby protecting themselves. Imagine, for example, you are spending a summer afternoon at a music concert in a park. As the concert ends and people begin leaving, you notice a slight numbness in one arm but dismiss it as nothing to be alarmed about. Yet, while moving with the crowd to the distant parking areas, you feel the numbness spreading down to your hand and up one side of your face. Feeling disoriented, you sit against a tree for a moment to rest. Soon you realize something is drastically wrong.
+
+Sitting down has not helped; in fact, control of your muscles has worsened, and you are having difficulty moving your mouth and tongue to speak. You try to get up but can’t. A terrifying thought rushes to mind: “Oh, God, I’m having a stroke!” People are streaming by without paying attention. The few who notice the odd way you are slumped against the tree or the strange look on your face check the social evidence around them and, seeing no one reacting with concern, walk on convinced that nothing is wrong, leaving you terrified and on your own.
+
+Were you to find yourself in such a predicament, what could you do to overcome the odds against receiving help? Because your physical abilities would be deteriorating, time would be crucial. If, before you could summon aid, you lost your speech or mobility or consciousness, your chances for assistance and for recovery would plunge drastically. It would be essential to request help quickly. What would be the most effective form of that request? Moans, groans, or outcries probably would not do. They might bring you some attention, but they would not provide enough information to assure passersby a true emergency existed.
+
+If mere outcries are unlikely to produce help from the passing crowd, perhaps you should be more specific. Indeed, you need to do more than try to gain attention; you should call out clearly your need for assistance. You must not allow bystanders to define your situation as a nonemergency. Use the word “Help” to show your need for emergency aid, and don’t worry about being wrong. Embarrassment in such a situation is a villain to be crushed. If you think you are having a stroke, you cannot afford to be worried about the possibility of overestimating your problem. The difference is that between a moment of embarrassment and possible death or lifelong paralysis.
+
+Even a resounding call for help is not your most effective tactic. Although it may reduce bystanders’ doubts that a real emergency exists, it will not remove several other important uncertainties within each onlooker’s mind: What kind of aid is required? Should I be the one to provide the aid, or should someone more qualified do it? Has someone else already acted to get professional help, or is it my responsibility? While the bystanders stand gawking at you and grappling with these questions, time vital to your survival could he slipping away.
+
+Clearly, then, as a victim you must do more than alert bystanders to your need for emergency assistance; you must also remove their uncertainties about how that assistance should be provided and who should provide it. What would be the most efficient and reliable way to do so? Based on research findings, my advice would be to focus on one individual in the crowd, then stare at, speak to, and point directly at that person and no one else: “You, sir, in the blue jacket, I need help. Call 911 for an ambulance.” With that one utterance, you would dispel all the uncertainties that might prevent or delay help. With that one statement you will have put the man in the blue jacket in the role of “rescuer.” He should now understand that emergency aid is needed; he should understand that he, not someone else, is responsible for providing the aid; and, finally, he should understand exactly how to provide it. All the scientific evidence indicates the result should be quick, effective assistance.
+
+
+
+* * *
+
+
+
+
+
+READER’S REPORT 4.3
+
+From a woman living in Wrocław, Poland
+
+I was going through a well-lighted road crossing when I thought I saw somebody fall into a ditch left by workers. The ditch was well protected, and I was not sure if I really saw it—maybe it was just imagination. One year ago, I would continue on my way, believing that the people passing by who had been closer saw better. But I had read your book. So, I stopped and returned to check if it was true. And it was. A man fell into this hole and was lying there shocked. The ditch was quite deep, so people walking nearby couldn’t see anything. When I tried to do something, two guys walking on this street stopped to help me pull the man out.
+
+Today, the newspapers wrote that during the last three weeks of winter, 120 people died in Poland, frozen. This guy could have been 121—that night the temperature was –21C.
+
+He should be grateful to your book that he is alive.
+
+
+Author’s note: Several years ago, I was involved in a rather serious automobile accident that occurred at an intersection. Both I and the other driver were hurt: he was slumped, unconscious, over his steering wheel while I had staggered, bloody, from behind mine. Cars began to roll slowly past us; their drivers gawked but did not stop. Like the Polish woman, I, too, had read the book, so I knew what to do. I pointed directly at the driver of one car and said, “Call the police.” To a second and third driver, I said, “Pull over, we need help.” Their aid was not only rapid but infectious. More drivers began stopping—spontaneously—to tend to the other victim. The principle of social proof was working for us now. The trick had been to get the ball rolling in the direction of help. Once that was accomplished, social proof’s natural momentum did the rest.
+
+
+
+* * *
+
+
+
+
+
+In general, then, your best strategy when in need of emergency help is to reduce the uncertainties of those around you concerning your condition and their responsibilities. Be as precise as possible about your need for aid. Do not allow bystanders to come to their own conclusions because the principle of social proof and the consequent pluralistic-ignorance effect might well cause them to view your situation as a nonemergency. Of all the techniques in this book designed to produce compliance with a request, this one is the most important to remember. After all, the failure of your request for emergency aid could mean the loss of your life.
+
+Besides this broad advice, there is a singular form of uncertainty for women that they need to dispel in a unique emergency situation for them—a public confrontation in which a woman is being physically attacked by a man. Concerned researchers suspected witnesses to such confrontations may not help because they are uncertain about the nature of the pair’s relationship, thinking intervention might be unwelcome in a lovers’ quarrel. To test this possibility, the researchers exposed subjects to a staged public fight between a man and a woman. When there were no cues as to the sort of relationship between the two, the great majority of male and female subjects (nearly 70 percent) assumed that the two were romantically involved; only 4 percent thought they were complete strangers. In other experiments where there were cues that defined the combatants’ relationship—the woman shouted either “I don’t know why I ever married you” or “I don’t know you”—the studies uncovered an ominous reaction on the part of bystanders. Although the severity of the fight was identical, observers were less willing to help the married woman because they thought it was a private matter in which their intervention would be unwanted and embarrassing to all concerned.
+
+
+
+Figure 4.2: To get help, you must shout correctly.
+
+Observers of male–female confrontations often assume the pair is romantically involved and that intervention would be unwanted or inappropriate. To combat this perception and get aid, the woman should shout, “I don’t know you.”
+
+Tatagatta/Fotolia
+
+
+Thus, a woman caught in a physical confrontation with a man, any man, should not expect to get bystander aid simply by shouting for relief. Observers are likely to define the event as a domestic squabble and, with that definition in place, may well assume that helping would be socially inappropriate. Fortunately, the researchers’ data suggest a way to overcome this problem: by loudly labeling her attacker a stranger—“I don’t know you!”—a woman should greatly increase her chances for receiving assistance.5
+
+
+
+
+
+The Many: The More We See, the More There Will Be
+
+
+A bit earlier I stated that the principle of social proof, like all other levers of influence, works better under some conditions than others. We have already explored one of those conditions: uncertainty. For sure, when people are unsure, they are more likely to use others’ actions to decide how they themselves should act. In addition, there is another important optimizing condition: the many. Any reader who doubts that the seeming appropriateness of an action is importantly influenced by the number of others performing it might try a small experiment. Stand on a busy sidewalk, pick an empty spot in the sky or on a tall building, and stare at it for a full minute. Very little will happen around you during that time—most people will walk past without glancing up, and virtually no one will stop to stare with you. Now, on the next day, go to the same place and bring along some friends to look upward too. Within sixty seconds, a crowd will have stopped to crane their necks skyward with the group. For those passersby who do not join you, the pressure to look up at least briefly will be nearly irresistible; if the results of your experiment are like those of one performed by researchers in New York City, you and your friends will cause 80 percent of all passersby to lift their gaze to your empty spot. Moreover, up to a point (around twenty people), the more friends you bring along, the more passersby will join in.
+
+Social-proof information doesn’t have to be only visual to sweep people in its direction. Consider the heavy-handed exploitation of the principle within the history of grand opera, one of our most venerable art forms. There is a phenomenon called claquing, said to have begun in 1820 by a pair of Paris opera-house habitués named Sauton and Porcher. The men were more than operagoers, though. They were businessmen whose product was applause; and they knew how to structure social proof to incite it.
+
+
+
+Figure 4.3: “Looking for Higher (and Higher) Meaning”
+
+The draw of the many is devilishly strong.
+
+© Punch/Rothco
+
+
+Organizing their business under the title l’Assurance des succès dramatiques, they leased themselves and their employees to singers and opera managers who wished to be assured of an appreciative audience response. So effective were Sauton and Porcher in stimulating genuine audience reaction with their rigged reactions that, before long, claques (usually consisting of a leader—chef de claque—and several individual claqueurs) had become an established and persistent tradition throughout the world of opera. As music historian Robert Sabin (1964) notes, “By 1830 the claque was a full-bloom institution, collecting by day, applauding by night . . . But it is altogether probable that neither Sauton, nor his ally Porcher, had a notion of the extent to which their scheme of paid applause would be adopted and applied wherever opera is sung.”
+
+As claquing grew and developed, its practitioners offered an array of styles and strengths—the pleureuse, chosen for her ability to weep on cue; the bisseur, who called “bis” (repeat) and “encore” in ecstatic tones; and the rieur, selected for the infectious quality of his laugh. For our purposes, though, the most instructive parallel to modern forms can be observed in the business model of Sauton and Porcher and their successors: They charged by the staffer, recognizing that the more claqueurs they sent to be scattered among an audience, the greater would be the persuasive impression that many others liked the performance. Claque, run.
+
+Operagoers are hardly alone in this respect. Present-day observers of political events, such as US presidential debates, can be significantly affected by the magnitude of audience reaction. Candidates’ perceived performances in US presidential debates have been of no small significance in election outcomes, as political scholars have noted their critical impact. For this reason, researchers have investigated the factors that have led to debate success and failure. One of those factors has been how the responses of audiences attending a debate have affected the responses of those observing remotely, usually on TV but also on radio and streaming video. By presenting the candidates’ true performances but technologically modifying the responses (applause, cheering, laughing) of on-site audiences, researchers have examined the influence of these altered responses on remote audiences’ views of the candidates. Their findings were consistent: in a 1984 Ronald Reagan–Walter Mondale debate, a 1992 Bill Clinton–George Bush debate, and a 2016 Donald Trump–Hillary Clinton debate, whichever candidate seemingly received the strongest response from the on-site audience won the day with the remote audiences, in terms of debate performance, leadership qualities, and likability. Certain researchers have become concerned with a tendency in presidential debates for candidates to seed the on-site debate audiences with raucously loud followers whose effusive responses give the impression of greater-than-actual support in the room. The practice of claquing is far from dead.6
+
+
+
+* * *
+
+
+
+
+
+READER’S REPORT 4.4
+
+From a Central American marketing executive
+
+As I read the chapter about social proof, I recognized an interesting local example. In my country, Ecuador, you can hire a person or groups of people (traditionally consisting of women) to come to the funeral of a family member or friend. The job of these people is to cry while the dead person is being buried, making, for sure, more people start to cry. This job was quite popular a few years ago, and the well-known people that worked in this job received the name of “lloronas,” which means criers.
+
+
+Author’s note: We can see how, at different times and in different cultures, it has been possible to profit from manufactured social proof. In today’s TV sitcoms, we no longer have claqueurs and rieurs to fool us into laughing longer and harder. Instead, we have “laugh-trackers” and “sweeteners”—audio technicians whose job is to enhance the laughter of studio audiences to make the programs’ comic material seem funnier to their true targets: TV viewers such as you and me. Sad to say, we are likely to fall for their tricks. Experiments show that the use of fabricated merriment leads audiences to laugh more frequently and longer, as well as to rate humorous material funnier (Provine, 2000).7
+
+
+
+* * *
+
+
+
+
+
+Why Does “The Many” Work So Well?
+
+
+A few years ago, a shopping mall in Essex, England, had a problem. During normal lunch hours, its food court became so congested that customers encountered long waits and a shortage of tables for their meals. For help, mall managers turned to a team of researchers who set up a study that provided a simple solution based on the psychological pull of “the many.” The solution also incorporated all three of the reasons why this optimizer of social proof works so forcefully: validity, feasibility, and social acceptance.
+
+The study itself was straightforward. The researchers created two posters urging mall visitors to enjoy an early lunch at the food court. One poster included an image of a single person doing so; the other poster was identical, except the image was of several such visitors. Reminding customers of the opportunity for an early lunch (as the first poster did) proved successful, producing a 25 percent increase in customer activity in the food court before noon. But the real success came from the second poster, which lifted prenoon consumer activity by 75 percent.
+
+
+
+
+
+VALIDITY
+
+
+Following the advice or behaviors of the majority of those around us is often seen as a shortcut to good decision-making. We use the actions of others as a way to locate and validate a correct choice. If everybody’s raving about a new restaurant, it’s probably a good one that we’d like too. If the great majority of online reviewers is recommending a product, we’ll likely feel more confident clicking the purchase button. In the shopping-mall posters example, it appears that visitors exposed to a photo of multiple others taking a prenoon lunch were particularly swayed to view the idea as a good one. Additional studies have shown that ads presenting increasingly larger percentages of customers favoring a brand (“4 out of 7” versus “5 out of 7” versus “6 out of 7”) get increasingly more observers to prefer the brand; moreover, this is the case because observers assume that the brand with the largest percentage of customers preferring it must be the right choice.
+
+Often no complex cognitive operations are necessary for others’ choices to establish validity; the process can be more automatic than that. For example, fruit flies possess no complex cognitive capacities. Yet when female fruit flies viewed other females mating with a male that had been colored a particular tint (pink or green) by researchers, they became much more willing to choose a mate of the same color—70 percent of the time. It’s not just fruit flies that respond to social proof without cognitive direction. Consider the admission of prominent travel writer Doug Lansky who, while visiting England’s Royal Ascot Races, caught a glimpse of the British Royal Family and readied his camera for a photo. “I got the Queen in focus, with Prince Charles and Prince Philip sitting beside her. Suddenly, it hit me: Why did I even want this picture? It’s not like there’s a world shortage of Royal Family photos. No tabloids were going to pay me big money for the shot. I was no paparazzi. But, shutters firing around me like Uzis, I joined in the frenzy. I couldn’t help myself.” Click, run . . . click, click, click.
+
+Let’s stay in England for an enlightening historical illustration of the power of “the many” to validate a choice and initiate contagious effects. For centuries, people have been subject to irrational sprees, manias, and panics of various sorts. In his classic text, Extraordinary Popular Delusions and the Madness of Crowds, Charles MacKay listed hundreds that occurred before the book’s first publication in 1841. Most shared an instructive characteristic—contagiousness. Others’ actions spread to observers, who then acted similarly and thereby validated the correctness of the action for still other observers, who acted similarly in turn.
+
+In 1761, London experienced two moderate-sized earthquakes exactly a month apart. Convinced by this coincidence that a third, much larger quake would occur on the same date a month later, a soldier named Bell began spreading his prediction that the city would be destroyed on the fifth of April. At first, scant few paid him any heed. But those who did took the precaution of moving their families and possessions to surrounding areas. The sight of this small exodus stirred others to follow, which, in cascading waves over the next week, led to near panic and a large-scale evacuation. Great numbers of Londoners streamed into nearby villages, paying outrageous prices for any accommodations. Included in the terrified throngs were many who, according to MacKay, “had laughed at the prediction a week before, [but who] packed up their goods, when they saw others doing so, and hastened away.”
+
+After the designated day dawned and died without a tremor, the fugitives returned to the city furious at Mr. Bell for leading them astray. As MacKay’s description makes clear, their anger was misdirected. It wasn’t the crackpot Bell who was most convincing. It was the Londoners themselves who validated his theory, each to the other.8
+
+
+
+* * *
+
+
+
+
+
+EBOX 4.2
+
+We don’t have to rely on events from eighteenth-century England for examples of baseless, social proof–fueled panics. Indeed, owing to particular internet features and capacities, we are now seeing instances sprouting like weeds all around us.
+
+In late 2019 and early 2020, alarming rumors went viral that claimed men in white vans were abducting women for purposes of sex trafficking and selling their body parts. Propelled by the social-media giant Facebook’s algorithms giving prominence to posts that are widely shared or trending, the tale, which began in Baltimore, spread in snowballing fashion around the United States and beyond. As a consequence, white van owners in multiple cities reported being threatened and harassed by residents after the rumor began circulating in their communities. One workman lost jobs after being targeted in a Facebook post. Another was shot to death by two men reacting to a false claim of an attempted abduction. This, even though authorities have never found a single actual incident.
+
+No matter. For instance, the mayor of Baltimore, Bernard Young, was sufficiently moved by the story to issue an unnerving televised warning to the women of his city: “Don’t park near a white van. Make sure you keep your cellphone in case somebody tries to abduct you.” What was Mayor Young’s evidence for the threat? It was nothing that came from his own police.
+
+Instead, he said, “It was all over Facebook.”
+
+
+Author’s note: It’s telling that perceived validity of the rumor developed from unfounded fears, rendered contagious by the algorithms of a frequently checked social-media feed. “Truth” was established without physical proof; there was only social proof. That was enough, as it often is.
+
+There’s an age-old truism that makes this point: “If one person says you have a tail, you laugh it off as stupid; but, if three people say it, you turn around.”
+
+
+
+* * *
+
+
+
+
+
+FEASIBILITY
+
+
+If we see a lot of other people doing something, it doesn’t just mean it’s probably a good idea. It also means we could probably do it too. Within the British shopping-mall study, the visitors seeing a poster of multiple others taking an early lunch might well have said to themselves something like, “Well, this idea seems doable. I guess it’s not a big deal to arrange shopping plans or work hours to have an early lunch.” Thus, besides perceived validity, a second reason “the many” is effective is that it communicates feasibility: if lots can do it, it must not be difficult to pull off. A study of residents of several Italian cities found that if residents believed many of their neighbors recycled in the home, then they were more willing to recycle themselves, in part, because they saw recycling as less difficult to manage.
+
+With a set of estimable colleagues leading the way, I once did a study to see what we could best say to influence people to conserve household energy. We delivered one of four messages to their homes, once a week for a month, asking them to reduce their energy consumption. Three of the messages contained a frequently employed reason for conserving energy—“The environment will benefit”; “It’s the socially responsible thing to do”; or “It will save you significant money on your next power bill”—whereas the fourth played the social-proof card, stating (honestly), “Most of your fellow community residents do try to conserve energy at home.” At the end of the month, we recorded how much energy was used and learned that the social proof–based message had generated 3.5 times as much energy savings as any of the other messages. The size of the difference surprised almost everyone associated with the study—me, for one, but also my fellow researchers and even a sample of other homeowners. The homeowners, in fact, expected that the social-proof message would be least effective.
+
+When I report on this research to utility-company officials, they frequently don’t trust it because of an entrenched belief that the strongest motivator of human action is economic self-interest. They say, “C’mon, how are we supposed to believe that telling people their neighbors are conserving is three times more effective than telling them they can cut their power bills significantly?” Although there are various possible responses to this legitimate question, there’s one that’s nearly always proved persuasive for me. It involves the second reason, in addition to validity, that social-proof information works so well—feasibility. If I inform homeowners that by saving energy, they could also save a lot of money, it doesn’t mean they would be able to make it happen. After all, I could reduce my next power bill to zero if I turned off all the electricity in my house and coiled up on the floor in the dark for a month, but that’s not something I’d reasonably be able to do. A great strength of “the many” is that it destroys the problem of uncertain achievability. If people learn that many others around them are conserving energy, there is little doubt as to its feasibility. It comes to seem realistic and, therefore, actionable.9
+
+
+
+
+
+SOCIAL ACCEPTANCE
+
+
+We feel more socially accepted being one of the many. It’s easy to see why. Think again of the British shopping-mall study. Visitors either encountered a poster showing a single shopper taking an early lunch in the mall’s food court or multiple shoppers doing so. To follow the example of the first poster, observers risked the social disapproval of being viewed as a loner or oddball or outsider. The opposite was true of following the example of the second poster, which assured observers of the personal comfort of being among the many. The emotional difference between those two experiences is significant. Compared to holding an opinion that fits with the group’s, holding an opinion that is out of line creates psychological distress.
+
+In one study, research participants were hooked up to a brain scanner while they received information from others that conflicted with their own opinions. The conflicting information came either from four other participants or from four computers. Conformity was greater when the conflicting information came from the set of persons than from the set of computers, even though participants rated the two kinds of judgments as equally reliable. If participants viewed the reliability of the two sources of information as the same, what caused them to conform more to their fellow participants’ choices? The answer lies in what occurred whenever they resisted the consensus of other people. The sector of their brains associated with negative emotion (the amygdala) became activated, reflecting what the researchers called “the pain of independence.” It seems that defying other people produced a painful emotional state that pressured participants to conform. Defying a set of computers didn’t have the same behavioral consequences, because it didn’t have the same social-acceptance consequences. When it comes to group dynamics, there’s an old saying that gets it right: “To get along, you have to go along.”
+
+Take, for example, the account by Yale psychologist Irving Janis of what happened in a group of heavy smokers who came to a clinic for treatment. During the group’s second meeting, nearly everyone took the position that because tobacco is so addicting, no one could be expected to quit all at once. But one man disputed the group’s view, announcing that he had stopped smoking completely since joining the group the week before and that others could do the same. In response, his former comrades banded against him, delivering a series of angry attacks on his position. At the following meeting, the dissenter reported that after considering the others’ point of view, he had come to an important decision: “I have gone back to smoking two packs a day; and won’t make any effort to stop again until after the last meeting.” The other group members immediately welcomed him back into the fold, greeting his decision with applause.
+
+These twin needs—to foster social acceptance and to escape social rejection—help explain why cults can be so effective in recruiting and retaining members. An initial showering of affection on prospective members, called love bombing, is typical of cult-induction practices. It accounts for some of the success of these groups in attracting new members, especially those feeling lonely or disconnected. Later, threatened withdrawal of that affection explains the willingness of some members to remain in the group: After having cut their bonds to outsiders, as the cults invariably urge, members have nowhere else to turn for social acceptance.10
+
+
+
+
+
+Similarity: Peer-suasion
+
+
+The principle of social proof operates most powerfully when we are observing the behavior of people just like us. It is the conduct of such people that gives us the greatest insight into what constitutes correct behavior for ourselves. As with “the many,” an action coming from similar others increases our confidence that it will prove valid, feasible, and socially acceptable should we perform it. Therefore, we are more inclined to follow the lead of our peers in a phenomenon we can call peer-suasion.
+
+Studies have shown, for example, students worried about their academic performance or about their ability to fit in at school improved significantly when informed that many students like them had the same concerns and overcame them. Consumers became more likely to follow the consensus of other consumers about purchasing a brand of sunglasses when told the others were similar to them. In the classroom, when adolescent aggression is frequent, it spreads contagiously—but almost entirely within a peer group; for instance, frequent aggression of boys in a class has little effect on the aggressiveness of the girls and vice versa. Employees are more likely to engage in information sharing if they see it modeled by fellow coworkers than by managers. Physicians who overprescribe certain drugs, such as antibiotics or antipsychotics, are unlikely to change this behavior in a lasting fashion unless informed that their prescription rate exceeds the norm of their peers. After an extensive review of environmental behavior change, the economist Robert Frank stated, “By far the strongest predictor of whether we install solar panels, buy electric cars, eat more responsibly, and support climate-friendly policies is the percentage of peers who take those steps.”11
+
+
+
+Figure 4.4: “Freethinking Youth”
+
+We frequently think of teenagers as rebellious and independent-minded. It is important to recognize, however, that typically this is true only with respect to their parents. Among their peers, they conform massively to what social proof tells them is proper.
+
+© Eric Knoll, Tauris Photos
+
+
+This is why I believe we are seeing an increasing number of average-person testimonials on TV these days. Advertisers know that one successful way to sell a product to ordinary viewers (who compose the largest potential market) is to demonstrate that other “ordinary” people like and use it. Whether the product is a brand of soft drink or a pain reliever or an automobile, we hear volleys of praise from John or Mary Everyperson.
+
+Compelling evidence for the importance of similarity in determining whether we will imitate another’s behavior can be found in a study of a fundraising effort conducted on a college campus. Donations to charity more than doubled when the requester claimed to be similar to the donation targets, saying “I’m a student here too,” and implying that, therefore, they should want to support the same cause. These results suggest an important consideration for anyone wishing to harness the principle of social proof. People will use the actions of others to decide how to behave, especially when they view those others as similar to themselves.
+
+I took this consideration into account when, for three years, I served as chief scientist for a then startup firm, Opower, that partners with utility companies to send residents information about how much energy their household is using compared with their neighbors. A crucial feature of the information is that the comparison is not with any neighbors but is specifically with neighbors whose homes are nearby and comparable along dimensions such as size—in other words, “Homes just like yours.” The results, driven mainly by householders reducing their energy consumption if it is greater than their peers’, have been astounding. At last count, these peer comparisons have saved more than thirty-six billion pounds of CO2 emissions from entering the environment and more than twenty-three trillion watts per hour of electricity from being expended. What’s more, the comparisons are presently generating $700 million in bill savings to utility customers per year.
+
+Peer-suasion applies not only to adults but also to children. Health researchers have found, for example, that a school-based antismoking program had lasting effects only when it used same-age peer leaders as teachers. Another study found that children who saw a film depicting a child’s positive visit to the dentist lowered their own dental anxieties principally when they were the same age as the child in the film. I wish I had known about this second study when, a few years before it was published, I was trying to reduce a different kind of anxiety in my son, Chris.
+
+I live in Arizona, where backyard swimming pools abound. Regrettably, each year, several young children drown after falling into an unattended pool. I was determined, therefore, to teach Chris how to swim at an early age. The problem was not that he was afraid of the water; he loved it, but he would not get into the pool without wearing his inflatable inner tube, no matter how I tried to coax, talk, or shame him out of it. After getting nowhere for two months, I hired a graduate student of mine to help. Despite his background as a lifeguard and swimming instructor, he failed as I had. He couldn’t persuade Chris to attempt even a stroke outside his plastic ring.
+
+About this time, Chris was attending a day camp that provided a number of activities to its group, including the use of a large pool, which he scrupulously avoided. One day, shortly after the graduate-student incident, I went to get Chris from camp and, with my mouth agape, watched him run down the diving board and jump into the deepest part of the pool. Panicked, I began pulling off my shoes to jump in to his rescue when I saw him bob to the surface and paddle safely to the side of the pool—where I dashed to meet him.
+
+“Chris, you can swim!” I said excitedly. “You can swim!”
+
+“Yes,” he responded casually, “I learned how today.”
+
+“This is terrific! This is just terrific. But how come you didn’t need your plastic ring today?
+
+“Well, I’m three years old, and Tommy is three years old. And Tommy can swim without a ring, so that means I can too.”
+
+I could have kicked myself. Of course it would be to little Tommy, not to a six-foot-two graduate student, that Chris would look for the most relevant information about what he could or should do. Had I been more thoughtful about solving Chris’s swimming problem, I could have employed Tommy’s good example earlier and perhaps saved myself a couple of frustrating months. I could have simply noted at the day camp that Tommy was a swimmer and then arranged with his parents for the boys to spend a weekend afternoon swimming in our pool. My guess is that Chris’s plastic ring would have been abandoned by the day’s end.12
+
+
+
+* * *
+
+
+
+
+
+READER’S REPORT 4.5
+
+From a university teacher in Arkansas
+
+During the summers of my college years, I sold Bible reference books door to door in Tennessee, Mississippi, South Carolina, and Kansas. Of interest was how my sales improved when I finally came up with the idea of using names/testimonials from female customers with female prospects, males with males, and couples with couples. After 15 weeks on the job, I was averaging a respectable $550.80 per week by closely following the canned sales talk the company had taught us, which emphasized the features of the books.
+
+But, a new sales manager began teaching us to sprinkle our presentations with the names of previous customers—for example, “Sue Johnson wanted to get the set so she could read Bible stories to her kids.” I began following this approach in week 16, and I found that during weeks 16–19 my weekly sales average jumped to $893, a 62.13 percent increase! There is more to the story, however. I explicitly remember that during my 19th week, it dawned on me that while using the names had increased my sales overall, it had also made me lose some sales. The key event happened when I was presenting one day to a housewife. She seemed interested in the books but couldn’t decide if she should order or not. At this point, I mentioned some married friends of hers who had bought. She then said something like, “Mary and Bill bought . . . ? Well, I had better talk to Harold before deciding. It would be better if we decided together.”
+
+Thinking about this incident over the next day or so, everything began to make sense. If I told a housewife about another couple who had bought, I was inadvertently supplying her with a good reason not to buy right then—she would need to talk with her husband first. However, if many other housewives like her were buying, it must be okay for her to buy too. From that point on, I resolved that I would use only the names of other housewives when presenting to a housewife. My sales the next week shot up to $1506. I soon extended this strategy to husbands and couples, using only the names of males when presenting to males and only the names of couples when presenting to couples. During the next (and last) 20 weeks of my sales career, I averaged $1209.15. The reason my sales dropped off a bit toward the end was that I was making so much money, I found it difficult to motivate myself to go out and work very hard.
+
+A word of qualification is in order. There is no doubt I was learning other things all the time that helped improve my sales. However, having experienced the speed of these changes firsthand, there is no doubt in my mind that no other single factor came close to “social proof from similar others” as the #1 reason for my 119.67 percent improvement.
+
+
+Author’s note: When the reader, a personal friend, first told me this story of the stunning effects of peer-suasion, I think he could sense my skepticism. So, by way of supportive evidence, he has since sent me monthly records of his sales figures during the four summers he described—figures he had carefully recorded at the time and kept for decades. It should probably come as no surprise, then, that he teaches statistics classes at his home university.
+
+
+
+* * *
+
+
+
+
+
+Monkey See, Monkey Do . . . Monkey Die
+
+
+Although we have already seen the powerful impact that social proof can have on human decision-making, to my mind, the most telling illustration starts with a seemingly nonsensical statistic: After a suicide has made front-page news, airplanes—private planes, corporate jets, airliners—begin falling out of the sky at an alarming rate.
+
+For example, it has been shown that immediately following certain kinds of highly publicized suicide stories, the number of people who die in commercial-airline crashes increases by 1,000 percent! Even more alarming: the increase is not limited to airplane deaths. The number of automobile fatalities shoots up as well.
+
+One explanation suggests itself immediately. The same social conditions that cause some people to commit suicide cause others to die accidentally. For instance, certain individuals, the suicide-prone, may react to stressful societal events (economic downturns, rising crime rates, international tensions) by ending it all. Others will react differently to these same events; they might become angry, impatient, nervous, or distracted. To the degree such people operate or maintain our society’s cars and planes, these vehicles will be less safe, and we will see a sharp increase in the number of automobile and air fatalities.
+
+According to this “social conditions” interpretation, some of the same societal factors that cause intentional deaths also cause accidental ones, and that is why we find so strong a connection between suicide stories and fatal crashes. But another fascinating statistic indicates this is not the correct explanation. Fatal crashes increase dramatically only in those regions where the suicide has been highly publicized. Other places, existing under similar social conditions, whose newspapers have not publicized the story, show no comparable jump in such fatalities. Furthermore, within those areas where newspaper space has been allotted, the wider the publicity given the suicide, the greater has been the rise in subsequent crashes. Thus, it is not some set of common societal events that stimulates suicides, on the one hand, and fatal accidents, on the other. Instead, it is the publicized suicide story itself that produces the car and plane wrecks.
+
+To explain the strong association between suicide-story publicity and subsequent crashes, a “bereavement” account has been suggested. Because, it has been argued, front-page suicides often involve well-known and respected public figures, perhaps their highly publicized deaths throw many people into states of shocked sadness. Stunned and preoccupied, these individuals become careless around cars and planes. The upshot is the sharp increase in deadly accidents involving such vehicles we see after front-page suicide stories. Although the bereavement theory can account for the connection between the degree of publicity given a story and subsequent crash fatalities—the more people who learn of the suicide, the larger will be the number of bereaved and careless individuals—it cannot explain another startling fact. Newspaper stories reporting suicide victims who died alone produce an increase in the frequency of single-fatality wrecks only, whereas stories reporting suicide-plus-murder incidents produce an increase in multiple-fatality wrecks only. Simple bereavement could not cause such a pattern.
+
+The influence of suicide stories on car and plane crashes, then, is fantastically specific. Stories of pure suicides, in which only one person dies, generate wrecks in which only one person dies; stories of suicide-murder combinations, in which there are multiple deaths, generate wrecks in which there are multiple deaths. If neither “social conditions” nor “bereavement” can make sense of this bewildering array of facts, what can? There is a sociologist who thinks he has the answer. His name is David Phillips, and he points a convincing finger at the “Werther effect.”
+
+The story of the Werther effect is both chilling and intriguing. More than two centuries ago, Johann Wolfgang von Goethe, the great man of German literature, published a novel titled Die Leiden des jungen Werthers (The Sorrows of Young Werther). The book, in which the hero, named Werther, commits suicide, had a remarkable impact. Not only did it provide Goethe with immediate fame, but it sparked a wave of emulative suicides across Europe. So powerful was this effect that authorities in several countries banned the novel.
+
+Phillips’s own work has traced the Werther effect to modern times. His research demonstrated that immediately following a front-page suicide story, the suicide rate increases dramatically in those geographical areas where the story has been highly publicized. It’s Phillips’s argument that certain troubled people who read of another’s self-inflicted death kill themselves in imitation. In a morbid illustration of the principle of social proof, these people decide how they should act on the basis of how some other troubled person has acted.
+
+Phillips derived his evidence for the modern-day Werther effect from examining twenty years of suicide statistics in the United States. He found that within two months after every front-page suicide story, an average of fifty-eight more people than usual killed themselves. In a sense, each front-page suicide story killed fifty-eight people who otherwise would have gone on living. Phillips also found this tendency for suicides to prompt suicides occurred principally in those parts of the country where the first was highly publicized. He observed that the wider the publicity given the first suicide, the greater the number of later ones (see figure 4.5). Newer research indicates the pattern isn’t limited to newspaper accounts. On March 31, 2017, Netflix premiered the web series 13 Reasons Why, in which a young high school student commits suicide and leaves behind a set of thirteen tapes detailing the reasons. In the next thirty days, suicides among young adolescents rose by 28.9 percent—to a number higher than at any month in the five-year span analyzed by the researchers, who ruled out “social conditions” explanations for the increase.
+
+
+
+Figure 4.5: Fluctuation in number of suicides before, during, and after month of suicide story
+
+Author’s Note: This evidence raises an important ethical issue. The suicides that follow these stories are excess deaths. After the initial spurt, the suicide rates do not drop below traditional levels but only return to those levels. Statistics such as these might well give pause to newspaper editors inclined to sensationalize suicide accounts, as those accounts are likely to lead to the deaths of scores of people. Data indicate that in addition to newspaper editors, TV broadcasters have cause for concern about the effects of the suicide stories they present. Whether they appear as news reports, information features, or fictional movies, these stories create an immediate cluster of self-inflicted deaths, with impressionable, imitation-prone teenagers being the most frequent victims (Bollen & Phillips, 1982; Gould & Shaffer, 1986; Phillips & Cartensen, 1986, 1988; Schmidtke & Hafner, 1988).
+
+
+If the facts surrounding the Werther effect seem to you suspiciously like those surrounding the influence of suicide stories on air and traffic fatalities, the similarities have not been lost on Phillips either. In fact, he contends that all the excess deaths following a front-page suicide incident can be explained as the same thing: copycat suicides. Upon learning of another’s suicide, an uncomfortably large number of people decide suicide is an appropriate action for themselves as well. Some of these individuals then proceed to commit the act in a straightforward fashion, causing the suicide rate to jump.
+
+Others, however, are less direct. For any of several reasons—to protect their reputations, to spare their families the shame and hurt, to allow their dependents to collect on insurance policies—they do not want to appear to have killed themselves. They would rather seem to have died accidentally. So, purposively but furtively, they cause the wreck of a car or a plane they are operating or are simply riding in. This can be accomplished in a variety of all-too-familiar-sounding ways. A commercial-airline pilot can dip the nose of the aircraft at a crucial point of takeoff or inexplicably land on an already occupied runway against the instructions from the control tower; the driver of a car can suddenly swerve into a tree or into oncoming traffic; a passenger in an automobile or corporate jet can incapacitate the operator, causing the deadly crash; the pilot of a private plane can, despite all radio warnings, plow into another aircraft. Thus, the alarming climb in crash fatalities we find following front-page suicides is, according to Phillips, most likely due to the Werther effect secretly applied.
+
+I consider this insight brilliant. First, it explains all of the data strikingly well. If these wrecks really are hidden instances of imitative suicide, it makes sense that we should see an increase in the wrecks after suicide stories appear. It makes sense that the greatest rise in wrecks should occur after the suicide stories that have been most widely publicized and have, consequently, reached the most people. It also makes sense that the number of crashes should jump appreciably only in those geographical areas where the suicide stories were publicized. It even makes sense that single-victim suicides should lead only to single-victim crashes, whereas multiple-victim suicide incidents should lead only to multiple-victim crashes. Imitation is the key.
+
+In addition, there is a second valuable feature of Phillips’s insight. It allows us not only to explain the existing facts but also to predict new facts that have not yet been uncovered. For example, if the abnormally frequent crashes following publicized suicides are the result of imitative rather than accidental actions, they should be more deadly. That is, people trying to kill themselves will likely arrange (with a foot on the accelerator instead of the brake, with the nose of the plane down instead of up) for the impact to be as lethal as possible. The consequence should be quick and sure death. When Phillips examined the records to check on this prediction, he found that the average number of people killed in a fatal crash of a commercial airliner was more than three times greater if the crash happened one week after rather than one week before a front-page suicide story. A similar phenomenon can be found in traffic statistics, where there is evidence for the deadly efficiency of post-suicide-story auto crashes. Victims of fatal car wrecks that follow front-page suicide stories die four times more quickly than normal.
+
+Still another fascinating prediction flows from Phillips’s idea. If the increase in wrecks following suicide stories truly represents a set of copycat deaths, then the imitators should be most likely to copy the suicides of people who are similar to them. The principle of social proof states that we use information about the way others have behaved to help us determine proper conduct for ourselves. As research we’ve already reviewed showed, we are most influenced in this fashion by the actions of people who are like us—by peer-suasion.
+
+Therefore, Phillips reasoned, if the principle of social proof is behind the phenomenon, there should be some clear similarity between the victim of the highly publicized suicide and those who cause subsequent wrecks. Realizing that the clearest test of this possibility would come from the records of automobile crashes involving a single car and a lone driver, Phillips compared the age of the suicide-story victim with the ages of the lone drivers killed in single-car crashes immediately after the story appeared in print. Once again, the predictions were strikingly accurate: when the newspaper detailed the suicide of a young person, it was young drivers who then piled their cars into trees, poles, and embankments with fatal results; but when the news story concerned an older person’s suicide, it was older drivers who died in such crashes.
+
+This last statistic is the clincher for me. I am left wholly convinced and, simultaneously, wholly amazed by it. Evidently, peer-suasion is so powerful that its domain extends to the fundamental decision for life or death. Phillips’s findings illustrate a distressing tendency for suicide publicity to motivate certain people who are similar to the victim to kill themselves—because they now find the idea of suicide more legitimate. Truly frightening are the data indicating that many innocent people die in the bargain (see figure 4.6).
+
+Consider the fatal consequences of one locally publicized suicide in which a teen stepped in front of a speeding train. In the next six months, a second, third, and fourth student from the same high school followed his lead and died in the same way. Another such suicide was prevented by a fifth classmate’s mother who noticed her son was missing from the house and suspected his intent. How did she know where to go to intervene and stop the teen’s deadly action? She went directly to the rail crossing where his peers had died.
+
+Perhaps nowhere are we brought into more dramatic contact with the unsettling side of the principle of social proof than in the realm of copycat crime. Back in the 1970s, our attention was brought to the phenomenon in the form of airplane hijackings, which seemed to spread like airborne viruses. In the 1980s, our focus shifted to product tamperings, such as the famous cases of Tylenol capsules injected with cyanide and Gerber baby-food products laced with glass. According to FBI forensic experts, each nationally publicized incident of this sort spawned an average of thirty more incidents. Since then, we’ve been jolted by the specter of contagious mass murders, occurring first in workplace settings and then, incredibly, in our children’s schools.
+
+
+
+Figure 4.6: Daily fluctuation in number of accident fatalities before, on, and after suicide-story date
+
+Author’s Note: As is apparent from these graphs, the greatest danger exists three to four days following the news story’s publication. After a brief drop-off, there comes another peak approximately one week later. By the eleventh day, there is no hint of an effect. This pattern across various types of data indicates something noteworthy about secret suicides. Those who try to disguise their imitative self-destruction as accidents wait a few days before committing the act—perhaps to build their courage, to plan the incident, or to put their affairs in order. Whatever the reason for the regularity of this pattern, we know that travelers’ safety is most severely jeopardized three to four days after a suicide-murder story and then again, but to a lesser degree, a few days later. We would be well advised, then, to take special care in our travels at these times.
+
+
+As an example, immediately following the bloody rampage by two Littleton, Colorado, high school students, police responded to scores of similar threats, plots, and attempts by troubled students. Two of the attempts proved “successful”: a fourteen-year-old in Taber, Alberta, and a fifteen-year-old in Conyers, Georgia, killed or wounded a total of eight classmates within ten days of the Littleton massacre. In the week following the horrendous murder-suicide attack at Virginia Tech University, media across the country reported more murder-suicides of their own, including three in Houston alone. It is instructive that after the Virginia Tech massacre, the next such event of similar size occurred not at a high school but at a university, Northern Illinois University. More recently, mass shootings have spread to entertainment venues—theaters and night clubs.
+
+Events of this magnitude demand explanation. Some common thread needs to be identified to make sense of them. In the case of workplace murders, observers noticed how often the killing fields were the backrooms of US post offices. So the finger of blame was pointed at the “intolerable strains” of the US postal environment—so much so that a new label emerged, “going postal,” for an act of stress-fueled workplace violence. As for the school-based slaughter, commentators remarked on an odd commonality: nearly all the affected schools were located in rural or suburban communities rather than in the ever-simmering cauldrons of inner-city neighborhoods. So, this time, the media instructed us as to the “intolerable strains” of growing up in small town or suburban America. By these accounts, the stressors of US post-office environments and of small-town American life created the explosive reactions of those who worked and lived there. The explanation is straightforward: similar social conditions create similar responses.
+
+But you and I have been down the “similar social conditions” road before in trying to understand anomalous patterns of fatalities. Recall how Phillips considered the possibility that a set of common social conditions in a particular environment might explain a rash of suicides there? It wasn’t a satisfactory explanation for the suicides; and I don’t think it is a satisfactory account for the murder sprees either. Let’s see if we can locate a better alternative by first trying to regain contact with reality: the “intolerable strains” of working at the post office or of living in rural/suburban America?! Compared to working in the coal mines or living on the gang-ruled, mean streets of inner cities? Come on. Certainly the environments where the mass slaying occurred have their tensions. But they appear no more severe (and often less severe) than many other environments where such incidents have not taken place. No, the similar social conditions theory doesn’t offer a plausible account.
+
+Then what does? I’d nod right at the principle of social proof, which asserts that people, especially when they are unsure of themselves, follow the lead of similar others. Who is more similar to a disgruntled postal employee than another disgruntled postal employee? And who is more similar to troubled small-town American teenagers than other troubled small-town American teenagers? It is a regrettable constant of modern life that many people live their lives in psychological pain. How they deal with the pain depends on numerous factors, one of which is a recognition of how others just like them have chosen to deal with it. As we saw in Phillips’s data, a highly publicized suicide prompts copycat suicides from similar others—from copies of the cat. I believe the same can be said for a highly publicized multiple murder.
+
+As is the case for suicide stories, media executives need to think deeply about how and how prominently to present reports of killing sprees. Such reports are not only riveting, sensational, and newsworthy but also malignant—as considerable research indicates that they possess a contagious character.
+
+
+
+
+
+Monkey Island
+
+
+Work like Phillips’s helps us appreciate the awesome influence of peer-suasion. Once the enormity of that force is recognized, it becomes possible to understand perhaps the most spectacular act of deadly group compliance of modern times—the mass suicide at Jonestown, Guyana. Certain crucial features of the event deserve review.
+
+
+
+Figure 4.7: “Malfunctioning Copier”
+
+Five minutes before the start of school on May 20, 1999, fifteen-year-old Thomas (“TJ”) Solomon opened fire on his classmates, shooting six of them before he was stopped by a heroic teacher. In struggling to comprehend the underlying causes, we must recognize the effect on him of the publicity surrounding a year-long string of similar incidents—first in Jonesboro, Arkansas; then in Springfield Oregon; then in Littleton, Colorado; and then, just two days earlier, in Taber, Alberta. As one of his friends declared in response to the question of why distraught students were suddenly turning murderous at school, “Kids like TJ are seeing it and hearing it all the time now. It’s like the new way out for them” (Cohen, 1999).
+
+AP Photo/John Bazemore
+
+
+The People’s Temple was a cultlike organization based in San Francisco that drew its recruits from the city’s poor. In 1977, the Reverend Jim Jones—the group’s undisputed political, social, and spiritual leader—moved the bulk of the membership with him to a jungle settlement in Guyana, South America. There, the People’s Temple existed in relative obscurity until November 18, 1978, when Congressmen Leo R. Ryan of California (who had gone to Guyana to investigate the cult), three members of Ryan’s fact-finding party, and a cult defector were murdered as they tried to leave Jonestown by plane. Convinced that he would be arrested and implicated in the killings and that the demise of the People’s Temple would result, Jones sought to control the end of the Temple in his own way. He gathered the entire community around him and issued a call for each person’s death in a unified act of self-destruction.
+
+The first response was that of a young woman who calmly approached the now infamous vat of strawberry-flavored poison, administered one dose to her baby, one to herself, and then sat down in a field, where she and her child died in convulsions within four minutes. Others followed steadily in turn. Although a handful of Jonestowners escaped and a few others are reported to have resisted, the survivors claim that the great majority of the 910 people who died did so in an orderly, willful fashion.
+
+News of the event shocked the world. The broadcast media and the papers provided a barrage of reports, updates, and analyses. For days, conversations were full of such topics as “How many have they found dead now?”; “A guy who escaped said they were drinking the poison like they were hypnotized or something”; “What were they doing down in South America, anyway?”; and “It’s so hard to believe. What caused it?”
+
+“What caused it?”—the critical question. How are we to account for this most astounding of compliant acts? Various explanations have been offered. Some focused on the charisma of Jim Jones, a man whose style allowed him to be loved like a savior, trusted like a father, and treated like an emperor. Other explanations pointed to the kind of people who were attracted to the People’s Temple. They were mostly poor and uneducated individuals who were willing to give up their freedoms of thought and action for the safety of a place where all decisions would be made for them. Still other explanations emphasized the quasi-religious nature of the People’s Temple, in which unquestioned faith in the cult’s leader was assigned highest priority.
+
+No doubt each of these features of Jonestown has merit in explaining what happened there; but I don’t find them sufficient. After all, the world abounds with cults populated by dependent people who are led by a charismatic figure. What’s more, there has never been a shortage of this combination of circumstances in the past. Yet virtually nowhere do we find evidence of an event even approximating the Jonestown incident among such groups. There must have been something else that was critical.
+
+One especially revealing question gives us a clue: If the community had remained in San Francisco, would Reverend Jones’s suicide command have been obeyed? A highly speculative question to be sure, but the expert most familiar with the People’s Temple had no doubt about the answer. Dr. Louis Jolyon West, then chairman of psychiatry and biobehavioral sciences at UCLA and director of its neuropsychiatric unit, was an authority on cults who had observed the People’s Temple for eight years prior to the Jonestown deaths. When interviewed in the immediate aftermath, he made what strikes me as an inordinately instructive statement: “This wouldn’t have happened in California. But they lived in total alienation from the rest of the world in a jungle situation in a hostile country.”
+
+Although lost in the welter of commentary following the tragedy, West’s observation, together with what we know about the principle of social proof, seems to me important to a satisfactory understanding of the compliant suicides. To my mind, the single act in the history of the People’s Temple that most contributed to the members’ mindless compliance that day occurred a year earlier with the relocation of the Temple to a jungled country of unfamiliar customs and people. If we are to believe the stories of Jim Jones’s malevolent genius, he realized fully the massive psychological impact such a move would have on his followers. All at once, they found themselves in a place they knew nothing about. South America, and the rain forests of Guyana, especially, were unlike anything they had experienced in San Francisco. The environment—both physical and social—into which they were dropped must have seemed dreadfully uncertain.
+
+Ah, uncertainty—the right-hand man of the principle of social proof. We have already seen that when people are uncertain, they look to the actions of others to guide their own. In the alien, Guyanese environment, then, Temple members were particularly ready to follow the lead of others. As we have also seen, it is others of a special kind whose behavior will be most unquestioningly followed: similar others. Therein lies the awful beauty of Reverend Jones’s relocation strategy. In a country such as Guyana, there were no similar others for a Jonestown resident but the people of Jonestown itself.
+
+What was right for a member of the community was determined to a disproportionate degree by what other community members—influenced heavily by Jones—did and believed. When viewed in this light, the terrible orderliness, the lack of panic, the sense of calm with which these people moved to the vat of poison seems more comprehensible. They hadn’t been hypnotized by Jones; they had been convinced—partly by him but, more importantly, by peer-suasion—that suicide was correct conduct. The uncertainty they surely felt upon first hearing the death command must have caused them to look around them to identify the appropriate response.
+
+It is worth particular note that they found two impressive pieces of social evidence, each pointing in the same direction. First was the initial set of their compatriots, who quickly and willingly took the poison drafts. There will always be a few such fanatically obedient individuals in any strong leader-dominated group. Whether, in this instance, they had been specially instructed beforehand to serve as examples or whether they were just naturally the most compliant with Jones’s wishes is difficult to know. No matter; the psychological effect of the actions of those individuals must have been potent. If the suicides of similar others in news stories can influence total strangers to kill themselves, imagine how enormously more compelling such an act would be when performed without hesitation by one’s neighbors in a place such as Jonestown.
+
+The second source of social evidence came from the reactions of the crowd itself. Given the conditions, I suspect what occurred was a large-scale instance of the pluralistic-ignorance effect. Each Jonestowner looked to the actions of surrounding individuals to assess the situation and—finding calmness because everyone else, too, was surreptitiously assessing rather than reacting—“learned” that patient turn-taking was the correct behavior. Such misinterpreted, but nonetheless convincing, social evidence would be expected to result precisely in the ghastly composure of the assemblage that waited in the tropics of Guyana for businesslike death.
+
+From my perspective, most attempts to analyze the Jonestown incident have focused too much on the personal qualities of Jim Jones. Although he was without question a man of rare dynamism, the power he wielded strikes me as coming less from his remarkable personal style than from his understanding of fundamental psychological principles. His real genius as a leader was his realization of the limitations of individual leadership. No leader can hope to persuade, regularly and single-handedly, all members of the group. A forceful leader can reasonably expect, however, to persuade some sizable proportion of group members. Then, the raw information that a substantial number of fellow group members has been convinced can, by itself, convince the rest. Thus, the most influential leaders are those who know how to arrange group conditions to allow the principle of social proof to work in their favor.
+
+
+
+Figure 4.8: Tidy rows of businesslike death
+
+Bodies lay in orderly rows at Jonestown, displaying the most spectacular act of compliance of our time.
+
+© Bettmann/CORBIS
+
+
+It is in this that Jones appears to have been inspired. His masterstroke was the decision to move the People’s Temple community from urban San Francisco to the remoteness of equatorial South America, where the combination of uncertainty and exclusive similarity would make the principle of social proof operate for him as perhaps nowhere else. There, a settlement of a thousand people, much too large to be held in persistent sway by the force of one man’s personality, could be changed from a following into a herd. As slaughterhouse operators have long known, the mentality of a herd makes it easy to manage. Simply get some members moving in the desired direction and the others—responding not so much to the lead animal as to those immediately surrounding them—will peacefully and mechanically go along. The powers of the amazing Reverend Jones, then, are probably best understood not in terms of his dramatic personal style but in terms of his profound appreciation of the power of peer-suasion.
+
+Although not nearly as harrowing, other kinds of evidence reveal the notable force of places inhabited by comparable others. An analysis of factors that impact the market share of national brands revealed that passage of time had surprisingly little influence on brands’ performance, less than 5 percent over three years. Geography, on the other hand, made an enormous difference. The strongest influence on market share, 80 percent, was due to geographical region. People’s brand choices moved in line with the choices of those like them, around them. The effects of distinct regions were so large that the researchers questioned the concept and relevance of “national brands.” Marketing managers might want to consider decentralized strategies targeting separate regions to a greater extent than they currently do, as research indicates people are regionally similar on attitudes, values, and personality traits—probably due to contagion effects.13
+
+
+
+
+
+The Big Mistake
+
+
+Arizona, where I live, calls itself the Grand Canyon State, after the renowned, awe-evoking tourist site on its northern edge that resembles nothing less than an upside-down mountain range. Other natural marvels also exist within the state’s borders. One, the Petrified Forest National Park, is a geologic wonder featuring hundreds of petrified logs, shards, and crystals formed 225 million years ago during the Late Triassic period. Environmental conditions at the time—stream water carrying fallen trees and silica-infused volcanic sediment—combined to bury the logs and replace their organic interiors with quartz and iron oxide that turned them into spectacular, multicolored fossils.
+
+The park’s ecology is both robust and vulnerable. It is characterized by stout stone structures weighing several tons and, simultaneously, by its susceptibility to harm from visitors, who are all-too-frequently guilty of handling, displacing, and stealing petrified rock shards and crystals from the forest floor. Although the first two of these behaviors seem minor, they are distressing for park researchers who study the trees’ ancient patterns of movement in order to identify the precise locations where they were deposited. Still, it’s the theft that forms an ongoing, fundamental threat to the park and is of greatest concern. In reaction, park managers have placed a huge sign at the entrance to the site requesting visitors to refrain from removing fossils.
+
+A while ago, one of my former graduate students decided to explore the park with his fiancée, whom he described as the most honest person he’d ever known—someone who had never failed to replace a paper clip or rubber band she’d borrowed. Yet as the couple read the large “no theft please” sign at the park entrance, something in its wording provoked her to respond so entirely out of character that it left her partner stunned. Within its plea, the sign declared:
+
+
+YOUR HERITAGE IS BEING VANDALIZED EVERY DAY BY THEFT LOSSES OF PETRIFIED WOOD OF 14 TONS A YEAR, MOSTLY A SMALL PIECE AT A TIME.
+
+Whereupon, the scrupulously honest new visitor whispered, “We’d better get ours, too.”
+
+What was it about the sign’s wording that transformed an honorable young woman into an environmental criminal scheming to loot a national treasure?! Readers of this chapter won’t have to look far afield for the answer. It was the force of social proof, woefully mispurposed. The wording contained a mistake, a big mistake, often made by public-service communicators. To mobilize the public against an undesirable activity, they bemoan it as regrettably frequent. For instance, in a long-running print ad titled “Gross National Product,” the US Forest Service mascot, Woodsy Owl, proclaimed “This year Americans will produce more litter and pollution than ever before.” In Arizona, the Department of Transportation stacked roadside litter collected each week in “Towers of Trash” along highways for all to see. And in a six-week-long series titled “Trashing Arizona,” the state’s largest newspaper asked residents to submit for publication photos of the most littered locations in the region.
+
+The mistake is not unique to environmental programs. Information campaigns stress that alcohol and drug use is intolerably high, that adolescent suicide rates are alarming, and that too few citizens exercise their right to vote. Although these claims may be both true and well intentioned, the campaigns’ creators have missed something critically important: within the lament “Look at all the people who are doing this undesirable thing” lurks the undercutting message “Look at all the people who are doing it.” In trying to alert the public to the widespread nature of a problem, public-service communicators can end up making it worse, via the process of social proof.
+
+To explore the possibility, my colleagues and I conducted an experiment at the Petrified Forest National Park, where on average 2.95 percent of visitors per day engaged in fossil theft. We alternated a pair of signs in high-theft areas of the park. With the signs, we wanted to register the effects of antitheft pleas informing visitors either that a lot of others steal from the park or that few others do. Echoing the message of the park’s entrance signage, our first type of sign urged visitors not to take wood, while depicting a scene showing three thieves in action. It nearly tripled theft, to 7.92 percent. Our other sign also urged visitors not to take wood; but contrary to the counterproductive social-proof message, it communicated that few people steal from the park by depicting a lone thief. This sign, which marginalized thievery (rather than normalizing it), reduced larceny to 1.67 percent.
+
+Other studies have documented the unintended negative consequences of trying to move people away from a detrimental action by lamenting its frequency. After an education program in which several young women described their eating disorders, participants came to show increased disorder symptoms themselves. After a suicide-prevention program informing New Jersey teenagers of the alarming number of adolescents who take their own lives, participants became more likely to see suicide as a potential solution to their own problems. After exposure to an alcohol-use deterrence program in which participants role-played resisting their peers’ repeated urgings to drink, junior high school students came to believe that alcohol use was more common among their peers than they’d originally thought. In short, persuasive communications should avoid employing information that can normalize undesirable conduct.
+
+
+
+Figure 4.9: Rock ’n’ Stole(n)
+
+Although these visitors to the Petrified National Forest Park are taking photos of petrified-wood fossils, some visitors take the fossils.
+
+Courtesy of US Forest Service
+
+
+There is another sense in which the tendency to decry the extent of unwanted activity may be misguided. Often the activity is not widespread at all. It only comes to seem that way by virtue of a vivid and impassioned presentation of its unwelcome occurrence. Take, for example, the theft of fossils from the Petrified Forest National Park. Typically, few visitors remove pieces of wood from the park—fewer than 3 percent. Still, because the park receives two-thirds of a million visitors per year, the number of thefts is collectively high. Therefore, the site’s entrance signage was correct in stating that large numbers of fossils were being carried away by visitors. Even so, by focusing guests solely on the fact that thefts did occur with destructive regularity, park officials may have erred twice. Not only did they set the force of social proof against park goals (by implying, wrongly, that thievery was pervasive), but they missed the opportunity to harness the force of true social proof on behalf of park goals (by failing to label honorable guests as the great majority). Big mistake.14
+
+
+
+
+
+A Social-Proof Shortcut (to the Future)
+
+
+There’s a second form of social-proof mistake, which I’ve often made myself. It’s occurred when I’ve delivered stage presentations on the principle and an audience member or two asked an important set of questions: “What do I do if I don’t have social proof to point to? What if I have a little-known startup company or I have a new product with nothing impressive to talk about in the way of market share or sales numbers or general popularity to this point? What should I do then?” I always responded by saying, “Well, you certainly shouldn’t lie about the lack of social proof; instead, use one of the other principles you might have going for you, such as authority or liking. Scarcity might be a good one.”
+
+Recent research indicates that my advice to steer clear of social-proof evidence if it is not fully present is mistaken. Rather than relying only on evidence of existing social proof, a communicator can do at least as well by relying on evidence of future social proof.
+
+Researchers have identified a consequential quirk in human perception. When we notice a change, we expect the change will likely continue in the same direction when it appears as a trend. This simple presumption has fueled every financial-investment bull market and real-estate bubble on record. Observers of a succession of increasing valuations project them into the future in the form of further escalations. Gamblers who have experienced a few consecutive wins imagine they’re on a hot streak and the next gamble will generate yet another win. Amateur golfers such as me can attest to the same phenomenon: after seeing our scores in the previous two outings improve, we expect—against all odds and personal histories—we’ll improve in the next. Indeed, people believe that trends will continue in the same trajectory for a wide variety of behaviors, including those undertaken by only a minority of others—such as conserving water, choosing meatless meals, and completing surveys for no payment.
+
+In keeping with the Big Mistake, when informed that only a minority performs one of these desired actions, people are reluctant to perform it themselves. However, if they learn that within the minority, more and more others are engaging in it, they jump on the bandwagon and begin enacting the behavior too. Let’s take as an example the study I am most familiar with—because I was a member of the research team. We invited university students to participate in an experiment in which some subjects read information indicating that only a minority of their fellow students conserved water at home. For another sample of our subjects, the information indicated that although only a minority of other students conserved water, the percentage doing so had been increasing over the past two years. Finally, there was a third sample of subjects (in our control condition), who didn’t get any information about water conservation.
+
+At this point, we were ready to test, secretly, how these three kinds of circumstances would affect our subjects’ water usage. All were asked to participate in a consumer-preference test of a new brand of toothpaste, which they were to rate after brushing their teeth at a sink in the laboratory. They didn’t know we had equipped the sink with a meter that recorded how much water they used while testing the new toothpaste.
+
+The results were clear. Compared to the control-condition subjects—who, remember, hadn’t received any information about the home water-conservation efforts of their fellow students—those who’d learned that only a minority of their peers tried to conserve, now used even more water; in fact, they used the most water of all. They could do the math, recognizing that if only a minority bothered to conserve, then the majority didn’t bother; so they followed the majority’s lead. But this pattern was reversed by the subjects who learned that, even though only a minority of peers conserved, the number who did conserve was increasing. So informed, these subjects used the least water of all while brushing their teeth.
+
+How can we make sense of this last finding? It seems to run counter to the studies we’ve covered showing people prefer to conform to the majority. Does it indicate that when a trend is visible, social proof is no longer all-powerful? Yes and no. Existing levels of social proof may no longer win, but another version of the concept may. Because we assume they will continue in the same direction, trends don’t just tell us where others’ behaviors have been and are now; we think they also tell us where others’ behaviors will be. Thus, trends give us access to a special and potent form of social proof—future social proof. When we asked the subjects in our study to predict the percentage of their colleagues who would conserve water at home over the next six years, only those who learned of the trend toward conservation predicted an increase. Indeed, many of these subjects predicted that by then, conservation would be the majority behavior.
+
+On the basis of these results, I no longer give my previous advice to individuals who have something new to offer that possesses limited current popularity. Rather than urging them away from the principle of social proof and toward one of the other principles, I ask if over a reasonable period of time, they have honest evidence of growing popularity. If yes, I recommend making that fact the central feature of their messaging—because, as their audiences will presume, such evidence will be an indicator of genuine worth and future popularity. If over that reasonable period of time, the answer is no, I ask them to rethink what they have to offer and, perhaps, change it significantly or step away from it altogether.15
+
+
+
+
+
+Defense
+
+
+I began this chapter with an account of a small restaurant-menu adjustment and moved on to descriptions of successful Bible sales tactics, and then to stories of murder and suicide—all explained by the principle of social proof. How can we expect to defend ourselves against a lever of influence that pervades such a vast range of behavior? The difficulty is compounded by the realization that most of the time, we don’t want to guard against the information that social proof provides. The evidence it offers about the way we should act is usually valid and valuable. With it, we can sail confidently through countless decisions without having to investigate the detailed pros and cons of each. In this sense, the principle equips us with a wonderful kind of autopilot device not unlike that aboard most aircraft.
+
+Yet there are occasional, but real, problems with autopilots. Those problems appear whenever the flight information locked into the control mechanism is wrong. In these instances, we will be taken off course. Depending on the size of the error, the consequences can be severe; but because the autopilot afforded by the principle of social proof is more often an ally than an antagonist, we can’t be expected to want simply to disconnect it. Thus, we are faced with a classic problem: how to make use of a piece of equipment that simultaneously benefits and imperils our welfare.
+
+Fortunately, there is a way out of the dilemma. Because the disadvantages of autopilots arise principally when incorrect data have been put into the control system, our best defense against these disadvantages is to recognize when the data are in error. If we can become sensitive to situations in which the social-proof autopilot is working with inaccurate information, we can disengage the mechanism and grasp the controls when necessary.
+
+
+
+
+
+Sabotage
+
+
+There are two types of situations in which incorrect data cause the principle of social proof to give us poor counsel. The first occurs when the social evidence has been purposely falsified. Invariably these situations are manufactured by exploiters intent on creating the impression—reality be damned—that a multitude is performing the way the exploiters want us to perform. The “sweetened” laughter of TV-comedy-show audiences is one variety of faked data of this sort, but there is a great deal more, and much of the fakery is detectible.
+
+Because autopilots can be engaged and disengaged at will, we can cruise along trusting in the course steered by the principle of social proof until we recognize that inaccurate data are being used. Then we can take the controls, make the necessary correction for the misinformation, and reset the autopilot. With no more cost than vigilance for counterfeit social evidence, we can protect ourselves. Recall, for instance, from the eBox in our first chapter that phony online product reviews have features that, together, allow us to spot them as fakes—lack of detail, a lot of first-person pronouns, and more verbs than nouns.
+
+There are additional sources of information we can use to protect ourselves. For instance, in 2019, the US Federal Trade Commission successfully charged the cosmetics company Sunday Riley Skincare with posting positive customer reviews of its products that were actually authored by its employees, who were pressured to do so by company leaders. The case was widely publicized in various media. We would do well to be attentive to news reports of such fabricated product reviews.
+
+Let’s take another example. A bit earlier, I noted the proliferation of average-person-on-the-street ads, in which a number of ordinary people are depicted as speaking glowingly of a product, often without knowing their words are being recorded. See a humorous example in figure 4.10. As would be expected according to the principle of social proof, these testimonials from “average people like you and me” make for quite effective advertising campaigns. They have always included a relatively subtle kind of distortion: we hear only from those who like the product; as a result, we get an acutely biased picture of the amount of social support for it.
+
+A cruder and more unethical sort of falsification can also appear. Commercial producers may not bother to get genuine testimonials, merely hiring actors, instead, to play the roles of average people testifying in an unrehearsed fashion to an interviewer. Sony Pictures Entertainment was caught arranging for employees to portray fans lauding the Sony film The Patriot for an ad that then aired on network TV. The employees’ boss excused the deceptive practice of hiring actors or employees for testimonials as “an industry standard,” not unique to Sony Pictures or even the entertainment business. A different version of this kind of fakery occurs when actors are hired to line up outside movie theaters or shops to simulate widespread interest. An illustration of how profiteers sometimes resort to contrived popularity for their products occurred at the launch of the first Apple iPhone in Poland. The advertising agency responsible for the Apple account admitted to falsifying social proof in favor of their client’s phone. How did they do it? According to a spokesperson, on the day of the launch, “We created fake queues [of paid actors] in front of twenty stores around the country to drum up interest.”
+
+
+
+Figure 4.10: Just your average Martian on the street (Consumers from Mars)
+
+Knight Ridder News Service
+
+
+I know that whenever I encounter or learn of an influence attempt of this sort, it sets off in me a kind of alarm with a clear directive: Attention! Attention! May be bad social proof in this situation. Temporarily disconnect autopilot. It’s easy to do. We need only make a conscious decision to be alert to evidence of biased social evidence. We can cruise along until the exploiters’ deception is spotted, at which time we can pounce.
+
+And we should pounce with a vengeance. I am speaking of more than simply ignoring the misinformation, although this defensive tactic is certainly called for. I am speaking of aggressive counterattack. Whenever possible, we ought to sting those responsible for the rigging of social evidence. We should purchase no products associated with biased “unrehearsed interview” commercials or artificial waiting lines. Moreover, each manufacturer of the items should receive a forceful comment on its website explaining our response and recommending that they discontinue use of the advertising or marketing agency that produced so deceptive a presentation of their product.
+
+Although we don’t always want to trust the actions of others to direct our conduct—especially in situations important enough to warrant our personal investigation of the pros and cons, or ones in which we are experts—we do want to be able to count on others’ behavior as a source of valid information in a wide range of settings. If we find in such settings we cannot trust the information to be valid because someone has tampered with the evidence, we ought to be ready to strike back. In such instances, I personally feel driven by more than an aversion to being duped. I bristle at the thought of being pushed into an unacceptable corner by those who would use one of my hedges against the decisional overload of modern life against me. And I get a genuine sense of righteousness by lashing out when they try. If you are like me—and many others like me—so should you.
+
+
+
+
+
+Looking Up
+
+
+In addition to the times when social proof is deliberately faked, there is another time when the principle will regularly steer us wrong. In such an instance, an innocent, natural error will produce snowballing social proof that pushes us to an incorrect decision. The pluralistic-ignorance phenomenon, in which everyone at an emergency sees no cause for alarm, is one example of this process.
+
+The best illustration I know, however, comes from Singapore, where a few years ago, for no good reason, customers of a local bank began drawing out their money in a frenzy. The run on this respected bank remained a mystery until much later, when researchers interviewing participants discovered its peculiar cause: An unexpected bus strike had created an abnormally large crowd waiting at the bus stop in front of the bank that day. Mistaking the gathering for a crush of customers poised to withdraw their funds from a failing bank, passersby panicked and got in line to withdraw their deposits, which led more passersby to do the same. Soon after opening its doors, the bank was forced to close to prevent a complete crash.
+
+This account provides certain insights into the way we respond to social proof. First, we seem to assume that if a lot of people are doing the same thing, they must know something we don’t. Especially when we are uncertain, we are willing to place an enormous amount of trust in the collective knowledge of the crowd. Second, quite frequently the crowd is mistaken because its members are not acting on the basis of any superior information but are reacting, themselves, to the principle of social proof.
+
+There is a lesson here: an autopilot device, like social proof, should never be trusted fully; even when no saboteur has slipped misinformation into the mechanism, it can sometimes go haywire by itself. We need to check the machine from time to time to be sure that it hasn’t worked itself out of sync with the other sources of evidence in the situation—the objective facts, our prior experiences, and our own judgments.
+
+Fortunately, this precaution requires neither much effort nor much time. A quick glance around is all that is needed. And this little precaution is well worth it. The consequences of single-minded reliance on social evidence can be frightening. For instance, a masterful analysis by aviation-safety researchers has uncovered an explanation for the misguided decisions of many pilots who crashed while attempting to land planes after weather conditions had become dangerous. The pilots hadn’t focused sufficiently on the mounting physical evidence for aborting a landing. Rather, they had focused too much on the mounting social evidence for attempting one—the fact that each in a line of prior pilots had landed safely.
+
+Certainly, a flier following a line of others would be wise to glance occasionally at the instrument panel and weather conditions outside the window. In the same way, we need to look up and around periodically whenever we are locked into the evidence of the crowd. Without this simple safeguard against misguided social proof, our outcomes might well run parallel to those of the unfortunate pilots and the Singapore bank: crash.16
+
+
+
+* * *
+
+
+
+
+
+READER’S REPORT 4.6
+
+From a former racetrack employee
+
+I became aware of one method of faking social evidence to one’s advantage while working at a racetrack. In order to lower the odds and make more money, some bettors are able to sway the public to bet on bad horses.
+
+Odds at a racetrack are based on where the money is being bet. The more money on a horse, the better the odds. Many people who play the horses have surprisingly little knowledge of racing or betting strategy. Thus, especially when they don’t know much about the horses in a particular race, a lot of times they’ll simply bet the favorite. Because tote boards display up-to-the-minute odds, the public can always tell who the current favorite is. The system that a high roller can use to alter the odds is actually quite simple. The guy has in mind a horse he feels has a good chance of winning. Next he chooses a horse that has long odds (say, 15 to 1) and doesn’t have a realistic chance to win. The minute the mutuel windows open, the guy puts down $100 on the inferior horse, creating an instant favorite whose odds on the board drop to about 2 to 1.
+
+Now the elements of social proof begin to work. People who are uncertain of how to bet the race look to the tote board to see which horse the early bettors have decided is a favorite, and they follow. A snowballing effect now occurs as other people continue to bet the favorite. At this point, the high roller can go back to the window and bet heavily on his true favorite, which will have better odds now because the “new favorite” has been pushed down the board. If the guy wins, the initial $100 investment will have been worth it many times over.
+
+I’ve seen this happen myself. I remember one time a person put down $100 on a pre-race 10 to 1 shot, making it the early favorite. The rumors started circulating around the track—the early bettors knew something. Next thing you know, everyone (myself included) was betting on this horse. It ended up running last and had a bad leg. Many people lost a lot of money. Somebody came out ahead, though. We’ll never know who. But he is the one with all the money. He understood the theory of social proof.
+
+
+Author’s note: Once again we can see that social proof is most telling for those who feel unfamiliar or unsure in a specific situation and who, consequently, must look outside of themselves for evidence of how best to behave there. In this case, we can see how profiteers will take advantage of the tendency.
+
+
+
+* * *
+
+
+
+
+
+SUMMARY
+
+
+
+
+* * *
+
+
+
+
+The principle of social proof states that one important means people use to decide what to believe or how to act in a situation is to examine what others are believing or doing there. Powerful such effects have been found among both children and adults and in such diverse activities as purchase decisions, charity donations, and phobia remission. The principle of social proof can be used to stimulate a person’s compliance with a request by communicating that many other individuals (the more, the better) are or have been complying with it. Therefore, simply pointing to the popularity of an item elevates its popularity.
+
+Social proof is most influential under three conditions. The first is uncertainty. When people are unsure, when the situation is ambiguous, they are more likely to attend to the actions of others and to accept those actions as correct. In ambiguous situations, for instance, the decisions of bystanders to offer emergency aid are much more influenced by the actions of other bystanders than when the situation is a clear-cut emergency.
+
+A second condition under which social proof is most influential involves “the many”: people are more inclined to follow the lead of others in proportion to the others’ number. When we see multiple others performing an action, we become willing to follow because the action appears to be more (1) correct/valid, (2) feasible, and (3) socially acceptable.
+
+The third optimizing condition for social-proof information is similarity. People conform to the beliefs and actions of comparable others, especially their peers—a phenomenon we can call peer-suasion. Evidence for the powerful influence of the actions of similar others can be seen in suicide statistics compiled by sociologist David Phillips. The statistics indicate that after highly publicized suicide stories, other troubled individuals, who are similar to the suicide-story victim, decide to kill themselves. An analysis of the mass-suicide incident at Jonestown, Guyana, suggests the group’s leader, Reverend Jim Jones, used both of the factors of uncertainty and similarity to induce a herdlike suicide response from the majority of the Jonestown population.
+
+The social-proof BIG MISTAKE many communicators make is to decry the frequency with which an unwanted behavior (drinking and driving, teen suicide, etc.) is performed, as a way to stop it. However, they don’t recognize that within the lament “Look at all the people who are doing this undesirable thing” lurks the undercutting message “Look at all the people who are doing it,” which can make it worse via the principle of social proof.
+
+When communicators are not able to use existing social proof because their idea, cause, or product does not have widespread support, they may be able to harness the power of future social proof by honestly describing trending support, which audiences expect to continue.
+
+Recommendations to reduce our susceptibility to faulty social proof include cultivating a sensitivity to counterfeit evidence of what similar others are doing and recognizing that the actions of similar others should not form the sole basis for our decisions.
+
+
+
+
+

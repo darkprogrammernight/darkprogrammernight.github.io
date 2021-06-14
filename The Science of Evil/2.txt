@@ -1,0 +1,233 @@
+2
+
+The Empathy Mechanism: The Bell Curve
+
+Unempathic acts are simply the tail end of a bell curve, found in every population on the planet. If we want to replace the term “evil” with the term “empathy,” we have to understand empathy closely.
+
+The key idea is that we all lie somewhere on an empathy spectrum (from high to low). People said to be evil or cruel are simply at one extreme of the empathy spectrum. We can all be lined up along this spectrum of individual differences based on how much empathy we have. In this chapter we begin the search to understand why some people have more or less empathy. We need to understand the empathy bell curve both to get underneath the surface of this mysterious, powerful substance, empathy, and because at one end of this spectrum we find “zero degrees of empathy.”
+
+But first we need a definition of empathy. There are lots of ways to define it, but here’s how mine begins: Empathy occurs when we suspend our single-minded focus of attention and instead adopt a double-minded focus of attention.
+
+“Single-minded” attention means we are thinking only about our own mind, our current thoughts or perceptions. “Double-minded” attention means we are keeping in mind someone else’s mind at the very same time. This immediately gives a clue to what empathy entails. When empathy is switched off, we think only about our own interests. When empathy is switched on, we focus on other people’s interests too. Sometimes attention is compared to a spotlight, so this new definition of empathy suggests our attention can either be a single spotlight (shining through the darkness on our own interests) or it can be accompanied by a second spotlight (shining on someone else’s interests).
+
+But the definition of empathy doesn’t stop there. This first part of the definition merely delineates the form that empathy takes (the dual focus). It also hints at the kind of mechanism in the brain that empathy requires: A separation of how we reflect on two minds at once (self and other).a We’re going to look at empathy in the brain later in this chapter. But so far my definition ignores the process and the content of what happens during empathy. So we can extend the definition of empathy as follows: Empathy is our ability to identify what someone else is thinking or feeling and to respond to their thoughts and feelings with an appropriate emotion.
+
+This suggests there are at least two stages in empathy: recognition and response. Both are needed, since if you have the former without the latter you haven’t empathized at all. If I can see in your face that you are struggling to lift your suitcase onto the overhead rack on the train and I just sit there and watch, then I have failed to respond to your feelings (of frustration). Empathy therefore requires not only that you can identify another person’s feelings and thoughts, but that you respond to these with an appropriate emotion.b Later in the book I’ll be introducing you to people with particular medical conditions in which one or both of these components of empathy are missing or fail to develop normally.
+
+When that second spotlight is working, and you are able to both recognize and respond, you can not only ask someone how they are feeling, you can sensitively avoid hurting their feelings, think about how to make them feel good, and consider how everything you say or do impacts on them or others. When they tell you how they are, you can follow up not just on what they say, but also on how they say it—reading their face as if it transparently reflects their inner thoughts and feelings. If they are suffering to any degree, you just know to offer comfort and sympathy.
+
+But if your attention has a single focus—your current interest, goal, wish, or plan—with no reference to another person’s thoughts and feelings, then your empathy is effectively switched off. It might be switched off because your attention is elsewhere, a transient fluctuation in your state. For example, if you are rummaging frenetically through your belongings looking for something, your attention might be focused solely on your own current goal of urgently finding something. At that moment you might have lost sight of another person, or at least lost sight of their feelings. In such a state of one-sidedness, the other person—or their feelings—no longer exists. All that matters is solving your immediate problem: finding the object, fixing something, achieving whatever is on your mind. If someone interrupted you to ask what you were doing, your narrative would be one-sided: a report of your own current preoccupation. The language you would use to describe this state would be totally self-focused.
+
+In this book we encounter people who are imprisoned in their own self-focus. Imprisoned, because for them it is not a temporary state of mind after which their empathy can recover. For them, a self-focus is all that is available to them, as if a chip in their neural computer were missing. A temporary fluctuation in one’s empathy is potentially rescuable. An enduring lack of empathy, as a stable trait, potentially is not.
+
+Being able to empathize means being able to understand accurately the other person’s position, to identify with “where they are at.” It means being able to find solutions to what might otherwise be a deadlock between incompatible goals. Empathy makes the other person feel valued, enabling them to feel that their thoughts and feelings have been heard, acknowledged, and respected. Empathy allows you to make a close friend and to look after the friendship. Empathy avoids any risk of misunderstandings or miscommunication, by figuring out what the other person might have intended. It allows you to avoid causing offense by anticipating how things will be experienced by an-other mind different from your own. Just because you thought your actions or words were harmless fun doesn’t mean the other person will receive them in the same way. Although this book mostly focuses on the negative sides of too little empathy, it is vital to keep in mind these positive benefits of average—or even superior—levels of empathy.
+
+
+
+Figure 3: The Empathy Bell Curve
+
+My definition of empathy so far presumes it is either present or absent. When our attention lapses into single focus, empathy has been turned off. When we shift our attention to dual focus, empathy has been turned back on. This portrait of empathy is a binary operation (off or on), like a lightbulb in the head. In reality, empathy is more like a dimmer switch than an all-or-none switch. In science, dimmer switches suggest a spectrum or a quantitative scale, from low to medium to high. On this quantitative view, empathy varies in the population. Now imagine we had a way of measuring empathy (there are such instruments, so this is not idle science fiction) so that we could assign everyone an empathy score. The result is the familiar bell-shaped curve, or normal distribution, shown in Figure 3.
+
+In this figure we see that some people are high in empathy, some medium, and some low. I am going to argue that some people are at the low end of this empathy dimension in a potentially permanent way, and that some (but not all) of those at this extreme end are whom we might call “evil” or cruel. That is, they never had much empathy and they may never. Others may be at the low end of the empathy dimension because they experienced a transient shutting down of their empathy as a result of their current situation. That is, they had empathy and lost it, however briefly. But however you get to this low point on the empathy scale, the result can be the same. At that point you become capable of dehumanizing other people, of turning other people into objects, and this can have tragic consequences.
+
+To turn to the key question of what determines whether a person is high, medium, or low in empathy, we need an empirical, scientific study of empathy. And the start of any empirical study is measurement.
+
+
+
+
+
+Measuring Empathy
+
+
+As part of our research into the nature of empathy, my colleagues (Sally Wheelwright, Bonnie Auyeung, and Carrie Allison) and I developed a scale with which to measure empathy across the age range. Working with this creative team was fun. The Adult Version of the Empathy Quotient (EQ)
+
+1. I can easily tell if someone else wants to enter a conversation.
+
+2. I find it difficult to explain to others things that I understand easily, when they don’t understand it the first time.
+
+3. I really enjoy caring for other people.
+
+4. I find it hard to know what to do in a social situation.
+
+5. People often tell me that I went too far in driving my point home in a discussion.
+
+6. It doesn’t bother me too much if I am late meeting a friend.
+
+7. Friendships and relationships are just too difficult, so I tend not to bother with them.
+
+8. I often find it difficult to judge if someone is rude or polite.
+
+9. In a conversation, I tend to focus on my own thoughts rather than on what my listener might be thinking.
+
+10. When I was a child, I enjoyed cutting up worms to see what would happen.
+
+If you agree with items 1 and 3, this would get you two EQ points. If you disagree with item 2 and items 4–10, this would give you a total of 10 EQ points. In this case, the higher your score, the higher your empathy.
+
+
+
+We found that the main empathy test being used in psychological research was arguably not a pure measure of empathy,c so we devised our own scale, called the Empathy Quotient (or EQ). We designed it to have questions related to each of the two main components of empathy (the recognition and the response). It works well in that it distinguishes people who have an empathy difficulty from those who do not.12 Ten examples (out of forty) from the EQ are shown above (the full version is in Appendix 1).
+
+The adult version of the EQ depends on self-report. It works well in large samples of people and reveals, for example, that students working in the humanities score slightly higher on the EQ than students working in the sciences and that females in the general population score slightly higher on the EQ than males.13,14 Most importantly, the EQ produces that empathy bell curve that we expected to find in the population.
+
+Relying on self-report could be problematic, since a person might believe they are much more empathetic than they really are. This is because someone with poor empathy is often the last person to realize they have poor empathy. It just goes with the territory: As you lose your empathy, you may also lose your awareness that you have poor empathy. This is because double-mindedness is built into the very nature of empathy. Double-mindedness can be used not just to think about how others feel or what they might be thinking, but also to think about how you may be perceived by others. Imagining yourself from another person’s vantage point is what we mean by self-awareness. When I meet someone with very little empathy, it is as if they lack the very apparatus to look inwards at themselves, as if they lack a reverse periscope that would enable any vision of themselves.
+
+Worries about whether some people might not fill in their EQ accurately are probably unimportant because with large samples of data, occasional inaccuracies are canceled out. We went on to develop a child version of the EQ, filled in by the parent. Just as we found with the adult version of the EQ, on average girls have a slightly higher EQ than boys. 15 (Both versions of the EQ are in Appendix 1.) So the EQ enables us to visualize who is high, medium, or low in empathy. We meet some extremely low scorers in the next chapter, but before that I want to give some feel of the range of individual differences in EQ.
+
+
+
+
+
+The Empathizing Mechanism
+
+
+Imagine there is a circuit in the brain—the empathy circuit—that determines how much empathy each of us has. Let’s call it the Empathizing Mechanism. From the EQ we can discern that the Empathizing Mechanism has seven likely settings.d These are broad bands, and we may move around a little within a band from one day to another due to the transient fluctuations in our empathy. But which band we are in is broadly fixed.
+
+At Level 0, an individual has no empathy at all. In Chapter 3 we meet individuals who are this level and who wind up in clinics voluntarily seeking a diagnosis or who have been compulsorily detained (as we say in England, “at Her Majesty’s pleasure”) because they have gotten in trouble with the law or have had a diagnosis imposed on them. At Level 0 some people become capable of committing crimes, including murder, assault, torture, and rape. Fortunately, not all people at Level 0 do cruel things to others since others at this level just find relationships very difficult but have no wish to harm others. For others at Level 0, even when it is pointed out to them that they have hurt another person, this means nothing to them. They cannot experience remorse or guilt because they just don’t understand what the other person is feeling. This is the ultimate extreme: zero degrees of empathy.
+
+At Level 1, a person may still be capable of hurting others, but they can reflect on what they have done to some extent and show regret. It’s just that at the time they can’t stop themselves. Clearly, empathy is not having a sufficient brake on their behavior. For individuals at this level, a part of the brain’s empathy circuit “goes down” that would normally enable them to inhibit themselves from hurting others physically. Under certain conditions the person may be able to show a degree of empathy, but if their violent temper is triggered, they may report that their judgment becomes completely clouded or that they “see red.” At that moment other people’s feelings are no longer on their radar. What is frightening is how this breakdown in the empathy circuit can leave the individual capable of extreme violence. At the moment of the assault, the urge to attack and destroy may be so overwhelming that there are no limits to what the person could do and their victim is at that moment simply an object to be vanquished or removed.
+
+At Level 2, a person still has major difficulties with empathy, but they have enough to have a glimmering of how another person would feel for this to inhibit any physical aggression. This may not stop them shouting at others, or saying hurtful things to others, but they have enough empathy to realize they have done something wrong when another person’s feelings are hurt. However, they typically need the feedback from that person, or from a bystander, to realize that they have over-stepped the mark. Anticipating another person’s feelings in subtle ways just does not come naturally to them. A person at Level 2 therefore blunders through life, saying all the wrong things (e.g., “You’ve put on weight!”) or doing the wrong things (e.g., invading another person’s “personal space”). They are constantly getting into trouble for these faux pas, at work or at home, perhaps losing their job or their friends because of it, yet are mystified as to what they are doing wrong.
+
+At Level 3, a person knows they have difficulty with empathy and may try to mask or compensate for this, perhaps avoiding jobs or relationships where there are constant demands on their empathy; making the effort to “pretend to be normal” can be exhausting and stressful.16 They may avoid others at work because social interaction is so hard, and just keep their head down and do their work in the hope that this doesn’t bring them into contact with too many other people. They may realize they just don’t understand jokes that everyone else does, that other people’s facial expressions are hard to read, and that they are never quite sure what’s expected of them. Small talk, chatting, and conversation may be a nightmare for someone at this level, because there are no rules for how to do it and it is all so unpredictable. When they get home, the relief (that comes from no longer having to “fake” being like everyone else) is huge: They just want to be alone, to be themselves.
+
+At Level 4, a person has a low-average amount of empathy. Most of the time their slightly blunted empathy does not affect their everyday behavior, though people with this level of empathy may feel more comfortable when the conversation shifts to topics other than the emotions. More men than women are at Level 4, preferring to solve problems by doing something practical or offering to fix something technical rather than having prolonged discussions about feelings.17 Friendships may be based more on shared activities and interests than on emotional intimacy, though they are no less enjoyable or weaker because of this.
+
+At Level 5, individuals are marginally above average in empathy, and more women than men are at this level. Here, friendships may be based more on emotional intimacy, sharing of confidences, mutual support, and expressions of compassion. Although people at Level 5 are not constantly thinking about other’s feelings, others are nevertheless on their radar a lot of the time, such that they are far more careful in how they interact at work or at home. They hold back from asserting their opinion so as not to dominate or intrude. They do not rush to make unilateral decisions so that they can consult and take into account a range of perspectives. They take their time with others even if they have lots of other things to do because they want to find out (sensitively and indirectly) how the other person is and what’s on their mind, information that is better gleaned by chatting about a range of topics rather than being extracted by direct interrogation.
+
+At Level 6, we meet individuals with remarkable empathy who are continually focused on other people’s feelings, and go out of their way to check on these and to be supportive. It is as if their empathy is in a constant state of hyperarousal, such that other people are never off their radar. Rather than try to describe this type, let me give you a sketch of one such person: Hannah is a psychotherapist who has a natural gift for tuning into how others are feeling. As soon as you walk into her living room, she is already reading your face, your gait, your posture. The first thing she asks you is “How are you?” but this is no perfunctory platitude. Her intonation—even before you have taken off your coat—suggests an invitation to confide, to disclose, to share. Even if you just answer with a short phrase, your tone of voice reveals to her your inner emotional state, and she quickly follows up your answer with “You sound a bit sad. What’s happened to upset you?”
+
+Before you know it, you are opening up to this wonderful listener, who interjects only to offer sounds of comfort and concern, to mirror how you feel, occasionally offering soothing words to boost you and make you feel valued. Hannah is not doing this because it is her job to do so. She is like this with her clients, her friends, and even people she has only just met. Hannah’s friends feel cared for by her, and her friendships are built around sharing confidences and offering mutual support. She has an unstoppable drive to empathize.e
+
+
+
+
+
+The Empathy Circuit
+
+
+What leads an individual’s Empathizing Mechanism to be set at different levels? The most immediate answer is that it depends on the functioning of a special circuit in the brain, the empathy circuit. In this chapter we take a tour of the empathy circuit, and in the next chapter we see how this circuit is underactive in those people who commit acts of cruelty and in those who struggle to empathize.
+
+
+
+Figure 4: Regions in Empathy Circuit (produced by Mike Lombardo, with thanks)
+
+Thanks to functional magnetic resonance imaging (fMRI), scientists are getting a clear picture of the brain areas that play a central role when we empathize. There is a consensus in neuroscience that at least ten interconnected brain regions are involved in empathy (and more may await discovery).19 They are shown in Figure 4, and I am going to take you through each of them briefly. The names of each of these regions in the empathy circuit can seem alien on first reading, but with a little familiarity they become like old friends! There have been some imaginative experiments using neuroimaging to reveal the different parts of the empathy circuit.
+
+
+
+
+
+The Medial Prefrontal Cortex
+
+
+The first region in the empathy circuit is the medial prefrontal cortex (MPFC), which is thought of as a hub for social information processing and is important for comparing your own perspective to someone else’s.20–22 The MPFC divides into a dorsal part (dMPFC) and a ventral part (vMPFC). The dMPFC is involved in thinking about other people’s thoughts and feelings (sometimes called “metarepresentation”),20,23 as well as when we think about our own thoughts and feelings.21,24 In contrast, the vMPFC is used when you think about your own mind more than someone else’s. My talented former doctoral student Mike Lombardo, on the basis of his own and other’s work, argues that the vMPFC seems to play a key role in self-awareness.21,25–27
+
+But that’s not all this brain region does. Neuroscientist Antonio Damasio at Iowa University has put forward the theory that the vMPFC stores information about the emotional valence of a course of action. If an action is rewarding, it is emotionally positive, whereas if an action is punishing, it is emotionally negative. He calls this a “somatic marker” and suggests we have such a marker for every action we make and that only actions with positively valenced somatic markers will be repeated. His evidence is that patients with damage in the vMPFC show less autonomic response (less of a change in heartbeat, for example) when shown images of distressing scenes (such as disasters and mutilation).f,28 Further evidence that the vMPFC marks emotional valence is that it is involved in positive or optimistic thinking and that when the vMPFC is stimulated, depressed people feel less negative.29,30
+
+Phineas Gage (1823–1860), one of the most famous cases from the field of neuropsychology, inadvertently added to the evidence that the vMPFC is involved in the empathy circuit. Phineas was a railroad construction foreman who survived an accident of an iron rod being driven through his brain. Arguably, the main consequence of the accident (he lived for another twelve years) was that he lost his empathy.g Here’s how it happened. On September 13, 1848, at age twenty-five, Phineas was working on the railroad, blasting rock in Vermont. His job was to add gunpowder and a fuse and press the gunpowder down into a hole using an iron rod. The gunpowder exploded unexpectedly, driving the rod up through the side of his face, behind his left eye, and exiting his skull. Remarkably, he sat up in the cart as they drove him to the hospital, conscious and talking. In the years that followed, the main change others noticed in Phineas was that, whereas previously he had been a polite individual, now he was childish, irreverent, and rude, uttering profanities and showing no social inhibition. He had lost his empathy.h More than a century later, neuroscientist Hanna Damasio and colleagues obtained his preserved skull and using modern neuroimaging calculated that the rod must have damaged his vMPFC.31,32,34,35 We are going to see how the vMPFC and other regions in the empathy circuit are underactive in people with low empathy. But first we need to map the different parts of the circuit.
+
+
+
+
+
+The Orbito-frontal Cortex
+
+
+The vMPFC overlaps with what is sometimes called the orbitofrontal cortex (OFC). Back in 1994 my colleague Howard Ring and I were the first to identify the OFC as part of the empathy circuit; we found that when people were asked to judge which words on a list described what the mind could do, the OFC was specifically activated.36 The list contained words such as think, pretend, and believe as well as jump, walk, and eat. Later my colleague Valerie Stone and I found that patients with damage in the OFC had difficulty judging when a faux pas had occurred, an indicator of difficulties with empathy.37 Damage to the OFC can also lead to patients losing their social judgment, becoming socially disinhibited. In addition, when a person sees a needle going into a normal (but not an anesthetized) hand, the OFC is active, suggesting this part of the empathy circuit is involved in judging whether something is painful or not.38
+
+
+
+
+
+The Frontal Operculum
+
+
+Adjacent to this area is the frontal operculum (FO), which is part of the empathy circuit and the language circuit as well because it contains an area involved in the expression of language. Damage to this area can therefore result in difficulties producing fluent speech (also called Broca’s aphasia, in which the person can understand sentences but not express themselves in full sentences). Its relevance to empathy comes from the idea that the FO is equivalent to an area in the monkey brain involved in coding other animals’ intentions and goals.39 That is, when a monkey (with a deep electrode in its brain) sees another monkey reaching for an object, cells in the FO increase in its electrical activity, and the same cells fire when the monkey reaches for an object itself.
+
+
+
+
+
+The Inferior Frontal Gyrus
+
+
+The FO sits above a larger area called the inferior frontal gyrus (IFG). Damage to this region can produce difficulties in emotion recognition.33 Another of my talented former PhD students, Bhismadev Chakrabarti, got people to fill in the Empathy Quotient and then had them lie still in the brain scanner while they looked at happy facial expressions. Some examples of the faces they had to look at are shown in Figure 5. Bhisma had a hunch that the IFG would play a key role, and it was a very testable hypothesis. To test this, Bhisma used the fMRI scanner to establish which brain regions responded to each of four “basic” emotions (happy, sad, angry, and disgusted).
+
+I always smile when I see these images because the one on the top left is my daughter, Kate, when she was just nine years old. (She’s meant to be looking happy, which can’t really be said of the other three.) Bhisma found that disgust is mostly processed in the anterior insula, happy is mostly processed in the ventral striatum, anger in the supplementary motor cortex, and sad in a number of regions, including the hypothalamus.40,41 He then looked to see if there was any region in the brain that consistently correlated with EQ regardless of the emotion the person was viewing. The IFG fit the bill. The better your empathy is, the more active is your IFG when you are looking at emotional faces.
+
+
+
+Figure 5: Examples of happy, disgusted, sad, and angry faces
+
+
+
+
+
+The Caudal Anterior Cingulate Cortex and the Anterior Insula
+
+
+Going deeper into the cortex we find the caudal anterior cingulate cortex (cACC), also called the middle cingulate cortex (MCC). The cACC/MCC is involved in empathy because it is activated as part of the “pain matrix.” This region is active not only when you experience pain but also when you are observing others in pain.42 Then we come to the anterior insula (AI), which plays a role in bodily aspects of self-awareness, itself closely tied to empathy.43 Using fMRI, Zurich neuroscientist Tania Singer and her colleagues found that when a person received a painful stimulus on their own hand or when their partner did, the AI and the cACC/MCC were activated whether you are experiencing your own pain or perceiving your loved one’s pain.44 Chicago neuroscientist Jean Decety and colleagues also showed that if you watch someone’s hand being caught in a door, the AI and cACC/MCC are also activated.45 This activation is modulated by the extent to which you are imagining yourself as that other person.46 The AI is also active when you experience a disgusting taste or see someone else showing disgust, again suggesting this is the part of the brain that allows identification with another person’s emotional state.47
+
+Tania Singer also looked at the brain when a person is judging if another person is playing fairly. She found that both men and women activate their cACC/MCC and AI when they see someone in pain whom they regard as fair and like. Interestingly, men on average showed less activity in this part of the empathy circuit when they see someone in pain whom they regard as unfair or who they do not like.48 It is as if men find it easier to switch off their empathy for those who might be competitors, or who they judge are out of line, or with whom they have no vested interest in remaining in a relationship. The cACC/MCC and AI are also clearly involved in the experience and recognition of a range of emotions, from happiness to disgust and pain, 44,47,49–51 and damage to these regions can interfere with the ability to recognize such emotions. For all these reasons, these are key parts of the empathy circuit.
+
+
+
+
+
+The Temporoparietal Junction
+
+
+The temporoparietal junction (TPJ) on the right side (RTPJ) has been found to play a key role in empathy, particularly when judging someone else’s intentions and beliefs.52 This is more relevant to the recognition element of empathy, or to what is sometimes called a “theory of mind.” We use our theory of mind when we try to imagine someone else’s thoughts. Damage to the TPJ can lead not only to difficulties in judging someone’s intentions but also to out-of-body experiences,53 while stimulation of the RTPJ can produce the eerie experience that someone else is present when there’s no one else with you.54 These abnormalities suggest the RTPJ is involved in monitoring self and monitoring others, though the RTPJ may also be involved in nonsocial functions (such as attention-switching).55,56
+
+
+
+
+
+The Superior Temporal Sulcus
+
+
+Adjacent to the RTPJ is the posterior superior temporal sulcus (pSTS), which has been linked to the empathy circuit for many years, since animal research revealed that cells in the STS respond when the animal is monitoring the direction of someone else’s gaze.57 In addition, damage to the STS can disrupt a person’s ability to judge where someone else is looking.58 Clearly, we look at another person’s eyes not just to see where that person is looking but also what they might be feeling about what they are looking at.59 The STS is also involved in observing biological motion (animate, self-propelled kinds of movements that living creatures make).60
+
+
+
+
+
+The Somatosensory Cortex
+
+
+Next up in the empathy circuit is the somatosensory cortex, which is not only involved in coding when you are having a tactile experience but is also activated just by observation of others being touched.61–65,i In addition to being involved in sensory experience (as its name suggests), the somatosensory cortex is activated when we watch a needle piercing someone else’s hand;j this is also seen using fMRI.47,67 This strongly suggests that we react in a very sensory way when we identify with someone else’s distress. This clear brain response is telling us that even without any conscious decision to do so, we must be putting ourselves in the other person’s shoes, not just to imagine how we would feel in their situation, but actually feeling it as if it had been our own sensation. No wonder we wince involuntarily when we see someone else get hurt. Of course, not everyone will have this strong empathic response to such emotionally charged situations. If our somatosensory cortex is damaged or temporary disrupted, our ability to recognize other people’s emotions is significantly diminished.68,69 Surgeons may, for example, be well suited to their job precisely because they don’t have this emotional reaction, a prediction confirmed by Yawei Cheng, who found that physicians who practice acupuncture show less somatosensory cortex activity while watching pictures of body parts being pricked by needles.70
+
+
+
+
+
+The Inferior Parietal Lobule and the Inferior Parietal Sulcus
+
+
+The FO/IFG connects to the inferior parietal lobule (IPL), and these are both interesting because they are part of the “mirror neuron system”—those parts of the brain that are active when you perform an action and when you observe someone else performing the same action. Italian neuroscientists led by Giacomo Rizzolatti at the University of Parma first demonstrated the existence of mirror neurons in primates by placing electrodes into parts of the brain to record nerve cells that fire not only when the animal is performing an action but also when the animal sees another animal performing the same action.71 If the IFG is part of the human mirror neuron system, this suggests empathy involves some form of mirroring of other people’s actions and emotions.49,72 The mirror neuron system in humans is hard to measure, obviously because it is unethical to place electrodes into an awake human healthy brain.k But using fMRI, scientists can see that the system appears to span the IFG, the IPL, and the inferior parietal sulcus (IPS) (just posterior to the IPL). Interestingly, an extension of this idea of a mirror neuron is neurons that fire to the direction of one’s gaze. IPS neurons in a monkey fire not only when a monkey looks in a specific direction, but also when the monkey sees another person (or monkey) looking in that same direction.74
+
+As an aside, some people are quick to assume that mirror neurons alone can be equated with empathy, but we should keep in mind that the mirror neuron system has been verified only in single cell recordings for the domain of actions and may simply be building blocks for empathy. For example, the mirror neuron system is involved in mimicry, as happens when you are feeding an infant and as they open their mouth, you involuntarily open your own or when someone else yawns and you involuntarily do too. Such mirroring of another’s actions typically occurs without consciously thinking about the other person’s emotional state. This effect is what some social psychologists call “the chameleon effect.”75
+
+It has also been suggested that emotional contagion is a form of empathy, as happens when one person shows fear and others (witnessing their facial expression) “catch” the same feeling of fear or when one baby cries in a maternity ward and triggers other babies to start crying. Again, one can imagine this type of contagion happening without needing to think consciously about another’s feelings. As I indicated earlier in the chapter, I reserve the term empathy for more than these rather simple phenomena. Empathy seems to be more than just this automatic mirroring. Both the automatic mirroring systems and the more conscious neural systems involved in explicit understanding of mental states interact with each other.25,76,77
+
+
+
+
+
+The Amygdala
+
+
+The last region (but in many ways the jewel in the crown) in the empathy circuit is the amygdala, situated beneath the cortex in the limbic system. It is involved in emotional learning and regulation.78,79 NYU neuroscientist Joseph LeDoux situates the amygdala at the center of the “emotional brain” because of his extensive studies into how we learn to fear something.80,l (His fascination with the amygdala and his love of music prompted him to form a band called the Amygdaloids!)m I had the pleasure of meeting Joe when he visited Cambridge in 2009. A key piece of evidence for the role of the amygdala in empathy came from a study we carried out back in 1999 when we asked people, while lying in the fMRI scanner, to look at pictures of other people’s eyes and make judgments about their emotions and mental states. One brain region that was clearly activated was the amygdala.83 Another clue that the amygdala is part of the empathy circuit comes from a famous neurological patient, known by her initials SM. She has very specific damage to both of her two amygdalae (we all have one in each hemisphere). Despite having good intelligence, her main difficulty is not being able to recognize fearful emotions in others’ faces.84 This difficulty SM has in recognizing fearful faces is related to the fact that the eyes are critical for recognizing fear in someone’s face. SM’s damage in the amygdala affects her ability to make eye contact, which is why she has difficulty in recognizing fearful faces.85 We know this because, when directed to attend to the eyes, she regains the ability to recognize fearful faces.86 SM reminds us how key the amygdala is in cueing us to attend to the eyes, which gives us clues to other people’s thoughts and emotions.
+
+
+
+
+
+This completes our brief tour of the ten major brain regions involved in empathy.n Many of the regions involved in automatically coding our own experience are also automatically active when we perceive others acting or having similar experiences.o Similarly, the regions involved in consciously thinking about someone else’s mind are also active when we think about our own minds.p These regions allow us to talk about an empathy circuit in the brain. As a circuit these ten way stations are not connected in any simple linear fashion (like pearls in a necklace) because there are multiple connections between regions too. Finding that these regions vary in activity in different individuals according to their particular level of empathy takes us back to the idea of empathy varying like a dimmer switch and gives us a direct way of explaining people who have little or no empathy. 77 What we should expect is that someone who is way down the empathy bell curve should show far less neural activity in parts or all of the empathy circuit. We will look at precisely this prediction shortly.
+
+So have we got any closer to explaining how people can be cruel to others? Can we now use empathy instead of evil as the explanatory term? Not yet. So far all we have is some evidence that people can score very low on the EQ, and we now have a list of brain regions whose functioning determines how much empathy a person will show. But this is not yet a satisfying explanation for several reasons. First, we need proof that these regions “go down” in people who commit acts of cruelty toward others. Second, we need a clearer portrait of what people are like who score super-low on the EQ. Third, we need to know if there are different routes to arriving at zero degrees of empathy. Finally, we need to know what the environmental or biological factors are that can cause the empathy circuit in the brain to malfunction. If we can describe how this happens, we will have solved our quest to explain the extremes of human cruelty.
+
+
+
+
+

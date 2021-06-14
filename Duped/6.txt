@@ -1,0 +1,300 @@
+
+6
+Truth-Default Theory Summarized
+This chapter provides an outline of Truth-Default Theory (TDT).1 After a
+brief introduction, key concepts and terms are defined. My goal is to provide a
+basic glossary for the ideas that populate TDT. Next, each of TDT’s modules is
+listed and very briefly summarized. After the annotated modules, the propositions that constitute the key predictions and logical structure of the theory are
+listed. The propositions weave together TDT’s modules, showing how they fit
+together to create the larger theoretical picture.
+Each of the modules, all the propositions, and all of my research providing
+evidence for TDT will be more fully described in chapters 9 through 14. This
+chapter is an executive summary and an overview of the logic and structure.
+Outlining the ideas before I get to the detail will assist readers in seeing the
+bigger picture and the flow of the logic as the book progresses. Readers who
+find the lists tiresome or tedious can just skip ahead to chapter 7, which returns to the voice and style of the previous chapters. I encourage readers to
+come back and reread this chapter after reading through chapter 14. The structure and style of this chapter may then be more appreciated. Chapter 15 provides a retrospective rather than a summary.
+Because this chapter diverts in style from the rest of book by providing what
+amounts to a series of lists, an explanation is needed. The point of this book
+is to provide needed integration. Most of the bullet points in this chapter require a paragraph, a page, or even more of explanation to really unpack. The
+rest of the book does this. But what is also needed is a succinct way to bring it
+all together in one place. TDT has a flow and a logic that easily get lost among
+the details and explication. Seeing the theory in outline, I believe, is the best
+way to provide the integration and flow I want to convey. It also helps, I think,
+to be clear about the terminology up front.
+
+94
+
+CHAPTER SIX
+
+INTRODUCING TDT
+At the core of TDT is the idea of the truth-default. When we humans communicate with other humans, we tend to operate on a default presumption that
+what the other person says is honest. This presumption of honesty is highly
+adaptive. The truth-default enables efficient communication, and this presumption of honesty makes sense because most communication is honest
+most of the time. However, the presumption of honesty makes humans vulnerable to occasional deceit. A key insight of TDT is that this trade-off is more
+than worth it. What we gain in terms of efficient communication and social
+functioning is far more valuable than the cost of being deceived on occasion.
+Further, there are times and situations when people abandon their presumption of honesty. TDT describes when people are expected to suspect a lie, the
+conditions under which people conclude that a lie has been told, and the conditions under which people make lie judgments correctly and incorrectly.
+TDT Core Concepts and Definitions
+The following terms describe the main constructs that populate TDT. Brief
+definitions are provided for each term.
+• Deception is intentionally, knowingly, or purposefully misleading another person.2
+• A lie is a subtype of deception that involves outright falsehood, which
+is consciously known to be false by the teller and is not signaled as
+false to the message recipient.3
+• Honest communication lacks deceptive purpose, intent, or awareness.
+Honest communication need not be fully accurate or true, or involve
+full disclosure of known information.
+• The truth–lie base-rate refers to the proportion of any set of messages
+that are honest and deceptive. It is the relative prevalence of deception and nondeception in some defined environment or collection of
+communicative acts.
+• Truth-bias is the tendency to believe that another person’s communication is honest independent of actual honesty.
+• The truth-default involves a passive presumption of honesty due to a
+failure to actively consider the possibility of deceit at all or as a fallback cognitive state after a failure to obtain sufficient affirmative
+evidence for deception.
+• Honesty judgment involves the belief state that a communication is
+
+TRUTH-DEFAULT THEORY SUMMARIZED
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+•
+•
+
+honest. Honesty judgments can be passive (truth-default), stemming
+from a failure to consider the possibility of deceit; a reversion to
+truth-default stemming from a failure meet the threshold for a deception judgment; or active decisions based on exculpatory
+evidence.
+Deception judgment is an inference that a communication is deceptive or a lie. Unlike honesty judgments, most deception judgments
+are active and have an evidentiary or reasoned basis.
+Demeanor refers to a constellation of intercorrelated behaviors or
+cues, which function as a gestalt, relating to how people present
+themselves, the image they convey to others, and how they are perceived by others.
+Honest demeanor, a subtype of demeanor, is the tendency for a
+person to be seen as honest independent of actual honesty. People
+vary in the extent to which they have an honest demeanor.
+Suspicion is a state of suspended judgment and uncertainty regard
+ing the honesty or deceptive nature of a communication. It is an
+intermediate cognitive state between the passive truth-default and a
+firm judgment of deceit.
+Communication content refers to the substance of what is said and
+can be contrasted with demeanor, which also involves how something is said.
+Communication context refers to the situation in which the communication occurs, the situation(s) relevant to understanding the communication content, and to the communication event as a whole.
+Understanding communication content often requires knowledge of
+context, and communication content presented without its context
+can be misleading or uninformative.
+Transparency refers to the extent to which the honest and/or deceptive nature of some communication is apparent to others.
+Diagnostically useful information refers to the extent to which information can be used to arrive at a correct inference about the honest
+and/or deceptive nature of some communication.
+Coherence involves the logical consistency of communication content.
+Correspondence involves the consistency between communication
+content and external evidence or knowledge.
+Deception detection accuracy refers to correctly distinguishing between
+honest and deceptive communication.
+
+95
+
+96
+
+CHAPTER SIX
+
+TDT MODULES
+TDT is a modular theory. The modules are various minitheories, models, effects, and hypotheses that can stand alone. They can be understood without
+reference to larger theory. Empirical support or disconfirmation for one module does not imply support or disconfirmation of another module. The modules discussed in the following chapters are:
+• A Few Prolific Liars (or “outliars”; chapter 9)—The prevalence of
+lying is not normally or evenly distributed across the population. Instead, most people lie infrequently. Most people are honest most of
+time. There are a few people, however, who lie often. Most lies are
+told by a few prolific liars.
+• Deception Motives (chapter 10)—People lie for a reason, but the
+motives behind truthful and deceptive communication are the same.
+When the truth is consistent with a person’s goals, he or she will almost always communicate honestly. Deception becomes probable
+when the truth makes honest communication difficult or inefficient.
+• The Projected Motive Model (chapter 10)—People know that others
+lie for a reason and are more likely to suspect deception when they
+think a person has a reason to lie.
+• The Veracity Effect (chapter 12)—The honesty (i.e., veracity) of communication predicts whether the message will be judged correctly.
+Specifically, honest messages produce higher accuracy than lies. The
+veracity effect results from truth-bias.
+• The Park–Levine Probability Model (chapter 12)—Because honest
+messages yield higher accuracy than lies (i.e., the veracity effect),
+the proportion of truths and lies (base-rates) affects accuracy. When
+people are truth-biased, as the proportion of honest messages increases, so does average detection accuracy. This relationship is
+linear and is predicted as the accuracy for truths times the proportion of messages that are true plus the accuracy for lies times the
+proportion of messages that are lies.
+• A Few Transparent Liars (chapter 13)—The reason that accuracy in
+deception detection is above chance in most deception detection experiments is that some small proportion of the population are really
+bad liars who usually give themselves away. The reason accuracy is
+not higher is that most people are pretty good liars.
+• Sender Honest Demeanor (chapter 13)—There are large individual
+
+TRUTH-DEFAULT THEORY SUMMARIZED
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+97
+
+differences in believability. Some people come off as honest. Other
+people are doubted more often. These differences in how honest different people seem to be are a function of a combination of eleven
+different behaviors and impressions that function together to create
+the BQ (believability quotient). Honest demeanor has little to do
+with actual honesty, and this explains poor accuracy in deception
+detection experiments.
+How People Really Detect Lies (chapter 14)—Outside the deception
+lab, in everyday life, most lies are detected after the fact, based on
+either confessions or the discovery of some evidence showing that
+what was said was false. Few lies are detected in real time based only
+on the passive observation of sender nonverbal behavior.
+Content in Context (chapter 14)—Understanding communication
+requires listening to what is said and taking that in context. Knowing about the context in which the communication occurs can help
+detect lies.
+Diagnostic Utility (chapter 14)—Some aspects of communication are
+more useful than others in detecting deception, and some aspects
+of communication can be misleading. Diagnostic utility involves
+prompting and using useful information while avoiding useless and
+misleading behaviors.
+Correspondence and Coherence (chapter 14)—Correspondence and
+coherence are two types of consistency information that may be
+used in deception detection. Correspondence has to do with compar
+ing what is said to known facts and evidence. It is fact-checking. Coherence involves the logical consistency of communication. Generally speaking, correspondence is more useful than coherence in
+deception detection.
+Question Effects (chapter 14)—Question effects involve asking the
+right questions to yield diagnostically useful information that improves deception detection accuracy.
+Expert Questioning (chapter 14)—Expertise in deception detection is
+highly context dependent and involves knowing how to prompt diagnostically useful information rather than passively observing deception cues.
+
+TDT Propositions
+The TDT propositions provide a string of assertions, predictions, and conjectures that weave the constructs and modules together to describe and explain
+
+98
+
+CHAPTER SIX
+
+human deception and deception detection and to provide coherence. That is,
+the propositional structure shows how the various modules fit together. The
+propositions also provide specific, testable, and falsifiable predictions. The
+propositions are numbered one to fourteen and reflect the logical flow of TDT.
+• Proposition one. Most communication by most people is honest
+most of the time. While deception can and does occur, in compari
+son to honest messages, deception is relatively infrequent, and outright lies are more infrequent still. In fact, deception must be infrequent to be effective.
+• Proposition two. The prevalence of deception is not normally distributed across the population. Most lies are told by a few prolific liars.
+• Proposition three. Most people believe most of what is said by most
+other people most of the time. That is, most people can be said to be
+truth-biased most of the time. Truth-bias results from, in part, a default cognitive state. The truth-default state is pervasive, but it is not
+an inescapable cognitive state. Truth-bias and the truth-default are
+adaptive both for the individual and for the species. They enable efficient communication.
+• Proposition four. Because of proposition one, the presumption of
+honesty specified in proposition three is usually correct. Truth-bias,
+however, makes people vulnerable to occasional deception.
+• Proposition five. Deception is purposive. Absent psychopathology,
+people lie for a reason. Deception, however, is usually not the ultimate goal, but instead a means to some other ends. That is, deception is typically tactical. Specifically, most people are honest unless
+the truth thwarts some desired goal or goals. The motives or desired
+goals achieved through communication are the same for honest and
+deceptive communications, and deception is reserved for situations
+where honesty would be ineffectual, inefficient, and/or counterproductive in goal attainment.
+• Proposition six. People understand that others’ deception is usually
+purposive and are more likely to consider a message as potentially
+or actually deceptive under conditions where the truth may be inconsistent with a communicator’s desired outcomes. That is, people
+project motive states on others, and this affects suspicion and judgments of honesty and deceit.
+• Proposition seven. The truth-default state requires a trigger event to
+abandon it. Trigger events include but are not limited to: (a) a pro-
+
+TRUTH-DEFAULT THEORY SUMMARIZED
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+jected motive for deception, (b) behavioral displays associated with
+dishonest demeanor, (c) a lack of coherence in message content, (d)
+a lack of correspondence between communication content and some
+knowledge of reality, or (e) information from a third party warning
+of potential deception.
+Proposition eight. If a trigger or set of triggers is sufficiently potent,
+a threshold is crossed, suspicion is generated, the truth-default is at
+least temporarily abandoned, the communication is scrutinized, and
+evidence is cognitively retrieved and/or sought to assess honesty–
+deceit.
+Proposition nine. Based on information of a variety of types, an evi
+dentiary threshold may be crossed, and a message may be actively
+judged to be deceptive. The information used to assess honesty and
+deceit includes but is not limited to: (a) contextualized communication content and motive, (b) sender demeanor, (c) information from
+third parties, (d) communication coherence, and (e) correspondence
+information. If the evidentiary threshold for a lie judgment is not
+crossed, an individual may continue to harbor suspicion or revert to
+the truth-default. If exculpatory evidence emerges, active judgments
+of honesty are made.
+Proposition ten. Triggers and deception judgments need not occur
+at the time of the deception. Many deceptions are suspected and detected well after the fact.
+Proposition eleven. With the exception of a few transparent liars, deception is not accurately detected, at the time in which it occurs,
+through the passive observation of cues or sender demeanor. Honest-
+looking and deceptive-looking communication performances are
+largely independent of actual honesty and deceit for most people and
+hence usually do not provide diagnostically useful information. Consequently, demeanor-based deception detection is, on average, only
+slightly better than chance due to a few transparent liars, but typically not much above chance due to the fallible nature of demeanor-
+based judgments.
+Proposition twelve. In contrast, deception is most accurately detected
+through either (a) subsequent confession by the deceiver or (b) comparison of the contextualized communication content to some external evidence or preexisting knowledge.
+Proposition thirteen. Both confessions and diagnostically informative communication content can be produced by effective context-
+
+99
+
+100
+
+CHAPTER SIX
+
+sensitive questioning of a potentially deceptive sender. Ill-conceived
+questioning, however, can backfire and produce below-chance
+accuracy.
+• Proposition fourteen. Expertise in deception detection rests on
+knowing how to prompt diagnostically useful information, rather
+than on skill in the passive observation of sender behavior.
+CHAPTER SUMMARY
+This chapter provides a rough sketch of Truth-Default Theory (TDT). The truth-
+default is that people tend to believe others’ communication, and in conversation (or mediated communication) questions of honesty and deception of
+ten do not come to mind, except in specific and relatively unusual situations.
+TDT departs from prior theories of deception and deception detection in
+several critical ways. The very idea of the truth-default distinguishes TDT from
+theories that presume that people typically scrutinize others’ communication
+for veracity. TDT is unique in seeing deception as infrequent relative to honesty and in specifying that most deception is perpetrated by a few prolific liars.
+The idea that truth-bias is functional and adaptive, and not the result of flawed
+thinking, also distinguishes TDT from some rival theories.
+Key testable predictions of TDT specify the conditions under which the truth-
+default holds and when it is abandoned in favor of scrutinizing communication for veracity. Factors such as third-party prompting, projected motives, and
+the logical consistency of communication content, among others, are advanced
+as triggers that can kick people out of truth-default.
+The final set of predictions specifies conditions under which people accurately detect lies. Unlike many prior theories, TDT holds that observing
+nonverbal deception cues hinders accurate deception detection. Instead, TDT
+advocates as best paths to improved accuracy a reliance on contextualized communication content and persuading liars to honestly confess their lies.

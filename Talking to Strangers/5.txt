@@ -1,0 +1,1072 @@
+Part Five
+
+
+
+
+
+Coupling
+
+
+
+
+
+Chapter Ten
+
+
+
+
+
+Sylvia Plath
+
+
+
+
+
+1.
+
+
+In the fall of 1962, the American poet Sylvia Plath left her cottage in the English countryside for London. She needed a fresh start. Her husband, Ted Hughes, had abandoned her for another woman, leaving her alone with their two small children. She found an apartment in London’s Primrose Hill neighborhood—the top two floors of a townhouse. “I am writing from London, so happy I can hardly speak,” she told her mother. “And guess what, it is W.B. Yeats’ house. With a blue plaque over the door saying he lived there!”
+
+At Primrose Hill she would write in the early-morning hours while her children slept. Her productivity was extraordinary. In December she finished a poetry collection, and her publisher told her it should win the Pulitzer Prize. She was on her way to becoming one of the most celebrated young poets in the world—a reputation that would only grow in the coming years.
+
+But in late December, a deadly cold settled on England. It was one of the most bitter winters in 300 years. The snow began falling and would not stop. People skated on the Thames. Water pipes froze solid. There were power outages and labor strikes. Plath had struggled with depression all her life, and the darkness returned. Her friend, literary critic Alfred Alvarez, came to see her on Christmas Eve. “She seemed different,” he remembered in his memoir The Savage God:
+
+Her hair, which she usually wore in a tight, school-mistressy bun, was loose. It hung straight to her waist like a tent, giving her pale face and gaunt figure a curiously desolate, rapt air, like a priestess emptied out by the rites of her cult. When she walked in front of me down the hall passage…her hair gave off a strong smell, sharp as an animal’s.
+
+
+
+Her apartment was spare and cold, barely furnished and with little in the way of Christmas decorations for her children. “For the unhappy,” Alvarez wrote, “Christmas is always a bad time: the terrible false jollity that comes at you from every side, braying about goodwill and peace and family fun, makes loneliness and depression particularly hard to bear. I had never seen her so strained.”
+
+They each had a glass of wine, and following their habit she read to him her latest poems. They were dark. The new year came and the weather grew even worse. Plath feuded with her ex-husband. She fired her au pair. She gathered her children and went to stay at the house of Jillian and Gerry Becker, who lived nearby. “I feel terrible,” she said. She took some antidepressants, fell asleep, then woke up in tears. That was a Thursday. On Friday she wrote her ex-husband, Ted Hughes, what he would later call a “farewell note.” On Sunday she insisted that Gerry Becker drive her and her children back to their apartment. He left her in the early evening, after she had put her children to bed. At some point over the next few hours, she left some food and water for her children in their room and opened their bedroom window. She wrote out the name of her doctor, with a telephone number, and stuck it to the baby carriage in the hallway. Then she took towels, dishcloths, and tape and sealed the kitchen door. She turned on the gas in her kitchen stove, placed her head inside the oven, and took her own life.
+
+
+
+
+
+2.
+
+
+Poets die young. That is not just a cliché. The life expectancy of poets, as a group, trails playwrights, novelists, and nonfiction writers by a considerable margin. They have higher rates of “emotional disorders” than actors, musicians, composers, and novelists. And of every occupational category, poets have far and away the highest suicide rates—as much as five times higher than the general population. Something about writing poetry appears either to attract the wounded or to open new wounds—and few have so perfectly embodied that image of the doomed genius as Sylvia Plath.1
+
+Plath was obsessed with suicide. She wrote about it, thought about it. “She talked about suicide in much the same tone as she talked about any other risky, testing activity: urgently, even fiercely, but altogether without self-pity,” Alvarez wrote. “She seemed to view death as a physical challenge she had, once again, overcome. It was an experience of much the same quality as…careering down a dangerous snow slope without properly knowing how to ski.”
+
+She fulfilled every criterion of elevated suicide risk. She had tried it before. She was a former mental patient. She was an American living in a foreign culture—dislocated from family and friends. She was from a broken home. She’d just been rejected by a man she idolized.2
+
+On the night of her death, Plath left her coat and her keys behind at the Beckers’. In her book on Plath (everyone who knew Plath, even tangentially, has written at least one book about her), Jillian Becker interprets that as a sign of the finality of Plath’s decision:
+
+Had she supposed that Gerry or I would come after her during the night with her coat and keys? No. She had not expected or wanted to be saved at the last moment from self-inflicted death.
+
+
+
+The coroner’s report stated that Plath had placed her head as far inside the oven as she could, as if she were determined to succeed. Becker continued:
+
+She’d blocked the cracks at the bottom of the doors to the landing and the sitting room, turned all the gas taps full on, neatly folded a kitchen cloth and placed it on the floor of the oven, and laid her cheek on it.
+
+
+
+Can there be any doubt about her intentions? Just look at what she was writing in the days before she took her own life.
+
+The woman is perfected.
+
+Her dead
+
+Body wears the smile of accomplishment…
+
+Her bare
+
+Feet seem to be saying:
+
+We have come so far, it is over.
+
+
+
+We look at Sylvia Plath’s poetry and her history and catch glimpses of her inner life, and we think we understand her. But there’s something we’re forgetting—the third of the mistakes we make with strangers.
+
+
+
+
+
+3.
+
+
+In the years after the First World War, many British homes began to use what was called “town gas” to power their stoves and water heaters. It was manufactured from coal and was a mixture of a variety of different compounds: hydrogen, methane, carbon dioxide, nitrogen, and, most important, the odorless and deadly carbon monoxide. That last fact gave virtually everyone a simple means of committing suicide right inside their home. “The victims in the great majority of cases are found with their heads covered with coats or blankets, and with the tube from a gas tap brought under the edge of the covering article,” a physician wrote in 1927, in one of the first accounts of the lethal properties of town gas:
+
+In several instances persons have been found sitting in a chair with the gas tube close to or in the mouth, and still held in position by the hand; or they have been found lying on the floor with the head in a gas oven. In one case a woman was found with a mask which she had made out of a tea cozy tied over her face, the gas tube having been introduced through a hole in the top of the cozy.
+
+
+
+In 1962, the year before Sylvia Plath took her own life, 5,588 people in England and Wales committed suicide. Of those, 2,469—44.2 percent—did so as Sylvia Plath did. Carbon-monoxide poisoning was by then the leading cause of lethal self-harm in the United Kingdom. Nothing else—not overdosing on pills or jumping off a bridge—came close.
+
+But in that same period, the 1960s, the British gas industry underwent a transformation. Town gas was increasingly expensive—and dirty. Large reserves of natural gas were discovered in the North Sea, and the decision was made to convert the country from town gas to natural gas. The scale of the project was immense. Natural gas had markedly different chemical properties than town gas: it required twice as much oxygen to burn cleanly, the flame moved far more slowly, and the pressure of the gas needed to be greater. Those facts, in combination, meant the size and shape of the gas ports and burners on the stoves inside virtually every English household were now obsolete. Every gas appliance in England had to be upgraded or replaced: meters, cookers, water heaters, refrigerators, portable heaters, boilers, washing machines, solid-fuel grates, and on and on. New refineries had to be built, new gas mains constructed. One official at the time, without exaggeration, called it “the greatest peacetime operation in this nation’s history.”
+
+The long process began in 1965 with a pilot project on a tiny island thirty miles from London, with 7,850 gas customers. Yorkshire and Staffordshire were next. Then Birmingham—and slowly every apartment, house, office, and factory in the country was converted, one by one. It took a decade. By the fall of 1977, the process was finally complete. Town gas—hydrogen, methane, carbon dioxide, nitrogen, and carbon monoxide—was replaced with natural gas: methane, ethane, propane, small amounts of nitrogen, carbon dioxide, hydrogen sulphide, and no carbon monoxide at all. After 1977, if you stuck your head in an oven and turned on the gas, the worst that could happen to you was a mild headache and a crick in your neck.
+
+Take a look at how the number of gas suicides changed as town gas was slowly phased out over the 1960s and 1970s.
+
+
+
+
+
+So here is the question: once the number-one form of suicide in England became a physiological impossibility, did the people who wanted to kill themselves switch to other methods? Or did the people who would have put their heads in ovens now not commit suicide at all?
+
+The assumption that people would simply switch to another method is called displacement. Displacement assumes that when people think of doing something as serious as committing suicide, they are very hard to stop. Blocking one option isn’t going to make much of a difference. Sylvia Plath, for example, had a long history of emotional instability. She was treated with electroshock therapy for depression while still in college. She made her first suicide attempt in 1953. She spent six months in psychiatric care at McLean Hospital outside Boston. A few years later, she deliberately drove her car into a river—then, in typical fashion, wrote a poem about it:
+
+And like the cat I have nine times to die.
+
+
+
+This is Number Three.
+
+
+
+She meticulously blocked every gap in the doorway, turned the gas taps full on, and stuck her head as far as possible into the oven. She was determined. If she couldn’t have used her oven to kill herself, wouldn’t she have just tried something else?
+
+The alternative possibility is that suicide is a behavior coupled to a particular context. Coupling is the idea that behaviors are linked to very specific circumstances and conditions. My father read Charles Dickens’s A Tale of Two Cities to me and my brothers when we were children, and at the very end, when Sydney Carton dies in Charles Darney’s place, my father wept. My father was not a weeper. He was not someone whose emotions bubbled over in every emotionally meaningful moment. He didn’t cry in sad movies. He didn’t cry when his children left for college. Maybe he got stealthily misty-eyed from time to time, but not so anyone other than maybe my mother would notice. In order to cry, he needed his children on the sofa listening, and he needed one of history’s most sentimental novelists. Take away either of those two factors and no one would ever have seen his tears. That’s coupling. If suicide is coupled, then it isn’t simply the act of depressed people. It’s the act of depressed people at a particular moment of extreme vulnerability and in combination with a particular, readily available lethal means.
+
+So which is it—displacement or coupling? The modernization of British gas is an almost perfect way to test this question. If suicide follows the path of displacement—if the suicidal are so determined that when you block one method, they will simply try another—then suicide rates should have remained pretty steady over time, fluctuating only with major social events. (Suicides tend to fall in wartime, for example, and rise in times of economic distress.) If suicide is coupled, on the other hand, then it should vary with the availability of particular methods of committing suicide. When a new and easy method such as town gas arrives on the scene, suicides should rise; when that method is taken away, they should fall. The suicide curve should look like a roller coaster.
+
+Take a look.
+
+
+
+
+
+It’s a roller coaster.
+
+It goes way up when town gas first makes its way into British homes. And it comes plunging down as the changeover to natural gas begins in the late 1960s. In that ten-year window, as town gas was being slowly phased out, thousands of deaths were prevented.
+
+“[Town] gas had unique advantages as a lethal method,” criminologist Ronald Clarke wrote in his classic 1988 essay laying out the first sustained argument in favor of coupling:
+
+It was widely available (in about 80 percent of British homes) and required little preparation or specialist knowledge, making it an easy choice for less mobile people and for those coming under sudden extreme stress. It was painless, did not result in disfigurement, and did not produce a mess (which women in particular will try to avoid).…Deaths by hanging, asphyxiation, or drowning all usually demand more planning, while more courage would be needed with the more violent methods of shooting, cutting, stabbing, crashing one’s car, and jumping off high places or in front of trains or buses.
+
+
+
+There is something awfully matter-of-fact about that paragraph, isn’t there? Nowhere in Clarke’s article does he speak empathetically about the suicidal, or dwell on the root causes of their pain. He analyzes the act the way an engineer would look at a mechanical problem. “The whole idea wasn’t very popular at all amongst psychiatrists and social workers,” Clarke remembers:
+
+They thought it was very superficial, that these people were so upset and demoralized that it was sort of insulting to think you could deal with it by simply making it harder to commit suicide. I got quite a lot of pushback here and there from people about that idea.3
+
+
+
+This simply isn’t the way we talk about suicide. We act as if the method were irrelevant. When gas was first introduced into British homes in the 1920s, two government commissions were created to consider the new technology’s implications. Neither mentioned the possibility that it might lead to increased suicides. When the official British government report on the gas-modernization program came out in 1970, it stated that one of the positive side effects of the transition to natural gas would be a decline in fatal accidents. It didn’t even mention suicide—even though the number of people who killed themselves deliberately with gas dwarfed the number who died from it accidentally. In 1981, the most comprehensive academic work on the subject, A History of the British Gas Industry, was published. It goes into extraordinary detail about every single aspect of the advent and growth of gas heating and gas stoves in English life. Does it mention suicide, even in passing? No.
+
+Or consider the inexplicable saga of the Golden Gate Bridge in San Francisco. Since it opened in 1937, it has been the site of more than 1,500 suicides. No other place in the world has seen as many people take their lives in that period.4
+
+What does coupling theory tell us about the Golden Gate Bridge? That it would make a big difference if a barrier prevented people from jumping, or a net was installed to catch them before they fell. The people prevented from killing themselves on the bridge wouldn’t go on to jump off something else. Their decision to commit suicide is coupled to that particular bridge.
+
+Sure enough, this is exactly what seems to be the case, according to a very clever bit of detective work by psychologist Richard Seiden. Seiden followed up on 515 people who had tried to jump from the bridge between 1937 and 1971, but had been unexpectedly restrained. Just 25 of those 515 persisted in killing themselves some other way. Overwhelmingly, the people who want to jump off the Golden Gate Bridge at a given moment want to jump off the Golden Gate Bridge only at that given moment.
+
+So when did the municipal authority that runs the bridge finally decide to install a suicide barrier? In 2018, more than eighty years after the bridge opened. As John Bateson points out in his book The Final Leap, in the intervening period, the bridge authority spent millions of dollars building a traffic barrier to protect cyclists crossing the bridge, even though no cyclist has ever been killed by a motorist on the Golden Gate Bridge. It spent millions building a median to separate north- and southbound traffic, on the grounds of “public safety.” On the southern end of the bridge, the authority put up an eight-foot cyclone fence to prevent garbage from being thrown onto Fort Baker, a former army installation on the ground below. A protective net was even installed during the initial construction of the bridge—at enormous cost—to prevent workers from falling to their deaths. The net saved nineteen lives. Then it was taken down. But for suicides? Nothing for more than eighty years.
+
+Now, why is this? Is it because the people managing the bridge are callous and unfeeling? Not at all. It’s because it is really hard for us to accept the idea that a behavior can be so closely coupled to a place. Over the years, the bridge authority periodically asked the public to weigh in on whether it supported the building of a suicide barrier. The letters generally fell into two categories: Those in favor tended to be people whose loved ones had committed suicide, who had some understanding of the psychology of the suicidal. The balance—in fact, the majority—simply dismissed the idea of coupling out of hand.
+
+Here is a small sample:
+
+“If a physical barrier on the bridge were to be erected, it would not surprise me if after three months, a suicide prone individual would walk to the north tower with a pistol and put the gun to his head in frustration of not being able to jump. What then of the millions to erect a physical suicide barrier?”
+
+“People bent on suicide will find many ways to do away with themselves—pills, hanging, drowning, cutting arteries, jumping from any other bridge or building. Wouldn’t it be much better to spend the money on mental health care for many people instead of worrying about the few that jump off bridges?”
+
+“I oppose the construction of a suicide barrier because it would waste money and achieve nothing. Anyone who was prevented from jumping off the Golden Gate Bridge would find another, more destructive, way of killing himself or herself. Someone who jumps off a tall building would be much more likely to kill someone who is walking in the street than someone who jumps off the bridge into the water.”
+
+“All it will do is cost money and deface the bridge. There are many ways to commit suicide. You take one away from someone it will only be replaced by another.”
+
+
+
+In one national survey, three quarters of Americans predicted that when a barrier is finally put up on the Golden Gate Bridge, most of those who wanted to take their life on the bridge would simply take their life some other way.5 But that’s absolutely wrong. Suicide is coupled.
+
+The first set of mistakes we make with strangers—the default to truth and the illusion of transparency—has to do with our inability to make sense of the stranger as an individual. But on top of those errors we add another, which pushes our problem with strangers into crisis. We do not understand the importance of the context in which the stranger is operating.
+
+
+
+
+
+4.
+
+
+Brooklyn’s 72nd Precinct covers the neighborhood surrounding Greenwood Cemetery, from Prospect Expressway in the north to Bay Ridge in the south. In the narrow strip between the western perimeter of the cemetery and the waterfront, a series of streets run downhill toward the water. A crumbling, elevated freeway meanders down the middle. Today, it is a gentrifying neighborhood. Thirty years ago, when David Weisburd spent a year walking up and down those streets, it was not.
+
+“This was a different world,” Weisburd remembers. “This was a scary place. You’d go into an apartment building, there’d be refrigerators in the hall, garbage would be in the halls. Apartment buildings would have backyards five feet deep in garbage. There were people on the streets who would scare the hell out of you.”
+
+Weisburd was a criminologist by training. He had done his dissertation at Yale University on violent behavior among settlers in the West Bank in Israel. He was born in Brooklyn. After leaving Yale, he got a job working on a research project back in his old borough.
+
+The study was based out of the precinct house on Fourth Avenue, a squat, modernist box that looked as if it were designed to repel an invading army. There were nine officers involved, each assigned to a beat of ten to thirty blocks. “Their job was to walk around those beat areas and to interact with the public, and to develop ways of doing something about the problems,” Weisburd said. He was the observer and note-taker, responsible for writing up what was learned. Four days a week, for a year, he tagged along. “I would always wear a suit and tie, and I had a police identification card. People in the street thought I was the detective and I would say, ‘Oh no.’”
+
+He had been studying crime in a library. Now he was at ground level, walking side by side with beat cops. And right from the beginning, something struck him as odd. Common sense had always held that crime was connected to certain neighborhoods. Where there were problems such as poverty, drugs, and family dysfunction, there was crime: The broad conditions of economic and social disadvantage bred communities of lawlessness and disorder.
+
+In Los Angeles, that neighborhood was South Central. In Paris, it was the outer suburbs. In London, places like Brixton. Weisburd was in New York’s version of one of those neighborhoods—only the neighborhood wasn’t at all what he had imagined: “What I found was, quite quickly, that after we got to know the area, we spent all our time on one or two streets,” he says. “It was the bad neighborhood of town, [but] most of the streets didn’t have any crime.”
+
+After a while it seemed almost pointless to walk every street in his patrol area, since on most of them nothing ever happened. He didn’t understand it. Criminals were people who operated outside social constraint. They were driven by their own dark impulses: mental illness, greed, despair, anger. Weisburd had been taught that the best way to understand why criminals did what they did was to understand who they were. “I call it the Dracula model,” Weisburd said. “There are people and they’re like Dracula. They have to commit crime. It’s a model that says that people are so highly motivated to commit crime, nothing else really matters.”
+
+Yet if criminals were like Dracula, driven by an insatiable desire to create mayhem, they should have been roaming throughout the 72nd. The kinds of social conditions that Draculas feed on were everywhere. But the Draculas weren’t everywhere. They were only on particular streets. And by “streets” Weisburd meant a single block—a street segment. You could have one street segment with lots of crime and the next, literally across an intersection, was fine. It was that specific. Didn’t criminals have legs? Cars? Subway tokens?
+
+“So that then begins a sort of rethinking of my idea of criminology,” Weisburd said. “Like most other people, my studies were about people. I said, maybe we ought to be more concerned with places.”
+
+
+
+
+
+5.
+
+
+When he finished his stint in Brooklyn, Weisburd decided to team up with Larry Sherman, another young criminologist. Sherman had been thinking along these lines as well. “I was inspired, at the time, by the AIDS map of the country,” Sherman remembers, “which showed that fifty census tracks out of fifty thousand had over half of the AIDS cases in the United States.” AIDS didn’t look to him like a contagious disease roaming wildly and randomly across the land. It looked to him like an interaction between certain kinds of people and certain very specific places, an epidemic with its own internal logic.
+
+Gathering the kind of data necessary to study the geographical component of crime wasn’t easy. Crime had always been reported by precinct—by the general geographical area where it occurred. But Weisburd had just walked the 72nd Precinct, and he knew an area that nonspecific wouldn’t help them. They needed addresses. Luckily, Sherman knew the police chief in Minneapolis, who was willing to help. “We chose Minneapolis because how could you find someone crazy enough to allow us to do what we wanted to do?” Weisburd said with a laugh.
+
+Sherman crunched the numbers and found something that seemed hard to believe: 3.3 percent of the street segments in the city accounted for more than 50 percent of the police calls. Weisburd and his graduate students at Rutgers University then put a map of Minneapolis on the wall, and pasted little strips of paper wherever they found there had been a crime. The unbelievable finding was now impossible to dismiss. From his days walking the 72nd, Weisburd had expected some concentration of crime, but not this. “When Larry and I were talking about it, it was like, ‘Oh my God!’”
+
+In Boston right around the same time, another criminologist did a similar study: Half the crime in the city came from 3.6 percent of the city’s blocks. That made two examples. Weisburd decided to look wherever he could: New York. Seattle. Cincinnati. Sherman looked in Kansas City, Dallas. Anytime someone asked, the two of them would run the numbers. And every place they looked, they saw the same thing: Crime in every city was concentrated in a tiny number of street segments. Weisburd decided to try a foreign city, somewhere entirely different—culturally, geographically, economically. His family was Israeli, so he thought Tel Aviv. Same thing. “I said, ‘Oh my God. Look at that! Why should it be that five percent of the streets in Tel Aviv produce fifty percent of the crime? There’s this thing going on, in places that are so different.’” Weisburd refers to this as the Law of Crime Concentration.6 Like suicide, crime is tied to very specific places and contexts. Weisburd’s experiences in the 72nd Precinct and in Minneapolis are not idiosyncratic. They capture something close to a fundamental truth about human behavior. And that means that when you confront the stranger, you have to ask yourself where and when you’re confronting the stranger—because those two things powerfully influence your interpretation of who the stranger is.
+
+
+
+
+
+6.
+
+
+So: Sylvia Plath. In her thinly disguised autobiography, The Bell Jar, Plath’s protagonist, Esther Greenwood, describes her descent into madness. And she thinks about suicide precisely as Ronald Clarke (who made the link between town gas and suicide) suggests she would. She is incredibly sensitive to the question of how she’ll take her own life. “If you were going to kill yourself, how would you do it?” Esther asks Cal, a young man she’s lying next to on a beach.
+
+Cal seemed pleased. “I’ve often thought of that. I’d blow my brains out with a gun.” I was disappointed. It was just like a man to do it with a gun. A fat chance I had of laying my hands on a gun. And even if I did, I wouldn’t have a clue as to what part of me to shoot at.
+
+
+
+That very morning Esther had tried to hang herself with the silk cord of her mother’s bathrobe, and it hadn’t worked. “But each time I would get the cord so tight I could feel a rushing in my ears and a flush of blood in my face, my hands would weaken and let go, and I would be all right again.” She and Cal swim for the shore. She decides to try to drown herself—and dives for the bottom of the sea.
+
+I dived and dived again, and each time popped up like a cork.
+
+The gray rock mocked me, bobbing on the water easy as a lifebuoy.
+
+I knew when I was beaten.
+
+I turned back.
+
+
+
+Plath’s protagonist wasn’t looking to kill herself. She was looking for a way to kill herself. And not just any method would do. That’s the point of coupling: behaviors are specific. She needed to find a method that fit. And on that cold February night, the method that fit for Sylvia Plath happened to be right there in her kitchen.
+
+If you only knew how the veils were killing my days.
+
+To you they are only transparencies, clear air.
+
+
+
+This is “A Birthday Present,” written in September 1962, at the beginning of Plath’s anguished final months in London:
+
+But my god, the clouds are like cotton.
+
+Armies of them. They are carbon monoxide.
+
+Sweetly, sweetly I breathe in,
+
+Filling my veins with invisibles…
+
+
+
+Take a look at the following graph showing suicide rates from 1958 to 1982 for British women ages twenty-five to forty-four. (Plath was thirty when she died.)
+
+
+
+
+
+In the early 1960s, when Plath committed suicide, the suicide rate for women of her age in England reached a staggering 10 per 100,000—driven by a tragically high number of deaths by gas poisoning. That is as high as the suicide rate for women in England has ever been. By 1977, when the natural-gas changeover was complete, the suicide rate for women of that age was roughly half that. Plath was really unlucky. Had she come along ten years later, there would have been no clouds like “carbon monoxide” for her to “sweetly, sweetly…breathe in.”
+
+
+
+
+
+7.
+
+
+In the fall of 1958, two years after their wedding, Sylvia Plath and her husband, Ted Hughes, moved to Boston. The poetry that would make her famous was still several years away. Plath worked as a receptionist at the psychiatric unit of Massachusetts General Hospital. In the evenings, she took a writing seminar at Boston University. There she met another young poet by the name of Anne Sexton. Sexton was four years older than Plath—glamorous, charismatic, and strikingly beautiful. She would later win the Pulitzer Prize for poetry for her book Live or Die, establishing her reputation as one of the most formidable contemporary American poets. Plath and Sexton became friends. They would linger after class, then go out for drinks with another young poet, George Starbuck.
+
+“We would pile into the front seat of my old Ford, and I would drive quickly through the traffic to, or near, the Ritz,” Sexton recalled, in an essay written after Plath’s death:
+
+I would park illegally in a LOADING ONLY ZONE telling them gaily, “It’s okay, because we are only going to get loaded!” Off we’d go, each on George’s arm, into the Ritz and drink three or four or two martinis.
+
+
+
+Sexton and Plath were both young, preternaturally gifted, and obsessed with death:
+
+Often, very often, Sylvia and I would talk at length about our first suicides; at length, in detail, and in depth between the free potato chips. Suicide is, after all, the opposite of the poem. Sylvia and I often talked opposites. We talked death with a burned-up intensity, both of us drawn to it like moths to an electric light bulb.
+
+
+
+Sexton came from a family with a history of mental illness. She suffered from wild mood swings, anorexia, depression, and alcoholism. She attempted suicide at least five times. She stole a bottle of the barbiturate Nembutal—deadly in large enough doses—from her parents’ medicine cabinet and carried it around in her purse. As her biographer Diane Wood Middlebrook explains, Sexton wanted “to be prepared to kill herself anytime she was in the mood.”
+
+In her early forties, she went into decline. Her drinking got worse. Her marriage failed. Her writing deteriorated. On the morning of October 4, 1974, Sexton had breakfast with an old friend, then lunch with another friend, as if saying goodbye.
+
+Middlebrook writes:
+
+She stripped her fingers of rings, dropping them into her big purse, and from the coat closet she took her mother’s old fur coat. Though it was a sunny afternoon, a chill was in the air. The worn satin lining must have warmed quickly against her flesh; death was going to feel something like an embrace, like falling asleep in familiar arms.
+
+
+
+She poured herself a vodka and took her own life. Like her friend Sylvia Plath, Sexton will forever be in the category of doomed genius. “No one who knew Anne Sexton well was surprised by her suicide,” Middlebrook writes.
+
+I hope by now, however, that you aren’t satisfied with this account of Sexton’s death. If suicide is a coupled act, then Sexton’s character and pathology should be only part of the explanation for what happened to her. The same is true for Plath. Her friend Alfred Alvarez believed that too many people have painted her as “the poet as a sacrificial victim, offering herself up for the sake of her art,” and he’s absolutely right. That distorts who she is: it says her identity was tied up entirely in her self-destructiveness. Coupling forces us to see the stranger in her full ambiguity and complexity.
+
+Weisburd has a map that, I think, makes this point even more powerfully. It’s from Jersey City, just across the Hudson River from Manhattan.
+
+
+
+
+
+The dark area in the middle—bounded by Cornelison Avenue, Grand Street, and Fairmount Avenue—is a prostitution hot spot and has been for some time. A few years ago, Weisburd conducted an experiment in which he assigned ten extra police officers—an extraordinarily high number—to patrol those few blocks. Not surprisingly, the amount of prostitution in the area fell by two-thirds.
+
+Weisburd was most interested, though, in what happened in the lighter part of the map, just outside the triangle. When the police cracked down, did the sex workers simply move one or two streets over? Weisburd had trained observers stationed in the area, talking to the sex workers. Was there displacement? There was not. It turns out that most would rather try something else—leave the field entirely, change their behavior—than shift their location. They weren’t just coupled to place. They were anchored to place.
+
+We found people would say to us, “I’m in this area. I don’t want to move because it’ll make it hard on my customers.” Or, “No, I have to build up a business again.” There are all these objective reasons why they’re not moving. Another reason would be, “If I go someplace else, it’s good for drugs, to sell drugs. There’s already people there, they’ll kill me.”
+
+
+
+The easiest way to make sense of a sex worker is to say that she is someone compelled to turn tricks—a prisoner of her economic and social circumstances. She’s someone different from the rest of us. But what is the first thing the sex workers said, when asked to explain their behavior? That moving was really stressful—which is the same thing that everyone says about moving.
+
+Weisburd continues:
+
+They talked about how hard it would be for business. They’d have to reestablish themselves. They talked about danger, people they don’t know. What do they mean by people they don’t know? “Here, I know who’s going to call the police and who won’t call the police.” That’s a big issue for them.…When they’re in the same place, they begin to have a high level of correct prediction about people. Going to a new place? You don’t know who these people are. Someone who looks bad could be good. Someone who looks good, from their perspective, could be bad.
+
+The interviewer said, “Well, why don’t you just go four blocks away? There’s another prostitution site.” Her response: “Those are not my type of girls. I don’t feel comfortable there.” That hit me.…Even people with these tremendous problems, with these tremendous difficulties in life, they respond to many of the same things as you or I.
+
+
+
+Some of them may have children in nearby schools, and grocery stores where they shop, and friends they like to be close to, and parents they need to look in on—and as a result have all kinds of reasons not to move their business. Their job, at that moment, is sex work. But they are mothers and daughters and friends and citizens first. Coupling forces us to see the stranger in her full ambiguity and complexity.
+
+Was Sexton determined to take her own life, by any means possible? Not at all. She would never use a gun. “For Ernest Hemingway to shoot himself with a gun in the mouth is the greatest act of courage I can think of,” she told her therapist. “I worry about the minutes before you die, that fear of death. I don’t have it with the pills, but with a gun there’d be a minute when you’d know, a terrible fear. I’d do anything to escape that fear.”
+
+Her chosen method was pills, downed with alcohol, which she considered the “woman’s way out.” Take a look at the following chart, comparing different suicide methods by fatality rate.
+
+
+
+
+
+People who overdose on pills die 1.5 percent of the time. Sexton was coupled to a method of suicide that was highly unlikely to kill her. That is not a coincidence. Like many people with suicidal tendencies, she was profoundly ambivalent about taking her own life. She took sleeping pills nearly every night, tiptoeing up to the line between dose and overdose but never crossing it. Just listen to her rationale, in her poem “The Addict”:
+
+Sleepmonger,
+
+deathmonger,
+
+with capsules in my palms each night,
+
+eight at a time from sweet pharmaceutical bottles
+
+I make arrangements for a pint-sized journey.
+
+I’m the queen of this condition.
+
+I’m an expert on making the trip
+
+and now they say I’m an addict.
+
+Now they ask why.
+
+Why!
+
+
+
+Don’t they know
+
+that I promised to die!
+
+I’m keeping in practice.
+
+I’m merely staying in shape.
+
+The pills are a mother, but better,
+
+every color and as good as sour balls.
+
+I’m on a diet from death.
+
+
+
+Plath’s death, however, made Sexton rethink her options. “I’m so fascinated with Sylvia [Plath]’s death: the idea of dying perfect,” she told her therapist. She felt Plath had chosen an even better “woman’s way.” She had gone out as “a Sleeping Beauty,” immaculate even in death. Sexton needed suicide to be painless and leave her unmarked. And by 1974, she had become convinced that dying from car-exhaust fumes fit that set of criteria. It would be her town gas. She thought about it, spoke about it with friends.
+
+So that’s how Sexton took her life, after taking off her rings and putting on her mother’s fur coat. She went to her garage, closed the door, sat in the front seat of her red 1967 Mercury Cougar, and turned on the engine. The difference between her original choice of sleeping pills and carbon-monoxide poisoning, of course, is that whereas the former are rarely lethal, carbon monoxide invariably is. She was dead within fifteen minutes.
+
+But here Sexton’s story converges with Plath’s once again. Beginning in 1975—the year after her suicide—automobiles sold in the United States were required to have catalytic converters installed on their exhaust systems. A catalytic converter is a secondary combustion chamber that burns off carbon monoxide and other impurities before they leave the exhaust pipe. The fumes from Sexton’s 1967 Cougar would have been thick with carbon monoxide. That’s why she could sit in a closed garage with the engine running and be dead within fifteen minutes. The exhaust from the 1975 version of that car would have had half as much carbon monoxide—if that. Today’s cars emit so little carbon monoxide that the gas barely registers in automobile exhaust. It is much more difficult to commit suicide today by turning on your car and closing the door of the garage.
+
+Like her friend Sylvia Plath, Sexton was unlucky. She had an impulse coupled with a lethal method, just a year before that method stopped being so lethal. Had her difficult 1974 been instead her difficult 1984, she too might have lived much longer.
+
+We overhear those two brilliant young poets in the bar at the Ritz, eagerly exchanging stories about their first suicide attempts, and we say that these two do not have long to live. Coupling teaches us the opposite. Don’t look at the stranger and jump to conclusions. Look at the stranger’s world.
+
+1 “A poet has to adapt himself, more or less consciously, to the demands of his vocation,” Stephen Spender, himself an accomplished poet, once wrote, “and hence the peculiarities of poets and the condition of inspiration which many people have said is near to madness.”
+
+2 “When she killed herself at age thirty,” Ernest Shulman wrote, “Sylvia fit several categories for which suicide odds are increased. Although former suicide attempters constitute about 5 percent of the population, a third of completed suicides have previously attempted suicide; this includes Sylvia. Ex–mental patients comprise a significant proportion of suicides; this also includes Sylvia. Divorcees have a suicide rate several times higher than that of married women; Sylvia was getting a divorce. Foreigners everywhere have elevated suicide rates; Sylvia was living in England, far from familiar places and people. Suicides tend to be isolated people under severe stress; this was true of Sylvia. Broken homes produce a disproportionate number of suicides; Sylvia came from a broken home.” He goes on: “She could never again be intertwined with a man from whose alleged greatness she could feed her own dreams of glory.” Not to mention Plath’s earlier, aborted grieving for her father, who died when she was eight. “If a child’s development is impeded because of incomplete mourning of a loss, that child will be handicapped in acquiring the mutuality necessary for building an integrated identity and maintaining strong emotional ties,” Shulman continues. “Sylvia’s narcissism was ultimately her undoing.”
+
+3 I haven’t even mentioned the biggest example of how our inability to understand suicide costs lives: roughly 40,000 Americans commit suicide every year, half of whom do so by shooting themselves. Handguns are the suicide method of choice in the United States—and the problem with that, of course, is that handguns are uniquely deadly. Handguns are America’s town gas. What would happen if the U.S. did what the British did, and somehow eradicated its leading cause of suicide? It’s not hard to imagine. It would uncouple the suicidal from their chosen method. And those few who were determined to try again would be forced to choose from far-less-deadly options, such as overdosing on pills, which is fifty-five times less likely to result in death than using a gun. A very conservative estimate is that banning handguns would save 10,000 lives a year, just from thwarted suicides. That’s a lot of people.
+
+4 Suicides happen on the Golden Gate with such devastating regularity that in 2004 filmmaker Eric Steel put a video camera at either end of the bridge and wound up filming twenty-two suicides over the course of the year. In the death that served as the signature case study in Steel’s subsequent documentary, The Bridge, his camera followed a thirty-four-year-old man named Gene Sprague for ninety-three minutes as he paced back and forth across the bridge before jumping to his death. If you stand on the bridge long enough, you can expect to see someone try to jump off.
+
+5 Thirty-four percent, in fact, predicted that everyone thwarted at the bridge would simply switch to another method.
+
+6 Take a look at a map Weisburd made of Seattle (page 369). Those dots are Seattle’s crime “hot spots.” If you talk to someone from Seattle, they will tell you their city has some bad areas. But the map tells you that statement is false. Seattle does not have bad neighborhoods; it has a handful of problematic blocks scattered throughout the city. What distinguishes those problematic blocks from the rest of the city? A jumble of factors, acting in combination. Hot spots are more likely to be on arterial roads, more likely to have vacant lots, more likely to have bus stops, more likely to have residents who don’t vote, more likely to be near a public facility such as a school. The list of variables—some of which are well understood and many of which are not—goes on. And because most of those variables are pretty stable, those blocks don’t change much over time.
+
+
+
+
+
+Chapter Eleven
+
+
+
+
+
+Case Study: The Kansas City Experiments
+
+
+
+
+
+1.
+
+
+A century ago, a legendary figure in American law enforcement named O. W. Wilson came up with the idea of “preventive patrol.”1 Wilson believed that having police cars in constant, unpredictable motion throughout a city’s streets would deter crime. Any would-be criminal would always have to wonder if a police car was just around the corner.
+
+But think about it. When you walk down the street of your neighborhood, do you feel like the police are just around the corner? Cities are vast, sprawling places. It’s not obvious that a police force—even a large police force—could ever create the feeling that they were everywhere.
+
+This was the question facing the Kansas City Police Department in the early 1970s. The department was about to hire extra police officers, but it was divided over how to deploy them. Should they follow Wilson’s advice—and have them drive randomly around the city? Or assign them to specific locations—such as schools or difficult neighborhoods? To resolve the question, the city hired a criminologist named George Kelling.
+
+“One group said riding around in cars doesn’t improve anything, it doesn’t do anything,” Kelling remembers. “Another group said it’s absolutely essential. That was the standoff. Then I was brought in.”
+
+Kelling’s idea was to select fifteen beats from the southern part of the city and divide them into three groups. It was a big area: thirty-two square miles, 150,000 people, good neighborhoods and bad neighborhoods, and even a little farmland on the fringes. One of the three groups would be the control group. Police work would continue there as it always had. In the second neighborhood, Kelling would have no preventive patrol at all; police officers would respond only when called. In the third neighborhood, he would double and in some cases triple the number of squad cars on the streets.
+
+“Nothing like this had ever been done in policing,” Kelling remembers. “This was 1970. Nothing had been written about police tactics.…This was at a very primitive stage in policing.” People like O. W. Wilson had ideas and hunches. But police work was considered an art, not a science that could be evaluated like a new drug. Kelling says that many people told him his experiment would fail, “that the police simply weren’t ready for research. I wouldn’t be able to do it. They’d sabotage it.” But Kelling had the backing of the city’s police chief. The chief had spent the bulk of his career in the FBI, and he was shocked to learn how little police departments seemed to know about what they did. “Many of us in the department,” the chief would later admit, “had the feeling we were training, equipping, and deploying men to do a job neither we, nor anyone else, knew much about.” He told Kelling to go ahead.
+
+Kelling ran the experiment for a year, meticulously collecting every statistic he could on crime in the three areas of the study. The result? Nothing. Burglaries were the same in all three neighborhoods. So were auto thefts, robberies, and vandalism. The citizens in the areas with beefed-up patrols didn’t feel any safer than the people in the areas with no patrols. They didn’t even seem to notice what had happened. “The results were all in one direction and that was, it doesn’t make any difference,” Kelling said. “It didn’t matter to citizen satisfaction, it didn’t matter to crime statistics, it just didn’t seem to matter.”
+
+Every police chief in the country read the results. Initially, there was disbelief. Some urban police departments were still committed Wilsonites. Kelling remembers the Los Angeles Police Chief standing up at one national law-enforcement conference and saying, “If those findings are true, every officer in Kansas City was asleep at the switch because I can assure you that’s not how it is in Los Angeles.”
+
+But slowly resistance gave way to resignation. The study came out as violent crime was beginning its long, hard, two-decade surge across the United States, and it fed into the growing feeling among people in law enforcement that the task before them was overwhelming. They had thought they could prevent crime with police patrols, but now the Kansas City PD had tested that assumption empirically, and patrols turned out to be a charade. And if patrols didn’t work, what did? Lee Brown, chief of the New York City Police Department, gave a famous interview in the middle of the crack epidemic in which he all but threw up his hands. “This country’s social problems are well beyond the ability of the police to deal with on their own,” Brown said. He had read George Kelling’s Kansas City report. It was hopeless. No matter how many police officers a city had, Brown said, “You could never have enough to use traditional policing techniques to deter crime.…If you don’t have a police officer to cover every part of the city all the time, the chance of an officer on patrol coming across a crime in progress is very small.”
+
+In 1990, President George H. W. Bush came to Kansas City. He spent the morning in one of the city’s poorest and most violent neighborhoods, then gave a speech to a group of local police officers. He tried to be upbeat. He failed. The homicide rate that year in Kansas City was three times the national average. It would go up again in 1991 and again in 1992, then once more in 1993. There wasn’t much to say. Halfway through his remarks, Bush was reduced to simply listing the terrible things happening on the city’s streets:
+
+A four-year-old boy shot dead in a suspected crack house; an eleven-year-old kid gunned down outside another drug den, allegedly at the hands of a fourteen-year-old guard; in a downtown bar, a mother sells her baby for crack; and a firebombing leaves three generations dead, including a grandmother and three little kids—the headlines are horrifying, sickening, outrageous.
+
+
+
+But in the early 1990s, twenty years after the first Kansas City experiment, Kansas City decided to try again. They hired another brilliant young criminologist named Lawrence Sherman. As they had with George Kelling, they gave him free rein. It was time for Kansas City Experiment Number Two. Why not? Nothing else was working.
+
+
+
+
+
+2.
+
+
+Lawrence Sherman thought the focus ought to be on guns. He believed the sheer number of guns in the city was what fueled its epidemic of violence. His plan was to try a number of ideas in sequence, rigorously evaluate their effectiveness—as Kelling had done—and pick a winner. He called a planning meeting with a group of the city’s senior police officers. They chose as their testing ground Patrol District 144: a small, 0.64-square-mile neighborhood of modest single-family homes, bounded to the south by 39th Street and to the west by Highway 71. District 144 was as bad as Kansas City got in the early 1990s. The homicide rate there was twenty times the national average. The area averaged one violent felony a day and twenty-four drive-by shootings a year. A third of the lots were vacant. Just a few months before, an officer had been on patrol through 144 when he saw some kids playing basketball in the street. He stopped, got out, and asked them to move. One of the players threw the basketball at his head, then two others jumped him. It was that kind of place.
+
+Sherman’s first idea was for two-man teams to knock on every door in the neighborhood over a three-month period. The officers would introduce themselves, talk about gun violence, and give the residents a flyer with an 800 number on it: if they heard anything about guns, they were encouraged to call in an anonymous tip. The plan went off without a hitch. In many of the visits, the officers were trailed by a graduate student in criminology, James Shaw, whose job was to evaluate the program’s effectiveness. Sometimes the officers stayed for as long as twenty minutes, chatting with people who had never had a police officer come to their door other than to make an arrest. In his subsequent write-up, Shaw was effusive:
+
+The police went to every residence in that community, some more than once, and talked to residents in a friendly, non-threatening manner. In response, people were very receptive and glad to see the police going door to door. People frequently responded with comments like “God bless you all, we shoulda’ had a program like this before,” or “Thank God! I didn’t think you all would ever come.”
+
+
+
+In the end, 88 percent of the people visited said that they would use the hotline if they saw any guns. So how many calls came in—after 858 door-to-door visits over three months? Two. Both were about guns in another neighborhood.
+
+The problem, everyone soon realized, was not that the residents of District 144 didn’t want to help. They did. It was that they never left their houses. “It’s starting to sound like Beirut around here,” one homeowner told Shaw, and if you’re so scared that you never leave your house, how on earth do you know who has guns or not? Shaw wrote:
+
+Not unlike residents in many other inner-city neighborhoods, these people have become like caged animals in their own homes; bars on the windows are the norm. One is not surprised even to see bars on second-story windows. More dismal however is the fact that in house after house the blinds are drawn and drapes closed up tightly, blocking out any trace of the outside world. These elderly people lock themselves up and shut themselves in. They hear the world outside, and it sometimes sounds like a battle zone. But they can’t see anything.
+
+
+
+The group’s next idea was to train officers in the subtle art of spotting concealed weapons. The impetus came from a New York City police officer named Robert T. Gallagher, who in eighteen years on the force had disarmed an astonishing 1,200 people. Gallagher had elaborate theories, worked out over many years: street criminals overwhelmingly put their guns in their waistbands (on the left side, in the case of a right-hander), causing a subtle but discernible hitch in their stride. The leg on the gun side takes a shorter step than the leg on the nongun side, and the corresponding arm follows a similarly constrained trajectory. When stepping off curbs or getting out of a car, Gallagher believed, gun carriers invariably glance toward their weapons or unconsciously adjust them.
+
+Gallagher flew to Kansas City, with great fanfare, the month after the failed hotline experiment. He gave seminars. He made videos. The officers took notes. The television program 20/20 sent a camera crew to record the technique in action on the streets of Kansas City. Nobody spotted anything. 20/20 came back again. The same thing happened—nothing. Whatever magical skills Robert T. Gallagher possessed were not, apparently, transferable to the beat cops of Kansas City. Two of the team’s best ideas for curbing gun violence had failed. They had one left.
+
+
+
+
+
+3.
+
+
+The winning entry in the Kansas City gun experiment was deceptively simple. It was based on a quirk in the American legal system.
+
+The Fourth Amendment to the U.S. Constitution protects citizens from “unreasonable searches and seizures.” That’s why the police cannot search your home without a warrant. On the street, similarly, a police officer must have a good reason—“reasonable suspicion”—to frisk you.2 But if you’re in your car, that standard is not at all hard for a police officer to meet. Traffic codes in the U.S. (and in fact in most countries) give police officers literally hundreds of reasons to stop a motorist.
+
+“There are moving violations: speeding, running a red light. There are equipment violations: a light that doesn’t work, a tire not quite right,” legal scholar David Harris writes.
+
+And then there are catch-all provisions: rules that allow police to stop drivers for conduct that complies with all the rules on the books, but that officers consider “imprudent” or “unreasonable” under the circumstances, or that describe the offense in language so broad as to make a violation virtually coextensive with the officer’s unreviewable personal judgment.
+
+
+
+There was even a Supreme Court case in which a police officer in North Carolina stopped what he thought was a suspicious driver, using the pretext that one of the car’s brake lights was out. As it turns out, it’s perfectly permissible in North Carolina to drive with one brake light out, so long as the other one works. So what happened after the driver of the car sued, claiming he had been stopped illegally? The Supreme Court ruled in favor of the officer. It was enough that he thought driving with only one brake light seemed like an infraction. In other words, police officers in the United States not only have at their disposal a virtually limitless list of legal reasons to stop a motorist; they are also free to add any other reasons they might dream up, as long as they seem reasonable. And once they’ve stopped a motorist, police officers are allowed, under the law, to search the car, so long as they have reason to believe the motorist might be armed or dangerous.
+
+Kansas City decided to take advantage of this latitude. Sherman’s proposal was for the police department to detail four officers, in two squad cars. Their beat would be District 144. They were told not to stray outside the area’s 0.64 square miles. They were freed from all other law-enforcement obligations. They didn’t have to answer radio calls or rush to accident scenes. Their instructions were clear: watch out for what you think are suspicious-looking drivers. Use whatever pretext you can find in the traffic code to pull them over. If you’re still suspicious, search the car and confiscate any weapon you find. The officers worked every night from 7 p.m. to 1 a.m., seven days a week, for 200 consecutive days. And what happened? Outside District 144, where police business was conducted as usual, crime remained as bad as ever. But inside 144? All of the new focused police work cut gun crimes—shootings, murders, woundings—in half.
+
+Remember, the police had all but given up by that point. Hotline? Nobody calls it. Concealed-weapons detection? A crew from 20/20 comes down and twice goes home empty-handed. Lee Brown, up in New York City, was mourning the powerlessness of the police to do anything serious about violent crime. Everyone remembered the previous Kansas City experiment, which had plunged the law-enforcement community into twenty years of despair. But now the same city had come back, and this time they were declaring victory. “I don’t know why it didn’t occur to us to really focus on guns,” the Kansas City police chief said after the results came in. He was as stunned as everyone else at what just two extra patrol cars had accomplished. “We usually focus on getting the bad guys after a crime. Maybe going after guns was too simplistic for us.”
+
+The first Kansas City experiment said that preventive patrol was useless, that having more police cars driving around made no difference. The second Kansas City experiment amended that position. Actually, extra patrol cars did make a difference—so long as officers took the initiative and stopped anyone they thought suspicious, got out of their cars as much as possible, and went out of their way to look for weapons. Patrol worked if the officers were busy. The statistics from the final report on the experiment were eye-opening. Over the seven months, each patrol car issued an average of 5.45 traffic citations per shift. They averaged 2.23 arrests per night. In just 200 days, the four officers had done more “policing” than most officers of that era did in their entire careers: 1,090 traffic citations, 948 vehicle stops, 616 arrests, 532 pedestrian checks, and 29 guns seized. That’s one police intervention every forty minutes. On a given night in the tiny 0.64 square miles of 144, each squad car drove about twenty-seven miles. The officers weren’t parked on a street corner, eating doughnuts. They were in constant motion.
+
+Police officers are no different from the rest of us. They want to feel that their efforts are important, that what they do matters, that their hard work will be rewarded. What happened in District 144 provided exactly what the profession of law enforcement had been searching for: validation.
+
+“Officers who recovered a firearm received favorable notoriety from their peers, almost to the point that recovery of a firearm came to be a measure of success,” Shaw wrote in his account of the program. “Officers could frequently be heard making statements such as ‘I’ve just got to get a gun tonight,’ or ‘I haven’t gotten a gun yet; tonight will be the night!’”
+
+In 1991 the New York Times ran a front-page story on the miracle in Kansas City. Larry Sherman says that over the next few days his phone rang off the hook: 300 police departments around the country bombarded him with requests for information on how he had done it. One by one, police departments around the country followed suit. To give one example, the North Carolina State Highway Patrol went from 400,000 to 800,000 traffic stops a year in the space of seven years.
+
+The Drug Enforcement Agency used “Operation Pipeline” to teach tens of thousands of local police officers across the United States how to use Kansas City–style traffic stops to catch drug couriers. Immigration officials started using police stops to catch undocumented immigrants. Today, police officers in the United States make something like twenty million traffic stops a year. That’s 55,000 a day. All over the United States, law enforcement has tried to replicate the miracle in District 144. The key word in that sentence is tried. Because in the transition from Kansas City to the rest of the country, something crucial in Lawrence Sherman’s experiment was lost.
+
+
+
+
+
+4.
+
+
+The Lawrence Sherman who went to Kansas City is the same Larry Sherman who had worked with David Weisburd in Minneapolis a few years earlier, establishing the Law of Crime Concentration. They were friends. They taught together for a time at Rutgers, where their department chairman was none other than Ronald Clarke, who had done the pioneering work on suicide. Clarke, Weisburd, and Sherman—with their separate interests in English town gas, the crime map of Minneapolis, and guns in Kansas City—were all pursuing the same revolutionary idea of coupling.
+
+And what was the principal implication of coupling? That law enforcement didn’t need to be bigger; it needed to be more focused. If criminals operated overwhelmingly in a few concentrated hot spots, those crucial parts of the city should be more heavily policed than anywhere else, and the kinds of crime-fighting strategies used by police in those areas ought to be very different from those used in the vast stretches of the city with virtually no crime at all.
+
+“If crime is concentrated on a few percent of the city streets,” Weisburd asked, “why the hell are you wasting resources everywhere? If it’s coupled to those places and doesn’t move easily, even more so.” The coupling theorists believed they had solved the problem that had so confounded the earlier days of preventive patrol. How do you effectively patrol a vast urban area with a few hundred police officers? Not by hiring more police officers, or by turning the entire city into a surveillance state. You do it by zeroing in on those few specific places where all the crime is.
+
+But think back to those statistics from North Carolina. If you go from 400,000 traffic stops in one year to 800,000 seven years later, does that sound like focused and concentrated policing? Or does that sound like the North Carolina State Highway Patrol hired a lot more police officers and told everyone, everywhere, to pull over a lot more motorists? The lesson the law-enforcement community took from Kansas City was that preventive patrol worked if it was more aggressive. But the part they missed was that aggressive patrol was supposed to be confined to places where crime was concentrated. Kansas City had been a coupling experiment.
+
+Weisburd and Sherman say they have trotted out their maps and numbers, trying to convince their peers of the Law of Crime Concentration, to little effect. Back in the 72nd precinct in Brooklyn where he began his work, after a long day roaming the neighborhood, Weisburd would turn to the police officers he had been walking with and say, “Isn’t it strange how we’re returning again and again to the same blocks?” They would look at him blankly.
+
+“I was in a meeting with the deputy commissioner [of police] in Israel,” Weisburd recalls.
+
+Someone at the meeting said, “Well, David finds that crime doesn’t just move around the corner. And that would suggest that you ought to become more focused.” This guy turned around and he said, “My experience tells me that that’s just not true. I don’t believe that.” That was the end of that.3
+
+
+
+Is something wrong with Israel’s deputy commissioner of police? Not at all. Because his reaction is no different from the behavior of the highway patrol in North Carolina, or the Golden Gate Bridge Authority, or the literary scholars who speak confidently of Sylvia Plath’s doomed genius. There is something about the idea of coupling—of the notion that a stranger’s behavior is tightly connected to place and context—that eludes us. It leads us to misunderstand some of our greatest poets, to be indifferent to the suicidal, and to send police officers on senseless errands.
+
+So what happens when a police officer carries that fundamental misconception—and then you add to that the problems of default to truth and transparency?
+
+You get Sandra Bland.
+
+1 Wilson first experimented with preventive patrol when he was the chief of police in Wichita, Kansas. He would later hold the same post in Chicago.
+
+2 To deal with that hurdle, for example, Gallagher developed all kinds of tricks. He and his partner would approach someone they thought was carrying a gun. They’d corner him, so he was feeling a little defensive. Then Gallagher would identify himself: I’m a police officer.
+
+“When you stop a man with a gun, 99 out of 100 times he’s going to do the same thing,” Gallagher told a reporter years ago. “He’s going to turn the side that the gun’s on away from you—either several inches, just a quick turn of the hip, or halfway around. And the hand and arm are going to come naturally in the direction of the gun,” in an instinctive protective motion. “At that point you don’t have to wait to see if he goes under the shirt for the gun or if he’s just going to keep it covered,” he said. “At that point you have all the right in the world to do a frisk.”
+
+3 One of Weisburd’s former students, Barak Ariel, went so far as to test resistance to the coupling idea in the Derry region of Northern Ireland. Law-enforcement officers in Derry are asked to identify specific troubled areas of their beats that they think are going to require additional police presence. Their predictions are called “waymarkers.” Ariel wondered: how closely do the police officers’ waymarkers match up with the hot spots where crime actually happens in Derry? I think you can guess. “The majority of streets included in ‘Waymarkers’ were neither ‘hot’ nor ‘harmful,’ resulting in a false positive rate of over 97 percent,” Ariel concluded. This means that 97 percent of the blocks identified by police officers as being dangerous and violent were not dangerous and violent at all. The officers who drew these waymarkers were not sitting behind a desk, remote from the direct experience of the streets. This was their turf. These were crimes they investigated and criminals they arrested. Yet somehow they could not see a fundamental pattern in the location of the strangers they were arresting.
+
+
+
+
+
+Chapter Twelve
+
+
+
+
+
+Sandra Bland
+
+
+
+
+
+1.
+
+
+At 4:27 on the afternoon of July 10, 2015, Sandra Bland was pulled over by a Texas State Trooper on FM 1098 in Waller County, Texas. She was driving a silver Hyundai Azera with Illinois license plates. She was twenty-eight years old and had just come from her hometown of Chicago to start a new job at Prairie View University. The name of the officer was Brian Encinia. He parked behind her, then approached Bland’s Hyundai slowly along the curbside, leaning in to speak to her through the open passenger window.
+
+Brian Encinia: Hello, ma’am. We’re the Texas Highway Patrol, and the reason for your stop is because you failed to signal the lane change. Do you have your driver’s license and registration with you? What’s wrong? How long have you been in Texas?
+
+Sandra Bland: Got here just yesterday.
+
+Encinia: OK. Do you have a driver’s license? [Pause.] OK, where you headed to now? Give me a few minutes.
+
+
+
+Encinia takes her license with him to his patrol car. A few minutes pass. Then he returns, this time approaching Bland’s car from the driver side.
+
+Brian Encinia: OK, ma’am. [Pause.] You OK?
+
+Bland: I’m waiting on you. This is your job. I’m waiting on you. When’re you going to let me go?
+
+Encinia: I don’t know, you seem very, really irritated.
+
+Bland: I am. I really am. I feel like it’s crap what I’m getting a ticket for. I was getting out of your way. You were speeding up, tailing me, so I move over and you stop me. So yeah, I am a little irritated, but that doesn’t stop you from giving me a ticket, so [inaudible] ticket.
+
+
+
+In the many postmortems of the Bland case, this is generally identified as Encinia’s first mistake. Her anger is steadily building. He could have tried to diffuse it. Later, during the investigation, it emerged that Encinia never intended to give her a ticket—only a warning. He could have told her that. He didn’t. He could have explained, carefully, why she should have signaled. He could have smiled, joked with her. Oh, ma’am. You don’t think I’m going to give you a ticket for that, do you? She has something to say and wants to be heard. He could have acknowledged that he was listening. Instead he waits a long, uncomfortable beat.
+
+Encinia: Are you done?
+
+
+
+That’s the first missed opportunity. Then comes the second.
+
+Bland: You asked me what was wrong, now I told you.
+
+Encinia: OK.
+
+Bland: So now I’m done, yeah.
+
+
+
+She’s done. Bland has said her piece. She’s expressed her irritation. Then she takes out a cigarette and lights it. She’s trying to calm her nerves. In the video we can’t see any of this, because the camera is on the dashboard of Encinia’s squad car; we see just the back of her car and Encinia, standing by her door. If you stopped the tape there and showed it to 100 people, 99 would guess that’s where it ends.
+
+But it doesn’t.
+
+Encinia: You mind putting out your cigarette, please? If you don’t mind?
+
+
+
+He’s flat, calm, assertive. Would you mind, said with an edge.
+
+Mistake Number Two: he should have paused, let Bland collect herself.
+
+Bland: I’m in my car. Why do I have to put out my cigarette?
+
+
+
+She’s right, of course. A police officer has no authority to tell someone not to smoke. He should have said, “Yes. You’re right. But do you mind waiting until after we’ve finished here? I’m not a fan of cigarette smoke.” Or he could have dropped the issue entirely. It’s only a cigarette. But he doesn’t. Something about the tone of her voice gets Encinia’s back up. His authority has been challenged. He snaps. Mistake Number Three.
+
+Encinia: Well, you can step on out now.
+
+Bland: I don’t have to step out of my car.
+
+Encinia: Step out of the car.
+
+Bland: Why am I…
+
+Encinia: Step out of the car!
+
+Bland: No, you don’t have the right. No, you don’t have the right to do that.
+
+Encinia: Step out of the car.
+
+Bland: You do not have the right. You do not have the right to do this.
+
+Encinia: I do have the right, now step out or I will remove you.
+
+Bland: I refuse to talk to you other than to identify myself. [crosstalk] I am getting removed for a failure to signal?
+
+Encinia: Step out or I will remove you. I’m giving you a lawful order.
+
+
+
+On the internet bulletin boards frequented by police officers after the case broke, Encinia’s actions were supported by some. But just as many were dumbfounded by this final turn:
+
+Dude, issue the f****n warning and move on. It’s NOT WORTH IT.…we’re yankin females out of vehicles cause our ego got hurt cause she wouldn’t tremble and put out the stupid cigarette????? Let’s pose this question—suppose she had stepped out when he asked her to.…THEN WHAT??? You were gonna scold her about the cigarette??? What was his plan?? What was going to be the purpose of pulling her out?
+
+
+
+But Encinia has now given her a lawful order, and she has defied it.
+
+Encinia: Get out of the car now or I’m going to remove you.
+
+Bland: And I’m calling my lawyer.
+
+Encinia: I’m going to yank you out of here. [Reaches inside the car.]
+
+Bland: OK, you’re going to yank me out of my car? OK, all right.
+
+
+
+Encinia is now bent over, arms inside Bland’s vehicle, tugging at her.
+
+Bland: Let’s do this.
+
+Encinia: Yeah, we’re going to. [Grabs for Bland.]
+
+
+
+On the tape there’s the sound of a slap, and then a cry from Bland, as if she’s been hit.
+
+Bland: Don’t touch me!
+
+Encinia: Get out of the car!
+
+Bland: Don’t touch me. Don’t touch me! I’m not under arrest—you don’t have the right to take me out of the car.
+
+Encinia: You are under arrest!
+
+Bland: I’m under arrest? For what? For what? For what?
+
+Encinia [To dispatch]: 2547 county FM 1098 [inaudible] send me another unit. [To Bland]: Get out of the car! Get out of the car now!
+
+Bland: Why am I being apprehended? You’re trying to give me a ticket for failure…
+
+Encinia: I said get out of the car!
+
+Bland: Why am I being apprehended? You just opened my car door—
+
+Encinia: I’m giving you a lawful order. I’m going to drag you out of here.
+
+Bland: So you’re threatening to drag me out of my own car?
+
+Encinia: Get out of the car!
+
+Bland: And then you’re going to [crosstalk] me?
+
+Encinia: I will light you up! Get out! Now! [Draws stun gun and points it at Bland.]
+
+Bland: Wow. Wow. [Bland exits car.]
+
+Encinia: Get out. Now. Get out of the car!
+
+Bland: For a failure to signal? You’re doing all of this for a failure to signal?
+
+Encinia: Get over there.
+
+Bland: Right. Yeah, let’s take this to court, let’s do this.
+
+Encinia: Go ahead.
+
+
+
+The encounter goes on for several more minutes. Bland becomes increasingly heated. He handcuffs her. The second unit arrives. The yelling and struggling goes on—and on.
+
+Encinia: Stop now! Stop it! If you would stop resisting.
+
+Female officer: Stop resisting, ma’am.
+
+Bland: [Cries.] For a fucking traffic ticket, you are such a pussy. You are such a pussy.
+
+Female officer: No, you are. You should not be fighting.
+
+Encinia: Get on the ground!
+
+Bland: For a traffic signal!
+
+Encinia: You are yanking around, when you pull away from me, you’re resisting arrest.
+
+Bland: Don’t it make you feel real good, don’t it? A female for a traffic ticket. Don’t it make you feel good, Officer Encinia? You’re a real man now. You just slammed me, knocked my head into the ground. I got epilepsy, you motherfucker.
+
+Encinia: Good. Good.
+
+Bland: Good? Good?
+
+
+
+Bland was taken into custody on felony assault charges. Three days later she was found dead in her cell, hanging from a noose fashioned from a plastic bag. After a short investigation, Encinia was fired on the grounds that he had violated Chapter 5, Section 05.17.00, of the Texas State Trooper General Manual:
+
+An employee of the Department of Public Safety shall be courteous to the public and to other employees. An employee shall be tactful in the performance of duties, shall control behavior, and shall exercise the utmost patience and discretion. An employee shall not engage in argumentative discussions even in the face of extreme provocation.
+
+
+
+Brian Encinia was a tone-deaf bully. The lesson of what happened on the afternoon of July 10, 2015, is that when police talk to strangers, they need to be respectful and polite. Case closed. Right?
+
+Wrong.
+
+At this point, I think we can do better.
+
+
+
+
+
+2.
+
+
+A Kansas City traffic stop is a search for a needle in a haystack. A police officer uses a common infraction to search for something rare—guns and drugs. From the very beginning, as the ideas perfected in Kansas City began to spread around the world, it was clear that this kind of policing required a new mentality.
+
+The person who searches your hand luggage at the airport, for example, is also engaged in a haystack search. And from time to time, the Transportation Security Administration (TSA) conducts audits at different airports. They slip a gun or a fake bomb into a piece of luggage. What do they find? That 95 percent of the time, the guns and bombs go undetected. This is not because airport screeners are lazy or incompetent. Rather, it is because the haystack search represents a direct challenge to the human tendency to default to truth. The airport screener sees something, and maybe it looks a little suspicious. But she looks up at the line of very ordinary-looking travelers waiting patiently, and she remembers that in two years on the job she’s never seen a real gun. She knows, in fact, that in a typical year the TSA screens 1.7 billion carry-on bags, and out of that number finds only a few thousand handguns. That’s a hit rate of .0001 percent—which means the odds are that if she kept doing her job for another 50 years she would never see a gun. So she sees the suspicious object inserted by the TSA’s auditors, and she lets it go.
+
+For Kansas City traffic stops to work, the police officer could not think that way. He had to suspect the worst of every car he approached. He had to stop defaulting to truth. He had to think like Harry Markopolos.
+
+The bible for post–Kansas City policing is called Tactics for Criminal Patrol, by Charles Remsberg. It came out in 1995, and it laid out in precise detail what was required of the new, non-defaulting patrol officer. According to Remsberg, the officer had to take the initiative and “go beyond the ticket.” That meant, first of all, picking up on what Remsberg called “curiosity ticklers”—anomalies that raise the possibility of potential wrongdoing. A motorist in a bad neighborhood stops at a red light and looks down intently at something on the seat next to him. What’s that about? An officer spots a little piece of wrapping paper sticking out between two panels of an otherwise spotless car. Might that be the loose end of a hidden package? In the infamous North Carolina case, where the police officer pulled over a driver for a broken brake light—thinking, incorrectly, that this was against North Carolina law—the thing that raised his suspicions was that the driver was “stiff and nervous.” The most savvy of criminals will be careful not to commit any obvious infractions. So traffic cops needed to be creative about what to look for: cracked windshields, lane changes without signaling, following too closely.
+
+“One officer,” Remsberg writes, “knowing that some of the most popular dope markets in his city are in dead-end streets and cul-de-sacs, just parks there and watches. Often drivers will get close before seeing his squad [car], then stop suddenly (improper stopping in a roadway) or hastily back up (improper backing in a roadway). ‘There’s two offenses,’ he says, ‘before I even pursue the car.’”
+
+When he approached the stopped car, the new breed of officer had to be alert to the tiniest clues. Drug couriers often use air fresheners—particularly the kind shaped like little fir trees—to cover up the smell of drugs. (Tree air fresheners are known as the “felony forest.”) If there are remains of fast food in the car, that suggests the driver is in a hurry and reluctant to leave his vehicle (and its valuable cargo) unattended. If the drugs or guns are hidden in secret compartments, there might be tools on the back seat. What’s the mileage on the car? Unusually high for a car of that model year? New tires on an old car? A bunch of keys in the ignition, which would be normal—or just one, as if the car was prepared just for the driver? Is there too much luggage for what seems like a short journey? Or too little luggage for what the motorist says is a long journey? The officer in an investigatory stop is instructed to drag things out as long as possible. Where you from? Where are you headed? Chicago? Got family there? Where? He’s looking for stumbles, nervousness, an implausible answer, and whether the driver’s answer matches what he’s seeing. The officer is trying to decide whether to take the next step and search the car.
+
+Keep in mind that the overwhelming majority of people with food in their car, air fresheners, high mileage, new tires on an old car, and either too little or too much luggage are not running guns and drugs. But if the police officer is to find that criminal needle in a haystack, he has to fight the rational calculation that most of us make that the world is a pretty honest place.
+
+So what is Brian Encinia? He’s the police officer who does not default to truth. Here’s a day from Brian Encinia’s career, chosen at random: September 11, 2014.
+
+3:52 p.m. The beginning of his shift. He stops a truck driver and tickets him for not having the appropriate reflective tape on his trailer.
+
+4:20 p.m. He stops a woman for an improperly placed license plate.
+
+4:39 p.m. He stops another woman for a license-plate infraction.
+
+4:54 p.m. He notices a driver with an expired registration, stops him, and then also cites him for an expired license.
+
+5:12 p.m. He stops a woman for a minor speeding infraction (that is, less than 10 percent over the speed limit).
+
+5:58 p.m. He stops someone for a major speeding infraction.
+
+6:14 p.m. He stops a man for an expired registration, then gives him three more tickets for a license infraction and having an open container of alcohol in his vehicle.
+
+8:29 p.m. He stops a man for “no/improper ID lamp” and “no/improper clearance lamp.”
+
+
+
+It goes on. Ten minutes later, he stops a woman for noncompliant headlamps, then two more minor speeding tickets over the next half hour. At 10 p.m. a stop for “safety chains,” and then, at the end of his shift, a stop for noncompliant headlamps.
+
+In that list, there is only one glaring infraction—the 5:58 stop for speeding more than 10 percent over the limit. Any police officer would respond to that. But many of the other things Encinia did that day fall under the category of modern, proactive policing. You pull over a truck driver for improper reflective tape, or someone else for “no/improper clearance lamp,” when you are looking for something else—when you are consciously looking, as Remsberg put it, to “go beyond the ticket.”
+
+One of the key pieces of advice given to proactive patrol officers to protect them from accusations of bias or racial profiling is that they should be careful to stop everyone. If you’re going to use trivial, trumped-up reasons for pulling someone over, make sure you act that way all the time. “If you’re accused of profiling or pretextual stops, you can bring your daily logbook to court and document that pulling over motorists for ‘stickler’ reasons is part of your customary pattern,” Remsberg writes, “not a glaring exception conveniently dusted off in the defendant’s case.”
+
+That’s exactly what Encinia did. He had day after day like September 11, 2014. He got people for improper mud flaps and for not wearing a seat belt and for straddling lanes and for obscure violations of vehicle-light regulations. He popped in and out of his car like a Whac-A-Mole. In just under a year on the job, he wrote 1,557 tickets. In the twenty-six minutes before he stopped Sandra Bland, he stopped three other people.
+
+So: Encinia spots Sandra Bland on the afternoon of July 10. In his deposition given during the subsequent investigation by the Inspector General’s office of the Texas Department of Public Safety, Encinia said he saw Bland run a stop sign as she pulled out of Prairie View University. That’s his curiosity tickler. He can’t pull her over at that point, because the stop sign is on university property. But when she turns onto State Loop 1098, he follows her. He notices she has Illinois license plates. That’s the second curiosity tickler. What’s someone from the other end of the country doing in East Texas?
+
+“I was checking the condition of the vehicle, such as the make, the model, if it had a license plate, any other conditions,” Encinia testified. He was looking for an excuse to pull her over. “Have you accelerated up on vehicles at that speed in the past, to check their condition?” Encinia is asked by his interrogator, Cleve Renfro. “I have, yes sir,” Encinia replies. For him, it’s standard practice.
+
+When Bland sees Encinia in her rearview mirror coming up fast behind her, she moves out of the way to let him pass. But she doesn’t use her turn signal. Bingo! Now Encinia has his justification: Title 7, subtitle C, Section 545.104, part (a) of the Texas Transportation Code, which holds that “An operator shall use the signal authorized by Section 545.106 to indicate an intention to turn, change lanes, or start from a parked position.” (In the event that Bland had used her turn signal at the very last moment, just before she changed lanes, Encinia even had a backup option: part (b) of Section 545.104 holds that “An operator intending to turn a vehicle right or left shall signal continuously for not less than the last 100 feet of movement of the vehicle before the turn.” He could have stopped her for not signaling and he could have stopped her for not signaling enough.)1
+
+Encinia gets out of his squad car and slowly approaches Bland’s Hyundai from the passenger side, leaning in slightly to see if there’s anything of interest in the car. He’s doing the visual pat-down: Anything amiss? Fast-food wrappers on the floor? A felony forest hanging from the rearview mirror? Tools on the back seat? Single key on the key ring? Bland had just driven to Texas from Chicago; of course she had food wrappers on the floor. In the normal course of events, most of us looking in that window would cast our doubts aside. But Brian Encinia is the new breed of police officer. And we have decided that we would rather our leaders and guardians pursue their doubts than dismiss them. Encinia leans in the window, tells her why he pulled her over, and—immediately—his suspicions are raised.
+
+
+
+
+
+3.
+
+
+Renfro: OK. After you asked Bland for her driver’s license, you then asked her where she was headed and she replied, “It doesn’t matter.” You wrote in your report, “I knew at this point based on her demeanor that something was wrong.”
+
+
+
+In his deposition, Encinia is now being questioned by state investigator Cleve Renfro.
+
+Renfro: Explain for the recording what you thought was wrong.
+
+Encinia: …It was an aggressive body language and demeanor. It appeared that she was not okay.
+
+
+
+Brian Encinia believed in transparency—that people’s demeanor is a reliable guide to their emotions and character. This is something we teach one another. More precisely, it is something we teach police officers. The world’s most influential training program for law enforcement, for example, is called the Reid Technique. It is used in something like two-thirds of U.S. state police departments—not to mention the FBI and countless other law-enforcement agencies around the world—and the Reid system is based directly on the idea of transparency: it instructs police officers, when dealing with people they do not know, to use demeanor as a guide to judge innocence and guilt.
+
+For example, here is what the Reid training manual says about eye contact:
+
+In Western culture, mutual gaze (maintained eye contact) represents openness, candor, and trust. Deceptive suspects generally do not look directly at the investigator; they look down at the floor, over to the side, or up at the ceiling as if to beseech some divine guidance when answering questions.…
+
+Truthful suspects, on the other hand, are not defensive in their looks or actions and can easily maintain eye contact with the investigator.
+
+
+
+The post–Kansas City textbook, Tactics for Criminal Patrol, instructs officers in police stops to conduct a “concealed interrogation,” based on what they can gather from their initial observation of the suspect.
+
+As you silently analyze their stories, their verbal mannerisms, and their body language for deception cues, you’ll be trying to convince them that suspicion is far from your mind.…The longer you can delay their tumbling to the fact that you are actually appraising them, their vehicle, and their reason for being in transit, the more likely they are to unwittingly provide you with incriminating evidence.
+
+
+
+So that is exactly what Encinia does. He notices that she’s stomping her feet, moving them back and forth. So he starts to stretch out their interaction. He asks her how long she has been in Texas. She says, “Got here just yesterday.” His sense of unease mounts. She has Illinois plates. What is she doing in Texas?
+
+Renfro: Did you have safety concerns at that point?
+
+Encinia: I knew something was wrong but I didn’t know what was wrong. I didn’t know if a crime was being committed, had been committed, or whatnot.
+
+
+
+He returns to his squad car to check her license and registration, and when he looks up and observes Bland through the rear window of her car, he says he sees her “making numerous furtive movements including disappearing from view for an amount of time.” This is a crucial point, and it explains what is otherwise a puzzling fact from the video. Why does Encinia approach Bland’s car from the passenger side the first time around, but from the driver side the second time? It’s because he’s getting worried. As he wrote in his report, “Officer safety training has taught me that it was much easier for a violator to attempt to shoot me on the passenger side of the vehicle.”
+
+Renfro: So explain for the recording why you would go from “This is a routine traffic stop with an aggravated person that in your opinion is not being cooperative or she’s agitated,” to your thought process that there’s a possibility that you need to make a driver’s-side approach due to the training on officers being shot.
+
+Encinia: OK. Because when I was still inside the patrol car, I had seen numerous movements to the right, to the console, her right side of her body, that area as well as disappearing from sight.
+
+
+
+His immediate thought was Is she reaching for a weapon? So now he approaches with caution.
+
+Encinia: She has untinted glass on her windows so I can be able to see if anything could possibly be in her hands, if she had to turn over her shoulder or not. So that’s why I chose that route…
+
+
+
+To Encinia’s mind, Bland’s demeanor fits the profile of a potentially dangerous criminal. She’s agitated, jumpy, irritable, confrontational, volatile. He thinks she’s hiding something.
+
+This is dangerously flawed thinking at the best of times. Human beings are not transparent. But when is this kind of thinking most dangerous? When the people we observe are mismatched: when they do not behave the way we expect them to behave. Amanda Knox was mismatched. At the crime scene, as she put on her protective booties, she swiveled her hips and said, “Ta-dah.” Bernie Madoff was mismatched. He was a sociopath dressed up as a mensch.
+
+What is Sandra Bland? She is also mismatched. She looks to Encinia’s eye like a criminal. But she’s not. She’s just upset. In the aftermath of her death, it was revealed that she had had ten previous encounters with police over the course of her adult life, including five traffic stops, which had left her with almost $8,000 in outstanding fines. She had tried to commit suicide the year before, after the loss of a baby. She had numerous cut marks running up and down one of her arms. In one of her weekly “Sandy Speaks” video posts, just a few months before she left for Texas, Bland alluded to her troubles:
+
+I apologize. I am sorry, my Kings and Queens. It has been two long weeks. I have been missing in action. But I gotta be honest with you guys. I am suffering from something that some of you all may be dealing with right now.…It’s a little bit of depression as well as PTSD. I’ve been really stressed out these last couple of weeks…
+
+
+
+So here we have a troubled person with a history of medical and psychiatric issues, trying to pull her life together. She’s moved to a new town. She’s starting a new job. And just as she arrives to begin this new chapter in her life, she’s pulled over by a police officer—repeating a scenario that has left her deeply in debt. And for what? For failing to signal a lane change when a police car is driving up rapidly behind her. All of a sudden her fragile new beginning is cast into doubt. In the three days she spent in jail before taking her own life, Sandra Bland was distraught, weeping constantly, making phone call after phone call. She was in crisis.
+
+But Encinia, with all of the false confidence that believing in transparency gives us, reads her emotionality and volatility as evidence of something sinister.
+
+Renfro asks about the crucial moment—when Encinia requests that Bland put out her cigarette. Why didn’t he just say, “Hey, your cigarette ashes are getting on me”?
+
+Encinia: I wanted to make sure that she had it out without throwing it at me or just get it out of her hand.
+
+
+
+Renfro then asks why, if that were the case, he didn’t immediately tell her why she was under arrest.
+
+Encinia: ’Cause I was trying to defend myself and get her controlled.
+
+
+
+He’s terrified of her. And being terrified of a perfectly innocent stranger holding a cigarette is the price you pay for not defaulting to truth. It’s why Harry Markopolos holed up in his house, armed to the teeth, waiting for the SEC to come bursting in.
+
+Renfro: I didn’t ask you this earlier but I will now. When she tells you, “Let’s do this,” you respond, “We’re going to.” What did you mean by that?
+
+Encinia: I could tell from her actions of leaning over and just she made her hand to me, even being a non-police officer if I see somebody balling fists, that’s going to be confrontational or potential harm to either myself or to another party.
+
+Renfro: Is there a reason why you just didn’t take her down?
+
+Encinia: Yes, sir.
+
+Renfro: Why?
+
+Encinia: She had already swung at me once. There was nothing stopping her from potentially swinging again, potentially disabling me.
+
+
+
+Another of the investigators chimes in.
+
+Louis Sanchez: Were you scared?
+
+Encinia: My safety was in jeopardy at more than one time.
+
+
+
+And then:
+
+Sanchez: I don’t want to put words in your mouth, so after this occurred, how long was your heart rate up, your adrenaline pumping? When did you calm down after this?
+
+Encinia: Probably on my drive home, which was several hours later.
+
+
+
+It was common, in the Bland postmortem, to paint Encinia as an officer without empathy. But that characterization misses the point. Someone without empathy is indifferent to another’s feelings. Encinia is not indifferent to Bland’s feelings. When he approaches her car, one of the first things he says to her is, “What’s wrong?” When he returns to her car after checking her license, he asks again: “Are you okay?” He picks up on her emotional discomfort immediately. It’s just that he completely misinterprets what her feelings mean. He becomes convinced that he is sliding into a frightening confrontation with a dangerous woman.
+
+And what does Tactics for Criminal Patrol instruct the police officer to do under these conditions? “Too many cops today seem afraid to assert control, reluctant to tell anyone what to do. People are allowed to move as they want, to stand where they want, and then officers try to adapt to what the suspect does.” Encinia isn’t going to let that happen.
+
+Encinia: Well, you can step on out now…Step out or I will remove you. I’m giving you a lawful order.
+
+
+
+Brian Encinia’s goal was to go beyond the ticket. He had highly tuned curiosity ticklers. He knew all about the visual pat-down and the concealed interrogation. And when the situation looked as if it might slip out of his control, he stepped in, firmly. If something went awry that day on the street with Sandra Bland, it wasn’t because Brian Encinia didn’t do what he was trained to do. It was the opposite. It was because he did exactly what he was trained to do.
+
+
+
+
+
+4.
+
+
+On August 9, 2014, one year before Sandra Bland died in her cell in Prairie View, Texas, an eighteen-year-old African American man named Michael Brown was shot to death by a white police officer in Ferguson, Missouri. Brown had been a suspect in a robbery at a nearby grocery store. When Darren Wilson—the police officer—confronted him, the two men struggled. Brown reached inside the driver’s window of Wilson’s patrol car and punched him. Wilson ended up shooting him six times. Seventeen days of riots followed. Prosecutors declined to press charges against Officer Wilson.
+
+Ferguson was the case that began the strange interlude in American life when the conduct of police officers was suddenly front and center. And it should have served as a warning. The U.S. Department of Justice almost immediately sent a team of investigators to Ferguson—and their report, published six months later, is an extraordinary document. One of the leaders of the DOJ team was a lawyer named Chiraag Bains, and Bains says that what struck him, almost immediately, was that the anger in Ferguson wasn’t just about Brown’s death—or even largely about Brown. It was, instead, about a particular style of policing that had been practiced in the city for years. The Ferguson Police Department was the gold standard of Kansas City policing. It was a place where the entire philosophy of law enforcement was to stop as many people as possible for as many reasons as possible.
+
+“It was very disturbing,” Bains remembers.
+
+One officer said, “It’s all about the courts.” Another said, “Yeah, every month they’ll put up, our supervisors will put on the wall lists of officers and how many tickets they issued that month.” We understood that productivity was the goal.
+
+
+
+Ferguson had an entire police department full of Brian Encinias. Bains went on:
+
+They knew that their job was to issue tickets and arrest people who hadn’t paid their fines and fees and that’s what they were going to be evaluated on.
+
+
+
+Bains said one incident shocked him the most. It involved a young black man who had been playing basketball at a playground. Afterward, he was sitting in his car cooling off when a police car pulled up behind him. The officer approached the driver’s window and demanded to see identification, accusing the driver of being a child molester.
+
+I think [the police officer] said something to the effect like, “There are kids here and you’re at the park, what are you, a pedophile?”…The officer then orders him out of the car and the guy says, “Well, I’m not doing anything. I mean, I have constitutional rights. I’m just sitting here just playing ball.”
+
+The officer then actually pulls his gun on the guy and threatening him and insisting that he get out of the car. The way the incident ends is that the officer writes him up for eight different tickets including not having a seatbelt on, he was sitting in his car at the park, not having a license, and also having a suspended license. He managed to issue both charges.
+
+
+
+The man even got a ticket for “making a false declaration” because he gave his name as “Mike” when it was actually Michael.
+
+He ends up carrying a lot of charges for quite a while. What happens to him is he gets charged with eight offenses in the Ferguson Municipal Code and tries to fight his case. He ends up, he was arrested on that occasion. He ends up losing his job where he was a contractor for the federal government. That arrest really derailed him.
+
+
+
+Mike’s arrest is a carbon copy of Sandra Bland’s, isn’t it? A police officer approaches a civilian on the flimsiest of pretexts, looking for a needle in a haystack—with the result that so many innocent people are caught up in the wave of suspicion that trust between police and community is obliterated. That’s what was being protested in the streets of Ferguson: years and years of police officers mistaking a basketball player for a pedophile.2
+
+Is this just about Ferguson, Missouri or Prairie View, Texas? Of course not. Think back to the dramatic increase in traffic stops by the North Carolina State Highway Patrol. In seven years they went from 400,000 to 800,000. Now, is that because in that time period the motorists of North Carolina suddenly started running more red lights, drinking more heavily, and breaking the speed limit more often? Of course not. It’s because the state police changed tactics. They started doing far more haystack searches. They instructed their police officers to disregard their natural inclination to default to truth—and start imagining the worst: that young women coming from job interviews might be armed and dangerous, or young men cooling off after a pickup game might be pedophiles.
+
+How many extra guns and drugs did the North Carolina Highway Patrol find with those 400,000 searches? Seventeen. Is it really worth alienating and stigmatizing 399,983 Mikes and Sandras in order to find 17 bad apples?
+
+When Larry Sherman designed the Kansas City gun experiment, he was well aware of this problem. “You wouldn’t tell doctors to go out and start cutting people up to see if they’ve got bad gallbladders,” Sherman says. “You need to do lots of diagnosis first before you do any kind of dangerous procedure. And stop-and-search is a dangerous procedure. It can generate hostility to the police.” To Sherman, medicine’s Hippocratic oath—“First, do no harm”—applies equally to law enforcement. “I’ve just bought myself a marble bust of Hippocrates to try to emphasize every day when I look at it that we’ve got to minimize the harm of policing,” he went on. “We have to appreciate that everything police do, in some ways, intrudes on somebody’s liberty. And so it’s not just about putting the police in the hot spots. It’s also about having a sweet spot of just enough intrusion on liberty and not an inch—not an iota—more.”
+
+That’s why the police officers involved in Sherman’s Kansas City experiment underwent special training. “We knew that proactive policing was a legitimacy risk for the police, and I stressed that repeatedly,” Sherman said.3 Even more crucially, this is why the Kansas City gun experiment was confined to District 144. That’s where the crime was. “We went through the effort of trying to reconstruct where the hot spots were,” Sherman said. In the city’s worst neighborhood, he then drilled down one step further, applying the same fine-grained analysis that he and Weisburd had used in Minneapolis to locate the specific street segments where crime was most concentrated. Patrol officers were then told to focus their energies on those places. Sherman would never have aggressively looked for guns in a neighborhood that wasn’t a war zone.
+
+In District 144, the “Mike and Sandra problem” didn’t go away. But the point of confining the Kansas City gun experiment to the worst parts of the worst neighborhoods was to make the haystack just a little smaller, and to make the inevitable trade-off between fighting crime and harassing innocent people just a little more manageable. In an ordinary community, for the police to be as aggressive as Sherman wanted them to be would be asking for trouble. On the other hand, to people suffering in the 3 or 4 percent of streets where crime is endemic—where there might be as many as 100 or even 200 police calls in a year—coupling theory suggested that the calculus would be different.
+
+“What happens in hot-spots policing? You tell the police, ‘Go on the ten streets out of the one hundred in that neighborhood, or out of a thousand in that neighborhood, and spend your time there.’ That’s where things are happening,” Weisburd says. “And if you do that, there’s a good chance the neighborhood will say, ‘Yeah, that intrusion is worthwhile because I don’t want to get shot tomorrow.’”
+
+The first question for Brian Encinia is: did he do the right thing? But the second question is just as important: was he in the right place?
+
+
+
+
+
+5.
+
+
+Prairie View, Texas, where Sandra Bland was pulled over, is sometimes described as being “outside” Houston, as if it were a suburb. It is not. Houston is fifty miles away. Prairie View is the countryside.
+
+The town is small: no more than a few thousand people, short streets lined with modest ranch homes. The university sits at one end of the main street, FM 1098, which then borders the west edge of the campus. If you drive around the school on the ring road, there is a small Episcopal Church on the left, the college football stadium on the right, and after that lots of pasture land, populated with the occasional horse or cow. Waller County—where Prairie View is located—is predominantly Republican, white, middle- and working-class.
+
+Renfro: OK, talk to me about that area. Is it a high-crime area?
+
+Encinia: That portion of FM 1098 is a high-crime, high-drug area. It’s—with my experience in that area, I have, in similar situations, with what I’ve seen, I’ve come across drugs, weapons, and noncompliant individuals.
+
+
+
+Encinia then goes on to tell Renfro that he has made multiple arrests for “warrants, drugs, and numerous weapons, almost [all] within that vicinity.”
+
+Encinia’s official record, however, shows nothing of the sort. Between October 1, 2014, and the Sandra Bland incident on July 10 of the following year, he stopped twenty-seven motorists on that mile-long stretch of highway. Six of those were speeding tickets. Those were compulsory stops: we can assume that any reasonably vigilant police officer, even in the pre–Kansas City era, would have done the same. But most of the rest are just Encinia on fishing expeditions. In March 2015 he cited a black male for “failure to drive in a single lane.” Five times he pulled someone over for violating “FMVSS 571.108,” the section of federal vehicle-safety regulations governing turn signals, license-plate lighting, and brake lights. The worst thing on the list are two cases of drunk driving, but let’s keep in mind that this is a road that borders a college campus.
+
+That’s it. FM 1098 is not “a high-crime, high-drug area.” You’d have to go three miles away to Laurie Lane—a half-mile stretch of trailer homes—to find anything in the vicinity that even remotely resembles a hot spot.
+
+“Why are you stopping people in places where there’s no crime?” Weisburd says. “That doesn’t make sense to me.”
+
+Sherman is just as horrified. “At that hour of the day in that location, stopping [Sandra Bland] for changing lanes is not justifiable,” he said. Even during the initial Kansas City gun experiment—in a neighborhood a hundred times worse than Prairie View—Sherman said that the special police officers made their stops solely at night. That’s the only time of day when the crime rate was high enough to justify aggressive policing. Sandra Bland was pulled over in the middle of the afternoon.
+
+Brian Encinia may have deliberately exaggerated the dangers of that stretch of road to justify his treatment of Sandra Bland. It seems just as likely, though, that it simply never occurred to him to think about crime as something so tightly tied to place. Literary theorists and bridge engineers and police chiefs struggle with coupling. Why would patrol officers be any different?
+
+So it was that Brian Encinia ended up in a place he should never have been, stopping someone who should never have been stopped, drawing conclusions that should never have been drawn. The death of Sandra Bland is what happens when a society does not know how to talk to strangers.
+
+
+
+
+
+6.
+
+
+This has been a book about a conundrum. We have no choice but to talk to strangers, especially in our modern, borderless world. We aren’t living in villages anymore. Police officers have to stop people they do not know. Intelligence officers have to deal with deception and uncertainty. Young people want to go to parties explicitly to meet strangers: that’s part of the thrill of romantic discovery. Yet at this most necessary of tasks we are inept. We think we can transform the stranger, without cost or sacrifice, into the familiar and the known, and we can’t. What should we do?
+
+We could start by no longer penalizing one another for defaulting to truth. If you are a parent whose child was abused by a stranger—even if you were in the room—that does not make you a bad parent. And if you are a university president and you do not jump to the worst-case scenario when given a murky report about one of your employees, that doesn’t make you a criminal. To assume the best about another is the trait that has created modern society. Those occasions when our trusting nature gets violated are tragic. But the alternative—to abandon trust as a defense against predation and deception—is worse.
+
+We should also accept the limits of our ability to decipher strangers. In the interrogation of KSM, there were two sides. James Mitchell and his colleague Bruce Jessen were driven by the desire to make KSM talk. On the other side, Charles Morgan worried about the cost of forcing people to talk: what if in the act of coercing a prisoner to open up, you damaged his memories and made what he had to say less reliable? Morgan’s more-modest expectations are a good model for the rest of us. There is no perfect mechanism for the CIA to uncover spies in its midst, or for investors to spot schemers and frauds, or for any of the rest of us to peer, clairvoyantly, inside the minds of those we do not know. What is required of us is restraint and humility. We can put up barriers on bridges to make it more difficult for that momentary impulse to become permanent. We can instruct young people that the kind of reckless drinking that takes place at a fraternity party makes the task of reading others all but impossible. There are clues to making sense of a stranger. But attending to them requires care and attention.
+
+I said at the beginning of this book that I was not willing to put the death of Sandra Bland aside. I have now watched the videotape of her encounter with Brian Encinia more times than I can count—and each time I do, I become angrier and angrier over the way the case was “resolved.” It was turned into something much smaller than it really was: a bad police officer and an aggrieved young black woman. That’s not what it was. What went wrong that day on FM 1098 in Prairie View, Texas, was a collective failure. Someone wrote a training manual that foolishly encouraged Brian Encinia to suspect everyone, and he took it to heart. Somebody else higher up in the chain of command at the Texas Highway Patrol misread the evidence and thought it was a good idea to have him and his colleagues conduct Kansas City stops in a low-crime neighborhood. Everyone in his world acted on the presumption that the motorists driving up and down the streets of their corner of Texas could be identified and categorized on the basis of the tone of their voice, fidgety movements, and fast-food wrappers. And behind every one of those ideas are assumptions that too many of us share—and too few of us have ever bothered to reconsider.
+
+Renfro: OK. If Bland had been a white female, would the same thing have occurred?
+
+
+
+It’s the end of the deposition. Encinia and his interrogator are still fruitlessly trying to figure out what happened that day.
+
+Encinia: Color doesn’t matter.…We stop vehicles and people for law infractions, not based on any kind of race or gender at all. We stop for violations.
+
+
+
+“We stop for violations,” may be the most honest thing said in their entire episode. But instead of asking the obvious follow-up—why do we stop for all violations?—Renfro blunders on.
+
+Renfro: What do you think that someone who’s aggravated is going to do once you ask them, “Are you OK?” And she gives you that type of response, and then you come back with, “Are you done?” I mean, how’s that building on rapport?
+
+
+
+Renfro is firm but understanding, like a father chiding a small child for being rude to the dinner guests. The two of them have agreed to frame the tragic death of Sandra Bland as a personal encounter gone awry, and now they are at the stage where Renfro is critiquing Encinia’s table manners.
+
+Encinia: At no point was I ever trying to be discourteous or trying to downplay any of her response. I was just simply asking her if she was done, to make sure she had what she needed out, and that way I could move on with completing the traffic stop and/or identifying what possibly may or may not be in the area.
+
+Renfro: Is it fair to say that she could have possibly taken that as being sarcastic?
+
+Encinia: It is possible, yes, sir. Those were not my intentions.
+
+
+
+Oh, so it was her mistake, was it? Apparently, Bland misinterpreted his intonation. If you are blind to the ideas that underlie our mistakes with strangers—and to the institutions and practices that we construct around those ideas—then all you are left with is the personal: the credulous Mountain Climber, the negligent Graham Spanier, the sinister Amanda Knox, the doomed Sylvia Plath. And now Sandra Bland, who—at the end of the lengthy postmortem into that fateful traffic stop on FM 1098—somehow becomes the villain of the story.
+
+Renfro: Did you ever reflect back on your training at that point and think about that you may have stopped a subject that just didn’t like police officers? Did that ever occur to you?
+
+Encinia: Yes sir.…That is a possibility, that she did not like police officers.
+
+
+
+Because we do not know how to talk to strangers, what do we do when things go awry with strangers? We blame the stranger.
+
+1 This is why Bland is so irritated, of course. “I feel like it’s crap what I’m getting a ticket for. I was getting out of your way. You were speeding up, tailing me, so I move over and you stop me,” she says. Meaning: a police car came speeding up behind her. She got out of its way, as a motorist is supposed to do, and now the same police officer who forced her to change lanes is giving her a ticket for improperly changing lanes. Encinia caused the infraction.
+
+2 There is significant evidence that African Americans are considerably more likely to be subjected to traffic stops than white Americans, meaning the particular indignity of the false positive is not equally distributed across all citizens. It is concentrated on those citizens who already suffer from other indignities.
+
+3 In later projects with Scotland Yard in London, when the police were trying to curb a wave of knife killings among teenagers, Sherman would insist that patrol officers leave their cards with everyone they talked to.
+
+“They were sometimes doing five hundred stops a night,” Sherman said, “and they were handing a receipt to everyone they stopped that said essentially, ‘This is my name, this is my badge number. If you have any complaints or questions about anything I did, you can follow up with this receipt.’”

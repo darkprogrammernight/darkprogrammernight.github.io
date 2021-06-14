@@ -1,0 +1,1424 @@
+Chapter 22
+Diffusion Tensor Imaging
+(DTI) and Tractography
+
+Theodor Rüber, Christian Erich Elger and Bernd Weber
+
+
+
+
+Abstract Diffusion Tensor Imaging is a Magnet Resonance Imaging-technique that
+allows for the non-invasive in vivo assessment and delineation of white matter tracts.
+The Magnet Resonance signal is sensitized to the natural diffusion process of protons and
+a tensor model is ﬁtted to the resulting data. By following the direction of the diffusion
+maximum across the brain, the process of tractography yields three-dimensional
+reconstructions of white matter tracts, which may be microstructurally analyzed by
+means of diffusivity parameters. Before the advent of Diffusion Tensor Imaging, studies
+of connectional anatomy in humans could only be conducted post-mortem. Diffusion
+Tensor Imaging has shifted neuroscientiﬁc attention from single brain regions to the
+networks connecting them. This, however, has not only extended our knowledge on
+brain networks but also on single loci being part of these networks. Although the
+biological substrates of Diffusion Tensor Imaging-derived parameters remain unclear to
+a certain extent, Diffusion Tensor Imaging and tractography have successfully informed
+many studies in the ﬁeld of age- or training-related neuronal changes. In addition, it has
+been found to be applicable in clinical settings. However, Diffusion Tensor Imaging
+studies covering the ﬁelds of neuroeconomics and behavioral psychology are sparse.
+Two pioneer studies from these ﬁelds have successfully related personality character-
+istics of interest to Diffusion Tensor Imaging- and tractography-derived measures. This
+chapter tries to give an introduction to the mechanisms of Diffusion Tensor Imaging and
+will work to explain its utilization while highlighting limitations of Diffusion Tensor
+Imaging as well as examples of its successful applications.
+
+
+
+22.1    Introduction
+
+Diffusion Tensor Imaging (DTI) is a modern Magnet Resonance Imaging (MRI)-
+method which allows to examine the microstructural status of white matter in vivo
+and non-invasively. Tractography is a modeling technique which uses DTI data to
+
+T. Rüber (&)  C.E. Elger  B. Weber
+Department of Epileptology, Bonn University Hospital, Bonn, Germany
+e-mail: theodor.rueber@ukb.uni-bonn.de
+
+© Springer-Verlag Berlin Heidelberg 2016                                              411
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_22
+412                                                                     T. Rüber et al.
+
+three-dimensionally reconstruct white matter pathways. The advent of DTI and
+tractography has revolutionized neuroscience in the last 25 years by opening an
+avenue for the study of white matter connections in living human subjects. Before
+that, white matter studies in humans could only be conducted post-mortem. Tracing
+neuronal connections in the brain dates back to the work of the nineteenth century
+neuroanatomists: Carl Wernicke was among the ﬁrst to relate clinical pathologies to
+lesions of neuronal connections (Wernicke 1874). Joseph Jules Dejerine used
+myelin stains to study (so-called Wallerian) degeneration in patients which hap-
+pened anterograde and retrograde to focal lesions (Dejerine and Dejerine-Klumpke
+1895). Modern techniques of tract tracing exploit the active axonal transport
+mechanisms of neurons in animals (Dauguet et al. 2007; Johansen-Berg and
+Rushworth 2009; Mesulam 2005). Here, a tracer substance including small
+fluorescent molecules, neurotoxins, latex microspheres, or viruses is injected into a
+region of interest and taken up by the cell. This procedure is followed by a waiting
+period of several days in which the tracer is either transported from the cell body to
+the axon terminals (anterograde tracing) or from the axon terminals to the cell body
+(retrograde tracing). The animal is then sacriﬁced; the brain is ﬁxed, sectioned and
+post-processed to allow for visualization of the tracer substance (Johansen-Berg
+and Rushworth 2009). The results may be used to localize neurons of origin,
+visualize pathways “hidden” in white matter, and to spot terminal ﬁelds. For
+obvious reasons, this procedure cannot be applied to humans. Thus, core questions
+of human neuroanatomy had to remain unanswered. In their editorial published
+1993 in Nature, Francis Crick and Edward Jones concluded that “Human neu-
+roanatomy is so backward because we cannot use the common tracer methods on
+humans […]” and underlined the need for new techniques to the study of the human
+brain (Crick and Jones 1993). DTI has been named as “most concrete response to
+their appeal” (Catani 2007). Functional MRI (fMRI) had shifted attention to cortical
+areas and their functions leading to what has been termed a “new sort of
+phrenology” (Mesulam 2005), and to the consideration of white matter only as
+passive infrastucture. DTI and tractography have pushed white matter back in the
+focus of neuroscientiﬁc attention after a long time of stagnation. This is voiced in
+the common alteration of the colloquialism “gray matters” to “white matters” in the
+neuroscience community.
+   A detailed introduction to the mechanisms and applications of DTI is beyond the
+scope of the current chapter. Rather, this chapter aims to provide a preliminary
+understanding of DTI, allowing the reader to value the opportunities but be aware
+of the limitations of this recent imaging modality. Emphasis of this chapter will be
+analysis approaches to DTI data and applications of DTI and tractography in order
+to give it a practical thrust. The principles of DTI will be briefly reviewed before
+introducing its most commonly used measures. Tractography will then be discussed
+and common approaches of DTI-tractography data analysis will be presented,
+including pitfalls and limitations of this method. Furthermore, common DTI
+applications for clinical purposes as well as research studies of anatomy and
+plasticity will be reviewed. Finally, two DTI-studies related to the ﬁeld of neu-
+roeconomics will be discussed and a conclusion from this chapter will be drawn.
+22   Diffusion Tensor Imaging (DTI) and Tractography                                 413
+
+
+22.2     Basic Principles
+
+DTI is a speciﬁc modeling technique of diffusion-weighted datasets (Basser et al.
+1994b; Pierpaoli and Basser 1996). Diffusion-Weighted Imaging (DWI) is a variant
+of conventional MRI (Le Bihan et al. 1986; Taylor and Bushell 1985). DWI/DTI
+may be performed with existing MRI technology without the additional use of new
+equipment or contrast agents. The advantages related to MRI, thus, also apply to
+DTI: It is non-invasive, may be performed in vivo, is harmless to the subject as long
+as security guidelines are being followed, is widely available and relatively inex-
+pensive. In DWI, the MRI signal is sensitized to the tissue water diffusion rate.
+From the atomistic point of view, molecular diffusion is deﬁned as a random walk
+of molecules that is driven by thermal energy. Diffusion of particles was ﬁrst
+observed by the Scottish botanist Robert Brown in 1827 who interpreted the
+movement as “essence of life”; scientiﬁc explanation of molecular diffusion was
+given by Albert Einstein almost 80 years later (Einstein 1905). The process of
+diffusion may well be pictured by means of a simple experiment: Some drops of ink
+are carefully poured into a glass of water. At ﬁrst, the ink will be clearly distin-
+guishable in one area of the glass but will then diffuse all over and be uniformly
+dissolved. In the middle of the glass, molecules are not hindered by the container.
+Their diffusion process is nondirectional, whereas close to the container walls,
+diffusion is directional. Directionally unrestricted diffusion is described as isotropic,
+whereas directional diffusion is described as anisotropic. It is easy to see how
+diffusion will be anisotropic in coherent white matter bundles, such as in the
+internal capsule, where connections descend from the cortex to the spine, and how it
+will be isotropic in the fluid-ﬁlled ventricles. By means of a magnetic ﬁeld gradient,
+the MR signal may be sensitized to diffusion. The most basic form of diffusion
+imaging, DWI, relies on a model of a three-dimensional isotropic Gaussian dis-
+tribution and only yields a scalar measure of the diffusion rate, the so-called
+apparent-diffusion coefﬁcient (ADC), indicated on a grayscale speciﬁcally for every
+voxel. A voxel (volumetric pixel) is one of many rectangular volume elements
+constituting a regularly segmented three-dimensional space. In brain imaging, one
+full measurement of the head consists of many thousands voxels and is termed
+volume. In a diffusion-weighted volume, fluid-ﬁlled ventricles appear dark, whereas
+regions of restricted diffusivity such as gray matter or white matter ﬁber bundles
+look bright. However, diffusion-weighted datasets may also be used to model the
+underlying diffusivity characteristics in each voxel. The most common
+three-dimensional model mapping of anisotropic diffusion as a function of spatial
+location is the diffusion tensor, introduced by Basser et al. (1994a, b). In this model,
+the tensor is fully described by a 3 × 3 matrix of variances and covariances.
+                                    0                      1
+                                     Dxx      Dxy      Dxz
+                               D ¼ @ Dyx      Dyy      Dyz A
+                                     Dzx      Dzy      Dzz
+414                                                                        T. Rüber et al.
+
+    Anisotropic diffusion has six degrees of freedom. This is why at least six dif-
+fusion measurements of the whole brain in several different directions (i.e., six
+volumes) are needed to derive the diffusion tensor matrix. However, it is intuitive
+that diffusion measurements in more than six directions will yield a more accurate
+diffusion tensor model and are most commonly applied (Hasan et al. 2001;
+Papadakis et al. 2000). In any case, one additional volume without diffusion-
+weighting, the b0, has to be acquired in every sequence which serves as a reference
+image. Once the tensor model is ﬁtted, one can estimate the diffusivity in any
+arbitrary direction. Diagonalization of the tensor matrix results in a set of three
+orthogonal eigenvectors ê1, ê2, and ê3 representing the major, medium and minor
+principle axes of diffusivity modeled. The corresponding eigenvalues λ1, λ2, and λ3
+quantify the apparent diffusivities along these axes. It is the most basic premise
+underlying DTI that molecular diffusion happens easier along the axis of coherent
+white matter bundles, but will be hindered by axon membranes and other white
+matter barriers perpendicular to it (Hagmann et al. 2006; Pierpaoli et al. 1996). The
+major principal eigenvector ê1 indicating the direction of the greatest apparent
+diffusivity λ1 is thus thought to be parallel to tract orientation (Moseley et al. 1990).
+Since the three vectors are orthogonal to each other, the medium and minor prin-
+ciple eigenvectors ê2 and ê3 are perpendicular to the tract orientation. The diffusion
+tensor is best visualized by an ellipsoid pointing in the direction of maximal dif-
+fusivity. In this illustration, the eigenvectors (ê1, ê2, ê3) deﬁne the directions of the
+principle axes and the respective radii are deﬁned by the eigenvalues (λ1, λ2, λ3).
+The ellipsoid will be orbital if diffusion is isotropic and may be cigar-shaped if
+diffusion is anisotropic (Fig. 22.1).
+    In this context, it is important to note that the same combination of eigenvalues
+(i.e., an ellipsoid with the same shape) may be caused by different neuroanatomical
+underpinnings. Anisotropy, as modeled by the diffusion tensor, may be low because
+of “truly” isotropic diffusion (such as in the fluid-ﬁlled ventricles) or because of
+orthogonal but highly coherent ﬁber bundles crossing within the respective voxel.
+From this perspective, it becomes obvious how limits are set to the validity of
+tractography by the inadequacy of the tensor model (please see paragraph on
+BIOLOGICAL SUBTRATES OF DTI). Another problem concerns the display as
+well as the interpretation of a 3 × 3 matrix for every one of several thousand voxels
+within a brain volume. It is often tried to simplify things by converting the diffusion
+tensor matrix to a scalar measure. The most commonly used scalar DTI measures
+include fractional anisotropy (FA), mean diffusivity (MD), axial and radial diffu-
+sivity (AD, RD). Importantly, these measures may inform researchers about the
+underlying white matter status since the diffusion tensor from which they are
+derived does not only model the orientation of anisotropic diffusion (which these
+scalar measures do not contain) but also the magnitude and the degree of diffusion
+anisotropy. In neuroscience research, FA is the most commonly used scalar. It is
+rotationally invariant, ranges between 0 and 1 and describes the degree of the
+anisotropy of the diffusion process.
+22   Diffusion Tensor Imaging (DTI) and Tractography                                                        415
+
+
+
+
+Fig. 22.1 Illustrations of the diffusion eigenvectors (left), the corresponding tensor ellipsoid
+(middle), and a schematic grid of voxels (right). The grid of voxels illustrates a fractional
+anisotropy map with additional tensor ellipsoids which are depicted as ellipses. The grayscale
+indicates fractional anisotropy ranging from close to zero (black) to almost one (bright gray).
+Diffusion in the upper right corner is isotropic and apparent diffusivity is rather low as it would be
+expected in gray matter. In the lower left corner diffusion also is isotropic; however, here apparent
+diffusivity is rather high as it would be expected in the ventricles. From the upper left corner to the
+lower right corner, diffusion is anisotropic and most major principal eigenvectors are oriented
+along this diagonal axis. This is how a diffusion tensor image of a ﬁber tract descending this way
+may look
+
+
+                                 qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                         rﬃﬃﬃ
+                          1       ðk1  k2 Þ2 þ ðk2  k3 Þ2 þ ðk3  k1 Þ2
+                    FA ¼                             qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                          2                               k21 þ k22 þ k23
+
+   Values close to 0 indicate that diffusion is isotropic (λ1 ≈ λ2 ≈ λ3), whereas
+values close to 1 mean that it is anisotropic [(λ1 ≫ λ2 Ʌ λ3) V (λ1 Ʌ λ2 ≫ λ3)].
+However, these extreme values are not reached in physiological environments. In the
+brain, minimal FA values (approx. 0.1) are normally measured in the ventricles and
+maximal FA values (approx. 0.85) in the splenium of the corpus callosum (Pierpaoli
+and Basser 1996). FA is claimed to sensitively detect white matter alterations such as
+degeneration or plastic remodeling (Pierpaoli and Basser 1996; Pierpaoli et al.
+1996). A common albeit not always correct notion is that aging and a loss of
+cognitive functions is associated with decreased FA values, whereas learning and
+rehabilitation is accompanied by increased FA values (Bengtsson et al. 2005; Engvig
+et al. 2012; Landi et al. 2011; Lebel et al. 2012; Lindenberg et al. 2010). This FA
+decrease/increase is usually explained by increased/decreased diffusivity perpen-
+dicular to the principal diffusion direction. It is thought to reflect decreased/increased
+ﬁber organization or myelination on a microstructural level. However, as outlined
+below one should be wary of inferences on neuroanatomical underpinnings of DTI
+measures (please see paragraph on BIOLOGICAL SUBTRATES OF DTI).
+416                                                                      T. Rüber et al.
+
+Beside FA, MD is another rotationally invariant scalar. It measures the total diffusion
+within a voxel.
+
+                                   1
+                               MD ¼ ðk1 þ k2 þ k3 Þ
+                                   3
+
+    In many cases, MD is inversely related to FA. It typically ranges between
+approximately 2 × 10−3 in the ventricles and 0.7 × 10−3 in white matter. It is not as
+commonly used in neuroscience research as FA, however, MD in the clinical
+practice has proven useful for the early detection of ischemia (lack of blood supply
+leading to stroke) in white matter (Mori and Barker 1999). It is important to note
+that even measures of anisotropy, such as FA, cannot represent the tensor shape.
+Just as for the diffusion tensor, the same FA value may be caused by different
+combinations of eigenvalues. For example, a disc-shaped and a cigar-shaped
+ellipsoid are properly described by the same FA value. See Fig. 22.2 for an illus-
+tration of the described DTI indices.
+    In the search of scalar measures being more tightly connected to the tensor shape
+and distribution, the use of AD and RD has been suggested (Song et al. 2002). AD
+is equivalent to the major principal eigenvalue and RD is equivalent to the average
+of the medium and minor principal eigenvalues.
+
+                                    AD ¼ k1
+                                         k2 þ k3
+                                    RD ¼
+                                            2
+
+   AD and RD are often subjects to a second look at the data which is taken to shed
+light on the microstructural correlates of previously observed FA alterations.
+However, for reasons given below, their use has been heavily criticized (please see
+paragraph on BIOLOGICAL SUBTRATES OF DTI).
+
+
+
+22.3    Tractography
+
+Just as diffusion-weighted data becomes a lot more interesting when tensor models
+are applied, diffusion tensor data becomes a lot more interesting with the applica-
+tion of tractography (Basser et al. 2000; Jones et al. 1999; Mori et al. 1999; Mori
+and van Zijl 2002). Tractography is a powerful aid for the interpretation of DTI
+data. It has been developed “to clarify the orientational architecture of tissues by
+integrating pathways of maximum diffusion coherence” (Hagmann et al. 2006).
+Tractography is built on DTI’s most basic premise that the major principal eigen-
+vector ê1 is oriented parallel to tract orientation. By following the direction of
+the diffusion maximum from voxel to voxel across the brain, the process of trac-
+tography yields beautiful three-dimensional models of white matter pathways
+22   Diffusion Tensor Imaging (DTI) and Tractography                                           417
+
+
+
+
+Fig. 22.2 Different displays of a DTI brain volume of a 25 year old healthy female. In the upper,
+middle brain the lines as well as the colors indicate the orientation of the major principal
+eigenvectors. The colors do so according to the most basic red-green-blue (RGB) color coded
+scheme (Pajevic and Pierpaoli 1999). Voxels in which the principal direction of diffusion is
+oriented along the left-right, anterior–posterior, or superior–inferior axes are visualized in red,
+green, or blue. Abbreviations: FA fractional anisotropy; L1: λ1; L2: λ2; L3: λ3; MD mean
+diffusivity. Please note how coherent and unidirectional ﬁber bundles (such as the corticospinal
+tract) appear bright in L1 but rather dark in L2 and L3 (i.e., it shows high axial but low radial
+diffusivity values)
+
+
+(see Fig. 22.3) which show striking correspondence with classical neuroanatomical
+descriptions (Catani et al. 2002; Catani and Thiebaut de Schotten 2008).
+    Tractography is, however, not only a means of visualization, but may, even more
+importantly, be used as delineator for regions of interest (ROI) in the analysis of
+DTI measures (see paragraph on ANALYSIS OF DTI DATA). Furthermore,
+tractography is not only a method for qualitative analysis (that is, answering the
+question whether a certain white matter voxel belongs to a tract or not) but also a
+quantitative method: As set out below, tractography yields measures quantifying the
+degree of connectivity. The process of tractography may be structured along three
+keywords (Soares et al. 2013): seeding, propagation, and termination. Seeding
+describes the delineation of one or several voxels as a ROI from which the tracts
+will be drawn. ROIs may be delineated manually or derived from brain atlases and
+registered to the individual brain (exactly as it is done for quantitative analysis of
+diffusivity parameters; see paragraph on ANALYSIS OF DTI DATA). Once
+tractography is started, ﬁber pathways, also termed “streamlines,” are initiated in
+every voxel included in the seed ROI and gradually propagated through the tensor
+418                                                                                 T. Rüber et al.
+
+
+
+
+Fig. 22.3 Two-dimensional (left) and three-dimensional (right) rendering of two corticospinal
+ﬁber tracts reconstructed by means of probabilistic tractography. The tracts presented are canonical
+tracts: probabilistic tractography had been applied to several subjects and the resulting individual
+tracts were normalized, converted to binary images and then summed. Color brightness indicates
+the degree of voxel-by-voxel overlap of the individual normalized tracts. The canonical tracts are
+superimposed onto a template brain from the Montreal Neurological Institute. FSL’s diffusion
+toolbox (FDT) was used for image preprocessing and tractography (Behrens et al. 2003b; Smith
+et al. 2004)
+
+
+ﬁeld. Common tractography algorithms fall in two main categories: deterministic
+and probabilistic tractography (Chung et al. 2011; Descoteaux et al. 2009; Mori and
+van Zijl 2002). In deterministic tractography, streamlines simply follow the
+direction of the major principal eigenvector ê1 in three dimensions. Whenever the
+streamline reaches the edge of another voxel, it is reoriented according to ê1 of this
+other voxel. However, signal noise, subject movement, and artifacts as well as the
+inherent inadequacy of the tensor model (see paragraphs on BASIC PRINCIPLES
+above and BIOLOGICAL SUBSTRATES OF DTI below) produce uncertainty,
+which is ignored by deterministic algorithms. Probabilistic tractography on the
+other hand incorporates the uncertainty of the estimation. Hence, it does not result
+in well-deﬁned binary maps (“tract” or “no tract”) but in a probability map rep-
+resenting the likelihood of any voxel to be connected with the seed region. These
+probability maps are most commonly generated by iterations of the streamline
+process. In other words, the local tensor is interpreted as a probability density
+distribution and many random samples are drawn from this distribution (Behrens
+et al. 2003b; Koch et al. 2002). The more streamlines emanating from the seed
+region cross a certain voxel on their way through the tensor ﬁeld, the higher the
+so-called structural connectivity between this voxel and the seed region is.
+However, it should be kept in mind that these connectivity values are “best possible
+guesses” and that they should not be interpreted as anatomical ﬁber count, which is
+commonly done (Jones et al. 2013). One valuable feature of probabilistic tractog-
+raphy is that it may be applied with multi-ﬁber models (Behrens et al. 2007). These
+models have been developed to tackle the problem of ﬁber tracking in a
+multi-orientation ﬁeld (e.g., regions where ﬁbers cross). Anatomical regions rep-
+resented by voxels with several “major” principal eigenvectors are completely
+22   Diffusion Tensor Imaging (DTI) and Tractography                               419
+
+meaningless as a subject to deterministic tractography. It is important to note that in
+the majority of cases more than one seed ROI is necessary to single out a speciﬁc
+tract of interest. For this purpose, additional ROIs have to be deﬁned and related to
+the seed ROI with logical operators such as “AND,” “OR,” and “NOT.” For
+example, in FSL’s diffusion toolbox (Behrens et al. 2003b; Smith et al. 2004) one
+may deﬁne a “waypoint mask,” “exclusion mask,” or a “termination mask.”
+“Waypoint masks” are related with a logical “AND” to the seed ROI. That is, all
+tracts have to pass this ROI on their way through the tensor ﬁeld, while all others
+are being discarded. If several “waypoint masks” have been deﬁned, the logical
+“AND” may be set to a logical (inclusive) “OR,” meaning that all tracts have to
+pass at least one of the “waypoint masks” in order to be kept. “Waypoint masks”
+and “exclusion masks” are both connected to the seed region with a logical “NOT,”
+however, there is one crucial difference: Whereas pathways that have come in touch
+with “exclusion masks” will be discarded as a whole, pathways that have contact
+with “termination masks” will only be stopped but not discarded. That is, the
+pathway from the seed ROI to the “termination mask” will be kept as result but
+cannot propagate any further. Obviously, pathways are not only stopped by “ter-
+mination masks” but streamlining is also aborted based on criteria inherent to the
+respective tractography algorithm used. These criteria have been introduced to
+prevent streamlines from propagating through vectorial ﬁelds with great uncertainty
+of estimation. Common termination criteria include a minimum FA threshold of 0.2
+and a turning angle threshold of roughly 60°.
+
+
+
+22.4     Biological Substrates of DTI
+
+It is unquestionable that DTI and tractography yield useful insights into neu-
+roanatomy. However, big challenges lie in the veriﬁcation of virtual ﬁber bundles as
+well as in the interpretation of diffusivity measures in terms of their underlying
+neuronal substrates. Approaches to face these challenges include DTI of objects of
+known structure, such as physical phantoms (Perrin et al. 2005) and validation
+against anatomical data acquired by the use of other methods (Johansen-Berg and
+Rushworth 2009; Lawes et al. 2008). It is easy to see how even the most complex
+physical phantom will fail as an adequate model of neuronal tissue. The direct
+validation of DTI indices and tractography performance against anatomical
+knowledge gained by the application of complementary methods is, thus, indis-
+pensable. One elegant study (Dyrby et al. 2007) has validated tractography in post-
+mortem brains of three minipigs by comparing the results of probabilistic tractog-
+raphy with results obtained from two established tracer methods. When inspecting
+virtual ﬁber bundles in the light of ﬁber trajectories identiﬁed by one of the tracers,
+overlaps of around 80 % were reported. Disjunct parts were due to false-negative as
+well as false-positive tractography results. Tractography had difﬁculties identifying
+the termination point of tracts originating from/terminating in subcortical gray
+matter, which lead to false-positive results. False-negative, “spurious” ﬁbers were
+420                                                                     T. Rüber et al.
+
+observed in anatomical regions of high ﬁber complexity (ﬁbers crossing, kissing,
+spreading…). It should be noted that approximately one- to two-thirds of all voxels
+within a skull-stripped DTI brain volume has been estimated to cover these
+anatomical regions with high ﬁber complexity (Behrens et al. 2007; Jeurissen et al.
+2012). This sets limits to tractography’s role as in vivo dissector of white matter
+macrostructures. On a microstructural scale, the relation between diffusivity
+parameters such as FA, MD, AD, as well as RD and their biological substrates
+remains to be elucidated. However, it should be noted that the missing link between
+DTI indices and their microstructural underpinnings is not only due to a lack of
+research ﬁndings in this ﬁeld; also constraints inherent to DTI and MRI such as its
+resolution (with each voxel containing several ten thousand neuronal connections)
+restrict the usage of DTI as physiological tool. It is important to keep in mind that
+there is no one-to-one relationship between any DTI index and a single white matter
+component (Johansen-Berg and Rushworth 2009). Distinct microstructural pro-
+cesses may lead to the same DTI observations. Alterations of DTI indices, thus,
+have to be interpreted with great caution. A common inference that is made in many
+DTI papers is that alterations in diffusivity mirror changes in the degree of
+myelination. However, as Jones and colleagues (Jones et al. 2013) correctly point
+out “the anisotropy in a region may also be lower because here is a larger axon
+diameter (Takahashi et al. 2002), a lower packing density (Takahashi et al. 2002)—
+both of which mean fewer barriers to diffusion in a given space—or it could be due
+to increased membrane permeability (reducing the effectiveness of a boundary).”
+Indeed, it soon became clear that myelination is no requirement for diffusion ani-
+sotropy in white matter (Beaulieu and Allen 1994). Rather one may think of several
+barriers hindering isotropic diffusion in white matter including microtubules,
+myelin, axon membranes and neuroﬁlaments (Beaulieu 2002). On the contrary,
+damaged or absent myelin is reliably mirrored in reduced diffusion anisotropy
+(Blaschek et al. 2013; Klawiter et al. 2011; Mukherjee et al. 2001; Werring et al.
+2000). Gulani and colleagues have compared excised spinal cords from myelin-
+deﬁcient rats with spinal cords from age-matched controls (Gulani et al. 2001) and
+came to conclude that myelin may modulate FA by up to 20 %. One difﬁculty in
+determining the relative contribution of myelin to the measured anisotropy lies in
+the fact that any direct comparison between myelinated and non-myelinated nerve
+ﬁbers is flawed because tissues differ in their whole structural composition (Assaf
+and Pasternak 2008). Axial and radial diffusivities may be helpful when trying to
+explain the emergence of observed FA alterations. Decreased axial diffusivity has
+been related to the growth of neuroﬁbrils (Kinoshita et al. 1999), whereas several
+studies have linked a decrease in radial diffusivity to demyelination (Budde et al.
+2007; Klawiter et al. 2011; Song et al. 2002, 2003). However, in their seminal
+paper, Wheeler-Kingshott and Cercignani argue that one should be wary of inter-
+preting tensor eigenvalues as “axial” or “radial” and of relating these measures to
+microstructural properties, such as myelin (Wheeler-Kingshott and Cercignani
+2009). The crucial point the authors make is that comparing eigenvalues across
+subjects without checking for the alignment of the corresponding eigenvector with
+the underlying tissue structures is pointless. In particular, this correspondence may
+22   Diffusion Tensor Imaging (DTI) and Tractography                                 421
+
+be called into doubt when comparing tracts affected by some pathology with tracts
+from healthy controls and in voxels in which more than one principal direction is
+present. In the former case, it is well conceivable how a certain pathology may
+change the direction of the principal eigenvector from what would be expected in
+healthy tissue architecture; in the latter case, represented by an oblate diffusion
+ellipsoid, the “principal” eigenvalue may not differ much from the other eigen-
+values (i.e., there are more than one principal eigenvectors), thus, making the
+analyses of “axial” and “radial” diffusivities completely meaningless. It may be
+concluded that DTI and tractography offer a unique way to gain insights into human
+neuroanatomy. However, over those “pretty pictures” (Johansen-Berg and Behrens
+2006) and their tempting inferences on neuroanatomical underpinnings, one should
+not forget that DTI and tractography, like any other recently developed research
+method, urgently require validation and a precise deﬁnition of its scope.
+
+
+
+22.5     Analysis of DTI Data
+
+In the following, three common approaches to quantitative analysis of DTI data will
+be reviewed: ROI analysis (I), voxel-by-voxel analysis (II) and tract-based spatial
+statistics (TBSS; III). The ﬁrst two analyses may be performed with most common
+analysis programs; TBSS is part of FSL (Smith et al. 2006). ROI analyses (I) can be
+performed in several ways but it is common to all of them that diffusivity param-
+eters of every voxel within a two- or three-dimensional ROI are averaged and used
+for statistical analysis. ROIs may be deﬁned manually on each individual brain
+(I.1), they may be taken from publicly available atlases (I.2) or they may be
+delineated by means of tractography (I.3). Manual deﬁnition of ROIs (I.1) is done
+directly on FA maps or on anatomical volumes and then transferred to diffusion
+space, depending on where the respective anatomical structure is best identiﬁable.
+When drawing ROIs on FA maps, it might be helpful to superimpose diffusion
+color maps indicating the main diffusion direction. ROI deﬁnition solely on FA
+maps, however, is prone to preferably include high FA voxels since they are best
+visible and, thus, are taken as landmarks for orientation (i.e., there is an influence of
+anisotropy on ROI borders). Squared or orbital ROIs are different in this regard and,
+furthermore, less time-consuming to deﬁne but these uniform ROIs also account
+less for the individual forms of anatomic structures. Overall, it may be said that its
+accountancy for individual anatomy is the most important advantage of manual ROI
+deﬁnition, whereas on the other side its operator-dependency as well as the fact that
+the manual deﬁnition work is time-killing and nerve-racking are among its disad-
+vantages. The usage of atlas ROIs (I.2) is different in this regard. Here, anatomical
+template regions from publicly available atlases [Harvard-Oxford cortical and
+subcortical structural atlases (Caviness et al. 1996), John Hopkins University
+DTI-based white matter atlas (Hua et al. 2008), Freesurfer (Fischl et al. 2002)] are
+mapped on the individual brain. This approach is neither operator-dependent nor
+422                                                                     T. Rüber et al.
+
+particularly time-consuming; however, it has other difﬁculties: The anatomical
+template region is generated from one or (in most cases) more brains and made
+available in a three-dimensional standardized, or “stereotaxic,” coordinate space. It
+has to be transferred to individual, or “native,” space in order to align with indi-
+vidual anatomy using a mapping function. Individual’s brain anatomy, however,
+may not correspond to the anatomy of the template brain; moreover, the mapping
+function will never work perfectly leading to misalignment. [See paper by Evans
+et al. (2012) for a recent review of brain atlases and their problems]. When con-
+sidering the pros and cons of manually deﬁned ROIs versus atlas-derived ROIs, in
+many cases ROIs delineated by tractography (I.3) will yield the best of both worlds
+(Fig. 22.4): This procedure is not as operator-dependent as manual ROI deﬁnition
+(making it somewhat more “objective”) and it does consider individual anatomy,
+since it is run for every single subject. Tracts resulting from tractography are
+thresholded (excluding low probability voxels) before diffusivity parameters of all
+voxels within the respective maps are averaged. However, it is obvious that not all
+anatomic regions which may be subject to DTI analysis can possibly be recon-
+structed using tractography. In general, it shall not be dismissed that ROI analyses
+have two systematic problems that may not be overcome: First, depending on the
+size of the ROI, variation of diffusivity parameters within it is lost since all voxel
+values are averaged, second, it is not feasible to investigate the whole brain
+expressing a need for strong a priori hypotheses.
+
+Fig. 22.4 Illustration of
+tractography-based Region of
+Interest analysis of fractional
+anisotropy (FA). Tracts
+resulting from tractography
+are thresholded (excluding
+low probability voxels) before
+FA values of all voxels within
+the respective tracts are
+averaged [yielding “tract
+speciﬁc FA”] and used for
+statistical analysis
+22   Diffusion Tensor Imaging (DTI) and Tractography                                423
+
+    Voxel-wise analysis (II) as well as TBSS (III, see below) resolves these issues.
+In these analyses, all DTI volumes are normalized. Normalization describes the
+process of registering an individual brain to a template brain using a mapping
+function. Every voxel is assigned a speciﬁc “address” (Snook et al. 2007). The
+crucial premise is that, after normalization a certain “address” corresponds to a
+certain anatomical structure. That is, all brains and their parts align well to each
+other. The standard method of brain normalization includes two steps (Ashburner
+and Friston 2000; Jenkinson and Smith 2001; Snook et al. 2007): The ﬁrst step, a
+linear transformation, warps the brain in order to account for global brain differ-
+ences (size and position); the second step applies a nonlinear transformation which
+estimates internal brain deformations. After normalization, analyses are run inde-
+pendently including every voxel with the same “address,” under the assumption that
+all voxels with the same “address” represent the same anatomic location across
+subjects (Fig. 22.5). This enables comparison of diffusivity parameters between
+groups and correlation analysis with variables of interest. The advantages of voxel-
+wise analyses are obvious: They are fast, fully automated, operator-independent and
+investigate the whole brain without the need for a priori ROI deﬁnition. However,
+voxel-wise analyses are also connected with disadvantages. It is not surprising that
+the registration of healthy brains will never work perfectly, let alone the registration
+of lesioned brains (Jones and Cercignani 2010; Mukherjee et al. 2008). To alleviate
+some of the registration problems faced, one normally smoothes the normalized
+brains using a low pass ﬁlter. It shall not be dismissed, that smoothing FA maps is
+prone to cause problems, since most white matter tracts are thin, might thus be
+“washed out” by the smoothing and the selection of the right low pass ﬁlter is rather
+arbitrary but influences the results of voxel-wise analyses (Jones et al. 2005).
+Additionally, it is obvious that the need for brain normalization of low-resolution,
+high-contrast FA maps introduces problems: Smallest shifts between groups may
+incorrectly be interpreted as FA differences between groups. Furthermore, effects of
+partial volumes may challenge the analysis. Partial volume effects occur when a
+single voxel contains two or more tissue types but is presumed to only contain one
+that is white matter (Assaf and Pasternak 2008). This is especially likely to occur in
+white matter regions near the ventricles where high FA voxels are located just on
+the side of low FA voxels. Certain patient groups are particularly vulnerable to
+partial volume effects: Schizophrenic patients, for example, exhibit enlarged ven-
+tricles as compared to healthy controls (Honea et al. 2005). Another challenge of
+voxel-wise analysis concerns the sheer amount of statistical tests being performed.
+A skull-stripped FA map of somewhat good resolution contains approximately
+250,000 voxels. A whole-brain voxel-wise analysis, thus, comes along with a
+gigantic problem of multiple comparisons (Loring et al. 2002). This problem may
+be tackled with statistical correction methods. In analysis of MRI data, most
+commonly correction for family-wise error (FWE) is applied (Friston et al. 1994;
+Worsley 2005). A complementary, though not alternative way, is to apply
+voxel-wise analysis only within certain ROIs. One might, for example, reconstruct
+white matter tracts by means of tractography in native space; normalize FA maps
+and use the resulting transformation matrices to also normalize white matter tracts.
+424                                                                                T. Rüber et al.
+
+
+
+
+Fig. 22.5 Illustration of voxel-wise analysis of fractional anisotropy. After normalization of all
+volumes, statistical analyses are run independently for every voxel with the same “address” of a
+skill-stripped volume. The number of statistical comparisons may be reduced by only running
+voxel-wise analysis within a Region of Interest (which may be delineated by tractography as
+illustrated here)
+22   Diffusion Tensor Imaging (DTI) and Tractography                              425
+
+These normalized tracts are then used to build a canonical tract, which may be
+thresholded based on the voxel-by-voxel overlap of the individual normalized tracts
+(Rüber et al. 2012). Another way to reduce the number of statistical comparisons, is
+to restrict voxel-wise analysis to white matter by using white matter masks. These
+masks may be derived from anatomical volumes with FreeSurfer (Dale et al. 1999;
+Fischl et al. 1999) or other automated tools for segmentation and then transferred to
+diffusion space.
+    TBSS (III) has been developed to face two of the biggest challenges of con-
+ventional voxel-wise DTI analysis (Smith et al. 2006): multiple comparison and
+alignment. Voxel-wise analysis in TBSS is only conﬁned to the FA skeleton, which
+represents the centers of all white matter tracts common to the study group. This FA
+skeleton is used as an alignment-invariant feature to mitigate any residual
+misalignment after a common mapping function has been applied. The TBSS
+processing works as follows: First, individual FA maps are normalized applying a
+nonlinear transformation (similarly as described above). Based on all normalized
+brains, a mean FA map (in standard space) is generated and used to create the
+pseudo-anatomical white matter skeleton (it is pseudo-anatomical since white
+matter is segmented only based on FA and not on anatomical volumes such as T1 or
+T2). Next, the skeleton is projected on the individual FA map (in standard space),
+but is deformed based on a constrained local search for maximal FA values
+(Fig. 22.6). Lastly, voxel-wise testing may be performed within the skeleton as
+described above. Hence, TBSS is built on the strategy that the alignment of a
+skeleton containing maximal FA voxels to local FA maxima in the individual FA
+maps will mitigate the residual misalignment of previous nonlinear registrations.
+However, it has been criticized that this strategy primarily leads to correspondence
+of FA values but not to anatomical correspondence (Zalesky 2011). In other words,
+local FA maxima do not necessarily correspond to the same anatomical locations
+across subjects. In addition, if crude registration errors occur, they are difﬁcult to
+
+
+Fig. 22.6 Fractional
+anisotropy (FA) template
+brain and the respective FA
+skeleton as generated by
+TBSS. Please note how the
+FA skeleton aligns to the
+white matter but only covers
+the centers and, thus, reduces
+the number of multiple
+comparisons
+426                                                                     T. Rüber et al.
+
+identify in the skeleton (Jones and Cercignani 2010). Another disadvantage of
+TBSS concerns the fact that white matter regions exhibiting low FA values are not
+included in the analysis. Also, crossing ﬁber regions exhibit low FA values but are
+crucial from a neuroanatomical perspective. In newer versions of TBSS, one may
+choose to use models that incorporate ﬁber-speciﬁc measures (Jbabdi et al. 2010)
+which enhances analysis of crossing ﬁber regions. It may be concluded that TBSS is
+a powerful tool that successfully deals with some problems that come along with
+traditional analysis approaches to DTI data.
+   It is important to acknowledge that TBSS is not the only attempt to deal with the
+shortcomings of brain registration. However, one general problem of common
+registration algorithms is their dependency on “unidimensional” scalars, such as FA
+(Zalesky 2011). Conversely, DTI yields ellipsoids that are fully described by six
+independent parameters, and these parameters are lost when vectors are mapped to
+rotationally invariant scalars. Thus, anatomical information made available by DTI
+is not considered in common brain registration algorithms. Multichannel registra-
+tion algorithms which depend on all six parameters of the tensor have been pro-
+posed (Guimond et al. 2001), but are not widespread.
+
+
+
+22.6    Connectional Anatomy
+
+DTI is a boon to modern neuroscience not only for allowing the examination of
+white matter as such, but also for tractography and its potential to study connec-
+tional anatomy. The human brain consists of 100 billion neurons of which 20
+billion have been estimated to be located in the cerebral cortex (Azevedo et al.
+2009; Noctor et al. 2007). On average, every cortical neuron builds 7000 con-
+nections with other neurons and 150,000–180,000 km of myelinated ﬁbers are
+believed to be part of the brain (Drachman 2005). Connectional anatomy, however,
+does not solely yield insights into white matter circuits. Keeping in mind that
+“nothing deﬁnes the function of a neuron more faithfully than the nature of its
+inputs and outputs” (Mesulam 2005), it becomes clear that structure and function go
+together in neuroscience (Blits 1999) and how DTI may inform the study of neu-
+ronal mechanisms underlying cognitive functioning (ffytche and Catani 2005).
+Without any doubt, in the last decade has neuroscientiﬁc attention shifted from
+single loci to the networks connecting them. This has not only extended our
+knowledge on brain networks but also on single loci being part of these networks.
+For example, network analysis has opened an avenue for using tractography to
+provide information of gray matter parcellation (Behrens and Johansen-Berg 2005).
+Traditionally, cortical or subcortical regions are deﬁned based either on cytoar-
+chitectonic boundaries or on gross-anatomical landmarks. However, cytoarchitec-
+tonic boundaries do not necessarily correspond to gross-anatomical landmarks
+(Geyer et al. 2000). Thus, another basis for the deﬁnition of great matter boundaries
+is favored and connectivity-based parcellation has been named as a convincing
+candidate for this purpose (Le Bihan and Johansen-Berg 2012). The underlying
+22   Diffusion Tensor Imaging (DTI) and Tractography                                         427
+
+
+
+
+Fig. 22.7 Connectivity-based parcellation of the striatum according to its connections to several
+cortical and subcortical regions [Fig. 22.1 from Cohen et al. (2009); permission for reproduction
+by Nature Publishing Group]
+
+
+notion of connectivity-based parcellation is that cortical and subcortical subregions
+may be distinguished according to their so-called connectivity ﬁngerprint
+(Passingham et al. 2002). Connectivity ﬁngerprints delineate clusters of voxels with
+similar connection patterns (Fig. 22.7). Several studies have compellingly
+demonstrated the potential of this novel approach by yielding connectivity-based
+parcellations of the thalamus (Behrens et al. 2003a), amygdalae (Bach et al. 2011),
+basal ganglia (Menke et al. 2010), cingulate cortex (Beckmann et al. 2009), of
+Broca’s Area (Anwander et al. 2007), of the lateral premotor cortex (Tomassini
+et al. 2007), and supplementary motor area (Johansen-Berg et al. 2004). Results
+obtained by means of fMRI have yielded good correspondence with some of these
+parcellations, providing validation of this approach and underlining the functional
+relevance of connectivity-based boundaries (Johansen-Berg et al. 2005; Schubotz
+et al. 2010; Tomassini et al. 2007).
+   Tractography pushed DTI to another new ﬁeld of study called connectomics
+(Hagmann et al. 2008; Sporns et al. 2005), the comprehensive studies of neural
+connections in the brain. In 2009, NIH has announced a Request for Applications
+for the so-called Human Connectome Project. One year later, grants totaling $40
+million were awarded to two collaborating consortia. The overarching purpose of
+the project is to acquire and share data about human brain connectivity. It is hoped
+that “a deeper understanding of human brain connectivity and its variability will
+provide valuable insights into what makes us uniquely human and what accounts
+for the great diversity of behavioral capacities and repertoires in healthy adults”
+(Van Essen et al. 2012).
+428                                                                       T. Rüber et al.
+
+
+22.7    Clinical Applications
+
+Clinical applications of diffusion MRI broadly fall into three categories: lesion
+interrogation, tissue characterization, and tract reconstruction (Huston and Field
+2013). The beneﬁts of diffusion MRI are investigated in the context of many
+diseases including stroke, brain development disorders, epilepsy, dementia, psy-
+chiatric disorders, demyelinating diseases such as multiple sclerosis, and brain
+tumors. While diffusion MRI has contributed a lot to our understanding of the
+pathologies underlying these illnesses and is used as a complementary method of
+diagnosis in many cases, it is only in the case of acute brain ischemia that diffusion
+MRI has really found its way into clinical routine (Dubey et al. 2013). DWI may
+detect brain infarcts several hours before conventional anatomical sequences
+(Munoz Maniega et al. 2004), which is why it is endorsed in the diagnosis within
+the ﬁrst 12 h after acute brain ischemia (Schellinger et al. 2010). The infarct core
+volume, as estimated by DWI, has also been suggested to be an important predictor
+of clinical outcome and treatment efﬁcacy (Gonzalez 2012; Schellinger et al. 2010).
+Even more than the volume, its degree of overlap with the corticospinal tract or the
+arcuate fasciculus seems to be a predictor of motor and language impairment,
+respectively (Marchina et al. 2011; Zhu et al. 2010). Indeed, diffusivity parameters
+of the corticospinal tract could reliably be related to the degree of motor impairment
+(Lindenberg et al. 2010; Schaechter et al. 2009). As mentioned above, diffusion
+MRI may detect pathologic tissue alterations with a higher sensitivity as conven-
+tional anatomical sequences in some cases. However, the low pathologic speciﬁcity
+of its measures has set boundaries to its clinical usefulness in tissue characterization
+(Huston and Field 2013). Its application in pre-surgical diagnostics seems to be
+more promising: In neurosurgery, preoperative reconstructions of white matter
+tracts may lead to a better understanding of their individual anatomy and may, thus,
+facilitate their preservation during resection. A recent study with patients under-
+going anterior temporal lobe resection (Yogarajah et al. 2009) revealed that the
+extent of one part of the optic radiation as determined by preoperative tractography
+was related to the degree of complication by superior visual ﬁeld deﬁcits. Even
+more convincing, Wu et al. (2007) found that 118 patients with a highly aggressive
+tumor survived on average 7.2 months longer than 120 control patients with the
+same tumor if preoperative tract mapping had been performed.
+
+
+
+22.8    Genetics/Environment/Age
+
+White matter status may be thought to depend on genes, environment and age. It is
+an intuitive notion that white matter alterations happen within the framework of
+genes. This framework changes across the lifespan leaving more or less room for
+the white matter effects of environment in development and adulthood. DTI may
+detect even subtle white matter alterations; however, it remains challenging to
+22   Diffusion Tensor Imaging (DTI) and Tractography                               429
+
+speciﬁcally attribute these alterations to the influence of genetic factors, environ-
+ment or age. Especially, it is difﬁcult to differentiate between the influence of genes
+and environment (so-called nature–nurture debate) as will be shown below.
+    The influence of genes may well be studied through comparison between
+identical and nonidentical twins. In these studies, the excess in the pair correlation
+of identical twins over the pair correlation of nonidentical twins is attributed to
+genetic effects. Chiang and colleagues (Chiang et al. 2009) found that close to 80 %
+of FA variance may be explained by genetic factors, especially in parietal brain
+regions. Furthermore, the authors reported correlations between measures of
+intellectual performance and FA values. An overlapping set of genes seems to
+influence IQ scores as well as diffusivity parameters, since the authors were able to
+more accurately predict IQ by using FA values in the group of identical twins than
+they were in the group of nonidentical twins. In another DTI twin study (Jahanshad
+et al. 2010), 20–40 % of FA brain asymmetry was found to be genetically deter-
+mined. Using a group of 705 twins and their siblings, Chiang et al. (2011) inves-
+tigated factors moderating the heritability of white matter features as measured by
+FA. They found that higher heritability was associated with younger age, male sex,
+higher intellectual performance, and higher socioeconomic status. Some of the
+causal mechanisms behind their ﬁnding could only be subject to speculation. The
+observation of white matter heritability decreasing along age may be interpreted as
+increasing environmental influences on white matter microstructure.
+    Neuroplasticity is a term ﬁrst introduced by the polish neuroscientist Jerzy
+Konorski in 1948 to describe the brain’s ability to functionally and structurally adapt
+to changing environmental demands. Long enough, the brain was believed to be
+static after development but this conception has been substantially revised in the last
+decades (Jancke 2009): “[…] there is a continuous interaction between experiential
+process and brain structure. Over time, experiences are sedimented in the form of
+organic habits, dispositions and interactive schemes that eventually constitute the
+individual’s personality.” (Fuchs 2009) Additionally, white matter is no longer seen
+as passive infrastructure but as a plastic component of the brain. Using DTI,
+“neuroarcheology” (Le Bihan and Johansen-Berg 2012) may be performed to study
+the lasting effects of past experiences and to keep track of their neuronal correlates.
+Impressive associations between diffusivity characteristics of white matter and
+experience have been reported in highly trained experts in sensorimotor skills
+(Dayan and Cohen 2011). Bengtsson and colleagues reported higher FA values in
+professional pianists as compared to non-musicians in the posterior limb of the
+internal capsule (Bengtsson et al. 2005). Even more, the authors found several white
+matter regions exhibiting a positive correlation between the amount of hours prac-
+ticed and FA values. DTI-studies have also reported evidence for white matter
+plasticity in response to the acquisition of other sensorimotor skills, such as ballet
+dancing or playing golf. Furthermore, neuronal white matter correlates of high
+cognitive abilities have been found by means of cross-sectional DTI-studies. Floel
+et al. (2009) found that individual subject’s performance in an artiﬁcial learning task
+was related to FA values surrounding Broca’s area (a cortical region in the left
+frontal lobe which traditionally has been implicated in language processing) and
+430                                                                      T. Rüber et al.
+
+within ﬁbers arising from this area. Tsang et al. (2009) showed that variations in
+performance in a mental arithmetic task reflect variability of FA values in a central
+chunk of the anterior superior longitudinal fascicle. This tract connects the inferior
+parietal lobe with precentral and inferior frontal regions—cortical regions that have
+been shown to be coactive by means of fMRI in subjects performing mental arith-
+metic tasks. As the studies presented above are cross-sectional, it remains unclear
+whether the white matter alterations reported are the cause or the consequence of the
+respective expertise (i.e., are people with altered diffusivity characteristics more
+likely to play golf or do the alterations occur as people pick up golf playing skills).
+The results of cross-sectional studies, thus, always have to be discussed in the light
+of the so-called nature–nurture debate (Stiles 2011) and no ultimate inferences on
+the direction of causality can be made. Longitudinal studies are clearer in this regard
+and have become the gold standard for neuroimaging studies examining neuro-
+plasticity. Some longitudinal DTI-studies have been run and offer intriguing insights,
+since they enable the observation of the brain during the acquisition of new skills.
+One of the ﬁrst longitudinal DTI-studies reported an increase of FA values in the
+subcortical white matter underlying the intraparietal sulcus after subjects learned to
+juggle within 6 weeks (Scholz et al. 2009). FA values in the cluster reported
+increased slightly after 4 weeks without juggling but still were higher than before
+subjects learned to juggle. Longitudinal studies have also found FA changes after
+intensive memory training (Engvig et al. 2012; Landi et al. 2011; Takeuchi et al.
+2010). Keller and Just (2009) found lower FA values in the anterior left cerebral
+white matter in a group of eight to 12 year old children classiﬁed as poor readers
+compared to good readers at the same age. Poor readers then were randomly
+assigned to either an intervention group undergoing an intensive 100 h program of
+remedial reading instruction or to a control group. Children who had undergone the
+100 h program showed signiﬁcantly increased FA values in the anterior left cerebral
+white matter. Even more, this FA change correlated with improvement in phono-
+logical decoding. Children in the control group did not show signiﬁcant FA changes
+between the ﬁrst and the second scan. Schlaug et al. (2009) found that effective
+melodic intonation therapy of aphasic patients after stroke was related to an increase
+in structural connectivity in the contralesional arcuate fasciculus (a white matter
+pathway implicated in language processing). A recent study (Langer et al. 2012)
+investigated patients whose right arm injury required limb immobilization for at least
+14 days. They applied DTI to examine structural integrity of the corticospinal tracts
+and, furthermore, measured cortical thickness of sensorimotor regions based on
+high-res anatomical volumes, they had acquired. The authors found reduced cortical
+thickness and decreased FA values in the left sensorimotor regions and left corti-
+cospinal tract, respectively. The opposite changes were observed on the right side,
+which may indicate a skill transfer from the left hemisphere (controlling the right
+injured hand) to the right hemisphere (controlling the left non-injured hand) being
+caused by a compensatory use of the non-deprived hand.
+    It is an interesting notion that most of the training-induced plastic white matter
+alterations described above are represented by comparably higher FA values and,
+hence, contrast an age-related decrease in FA values observed after the maturational
+22   Diffusion Tensor Imaging (DTI) and Tractography                                431
+
+peak. Many recent studies employ DTI to investigate the neurobiology of aging
+determining this maturational peak, when maturation turns into degeneration
+(Kochunov et al. 2012; Lebel et al. 2012; Sullivan et al. 2010; Westlye et al. 2010).
+A link between white matter changes in the aging brain, cognitive decline and
+degenerative diseases such as Alzheimer’s disease have been established, commonly
+referred to as “disconnection hypothesis” (Bartzokis 2004; O’Sullivan et al. 2001).
+Generally, an increase in FA/a decrease in MD until the third and fourth decade are
+observed which is followed by a decrease in FA/an increase in MD. White matter
+volume seems to reach its peak ten to 20 years later in life than FA (Salat et al. 2009;
+Westlye et al. 2010). However, diffusivity parameters generally seem to be the better
+indicator of white matter maturation. It has been proposed that the inverted u-shaped
+(quadratic) course of FA along the lifespan is largely dependent on the degree of
+white matter myelination (Abe et al. 2002; Bartzokis et al. 2010; Gao et al. 2009).
+Keeping in mind that cognitive efﬁciency relies on the myelination of white matter
+ﬁbers, this proposition provides a possible link between the changes of diffusivity
+parameters on one end and the alterations of cognitive functions in the aging human.
+Indeed, the zenith of FA values largely concurs with the age range in which cog-
+nitive performance has been found to reach its peak (Salthouse 2009). Indeed,
+alterations of cognitive processing abilities, verbal memory, and motor skills along
+the lifespan have been related to diffusivity parameters (Bartzokis et al. 2010;
+Hedden et al. 2005; Salthouse 2000). Recently, it was shown that age-related
+over-recruiting of frontal lobe structures when completing a task-switching paradigm
+were negatively correlated to FA of these structures (Zhu et al. 2013). Further studies
+are warranted in this ﬁeld which derives its importance from the therapeutic
+potentials based on a better understanding of the aging brain.
+
+
+
+22.9     DTI-Studies in Neuroeconomics
+
+DTI-tractography has rarely been used in the ﬁeld of neuroeconomics. In the fol-
+lowing, two exemplary studies on associations between DTI measures and per-
+sonality traits will be discussed: Olson et al. (2009) found several frontal and
+temporal white matter regions which showed correlations between FA values and
+results of a delay discounting task in a group of 79 adolescents. Using
+DTI-tractography, Cohen et al. (2009) showed that structural connectivity between
+the striatum and certain cortical as well as subcortical regions was related to
+self-reported individual differences in personality traits such as novelty seeking and
+reward dependence. Both studies are based on two premises: (1) That white matter
+structural architecture reflects personality characteristics (as determined by delay
+discounting tests and self-reports, respectively) and (2) that this may be measured
+by means of DTI. Whereas the ﬁrst premise appeals to an intuitive notion (be-
+havioral differences have to have a structural equivalent somewhere in the brain), it
+is more surprising that they can actually be measured (second premise) by com-
+parably coarse-grained methods such as DTI. In the study by Olson and colleagues,
+432                                                                     T. Rüber et al.
+
+79 adolescents between the age of 9 and 23 underwent DTI and, among other tests,
+a delay discounting test. Delay discounting describes individual’s choice to prefer
+an immediate reward over a larger delayed reward (Ainslie 1975). Mature delay
+discounting behavior emerges in adolescent’s development and has been shown to
+correlate with age and verbal IQ (Olson et al. 2007). Equally, myelination of white
+matter is thought to occur as part of neuronal maturation (Arain et al. 2013) in
+adolescence and may be measured by diffusivity measures (Song et al. 2002). The
+aim of the current study was to relate delay discounting behavior to diffusivity
+measures. Previous fMRI studies had implicated the role of frontal, parietal and
+temporal regions in delay discounting (McClure et al. 2004; Wittmann et al. 2007)
+which is why the authors expected to ﬁnd structure-behavior correlations in these
+regions. However, they performed a whole-cerebrum voxel-wise regression anal-
+ysis. Results were not corrected for multiple comparisons, but the threshold of
+signiﬁcance was set to p < 0.001 and an extent threshold of 25 voxels was applied.
+The application of neuroimaging data analysis not corrected for multiple compar-
+isons has been heavily criticized (Bennett et al. 2009). It shall, however, not be
+dismissed that the authors applied a hypothesis-free whole-brain approach albeit
+having well-founded a priori hypotheses on where structural–behavioral correla-
+tions may be found which partly legitimates less conservative signiﬁcance testing.
+Indeed, the authors could report clusters indicating a positive FA─delay dis-
+counting correlation in several white matter regions primarily in the frontal and
+temporal lobes: The higher the FA values, the more the subject preferred higher
+delayed rewards over lower immediate rewards. In addition, regions with associ-
+ations between MD and delay discounting were found. These correlations were
+negative: The lower the MD values, the more the subject preferred higher delayed
+rewards over lower immediate rewards. Based on these analyses, it cannot be ruled
+out that, delay discounting as well as diffusivity measures both vary under the
+influence of a third (confounding) variable but are not actually related with each
+other. The authors mention age and verbal IQ as possible confounding variables and
+enter both as covariates into the regression equation. Several clusters remained
+signiﬁcant after controlling for age and/or verbal IQ, thus, giving evidence that the
+observed relation between diffusivity parameters and delay discounting is not
+completely due to the general influence of neurodevelopmental maturation indi-
+cated by age or part of a more general cognitive process measured by a verbal IQ
+test. Consequently, observed structural–behavioral associations may be seen as
+partly age-dependent and partly age-independent. To rule out that these associations
+do reflect general processes of decision-making, the cluster-wise averages of
+FA/MD were correlated with the outcome of a probability discounting task which
+did, except for one cluster, not yield signiﬁcant results. Observed white matter
+diffusivity characteristics may, thus, be viewed as speciﬁc microstructural correlate
+of delay discounting. Unfortunately, the authors missed to perform additional
+regression analyses for directional diffusivities. This would have been of special
+interest under the premise of radial diffusivity reflecting the degree of myelination
+and with regard to the fact that the frontal lobe becomes increasingly myelinated
+during adolescence. Lastly, the authors related the anatomical location of clusters to
+22   Diffusion Tensor Imaging (DTI) and Tractography                            433
+
+common white matter tracts implicating their role in delay discounting. The tracts
+were not individually modeled using tractography but probability masks from a
+common tractography white matter atlas (Wakana et al. 2004) were used. It may be
+summarized, that the study by Olson and colleagues compellingly illustrates some
+of the structural white matter correlates of delay discounting and their development
+in adolescence.
+    The second exemplary study discussed also suggests white matter circuitry to
+underlie certain personality traits. However, this study by Cohen and colleagues
+uses a different methodological approach: Variations in diffusivity measures are
+not found to be relevant here, rather structural connectivity as determined by
+tractography was found to correlate with novelty seeking and reward dependence
+in 20 healthy adults. This study as well as the study by Olson and colleagues
+relied on previous studies linking the personality traits of interest to neuronal
+circuitry. Cohen and colleagues mention evidence from studies linking novelty
+seeking and reward processing to a hippocampus-ventral striatal-midbrain loop
+and to prefrontal-striatal connections, respectively (Hollerman et al. 2000; Lisman
+and Grace 2005). They, thus, applied tractography to parcellate the striatum
+according to its connections to several cortical and subcortical regions (see this
+chapter’s paragraph on connectional anatomy and Fig. 22.7). These regions were
+deﬁned using a common atlas (Tzourio-Mazoyer et al. 2002). Voxels in the
+striatum were then labeled according to the region they were most strongly
+connected to. The connectional strength between these voxels and their respective
+regions were found to correlate with novelty seeking in the case of connections to
+the amygdala as well as the hippocampus and with reward dependence in the case
+of a network to cortical regions including medical and lateral orbitofrontal cor-
+tices, dorsolateral prefrontal cortex and supplemental motor area. Connections
+which correlated with novelty seeking did not correlate with reward dependence
+and vice versa. As intriguing as these ﬁndings are, it remains unclear which
+microstructural characteristics cause the altered connection strength. Even func-
+tional inferences of these microstructural characteristics in terms of neuronal
+efﬁciency have to be made with great caution. The authors conclude that
+“although it is tempting to speculate that individuals with higher tract strength
+values can transmit information more efﬁciently between regions, further work is
+needed to conﬁrm this interpretation.” The explanatory gap between white matter
+features as measured by DTI and character traits as deﬁned by psychology
+remains unsurpassed also by the most advanced DTI-studies.
+
+
+
+22.10     Conclusion
+
+The advent of DTI and tractography has paved the way to one of the most flour-
+ishing ﬁelds of today’s neuroscience: The non-invasive in vivo assessment and
+delineation of white matter tracts. As this chapter has tried to show, DTI has made
+immense contributions to distinct areas of neuroscientiﬁc research just as it has
+434                                                                            T. Rüber et al.
+
+changed our perspective on the brain as a whole. However, 25 years of experience
+with DTI has forced the community to increasingly recognize the limits of this
+imaging modality. In particular, the interpretation of DTI ﬁndings in terms of their
+neuronal underpinnings has been proven difﬁcult. In their very readable review,
+Jones and colleagues point out that “the only thing that we can say with any
+certainty in diffusion MRI is that we measure a signal change when a
+motion-sensitizing gradient is applied along a given axis. Inferring anything else is
+dependent on the quality of the model and the quality of the data” (Jones et al.
+2013). As outlined above, the tensor model is thought to be inadequate in some
+regards. More promising models of diffusion data are on hand; however, they are
+not in common use since most of them are connected to special hardware
+requirements as well as long acquisition times and a lack of experience in ongoing
+research. Hence, some of the main reasons for the continuously growing success of
+DTI may well be called pragmatic. Nonetheless, MRI hardware development will
+continue to push the ﬁeld of diffusion imaging forward which most likely will
+compensate for some of the drawbacks of newer diffusion models. Approaches
+other than the tensor model will, therefore, play a more prominent role in future
+times: Diffusion Spectrum Imaging (DSI), High Angular Resolution Diffusion
+Imaging (HARDI), and Q-Ball Imaging (QBI) have all been named as promising
+candidates (Tournier et al. 2011).
+   This chapter has provided an introduction to the mechanisms of DTI and worked
+to explain its utilization while highlighting its limitations and examples of suc-
+cessful applications. Notably, DTI has not yet found an established place in neu-
+roeconomics. However, there is no reason why this should not be the case in times
+to come. Even higher cognitive functions have already been shown to be at least
+partly constituted by white matter, which makes DTI a promising tool in behavioral
+psychology. It is our hope that this chapter will encourage neuroeconomists to use
+DTI in their research.
+
+
+
+References
+
+Abe O, Aoki S, Hayashi N, Yamada H, Kunimatsu A, Mori H, Ohtomo K (2002) Normal aging in
+   the central nervous system: quantitative MR diffusion-tensor analysis. Neurobiol Aging 23
+   (3):433–441
+Ainslie G (1975) Specious reward: a behavioral theory of impulsiveness and impulse control.
+   Psychol Bull 82(4):463–496
+Anwander A, Tittgemeyer M, von Cramon DY, Friederici AD, Knosche TR (2007)
+   Connectivity-based parcellation of Broca’s area. Cereb Cortex 17(4):816–825. doi:10.1093/
+   cercor/bhk034
+Arain M, Haque M, Johal L, Mathur P, Nel W, Rais A, Sharma S (2013) Maturation of the
+   adolescent brain. Neuropsychiatr Dis Treat 9:449–461. doi:10.2147/NDT.S39776
+Ashburner J, Friston KJ (2000) Voxel-based morphometry—the methods. Neuroimage 11(6 Pt
+   1):805–821. doi:10.1006/nimg.2000.0582
+Assaf Y, Pasternak O (2008) Diffusion tensor imaging (DTI)-based white matter mapping in brain
+   research: a review. J Mol Neurosci 34(1):51–61. doi:10.1007/s12031-007-0029-0
+22   Diffusion Tensor Imaging (DTI) and Tractography                                            435
+
+Azevedo FA, Carvalho LR, Grinberg LT, Farfel JM, Ferretti RE, Leite RE, Herculano-Houzel S
+    (2009) Equal numbers of neuronal and nonneuronal cells make the human brain an
+    isometrically scaled-up primate brain. J Comp Neurol 513(5):532–541. doi:10.1002/cne.21974
+Bach DR, Behrens TE, Garrido L, Weiskopf N, Dolan RJ (2011) Deep and superﬁcial amygdala
+    nuclei projections revealed in vivo by probabilistic tractography. J Neurosci 31(2):618–623.
+    doi:10.1523/JNEUROSCI.2744-10.2011
+Bartzokis G (2004) Age-related myelin breakdown: a developmental model of cognitive decline
+    and Alzheimer’s disease. Neurobiol Aging 25(1):5–18; author reply 49–62
+Bartzokis G, Lu PH, Tingus K, Mendez MF, Richard A, Peters DG, Mintz J (2010) Lifespan
+    trajectory of myelin integrity and maximum motor speed. Neurobiol Aging 31(9):1554–1562.
+    doi:10.1016/j.neurobiolaging.2008.08.015
+Basser PJ, Mattiello J, LeBihan D (1994a) Estimation of the effective self-diffusion tensor from the
+    NMR spin echo. J Magn Reson B 103(3):247–254
+Basser PJ, Mattiello J, LeBihan D (1994b) MR diffusion tensor spectroscopy and imaging.
+    Biophys J 66(1):259–267
+Basser PJ, Pajevic S, Pierpaoli C, Duda J, Aldroubi A (2000) In vivo ﬁber tractography using
+    DT-MRI data. Magn Reson Med 44(4):625–632
+Beaulieu C (2002) The basis of anisotropic water diffusion in the nervous system—a technical
+    review. NMR Biomed 15(7–8):435–455. doi:10.1002/nbm.782
+Beaulieu C, Allen PS (1994) Determinants of anisotropic water diffusion in nerves. Magn Reson
+    Med 31(4):394–400
+Beckmann M, Johansen-Berg H, Rushworth MF (2009) Connectivity-based parcellation of human
+    cingulate cortex and its relation to functional specialization. J Neurosci 29(4):1175–1190.
+    doi:10.1523/JNEUROSCI.3328-08.2009
+Behrens TE, Johansen-Berg H (2005) Relating connectional architecture to grey matter function
+    using diffusion imaging. Philos Trans R Soc Lond B Biol Sci 360(1457):903–911. doi:10.
+    1098/rstb.2005.1640
+Behrens TE, Johansen-Berg H, Woolrich MW, Smith SM, Wheeler-Kingshott CA, Boulby PA,
+    Matthews PM (2003a) Non-invasive mapping of connections between human thalamus and
+    cortex using diffusion imaging. Nat Neurosci 6(7):750–757. doi:10.1038/nn1075
+Behrens TE, Woolrich MW, Jenkinson M, Johansen-Berg H, Nunes RG, Clare S, Smith SM
+    (2003b) Characterization and propagation of uncertainty in diffusion-weighted MR imaging.
+    Magn Reson Med 50(5):1077–1088. doi:10.1002/mrm.10609
+Behrens TE, Berg HJ, Jbabdi S, Rushworth MF, Woolrich MW (2007) Probabilistic diffusion
+    tractography with multiple ﬁbre orientations: what can we gain? Neuroimage 34(1):144–155.
+    doi:10.1016/j.neuroimage.2006.09.018, S1053-8119(06)00936-0 [pii]
+Bengtsson SL, Nagy Z, Skare S, Forsman L, Forssberg H, Ullen F (2005) Extensive piano
+    practicing has regionally speciﬁc effects on white matter development. Nat Neurosci 8
+    (9):1148–1150. doi:10.1038/nn1516, nn1516 [pii]
+Bennett CM, Wolford GL, Miller MB (2009) The principled control of false positives in
+    neuroimaging. Soc Cogn Affect Neurosci 4(4):417–422. doi:10.1093/scan/nsp053
+Blaschek A, Keeser D, Muller S, Koerte IK, Sebastian Schroder A, Muller-Felber W, Ertl-Wagner
+    B (2013) Early white matter changes in childhood multiple sclerosis: a diffusion tensor imaging
+    study. AJNR Am J Neuroradiol 34(10):2015–2020. doi:10.3174/ajnr.A3581
+Blits KC (1999) Aristotle: form, function, and comparative anatomy. Anat Rec 257(2):58–63
+Budde MD, Kim JH, Liang HF, Schmidt RE, Russell JH, Cross AH, Song SK (2007) Toward
+    accurate diagnosis of white matter pathology using diffusion tensor imaging. Magn Reson Med
+    57(4):688–695. doi:10.1002/mrm.21200
+Catani M (2007) From hodology to function. Brain 130(Pt 3):602–605. doi:10.1093/brain/
+    awm008
+Catani M, Thiebaut de Schotten M (2008) A diffusion tensor imaging tractography atlas for virtual
+    in vivo dissections. Cortex 44(8):1105–1132. doi:10.1016/j.cortex.2008.05.004, S0010-9452
+    (08)00123-8 [pii]
+436                                                                                T. Rüber et al.
+
+Catani M, Howard RJ, Pajevic S, Jones DK (2002) Virtual in vivo interactive dissection of white
+    matter fasciculi in the human brain. Neuroimage 17(1):77–94
+Caviness VS Jr, Meyer J, Makris N, Kennedy DN (1996) MRI-based topographic parcellation of
+    human neocortex: an anatomically speciﬁed method with estimate of reliability. J Cogn
+    Neurosci 8(6):566–587. doi:10.1162/jocn.1996.8.6.566
+Chiang MC, Barysheva M, Shattuck DW, Lee AD, Madsen SK, Avedissian C, Thompson PM
+    (2009) Genetics of brain ﬁber architecture and intellectual performance. J Neurosci 29
+    (7):2212–2224. doi:10.1523/JNEUROSCI.4184-08.2009
+Chiang MC, McMahon KL, de Zubicaray GI, Martin NG, Hickie I, Toga AW, Thompson PM
+    (2011) Genetics of white matter development: a DTI study of 705 twins and their siblings aged
+    12 to 29. Neuroimage 54(3):2308–2317. doi:10.1016/j.neuroimage.2010.10.015
+Chung HW, Chou MC, Chen CY (2011) Principles and limitations of computational algorithms in
+    clinical diffusion tensor MR tractography. AJNR Am J Neuroradiol 32(1):3–13. doi:10.3174/
+    ajnr.A2041
+Cohen MX, Schoene-Bake JC, Elger CE, Weber B (2009) Connectivity-based segregation of the
+    human striatum predicts personality characteristics. Nat Neurosci 12(1):32–34. doi:10.1038/nn.
+    2228, nn.2228 [pii]
+Crick F, Jones E (1993) Backwardness of human neuroanatomy. Nature 361(6408):109–110.
+    doi:10.1038/361109a0
+Dale AM, Fischl B, Sereno MI (1999) Cortical surface-based analysis. I. Segmentation and surface
+    reconstruction. Neuroimage 9(2):179–194. doi:10.1006/nimg.1998.0395, S1053-8119(98)
+    90395-0 [pii]
+Dauguet J, Peled S, Berezovskii V, Delzescaux T, Warﬁeld SK, Born R, Westin CF (2007)
+    Comparison of ﬁber tracts derived from in-vivo DTI tractography with 3D histological neural
+    tract tracer reconstruction on a macaque brain. Neuroimage 37(2):530–538. doi:10.1016/j.
+    neuroimage.2007.04.067
+Dayan E, Cohen LG (2011) Neuroplasticity subserving motor skill learning. Neuron 72(3):443–
+    454. doi:10.1016/j.neuron.2011.10.008, S0896-6273(11)00918-4 [pii]
+Dejerine J, Dejerine-Klumpke AM (1895) Anatomie Des Centres Nerveux. Rueff et Cie, Paris
+Descoteaux M, Deriche R, Knosche TR, Anwander A (2009) Deterministic and probabilistic
+    tractography based on complex ﬁbre orientation distributions. IEEE Trans Med Imaging 28
+    (2):269–286. doi:10.1109/TMI.2008.2004424
+Drachman DA (2005) Do we have brain to spare? Neurology 64(12):2004–2005. doi:10.1212/01.
+    WNL.0000166914.38327.BB
+Dubey P, Pandey S, Moonis G (2013) Acute stroke imaging: recent updates. Stroke Res Treat
+    2013:767212. doi:10.1155/2013/767212
+Dyrby TB, Sogaard LV, Parker GJ, Alexander DC, Lind NM, Baare WF, Jelsing J (2007)
+    Validation of in vitro probabilistic tractography. Neuroimage 37(4):1267–1277. doi:10.1016/j.
+    neuroimage.2007.06.022
+Einstein A (1905) Über die von der molecularkinetischen Theorie der Wärme geforderte
+    Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen. Ann Phys 17:549–569
+Engvig A, Fjell AM, Westlye LT, Moberget T, Sundseth O, Larsen VA, Walhovd KB (2012)
+    Memory training impacts short-term changes in aging white matter: a longitudinal diffusion
+    tensor imaging study. Hum Brain Mapp 33(10):2390–2406. doi:10.1002/hbm.21370
+Evans AC, Janke AL, Collins DL, Baillet S (2012) Brain templates and atlases. Neuroimage 62
+    (2):911–922. doi:10.1016/j.neuroimage.2012.01.024
+ffytche DH, Catani M (2005) Beyond localization: from hodology to function. Philos Trans R Soc
+    Lond B Biol Sci 360(1456):767–779. doi:10.1098/rstb.2005.1621
+Fischl B, Sereno MI, Dale AM (1999) Cortical surface-based analysis. II: inflation, flattening, and
+    a surface-based coordinate system. Neuroimage 9(2):195–207. doi:10.1006/nimg.1998.0396,
+    S1053-8119(98)90396-2 [pii]
+Fischl B, Salat DH, Busa E, Albert M, Dieterich M, Haselgrove C, Dale AM (2002) Whole brain
+    segmentation: automated labeling of neuroanatomical structures in the human brain. Neuron 33
+    (3):341–355
+22   Diffusion Tensor Imaging (DTI) and Tractography                                        437
+
+Floel A, de Vries MH, Scholz J, Breitenstein C, Johansen-Berg H (2009) White matter integrity in
+    the vicinity of Broca’s area predicts grammar learning success. Neuroimage 47(4):1974–1981.
+    doi:10.1016/j.neuroimage.2009.05.046
+Friston KJ, Worsley KJ, Frackowiak RSJ, Mazziotta JC, Evans AC (1994) Assessing the
+    signiﬁcance of focal activations using their spatial extent. Hum Brain Mapp (1):214–220
+Fuchs S (2009) Some aspects of speech and the brain. Peter Lang, Frankfurt am Main; New York
+Gao W, Lin W, Chen Y, Gerig G, Smith JK, Jewells V, Gilmore JH (2009) Temporal and spatial
+    development of axonal maturation and myelination of white matter in the developing brain.
+    AJNR Am J Neuroradiol 30(2):290–296. doi:10.3174/ajnr.A1363
+Geyer S, Matelli M, Luppino G, Zilles K (2000) Functional neuroanatomy of the primate
+    isocortical motor system. Anat Embryol (Berl) 202(6):443–474
+Gonzalez RG (2012) Clinical MRI of acute ischemic stroke. J Magn Reson Imaging 36(2):
+    259–271. doi:10.1002/jmri.23595
+Guimond A, Roche A, Ayache N, Meunier J (2001) Three-dimensional multimodal brain warping
+    using the demons algorithm and adaptive intensity corrections. IEEE Trans Med Imaging 20
+    (1):58–69. doi:10.1109/42.906425
+Gulani V, Webb AG, Duncan ID, Lauterbur PC (2001) Apparent diffusion tensor measurements in
+    myelin-deﬁcient rat spinal cords. Magn Reson Med 45(2):191–195
+Hagmann P, Jonasson L, Maeder P, Thiran JP, Wedeen VJ, Meuli R (2006) Understanding
+    diffusion MR imaging techniques: from scalar diffusion-weighted imaging to diffusion tensor
+    imaging and beyond. Radiographics 26(Suppl 1):S205–223. doi:10.1148/rg.26si065510
+Hagmann P, Cammoun L, Gigandet X, Meuli R, Honey CJ, Wedeen VJ, Sporns O (2008)
+    Mapping the structural core of human cerebral cortex. PLoS Biol 6(7):e159. doi:10.1371/
+    journal.pbio.0060159
+Hasan KM, Parker DL, Alexander AL (2001) Comparison of gradient encoding schemes for
+    diffusion-tensor MRI. J Magn Reson Imaging 13(5):769–780
+Hedden T, Lautenschlager G, Park DC (2005) Contributions of processing ability and knowledge
+    to verbal memory tasks across the adult life-span. Q J Exp Psychol A 58(1):169–190. doi:10.
+    1080/02724980443000179
+Hollerman JR, Tremblay L, Schultz W (2000) Involvement of basal ganglia and orbitofrontal
+    cortex in goal-directed behavior. Prog Brain Res 126:193–215. doi:10.1016/S0079-6123(00)
+    26015-9
+Honea R, Crow TJ, Passingham D, Mackay CE (2005) Regional deﬁcits in brain volume in
+    schizophrenia: a meta-analysis of voxel-based morphometry studies. Am J Psychiatry 162
+    (12):2233–2245. doi:10.1176/appi.ajp.162.12.2233
+Hua K, Zhang J, Wakana S, Jiang H, Li X, Reich DS, Mori S (2008) Tract probability maps in
+    stereotaxic spaces: analyses of white matter anatomy and tract-speciﬁc quantiﬁcation.
+    Neuroimage 39(1):336–347. doi:10.1016/j.neuroimage.2007.07.053
+Huston JM, Field AS (2013) Clinical applications of diffusion tensor imaging. Magn Reson
+    Imaging Clin N Am 21(2):279–298. doi:10.1016/j.mric.2012.12.003
+Jahanshad N, Lee AD, Barysheva M, McMahon KL, de Zubicaray GI, Martin NG, Thompson PM
+    (2010) Genetic influences on brain asymmetry: a DTI study of 374 twins and siblings.
+    Neuroimage 52(2):455–469. doi:10.1016/j.neuroimage.2010.04.236
+Jancke L (2009) The plastic human brain. Restor Neurol Neurosci 27(5):521–538. doi:10.3233/
+    RNN-2009-0519, E1068WQ4LH1354P0 [pii]
+Jbabdi S, Behrens TE, Smith SM (2010) Crossing ﬁbres in tract-based spatial statistics.
+    Neuroimage 49(1):249–256. doi:10.1016/j.neuroimage.2009.08.039
+Jenkinson M, Smith S (2001) A global optimisation method for robust afﬁne registration of brain
+    images. Med Image Anal 5(2):143–156
+Jeurissen B, Leemans A, Tournier JD, Jones DK, Sijbers J (2012) Investigating the prevalence of
+    complex ﬁber conﬁgurations in white matter tissue with diffusion magnetic resonance imaging.
+    Hum Brain Mapp. doi:10.1002/hbm.22099
+Johansen-Berg H, Behrens TE (2006) Just pretty pictures? What diffusion tractography can add in
+    clinical neuroscience. Curr Opin Neurol 19(4):379–385
+438                                                                                T. Rüber et al.
+
+Johansen-Berg H, Rushworth MF (2009) Using diffusion imaging to study human connectional
+   anatomy. Annu Rev Neurosci 32:75–94. doi:10.1146/annurev.neuro.051508.135735
+Johansen-Berg H, Behrens TE, Robson MD, Drobnjak I, Rushworth MF, Brady JM,
+   Matthews PM (2004) Changes in connectivity proﬁles deﬁne functionally distinct regions in
+   human medial frontal cortex. Proc Natl Acad Sci USA 101(36):13335–13340. doi:10.1073/
+   pnas.0403743101
+Johansen-Berg H, Behrens TE, Sillery E, Ciccarelli O, Thompson AJ, Smith SM, Matthews PM
+   (2005) Functional-anatomical validation and individual variation of diffusion
+   tractography-based segmentation of the human thalamus. Cereb Cortex 15(1):31–39. doi:10.
+   1093/cercor/bhh105
+Jones DK, Cercignani M (2010) Twenty-ﬁve pitfalls in the analysis of diffusion MRI data. NMR
+   Biomed 23(7):803–820. doi:10.1002/nbm.1543
+Jones DK, Simmons A, Williams SC, Horsﬁeld MA (1999) Non-invasive assessment of axonal
+   ﬁber connectivity in the human brain via diffusion tensor MRI. Magn Reson Med 42(1):37–41
+Jones DK, Symms MR, Cercignani M, Howard RJ (2005) The effect of ﬁlter size on VBM
+   analyses of DT-MRI data. Neuroimage 26(2):546–554. doi:10.1016/j.neuroimage.2005.02.013
+Jones DK, Knosche TR, Turner R (2013) White matter integrity, ﬁber count, and other fallacies:
+   the do’s and don’ts of diffusion MRI. Neuroimage 73:239–254. doi:10.1016/j.neuroimage.
+   2012.06.081
+Keller TA, Just MA (2009) Altering cortical connectivity: remediation-induced changes in the
+   white matter of poor readers. Neuron 64(5):624–631. doi:10.1016/j.neuron.2009.10.018
+Kinoshita Y, Ohnishi A, Kohshi K, Yokota A (1999) Apparent diffusion coefﬁcient on rat brain
+   and nerves intoxicated with methylmercury. Environ Res 80(4):348–354. doi:10.1006/enrs.
+   1998.3935
+Klawiter EC, Schmidt RE, Trinkaus K, Liang HF, Budde MD, Naismith RT, Benzinger TL (2011)
+   Radial diffusivity predicts demyelination in ex vivo multiple sclerosis spinal cords.
+   Neuroimage 55(4):1454–1460. doi:10.1016/j.neuroimage.2011.01.007
+Koch MA, Norris DG, Hund-Georgiadis M (2002) An investigation of functional and anatomical
+   connectivity using magnetic resonance imaging. Neuroimage 16(1):241–250. doi:10.1006/
+   nimg.2001.1052
+Kochunov P, Williamson DE, Lancaster J, Fox P, Cornell J, Blangero J, Glahn DC (2012)
+   Fractional anisotropy of water diffusion in cerebral white matter across the lifespan. Neurobiol
+   Aging 33(1):9–20. doi:10.1016/j.neurobiolaging.2010.01.014
+Landi SM, Baguear F, Della-Maggiore V (2011) One week of motor adaptation induces structural
+   changes in primary motor cortex that predict long-term memory one year later. J Neurosci 31
+   (33):11808–11813. doi:10.1523/JNEUROSCI.2253-11.2011
+Langer N, Hanggi J, Muller NA, Simmen HP, Jancke L (2012) Effects of limb immobilization on
+   brain plasticity. Neurology 78(3):182–188. doi:10.1212/WNL.0b013e31823fcd9c
+Lawes INC, Barrick TR, Murugam V, Spierings, Natalia, Evans DR, Song M, Clark CA (2008)
+   Atlas-based segmentation of white matter tracts of the human brain using diffusion tensor
+   tractography and comparison with classical dissection. Neuroimage 39(1):62–79
+Le Bihan D, Johansen-Berg H (2012) Diffusion MRI at 25: exploring brain tissue structure and
+   function. Neuroimage 61(2):324–341. doi:10.1016/j.neuroimage.2011.11.006
+Le Bihan D, Breton E, Lallemand D, Grenier P, Cabanis E, Laval-Jeantet M (1986) MR imaging
+   of intravoxel incoherent motions: application to diffusion and perfusion in neurologic
+   disorders. Radiology 161(2):401–407. doi:10.1148/radiology.161.2.3763909
+Lebel C, Gee M, Camicioli R, Wieler M, Martin W, Beaulieu C (2012) Diffusion tensor imaging
+   of white matter tract evolution over the lifespan. Neuroimage 60(1):340–352. doi:10.1016/j.
+   neuroimage.2011.11.094
+Lindenberg R, Renga V, Zhu LL, Betzler F, Alsop D, Schlaug G (2010) Structural integrity of
+   corticospinal motor ﬁbers predicts motor impairment in chronic stroke. Neurology 74(4):
+   280–287. doi:10.1212/WNL.0b013e3181ccc6d9, 74/4/280 [pii]
+Lisman JE, Grace AA (2005) The hippocampal-VTA loop: controlling the entry of information
+   into long-term memory. Neuron 46(5):703–713. doi:10.1016/j.neuron.2005.05.002
+22   Diffusion Tensor Imaging (DTI) and Tractography                                            439
+
+Loring DW, Meador KJ, Allison JD, Pillai JJ, Lavin T, Lee GP, Dave V (2002) Now you see it,
+   now you don’t: statistical and methodological considerations in fMRI. Epilepsy Behav 3
+   (6):539–547
+Marchina S, Zhu LL, Norton A, Zipse L, Wan CY, Schlaug G (2011) Impairment of speech
+   production predicted by lesion load of the left arcuate fasciculus. Stroke 42(8):2251–2256.
+   doi:10.1161/STROKEAHA.110.606103
+McClure SM, Laibson DI, Loewenstein G, Cohen JD (2004) Separate neural systems value
+   immediate and delayed monetary rewards. Science 306(5695):503–507. doi:10.1126/science.
+   1100907
+Menke RA, Jbabdi S, Miller KL, Matthews PM, Zarei M (2010) Connectivity-based segmentation
+   of the substantia nigra in human and its implications in Parkinson’s disease. Neuroimage 52
+   (4):1175–1180. doi:10.1016/j.neuroimage.2010.05.086
+Mesulam M (2005) Imaging connectivity in the human cerebral cortex: the next frontier? Ann
+   Neurol 57(1):5–7. doi:10.1002/ana.20368
+Mori S, Barker PB (1999) Diffusion magnetic resonance imaging: its principle and applications.
+   Anat Rec 257(3):102–109
+Mori S, van Zijl PC (2002) Fiber tracking: principles and strategies—a technical review. NMR
+   Biomed 15(7–8):468–480. doi:10.1002/nbm.781
+Mori S, Crain BJ, Chacko VP, van Zijl PC (1999) Three-dimensional tracking of axonal
+   projections in the brain by magnetic resonance imaging. Ann Neurol 45(2):265–269
+Moseley ME, Cohen Y, Kucharczyk J, Mintorovitch J, Asgari HS, Wendland MF, Norman D
+   (1990) Diffusion-weighted MR imaging of anisotropic water diffusion in cat central nervous
+   system. Radiology 176(2):439–445
+Mukherjee P, Miller JH, Shimony JS, Conturo TE, Lee BC, Almli CR, McKinstry RC (2001)
+   Normal brain maturation during childhood: developmental trends characterized with
+   diffusion-tensor MR imaging. Radiology 221(2):349–358. doi:10.1148/radiol.2212001702
+Mukherjee P, Chung SW, Berman JI, Hess CP, Henry RG (2008) Diffusion tensor MR imaging
+   and ﬁber tractography: technical considerations. AJNR Am J Neuroradiol 29(5):843–852.
+   doi:10.3174/ajnr.A1052
+Munoz Maniega S, Bastin ME, Armitage PA, Farrall AJ, Carpenter TK, Hand PJ, Wardlaw JM
+   (2004) Temporal evolution of water diffusion parameters is different in grey and white matter
+   in human ischaemic stroke. J Neurol Neurosurg Psychiatry 75(12):1714–1718. doi:10.1136/
+   jnnp.2003.033852
+Noctor SC, Martinez-Cerdeno V, Kriegstein AR (2007) Contribution of intermediate progenitor
+   cells to cortical histogenesis. Arch Neurol 64(5):639–642. doi:10.1001/archneur.64.5.639
+Olson EA, Hooper CJ, Collins P, Luciana M (2007) Adolescents’ performance on delay and
+   probability discounting tasks: contributions of age, intelligence, executive functioning, and
+   self-reported externalizing behavior. Pers Individ Dif 43(7):1886–1897. doi:10.1016/j.paid.
+   2007.06.016
+Olson EA, Collins PF, Hooper CJ, Muetzel R, Lim KO, Luciana M (2009) White matter integrity
+   predicts delay discounting behavior in 9- to 23-year-olds: a diffusion tensor imaging study.
+   J Cogn Neurosci 21(7):1406–1421. doi:10.1162/jocn.2009.21107
+O’Sullivan M, Jones DK, Summers PE, Morris RG, Williams SC, Markus HS (2001) Evidence for
+   cortical “disconnection” as a mechanism of age-related cognitive decline. Neurology 57
+   (4):632–638
+Pajevic S, Pierpaoli C (1999) Color schemes to represent the orientation of anisotropic tissues from
+   diffusion tensor data: application to white matter ﬁber tract mapping in the human brain. Magn
+   Reson Med 42(3):526–540
+Papadakis NG, Murrills CD, Hall LD, Huang CL, Adrian Carpenter T (2000) Minimal gradient
+   encoding for robust estimation of diffusion anisotropy. Magn Reson Imaging 18(6):671–679
+Passingham RE, Stephan KE, Kotter R (2002) The anatomical basis of functional localization in
+   the cortex. Nat Rev Neurosci 3(8):606–616. doi:10.1038/nrn893
+440                                                                                T. Rüber et al.
+
+Perrin M, Poupon C, Rieul B, Leroux P, Constantinesco A, Mangin JF, Lebihan D (2005)
+    Validation of q-ball imaging with a diffusion ﬁbre-crossing phantom on a clinical scanner.
+    Philos Trans R Soc Lond B Biol Sci 360(1457):881–891. doi:10.1098/rstb.2005.1650
+Pierpaoli C, Basser PJ (1996) Toward a quantitative assessment of diffusion anisotropy. Magn
+    Reson Med 36(6):893–906
+Pierpaoli C, Jezzard P, Basser PJ, Barnett A, Di Chiro G (1996) Diffusion tensor MR imaging of
+    the human brain. Radiology 201(3):637–648. doi:10.1148/radiology.201.3.8939209
+Rüber T, Schlaug G, Lindenberg R (2012) Compensatory role of the cortico-rubro-spinal tract in
+    motor recovery after stroke. Neurology 79(6):515–522. doi:10.1212/WNL.0b013e31826356e8
+Salat DH, Greve DN, Pacheco JL, Quinn BT, Helmer KG, Buckner RL, Fischl B (2009) Regional
+    white matter volume differences in nondemented aging and Alzheimer’s disease. Neuroimage
+    44(4):1247–1258. doi:10.1016/j.neuroimage.2008.10.030
+Salthouse TA (2000) Aging and measures of processing speed. Biol Psychol 54(1–3):35–54
+Salthouse TA (2009) When does age-related cognitive decline begin? Neurobiol Aging 30(4):507–
+    514. doi:10.1016/j.neurobiolaging.2008.09.023
+Schaechter JD, Fricker ZP, Perdue KL, Helmer KG, Vangel MG, Greve DN, Makris N (2009)
+    Microstructural status of ipsilesional and contralesional corticospinal tract correlates with
+    motor skill in chronic stroke patients. Hum Brain Mapp 30(11):3461–3474. doi:10.1002/hbm.
+    20770
+Schellinger PD, Bryan RN, Caplan LR, Detre JA, Edelman RR, Jaigobin C, Technology
+    Assessment Subcommittee of the American Academy of, Neurology (2010) Evidence-based
+    guideline: the role of diffusion and perfusion MRI for the diagnosis of acute ischemic stroke:
+    report of the Therapeutics and Technology Assessment Subcommittee of the American
+    Academy of Neurology. Neurology 75(2):177-185. doi:10.1212/WNL.0b013e3181e7c9dd
+Schlaug G, Marchina S, Norton A (2009) Evidence for plasticity in white-matter tracts of patients
+    with chronic Broca’s aphasia undergoing intense intonation-based speech therapy. Ann N Y
+    Acad Sci 1169:385–394. 10.1111/j.1749-6632.2009.04587.x, doi:NYAS04587 [pii]
+Scholz J, Klein MC, Behrens TE, Johansen-Berg H (2009) Training induces changes in
+    white-matter architecture. Nat Neurosci 12(11):1370–1371. doi:10.1038/nn.2412, nn.2412 [pii]
+Schubotz RI, Anwander A, Knosche TR, von Cramon DY, Tittgemeyer M (2010) Anatomical and
+    functional parcellation of the human lateral premotor cortex. Neuroimage 50(2):396–408.
+    doi:10.1016/j.neuroimage.2009.12.069
+Smith SM, Jenkinson M, Woolrich MW, Beckmann CF, Behrens TE, Johansen-Berg H,
+    Matthews PM (2004) Advances in functional and structural MR image analysis and
+    implementation as FSL. Neuroimage 23(Suppl 1):S208–219. doi:10.1016/j.neuroimage.2004.
+    07.051, S1053-8119(04)00393-3 [pii]
+Smith SM, Jenkinson M, Johansen-Berg H, Rueckert D, Nichols TE, Mackay CE, Behrens TE
+    (2006) Tract-based spatial statistics: voxelwise analysis of multi-subject diffusion data.
+    Neuroimage 31(4):1487–1505. doi:10.1016/j.neuroimage.2006.02.024
+Snook L, Plewes C, Beaulieu C (2007) Voxel based versus region of interest analysis in diffusion
+    tensor imaging of neurodevelopment. Neuroimage 34(1):243–252. doi:10.1016/j.neuroimage.
+    2006.07.021
+Soares JM, Marques P, Alves V, Sousa N (2013) A hitchhiker’s guide to diffusion tensor imaging.
+    Front Neurosci 7:1. doi:10.3389/fnins.2013.00031
+Song SK, Sun SW, Ramsbottom MJ, Chang C, Russell J, Cross AH (2002) Dysmyelination
+    revealed through MRI as increased radial (but unchanged axial) diffusion of water. Neuroimage
+    17(3):1429–1436. doi:S105381190291267X [pii]
+Song SK, Sun SW, Ju WK, Lin SJ, Cross AH, Neufeld AH (2003) Diffusion tensor imaging
+    detects and differentiates axon and myelin degeneration in mouse optic nerve after retinal
+    ischemia. Neuroimage 20(3):1714–1722. doi:S1053811903004403 [pii]
+Sporns O, Tononi G, Kotter R (2005) The human connectome: a structural description of the
+    human brain. PLoS Comput Biol 1(4):e42. doi:10.1371/journal.pcbi.0010042
+22   Diffusion Tensor Imaging (DTI) and Tractography                                            441
+
+Stiles J (2011) Brain development and the nature versus nurture debate. Prog Brain Res 189:3–22.
+    doi:10.1016/B978-0-444-53884-0.00015-4, B978-0-444-53884-0.00015-4 [pii]
+Sullivan EV, Rohlﬁng T, Pfefferbaum A (2010) Quantitative ﬁber tracking of lateral and
+    interhemispheric white matter systems in normal aging: relations to timed performance.
+    Neurobiol Aging 31(3):464–481. doi:10.1016/j.neurobiolaging.2008.04.007
+Takahashi M, Hackney DB, Zhang G, Wehrli SL, Wright AC, O’Brien WT, Selzer ME (2002)
+    Magnetic resonance microimaging of intraaxonal water diffusion in live excised lamprey spinal
+    cord. Proc Natl Acad Sci USA 99(25):16192–16196. doi:10.1073/pnas.252249999
+Takeuchi H, Sekiguchi A, Taki Y, Yokoyama S, Yomogida Y, Komuro N, Kawashima R (2010)
+    Training of working memory impacts structural connectivity. J Neurosci 30(9):3297–3303.
+    doi:10.1523/JNEUROSCI.4611-09.2010
+Taylor DG, Bushell MC (1985) The spatial mapping of translational diffusion coefﬁcients by the
+    NMR imaging technique. Phys Med Biol 30(4):345–349
+Tomassini V, Jbabdi S, Klein JC, Behrens TE, Pozzilli C, Matthews PM, Johansen-Berg H (2007)
+    Diffusion-weighted imaging tractography-based parcellation of the human lateral premotor
+    cortex identiﬁes dorsal and ventral subregions with anatomical and functional specializations.
+    J Neurosci 27(38):10259–10269. doi:10.1523/JNEUROSCI.2144-07.2007
+Tournier JD, Mori S, Leemans A (2011) Diffusion tensor imaging and beyond. Magn Reson Med
+    65(6):1532–1556. doi:10.1002/mrm.22924
+Tsang JM, Dougherty RF, Deutsch GK, Wandell BA, Ben-Shachar M (2009) Frontoparietal white
+    matter diffusion properties predict mental arithmetic skills in children. Proc Natl Acad Sci USA
+    106(52):22546–22551. doi:10.1073/pnas.0906094106
+Tzourio-Mazoyer N, Landeau B, Papathanassiou D, Crivello F, Etard O, Delcroix N, Joliot M
+    (2002) Automated anatomical labeling of activations in SPM using a macroscopic anatomical
+    parcellation of the MNI MRI single-subject brain. Neuroimage 15(1):273–289. doi:10.1006/
+    nimg.2001.0978
+Van Essen DC, Ugurbil K, Auerbach E, Barch D, Behrens TE, Bucholz R, Consortium W,
+    U-Minn HCP (2012) The Human Connectome Project: a data acquisition perspective.
+    Neuroimage 62(4):2222–2231. doi:10.1016/j.neuroimage.2012.02.018
+Wakana S, Jiang H, Nagae-Poetscher LM, van Zijl PCM, Mori S (2004) Fiber tract-based atlas of
+    human white matter anatomy. Radiology 230(1):77–87. doi:10.1148/radiol.2301021640
+Wernicke C (1874) Der Aphasische Symptomencomplex. Cohn and Weigert, Breslau
+Werring DJ, Toosy AT, Clark CA, Parker GJ, Barker GJ, Miller DH, Thompson AJ (2000)
+    Diffusion tensor imaging can detect and quantify corticospinal tract degeneration after stroke.
+    J Neurol Neurosurg Psychiatry 69(2):269–272
+Westlye LT, Walhovd KB, Dale AM, Bjornerud A, Due-Tonnessen P, Engvig A, Fjell AM (2010)
+    Life-span changes of the human brain white matter: diffusion tensor imaging (DTI) and
+    volumetry. Cereb Cortex 20(9):2055–2068. doi:10.1093/cercor/bhp280
+Wheeler-Kingshott CA, Cercignani M (2009) About “axial” and “radial” diffusivities. Magn
+    Reson Med 61(5):1255–1260. doi:10.1002/mrm.21965
+Wittmann M, Leland DS, Paulus MP (2007) Time and decision making: differential contribution
+    of the posterior insular cortex and the striatum during a delay discounting task. Exp Brain Res
+    179(4):643–653. doi:10.1007/s00221-006-0822-y
+Worsley KJ (2005) An improved theoretical P value for SPMs based on discrete local maxima.
+    Neuroimage 28(4):1056–1062. doi:10.1016/j.neuroimage.2005.06.053
+Wu JS, Zhou LF, Tang WJ, Mao Y, Hu J, Song YY, Du GH (2007) Clinical evaluation and
+    follow-up outcome of diffusion tensor imaging-based functional neuronavigation: a prospec-
+    tive, controlled study in patients with gliomas involving pyramidal tracts. Neurosurgery 61
+    (5):935–948; discussion 948–939. doi:10.1227/01.neu.0000303189.80049.ab
+Yogarajah M, Focke NK, Bonelli S, Cercignani M, Acheson J, Parker GJ, Duncan JS (2009)
+    Deﬁning Meyer’s loop-temporal lobe resections, visual ﬁeld deﬁcits and diffusion tensor
+    tractography. Brain 132(Pt 6):1656–1668. doi:10.1093/brain/awp114
+442                                                                           T. Rüber et al.
+
+Zalesky A (2011) Moderating registration misalignment in voxelwise comparisons of DTI data: a
+   performance evaluation of skeleton projection. Magn Reson Imaging 29(1):111–125. doi:10.
+   1016/j.mri.2010.06.027
+Zhu LL, Lindenberg R, Alexander MP, Schlaug G (2010) Lesion load of the corticospinal tract
+   predicts motor impairment in chronic stroke. Stroke 41(5):910–915. doi:10.1161/
+   STROKEAHA.109.577023, STROKEAHA.109.577023 [pii]
+Zhu Z, Johnson NF, Kim C, Gold BT (2013) Reduced frontal cortex efﬁciency is associated with
+   lower white matter integrity in aging. Cereb Cortex. doi:10.1093/cercor/bht212

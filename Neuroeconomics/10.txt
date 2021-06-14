@@ -1,0 +1,1037 @@
+Chapter 10
+The Influence of Costs, Beneﬁts and Their
+Interaction on the Economic Behaviour
+of Consumers
+
+Luca Panzone and Deborah Talmi
+
+                               “Tis the sharpness of our mind that gives the edge to our pains
+                               and pleasures.”
+                                                                      —Michel de Montaigne
+
+
+Abstract Recent neuroscientiﬁc research on economic behaviour of consumers
+explores how individuals translate information into value in their brain, and what
+mechanisms underlie this process. The typical aim of this research is to establish
+how single attributes are valued and combined into a single utility, neglects ﬁndings
+in multi-attribute utility theory on how utility is achieved when both costs and
+beneﬁts are involved. This chapter argues that it is important to consider how the
+marginal utility of costs and beneﬁts changes in the respective presence of one
+another. This point is discussed by reviewing behavioural and brain imaging data
+that illuminate this interplay, with a focus on the implications on econometric
+models of consumer behaviour.
+
+
+
+10.1     Introduction
+
+Any gain in utility comes at the expense of an initial loss, a concept recognised by
+the adage ‘No pain, no gain’. For instance, consumers accept the payment of a price
+(a cost) because they expect a gain in hedonic satisfaction through product quality
+(a consequent beneﬁt). Similarly, current policies targeting behavioural change
+impose a trade-off between effort (an immaterial cost) and a reward associated with
+that effort, e.g. a health improvement (a private beneﬁt), or an environmental
+improvement (a public beneﬁt) (Steg and Vlek 2009). How the brain estimates the
+overall utility of a person facing the cost and the reward prospect and converts them
+
+L. Panzone
+School of Social Science, Sustainable Consumption Institute, Manchester, UK
+e-mail: luca.panzone@manchester.ac.uk
+D. Talmi (&)
+School of Psychological Science, University of Manchester, Manchester, UK
+e-mail: deborah.talmi@manchester.ac.uk
+
+© Springer-Verlag Berlin Heidelberg 2016                                                   167
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_10
+168                                                            L. Panzone and D. Talmi
+
+into a single value is not yet fully understood (Camerer et al. forthcoming; Levy and
+Glimcher 2012; Louie and Glimcher 2012; Vlaev et al. 2011).
+    There is a growing literature on the neural representation of value, i.e. how
+individual consumers determine the value of choice options. Yet some of the recent
+discoveries on brain valuation activity have not been integrated into a coherent
+economic theoretical framework. The aim of this chapter is to understand how
+individuals convert costs and beneﬁts into utility in their decisions to consume,
+particularly focusing on understanding how these combine into a ﬁnal valuation of
+utility. Costs and beneﬁts are deﬁned as anticipated consequences of the acceptance
+of a choice, whereby they respectively increase (beneﬁts) or decrease (costs) the
+subjective value of the choice in the decision-making process. This deﬁnition
+hinges on the nature of these phenomena, since beneﬁts (such as rewards) induce
+positive feelings of pleasure (Schultz 2000), while costs (such as effort or pain) are
+an aversive feature associated with consumption (Kivetz 2003).
+    In the most basic model of optimal decision-making, an individual chooses by
+introspectively estimating the expected amount of satisfaction (e.g. happiness,
+utility) that a good can deliver upon consumption. This process entails the evalu-
+ation of the intrinsic quality provided by each of the characteristics within a good
+(Lancaster 1966), which are then integrated into a single value for each option in
+the choice set. The resulting choice then corresponds to the option delivering the
+highest overall value (Vlaev et al. 2011; Kahneman et al. 1997) or the option with
+the highest probability of a positive outcome at consumption. Because quality is
+estimated before consumption, these stages are limited by cognitive bounds that
+reduce consumer efﬁcacy: consumers use heuristics to determine quality, and
+contextual stimuli influence their ﬁnal decisions (Vlaev et al. 2011; Kahneman
+2003). It is important to keep in mind that heuristics and external stimuli span
+across attributes, reinforcing the links between them.
+    This simple model of behaviour assumes independence of product attributes.
+However, when goods provide ‘mixed prospects’, i.e. those associated both with
+costs and with beneﬁts, valuation is more complex than what has been described so
+far. For instance, the purchase of an energy-efﬁcient appliance requires the trade-off
+between high environmental quality together with prospective savings (two bene-
+ﬁts) and a price premium (cost). The extra money consumers are willing to pay for
+the ‘green’ (i.e. energy-efﬁcient) choice depends both on the expected beneﬁts from
+energy efﬁciency and on the utility of money. Consumers with high utility from
+money (e.g. low-income households) would switch to energy-efﬁcient appliances
+only when deriving high levels of utility from energy conservation. Instead, envi-
+ronmentally motivated consumers are likely to switch even at a very high premium.
+Individuals face such dilemmas frequently in non-purchasing decisions as well: for
+example, when they decide whether to go to the gym regularly (effort cost) to lose
+weight (beneﬁt), or decide to walk to the recycling bin instead of throwing their
+paper into the regular bin (effort cost) to improve the quality of the environment
+(beneﬁt).
+    Neuroscientiﬁc research typically explores the representation of reward and
+punishment separately (see e.g. Schultz 2006; Montague and King-Casas 2007;
+10   The Influence of Costs, Beneﬁts and Their Interaction …                         169
+
+Seymour et al. 2007), and how they are integrated during goal-directed behaviour is
+relatively unexplored (Phillips et al. 2007; Walton et al. 2007). Goal-directed
+behaviour engenders conflict when trading the prospect of an appetitive gain against
+an equal prospect of an aversive cost. This conflict is represented empirically by the
+dynamic interaction of costs and beneﬁts in the brain, a concept that Multi-Attribute
+Utility Theory (MAUT) describes through the use of an interaction term. This point
+received empirical support in the pattern of activation of the ventral striatum and the
+subgenual cingulated gyrus in the brain. Talmi et al. (2009) reported a positive
+correlation between BOLD signal and reward when participants are offered money
+(a beneﬁt) to accept mild electric stimulations (low-cost condition); the correlation
+was attenuated when the electric stimulation was painful (high-cost condition)
+(see also Talmi and Pine 2012). This decreasing correlation is indicative of a
+nonlinear relation between costs and beneﬁts.
+    The remainder of this chapter will proceed as follows. The next section reviews
+the representation of costs and beneﬁts in economic modelling, with a focus on
+utility theory, and describes how costs and beneﬁts interact in the ﬁnal determi-
+nation of utility. The analysis focuses on decisions between outcomes with a limited
+number of attributes (one cost and one beneﬁt) in a single context. The reason for
+this rather narrow focus is that the integration of many attributes into a single utility
+may exceed cognitive bounds: evidence (Vlaev et al. 2011) suggests that in com-
+plex multi-attribute choices consumers may not be able to determine the overall
+utility, and the simple model described in this section might not hold. The model
+presented here will, therefore, be more valid when only two characteristics are used.
+Section 10.3 describes the same interaction between costs and beneﬁts in a neu-
+roscientiﬁc model of decision-making. The microeconomic implications of the
+model described in Sect. 10.3 are discussed in Sect. 10.4 to extend current
+microeconometric models of choice, examining its influence on estimable param-
+eters of consumer choice through a simple simulation exercise. Finally, Sect. 10.5
+concludes by summarising the key issues emerging from the chapter.
+
+
+
+10.2     The Economic Perspective of Cost and Beneﬁts
+
+Economic models of choice and one-person decision problems are an important part
+of economic theory. According to the Hicksian model of utility maximisation
+(Hicks 1939), individual consumers value goods for the utility they derive upon
+consumption. For instance, a consumer derives consumption utility from good i of
+characteristic Xi in the form Ui ¼ f ðXi Þ. More precisely, the total value of a good
+corresponds to the sum (in utility terms) of the values assigned to the quantity of
+each attribute the good provides (Lancaster 1966). Speciﬁcally, the consumer
+compares two or more options i (where i = 1, 2,…, I) that differ in their cost Ci and
+beneﬁts Bi in terms of their consumption utility Ui ¼ f ðCi ; Bi Þ, where the matrix
+½Ci ; Bi  corresponds to Xi . Given income y and price p, the consumer then chooses
+by solving the utility maximisation problem.
+170                                                                 L. Panzone and D. Talmi
+
+
+                            max Ui ¼ UðCi ; Bi Þ s:t: pi  yj                       ð10:1Þ
+                             C;B
+
+
+    The marginal utility of costs and beneﬁts is expected to be negative and positive,
+respectively.
+    This general economic model of utility maximisation assumes that consumers
+determine the value of a good in three steps. First, they gather information on each
+attribute constituting the good with certainty, e.g. what is the environmental impact
+of refrigerators rated A+ over those rated A. Second, they ‘convert’ this information
+into a measure of utility, e.g. assuming goods do not differ in any other dimension,
+they determine the utility derived from the lower carbon footprint associated to
+A+ refrigerators and the net present value of prospective savings, and the disutility
+of the price premium required by an A+-rated refrigerator. Third, they sum the
+utility of each attribute to determine the total value of each option. The choice then
+needs to ﬁt within a budget constraint and requires the trade-off between costs and
+             . can be observed through the Marginal Rate of Substitution (MRS),
+beneﬁts, which
+MRS ¼ @U
+      @Bi
+         i   @Ui
+             @Ci ,   a measure of how much utility from one unit of beneﬁt is needed
+to compensate the utility of one unit of cost.
+    The general utility function of Eq. (10.1) can take different functional forms.
+Psychological and neuroeconomic models of internal valuation generally base their
+analysis of decision-making on a von Neumann–Morgenstern utility function (von
+Neumann and Morgenstern 1947), which models utility under risk. This function,
+known as expected utility function, assumes that rational consumers estimate the
+utility of costs and beneﬁts perfectly, with certain knowledge of the probability of
+occurrence of an outcome. In this model, the subjective value U of an action
+corresponds to the sum of the utility (u) of each outcome, evaluated separately,
+multiplied by the corresponding probability π. The value of a mixed outcome based
+on one beneﬁcial (B) and one costly (C) attribute corresponds to
+
+                        U ¼ UðCi ; Bi Þ ¼ pCi  uðCi Þ þ pBi  uðBi Þ               ð10:2Þ
+
+    A positive U resulting from Eq. (10.2) favours a decision to act, and in a choice
+set the alternative with the greatest U is always preferred.
+    In Eq. (10.2), when costs and beneﬁts are exclusive of each other pCi þ pBi ¼ 1.
+More generally, when costs and beneﬁts are not the only two possible outcomes that
+exists but rather two characteristics of only one outcome in the space pCi þ pBi can
+differ from 1. For instance, total probability is below 100 % if an A+ refrigerator
+costs an extra £100 with pCi = 0.99 and the subjective belief of an environmental
+improvement is pBi = 0.001. Likewise, if a consumer believes that the refrigerator
+certainly helps the environment (pBi = 1) and is certainly expensive (pCi = 1), total
+probability is above 100 %. Similarly, optimistic consumers might overestimate the
+probability of a gain much more than they underestimate the complementary
+probability, and pessimistic consumers might do the same for losses.
+10   The Influence of Costs, Beneﬁts and Their Interaction …                          171
+
+   Expected utility theory (EUT), described by Eq. (10.2), is a restrictive model for
+decision-making under uncertainty because it assumes an objective probability π.
+Prospect theory (PT) extended this utility function by ﬁtting a subjective probability
+function that ﬁts empirical data better than EUT (Kahneman and Tversky 1979;
+Tversky and Kahneman 1992). In particular, PT indicates that accessibility (the way
+individuals perceive signals), reference-dependence (the reference point used to
+evaluate a signal) and framing (the way the signal is presented) are crucial deter-
+minant of behaviour (Kahneman 2003). Consumers then make decisions based on
+expected subjective probability rather than objective one, as
+
+                          U ¼ xðpCi Þ  uðCi Þ þ xðpBi Þ  uðBi Þ                  ð10:3Þ
+
+where ω are subjective decision weights. Empirically, this utility function is con-
+cave in the gain domain and convex in the loss domain with a steeper slope in the
+latter (i.e. the disutility of a loss is greater than the utility of a gain), a phenomenon
+known as loss aversion (Kahneman and Tversky 1979).
+    Equations (10.2) and (10.3) do not deﬁne a functional form for the utility of
+costs, uðCi Þ, and beneﬁts, uðBi Þ, but impose a linear integration of these functions
+into a single value. This restriction complies with the independence assumption:
+the utility derived from the consumption of a good is independent from the utility
+derived from other goods. This assumption might hold when the consumption of
+two goods is self-exclusive, e.g. the consumer has budget to purchase either a
+refrigerator or a washing machine. Its existence is more controversial when con-
+sidering product characteristics (e.g. energy-efﬁciency class against a price pre-
+mium), or costs and beneﬁts of the same action. In fact, consumers pursue a certain
+number of consumption goals that are satisﬁed through product characteristics that
+are rarely self-exclusive (see e.g. Khan et al. 2004; Dhar and Simonson 1999). For
+instance, the goal of environmental friendliness in a refrigerator requires both a
+positive utility for high efﬁciency (a beneﬁt) and positive willingness to pay for it (a
+cost), making these two characteristics dependent on each other.
+    Importantly, the independence assumption applied to Eq. (10.3) implicitly
+assumes that costs reduce (and beneﬁts increase) the subjective value derived from
+beneﬁts (costs) by a constant amount, regardless of how valuable those beneﬁts
+(costs) are. However, an increase in costs can increase or decrease not only the
+utility expected by the consumer, but also the utility derived from a unit increase in
+beneﬁts; similarly, an increase in beneﬁts can modulate the utility derived from a
+unit increase in costs. For instance, Kivets (Kivetz 2003) observes that the impo-
+sition of an effort requirement (the cost) for a loyalty reward scheme influences the
+expected utility of the reward (the beneﬁt): small effort leads to expectations of an
+immediate, certain, but small reward; considerable effort instead causes expecta-
+tions of a large, even if uncertain, reward. While in a linear model an increase in
+costs can lead to higher expected beneﬁts, Kivets observes that an increasing effort
+requirement influences the disutility derived from effort itself as well as the
+expected marginal utility of the reward, a relation suggesting that these two vari-
+ables interact in a utility function. This “synergic effect” implies that a change in
+172                                                                    L. Panzone and D. Talmi
+
+costs and beneﬁts does not only impact total utility directly (as intercept shifters),
+but the ﬁnal joint effect is higher or lower than the sum of both effects, depending
+on the existing relation between them.
+    Multi-attribute Utility Theory (MAUT, see e.g. Keeney and Raiffa 1993) pro-
+vides some theoretical background for the representation of the interaction between
+costs and beneﬁts in a utility function. MAUT maintains that individual charac-
+teristics might have a synergic influence on utility. As a simple example, a con-
+sumer might have a negative utility from the price of a piece of cake, and a low but
+positive utility for its size; nonetheless, utility for size can become very high when
+the dessert is particularly expensive—an interaction between size and price.
+Following MAUT, the utility function in (10.3) can then be then generalised as
+
+         U ¼ xðpCi Þ  uðCi Þ þ xðpBi Þ  uðBi Þ þ xðpiCB Þ  uðCi Þ  uðBi Þ           ð10:4Þ
+
+where xðpiCB Þ is the subjective probability that costs and beneﬁts interact. The
+subjective value U as a function of the utility u of costs (the same applies to
+beneﬁts) is portrayed in Fig. 10.1, under the assumption of linear functions u:
+unlike the additive model, an interactive model allows for a shift in both intercept
+and slope of total utility.
+   The key difference between Eqs. (10.3) and (10.4) is the ability, unique to
+interactive models, to allow the sensitivity of beneﬁts to vary as a function of the
+costs associated with the choice, and vice versa (Talmi and Pine 2012). In partic-
+ular, the marginal utility of costs and beneﬁts from Eq. (10.4) correspond to1
+
+                   @U              @uðCi Þ                        @uðCi Þ
+                       ¼ xðpCi Þ          þ xðpiCB Þ  uðBi Þ                        ð10:5aÞ
+                   @Ci              @Ci                            @Ci
+
+and
+
+                   @U              @uðBi Þ                        @uðBi Þ
+                       ¼ xðpBi Þ          þ xðpiCB Þ  uðCi Þ                        ð10:5bÞ
+                   @Bi              @Bi                            @Bi
+
+   Returning to the choice of an energy-efﬁcient refrigerator, assume two otherwise
+identical refrigerators, differing only in their efﬁciency rating (A and A+) and price
+(£100 higher for the A+ option). According to additive models (Eq. 10.3), the
+higher price reduces the likelihood of purchasing the efﬁcient option regardless of
+the value the decision-maker assigns to the environmental characteristic. By con-
+trast, the interactive model (Eq. 10.4) accounts for the dependence between the
+value consumers may assign to price premium and efﬁciency rating. This
+
+
+
+1
+ Equations (10.5a) and (10.5b) could be further generalised to account for loss aversion, which
+affects the derivative of costs, so that the change in cost influences beneﬁts in a different way
+compared to how the change in beneﬁts influences costs. However, this point would complicate
+the argument presented in this article, and it is left for future research.
+10   The Influence of Costs, Beneﬁts and Their Interaction …                        173
+
+
+       U
+
+                                                                 Additive model
+
+
+                                                                Interactive model
+
+
+
+
+                                                                    u(C)
+Fig. 10.1 Value according to additive and interactive models
+
+
+generalisation allows, for instance, for the possibility of a lower disutility from the
+cost for those consumers who deem energy conservation to be very valuable.
+   An important feature of an interactive model is the possibility to test whether the
+assumptions of attribute independence is valid by comparing the additional variance
+explained by the interactive model and the additive model. In fact, because the
+interaction term is nested within the additive model, its contribution can be tested
+using a Student’s t-test or a Fisher’s F test, or comparable statistics for maximum
+likelihood and Bayesian models such as likelihood ratio test, or Akaike or Bayesian
+Information Criteria. Through a model-comparison exercise, earlier research sug-
+gested that two-way interactions (the interaction of pairs of attribute) in linear
+regressions account for 5–15 % of the overall variance of the model, while other
+interactions (the interaction of three or more attributes) are negligible in their
+predictive power (see Louviere et al. 2000). However, to our knowledge there is no
+measure of the statistical importance of interaction terms on models of choice,
+implying the absence of estimates on the relevance of the interaction between costs
+and beneﬁts on utility.
+   As described in the next section, recent behavioural and neuroimaging ﬁndings
+support the challenge to the independence assumption by corroborating the exis-
+tence of an interaction term. In fact, the presence of mixed outcomes is processed in
+the brain differently from the simple presence of costs or beneﬁts alone, a point that
+calls for a reconsideration of the simple additive model of costs and beneﬁts. The
+next section reviews the existing evidence indicating that interaction terms increase
+the predictive accuracy of a model and reflect the cognitive process of valuation.
+174                                                              L. Panzone and D. Talmi
+
+
+10.3    A Neuroeconomic Model of Choice
+        with Costs and Beneﬁts
+
+There is a general agreement on the potential of neuroscience to explain the
+mechanisms that underlie economic phenomena (Fehr and Rangel 2011; Camerer
+et al. 2004, 2005). Current economic and econometric models of choice and
+behaviour simplify the processes underlying economic valuation tasks.
+Neuroscience can utilise this knowledge in experimental design and analysis, as
+well as provide converging evidence for these models by rooting behaviour in
+biology. Another role for neuroscientiﬁc data could be to challenge and improve
+economic models by noting discrepancy between these models and experimental
+observations. However, this synergy is generally rare, with the interaction term in
+Eq. (10.4) being a case in point. On the other hand, economic models are rarely
+challenged on the basis of behavioural or neural evidence, which supports inter-
+active over additive models. This section presents a review of some of this evi-
+dence, and proposes how this area of research might contribute to economic theory
+and extend current models of behaviour. On the other hand, neurobiological
+research of cost–beneﬁt analysis often ignores value integration functions available
+in utility theory, an issue reviewed by Talmi and Pine (2012).
+    Neuroeconomics supports the usual assumption that consumer choice is the
+result of a process of valuation in the brain. Therefore, understanding value rep-
+resentation can help understand consumer behaviour. This area of research showed
+major recent advances (Dayan, Dayan 2012), identifying a key role for the striatum
+and the ventromedial prefrontal cortex (Levy and Glimcher 2012). Earlier work
+explored the process of valuation in animals (e.g. Premack 2007). This research
+identiﬁed a network of brain regions involved in the decision to accept a cost,
+usually physical effort, in order to attain a beneﬁt, usually food (e.g. Floresco et al.
+2008). Animals’ decision in this situation relies on the dopamine system and the
+nucleus accumbens (NAc) as well as the anterior cingulate cortex (ACC) and the
+amygdala (Phillips et al. 2007; Salamone et al. 2007; Floresco et al. 2008). Animal
+models do not provide strong support for the notion of a single representation of
+utility in the brain (Roesch and Bryden 2011), and controversy remains on whether
+costs and beneﬁts share representations (Fehr and Rangel 2011; Rilling and Sanfey
+Rilling and Sanfey 2011).
+    Levy and Glimcher (2012) identify one possible mechanism for the
+decision-making process in the human brain, portrayed in Fig. 10.2. Their model is
+based on the controversial yet common assumption in neuroscience (see e.g. Vlaev
+et al. 2011) that the ﬁnal neural representation of value uses a single ‘neural
+currency’. According to this model, in a ﬁrst step information from all cortical and
+all subcortical structures is processed and aggregated into a single value. This ﬁrst
+step identiﬁes the expected utility of external stimuli using incoming sensory
+information and internal signals (e.g. satiety). In a second step, this aggregate utility
+estimate is combined with the same initial sensory and internal stimuli to make a
+ﬁnal choice through a motor control circuitry. This ﬁnal choice reveals the good
+10   The Influence of Costs, Beneﬁts and Their Interaction …                      175
+
+Fig. 10.2 Neuroscientiﬁc
+model of choice. Source:
+Levy and Glimcher (2012).
+Note: 1 vmPFC; 2 OFC; 3
+DLPFC; 4 insula; 5 primary
+motor cortex (M1);
+6 posterior parietal cortex; 7
+frontal eye ﬁelds; 8 visual
+cortex; 9 amygdala; 10
+striatum
+
+
+
+
+with the highest expected utility. The second step can be more or less optimal: for
+instance, the food chosen could be determined by product attributes and level of
+hunger, but the colour of the package and the level of hunger may also have a direct
+influence on the ﬁnal choice.
+    These models identify a general process of choice and value integration, but do
+not illuminate how mixed prospects are evaluated. The ﬁrst published empirical
+work in cognitive neuroscience examining the assumption of a simple additive
+utility of costs and beneﬁts is Talmi et al. (2009). They tested non-additive valu-
+ation by comparing the ﬁt of two models, one additive (as in Eq. 10.3) and one
+non-additive (as in Eq. 10.4), to the same set of behavioural and neural data. In the
+experiment, participants were offered choices that incorporated simultaneous
+rewarding and punishing consequences, namely monetary gain (a beneﬁt) and
+physical pain (a cost) (Fig. 10.3). The paradigm required participants to ‘accept’ or
+‘reject’ a series of offers comprising of mixtures of costs and beneﬁts; outcomes
+were delivered at a speciﬁed percentage of times, and levels of monetary reward
+were manipulated parametrically. The experimental design enabled testing whether
+pain attenuates the neural representation of reward, providing evidence for a sig-
+niﬁcant interaction between costs and beneﬁts. However, the study did not explore
+the impact of reward on the neural representation of pain.
+    The effect of the interaction term on choice can be observed in the drift function
+portrayed in Fig. 10.4 from Talmi et al. (2009). This ﬁgure represents the path
+leading to a choice for an individual participant. Circles represent empirical data on
+176                                                             L. Panzone and D. Talmi
+
+Fig. 10.3 Experimental task
+requiring the trade-off
+between pain and money.
+Source Talmi et al. (2009)
+
+
+
+
+Fig. 10.4 Empirical and
+modelled choice behaviour
+for a single participant.
+Source Talmi et al. (2009)
+
+
+
+
+choice frequency (a function of money offered and pain), while line graphs rep-
+resent modelled choices for pain in the additive (left) and interactive (right) models.
+Black refers to trials where the stimulation was painful, and gray refers to trials
+where the stimulation was mild. The interactive model allows for a change in the
+slope of the sigmoid function caused by pain, while the additive effect of pain is
+only a rightward horizontal shift. Figure 10.4 clearly shows that the additive model
+was a better predictor of choice for this individual, a result supported by statistical
+tests of model ﬁt across the whole sample (see Talmi et al. 2009, for more detail and
+interesting individual differences).
+10   The Influence of Costs, Beneﬁts and Their Interaction …                       177
+
+   Talmi et al. (2009) supported the interactive model by demonstrating that the
+interaction of costs and beneﬁts engaged a brain system implicated in value learning
+(dopaminergic target structures), namely the ventral striatum, which is thought to be
+involved in reinforcement learning when processing appetitive (O’Doherty et al.
+2004; Tobler et al. 2007) as well as aversive (Iordanova et al. 2006; Hoebel et al.
+2007) outcomes. It also engaged the subgenual ACC, which processes optimal
+decisions as well as appetitive and aversive choice (Walton et al. 2007), and works
+with the ventral striatum in the valuation of costs and beneﬁts in rats (e.g. Salamone
+and Correa 2002; Walton et al. 2003; Schweimer et al. 2005).
+   Some of Talmi et al.’s (2009) results have been independently replicated by Park
+et al. (2011). Both studies ﬁnd that the interactive model is superior to an additive
+model in modelling observed behaviour. However, while Talmi et al. (2009) only
+modelled a linear utility function u, Park et al. (2011) compared linear and non-
+linear utility functions, showing that the interaction term contributes signiﬁcantly to
+explaining behaviour only when utility is modelled linearly. Nevertheless, their
+neurobiological data also ﬁt the interactive model better than the additive model
+regardless of the utility function used. Finally, Prevost et al. (2010) also provide
+supporting evidence for the behavioural and neural interaction between costs and
+beneﬁts in a study where participants were invited to exert physical effort in order to
+gain erotic pleasure. The functional form of the interaction term in Prevost et al.
+(2010) differed from Talmi et al. (2009) and Park et al. (2011), as did the neural
+substrate serving this interaction, a discrepancy that deserves further research.
+Strikingly, only a handful of studies on cost–beneﬁt analysis in cognitive neuro-
+science engaged in model comparison, but those who tested the interaction of costs
+and beneﬁts found clear supporting evidence.
+   The paradigms in the three neuroeconomic studies reviewed in this section were
+somehow limited: they focused on a single type of cost (pain or effort); and the
+model-comparison exercise used a limited number of functional forms for the utility
+function u(). Furthermore, results are based on experimental evidence, hence
+limited by the absence of real-world equivalents. Nonetheless, these works open
+future research on the interaction between costs and beneﬁts. For instance, research
+can expose participants to a differentiated series of consequential real-world deci-
+sions that include both primary reinforcers (either positive, e.g. food; or negative,
+e.g. pain) and secondary reinforcers (e.g. money), which recruit different brain
+systems (Dreher 2012), to test for possible differences in their interaction.
+Regrettably, neuroeconomic experiments require expensive data collection, inevi-
+tably slowing the pace of current research. Furthermore, the typical use of time
+delay between the decision and outcome delivery (Kurniawan et al. 2010; Park et al.
+2011), employed to separate the neural signal of valuation from the neural
+processing of outcomes, alters the value of prospects (Loewenstein 1987), a limit to
+the practical implementation of Eq. (10.4) that should be addressed in future
+research.
+178                                                                          L. Panzone and D. Talmi
+
+
+10.4     Cost, Beneﬁts, and Their Interaction
+         in Microeconomic Models of Consumer Behaviour
+
+The previous section discussed its influence on behavioural and neurobiological
+data from a neuroscientiﬁc perspective. This section discusses the microecono-
+metric side of mixed prospects and how the interaction between costs and beneﬁts
+can best be incorporated in econometric analysis, with a focus on models of utility
+such as choice models. In particular, the objective is to understand the implications
+of neuroscientiﬁc research for econometric models of consumer behaviour, which
+describe how consumers make decisions by trading-off attributes. This extension of
+modelling can be of interest to several areas of research concerned on consumption,
+such as for instance environmental public policy and sustainable consumption,
+which is discussed in a separate box.
+    To understand the microeconomic problem, imagine a consumer j of demo-
+graphic Dj considering several options where each option i is characterised by
+monetary or non-monetary costs Ci and beneﬁts Bi. In a generic utility function as
+in Eq. (10.1), the utility derived by consumer j from option i corresponds to a
+deterministic (observable) component Vij, and a random (unobservable) component
+νij (see e.g. Burton et al. 2001), as
+
+                      Uij ðBi ; Ci ; Dj Þ ¼ Vij ðBi ; Ci Þ þ mij ðBi ; Ci ; Dj Þ             ð10:6Þ
+
+   Consumers trade-off between costs and beneﬁts (given personal preferences) and
+choose the option with the highest utility. In a two-option set, the probability of
+consumer j choosing option 1 is
+
+                               P½ðVj1 þ mj1 Þ [ P½ðVj2 þ mj2 Þ                            ð10:7aÞ
+
+which implies
+
+                              P½ðVj1  Vj2 Þ [ P½ðmj2  mj1 Þ                             ð10:7bÞ
+
+    Consumers then choose option 1 whenever the difference in deterministic utility
+is larger than the difference in random utility. The same result applies for larger
+choice sets.
+    Assuming random coefﬁcients (consistent with Eq. 10.7b), the utility function of
+a consumer can be modelled using a Random Parameter Logit model2 (RPL) (see
+Berry 1994). In the case of independence of costs and beneﬁts (as in Eq. 10.4),
+utility corresponds to
+
+
+
+2
+ The RPL is a general choice model used in applied econometrics. The utility function used to
+estimate demand parameters can be simpliﬁed on the basis of the assumption made by the
+investigator (e.g. nested logit, conditional logit, simple logit). See Berry (1994).
+10   The Influence of Costs, Beneﬁts and Their Interaction …                            179
+
+
+                               Uij ¼ a0;j  Cij þ a1;j  Bij þ eij                  ð10:8Þ
+
+where for each of the k coefﬁcients ak;j ¼ ak þ dk  Dj þ rk  ek;j , and eij and ek;j are
+residuals. Equation (10.8) assumes that the utility u() from Eq. (10.4) is linear for
+both costs and beneﬁts, but more general options can be also applied. In a binary
+decision (buy versus no-buy), utility can be derived as choice probability and
+reveals the point with the highest utility as3
+
+                               Uij ¼ 1      if   0\Uij \ þ 1
+                                                                                    ð10:9Þ
+                               Uij ¼ 0      if   1\Uij  0
+
+so that the probability terms xðÞ in Eq. (10.3) are captured in the coefﬁcients. To
+relax the assumption of independence of C and B, Eq. (10.8) can be extended to
+include an interaction term as in Eq. (10.4), to obtain the regression
+
+                     Uij ¼ a0;j  Cij þ a1;j  Bij þ a2;j  ðBij  Cij Þ þ eij     ð10:10Þ
+
+where ak;j ¼   ak þ dk  Dj þ rk  ek;j . Noticeably, interaction terms should always
+accompany main terms to avoid omitted variable bias, and the possible endogeneity
+of C or B is treated using usual econometric methods (see Ozer-Balli and Sorensen
+2010).
+    Interactions between independent variables are not infrequent in applied econo-
+metric models of utility (both choice models and contingent valuations). However,
+these models tend to treat costs as a single variable (price), while beneﬁts (quality)
+are disaggregated into a variety of beneﬁts. For instance, the quality of a refrigerator
+is not included as a single measure, but as a matrix of variables representing its
+product characteristics (e.g. energy-efﬁciency class, size, colour, brand). Thus, the
+interaction between product characteristics generally corresponds to reward-reward
+interactions and captures synergies between beneﬁts (e.g. the size of a refrigerator
+and its efﬁciency), and makes no reference to the literature presented in the previous
+section. However, more frequently the difﬁculty of implementing full factorial
+designs in experimental tasks justiﬁes the exclusion of interaction terms, particularly
+in light of their relatively low explanatory role observed in linear models (Dawes and
+Corrigan 1974; Louviere et al. 2000). However, it remains unclear what conse-
+quence their exclusion has on the explanatory power of models of choice.
+    Importantly, the inclusion of an interaction term allows for a changing marginal
+utility of costs and beneﬁts. Equation (10.8) assumes consumers have a constant
+                                                              @U             @U
+marginal utility from costs and beneﬁts equal to @Ciji ¼ a0;j and @Biji ¼ a1;j .
+A nonlinear functional form (e.g. logarithmic) for u() in Eq. (10.4) would give a
+marginal utility changing in its argument (i.e. a marginal utility of costs depending
+on costs), but with no impact on the independence assumption. In the interactive
+
+3
+ Contingent valuation methods allow the inclusion of a scale of probability in Eq. (10.9) to
+account for hypothetical bias (see Wang 1997).
+180                                                               L. Panzone and D. Talmi
+
+model of Eq. (10.10), the marginal utility of costs depends on the beneﬁts and that
+                                                           @U
+of beneﬁts depends on costs: these equal, respectively, @Ciji ¼ a0;j þ a2;j  Bi and
+@Uij
+@Bi¼ a1;j þ a2;j  Ci . This difference implies a different MRS: it is constant and
+                       a
+equal to MRSB;C ¼ a1;j   0;j
+                             in an additive model; while in an interactive model it cor-
+                             a þ a C
+responds to MRSB;C ¼ a1;j0;j þ a2;j2;j Bii . Importantly, while economic theory expects
+a0 \0 and a1 [ 0, the sign of the marginal utility and MRS in an interactive model
+depends also on a2 and on the level of costs and beneﬁts observed. Note that for
+purely monetary costs, the absolute value of the MRS measures the marginal
+willingness to pay for B.
+   Figure 10.5 explores the economic meaning of an interaction term. In the ﬁgure,
+δ refers to the marginal utility of the combination of costs and beneﬁts, and the sum
+of the δs in a diagonal equals the coefﬁcient a2 of Eq. (10.10). In particular, a
+negative interaction term indicates a movement along the δB–δC axis and a negative
+synergy between costs and beneﬁts: the marginal utility of a beneﬁt declines with
+increasing costs and vice versa. On the contrary, a positive interaction term cor-
+responds to a movement along the δA–δD axis and a positive synergy of costs and
+beneﬁts: the marginal utility of beneﬁts increases or decreases together with costs.
+Each individual component δ can be identiﬁed by an appropriate experimental
+design that separately assesses consumer response in each of the four conditions in
+Fig. 10.5 through, for instance, a choice experiment.
+   To understand the practical implications of these considerations, take a consumer
+who is contemplating the trade-off between energy-efﬁciency (beneﬁt) and the price
+premium (cost) associated with the label in the market for efﬁcient refrigerators.
+Coefﬁcients of costs and beneﬁts in both the additive and the interactive models
+(10.8) and (10.10) indicate a negative contribution of the price premium alone
+(a0;j \0) and a positive contribution of the energy-efﬁciency label alone (a1;j [ 0)
+(see Ward et al. 2011). The interaction term would indicate the relation between
+these attributes, which is possibly negative: individuals with high utility for energy
+efﬁciency would probably show a low sensitivity to the market premium required
+(δC); similarly, consumers with high utility from money (low-income households)
+would give low value to technology (δB).
+   Figures 10.6 and 10.7 show the difference in results using the parameters esti-
+mated for energy-efﬁcient refrigerators in Ward et al. (2011), i.e. α0 = −0.008
+
+
+Fig. 10.5 Possible
+combinations of an interaction
+                                                                   Benefits
+between costs and beneﬁts
+                                                                      High      Low
+
+                                                           High        δA         δB
+                                                   Costs
+
+
+
+
+                                                           Low         δC         δD
+10              The Influence of Costs, Beneﬁts and Their Interaction …                                 181
+
+
+     (a)
+
+                -0.0074
+                -0.0076
+                -0.0078
+                 -0.008
+   MU(Costs)
+
+
+
+
+                -0.0082
+                -0.0084
+                -0.0086
+                -0.0088
+                 -0.009
+                -0.0092
+                          0      0.1     0.2     0.3     0.4     0.5    0.6     0.7     0.8     0.9      1
+                                                               Benefits
+
+                                          MU(C) (Add)                 MU(C) (Int)
+
+     (b)
+
+                2.5
+
+                 2
+ MU(Benefits)
+
+
+
+
+                1.5
+
+                 1
+
+                0.5
+
+                 0
+                      0    100     200     300     400     500 600            700     800     900     1000
+                                                           Costs
+
+                                          MU(B) (Add)               MU(B) (int)
+
+Fig. 10.6 Comparison of marginal utility (MU) using additive and interactive models. a Costs.
+b Beneﬁts. Note Estimates based on α0 = −0.008, α1 = 2.146, and α2 = −0.001. Add additive
+model; Int interactive model
+182                                                                    L. Panzone and D. Talmi
+
+ (a)
+
+
+
+           0.00
+
+         -50.00
+   MRS
+
+
+
+
+         -100.00
+
+         -150.00
+
+         -200.00                                                                        0
+
+
+
+
+                                                                                             Benefits
+                                                                                       0.2
+         -250.00                                                                     0.4
+         -300.00                                                                   0.6
+                       0    100 200                                            0.8
+                                    300 400
+                                            500 600                       1
+                                                    700 800
+                                            Costs                 900 1000
+
+
+
+(b)
+
+
+
+
+            0
+
+           -50
+   MRS
+
+
+
+
+          -100
+
+          -150
+
+          -200                                                                       0
+                                                                                             Benefits
+
+
+
+                                                                                    0.2
+           -250                                                                   0.4
+           -300                                                                 0.6
+                   0       100 200                                           0.8
+                                   300 400
+                                           500 600                       1
+                                                   700 800
+                                            Costs                900 1000
+
+Fig. 10.7 Comparison of MRS for different values of costs and beneﬁts in additive and interactive
+models. a Additive model. b Interactive model. Note Estimates based on α0 = −0.008, α1 = 2.146,
+and α2 = −0.001
+
+
+(for price) and α1 = 2.146 (for the efﬁciency label). Ward et al. (2011) report no
+interaction term, so the simulation uses an arbitrary value α2 = −0.001. Intervals
+chosen for the axis account for the nature of the experimental task in Ward et al.
+(2011): they use a dummy variable for the label, going from zero to one; and they
+use a price going just above $1000. Figures 10.6a and 10.6b show that the additive
+10    The Influence of Costs, Beneﬁts and Their Interaction …                        183
+
+model imposes a constant marginal utility, while in an interactive model the mar-
+ginal utility declines as costs and beneﬁts increase. Similarly, Fig. 10.7 shows on a
+tri-dimensional space how the MRS changes for varying levels of price and label.
+Again, while this value is constant for an additive model (a flat surface), it varies for
+the interactive model. A change in the coefﬁcient α2 could give substantially dif-
+ferent ﬁgures from those presented here, but would not modify the essence of the
+argument.
+    Using an interaction term for costs and beneﬁts comes with two main difﬁculties
+in the empirical application. First, consumer models treat C as a single variable
+(price) and B as a matrix of product characteristics (a proxy for quality). An
+important reason for this practice is the need to observe the economic trade-off
+between goods and money, particularly with the objective of measuring willingness
+to pay through the MRS. However, consumers face a series of non-monetary losses
+alongside price, such as for example effort, which needs to be included in a matrix
+of costs C. This point applies for instance to the decision to purchase readily
+prepared vegetables against the natural product, which require different levels of
+effort and preparation time once price is considered. The vector C in this case
+includes as costly characteristics price as well as the effort required (e.g. in time
+terms) to prepare the vegetables for consumption. This distinction between costs
+and beneﬁts should be clearly outlined in modelling exercises, to provide a fruitful
+understanding of results from a behavioural perspective besides the pure econo-
+metric viewpoint.
+    A second limitation is the difﬁculty in the ex-ante classiﬁcation of product char-
+acteristics as costs or beneﬁts, which is not always straightforward in an empirical
+analysis of market behaviour. For instance, organic can be viewed as a beneﬁt for its
+impact on food quality and as a cost because of its possible implications on global
+food security. Similarly, energy-efﬁciency can be seen as a beneﬁt in terms of energy
+conservation, but can be seen as a cost whenever the change in standard requires an
+effortful change in behaviour (e.g. an energy-efﬁcient machine requiring
+low-temperature wash) or adaptation (e.g. the longer warm-up time of energy-
+efﬁcient lightbulbs). These differences can be rarely separated into two different
+coefﬁcients, causing difﬁculties in the identiﬁcation of the impact on consumers. This
+complication implies the deﬁnition of a correct interaction between costs and beneﬁts
+might not always be straightforward to deﬁne, and in some instances might require
+preliminary exploratory research, for instance through a qualitative analysis, to fully
+understand consumer perception of a speciﬁc characteristic.
+
+
+     The Interaction Term and Environmental Public Policy
+     As described in the main text of this chapter, the inclusion of a term to
+     account for the interaction for costs and beneﬁts can provide a more complete
+     representation of consumer behaviour. Research in behavioural science to
+     date has typically explored the trade-off between private goods, for instance
+     pain or effort versus money or pleasure (Park et al. 2011; Prevost et al. 2010;
+     Talmi et al. 2009). A rather unexplored area of research regards choices
+184                                                              L. Panzone and D. Talmi
+
+
+  requiring a trade-off between public and private goods, a concern to envi-
+  ronmental economists and policymakers. For instance, a consumer deciding
+  whether to recycle trades the environmental improvement (a public good)
+  against a loss of time (a private good). Public goods are an important feature
+  of consumption because the individual making a choice or behaviour does not
+  fully pay for, or beneﬁt from, the consequences of his negligence or
+  thoughtfulness, sharing them instead with the society. As an example, a ﬁrm
+  discharging toxic waste (a private good) in a river (a public good) causes an
+  environmental damage that primarily affects other individuals using the river
+  (e.g. ﬁshermen, swimmers, kayakers, etc.). Noticeably, shared recipients or
+  victims could be very distant in both space and time.
+      Environmental public policy aims to preserve the environment as a public
+  good. In particular, to change behaviour in a desirable direction, policies need
+  to increase individuals’ intrinsic motivation for the preservation of the public
+  good, changing their implicit attitudes (Beattie and Sale 2011) and intrinsic
+  values (Blankenship et al. 2012). To achieve its objective, public policy uses
+  speciﬁc instruments (e.g. a subsidy, a tax, a ban or a penalty) in order to increase
+  the individual beneﬁts from socially desirable actions, or increase the costs of
+  socially undesirable actions of ﬁrms and consumers (Gneezy et al. 2011).
+  However, these instruments are often designed without clear consideration of
+  the behavioural implications (Gneezy et al. 2011). For instance, earlier research
+  established that extrinsic rewards such as prizes decrease long-term intrinsic
+  motivation and effort; while intrinsic rewards such as personal satisfaction
+  increase long-term intrinsic motivation (Gneezy et al. 2011; Kaplan and
+  Oudeyer 2007). Similarly, there is generally no attention to the interaction
+  between costs and beneﬁts in the empirical evaluation of a policy instrument.
+      An understanding of the role of costs and beneﬁts in consumer utility is
+  crucial for a correct use of economic policy instruments to address environ-
+  mental consumption. In fact, cost–beneﬁt decisions lead to an internal conflict
+  because a person’s goal to achieve the beneﬁt may clash with the goal of
+  avoiding the cost (Locke et al. 1994), leading to high physiological arousal
+  (Talmi et al. 2009). Because policy instruments directly influence costs and
+  beneﬁts, the way consumers integrate them into a value will have conse-
+  quences to the consequent effectiveness of the policy. As an example, a carbon
+  tax on meat decreases the utility from its consumption by increasing the price
+  of purchase against a positive utility for the environmental beneﬁt. However,
+  the marginal utility of the effort in consumers with high preferences for the
+  environmental sustainability beneﬁt would be expected to increase with the
+  price. In other words, an environmentally sensitive consumer may react pos-
+  itively to the tax when this is targeting a good like meat with a high carbon
+  footprint, showing a positive interaction that is only captured through the term
+  a2;i in Eq. (10.10). The extent to which recent ﬁndings in neuroscience on
+  private goods can apply to environmental policy requires further research.
+10   The Influence of Costs, Beneﬁts and Their Interaction …                         185
+
+
+10.5     Conclusions
+
+A quote attributed to G.E.P. Box states that “All models are wrong, but some are
+useful” (a thought brought forward also in Box 1976). In fact, while the large
+amount of quantitative data available in the current information age stimulates the
+creative development of behavioural model of choice and decision-making, those
+do not always incorporate the underlying neurobiological mechanisms. This limi-
+tation detracts from the ability of such models to inform policy and research.
+Particularly, although neuroscience developed a good understanding of how the
+brain represents pleasure and pain separately, there is relatively little knowledge on
+how they are integrated into a ﬁnal utility function, and how they lead to decisions
+and choices. While the prevalent strategy in the presence of mixed outcomes is to
+model the impact of costs and beneﬁts independently, cognitive neuroscience
+indicates that costs and beneﬁts interact. This chapter shows that the potential gain
+from this area of research to decision-making science is a transformation of the way
+cost–beneﬁt analysis research is conducted in humans and animals, particularly
+integrating interdisciplinary knowledge from economics and cognitive
+neuroscience.
+    The valuation of mixed prospects is of great interest to cognitive neuroscientists,
+a point made evident in a large body of work on this topic. Despite the potential
+synergy of economics and neuroscience in the development of neuroeconomics
+(Camerer et al. 2004, 2005), neuroscience has seen the greater influence in the ﬁeld,
+while economics has so far struggled to incorporate the recent developments on
+how the brain makes decisions into appropriate modelling. Applied economic
+research often assumes additive integration of costs and beneﬁts out of conve-
+nience, without questioning the validity of this assumption. Instead, economics
+could beneﬁt from the integration of experimental psychological ﬁndings into
+economic models of human decision-making. The discussion presented in this
+chapter provides an overview of the beneﬁts from incorporating interaction terms
+through simulated data. Applying this model can be done in a straightforward
+manner through the collection of primary data or through the observation of market
+behaviour, a task left for future research.
+    More generally, future research should aim at better understanding of the
+functional form of utility, exploring and improving the validity and robustness of
+existing models. In particular, more attention should be given to the potential
+interactions between costs and beneﬁts, and to the influence of perceived risk
+(outcome probability), as well as to delay (time between decision and outcome) on
+costs, beneﬁts and their interaction. Neuroscientiﬁc research should aim at gener-
+alising the current Von Neumann–Morgensten type of utility function while sup-
+porting functional needs that comply with economic theory, rooting economic
+behaviour in biology. We hope that this chapter will prove useful by providing an
+understanding the status quo of current research, and outlining areas of research that
+require further exploration. In fact, the overall objective of this chapter is to enhance
+the understanding of economics, neuroscience, as well as their interaction.
+186                                                                       L. Panzone and D. Talmi
+
+Acknowledgments We are grateful to Matthieu Arnoult, Ariane Kehlbacher, Katarzyna Werner
+for their useful comments on earlier version of this text.
+
+
+
+
+References
+
+Beattie G, Sale L (2011) Shopping to save the planet? Implicit rather than explicit attitudes predict
+    low carbon footprint consumer choice. Int J Environ Cult Econ Soc Sustain 7(4):211–232
+Berry ST (1994) Estimating discrete-choice models of product differentiation. Rand J Econ 25
+    (2):242–262
+Blankenship KL, Wegener DT, Murray RA (2012) Circumventing resistance: using values to
+    indirectly change attitudes. J Pers Soc Psychol 103(4):606–621
+Box GEP (1976) Science and statistics. J Am Stat Assoc 71(356):791–799
+Burton M, Rigby D, Young T, James S (2001) Consumer attitudes to genetically modiﬁed
+    organisms in food in the UK. Eur Rev Agric Econ 28(4):479–498
+Camerer CF, Loewenstein G, Prelec D (2004) Neuroeconomics: why economics needs brains.
+    Scand J Econ 106(3):555–579
+Camerer C, Loewenstein G, Prelec Drazen (2005) Neuroeconomics: how neuroscience can inform
+    economics. J Econ Lit 43(1):9–64
+Camerer C, Cohen J, Fehr E, Glimcher P, Laibson D (forthcoming). Neuroeconomics. In: Kagel J,
+    Roth A (eds) Handbook of experimental economics. Princeton University Press, USA
+Dawes RM, Corrigan B (1974) Linear models in decision making. Psychol Bull 81(2):95–106
+Dayan P (2012) How to set the switches on this thing. Curr Opin Neurobiol
+Dhar R, Simonson I (1999) Making complementary choices in consumption episodes: highlighting
+    versus balancing. J Mark Res 36(1):29–44
+Dreher JC (2012) Neural coding of computational factors affecting decision making. Prog Brain
+    Res 202:289–320
+Fehr E, Rangel A (2011) Neuroeconomic foundations of economic choice—recent advances.
+    J Econ Perspect 25(4):3–30
+Floresco SB, Onge JRS, Ghods-Shariﬁ S, Winstanley CA (2008) Cortico-limbic-striatal circuits
+    subserving different forms of cost-beneﬁt decision making. Cogn Affect Behav Neurosci
+    8:375–389
+Gneezy U, Meier S, Rey-Biel P (2011) When and why incentives (don’t) work to modify behavior.
+    J Econ Perspect 25(4):191–210
+Hicks JR (1939) The foundations of welfare economics. Econ J 49(196):696–712
+Hoebel BG, Avena NM, Rada P (2007) Accumbens dopamine-acetylcholine balance in approach
+    and avoidance. Curr Opin Pharmacol 7:617–627
+Iordanova MD, Westbrook RF, Killcross AS (2006) Dopamine activity in the nucleus accumbens
+    modulates blocking in fear conditioning. Eur J Neurosci 24:3265–3270
+Kahneman D (2003) Maps of bounded rationality: psychology for behavioral economics. Am
+    Econ Rev 93(5):1449–1475
+Kahneman D, Tversky A (1979) Prospect theory: an analysis of decision under risk. Econometrica
+    47(2):263–292
+Kahneman D, Wakker PP, Sarin R (1997) Back to Bentham?—explorations of experienced utility.
+    Quart J Econ 112:375–405
+Kaplan F, Oudeyer P-Y (2007) In search of the neural circuits of intrinsic motivation. Front
+    Neurosci 1(1):225–236
+Keeney RL, Raiffa H (1993). Decisions with multiple objectives: preferences and value tradeoffs.
+    Cambridge University Press
+Khan U, Dhar R, Wertenbroch K (2004) A behavioral decision theory perspective on hedonic and
+    utilitarian choice. In: Ratneshwar S, Mick DG (eds) Inside consumption: consumer motives,
+    goals, and desires. Routledge, Abingdon
+10   The Influence of Costs, Beneﬁts and Their Interaction …                                    187
+
+Kivetz R (2003) The effects of effort and intrinsic motivation on risky choice. Mark Sci 22:
+    477–502
+Kurniawan IT, Seymour B, Vlaev I, Trommershäuser J, Dolan RJ, Chater Nick (2010) Pain
+    relativity in motor control. Psychol Sci 21(6):840–847
+Lancaster KJ (1966) A new approach to consumer theory. J Polit Econ 74(2):132–157
+Levy DJ, Glimcher PW (2012) The root of all value: a neural common currency for choice. Curr
+    Opin Neurobiol 22:1–12
+Locke EA, Smith KG, Erez M, Chah D-O, Schaffer A (1994) The effects of intraindividual goal
+    conflict on performance. J Manag 20(1):67–91
+Loewenstein G (1987) Anticipation and the valuation of delayed consumption. Econ J 97
+    (387):666–684
+Louie K, Glimcher PW (2012) Efﬁcient coding and the neural representation of value. Ann NY
+    Acad Sci 1251(1):13–32
+Louviere JJ, Hensher DA, Swait JD (2000) Stated choice methods: analysis and application.
+    Cambridge University Press, Cambridge
+Montague PR, King-Casas B (2007) Efﬁcient statistics, common currencies and the problem of
+    reward-harvesting. Trends Cogn Sci 11(12):514–519
+O’Doherty J, Dayan P, Schultz J, Deichmann R, Friston K, Dolan RJ (2004) Dissociable roles of
+    ventral and dorsal striatum in instrumental conditioning. Science 304:452–454
+Ozer-Balli H, Sorensen BE (2010) Interaction effects in econometrics. CEPR discussion paper no.
+    DP7929, available online at SSRN http://papers.ssrn.com/sol3/papers.cfm?abstract_id=
+    1641004
+Park SQ, Kahnt T, Rieskamp J, Heekeren HR (2011) Neurobiology of value integration: when
+    value impacts valuation. J Neurosci 31:9307–9314
+Phillips PE, Walton ME, Jhou TC (2007) Calculating utility: preclinical evidence for cost-beneﬁt
+    analysis by mesolimbic dopamine. Psychopharmacology 191:483–495
+Premack D (2007) Human and animal cognition: continuity and discontinuity. PNAS 104
+    (35):13861–13867
+Prevost C, Pessiglione M, Metereau E, Clery-Melin ML, Dreher JC (2010) Separate valuation
+    subsystems for delay and effort decision costs. J Neurosci 30:14080–14090
+Rilling JK, Sanfey AG (2011) The neuroscience of social decision-making. Annu Rev Psychol
+    62:23–48
+Roesch MR, Bryden DW (2011) Impact of size and delay on neural activity in the rat limbic
+    corticostriatal system. Front Neurosci 5(130):1–13
+Salamone JD, Correa M (2002) Motivational views of reinforcement: implications for
+    understanding the behavioral functions of nucleus accumbens dopamine. Behav Brain Res
+    137(1):3–25
+Salamone JD, Correa M, Farrar A, Mingote SM (2007) Effort-related functions of nucleus
+    accumbens dopamine and associated forebrain circuits. Psychopharmacology 191(3):461–482
+Schultz W (2000) Multiple reward signals in the brain. Nat Rev Neurosci 1(3):199–208
+Schultz W (2006) Behavioral theories and the neurophysiology of reward. Annu Rev Psychol
+    57:87–115
+Schweimer J, Saft S, Hauber W (2005) Involvement of catecholamine neurotransmission in the rat
+    anterior cingulate in effort-related decision making. Behav Neurosci 119(6):1687–1692
+Seymour B, Daw N, Dayan P, Singer T, Dolan R (2007) Differential encoding of losses and gains
+    in the human striatum. J Neurosci 27(18):4826–4831
+Steg L, Vlek C (2009) Encouraging pro-environmental behaviour: an integrative review and
+    research agenda. J Environ Psychol 29(3):309–317
+Talmi D, Pine A (2012) How costs influence decision values for mixed outcomes. Front Neurosci
+    6(146):1–21. doi:10.3389/fnins.2012.00146, http://journal.frontiersin.org/article/10.3389/fnins.
+    2012.00146
+Talmi D, Dayan P, Kiebel SJ, Frith CD, Dolan RJ (2009) How humans integrate the prospects of
+    pain and reward during choice. J Neurosci 29(46):14617–14626
+188                                                                     L. Panzone and D. Talmi
+
+Tobler PN, O’Doherty JP, Dolan RJ, Schultz W (2007) Reward value coding distinct from risk
+   attitude-related uncertainty coding in human reward systems. J Neurophysiol 97:1621–1632
+Tversky A, Kahneman D (1992) Advances in prospect theory: cumulative representation of
+   uncertainty. J Risk Uncertainty 5:297–323
+Vlaev I, Chater N, Stewart N, Brown GD (2011) Does the brain calculate value? Trends Cogn Sci
+   15(11):546–554
+Von Neumann J, Morgenstern O (1947) Theory of games and economic behavior. Princeton
+   University Press, Princeton
+Walton ME, Bannerman DM, Alterescu K, Rushworth MFS (2003) Functional specialization
+   within medial frontal cortex of the anterior cingulate for evaluating effort-related decisions.
+   J Neurosci 23:6475–6479
+Walton ME, Rudebeck PH, Bannerman DM, Rushworth MFS (2007) Calculating the cost of
+   acting in frontal cortex. Ann NY Acad Sci 1104(1):340–356
+Wang H (1997) Treatment of ‘don’t-know’ responses in contingent valuation surveys: a random
+   valuation model. J Environ Econ Manag 32(2):219–232
+Ward DO, Clark CD, Jensen KL, Yen ST, Russell CS (2011) Factors influencing
+   willingness-to-pay for the ENERGY STAR® label. Energy Policy 39(3):1450–1458
+                           Part IV
+Decision Making in Social Contexts

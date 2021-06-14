@@ -1,0 +1,601 @@
+
+4
+Rivals
+This chapter and the next describe and evaluate prior deception theory.
+Six prior theories of deception detection are summarized in this chapter. These
+are Ekman’s original leakage theory, Ekman’s updated perspective, four-factor
+theory, Bella DePaulo’s self-presentation perspective, interpersonal deception
+theory, and Aldert Vrij’s cognitive load approach. Each of these theories is reviewed chronologically, showing how ideas have evolved over time. In the next
+chapter, each of these theories is evaluated in relation to the prior research
+described in chapters 2 and 3. Also in the next chapter, I offer the catchall-
+umbrella idea of cue theories as a way to show the commonalities in the logic
+behind many of the prominent deception theories and to show how theory has
+shaped research priorities and design. This chapter along with the next, I hope,
+will make clear the need for a new theory which I, not coincidentally, offer.
+Two additional deception theories, information manipulation theory (IMT)
+and its update, IMT2, are presented in chapter 8. IMT and IMT2 are companion theories rather than rivals and therefore are discussed elsewhere. As we
+will see in the next chapter, I do not consider DePaulo’s self-presented perspective either a cue theory or a rival. But-her self-presentation work marked an
+important point in the chronology of how deception theory has evolved over
+time. Thus coverage of self-presentation seemed essential for telling a complete story. Consequently, even though it is not a rival, it fit well within the
+narrative of this chapter.
+MAJOR THEORIES OF DECEPTION AND DECEPTION DETECTION
+Ekman, Friesen, and Leakage
+The first and perhaps the most influential theory of deception was originally
+described by Paul Ekman and Wallace Friesen in their 1969 article titled “Non-
+
+56
+
+CHAPTER FOUR
+
+verbal Leakage and Clues to Deception.”1 Ekman’s ideas and research have
+shaped deception research ever since. Most of the subsequent theories can be
+understood as extensions of, or variations on, the ideas of leakage and deception clues. The research designs used to examine deception-linked behaviors
+and deception detection accuracy were also profoundly influenced by E
+ kman
+and Friesen.2
+Ekman’s work has had the greatest impact outside academic research circles.
+The television drama Lie to Me3 offered a fictional portrayal of lie detection
+closely modeled on Ekman’s theory and research.4 Readers who travel by air
+in the United States have probably been screened by the TSA (Transportation Security Administration) using SPOT (Screening Passengers by Observation Technique). As you approach a screening checkpoint at the airport,
+you may see a TSA agent just standing off to the side watching people as they
+approach. They are practicing SPOT, and SPOT is based, at least in part, on
+Ekman’s theory.5
+According to the original Ekman and Friesen articulation, a key distinction is made between deception clues and leakage.6 Deception clues signal that
+deception is in progress but are not informative about the information being
+concealed. Leakage, in contrast, gives away the concealed information. The
+truth leaks out, so to speak.
+For example, imagine that a witness to a crime is being interviewed by the
+police. The witness falsely denies seeing anything. Because the witness is nervous about lying to the police, the witness might wring his or her hands. The
+nervous hand-wringing behavior is a deception clue, because it signals that
+the person is lying, but it is uninformative about what is being concealed. Alternatively, if the hands and arms are swaying back and forth unconsciously,
+it might mean that he or she saw the suspect run away. This is an example of
+leakage. The knowledge that the suspect was seen running away leaked out.
+Both leakage and deception clues may occur in both self-and other-deception.
+In the case of other-deception, the liar is aware of what he or she wants to conceal, and of the need not to give him or herself away. So, there will be both conscious attempts to appear honest while conveying false information and unconscious indications of deceit, because not all of our actions are completely
+controllable. In self-deception, people may unconsciously give the truth away,
+but they do not consciously convey false information.
+A key aspect of Ekman’s theory is that it focuses only on high-stakes lies and
+not on inconsequential or white lies. The lie must produce an emotional response in a liar to be signaled behaviorally, and this is expected only for lies
+
+RIVALS
+
+57
+
+of consequence. As we will see, the theoretical requirement of high stakes became a critical issue as research progressed.
+How lies are signaled is a function of the nonverbal sending capacity of a
+body part and how much feedback we get regarding communication involving
+that body part. Sending capacity has to do with how much can be communicated in a particular way. According to Ekman, the face is very expressive and
+communicative and thus has the most nonverbal sending capacity. The hands
+have less sending capacity than the face, and the feet have less still. The same
+order is true about feedback. We are more likely to be conscious of our face
+than our hands and more conscious of our hands than our feet.
+With regard to deception clues and leakage, there are two key types of nonverbal displays: affect displays and adaptors. Affect displays, as the name implies, convey emotional states. Affect is displayed mostly on the face. With regard to deceptive affect displays, one can intensify, de-intensify, neutralize, or
+substitute one emotion for another. That is, I can make my face appear happier than I really am or less happy than I really am. I can convey a lack of emotion, or I can appear happy when I am really irritated.
+Emotions can also be shown in micro facial expressions. Microexpressions
+are so brief that they are barely perceptible, and they are not fully under conscious control. Micro facial expressions can supposedly be seen by trained observers or by watching video in slow motion or frame by frame.
+Adaptors are habituated body movements learned early in life when they
+were adaptive and served some function. In adulthood they are enacted as fragments of the original behavior. They are done habitually and unconsciously,
+and they appear to be random behaviors. Examples of adaptors include fidgeting or unconsciously playing with the self or objects.
+Since the face is most expressive, with the greatest sending capacity, and is
+also where we get the most feedback about our nonverbal communication performance, the face is most likely to convey deceptive messages by suppressing, intensifying, or conveying faked emotion. The exception is micro facial
+expressions, which can slip out and honestly express felt emotions. As Ekman
+and Friesen assert, “The face is equipped to lie the most and leak the most,
+and thus can be a very confusing source of information during deception.”7
+They continue that “one would expect the usual observer of the face typically
+to be misled. One would expect the keen observer, on the other hand, to receive contradictory information from facial cues: simulated messages, micro
+leakage of information which contradicts the simulations, and deception clues
+of squelched displays and improperly performed simulations.”8
+
+58
+
+CHAPTER FOUR
+
+The hands are suggested to be less under conscious control than the face
+and to be ill equipped to enact deception. The hands, however, can give deception away. Adaptors, especially self-adaptors, can be a sign of leakage. For
+example, a liar may be smiling to convey happiness, but the hands may be
+suggesting anxiety or defensiveness. Self-adaptors can also function as deception clues.
+According to Ekman and Friesen, the legs and feet “are a primary source of
+both leakage and deception clues.”9 “Leakage in the legs/feet could include aggressive foot kicks, flirtatious leg displays, autoerotic or soothing leg squeezing, abortive restless flight movements. Deception clues can be seen in tense
+leg positions, frequent shift of leg posture, and in restless or repetitive leg and
+foot acts.”10 This is because although the legs have limited sending capacity,
+we are less aware of what our feet are doing.
+This reasoning gave rise to the idea of the leakage hierarchy, which is at the
+core of Ekman and Friesen’s original theory. As they describe:
+To summarize, the availability of leakage and deception clues reverses
+the pattern described for differences in sending capacity, internal feedback, and external feedback. The worst sender, the legs/feet, is also the
+least responded to and the least within ego’s [self ] awareness, and thus
+a good source for leakage and deception clues. The best sender, the face,
+is most closely watched by alter [other person], most carefully monitored by ego [self ], most subject to inhibition and dissimulation, and
+thus the most confusing source of information during deception; apart
+from micro expressions, it is not a major source of leakage and deception clues. The hands are intermediate on both counts, as a source of
+leakage and deception clues, and in regard to sending capacity and internal and external feedback.11
+Finally, Ekman and Friesen offer the caveat that their theory does not apply
+to everyone. They speculate that there are some people who do not leak very
+much and who are highly convincing nonverbal liars.
+To summarize the original leakage theory, there are two types of nonverbal behaviors, leakage and deception clues, that can be used to detect deception. The usefulness of these nonverbal deception signals rests on the extent
+to which they are under conscious control. Leakage and deception clues are
+most apparent in the legs and feet and in micro facial expressions, and the
+least apparent in non-micro facial behavior. No attention was given to the voice.
+
+RIVALS
+
+59
+
+Leakage and deception clues are expected only in high-stakes deception, and,
+even then, not by everyone.
+As time has progressed, the original distinction between leakage cues and
+deception clues has faded for all but Ekman. “Leakage” has come to be used
+more generally as interchangeable with “deception clues,” and deception clues
+are now often called deception cues.
+However, the main idea that honest senders and liars exhibit different nonverbal behaviors and that nonverbal behavior provides the path to lie detection was incredibly influential and guided the direction of subsequent theory
+and research for the next forty-plus years. In the theory and research that followed, it was theorists and researchers trained primarily in nonverbal communication who contributed the most. Deception was therefore researched and
+understood as first and foremost a nonverbal phenomenon, and this traces directly to Ekman and Friesen.
+EKMAN UPDATED
+Ekman’s theoretical perspective has evolved over time, and his ideas have been
+periodically updated in the four editions of his book Telling Lies, as well as in
+various other journal articles and book chapters.12 The core ideas have mostly
+remained intact, and most of the evolution in Ekman’s thinking has been in
+further elaboration and refinement of his ideas. The preface of the third edition of his book states that he did not believe there were any errors in previous editions. He contends that while research findings over the past forty-
+five years were generally supportive, new results have also provided important
+new insights.
+Much of Ekman’s more recent research on deception was done in collaboration with professors Maureen O’Sullivan and Mark Frank, who are Ekman
+protégés. Relative to other camps of deception theorists, Ekman and colleagues
+have published relatively few peer-reviewed original research studies testing
+their ideas. Much of what they have published has proven controversial within
+the deception-research community.
+Perhaps the biggest change in thinking from the original 1969 theoreti
+cal statement to more recent articulations relates to the leakage hierarchy and
+the utility of different parts of the body in signaling deceit. In the original version, legs and feet were held to be most informative. Over time, the role of leg
+and foot movements lost prominence, and the focus moved increasingly to
+the face, especially to microexpressions, which became the primary source of
+leakage and deception clues. Verbal content (e.g., slips of the tongue, incon-
+
+60
+
+CHAPTER FOUR
+
+sistent content) and the voice (especially pitch) are recognized in more recent
+writings as sources of leakage and deception clues.13
+Despite the changes in what is most and least informative, Ekman has retained the distinction between leakage and deception clues, and he has remained steadfast in the core idea that deception is signaled behaviorally and
+nonverbally. He is unequivocal about this, and he states that his confidence in
+the utility of behavioral observation as a deception detection method has increased over time. He also claims to have provided clear scientific-empirical
+support of this in his own research.14
+Emotion has always played a key role in Ekman’s thinking, and if anything,
+the centrality of emotion in his theoretical stance has intensified over time.
+Ekman contends that three emotions in particular are linked with deception:
+fear of being caught, guilt about lying, and “duping delight” (the positive emotional state prompted by fooling another person).
+Besides leaked emotions, a second reason Ekman believes that some lies
+fail is because the liar has not adequately planned his or her lie. In such cases,
+liars often contradict themselves, and verbal content is a source of deception
+clues. Unprepared liars can also be tripped up with unanticipated questions.
+Ekman is careful to add the qualification that, at least in regard to deception
+clues, behaviors are not signs of deception per se. Instead, they are signs of
+emotions that are typically linked with deception. People can experience fear,
+guilt, and delight for reasons other than deception. Honest people can contradict themselves. Thus, deception clues should be considered “hot spots” rather
+than sure-fire signs of deceit. Deception clues are not definitive, and failure
+to understand this leads to the Othello error, which rests on the failure to realize that an honest person may show the same signs of emotion as a liar.15
+So, for example, a crime witness who seems scared might be scared of testifying rather than because he or she is lying.
+Stakes have remained a critical element in the Ekman perspective over time.
+Stakes refer to the consequences of success or failure of a lie. The greater the
+consequences, the greater the link between deception and emotions, and consequently, the greater the likelihood of leakage and deception clues. The most
+critical element in stakes according to Ekman is when the liar expects punishment from a failed lie. Ekman and colleagues are steadfast in their contention that stakes make a critical difference, and they are quick to dismiss
+findings from low-stakes, everyday lies as irrelevant to their approach.16 Frank
+and Ekman state their view clearly: “In a low-stakes lie—wherein one gains
+nothing for successfully lying and loses nothing for unsuccessfully lying—one
+would expect very little emotion to be elicited in the liar, although the cogni-
+
+RIVALS
+
+61
+
+tive overload clues may still occur. However, if a lie situation has high stakes,
+one would expect a great deal of emotion elicited in the liar, along with the
+cognitive overload clues. . . . It is the presence of these emotions that is central to a liar’s fear of getting caught, guilt over lying, or even enjoyment or excitement of getting away with a lie. Research has shown that facial signs of
+fear, distress, or enjoyment can and do betray deception.”17
+Besides a greater focus on the face as a source of leakage and deception
+clues, the other major transformation in Ekman’s perspective has been an increased focus on individual differences both in liars and, especially, in lie detectors. Not all liars are thought to be leaky,18 and people who are believed in
+one situation tend to be believed in a second situation.19 As to lie detectors,
+Ekman and colleagues believe that some people have a knack for lie detection; others don’t.20
+Individual differences in senders can give rise to errors in deception detection. The Brokaw Hazard occurs when a liar does not show a clue, but an honest person does show the clue.21 For example, imagine that two people are interviewed about a crime. One of the two people is a nervous type who always
+seems tense. The other person is laid back, almost always calm. It is a mistake to presume that the more nervous person is lying. To overcome the Brokaw Hazard and to guard against individual differences in sender demeanor,
+Ekman advocates reliance on baseline honest behaviors. He suggests it is wise
+to assess how a person acts in everyday conversation and then look for changes
+in deception clues when the person might be lying.22
+Individual differences in deception detection ability have also come to play
+an increasingly important role in Ekman and colleagues’ more recent thinking.
+In 1991 Ekman and O’Sullivan published a deception detection study testing
+several groups of subjects: Secret Service officers, federal polygraphers (from
+the CIA, NSA, FBI, and the military), judges, police, psychiatrists, adults interested in deception, and students.23 The Secret Service group (average accuracy =
+64.1%) did better than the other groups (who ranged from 57.6% to 52.8%,
+with students scoring the lowest). In 1999 Ekman and his colleagues reported
+a similar test of lie-detector groups, this time including federal officers (mostly
+CIA), sheriffs, mixed law-enforcement officers, federal judges, clinical psychologists, and academic psychologists.24 Whereas the 1991 study involved detecting lies about felt emotions, the 1999 study involved lies about opinions. The
+results again showed variation among the groups. The federal officers (73%)
+did the best, followed by some of the clinical psychologists (67.5%) and the
+sheriffs (66.7%). The mixed law-enforcement group did the worst (50.8%).
+More recently still, the idea of the deception detection wizard has been ad-
+
+62
+
+CHAPTER FOUR
+
+vanced.25 The claim is that a very small proportion of the population is exceptionally adept at distinguishing truths from lies. This select group performs
+at rates better than 80% or 90% across three sets of videotaped truths and lies.
+In an independent test of the wizard idea, Gary Bond tested 112 experts and
+122 students on a lie detection task.26 Overall, students and experts did not differ from each other or from the slightly-better-than-chance accuracy levels reported by meta-analysis. Eleven (10%) of the experts, however, obtained levels
+of accuracy over 80%. No student did that well. When tested again, two of
+the eleven experts again preformed at better than 90%. Although most well-
+performing lie detectors regressed to the mean, some small number of experts
+exhibit strings of successful judgments that appear statistically improbable.
+The most recent iteration of the “a few can detect lies” claim combines in
+dividual differences in lie detection ability with stakes.27 The idea is that at
+least some experts are adept at detecting deception under conditions of consequential, high-stakes lies. That is, lie stakes and expertise statistically interact
+such that high accuracy is observed only for experts judging high-stakes lies.
+When either student samples are used, or when experts judge low-stakes lies,
+accuracy is just slightly above chance. Meta-analyses showing poor accuracy
+and a lack of effects for expertise are acknowledged, but those findings are dismissed. According to O’Sullivan and colleagues: “This [accuracy is slightly better than chance as reported in meta-analysis] mistaken conclusion may have
+resulted from the disproportionate representation of college students in most
+lie detection research. Given that college-age students are significantly less accurate than adults older than twenty-two [self-citation to an unpublished poster
+is provided], when college students contribute the bulk of the data examined
+in a meta-analysis, their chance scores will swamp the statistically significant
+results reported for police groups in several countries”28
+In support of their conclusions, O’Sullivan and her colleagues reviewed
+twenty-three studies examining thirty-one police groups in deception detection tasks. Each accuracy task was coded as involving high-or low-stakes lies.
+They report eleven accuracy results at 60% or above. Ten of the eleven findings above 60% accuracy were coded as high-stakes lies. The sixteen results at
+or below the meta-analysis average of 54% were coded as low-stakes lies. They
+report that the (unweighted) mean accuracy for experts judging high-stakes
+lies was 67.2%, compared to 55.2% accuracy for low-stakes lies.29
+Taken at face value, O’Sullivan et al.’s literature review appears to offer strong
+and compelling support for the expertise by stakes interaction argument. However, this paper (as well as the idea of wizards) has been widely criticized in
+
+RIVALS
+
+63
+
+the deception-research community. I will simply say that I find their claims
+and analysis unconvincing.
+To summarize Ekman’s view, the focus is on emotions and facial expressions in high-stake lies. Lies can be detected by observing behavioral clues and
+leakage, and some people are very good lie detectors.
+I will close my discussion of Ekman with a quote that succinctly conveys
+the contrast between his view and my own theory. According to Ekman: “[The]
+reason why most people do so poorly in judging deceit is that they rely too
+much upon what people say and ignore the discrepancies between the expressive behaviors and what is said.”30 I, in contrast, believe almost the exact opposite: The reason why most people do so poorly in distinguishing truths from
+lies is that they rely too much upon demeanor and expressive behavior and
+pay too little attention to the content of what people say.
+FOUR-FACTOR THEORY
+In the years that followed the publication of Ekman and Friesen’s leakage
+theory, research on deception and deception detection increased dramatically.
+Much of this research tried to isolate nonverbal behaviors that distinguished
+lying from honest communication. Research also sought to assess people’s
+ability to detect lies under different conditions (e.g., from the face alone, from
+just the body, from the body and the face, etc.).
+In 1981 Zuckerman, DePaulo, and Rosenthal summarized the then-new literature of deception and deception detection.31 By the time of their analysis,
+some behaviors (e.g., smiling, gaze, response length) had been investigated
+by as many as fifteen or sixteen separate studies. There were also fifteen available studies of deception detection accuracy. Zuckerman et al. employed the
+then-new technique of meta-analysis to aid their summary.
+The reason Zuckerman et al. is covered here is not because of their results,
+but instead because of how they chose to frame their results. They introduced
+a framework that has since come to be known as “four-factor theory.” Four-
+factor theory substantially extended Ekman and Friesen’s ideas about deception clues and the internal psychological processes that might produce them.
+Four-factor theory guided thinking about deception and deception detection for
+twenty-plus years, until the DePaulo cue meta-analysis was published in 2003.
+According to four-factor theory, deception is not directly associated with specific verbal and nonverbal behaviors. Instead, deception is associated with four
+internal, psychological factors or processes that influence specific behaviors.
+The four include felt emotions, arousal, cognitive effort, and attempted behav-
+
+64
+
+CHAPTER FOUR
+
+ioral control. For those readers familiar with social science–speak, four mediators were specified. Mediators are variables that come in the middle. They
+are caused by some more distal cause or causes, and, in turn, cause some outcome. The cause flows through them, so to speak. In four-factor theory, deception causes emotions, arousal, cognitive effort, and attempted behavioral control, each of which, in turn, gives rise to behavioral differences that indirectly
+and probabilistically distinguish truths from lies.
+First, consistent with Ekman, deception is thought to produce emotional
+responses in liars. Liars should feel guilty and should fear detection. These
+emotions that result from deception might be conveyed nonverbally. For example, less-pleasant facial expressions may result when someone is lying. Or
+a liar who is feeling guilty might avert his or her gaze.
+Second, it was widely believed that deception, relative to honest communication, is physiologically arousing. It is this arousal, in fact, that a polygraph
+measures. Arousal is reflected in increased heart rate, blood pressure, and
+skin conductance. The increased arousal associated with deception is thought
+to produce recognizable behavioral displays such as pupil dilation, more eye
+blinking, higher-pitched speech, and more fidgeting and nervous behaviors.
+Third, many researchers believed (and still do) that deception is more cognitively difficult and demanding than being honest. Liars need to make up the
+content of their lies while trying to keep their stories consistent. This increased
+cognitive effort should lead to longer response latencies, more pauses, more
+speech errors and disfluencies, and fewer gestures.
+Fourth, attempted control leads deceivers to try to avoid those behaviors that
+might give their lies away, and to present behaviors that appear honest. The
+net result can be behavior that appears stiff and rehearsed or too slick and rehearsed, or that leads to a discrepancy between what one part of the body and
+another are doing.
+Taken together, these four factors provide the basis for predicting the sorts
+of behavioral differences (cues) that might be useful in lie detection. These
+factors also offer explanations for why nonverbal deception cues exist and provide a rationale for further research on the topic. Next to the original Ekman
+and Friesen work, four-factor theory probably has been the second-most theoretically influential perspective on deception.
+BELLA DEPAULO AND SELF PRESENTATION
+In 1992 Bella DePaulo offered a view of deception quite different from that
+of Ekman or four-factor theory.32 Prior to this, theory had predicted and provided explanations for observable behavioral differences between honest and
+
+RIVALS
+
+65
+
+deceptive communication. DePaulo’s self-presentation view, in contrast, provides
+a theoretical logic for predicting few behavioral differences. A second major
+departure is that while Ekman’s work focused on high-stakes lies, DePaulo’s
+thinking was much more centered on what might be called everyday lies, or lies
+in everyday life. A third shift in focus was from uncontrollable, unconscious
+behaviors to purposeful and strategic actions.
+By “self-presentation,” DePaulo meant a person controlling his or her own
+behavior to create a desired impression on others. People are strategic and goal-
+directed in the image they convey publicly. Self-presentation can, but need not
+be, deceptive. Rather than conveying an overtly false impression, subtle editing and packaging is more common.
+DePaulo’s self-presentation perspective is sketched as follows:33
+• People try to regulate their nonverbal behaviors rather than allowing
+their nonverbal behaviors to be fully spontaneous and unconscious
+expressions of their internal states.
+• Regulation of nonverbal behaviors is guided by self-presentation
+goals. People want others to believe what they say-and for others to
+see them in a positive light.
+• As situations create different demands for self-presentation, non
+verbal behaviors will shift accordingly.
+• The regulation of nonverbal self-presentation behaviors is learned
+but also affected by personality. Some people are more concerned
+with impressions than others.
+• Adults generally have the skills necessary to successfully regulate
+their nonverbal behavior to meet their self-presentation goals.
+• How successful people are in conveying impressions depends on a
+presenter’s skill, but even more on (a) the lack of skill in perceivers,
+and (b) in perceivers’ willingness to go along with the presentation
+and accept other’s self-presentations.34
+• The range of impressions people can successfully convey is limited.
+For example, shy people may have difficulty maintaining the image
+of the social butterfly. Deceptive presentations are more believable
+when they are subtle shadings than when they are outrageous falsifications.
+According to DePaulo, people see their everyday lies as of little consequence,
+and they experience little anxiety, guilt, regret, or fear of detection. Liars need
+and want to be believed, but so do truth tellers. Nevertheless, sometimes lies
+
+66
+
+CHAPTER FOUR
+
+are not as convincing as truths, and sometimes liars’ performances are more
+deliberate and prepackaged. As DePaulo puts it: “Our self-presentational perspective has led us to reject the view that lie telling is typically a complicated,
+stressful, guilt-inducing process that produces clear and strong cues. Instead,
+we believe that most deceptive presentations are so routinely and competently
+executed that they leave only faint behavioral residues.”35 And “Behavioral
+cues that are discernible by human perceivers are associated with deceit only
+probabilistically. To establish definitively that someone is lying, further evidence is needed.36
+INTERPERSONAL DECEPTION THEORY (IDT)
+Proceeding in chronological order of origination, the next theory is Buller and
+Burgoon’s (1996) interpersonal deception theory (IDT).37 IDT can be understood as an ambitious and extensive merging of ideas from Ekman, four-factor
+theory, and the self-presentation views with speculation advanced in a 1986
+article by Jim Stiff and G. R. Miller.38 Several additional variables that Steve
+McCornack and I were researching at the time (e.g., relational closeness, suspicion, truth-bias, information manipulation dimensions) were (often after renaming) thrown into the mix for added complexity.39 However, in combining
+of these different views, the continuity and nuance of each is lost. Thus, IDT
+represents a relabeling and repackaging of many earlier ideas by others that
+are mixed together and thrown into a complex, convoluted, and opaque amalgamation.
+Stiff and Miller’s article is a good place to start in understanding the ideas
+that would give rise to IDT.40 These two authors made the important observation that in most research that preceded their experiment, deception detection was limited to the passive observation of behavior. There was no interaction between the potential liar and the person assessing honesty. Coming
+from the communication discipline,41 Stiff and Miller thought it obvious that
+in situations involving interpersonal communication, people can question one
+another, and that interaction might affect deception detection accuracy. They
+called these questions or requests for additional information “probes,” and
+they reasoned that interactive deception was likely different from noninteractive deception, in part because probing questions might change how things
+go during a communication exchange.
+One might guess that asking probing questions would be predicted to enhance deception detection accuracy. Questioning should help us get at the
+truth, right? This is the presumption behind cross-examining a witness in a
+court of law or a reporter’s asking the tough questions during an interview.
+
+RIVALS
+
+67
+
+Stiff and Miller’s thinking was more nuanced and not so conventional. Influenced by the theories discussed previously, they thought that asking suspicious questions would make the potential liar more anxious and aroused and
+consequently make the person appear more deceptive. The opposite was expected for supportive questions. People who asked friendly, trust-implying ques
+tions would appear more honest. So suspicious questions would lead to improved accuracy for liars but to worsened accuracy for honest senders, while
+supportive questions would produce higher accuracy for honest senders and
+lower accuracy for liars. At least that is what Stiff and Miller initially predicted.
+Stiff and Miller tested their predictions with an experiment. Honest and
+deceptive senders were questioned with either supportive (positive probes) or
+suspicion-implying questions (negative probes). These interactions were video
+taped, and the actual questioning was edited out so that only the answers remained. In this way, only the honest and deceptive answers resulting from
+the question, and not the questions themselves, might affect judgments. The
+videotaped truths and lies were examined for nineteen potential deception
+cues, and the tapes were also shown to college students who judged each as a
+truth or a lie so that accuracy could be calculated.
+The results were not what Stiff and Miller expected. For accuracy, the biggest effect (by far) was for the honesty of the sender (r = .61), which was much
+higher for truths than lies.42 But this was of no interest to the authors. The nature of the probes did not affect accuracy at all (r = .00). Probing, however, did
+affect perceptions of honesty. The effect was not big (r = .14, d = 0.28), but it
+was statistically different from zero. Communicators who were probed with
+the suspicious probing questions were believed more often than those who
+were probed with supportive, positive questions, even though the people judging the messages did not hear the probes. This was unexpected, and it caught
+Stiff and Miller’s attention.
+Of the nineteen potential deception cues examined, none were related to
+probing strongly enough to meet the usual social scientific standards of p <
+.05. Some of the behaviors, however, were related to judgments of deceptions.
+For example, the people who were most often seen as liars tended to smile
+more, shift their posture more, and pause more while speaking, among other
+things. And, critically, there was an apparent trend between the (nonsignifi
+cant) probing–behavior relationships and the deception judgment–behavior
+relationships. For twelve of the nineteen behaviors, the direction of effect of
+the probing–behavior relationship was opposite to that of the deception judgment–behavior relationships. That is, the things that the people who were suspiciously probed did tended to be the things that were done by people who
+
+68
+
+CHAPTER FOUR
+
+were seen as honest. It should be noted that while a twelve–seven (63%–37%)
+split departs from the expected fifty-fifty chance level, it does not reach conventional levels for scientific improbability (p = .0835). Remember also that
+none of the behaviors apparently affected by probing were different enough
+to rule out chance. However, this did not stop Stiff and Miller from speculating that the trend might be real.
+They used the trend in behaviors to explain why people who were probed
+with suspicious questions were more often judged as honest than those subjected to positive, supportive questioning. This account would come to be
+known as the behavioral adaptation explanation43 and would become a key
+prediction of IDT and central to its logic. It was ventured that negative probes
+made the people being questioned realize that they were under suspicion,
+and their response to the suspicion was to act more honest. Stiff and Miller
+also offered their findings as evidence that deception and deception detection
+needed to be understood as an interactive process, which also became a hallmark of IDT.
+IDT took up Stiff and Miller’s call to understand deception and deception
+detection as a dynamic, interactive process.44 According to IDT, deception and
+suspected deception are commonplace. The process begins when a sender’s expectations, goals, prior knowledge, behavioral repertoire, and skill set combine
+to produce a truth or a lie accompanied by initial behavioral displays. Deceptive messages include the core deceptive content plus strategic actions aimed
+at making the deception believable, and nonstrategic behaviors that betray the
+lie. In IDT nonstrategic behaviors are synonymous with leakage and deception clues/cues. A sender’s initial behavioral displays are judged by a receiver,
+who also exhibits initial behavioral displays of his or her own and who may or
+may not be initially suspicious. Based on initial suspicion and an assessment
+of sender behavior displays, the receiver may adjust his or her behavior and
+communicate his or her suspicion or lack of suspicion to the sender. Based on
+receiver behaviors, the sender may adjust his or her behavioral displays strategically, and the receiver may adjust his or her assessment of the sender’s honesty based on these adjustments as well as his or her prior assessments. The
+net result is that the deception may or may not be successful. Senders and
+receivers actively monitor each other and make behavioral adjustments over
+time so as to achieve their desired communicative goals. However, both senders and receivers leak indications of deceit and suspicion, which leads to a dynamic series of moves and countermoves.45
+IDT involves eighteen propositions, most of which contain multiple parts.46
+
+RIVALS
+
+69
+
+These propositions constitute the logical structure of IDT and elaborate on the
+deceptive process summarized above by listing relevant variables. At its core,
+IDT presumes that communication contexts differ in their degree of inter
+activity. Face-to-face communication is maximally interactive, and other types
+of communication are less interactive, depending on five dimensions: access
+to social cues, the immediacy of the communication, feelings of relational engagement, conversational demands, and spontaneity. Face-to-face communication provides the most access to social cues, is the most immediate, entails
+the most relational engagement, creates the most conversational demands, and
+requires the most spontaneity. IDT’s first proposition specifies that these five
+interactivity dimensions affect how communicators think and act.47 The sec
+ond proposition is that the relationship between the sender and the receiver
+makes some unspecified difference during deception.
+Proposition three states that deceivers engage in more strategic impression-
+management behaviors than honest senders, but they also display more arousal
+cues, negative affect, diminished affect, noninvolvement, and other unspecified deception cues.48 That is, deceivers are both more and less strategic than
+truth tellers.
+Proposition four states that in initial displays more interactive contexts lead
+to greater strategic activity and fewer nonstrategic deception cues. Proposition
+five holds that in initial displays more interactive contexts entail greater expectations for honesty and more positive relational feelings between the sender
+and the receiver. Proposition six further specifies that deceivers are more worried about getting caught in their lies in interactive contexts and with relationally close others and that detection anxiety results in greater strategic efforts to
+appear honest. The seventh proposition maintains that goals and motivation affect strategic and nonstrategic behaviors. Self-benefiting lies lead to more strategic and nonstrategic behaviors than do lies for the sake of others. Receiver
+behaviors are also affected by goals, including any intent to detect deception.
+Proposition eight says that the better a receiver knows the sender, and the
+closer the relationship between the two, the more a receiver will be apprehensive regarding detecting deception on the part of the sender. Nevertheless, the
+better a receiver knows the sender, and the closer the relationship between the
+two, the greater the receiver’s strategic activity and the more the receiver will
+show nonstrategic leakage behavior indicative of suspicion.
+Proposition nine offers the circular assertion that the more skilled a sender,
+the more honest he or she appears.
+Proposition ten specifies that a receiver’s judgment of sender honesty in-
+
+70
+
+CHAPTER FOUR
+
+creases the more the receiver is truth-biased, the more interactive the context,
+and the more skilled the sender. Unexpected communication patterns, however, lower sender believability.
+Proposition eleven deals with accuracy. Deception detection accuracy by a
+receiver is reduced by receiver truth-bias, context interactivity, and sender skill.
+Accuracy is enhanced by knowledge of the sender, receiver detection skill, and
+unexpected sender communication behaviors.
+The twelfth proposition says that receivers communicate their suspicion to
+senders through strategic and nonstrategic behavior. Senders, in turn, recognize receiver suspicion when it exists (proposition thirteen). Sender recognition of receiver suspicion is especially strong when receivers act in unexpected
+ways, when receivers signal outright disbelief, and when receivers ask for more
+information. The recognition of receiver suspicion, then, leads to increases in
+sender strategic and nonstrategic behaviors (proposition fourteen).
+Proposition fifteen states that deception and suspicion displays change over
+time, while proposition sixteen holds that interaction adaption patterns tend
+to be reciprocated by senders and receivers.
+The seventeenth proposition states that receiver deception detection accuracy, receiver bias, and receiver judgments of honesty after the interaction
+is over depend on what the receiver was thinking (i.e., were they suspicious,
+were they truth-biased), the receiver’s skill in detecting lies, and the sender’s
+behavior at the end of the interaction.
+On the sender’s side, proposition eighteen holds that whether or not senders think their deception was successful depends on what they think (i.e., how
+much suspicion they perceived) and the behaviors of the receiver at the end
+of the interaction.
+As evidenced by the eighteen propositions outlined above, IDT puts forth
+numerous variables but provides little in the way of unambiguous, concrete
+prediction. For example, in a number of places, strategic and nonstrategic behaviors are said to increase, decrease, or simply change. But no detail is provided about the specific behaviors involved. According to IDT, leakage and
+deception cues are said to exist, but unlike in prior theories, what those behaviors might involve or look like is less well articulated. IDT is specific, however,
+in the assertion that the degree of interactivity alters the nature of deception
+and deception detection. This idea that mere extent of communicative interactivity is fundamentally a game-changer is IDT’s most directly testable and
+potentially falsifiable claim.
+Research from the IDT perspective has been plentiful and well funded. US
+taxpayers have invested literally tens of millions of dollars into IDT. This re-
+
+RIVALS
+
+71
+
+search, however, is largely limited to Judee Burgoon and her students. More
+recent research by the IDT researchers has increasingly involved the use of
+cutting-edge technology and deception in computer-mediated contexts.
+ALDERT VRIJ, COGNITIVE LOAD,
+AND PROMPTING CUES WITH QUESTIONING
+If judged on the metric of sheer numbers of published academic journal articles, the hottest new thing in deception research in the past decade is surely
+the work of Aldert Vrij and his many colleagues (such as Pär Anders Granhag,
+Ronald Fisher, Samantha Mann, and Sharon Leal) from (mostly European)
+criminal and legal psychology. The work of Vrij and his group tends to be applied, and it tends to focus on deception in legal and criminal applications.
+Vrij and Granhag summarize their view and contrast it with some of the
+theories previously described:
+A turning point in our thinking about lie detection came in 2003. In that
+year, Bella DePaulo and her colleagues published a meta-analysis of deception research that demonstrated that nonverbal and verbal cues to deception are typically faint and unreliable. It made us realise that a new
+direction in deception research was required aimed at eliciting and enhancing cues to deceit. We will argue that interviewers play a vital role in
+achieving this. Hereby we distinguish ourselves from other researchers
+who ignore the role of the interviewer and instead are trying to find exceptional lie-catchers (“wizards”), train people to focus on specific cues,
+or believe that cues to deceit are more pronounced under certain circumstances (e.g., high-stakes).49
+And
+Accepting DePaulo et al.’s conclusion that cues to deceit are faint and unreliable implies that the only way to improve lie detection is by eliciting
+and enhancing such cues. We argue that interviewers can achieve this by
+using appropriate, theoretically sound interview techniques that exploit
+liars’ and truth tellers’ different psychological states. We have developed
+such interview techniques and they take into account that lying is often
+mentally more taxing than truth telling, exploit the fact that l iars prepare
+themselves for interviews, and take into account the different strategies
+truth tellers and liars use during interrogations. We have demonstrated
+that our techniques work.50
+
+72
+
+CHAPTER FOUR
+
+Thus, the core idea is that deception detection accuracy can be improved
+by eschewing passive observation of cues but instead prompting cues through
+strategic questioning. The problem, as Vrij and Granhag see it, is a lack of
+cues that distinguish truths from lies. But, rather than abandoning cues or
+the psychological mediating processes that give rise to cues, they see making
+cues stronger as the only solution to achieving improved deception detection.
+Vrij and colleagues are highly critical of Ekman’s wizards, micro facial expressions, arousal-based lie detection (including the polygraph and vocal stress
+analysis), and accusatory questioning such as the Behavioral Analysis Interview (BAI) developed and taught by Reid and Associates. They are also critical
+of lie detection experiments involving short video clips and passive observation and suggest less focus on outcome measures such as percentage-correct
+deception detection accuracy and greater emphasis on showing differences in
+cues depending on honesty–deceit. Much of their research involves students
+who are instructed to lie after perpetrating mock crimes. Although they emphasize interaction between interviewer and interviewee, they ignore the research from my own home academic field of human communication, and the
+focus is more on psychological processes than interaction. People would never
+know about most of the research on interactive deception detection research
+from reading the work in legal-criminal psychology, because it isn’t cited.
+Arousal and emotions are dismissed as mediating psychological processes.
+In their place, cognitive effort and strategic planning to avoid detection are
+embraced as key psychological mediators. Vrij and Granhag note that “a consistent finding in deception research is that liars prepare themselves when anticipating an interview.”51 Regarding cognitive load, they further contend that
+“there is overwhelming evidence that lying is cognitively more difficult than
+telling the truth.”52 This difference is then exploited by adding additional load
+to a potential liar; they assert: “Investigators can exploit the differences in cognitive load that liars and truth tellers experience. If lying requires more cognitive
+resources than truth telling, liars will have fewer cognitive resources left over.
+If cognitive demand is further raised, which could be achieved by making additional requests, liars may not be as good as truth tellers in coping with these
+additional requests.”53 Examples of instilling additional load include requiring
+interviewees to provide a narrative in reverse chronological order, asking unanticipated questions, and instructing communicators to maintain eye contact.
+Besides instilling cognitive load, the legal psychology approach encourages
+a nonaccusatory, information-gathering approach to interviewing and the strategic use of evidence approach.
+
+RIVALS
+
+73
+
+SUMMARY
+This chapter provides a chronicle of prior theories of deception and deception
+detection. Ekman’s original leakage theory, Ekman’s updated perspective, four-
+factor theory, Bella DePaulo’s self-presentation perspective, Interpersonal Deception Theory, and Aldert Vrij’s cognitive load approach were each reviewed.
+I see much communality among Ekman, four-factor theory, IDT, and Vrij. In
+the next chapter, I offer the catchall idea of cue theories as a way to show the
+commonalities in the logic behind prominent deception theories and to show
+how theory has shaped research priorities and design. I offer a critical evaluation of these prior theories in specific, and cue theories in general. I hope it is
+obvious after this chapter why a new theory is so desperately needed.

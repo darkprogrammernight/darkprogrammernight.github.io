@@ -1,0 +1,802 @@
+Chapter 24
+Hormones
+
+Robert Miller and Clemens Kirschbaum
+
+
+
+
+Abstract With the advent of readily available, convenient, and cost-efﬁcient bio-
+chemical tools, the analysis of hormones has become a valuable approach to gain
+deeper insight into physiological processes, which influence human behavior.
+Neuroeconomic research has beneﬁted from this development as indicated by a
+continuously growing number of publications during the past 20 years, relating
+variation in various endocrine systems to human decision-making. However, an
+informed reception and interpretation of such research relies heavily on knowledge
+about endocrine physiology and methods. Therefore, the present chapter aims to
+serve as a primer for endocrine methods by providing an overview about the most
+relevant aspects of design and data acquisition, as well as biochemical, and sta-
+tistical methodology for hormone analyses. Proceeding from the brief delineation of
+endocrine systems’ properties, various approaches to the measurement of hormone
+concentrations and to the inference on endocrine process components are presented
+in order to enable the reader to take part in this promising ﬁeld of research.
+
+
+
+24.1    Introduction
+
+With the advent of readily available, convenient, and cost-efﬁcient biochemical
+tools, the analysis of hormones has become a valuable approach to gain deeper
+insight into physiological processes, which influence human behavior.
+Neuroeconomic research, in particular, has beneﬁted from this development as
+indicated by a continuously growing number of publications during the past
+20 years, which is exemplarily illustrated in Fig. 24.1. This growing research
+interest is discussed by Amos Nadler and Paul Zack in Chap. 3 of the present book,
+
+
+R. Miller (&)  C. Kirschbaum
+Department of Psychology, Technische Universität Dresden, Dresden, Germany
+e-mail: robert.miller@tu-dresden.de
+C. Kirschbaum
+e-mail: clemens.kirschbaum@tu-dresden.de
+
+© Springer-Verlag Berlin Heidelberg 2016                                       463
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_24
+464                                                                                R. Miller and C. Kirschbaum
+
+
+
+                          60                 Cortisol
+                                             Oxytocin
+                          50
+
+                                             Testosterone
+                                             Progesterone
+ Number of publications
+
+
+
+
+                                             Estradiol
+                          40
+                          30
+                          20
+                          10
+                          0
+
+
+
+
+                               1993   1995     1997   1999   2001     2003     2005   2007    2009    2011
+                                                             Year of publication
+
+Fig. 24.1 Number of hormone-related publications on decision making per year as listed by
+Scopus (Elsevier, 2013)
+
+
+who provide a comprehensive, content-related review on the most relevant ﬁndings
+relating variation in various endocrine systems to human decision-making.
+    However, an informed reception and interpretation of the respective research
+results, and even more importantly, active participation in this promising ﬁeld of
+research, relies heavily on knowledge about endocrine physiology and methods.
+Therefore, the present chapter aims to serve as a primer for endocrine methods by
+providing an overview about the most relevant aspects of design and data acqui-
+sition, as well as biochemical, and statistical methodology for hormone analyses. As
+such, we do not intend to discuss speciﬁc endocrine systems and functions, but
+occasionally illustrate their features by selected examples.
+
+
+
+24.2                           Characteristics of Endocrine Systems
+
+Endocrine systems are mostly deﬁned by complex interaction patterns of different
+molecules that serve, in contrast to neuronal signal transduction, to unfold some
+lagged physiological impact over time. Some of these molecules, which are
+involved in endocrine signal transduction, are called hormones. Hormones differ in
+their physical and chemical properties due to their speciﬁc molecular structure (see
+Table 24.1). They are secreted by various glands and distributed by the blood in
+order to serve as chemical messengers altering cell function at remote target sites,
+mostly by activation of their associated intracellular or membrane-bound receptor
+24   Hormones                                                                                 465
+
+Table 24.1 List of selected hormones (adopted from Knox et al. 2011)
+Chemical formula         Hormone                    Also known as                   Acronym
+Peptide/protein hormones (large molecules, water-soluble)
+C257H387N65O76S6         Insulin                    –                               –
+C43H67N15O12S2           Vasopressin                Arginine vasopressin,           AVP/ADH
+                                                    antidiuretic hormone
+C207H308N56O58S          Corticotropin              Adrenocorticotropic hormone     ACTH
+C990H1532N262O300S7      Somatropin                 Somatotropin, growth hormone    GH
+C208H344N60O63S2         Corticoliberin             Corticotropin-releasing         CRH/CRF
+                                                    hormone/factor
+C55H75N17O13             Gonadoliberin              Luliberin, gonadorelin,         GnRH/LHRH
+                                                    gonadotropin-releasing
+                                                    hormone,
+                                                    luteinizing-hormone-releasing
+                                                    hormone
+C1014H1609N287O294S27    Lutropin                   Luteinizing hormone             LH
+α:                       Follitropin                Follicle-stimulating hormone    FSH
+C437H681N121O135S13
+β:
+C975H1513N267O304S26
+C21H40Cl2O2S2            Prolactin                  Lactropin, lactotrophic         PRL/LTH
+                                                    hormone
+C43H66N12O12S2           Oxytocin                   –                               OXT
+α:                       Thyrotropin                Thyroid-stimulating hormone     TSH
+C975H1513N267O304S26
+Amine hormones (small molecules, rather water-soluble)
+C9H13NO3                 Adrenaline                 Epinephrine                     –
+C8H11NO3                 Noradrenaline              Norepinephrine                  –
+C15H11I4NO4              Thyroxine                  –                               T4
+C15H12I3NO4              Triiodothyronine           –                               T3
+Steroid hormones (small molecules, lipid-soluble)
+C21H28O5                 Aldosterone                –                               –
+C21H30O5                 Cortisol                   Hydrocortisone, compound F      F
+C19H28O2                 Dehydroepiandrosterone     Androstenolone, prasterone      DHEA
+C18H24O2                 Estradiol                  Oestradiol                      E2
+C18H22O2                 Estrone                    Oestrone                        E1
+C18H24O3                 Estriol                    Oestriol                        E3
+C21H30O2                 Progesterone               –                               P4
+C19H28O2                 Testosterone               –                               –
+
+
+
+molecules. After secretion and distribution, hormones are bound by speciﬁc plasma
+proteins (i.e., binding globulins) and/or continuously degraded to their respective
+metabolites by enzymes. Finally, they are cleared from the blood and excreted by
+the kidneys (renal clearance) and/or the liver (biliary clearance).
+466                                                          R. Miller and C. Kirschbaum
+
+   All endocrine systems involve the secretion and elimination of several hormones
+that serve “communication” between their respective physiological components. Such
+components interact by feed-forward and feedback loops, enabling self-regulation
+toward a systemic equilibrium. For instance, the hypothalamic-pituitary-adrenal
+(HPA) axis, is formed by the three endocrine organs: (1) the paraventricular nucleus of
+the hypothalamus, (2) the pituitary gland, and (3) the adrenal cortex, which interact by
+CRH, ACTH, and cortisol. Upon deflection from the equilibrium state (e.g., by stress
+experience or external zeitgebers), the hypothalamus releases CRH into the pituitary,
+which in turn releases ACTH that signals the adrenal cortex to synthesize cortisol.
+Thus, a feed-forward loop is established. Cortisol, however, inhibits further release of
+CRH and ACTH by a feedback loop. In consequence, complex and oscillating signal
+cascades are established, which are present not only in the HPA axis, but in any
+endocrine system. For a more detailed in-depth discussion of speciﬁc endocrine sys-
+tems the reader shall be referred to Barrett (2005).
+   An explicit consideration of these properties is crucial, if one intends to inves-
+tigate the influence of hormones on human decision-making processes. The major
+issues that arise from these properties and that ought to be taken into account for
+designing such a study shall be summarized as follows:
+(a) Operationalization of endocrine constructs: Any study investigating hormone
+    effects, needs to appropriately quantify the construct of interest. Endocrine
+    activity, however, is a continuous process, rather than a ﬁxed state, which
+    involves many physiological subprocesses that unfold their impact across time
+    (e.g., the speed and the magnitude of hormone secretion, and the speed of
+    hormone metabolization and excretion). Thus, only extensive sampling and
+    hormone measurement can provide a basis for inference on such subprocesses
+    (although it also bears the danger of having to deal with huge amounts of data,
+    which can be analyzed and interpreted in various ways). If one, for instance,
+    assumed that an experimental intervention altered exclusively the amount of a
+    secreted hormone, the sampling of two specimens might be considered suf-
+    ﬁcient in order to assess this hypothesis; a ﬁrst specimen at the concentration
+    nadir and a second at the concentration peak (as illustrated in Fig. 24.2). If we,
+    however, concurrently wanted to investigate competing hypotheses (e.g., that
+    the same intervention did not alter the amount of a secreted hormone, but
+    rather the secretory speed), the sampling of two specimens would be insufﬁ-
+    cient. This is due to the presumed convolution of multiple endocrine sub-
+    processes; the change of hormone concentration in between two sampling
+    occasions could be interpreted as a difference in the amount of secreted hor-
+    mone although it was actually generated by another mechanism (Fig. 24.2,
+    blue line). To avoid such interpretative biases, an appropriate study design is
+    required that adequately considers available knowledge about the hormone
+    kinetics and dynamics, and rules out alternative mechanistic effect
+    explanations.
+24   Hormones                                                                                467
+
+
+
+
+Fig. 24.2 Example of how an inadequate operationalization of endocrine constructs may promote
+misleading data interpretation. The dot-dashed lines represent the change of hormone concen-
+trations (a and b) in between two specimens (red dots) that are sampled in each of two
+experimental conditions (black and blue lines). As a differs from b, one might infer that the
+amount of secreted hormone (doses) differs between both conditions. However, a varying speed of
+hormone secretion caused the observable difference by selectively shifting the concentration peak
+in the blue condition, whereas the hormone doses actually remained unchanged
+
+
+(b) Pacemakers and zeitgebers: Most endocrine systems exhibit pronounced
+    ultradian, circadian, and infradian (e.g., terrestrial or lunar revolution)
+    rhythms, which presumably serve to maintain physiological adaptability of the
+    investigated organism to environmental changes. In consequence, all mea-
+    sured hormone concentrations fluctuate and therefore encompass only a low
+    amount of trait variance. This is an inherent problem of hormone measurement
+    that can only be partly alleviated by rigid monitoring and controlling for
+    possible confounding state variables (e.g. sampling time, season, menstrual
+    cycle and the intake of oral contraceptives in case of female participant sex,
+    time of awakening, currently and previously encountered phases of stress, or
+    recent intake of meals or legal drugs; Kirschbaum et al. 1997), are well-known
+    sources for deflected hormone signals. Another countermeasure to account for
+    such unwanted variance components is to perform repeated hormone sampling
+    in similar settings, as has been for instance proposed for the reliable assess-
+    ment of trait-speciﬁc variability in the acute HPA axis activity (Hellhammer
+    et al. 2007; Kirschbaum et al. 1990).
+(c) Time lags: Delays between hormone secretion and corresponding psy-
+    chophysiological responses restrict the time window, in which humoral effects
+    on information processing in the central nervous system could be observed.
+    Such delays are in particular problematic, when the physiological effect me-
+    diators are located more “downstream” from the measured/manipulated hor-
+    mone. For the HPA axis, such an endocrine signal cascade is exemplarily
+468                                                             R. Miller and C. Kirschbaum
+
+    depicted in Fig. 24.3. The issue is further intensiﬁed by within-brain metabolic
+    and/or transport mechanisms, which are still subject to further research. For
+    instance, Droste et al. (2008) found that stress-induced corticosteroid secretion
+    peaks in the brain about 30 min later than in blood plasma. In humans, the
+    corresponding peak of peripheral cortisol levels is commonly observed about
+    30–40 min after stress induction (Dickerson and Kemeny 2004), which results
+    in a time lag of at least 60 min that needs to pass before the associated
+    humoral stress effects are likely to be detectable. Finally, there is
+    tissue-speciﬁc hormone metabolization (e.g. fat tissue has been shown to
+    locally convert physiologically inactive cortisone to cortisol; Andrew et al.
+    2005), which may further alter the temporal delay of hormonal feed-forward
+    and feedback loops and thus differentially change the oscillatory dynamics of
+    the endocrine system.
+(d) Hormone structure and kinetics: Hormones primarily rely on blood perfusion
+    in order to reach their target sites. However, some parts of biological tissue are
+    more richly perfused than others (e.g. fat vs. muscle tissue) which may result
+    in a varying concentration of hormones at different target sites (depending on
+    the hormone’s molecular structure and corresponding properties). Small,
+    lipophilic hormones can easily penetrate tissue and therefore bypass their
+    exclusive distribution by the blood stream to a certain degree. By contrast,
+    comparably large, hydrophilic peptide hormones (e.g. Oxytocin) cannot ben-
+    eﬁt from this property, which has serious implications for specimen selection
+    and the availability of the hormone to target sites such as brain tissue, which is
+
+
+
+
+Fig. 24.3 Transit-compartment model (Bonate 2011) illustrating the kinetics of HPA hormones
+after stimulation by bolus CRH administration. The model was informed by data from Schürmeyer
+et al. (1984). Assuming a direct correspondence of CRH/ACTH elimination to ACTH/cortisol
+secretion, ACTH is predicted to peak 9 min after challenge whereas the cortisol blood
+concentration peaks 41 min after challenge
+24   Hormones                                                                       469
+
+     probably most relevant to the ﬁeld of Neuroeconomics. In this regard, the
+     blood brain barrier that is formed by endothelial cells covering the interior
+     surface of blood vessels, should be taken into particular account. This barrier
+     prevents large molecules, and peptide hormones in particular, to enter the
+     blood vessels of the brain from the peripheral blood stream and vice versa.
+     Consequently, central peptide hormone levels differ from levels in peripheral
+     specimens (e.g. saliva) and ought to be measured in specimens such as the
+     cerebrospinal fluid. Conversely, central peptide hormone levels cannot be
+     altered by peripheral pharmacological challenge. Instead, the blood brain
+     barrier needs to be bypassed as for instance by intranasal substance admin-
+     istration (e.g. Guastella et al. 2013).
+
+
+
+24.3    Measurement of Hormone Concentrations
+
+24.3.1 Selection of Specimen and Analytes
+
+In analytical chemistry, the term specimen is used to refer to any sample of a certain
+compound, which is to be analyzed. Any specimen contains a certain amount of
+hormones (i.e., the analyte), which is to be determined by some measuring system.
+The remains of the specimen form the so-called matrix, which can in turn influence
+the measurement of the analyte. Proceeding from the cursorily outlined properties
+of endocrine systems (see Sect. 24.2), there are various options of which and how
+many specimens within a certain time period are to be assayed for what analyte by
+what measurement system. Regarding specimen and analyte selection, the inclined
+researcher has to consider three design parameters, which determine the adequacy
+of endocrine activity assessment.
+    First, specimen selection is supposed to rest upon theoretical considerations. The
+most proximate choices for specimens comprise biochemical compounds contain-
+ing an analyte that is most likely indicative for activity of the investigated endocrine
+system. According to the physiological knowledge about endocrine systems in
+general, blood and excrements (urine and feces) are the most reasonable options.
+While blood is presumably the most suitable type of specimen for monitoring
+currently bioavailable hormone concentrations, it is barely suited for monitoring
+long-term hormone exposure. Conversely, excrements can serve quite well for such
+a purpose, but any measured analyte concentration within these specimens is
+dependent on the volume of food and fluid being ingested by the participant.
+Consequently, these confounders have to be controlled. Depending on the avail-
+ability of knowledge about speciﬁc metabolic processes, however, other specimen
+might as well be taken into consideration. The most prominent example for such a
+specimen forms saliva for the monitoring of current hormone concentrations. Saliva
+is particularly useful to determine steroid hormones, but larger hormones have also
+been found to be present in saliva although these rely on active transport
+470                                                          R. Miller and C. Kirschbaum
+
+mechanisms (Gröschl 2008; Vining et al. 1983). Furthermore, many salivary hor-
+mones do not seem to be (mostly steroids, but no peptides; Hofman 2001) influ-
+enced by the flow rate of saliva. The popularity of saliva sampling is mostly due to
+the ease of its collection (by commercially available sampling tools; e.g. Gröschl
+et al. 2008) and its noninvasiveness, which results in a substantially facilitated
+implementation process as compared to blood sampling. Hair has also been shown
+to contain considerable amounts of steroid analytes (e.g. Gao et al. 2013). With a
+barely interindividually varying growth rate of 1 cm per month has been proposed
+to reflect cumulative hormone expose across time periods (Stalder and Kirschbaum
+2012), that are substantially longer than those covered by feces or urine. However,
+the mechanism of analyte incorporation into hair needs still to be unveiled.
+    The second design parameter concerns to the number of specimen, which should
+be sampled from each subject. This is not only of practical importance, as hormone
+determination for many specimen and analytes can be quite costly (see Fig. 24.4),
+but also closely linked to the choice of specimen, as the number of specimen per
+subject is (given a reliable measurement) only relevant with regard to the time
+period required to infer on the construct of interest (as has been mentioned in the
+previous section). Example given, 3 cm of hair are supposed to contain an analyte
+concentration, which reflects cumulative hormone expose during the last 3 months.
+If this cumulative hormone exposure is the construct of interest, only one specimen
+is required. If one, by contrast, intends to infer on the change of cumulative hor-
+mone exposure due to some experimental intervention at least two specimens need
+to be taken at an appropriate time interval. Analogous deliberation is particularly
+important, if subprocesses of endocrine activity are to be investigated (e.g. the
+speed of hormone secretion and concurrent elimination). Such a research question
+needs at least three specimens covering reasonably distant sampling points and
+containing analytes, which reflect the organism’s current hormonal status (i.e. blood
+or saliva). With complex endocrine systems acquisition of only two specimens
+bears the risk, that the construct of interest is not reasonably assessed. This is due to
+
+
+Fig. 24.4 Relation between
+study cost, number of
+sampled specimens per
+subject, and number of tested
+subjects. While the costs
+increase linearly with the
+number of sampled
+specimens, more subjects
+increase the study cost in a
+quadratic fashion
+24   Hormones                                                                     471
+
+the fact that endocrine activity can hardly be, at least from a physiological point of
+view, characterized by only two parameters (i.e., the mean and variance of hor-
+mone level change in between two sampling occasions). Similarly, research
+questions that involve the assessment of hormonal rhythms, should similarly con-
+sider at least three specimens during the phase of rising hormone levels, around the
+expected peak, and during the phase of decreasing hormone levels.
+   The third design parameter concerns the choice of analyte in the specimens,
+which is to be measured. Apart from the directly measuring the hormones being
+involved signal transduction of the investigated endocrine system, endocrine
+activity is not only indicated by hormones that directly unfold their associated
+physiological effects but also by their metabolites, which are concurrently present
+within the same specimen. Such considerations may become important, if the
+kinetics of the respective target hormone require special precautions, which com-
+plicate the process of specimen collection. Adrenaline and noradrenaline form
+prominent examples for such a case, as their half-lives amount to less than ﬁve
+minutes, which requires that specimens are to be preprocessed and frozen imme-
+diately after collection. Their metabolites metanephrine and normetanephrine,
+however, persist much longer and may also serve to indicate activity of the sym-
+pathetic nervous system. In a similar fashion, it is reasonable to choose those
+analytes that are directly involved in endocrine signal transduction and easily
+obtainable, but yield a longer half-life than the other hormones being involved in
+the respective endocrine system (e.g., cortisol is eliminated much slower than CRH
+or ACTH). Another occasion, where metabolite assessment may become handy,
+concerns study designs, in which endocrine activity is induced pharmacologically
+and the specimens are to be obtained from the same route that is used for substance
+administration (e.g. oral administration of cortisol and saliva collection; see
+Perogamvros et al. 2010).
+
+
+
+24.3.2 Laboratory Methods
+
+The determination of hormones from blood, saliva, urine, or any other specimen
+requires highly sensitive biochemical methods, since the concentrations of these
+analytes are typically in the nanomolar to picomolar (10−9–10−12 M) range. Thus,
+even minute quantities of endocrine substances must be captured with high preci-
+sion and reproducibility. Following seminal work by the nobel-laureate Rosalyn
+Yalow in the 1970s, a rapid acceptance and increasing use of immunological
+approaches, which show just these characteristics, has been seen (Wild 2013).
+Today, almost any endocrine parameter can be assessed by so-called immunoassays
+and literally hundreds of commercial test kits are available on the market.
+Immunoassays are today probably the most frequently employed method of mea-
+suring hormone levels in a given matrix.
+   The measurement principle of any immunoassay is based on the use of proteins
+generated by the B lymphocytes of the immune system, i.e., the antibodies. In our
+472                                                        R. Miller and C. Kirschbaum
+
+body, these proteins bind foreign materials (“antigens”) that may jeopardize the
+integrity and health of an organism. Millions of different antibodies can be gen-
+erated by the immune systems, allowing us to become “immune” to virtually every
+pathogen or foreign material on earth. With certain biochemical tricks, antibodies
+against any hormone can be generated by injecting the hormone into a different
+species (like sheep or swine). After repeated injection, or “immunization,” high
+concentrations of antibodies produced against the particular human hormone can be
+found in this host. Attaching a biochemical label to such an antibody now allows
+for its use to quantify the amount of the hormone in plasma, serum, urine, feces,
+saliva, cell extracts, or supernatants. The nature of the biochemical label gives the
+name to the speciﬁc immunoassay: Attaching a radioactive compound to the
+antibody will result in a radioimmunoassay (RIA), enzymes as labels will produce
+enzyme immunoassays (EIA or ELISA), depending on the speciﬁc composition of
+the test, while light-emitting labels will result in fluorescence or chemiluminescence
+immunoassays (FIA or CLIA), respectively.
+    Immunoassays typically require sample volumes between 10 and 200 microliters
+per determination, which are used in singlet or duplicate (with the mean of the two
+replicates serving as the measured concentration). The reproducibility of an
+immunoassay result is reflected in the intra- and interassay coefﬁcients of variation.
+Deﬁned as the standard deviation of repeated assays performed from the same
+specimen divided by the average concentration measured, these coefﬁcients should
+not exceed 12–15 % for reliable and reproducible results. Most modern assay
+systems are able to deliver much better performance, the better kits give interassay
+CVs below 5 %.
+    While immunoassays are the ﬁrst choice for reliable and rather inexpensive
+analysis, they sometimes lack the required speciﬁcity. Since a given antibody will
+not bind exclusively to the molecule it has been raised against, a certain crossre-
+activity with matrix components of similar molecular structure is usually seen.
+Crossreactivity may be sufﬁciently low so that the ‘true’ analyte concentration is not
+signiﬁcantly overestimated. For example, most immunoassay for cortisol will also
+detect its metabolite, cortisone, with a crossreactivity between less than 1 % to
+more than 10 % (the latter posing a signiﬁcant source of measurement error; see
+Miller et al. 2013). An even more difﬁcult situation arises with a much higher
+crossreactivity to certain glucocorticoids used for the treatment of certain medical
+conditions (e.g., inflammatory disorders). One of such glucocorticoids, pred-
+nisolone, is detected by anticortisol antibodies with 50–80 % crossreactivity! If a
+reliable differentiation between those steroids is required, other analytical methods
+need to be employed.
+    Among the most speciﬁc biochemical methods available to date for analysis of
+molecules in a complex matrix, the measurement of hormones using liquid chro-
+matography coupled with tandem mass spectrometry (LCMS/MS) is becoming the
+gold standard for such analytic purpose. With this method, the analytes are not
+detected after binding, but rather identiﬁed on the basis of its molecular mass. It is
+therefore superior to immunoassays due to much greater speciﬁcity. Despite this
+24   Hormones                                                                     473
+
+clear advantage, this methodology is unsuited for most smaller research labs, since
+LCMS/MS equipment is still prohibitively expensive, requires highly trained per-
+sonnel, and allows for rather low throughput.
+
+
+
+24.4    Data Analysis
+
+Given that alteration of an endocrine system can be achieved by simple experi-
+mental manipulations (e.g. by intranasal injection of Oxytocin; Guastella et al.
+2013, or by brief inhalation of carbon dioxide; Wetherell et al. 2006), and that one
+intends to use some measured hormone concentration C only as means to check for
+intervention efﬁcacy (i.e., to use C as a dependent variable), analyses of endocrine
+data are comparably straightforward. Here, the general linear model (GLM, see
+Everitt 2009) is particularly straightforward to implement, and can be easily
+interpreted as long as its prerequisites are considered (Miller and Plessow 2013). If
+one, however, intends to use endocrine activity as an explanatory variable, data
+analyses becomes much more complex, as an adequate quantiﬁcation of the con-
+struct of interest requires speciﬁcation an appropriate statistical (measurement)
+model. In biobehavioral studies, the application of two major options for quan-
+tiﬁcation of endocrine activity is observable: (a) data-driven quantiﬁcation
+approaches, which can in most cases be related to the calculation of change scores,
+and (b) theory based approaches (including area-under-the-concentration-curve
+calculations), which have been originally developed for pharmacological studies
+but are also about to become more prominent in the ﬁeld of Neuroeconomics.
+
+
+
+24.4.1 Data-Driven Quantiﬁcation of Endocrine Activity
+
+Considering that hormone levels fluctuate continuously across time due to the
+inherent properties of the respective endocrine system, a large variety of models
+have been proposed to infer on the status of the investigated system from a limited
+number of specimens, which have been sampled at discrete points of time. Such
+data are called panel data. Statistical models for the analysis of panel data can be
+roughly differentiated into models in which the change of hormone concentration
+per unit of time is considered explicitly (being referred to as continuous-time
+models) and models in which time is considered implicitly (being referred to as
+discrete-time models).
+    Continuous-time models commonly incorporate estimation of a time-related
+parameter. In the present context, the simplest form of such a model is a linear
+regression (see formula I below) that relates C at two different points in time t0 and
+t1 to the time on its original scale.
+474                                                                R. Miller and C. Kirschbaum
+
+
+                               Cðt0 ; t1 Þ ¼ aa  time þ ca
+
+    Such a simple model, however, assumes that the change that occurs in between
+t0 and t1 is the same for each time unit, which is quite unrealistic considering the
+inherent nonlinear kinetics of endocrine markers. In case a third data point C(t2) is
+added to the present example, which deviates from the projected linear trajectory of
+C across time, one could sufﬁciently account for it by adding an additional quad-
+ratic term (see formula II below). This model also implies that any continuous
+change that occurs in between t0 and t2, can be reasonably approximated by the
+given equation.
+
+                     Cðt0 ; t1 ; t2 Þ ¼ ab  time þ bb  time2 þ cb
+
+   By contrast, discrete-time models do not assume a continuous trajectory of
+C across time. Proceeding from the examples mentioned above, the simplest model
+for analyzing panel data of such kinds is a repeated-measures analysis of variance
+(ANOVA). As such ANOVA also belongs to the GLM-class, its model equation is
+quite similar to the listed regression models, but uses dummy-coded sampling times
+as predictors. Consequently, the equation for the C(t0, t1) example is the same as in
+formula I, but different for the C(t0, t1, t2) example represented by formula II.
+
+               Cðt0 ; t1 ; t2 Þ ¼ ac  timeðt0 ; t1 Þ þ bc  timeðt0 ; t2 Þ þ cc
+
+   These outlined examples illustrate, that the distinction between continuous- and
+discrete-time models is of a rather conceptual kind, because all examples belong to
+the same model class. Differences between them mostly relate to the coding of time
+and thus to the interpretation of the model coefﬁcients. From a content perspective,
+however, continuous-time modeling yields a major advantage as compared to
+discrete-time modeling of hormone time series: Given an adequate theoretical
+foundation, they enable a precise quantiﬁcation of endocrine activity at any point in
+time, which is formed by occasional (or forced) secretory events and concurrent
+hormone elimination. By contrast, endocrine parameters that have been obtained by
+discrete-time models can only be used to infer on endocrine activity at the time of
+sampling, which restricts their comparability with the results reported by other
+studies (i.e., its interpretability) for the beneﬁt of a more convenient usability.
+   Any statistical model for hormone time series relies on appropriate theoretical
+assumptions on the construct being investigated. In the most basic and popular, but
+rather data-driven case, change of C can be formalized as ΔC(ti) = C(ti) − C(ti−1)
+occurring in between two points in time ti and ti−1, at which specimens have been
+sampled. Although ΔC can serve as a convenient and easily interpretable indicator
+of endocrine activity, it relies on discrete points in time (i.e., any informative
+change of in-between and outside of bounds of specimen sampling is disregarded).
+Although this problem can be alleviated by sampling of more than two specimens,
+the analytical complexity would concurrently increase because the number of
+possible ΔCs grows in a quadratic fashion the more specimens are sampled.
+24   Hormones                                                                    475
+
+    Continuous-time modeling of ΔC can provide a solution to this problem,
+although no mechanistic and physiological knowledge about endocrine functioning
+used. A key aspect of the continuous-time modeling of endocrine activity rests on
+the idea that any ΔC(ti) within a certain, ﬁxed time window (Δt = ti − ti−1) also
+contains information about ΔC within any other Δt. By rescaling ΔC(ti) according
+to length of its corresponding time window Δti, a difference quotient ΔCi/Δt can be
+obtained that denotes any change of hormone levels within one unit of its time
+scale. This quotient can be interpreted similar to the regression parameter aa in
+formula I (see above). Furthermore, any ΔCi can be modeled by an autoregression
+that predicts C(ti) by C(ti−1) [or its rearranged form C(ti − Δt); (see Bollen and
+Curran 2004)]. The integration of both trains of thought implies the difference
+equation given below, where A as a matrix containing all autoregression parameters
+relating the difference quotient ΔCi/Δt to any sampling point:
+
+                             DCðti Þ
+                                     ¼ A  Cðti  DtÞ
+                              Dt
+
+    If we now let Δt converge toward zero, the autoregression matrix A will deﬁne
+the slope of C at any point in time, and thus become a matrix containing the
+local change (or drift) parameters of C(ti). This is formalized by the deterministic
+differential equation given below. Solving this formula yields a nonlinear regression
+function where t0 represents the beginning of the time series (i.e., the initial sam-
+pling point):
+
+                                 dCðtÞ
+                                       ¼ A  CðtÞ
+                                  dt
+
+                                C ðtÞ ¼ C ðt0 ÞeAðtt0 Þ
+
+   Implementation of such a model and its extension by randomly occurring
+deflections of C that can be related it to the change of concurrently assessed psy-
+chological constructs, has been extensively elaborated by Voelkle et al. (2012) and
+shall therefore not be discussed any further.
+
+
+
+24.4.2 Theory-based Quantiﬁcation of Endocrine Activity
+
+Although the previously presented model may render useful to merely describe the
+change of C across time, it fails to adequately account for endocrine activity in
+response to a certain experimental intervention due to lack of the incorporation of
+knowledge that may cause corresponding change of C (by its underlying subpro-
+cesses). As has been mentioned above, the adequate formalization of such mech-
+anisms relies on substantive theory. For the modeling of endocrine time-series in
+particular, the pharmacokinetic compartment theory might serve as a reasonable
+476                                                             R. Miller and C. Kirschbaum
+
+starting point. This theory has originally been developed for the analysis of sub-
+stance absorption, distribution, metabolism, and excretion within and between
+different physiological compartments (Bonate 2011; Gabrielsson and Weiner 2007).
+Each of such compartments (e.g., the adrenal glands and the blood) contains a
+speciﬁc amount of the investigated substance at each point in time, which is
+determined by the exchange of substance between those compartments (being
+indicated by various kinetic parameters ki). Proceeding from this reasoning, one can
+directly specify differential equations for each compartment that can be integrated
+into a single physiologically plausible model of the whole system: If we assume,
+for instance, that a certain amount of substance within the adrenal glands (C1:
+compartment 1) entered the blood (C2: compartment 2) unidirectionally, we would
+specify two differential equations; with Ci(t) representing the substance concen-
+tration at any time in the respective compartment i, ka representing the substance’s
+transfer (or absorption) rate from C1 to C2, and kel representing the substance’s
+elimination rate from C2.
+
+                            dC1 ðtÞ
+                                    ¼ ka C1 ðtÞ
+                              dt
+                            dC2 ðtÞ
+                                    ¼ ka C1 ðtÞ  kel C2 ðtÞ
+                              dt
+
+   Notably, specimen sampling from C1 is optional, as ka and C1(t) can be esti-
+mated as well from C2 specimens being sampled across time. Using Laplace
+transforms (Mayersohn and Gibaldi 1970), both differential equations can be solved
+and integrated to a nonlinear regression function. Similar to the solution of the
+data-driven continuous-change differential equation in the previous section, such a
+function relies on information about the initial state of the system. This is indicated
+by C1(t0); the need to estimate an initially available concentration of target sub-
+stance in C1.
+
+                                   C1 ðt0 Þ ka  kel t          
+                        C2 ðtÞ ¼                e       eka t
+                                   ðka  kel Þ
+
+   Adopting the compartment model outlined above for hormone analysis by
+assuming that C2 corresponded to the blood compartment, from which hormones
+were measured [i.e., C(t) = C2(t)], C1 could be regarded as a latent compartment
+containing the fraction of hormone to be secreted (before feedback inhibits any
+further feed-forward hormone release). However, its implementation is (yet) im-
+plausible, because the blood compartment C(t0) would contain no hormone at all at
+the beginning of specimen sampling. Such an assumption is inconsistent with the
+empirically observable patterns of continuously oscillating endocrine activity (e.g.,
+Brown et al. 2001; Klerman et al. 2003) that cause hormone concentrations to
+deviate substantially from zero at any point in time. Within a conventional panel
+design comprising blood sampling in temporal proximity to a single secretory
+event, we could use a generalization of the derived formula for estimating C(t) after
+24   Hormones                                                                           477
+
+n previous substance administrations (Gabrielsson and Weiner 2007), that is, C(t0)
+is assumed to converge toward some steady state gives a ﬁxed phase τ (that deﬁnes
+the elapsed time period before C1(t0) is reinstated). The corresponding equation is
+provided below:
+                                                                               
+                       C1 ðt0 Þka          1  enkel s kel t    1  enka s ka t
+      C2 ðtÞ ¼ CðtÞ ¼                                   e                     e
+                      ðka  kel Þ          1  ekel s             1  eka s
+
+   As n increases toward inﬁnity and given the substance has been completely
+transferred to C2 as t approaches the phase duration τ, the minimal C(t0) can be
+calculated by the following formula, with t0 denoting a point in time that is found
+between the initial sample and the ﬁrst observable rise of hormone levels.
+                                                  kel s 
+                                    C1 ðt0 Þka      e
+                         C ðt0 Þ ¼             
+                                   ðka  kel Þ    1  ekel s
+
+    Fitting of such a model can nowadays be conveniently be implemented via
+commercially available nonlinear regression tools (e.g. R, NONMEM, or SAS) or
+utilization of generic Markov-Chain Monte-Carlo methods (e.g. WinBUGS; see
+Lunn et al. 2002, or STAN). We illustrate such a model in Fig. 24.5, that has been
+ﬁtted to the mean cortisol concentrations being obtained before, during, and after
+stress-induction by von Dawans et al. (2011).
+    Proceeding from such a model, one can also estimate the overall extent of
+endocrine activity by calculating the amount of hormone that is additionally
+available as compared to a scenario, where endocrine stimulation was unsuccessful.
+Such a measure can be quantiﬁed as the difference between the area under the
+concentration curve (AUCC) given a pulse was present (within the time period from
+t0 = 0 to phase duration τ, see solid line in Fig. 24.4) and AUCC given no pulse was
+present (i.e., the time period from t0 = τ to twice the phase duration 2τ, see dashed
+line in Fig. 24.4):
+
+                        C1 ðt0 Þka
+                AUCC ¼
+                       ðka  kel Þ
+                                     nkel s
+                                                                       
+                            Zs 1  e
+                                                  kel t     1  enka s ka t
+                                               e                         e dt
+                             0
+                                 1  ekel s                 1  eka s
+                                                                               1
+                         Z2s                                         
+                               1  enkel s kel t          1  enka s ka t A
+                                             e                          e dt
+                                1  ekel s                 1  eka s
+                          s
+
+
+   Conditional on the validity of the proposed model for mapping the kinetics of C,
+this AUCC to actually quantiﬁes endocrine activity on a theoretical basis. In contrast
+478                                                                     R. Miller and C. Kirschbaum
+
+
+
+
+Fig. 24.5 Empirical salivary cortisol concentrations and the predicted salivary cortisol trajectory
+before, during, and after HPA stimulation by a stress-protocol (TSST-G; see von Dawans et al.
+2011). Model ﬁtting yielded the following parameters: the amount of cortisol being secreted
+relative to the volume of distribution C1(t0) = 26.06 nmol/L, the rate of cortisol secre-
+tion ka = 0.083, and the rate of cortisol elimination ke = 0.026. The dotted line denotes the
+steady state C(t0), that is, the concentration that needs to be reached before the cortisol in C1(t0) is
+secreted again (after τ minutes). The dashed line shows the predicted trajectory of cortisol
+concentrations in case no endocrine response would have been elicited due to the stress-protocol
+
+
+to the ΔC operationalization of endocrine activity, which crucially depends on the
+time specimens are sampled, the AUC is easily interpretable and represents a more
+holistic operationalization of individual endocrine activity. Due to the complexity
+of its calculation from such parametric models, however, nonparametric AUC
+variants have been proposed (e.g., AUCi and AUCg being calculated from trape-
+zoidal C decomposition; Fekedulegn et al. 2007; Pruessner et al. 2003), which are
+based on linear interpolation between all discrete points in time. Consequently,
+these variants are no real, but rather discrete-time indicators of endocrine activity, as
+the sampling time of specimens is crucial to recover the data generating mechanism.
+Despite of this shortcoming, they can be regarded as convenient data-driven
+approximations to the information being provided by continuous-time AUCs (given
+a sufﬁcient number of available specimens). Finally, their utility with regard
+to measuring endocrine activity has been supported by (Fekedulegn et al. 2007),
+who showed that a combination of AUCi and AUCg may serve well to account for
+the major fraction of time-series variance in hormone concentrations.
+24   Hormones                                                                                 479
+
+
+References
+
+Andrew R, Westerbacka J, Wahren J et al (2005) The contribution of visceral adipose tissue to
+   splanchnic cortisol production in healthy humans. Diabetes 54:1364–1370
+Barrett EJ (2005) The endocrine system. In: Boron WF, Boulpaep EL (eds) Medical physiology: a
+   cellular and molecular approach. Elsevier Saunders, Philadelphia
+Bollen KA, Curran PJ (2004) Autoregressive latent trajectory (ALT) models a synthesis of two
+   traditions. Sociol Method Res 32:336–383
+Bonate PL (2011) Pharmacokinetic-pharmacodynamic modeling and simulation, 2nd edn.
+   Springer, New York City
+Brown EN, Meehan PM, Dempster AP (2001) A stochastic differential equation model of diurnal
+   cortisol patterns. Am J Physiol Endocrinol Metab 280(3):E450–E461
+Dickerson SS, Kemeny ME (2004) Acute stressors and cortisol responses: a theoretical integration
+   and synthesis of laboratory research. Psychol Bull 130:355–391
+Droste SK, de Groote L, Atkinson HC et al (2008) Corticosterone levels in the brain show a
+   distinct ultradian rhythm but a delayed response to forced swim stress. Endocrinology
+   149:3244–3253
+Everitt BS (2009) Multivariable modeling and multivariate analysis for the behavioral sciences.
+   CRC Press, Boca Raton, FL
+Fekedulegn DB, Andrew ME, Burchﬁel CM et al (2007) Area under the curve and other summary
+   indicators of repeated waking cortisol measurements. Psychosom Med 69:651–659
+Gabrielsson J, Weiner D (2007) Pharmacokinetic/pharmacodynamic data analysis, 4th edn.
+   Swedish Pharmaceutical Press, Stockholm
+Gao W, Stalder T, Foley P et al (2013) Quantitative analysis of steroid hormones in human hair
+   using a column-switching LC-APCI-MS/MS assay. J Chromatogr B Anal Technol Biomed
+   Life Sci 928:1–8
+Gröschl M (2008) Current status of salivary hormone analysis. Clin Chem 54:1759–1769
+Gröschl M, Köhler H, Topf HG et al (2008) Evaluation of saliva collection devices for the analysis
+   of steroids, peptides and therapeutic drugs. J Pharmaceut Biomed 47:478–486
+Guastella AJ, Hickie IB, McGuinness MM et al (2013) Recommendations for the standardisation
+   of oxytocin nasal administration and guidelines for its reporting in human research.
+   Psychoneuroendocrinology 38:612–625
+Hellhammer J, Fries E, Schweisthal OW et al (2007) Several daily measurements are necessary to
+   reliably assess the cortisol rise after awakening: state-and trait components.
+   Psychoneuroendocrinology 32:80–86
+Hofman LF (2001) Human saliva as a diagnostic specimen. The Journal of Nutrition 131:1621S–
+   1625S
+Kirschbaum C, Steyer R, Eid M et al (1990) Cortisol and behavior: 2. application of a latent
+   state-trait model to salivary cortisol. Psychoneuroendocrinology 15:297–307
+Kirschbaum C, Gonzalez Bono E, Rohleder N et al (1997) Effects of fasting and glucose load on
+   free cortisol responses to stress and nicotine. J Clin Endocrinol Metab 82:1101–1105
+Klerman EB, Adler GK, Jin M et al (2003) A statistical model of diurnal variation in human
+   growth hormone. Am J Physiol Endocrinol Metab 285:E1118–E1126
+Knox C, Law V, Jewison T et al (2011) DrugBank 3.0: a comprehensive resource for ‘omics’
+   research on drugs. Nucleic Acids Res 39:D1035–D1041
+Lunn DJ, Best N, Thomas A et al (2002) Bayesian analysis of population PK/PD models: general
+   concepts and software. J Pharmacokinet Pharmacodyn 29:271–307
+Mayersohn M, Gibaldi M (1970) Mathematical methods in pharmacokinetics. I. Use of Laplace
+   transform in solving differential rate equations. Am J Pharm Educ 34:608–614
+Miller R, Plessow F (2013) Transformation techniques for cross-sectional and longitudinal
+   endocrine data: application to salivary cortisol concentrations. Psychoneuroendocrinology
+   38:941–946
+480                                                                 R. Miller and C. Kirschbaum
+
+Miller R, Plessow F, Rauh M et al (2013) Comparison of salivary cortisol as measured by different
+    immunoassays and tandem mass spectrometry. Psychoneuroendocrinology 38:50–57
+Perogamvros I, Keevil BG, Ray DW et al (2010) Salivary cortisone is a potential biomarker for
+    serum free cortisol. J Clin Endocrinol Metab 95:4951–4958
+Pruessner JC, Kirschbaum C, Meinlschmid G et al (2003) Two formulas for computation of the
+    area under the curve represent measures of total hormone concentration versus time-dependent
+    change. Psychoneuroendocrinology 28:916–931
+Schürmeyer TH, Avgerinos PC, Gold PW et al (1984) Human corticotropin-releasing factor in
+    man: pharmacokinetic properties and dose-response of plasma adrenocorticotropin and cortisol
+    secretion. J Clin Endocrinol Metab 59:1103–1108
+Stalder T, Kirschbaum C (2012) Analysis of cortisol in hair—state of the art and future directions.
+    Brain Behav Immun 26:1019–1029
+Vining RF, McGinley RA, Symons RG (1983) Hormones in saliva: mode of entry and consequent
+    implications for clinical interpretation. Clin Chem 29:1752–1756
+Voelkle MC, Oud JHL, Davidov E et al (2012) An SEM approach to continuous time modeling of
+    panel data: Relating authoritarianism and anomia. Psychol Methods 17:176–192
+von Dawans B, Kirschbaum C, Heinrichs M (2011) The trier social stress test for groups
+    (TSST-G): a new research tool for controlled simultaneous social stress exposure in a group
+    format. Psychoneuroendocrinology 36:514–522
+Wetherell MA, Crown AL, Lightman SL (2006) The four-dimensional stress test: psychological,
+    sympathetic-adrenal-medullary, parasympathetic and hypothalamic-pituitary-adrenal responses
+    following inhalation of 35 % CO2. Psychoneuroendocrinology 31:736–747
+Wild D (2013) The immunoassay handbook: theory and applications of ligand binding, ELISA
+    and related techniques, 4th edn. Elsevier, Oxford

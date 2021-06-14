@@ -1,0 +1,930 @@
+
+13
+Explaining Slightly-Better-than-Chance Accuracy
+The slightly-better-than-chance deception detection accuracy findings
+reviewed in chapter 3 pose a serious challenge for deception theories that
+speaks to the issue of human accuracy in deception detection. Recall that accuracy findings in standard deception detection experiments have been remarkably consistent and are exceptionally well documented. Viable theory,
+I believe, needs to adequately account for the various nuances of these findings. It is my contention that prior theories and explanations come up short
+in this regard. TDT, in contrast, not only makes good sense of prior findings
+but does so in a way that leads to several new insights about what is going on.
+Besides just the intellectual satisfaction of having a coherent explanation
+for why the findings are the way they are, there is a big practical payoff as well.
+If we can understand why improved accuracy has been so elusive for so long,
+then we might be able to leverage this knowledge to uncover alternative approaches that can produce the long-sought-after improvement. This is part of
+why I think the TDT explanation for accuracy is so compelling. TDT’s explanation of poor accuracy in deception detection points to new ways forward.
+TDT’s approaches to improving accuracy are covered in the next chapter.
+Here we set the stage by understanding what had been holding accuracy back
+for so long. Along the way, we will cover some of the most useful information my research has ever produced: uncovering what makes some people so
+much more believable than others. So, let’s unleash our critical thinking skills,
+embrace our inner detective, and get ready to solve a long-standing mystery.
+A PERSISTENT PUZZLE
+Toward the end of chapter 1, I briefly described the mystery of normally distributed slightly-better-than-chance-accuracy. In chapter 3, I described prior findings
+
+226
+
+CHAPTER THIRTEEN
+
+Figure 13.1. Accuracy in deception detection experiments prior to 2006.
+
+on deception detection in detail. By the time of the Bond and DePaulo meta-
+analysis in 2006,1 there were almost three hundred findings spanning sixty-
+five years of research. That’s a whole lot of data. All those results painted a
+consistent yet curious picture of human lie detection.
+This chapter explains why the accuracy findings are the way they are. We
+want an elegant solution where all the facts cohere and make sense. Let’s begin
+by briefly reviewing the crucial facts from chapter 3. Then I will make clear
+what is so puzzling about these facts.
+Figure 1.1 graphed findings from deception detection experiments prior
+to 2006. That figure is reproduced here for easy reference as figure 13.1. The
+accuracy obtained in each of 289 separate experiments is plotted on the horizontal axis, and the number of experiments finding each accuracy result is
+plotted on the vertical axis. The normal curve is superimposed as a reference
+to aid interpretation.
+In meta-analysis, the average accuracy across prior studies was just under
+54%.2 As we saw with lie prevalence, averages can be misleading when findings are not normally distributed. But this is not the case with accuracy. Findings from the individual studies are neatly and normally distributed around the
+average. Averages from individual studies seldom fall very far from the across-
+study average of 54%. The standard deviation is only about 6%. Further, the
+across-study average is both at the center of and at the peak of the distribution
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+227
+
+of prior findings. What all this means is that all the findings from hundreds
+of experiments completed over several decades by different labs all converge
+on a single point just under 54%. The across-study average is nicely descriptive of prior research findings plus or minus some relatively small amount.
+More than half of prior findings fall between 50% and 60%. More than 97%
+of prior results fall between 40% and 68%. There were no studies below 30%
+or above 73%.
+Although 54% is only four points above fifty-fifty chance, the 54% is nevertheless highly statistically significant. This is an important fact to keep in mind.
+Accuracy is not chance! It drives me nuts when I read research describing accuracy as no better than chance. It is an easy simplification to shorten the
+awkward but factually correct slightly-better-than-chance to just-chance. Statistically speaking, however, there can be no debate. On the social science standard of the null hypothesis significance test at p < .05, chance accuracy is thoroughly discredited at p < .00001. In terms of effect sizes, the difference is about
+d = .4. Social science rules of thumb call this a difference of moderate size. The
+main point to remember here is that accuracy is reliably better than chance.
+There are at least three key features of the prior results that we need to reconcile if we are to adequately solve the mystery of normally distributed slightly-
+better-than-chance accuracy.
+First, why is accuracy just slightly-better-than-chance, never much more,
+never much less? If people could not detect lies at all, the findings would be
+centered around 50% chance. They are not. But if at least some people could
+detect lies in some situations, one would think that there would be more instances of higher accuracy. There are not. As we saw in chapter 3, prior findings show a pattern where the results constituting the tails of the distribution
+are exclusively from small-sample studies. The more reliable results based
+on more data all fall within the narrow 50%–60% range. What kind of social
+processes might make people so invariably just a little bit better than chance?
+Second, why are prior findings so robust, consistent, and persistent? As we
+saw in chapter 3, there is a curious lack of moderators. Slightly-better-than-
+chance accuracy holds across media (text, audio only, audio-visual), for both
+high-and low-stakes lies, for both experts and students, for mediated communication and face-to-face interaction, for both planned and spontaneous
+lies, etc. Because the findings we want to explain hold across all these potential moderators, any explanation for the findings that rests on one or more of
+these moderators making the difference must be rejected as false. A viable
+explanation needs to account for the robust nature of prior findings across
+moderators like communication media, communication duration, and stakes.
+
+228
+
+CHAPTER THIRTEEN
+
+Third, why are the standard errors for accuracy scores invariably so small?3
+The standard errors in deception detection accuracy research are unusually
+small on social scientific standards. This is an unappreciated fact, but it is a
+fact all the same, and all the facts need to be accounted for. The small standard error is perhaps the oddest and most perplexing aspect of the puzzle.
+There just aren’t large individual differences in how judges perform in deception detection experiments. In just about every other aspect of social life I can
+think of, people are different from one another. Whenever I give a test in one
+of my classes, some students do better than other students. Some students
+ace the test, others fail, and there are students spread out in between. There
+is always substantial variation in performance from person to person. Some
+people are better athletes than others. Some people are more extroverted than
+others. Some people are more perceptive than others. You name it, in social
+science individual differences are typically huge. In statistical analyses all this
+individual variation gets tossed into the error terms. Consequently, error terms
+in human data are usually big. But not in deception detection findings. Error
+terms aren’t much bigger than mere chance variation.4 What causes this unusual constancy not just across the findings of studies but also across the in
+dividual research subjects within studies?
+THE THREE USUAL SUSPECTS
+Combing through the literature, there seem to be three usual suspects. The
+mystery of normally distributed slightly-better-than-chance accuracy has been
+around since the 1980s5 and has been the subject of much speculation and
+conjecture over the years. If one or more of these usual suspects is the culprit, then maybe the mystery has already been solved. But I don’t think so,
+and I’ll explain why. Further, ruling out these three usual suspects will help
+us avoid the same old mind blocks and mental pitfalls that have plagued deception theory over the years, thereby freeing us up to look for new, previously
+overlooked, suspects.
+The first and oldest of the usual suspects is the idea that people simply
+look for the wrong cues. The research we discussed in chapter 2 on the widespread belief that liars won’t look you in the eye, for example, seems to support the idea that people look for the wrong cues. Recall that a lack of eye contact is the worldwide number one folk belief about deception.6 Yet eye contact
+has no actual utility in distinguishing truth from lie.7
+The most obvious problem with the wrong-cues explanation is that it implies that there are right cues. As we saw in chapter 2, the evidence for the existence of a reliable set of diagnostic cues is dubious at best. The claim that
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+229
+
+cues are weak and inconsistent fits the data better.8 Further, if the problem was
+simply that people looked for the wrong cues, then the solution to poor accuracy would be obvious. We could just train people to ignore the wrong cues and
+pay attention to the right cues. But, as we will see in TDT experiments twenty-
+four through twenty-six, slightly-better-than-chance accuracy persists despite
+training. Training lowers truth-bias, but it does not substantially affect truth–
+lie discrimination enough to break out of the slightly-better-than-chance range.9
+TDT EXPERIMENTS TWENTY-F OUR, TWENTY-F IVE, AND TWENTY-S IX:
+CUES-B IASED LIE DETECTION TRAINING LACKS EFFICACY
+I call experiments twenty-four and twenty-five the “Bogus Training Experiments.”10 Experiment twenty-six is the Lie to Me experiment, named after the
+television show.11 To toot my own horn a bit, these are experiments with important implications. Together these experiments provide evidence allowing
+us to confidently rule out the wrong-cue explanation.
+If it were the case that cues had utility but people just use the wrong cues,
+then training people to look for the right cues should improve accuracy. To
+summarize, the research finds that cue training improves accuracy, but only a
+little bit, from 54% with no training to 58% or 59% with training.12 Accuracy
+is in the slightly-better-than-chance range either way.
+Training studies typically only compare trained subjects to no-training controls. I thought it would be informative to include the deception detection
+equivalent of a placebo control. TDT experiments twenty-four and twenty-five
+randomly assigned subjects to one of three groups. Some subjects got valid
+training, some were in a no-training control, and some received bogus training. Valid training involved instructing subjects to look for cues that should
+have utility, while bogus training involved cues unrelated to actual honesty.
+What I expected was that much of the improvement from no-treatment controls to valid training was placebic. Because cues lack utility, whether the cues
+are “valid” or not would be moot, but the act of training would sensitize subjects, providing a small boost to accuracy and a reduction in truth-bias.
+In TDT experiment twenty-four, 256 students were assigned to one of the
+three training groups. All subjects watched and judged sixteen messages (eight
+honest, eight lies). The valid training was based on cue effects from the best
+available research. The content of bogus training was based on cues that prior
+research suggested had no utility. When the results came in, subjects getting the bogus training actually did best of all (56%), followed by the no-
+training control (52%), and the valid training produced the lowest accuracy
+(48%).13 Wow!
+
+230
+
+CHAPTER THIRTEEN
+
+We changed up the content of the training in TDT experiment twenty-five.
+Rather than base our training on prior research, we coded the sixteen messages used in experiment twenty-four to see what cues (if any) actually distinguished truths from lies in those particular sixteen messages. The valid training in experiment twenty-five involved cues actually diagnostic in those specific
+communications. In the bogus training, participants were instructed in cues
+that did not differentiate those particular truths and lies. Some 158 new subjects were recruited and assigned to one of the three groups. This time the
+valid training group did the best (58%), followed closely by the bogus-training
+group (56%), and the no-training control (50%).14
+Two aspects of the bogus-training findings really drive home the futility of
+cue-based lie detection. The valid cues that were actually useful had to be obtained from the specific communication being evaluated. Training based on
+prior research findings actually backfired. This is because cues are ephemeral.
+What is telling for one person in one situation often does not apply beyond that
+instance. Second, most of the improvement from training is placebic. Valid
+training, even when based on cues that applied to the specific situation, did
+not produce accuracy much better than the bogus-training controls. Accuracy
+is not poor merely because judges were looking for the wrong cues.
+The opportunity for TDT experiment twenty-six came about when a prime
+time crime drama called Lie to Me began airing in 2009.15 The show was about
+a nonverbal-behavior expert who solves crimes through observation of body
+language and micro facial expressions. The ideas presented in the show were
+based on the work of Paul Ekman covered in chapter 4.
+In our experiment we randomly assigned 108 subjects to watch either an
+episode of Lie to Me, an episode of another crime drama about solving crimes
+with math (Numb3rs), or no show at all (control). Then subjects were given a lie
+detection task involving twelve interviewers from my cheating experiments.16
+Accuracy was 60% for the Lie to Me group, 62% in the Numb3rs control, and
+65% in the no-show control.17 As in the previous training experiments, learning about facial expressions and body language did not improve lie detection
+accuracy. Also as in the training experiments, learning about cues did make
+subjects more cynical. Subjects watching Lie to Me were less truth-biased and
+performed worse on honest interviews than subjects in the other two groups.18
+And if TDT experiments twenty-four through twenty-six aren’t enough to
+discredit the wrong-cue explanation, the 2011 Hartwig–Bond Brunswik Lens
+Model–inspired cue meta-analysis put the final nail in the wrong-cue coffin.19
+When the behaviors that actually affect honesty judgments are considered (as
+opposed to self-reported folk beliefs), people don’t rely on the wrong cues. Cue
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+231
+
+reliance and cue utility are correlated. Clearly, there are many good reasons to
+discount the wrong-cue explanation of poor accuracy.
+THE REMAINING USUAL SUSPECTS
+The second usual suspect is weak cues. This view holds that accuracy is poor
+because cues are only weakly diagnostic. Even if people rely on the “right”
+cues, they will still not be very accurate because even the most useful cues
+are just not very useful. The DePaulo20 and Hartwig–Bond21 meta-analyses of
+cues seem to back this up, as do the findings of TDT experiments twenty-four
+through twenty-six.
+But the most recent (2014) Hartwig–Bond meta-analysis challenges the
+weak-cue idea.22 Cue effects do indeed appear weak when looking at the evidence for any specific cue across multiple studies and over time. But what the
+2014 analysis showed was that this is not the case for multiple cues within specific experiments. Most individual experiments actually find strong cue e ffects.
+Cue effects are weak and inconsistent only when aggregated across experiments. If cues are strong within specific experiments, poor accuracy within
+specific experiments cannot be due to weak cues, because cues aren’t weak.
+Accuracy experiments show a very different pattern of results than cue studies. Accuracy experiments show slightly-better-than-chance accuracy at the level
+of the individual subject within experiments, at the level of individual experiments, and across experiments. Cues, in contrast, have substantial effects at
+the level of the individual subject within experiments, at the level of individual
+experiments, and appear weak only across experiments. Thus, I think there
+must be more to it than just weak cues.
+The third usual suspect is defective research design. This argument holds
+that accuracy is poor and cues are weak because of how deception detection
+experiments are typically designed. There are several variations on this theme.
+There is the counterfactual assertion that if lie stakes were only higher, then
+cues would be more diagnostic and accuracy would be higher.23 Or brief video
+snippets of truths and lies are blamed. 24 If only the communication duration
+were longer and more interactive, then cues would be more diagnostic, and
+accuracy would be higher.
+While I am generally sympathetic to concerns over ecological validity in deception research, the defective-research assertions regarding stakes, duration,
+or interactivity have all been tested and soundly discredited.25 Things like lie
+stakes and interactivity do not moderate accuracy conclusions. Further, as with
+the wrong-cue explanation, the defective-research explanation points to an obvious cure. If the defective method reasoning was correct and we fixed the re-
+
+232
+
+CHAPTER THIRTEEN
+
+search designs in the suggested way, accuracy should no longer be slightly-
+better-than-chance. But that’s not what happens. Slightly-better-than-chance
+accuracy persists.
+There is probably more than a kernel of truth in all three explanations.
+People do look for the wrong things, and, as we will see in the next chapter,
+changing what people look for can dramatically improve accuracy. Cues are, at
+best, weak indicators of deception, at least across messages, individuals, and
+situations. More ecological research designs are surely needed.
+Despite these kernels of truth, all three of the usual suspects run afoul of
+some pesky facts. They don’t really tell us why accuracy is so reliably better
+than chance, but not by much. They don’t explain the uniformity in accuracy
+findings across the full range of non-moderators. They don’t explain the small
+standard errors. So, maybe we need to expand our search and see whether there
+is evidence pointing to suspects who have been overlooked.
+SENDER VARIATION
+TDT’s solution to the mystery is articulated in three modules and two propositions. As a start at explaining these, let me add one more fact that was tossed
+out at the end of chapter 3 and is critical here. It might be helpful to flip back
+to figure 3.2 and review the distinctions between ability, truth-bias, demeanor,
+and transparency. Anyway, here is the critical point. In deception detection experiments, senders vary a lot more than judges. To give you a feel for this with
+real data, TDT experiment twenty-seven provides a nice demonstration with
+some previously unpublished findings.
+TDT EXPERIMENT TWENTY-S EVEN:
+SENDERS VARY MUCH MORE THAN JUDGES
+This experiment used tapes from the second iteration of the NSF cheatings
+tapes. In the second iteration of the cheating experiment, 113 taped interviews were created during 2006 and 2007. Of the 113 interviewees, 22 subjects cheated and lied about cheating throughout the entire interview. That
+is, 22 of 113 cheated and maintained their denials throughout the interview,
+never confessing. I went through still images to find an honest sender matching the sex, ethnicity, and approximate physical attractiveness of each cheating liar. With those, I had a collection of forty-four senders, all of whom denied cheating, including twenty-two honest denials and twenty-two liars falsely
+denying cheating.
+Sixty-three subjects (MSU students) served as judges in experiment twenty-
+seven. Each judge watched each of the forty-four interviews and judged each
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+233
+
+Figure 13.2. Stem-and-leaf plots of judge and sender
+accuracy in TDT experiment twenty-seven.
+
+sender as either an honest noncheater or as a cheating liar. I scored each of the
+sixty-three judges for accuracy (average percentage correct across all forty-four
+senders), just like usual in deception detection experiments. The only thing
+unusual so far is the number of senders and judgments. In the TDT detection experiments described previously, judges viewed somewhere between one
+and twelve senders. This time, judges viewed many more senders and made
+many more judgments. Sixty-three judges evaluated forty-four senders yielding 2,772 judgments. All these judgments makes the findings nicely stable.
+Judge accuracy in experiment twenty-seven was very much in line with
+slightly-better-than-chance accuracy. Judges were, on average, correct 56% of
+the time. This was significantly better than chance. I plotted out the accuracy
+scores for each of the sixty-three judges in the top half of figure 13.2. Figure
+13.2 is a “stem-and-leaf plot.” Let me tell you how to read and interpret the results. If you are not familiar with them, stem-and-leaf plots are fantastic for
+visualizing data.
+
+234
+
+CHAPTER THIRTEEN
+
+As the name implies, stem-and-leaf plots have stems and leaves. In the case
+of the plots in figure 13.2, the stems are the vertical column of numbers on
+the left moving down from .0, .1, .2, . . . to .9. There are two stems, one for
+judges and one for senders. Different plots have different stems. The leaves
+are each number to the right of the stem. Each leaf is a score. In the top plot,
+there are sixty-three leaves, one for each judge. In the lower plot, there are
+forty-four leaves, one for each sender. You get the score for each judge and
+each sender by combining the stem with the leaf. For example, moving top-
+down, the first leaf under Judges is a six. The stem for that six is .3. This corresponds to .36 (36%). Moving top-down and left-right, we see that the scores
+are, in order from smallest to largest, .36, .43, .44, .44. .44, .48, .48, .48, .50 . . .
+up to two .70s. Got it?
+One of the nice things about stem-and-leaf plots is that you get to see all
+the data. You see every score. But you can also see the overall pattern of scores.
+You can look at figure 13.2 as a sideways bar chart. See? There is just one score
+in the .3s, seven scores in the .4s, a whole bunch in the .5s, several in the .6s,
+and nothing over .70, where there are two scores. You can zoom in to see in
+dividual scores or zoom out to graphically see how the scores are distributed.
+Looking at the judge scores, notice how the pattern in the top half of fig
+ure 13.2 is remarkably similar to the pattern in figure 13.1. Individual judges
+in experiment twenty-seven are normally and tightly distributed around the
+average judge score just as individual experiments are normally and tightly
+distributed around the across-study average in meta-analysis. In TDT experiment twenty-seven, accuracy ranged from 36% to 70%. In the meta-analytic
+data in figure 13.1, the range was 30% to 73%. The average in meta-analysis
+was 54% compared to 56% in experiment twenty-seven. Both have a standard
+deviation of 6%. In both, a majority (approximately 60% of scores) of scores
+fall in the 50%–60% range, and the vast majority of scores fall between 44%
+and 66%. The judges in experiment twenty-seven tell the same story and act
+the same way as in the results of the nearly three hundred previous deception
+detection experiments in meta-analysis.
+But there is another way to score the data in experiment twenty-seven.
+Because sixty-three judges rated each sender, I also created sender accuracy
+scores. For judge accuracy, I averaged across senders. Judge scores tell us what
+percentage of senders each judge got right. This is how accuracy is usually
+scored. For sender accuracy, I averaged across judges to get a score for each
+sender. Sender scores tell us what percentage of judges got each sender right.
+I plotted those in the bottom half of figure 13.2 so you can visually compare
+judge and sender scores.
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+235
+
+I first did this in a published paper in 2010.26 I can think of only a few other
+published examples of scoring senders across judges.27 Judges are the typi
+cal unit of analysis in deception detection experiments, and researchers rely
+heavy on precedence. Most research is guided by what other research did before. These conventions make research more easily comparable across studies, but they also discourage innovation.
+When senders are plotted, the data look very different. Interestingly but not
+surprisingly, the mean is exactly the same. The average is 56%, just as it was for
+judges. If you think about it for a moment, you will see it has to be this way. In
+one case, rows are averaged first, then row averages are averaged to get a grand
+mean. In the other case, individual columns are averaged, then the column
+averages are averaged. The data are the same, so the grand mean is the same.
+Row averages and column averages are centered on the same grand average.
+However, the dispersion around the grand average looks much different
+for senders and judges. There are four senders that more than 80% of judges
+got wrong (14%, 16%, 17%, and 17%). There are also four senders that more
+than 80% of judges got right (81%, 88%, 91%, and 92%). Whereas the standard deviation for the judges is a small 6%, the standard deviation for the senders was much larger: 20%.
+There is just a lot more “action” going on in the senders than in the judges.
+Judges all do pretty much the same. Senders, in contrast, are all over the place.
+There are senders for which judges are just a little bit better than chance. There
+are also senders that judges systematically do well on, and other senders that
+judges systematically misjudge. Because there are relatively equal numbers
+of almost-always-right-about and almost-always-wrong-about senders, these
+cancel out when scoring judges, and these senders become invisible. We see
+them only when we score by sender, and only then when we plot the data instead of looking at just the average. When I see data like these, I conclude that
+I had better look at the senders, not just the judges, and I had better look at
+variability and distributions, not just averages. Judges and averages are not the
+most interesting or most informative part of the story.
+Here is an important bit of statistical wisdom. In research, we want to uncover how variables are related. For a variable to covary with another variable,
+both must vary in the first place. That which does not vary cannot covary. Covariance, in turn, is necessary for causation (along with time-ordering and
+ruling out spurious factors). Much like the wise advice in corruption investigations to follow the money, in science, the secret is to follow the variation.
+Where there is variation, there is the potential for causation. Understanding
+causation is what explanation is all about. Because there is much more varia-
+
+236
+
+CHAPTER THIRTEEN
+
+tion in senders than in judges, it is wise to invest our attention there. This was
+my thinking, and I continue to believe it sound. As we will soon see, looking
+at sender variation leads to some important new insights.
+Note that turning our attention from judges to senders and from averages to
+variation points us away from the three usual suspects. The wrong-cues explanation is squarely a judge thing. The defective-design explanation is external to
+both senders and judges and should affect both. Only weak cues is squarely a
+sender thing. But weak cues is about sender similarity (senders generally have
+weak cues), not sender-to-sender variation. We want an explanation that is not
+just about senders but about why senders differ from each other so much, and
+why this is important. Weak cues does not account for the huge variation in
+senders in figure 13.2. Instead, if cues were uniformly weak, senders would
+be clumped around slightly-better-than-chance, just like judges. They are not.
+Recall from the end of chapter 3 that senders vary in two important ways:
+transparency and demeanor. Sender transparency is the sender equivalent to
+judge accuracy. A sender who is transparent is one that all judges always get
+right regardless of their actual honesty. Transparent senders are an open book.
+Everyone can read them. They are believed when they are honest, but seen as
+lying when they are lying. Highly transparent liars are bad liars. No one believes their lies. They give themselves away. Highly transparent truth tellers
+are great when honest. They are correctly believed.
+Low transparency does not make for a good liar.28 People with no transparency are inscrutable. We just can’t tell whether they are honest or not. People
+with negative transparency, if such people exist at all, are those that judges always get wrong. The negative transparency person is believed when lying but
+invariably disbelieved when honest. Good liars, in contrast, are people who
+are always believed, both when they are lying and when they are not. That is,
+good liars are people with honest demeanors. They are the credible ones, not
+the hard-to-read poker-faced types.
+Honestly demeanored people are those who are always believed regardless of their actual honesty. They just come off as honest. Poorly demeanored
+people provoke suspicion and skepticism in others. They come off as insincere, inauthentic, sketchy, and maybe even creepy.
+In TDT experiment twenty-seven, demeanor and transparency are confounded, as they are in most deception detection experiments. The reason is
+that senders were either honest or lying, but not both. If we have an honest
+sender who is believed by most judges, is that because he or she has an honest demeanor or is just high-transparency? We can’t tell. To disentangle demeanor from transparency, we would need senders to tell multiple truths and
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+237
+
+multiple lies to multiple judges. If our usually believed honest sender is usually believed both when honest and when lying, then it is demeanor driving
+the belief. But if he or she is believed only when honest and not when lying,
+then we have a highly transparent sender. Absent that sort of data, all we know
+for sure is that senders vary much more than judges. Now, you can probably
+guess what TDT experiment twenty-eight will look like. Before we get there,
+let me lay out my thinking about how individual differences in transparency
+help solve the mystery of slightly-better-than-chance accuracy.
+A FEW TRANSPARENT LIARS
+The part of the puzzle that I address first is why accuracy is typically better than
+chance.29 From the weak-cues perspective, the answer is that cues are only a
+little bit diagnostic; hence, they yield only a little accuracy. Not zero, just a bit.
+From the logic of cue theories (see chapter 5), this seems to make sense. In
+the mediated statistical relationships where honesty–deception leads to cues,
+and cues lead to judgments, if the direct causal links are small but non-zero,
+then the indirect link between actual honesty and judgments will be not-zero.30
+We get accuracy just a little better than chance.
+But I am not trapped within cue theory logic, and TDT is not a cue theory.
+TDT focuses instead on individual differences between senders, not generalities (averages) across senders. How might sender variation cause consistent
+slightly-better-than-chance accuracy?
+Sometimes thinking by analogy helps. Deception detection accuracy experiments are much like true-false tests. Senders are like the questions on the
+test. Liars are false statements, and honest senders are the true statements.
+The judges are like the test takers. Instead of marking test questions as true
+or false, judges rate senders as honest or lying. In this analogy, TDT experiment twenty-seven was a true-false with forty-four questions (twenty-two true
+and twenty-t wo false) given to sixty-three test takers.
+I’m going to round the 54% in deception research up to 55% just to make
+the example easier. What kind of test always yields an average of 55% plus or
+minus some small amount? It does not matter who takes the test. Honor students score the same as students on academic probation. For that matter, students at elite private institutions do the same as those who can’t even get into
+college. It doesn’t matter if the test takers study or not, or even take the class
+or not. People always average 55%. There are no individual differences in test
+takers and no moderators. What in the world is going on?
+Do you know the answer to this little brain teaser yet? Imagine a true-
+false test with one hundred questions. Ninety of the questions are super hard.
+
+238
+
+CHAPTER THIRTEEN
+
+True or false: the Xingu is the eighth-longest tributary of the Amazon River?31
+No one knows the answer. Everyone must guess. People have just a fifty-fifty
+chance on the hard questions, getting, on average, forty-five of them right
+(90 x 0.5 = 45). The other ten questions, in comparison, are really easy. Nearly
+everyone gets these right. True or false: 1 + 1 = 3.5? How do people do on this
+imaginary test? They get forty-five plus or minus chance on the hard questions and ten out of ten on the easy ones. 45 + 10 = 55. Such a test always produces an average score of 55% plus or minus chance, no matter who takes it.
+I wondered, What if most people are pretty good liars when they need to
+be? For the vast majority of senders, you just can’t tell. It’s chance detecting
+their lies if you have nothing to go on but their demeanor. But maybe there
+are a few people who just can’t lie convincingly. If these poor liars are put in
+a situation where they have to lie, everyone call tell that they are lying. Pretty
+much everyone gets them right. And there are just enough of these bad liars
+out there to make judges, on average, a little better than chance. If something
+like 10% of the population were exceptionally transparent liars, we would have
+a situation analogous to my test with ninety hard and ten easy questions. We’d
+get slightly-better-than-chance accuracy. We would see little variance in judges.
+And we’d see the variance in senders.
+Anecdotally, we have probably all met people who say they can’t lie well. I
+have definitely seen instances of this on the cheating tapes. There have been
+a few cheating subjects over the years who seem perfectly composed on the
+background questions, but when directly asked about cheating, they provide
+unbelievable denials that fool no one. There was one woman who blushed
+bright red when she started lying. There was another woman who broke into
+uncontrollable nervous laughter. There was a third guy who began stammering
+and conveyed a lack of conviction that could not be missed. When I have used
+these tapes in experiments or shown them in presentations, almost everyone
+knows that these unusually transparent liars really cheated despite their feeble
+denials. Everyone gets those senders right.
+If there were just a relatively few transparent senders, then we might expect the pattern of results shown in figure 13.1. Accuracy is better than chance
+because people get the transparent senders right. Accuracy is not much better than chance because most senders aren’t transparent. Things like training,
+expertise, stakes, and duration don’t make much difference because we don’t
+need those to see that the transparent liars are lying, and nontransparent senders are nontransparent regardless. Maybe this is why judges all perform pretty
+much the same, why we see more variability in senders than in judges, and
+why judge standard errors are so small. In short, if “a few transparent liars”
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+239
+
+thinking is right, then the various pieces of the puzzle fit together and make
+sense. Here is a brief summary of the A Few Transparent Liars module in TDT.
+A Few Transparent Liars—The reason that accuracy in deception detection is above chance in most deception detection experiments is that
+some small proportion of the population are really bad liars who usually give themselves away. The reason accuracy is not higher is that most
+people are pretty good liars.
+From the perspective of a few transparent liars, weak cues isn’t quite right.
+It’s more that cues are worthless or misleading for most senders, but cues are
+super telling for a small minority of people. On average, cues are weak, but
+that hides the real story of why cues are weak. The real story involves indi
+vidual differences in cue utility between senders.
+But, you might ask, if there are just a few transparent liars, why so much
+sender variance in figure 13.2? That’s the one thing that doesn’t yet fit. The answer, I think, is that most of that variance is demeanor, not transparency. We
+know from meta-analysis that there is much more variance in demeanor than
+in transparency.32 The trouble is, demeanor variance and transparency variance were confounded in experiment twenty-seven. We need to unconfound
+them. That, as it turns out, is easier said than done, but the next TDT experiment gave it a shot.
+TDT EXPERIMENT TWENTY-E IGHT:
+LOOKING FOR A TRANSPARENT LIAR
+To separate out all the sources of variation in deception detection (judge ability,
+judge truth-bias, sender transparency, and sender demeanor), we need multiple senders who tell multiple truths and lies that are all assessed by multiple judges. I had the opportunity to do this one semester when I taught an
+undergraduate special topics class on deception. The class met one night per
+week for two and a half hours, which provided almost enough time, given the
+thirty or so students who showed up for class on any given night. The experiment provided a great way to exemplify ideas relevant to the class with real
+data from the class.33 So, one night we tried it out and spent the class with students trying to lie to and detect the lies of their fellow students. I brought in
+the results to the next class. The students thought it was really cool, and I got
+a peek at some hard-to-collect data.
+First, each student privately and honestly answered the same ten open-ended
+autobiographical questions. These questions were previously used in TDT ex-
+
+240
+
+CHAPTER THIRTEEN
+
+periments nineteen through twenty-one. One by one, each student came up
+in front of the class and was asked each of the ten questions. Based on a random assignment different for each sender, each sender had to lie on five of
+the answers and give honest answers on the other five questions. All the rest
+of the students judged each answer as honest or not.
+Thirty students attended class that night, but given tardiness and early departures, only twenty-seven students judged all the senders. We ran out of
+time before everyone could be a sender, but twenty-one of the students got
+to try being senders. Thus, there were twenty-one senders and twenty-seven
+judges, and all senders were judges for the other senders. It was close to a
+full round-robin.
+Ability and truth-bias were scored for each of the twenty-seven judges.
+Truth-bias was the percent of answers each judge believed. Ability was the accuracy score for each judge, the percentage of messages each judge got correct.
+Each of the twenty-one senders was scored for transparency and demeanor.
+Transparency scores were the percentage correct judges got for each sender.
+Demeanor was the percentage of the time each sender was believed. For the
+twenty-one students who were both senders and judges, all four scores were
+available.
+I plotted the results in figure 13.3. There was not as much sender variance
+as we saw in experiment twenty-seven, but there was still much more sender
+variance than judge variance. I think that because judges were also senders,
+they suspected a fifty-fifty base-rate, and that this expectation depressed variation in demeanor. Judges knew better than to believe or disbelieve a large majority of answers for any one sender. However, that is speculation on my part.
+Importantly, there was a sender who was unusually transparent. There was
+one person everyone else got right 84% of the time. This sender was 2.5 standard deviations above the mean on transparency. The mode for this sender was
+90%, and even the poorest-performing individual judge obtained 60% when
+judging this sender. Thus, one individual appeared to be unusually transparent. Perhaps the idea of a few transparent liars has merit.
+A few transparent liars nevertheless does not completely solve the mystery.
+It explains why accuracy is usually just a little better than chance. But what’s
+going on with the non-transparent liars? Senders vary in demeanor as well as
+transparency, so that is where we turn next.
+SENDER DEMEANOR
+A person’s demeanor is how that person appears to others. Demeanor involves
+the connection between what a person does (an objective and observable pat-
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+241
+
+Figure 13.3. Stem-and-leaf plots of judge and sender accuracy-transparency
+and believability in experiment twenty-eight.
+
+tern of behavior) and how that person is perceived by others watching him
+or her. It’s about how we present ourselves, what kind of person other people
+think we are, and the link between the two.
+Demeanor is an individual difference because we all come off differently.
+Some people seem shy. Others seem outgoing. Some people seem tense, while
+others seem more laid-back. Some people come off as aggressive, some creepy,
+some nerdy, some sophisticated, some just average and unremarkable.
+Regardless of the specific type of demeanor conveyed, demeanor has two
+important characteristics besides just being an individual difference. First, demeanor tends to be a global perception. The specific behaviors that create a
+person’s demeanor come off as a package. They involve a constellation of in-
+
+242
+
+CHAPTER THIRTEEN
+
+terrelated behaviors.34 These constellations of behaviors create a distinct, coherent impression on others. The main idea from gestalt psychology captures
+this well: Demeanor involves a perceptual whole that is more than the sum of
+the individual behaviors that create the impression. Second, demeanor involves
+intersubjectivity in the impressions of an individual formed by others who observe that individual. That is, other people’s views of a person’s demeanor converge. Thus, demeanor involves constellations of interrelated behaviors that yield
+holistic impressions that are consistent across social observers.
+Our interest here is in a particular subtype of demeanor related to credibility, authenticity, and believability. I call this sender honest demeanor (or just
+“demeanor” for short). The idea is that some people just seem more honest
+than others. There are people whom other people tend to find very honest.
+Other people typically believe these honestly demeanored individuals. People
+with less honest demeanors set off warning bells and foster suspicion in others. There are large differences from person to person in honest demeanor.
+And differences in honest demeanor have little to do with actual honesty. I
+summarize the sender honest demeanor module in TDT as follows:
+Sender Honest Demeanor—There are large individual differences in believability. Some people come off as honest. Other people are doubted
+more often. These differences in how honest different people seem to
+be are a function of a combination of eleven different behaviors and impressions that function together. Honest demeanor has little to do with
+actual honesty, and this explains poor accuracy in deception detection
+experiments.
+The idea that senders differ a lot in believability is not new, and I cannot
+take credit for its origination. Instead, it is one of those ideas that seem to get
+reinvented periodically. The famed sociologist Erving Goffman wrote about
+the general idea of demeanor way back in 1956.35 Zuckerman and his colleagues used the word “demeanor” to refer to sender individual differences
+in believability in an insightful but underappreciated 1979 article.36 They too
+noted that demeanor had little to do with actual honesty. Frank and Ekman
+resurrected the idea twenty-five years later under the label “truthfulness generality” without reference to either Goffman or Zuckerman.37 Somehow the
+idea got lost again and again as research took off in other directions. I am the
+first to systematically try to unpack honest demeanor and assert its prominence as a critical explanatory mechanism behind poor accuracy in deception
+detection experiments.
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+243
+
+I clued into demeanor through a confluence of events about eight years ago.
+Before that I was vaguely familiar with the idea due to my affinity for Goffman’s writing and my familiarity with Zuckerman’s work. Three things converged about the same time that led me to one of those wonderful epiphanies
+where I connect the dots. I came to a stunning realization about the mystery
+of slightly-better-than-chance accuracy.
+First, I had recently become familiar with the 2008 Bond–DePaulo meta-
+analysis findings showing huge sender variation.38 I was also spending much
+time watching the NSF cheating experiment videotapes, editing them for vari
+ous deception detection experiments that I had in the works at the time. Third,
+new data from those detection experiments using the cheating tapes were rolling in. I’m usually pretty hands-on with my data. I look at the raw data, not just
+statistical printouts. I often enter my own data into spreadsheets, which might
+be unusual for grant-funded full professors. As I was entering data, I started
+seeing unmistakable patterns for particular senders. I cross-checked across
+different experiments to see whether the patterns held. They did. I watched the
+tapes yielding the results to further triangulate. I went back and reread Zuckerman. I was pretty sure I was on to something important. I designed a series of
+experiments to test my thinking. Looking back, these might turn out to be some
+of the most important experiments of my career. The implications are huge,
+both in terms of what I set out to accomplish and in terms of some truly stunning unanticipated findings and implications that popped out of the results.
+TDT EXPERIMENT 29:
+GAMING ACCURACY BY STACKING THE DEMEANOR DECK
+When I teach experimental design to my students, I flip the light switch in the
+classroom on and off as an example. By flipping the switch, I can turn the lights
+on and off at will. If we didn’t know about electricity, lights, and switches, it
+might seem like magic. I tell my students that if I really understand the causal
+forces at play in my research, I should be able to turn my phenomena on and
+off just like a light switch. This is what we want to do in our experiments. We
+want to turn the effects on and off at will by controlling the causal mechanisms that create the effect.
+Applying that concept to this chapter, if I understand slightly-better-than-
+chance accuracy, then I should be able to control it. In this case, instead of a
+switch, I have a dial. When I turn the dial down, accuracy plummets. People
+become much worse than chance. When I crank the dial up, I make accuracy
+much better than chance. Based on what I saw in the cheating tapes and how
+subjects responded to particular senders, I thought I could “game” accuracy re-
+
+244
+
+CHAPTER THIRTEEN
+
+sults. At will, I should be able to produce the typical slightly-better-than-chance
+accuracy or twist the dial one way or another and produce unprecedentedly low
+or high accuracy. By doing this, I thought, I could show true mastery over my
+topic of study, unrivaled by other theorists or researchers. Did I really understand the causal forces behind deception detection accuracy well enough that
+I could experimentally dial them up or down?
+Think of it. For decades accuracy was stuck at 54% plus or minus some
+random amount. Nobody was able to figure out which dial to turn. Over the
+years different cue theories pointed to different dials, and lots of dials were
+tried, but none of them worked. Accuracy remained just above chance. If I
+had really learned the true cause, then I could experimentally alter the cause.
+I thought I knew the cause, so I created experiments to turn the metaphorical
+dial. If accuracy changed in the anticipated ways, maybe I was on to something. Mystery solved?
+Before getting to the experiment, let me explain my thinking. Fact number
+one is that we know for sure that people vary considerably in sender honest demeanor.39 That is, some people come off as more believable or “honest-seeming”
+than others. By definition, we know that demeanor is independent of actual
+honesty. In this way, demeanor in senders should work just like truth-bias and
+the veracity effect in judges. Truth-bias is the tendency for judges to believe independent of actual honesty. Demeanor is the tendency for senders to be believed independent of actual honesty. In the veracity effect, truth-bias makes
+judges right about truths but wrong about the lies. When we average accuracy
+across truths and lies, we get slightly-better-than-chance accuracy. With demeanor, maybe honest and dishonest demeanors average out too. And this is
+what I was seeing in the data. You too can see it under Senders in figure 13.2.
+In figure 13.4, I diagrammed demeanor in relation to actual honesty. People
+can appear either honest or dishonest, and they can actually be either honest or dishonest. This creates four quadrants reflecting four different types of
+senders. Moving clockwise from top left, we have honest folks who seem sincere, believable liars, liars with dishonest demeanors, and honest people with
+dishonest demeanors. In two of the quadrants (top left and bottom right), actual honesty and demeanor are “matched.” People are what they seem to be.
+Judges will be accurate about these matched people. I call these two quadrants
+demeanor-veracity matched. In the other two quadrants, demeanor and reality
+are “mismatched.” These are the sincere-appearing liars and the suspicion-
+inducing honest senders. Judges viewing people in these quadrants will be
+wrong. Accuracy should be well below chance for the mismatched senders.
+As we saw in chapter 10, most deception research involves instructed lies
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+245
+
+Figure 13.4. Senders matched and mismatched
+on demeanor and actual honesty.
+
+and random assignment of senders to honest and lying conditions. In such
+experiments, honestly demeanored and dishonestly demeanored individuals
+are equally like to be actually honest or lying because of random assignment.40
+This guarantees an approximately equal number of matched and mismatched
+senders. Judges are predominantly correct about the matched senders but systematically wrong about the mismatched senders. Look back at the senders
+in figure 13.2. You’ll note that there are sizable groups of senders that most
+judges do really well on. But there is also a sizable group of senders that trip
+up most judges. When we score judges and average across senders, those two
+groups balance out, and this pushes the average down toward chance.
+That was my thinking. Now, how to test it? If I am right, there are the four
+types of senders portrayed in figure 13.4. First, if these four groups exist, I
+should be able to find examples of them in my cheating tapes. Second, if I show
+these different groups of senders to judges, then I should be able to produce
+very different accuracy findings depending on which senders the judges see.
+I can turn the dial up for accuracy by showing judges just the matched senders. Accuracy should skyrocket. I turn the dial down by showing judges only
+the mismatched senders. Accuracy should plummet. If I show both matched
+and mismatched senders, accuracy should be just above chance.
+I pretested senders using the same tapes as TDT experiment twenty-seven.
+There were forty-four senders, twenty-two honest and twenty-t wo liars. Sixty-
+four students watched and judged short, twenty-second clips of each sender. I
+
+246
+
+CHAPTER THIRTEEN
+
+selected the five honest senders who were believed most often, the five honest
+senders who were the least frequently believed, the five liars who were believed
+most often, and the five liars who were the least frequently believed. This gave
+me twenty tapes to work with. I had five of each of the four types with ten
+honest, ten lies, ten honestly demeanored, and ten dishonestly demeanored.
+From these, I created two sets of ten interviews, one of matched senders and
+one of mismatched senders. Each set had five honest and five lying senders.
+The matched set contained the frequently believed honest senders and least
+frequently believed liars. The mismatched set, in contrast, contained the infrequently believed honest senders and the frequently believed liars. The prediction, of course, was that viewing matched senders would produce high accuracy, much above the 54% typical of the literature, while viewing mismatched
+senders would result in unusually poor accuracy.
+In experiment twenty-nine, thirty judges were shown all twenty interviews,
+and matched and mismatched senders were just scored separately. The judges
+were honor students in a special topics class I was teaching on deception, and
+the study was done as a class activity. For the matched senders, accuracy was
+78.7%. For the mismatched senders, judges were correct only 36.3% of the
+time. That’s more than a forty-point swing! As you might imagine, the effect
+size was quite large (d > 4.0). By the way, if we average the matched and mismatched senders, we get slightly-better-than-chance accuracy (79% + 36% =
+115 ÷ 2 = 57.5%). I experimentally changed up the senders, twisted the accuracy dial, and turned up and down accuracy. Score win number one for my
+demeanor idea.
+TDT EXPERIMENTS THIRTY THROUGH THIRTY-T HREE: REPLICATING
+DEMEANOR EFFECTS ACROSS DIFFERENT TYPES OF JUDGES
+My logic has another testable component. If it is really the senders that are the
+cause, then judges should be interchangeable. That is, if some senders are just
+believable, then everyone should find them believable. But judges should always do well on matched senders and poorly on mismatched senders regardless of who is doing the judging. My logic says that when we change the senders (switch from matched to mismatched), accuracy swings widely, but when
+we change the judges but not the senders, accuracy is relatively constant. If I
+could show that this was indeed the case, then we have strong experimental
+evidence that it is the senders who are causing the changes in accuracy. So,
+that’s what I set out to do.
+In TDT experiment thirty, the judges were 113 students. They were pretty
+similar to the subjects in experiment twenty-nine, but they weren’t honor stu-
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+247
+
+dents, and they weren’t enrolled in a class on deception. The other change
+was that the judges were randomly assigned to see either the matched or the
+mismatched senders. In experiment thirty-one, the subjects were professors
+rather than students. Kim Serota recruited thirty business professors from
+nearby Oakland University outside Detroit. We reasoned that the senders were
+students who denied cheating, and professors might be the most appropriate
+judges of potential student cheaters. In TDT experiment thirty-two, we took
+the matched and mismatched interviews around the globe to Korea University
+in Seoul, South Korea. There we had 182 students at Korea University serve
+as judges. This let us see if demeanor extends across cultures. This seemed to
+us a particularly bold test of the interchangeable-judge expectation. Finally, in
+experiment thirty-three we got thirty-five professionally trained and currently
+practicing deception detection experts employed by a US security and intelligence agency to watch the matched and mismatched senders.
+In experiment twenty-nine with student judges, recall that accuracy for the
+matched senders was 78.7%. In the four replications that followed with the
+four different sets of judges, accuracy for matched senders was 77.7%, 78.2%,
+70.7%, and 96.3%. Accuracy for the matched senders was lowest for the Korean students and highest for the government agents, but in all cases it was
+well above the usual slightly-better-than-chance accuracy. For the mismatched
+senders, the 36.3% accuracy in experiment twenty-nine compared with 41.4%,
+40.7%, 33.9% and 34.3% in the different-judges replications. All these were
+well below chance. The dial worked the same way across different samples
+of judges.
+Interestingly, there was a small group of the government agents who were
+especially experienced, with more than fifteen years of interrogation experience. These experts were right on every single one of the matched senders.
+Every one of the ultra-experienced experts got 100% in the matched condition. Ten for ten. But they were only 20.4% correct on the mismatched senders and even worse (14.3%) on the sincere liars. That’s right; the sincere liars
+beat the agents more than 85% of the time. Recall the opening paragraphs in
+chapter 1 about the CIA agents who wrote the book. It seems the caller in that
+story was right. The more a judge relies on demeanor, the more demeanor–
+veracity matching matters.
+TDT STUDIES THIRTY-F OUR AND THIRTY-F IVE: UNCOVERING THE BQ
+Obviously, the matched and mismatched senders are doing something quite
+different to cause such large differences in accuracy. Throughout this chapter
+we have been talking about how senders differ in transparency and demeanor.
+
+248
+
+CHAPTER THIRTEEN
+
+But what makes them this way? What are they doing to yield such consistent
+impressions across judges?
+TDT study thirty-four took the first big step to answering the question about
+what makes some senders so believable and others so much less so. I went
+back to the same thirty students in my honors deception class who participated in the detection task reported in experiment twenty-nine. Study thirty-
+four took place the next class period. I put up and explained the results from
+experiment twenty-nine. We watched each sender again as a class. I showed
+the students the results for that particular sender. I asked the class why they
+had thought that particular sender was honest or dishonest. What was it about
+their answers that yielded such consistent judgments? The class discussed each
+sender. I took notes. We went through all the senders, watching them all several times. We kept discussing until it was clear the class was out of ideas, we
+all felt we had pretty much exhausted the topic, and we were confident that
+we had a good feel for what had guided the initial judgments.
+I took my notes and distilled the themes and ideas into a list of eleven behaviors and impressions that together captured the breadth and the essence of
+the discussion (see the following list). This is what the honest-and dishonest-
+appearing senders were doing to come off as honest or dishonest.
+Sincere (Honest) Demeanor Cues
+1. Confidence and composure
+2. Pleasant and friendly interaction style
+3. Engaged and involved interaction style
+4. Gives plausible explanations
+
+Insincere (Dishonest) Demeanor Cues
+5. Avoids eye contact
+6. Appears hesitant and slow in providing answers
+7. Vocal uncertainty (conveys uncertainty in tone of voice)
+8. Excessive fidgeting with hands or foot movements
+9. Appears tense, nervous, and anxious
+10. Portrays an inconsistent demeanor over course of interaction
+11. Verbal uncertainty (conveys uncertainty with words)
+
+This was the start of the BQ. What’s this BQ? It is short for believability quotient.41 I also call it my demeanor index. People who do these sincere-appearing
+behaviors while eschewing the insincere-appearing are believed. People who
+do the insincere behaviors and lack the sincere ones are those who are judged
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+249
+
+as deceptive. It is the behaviors and impressions on this list that distinguished
+the honestly demeanored senders from the dishonestly demeanored ones. I
+put it to you that this list is worth vastly more than what you paid for this book.
+Coming off to others as a sincere and honest person is more than a little useful (and valuable).
+TDT experiment thirty-five sought initial quantitative evidence to validate
+the BQ. After the subjects in experiment thirty finished judging the senders as
+honest or lying, we asked them to watch the tapes again. This time they rated
+each sender for the eleven behaviors and impressions that constitute the BQ.
+The ratings of the eleven behaviors and impressions were highly intercorrelated. People who did any one of the honest-appearing behaviors were rated
+as doing them all. People who did any of the dishonest things were seen as
+doing them all. And people who were seen as doing the sincere set were seen
+as not doing the insincere things and vice versa (correlation r = -.59). When
+scored as a single believability index, the resulting score had a high internal
+consistency reliability approaching .90. I concluded that the eleven behaviors
+and impressions were not statistically independent. These cues do not travel
+alone. They travel in a pack, and that is how they function.
+The existence of highly interrelated behaviors has groundbreaking and transformative implications. In the past, cues have been understood and studied
+as isolated behaviors that are independent from one another. In many statistical analyses, for example, having highly intercorrelated behaviors that are
+not accounted for can drastically skew results, making results misleading. Approaches in the literature like the Brunswik Lens Model falsely assume the independence of cues. Mistakenly trying to understand a gestalt-like impression
+by looking at isolated fragments is as misguided as trying to understand how
+a team functions without considering interaction among team members. The
+implications are clear. We need to see cues as herd animals or team players.
+Individual brushstrokes do make the masterpiece.
+As for the BQ validation part of the results, I scored the eleven ratings as a
+single index. The sincere and insincere senders differed massively in the BQ
+(d = 1.15). As expected, the senders who were selected in pretesting as appearing more honest had a much higher BQ score than those who pretested as insincere (regardless of actual honesty). Further, when I looked at the statistical
+relationship between the BQ scores and the honesty ratings from TDT experiment twenty-seven, the correlation was r = + .60.
+Thus, experiment thirty-five showed that (a) the behaviors and impressions
+that create demeanor are strongly interwoven and are perceived as a single coherent impression, (b) the action is in the senders, not the judges, and (c) the
+
+250
+
+CHAPTER THIRTEEN
+
+BQ is strongly associated with the extent to which any given sender is believed
+or not. The evidence seems pretty convincing. Nevertheless, as is good scientific practice, I replicated. TDT experiment thirty-six seals the deal, providing
+the additional evidence that TDT readers should expect.
+TDT EXPERIMENT THIRTY-S IX:
+A FULL CROSS-VALIDATION OF THE BQ
+So far, the demeanor data came from the same relatively small set of twenty
+senders. To get new senders, we ran 104 more students through the cheating
+experiment to get 104 new videotaped interviews. Next, I recruited seven paid
+research assistants to each “code” all 104 interviews. Basically, I trained the
+research assistants in the BQ and then had them watch and score each of the
+new interviews. In this way each of the 104 new senders got a score on BQ,
+which was the average score across the seven research-assistant coders working independently. Next, we needed new judges, so we recruited 157 MSU
+students from the research subject pool. Watching 104 interviewers was too
+much to ask, so each judge watched only twenty-six of the senders, judging
+each as either honest or lying. When all this was done, we had 104 new senders, with each of these senders scored for BQ by seven trained evaluators, and
+each sender was subsequently judged as honest or not by somewhere between
+thirty-five to forty-six independent judges.
+Now the results. BQ scores were not significantly related with actual honesty, correlation = -.09. But the BQ scores predicted judge honesty rating, correlation r = .41. The correlation was especially strong for liars, correlation r = .86.
+These are strong and supportive results. The BQ works.
+SERENDIPITY AND THE IMPORTANCE OF THE BQ
+A few days ago my friend-colleague-mentor Frank Boster send me a copy of
+the 1958 article “The Case of the Floppy-eared Rabbits.”42 The article was a
+case study of two independent scientists who observed the same unexpected
+finding. One scientist pursued it and made an important new finding, while
+the other didn’t. Frank Boster likes parables, and when floppy-eared rabbits
+are viewed this way, the lesson is that often the most important findings and
+breakthroughs are accidental. Science, especially in the soft social sciences,
+where there is considerable hard-science envy, is often taught as hypothesis
+testing. So-called post hoc or dustbowl findings are considered poor science.
+But if the goal is achieving an important new insight rather than following a
+conventional, idealized caricature of science, the lesson is clear. The wise researcher should embrace the unexpected and follow the data to see where they
+lead. It seems to me that the BQ provides an excellent example.
+
+EXPLAINING SLIGHTLY-BETTER-THAN-CHANCE ACCURACY
+
+251
+
+My goal in designing the experiments reported in this chapter was very
+much to solve the mystery of slightly-better-than-chance accuracy. It was a
+long-standing mystery, and I wanted to be the one to solve it. Along the way I
+stumbled across the BQ findings. Here was a set of behaviors and impressions
+that were highly interrelated and that together reliably distinguished between
+those people who others find believable and those who are less believable.
+Let’s start a list. Who would benefit from having a high BQ? To whose advantage is it to be seen as sincere? Politicians, certainly. Attorneys. Salespeople.
+Customer service representatives. Spokespersons of all varieties. Anyone traveling through airport screenings or customs. Teachers. People on first dates.
+Anyone interacting with the boss at work. Pretty much everyone would be well
+served by being perceived as sincere.
+The real power of the BQ was shown in TDT experiments thirty to thirty-
+three. Demeanor transcends perceivers. Believable people were believed by
+students and professors, Americans and Koreans, university students and secret government agents.
+The BQ provides a checklist. Do those things, and you will come off as honest and sincere. Practice them. People will find you credible. I didn’t set out
+to create the BQ, but it popped out of the data, and I saw its value at once. It
+was worth my extra effort to validate it. As I said previously, it is worth much
+more than the price of this book to learn about it.
+THE MYSTERY OF SLIGHTLY-B ETTER-T HAN-C HANCE
+ACCURACY SOLVED
+The answer to the mystery is summarized succinctly in TDT proposition
+eleven.
+TDT Proposition Eleven. With the exception of a few transparent liars,
+deception is not accurately detected, at the time in which it occurs,
+through the passive observation of sender demeanor. Honest-looking
+and deceptive-looking communication performances are largely independent of actual honesty and deceit for most people and hence usually do
+not provide diagnostically useful information. Consequently, demeanor-
+based deception detection is, on average, only slightly-better-than-chance
+due to a few transparent liars, but typically not much above chance due
+to the fallible nature of demeanor-based judgments.
+Basically, the answer to the mystery lies in the sender variation in transparency and demeanor. There are a few transparent liars that make accuracy
+systematically better than chance. But because especially transparent senders
+
+252
+
+CHAPTER THIRTEEN
+
+are a small minority of communicators, they push accuracy up only a little bit.
+For everyone else, demeanor and actual honesty are unrelated. Sender honest demeanor strongly determines who is believed. Individual differences in
+honest demeanor are large, creating systematic errors across judges that push
+accuracy down toward chance. The impact of sender demeanor transcends
+judges, and this is why there is so little judge variance and so few moderators
+of demeanor-based lie detection.
+LOOKING AHEAD: HOW PEOPLE REALLY DETECT LIES
+Slightly-better-than-chance accuracy applies to and results from demeanor-
+based lie detection. Demeanor-based lie detection has much utility with transparent liars, but they are few and far between. Also, the transparent liars are
+probably not the ones we need to worry about. This also means that the cue
+theories described in chapters 5 and 6 apply to only a small segment of the
+population. Thinking like a cue theorist guarantees only slightly-better-than-
+chance accuracy.
+Fortunately, deception detection experiments documenting slightly-better-
+than-chance accuracy give subjects a task qualitatively dissimilar to how people
+detect deception outside the lab. In the next chapter, I introduce TDT experiment thirty-seven and the How People Really Detect Lies module. What we
+will see is that real-time demeanor-based lie detection bears little resemblance
+to how real people detect most real lies outside the lab.
+If demeanor-based detection causes poor accuracy, the solution to improving accuracy is straightforward. Don’t rely on demeanor! By looking at how
+people really do detect lies we can learn the alternatives to demeanor-based lie
+detection and slightly-better-than-chance accuracy. The BQ is useful stuff, but
+so is improved lie detection. Read on. Chapter 14 covers TDT’s approaches to
+improving lie detection.

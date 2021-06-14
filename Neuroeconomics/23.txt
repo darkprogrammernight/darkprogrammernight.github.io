@@ -1,0 +1,720 @@
+Chapter 23
+Molecular Genetics
+
+Martin Reuter, Andrea Felten and Christian Montag
+
+
+
+
+Abstract This chapter presents a concise introduction to molecular genetics. While
+readers familiar with the ﬁeld of genetics may ﬁnd this article trivial, those readers
+less experienced in the area may consider this a kind of ‘refresher’, still others may
+be new to the area, having not heard about this topic since their biology classes at
+school. Our aim is to provide all of our readers with new knowledge—or at least a
+different perspective—on molecular genetics, with a particular emphasis on the
+neuroeconomics framework. Being mindful of the varying levels of familiarity with
+genetics our readership may have, we want to provide a ‘crash course’ that starts
+with the very basics in genetics and concludes with the most recent developments
+and perspectives in the ﬁeld. Our own experience from interdisciplinary cooperative
+projects is that our colleagues from other disciplines, such as economics, often ask
+for a simple introduction to behavioral genetics. Unfortunately, we were unaware of
+any reference to date that ﬁts this description. It is for this reason we decided to
+write this chapter and to ask experts in other neuroscientiﬁc ﬁelds to do the same in
+this book for methods like EEG, MRI, etc.
+
+
+
+
+M. Reuter (&)  A. Felten
+Department of Psychology, University of Bonn, Bonn, Germany
+e-mail: martin.reuter@uni-bonn-diff.de
+A. Felten
+e-mail: andrea.felten@uni-bonn-diff.de
+M. Reuter  A. Felten
+Center for Economics and Neuroscience (CENs), University of Bonn, Bonn, Germany
+C. Montag
+Department of Molecular Psychology, Institute of Psychology and Education, Ulm
+University, Ulm, Germany
+e-mail: christian.montag@uni-ulm.de
+C. Montag
+Key Laboratory for NeuroInformation, Center for Information in Medicine, School of Life
+Science and Technology, University of Electronic Science and Technology of China,
+Chengdu, People’s Republic of China
+
+© Springer-Verlag Berlin Heidelberg 2016                                                  443
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_23
+444                                                                         M. Reuter et al.
+
+
+23.1     Introduction
+
+Molecular genetics is a very broad ﬁeld encompassing a group of different methods
+that are applied by different scientiﬁc disciplines with diverse research foci.
+Whereas some researchers are interested in the structure of the genes and the
+genetic code, others want to unravel how the transcription (“reading”) of the genes
+is influenced or how protein biosynthesis is accomplished. Another focus of
+research, known as behavioral genetics, investigates how genes influence our
+behavior. The later aspect is relevant for neuroeconomists who are, by deﬁnition,
+interested in the biological basis of human decision making—hence also in
+behavior.
+   A large proportion of the population holds a rather naïve view of genes as
+something obscure, unchangeably ﬁxed before birth, that determines our lives in a
+fatalistic way. Most people are not aware that genes simply represent a blueprint for
+constructing all kinds of proteins that are necessary for our organism to function
+properly. This implies that at every moment of our life genes in different tissues of
+our body are active in order to produce “gene products” (e.g. proteins, enzymes,
+hormones, neurotransmitters, etc.). This production process—known as protein
+biosynthesis—does not work blindly, but is regulated by the demands of our body.
+In turn, what our body needs largely depends on environmental stimuli. For
+example, eating a huge portion of spaghetti at lunch demands that carbohydrates
+must be metabolized. The hormone responsible for this is insulin. Therefore, the
+external stimulus of having spaghetti for lunch initiates the production of insulin. In
+our genome, on the short arm of chromosome 11, we have a gene that provides the
+relevant information on how to produce insulin. This gene is necessary so that our
+body ‘knows’ how to build insulin. Our genome is the entirety of our genetic
+information. This information is mainly present in our genes. The genes are located
+on the chromosomes.1 A gene is a distinct part of a chromosome that provides the
+information for the synthesis of a speciﬁc gene product (e.g. insulin). So if we think
+back to our spaghetti example, the need for insulin initiates certain molecules,
+referred to as transcription factors that bind to the promoter region of the insulin
+gene. The promoter is a part of a gene that functions like a switch. If this switch is
+turned on by the transcription factors, it initiates the reading (transcription) of the
+gene. Our chromosomes are located in the nucleus of each cell of our body,
+however, the “factories” that build up the gene products, called ribosomes, are
+
+
+
+
+1
+ The human genome consists of 23 pairs of chromosomes, which are divided into gonosomes and
+autosomes. Gonosomes (the X and the Y chromosomes) refer to the chromosomes deﬁning human
+sex. The XX genotype marks the female and the XY genotype the male gender. Autosomes are all
+other chromosomes which are not gonosomes. There is also additional genetic information on
+mitochondrial DNA.
+23   Molecular Genetics                                                                     445
+
+located in the cytoplasm of the cells. Therefore, the blueprints showing how to
+produce the gene product (i.e. which amino acids have to be chained up) must be
+transferred from the nucleus into the cytoplasm.2 The transfer of information is
+done by the messenger ribonucleic acid (mRNA), a single stranded copy of the
+deoxyribonucleic acid (DNA). The DNA is a double-stranded molecule that pro-
+vides the genetic information within genes. This information is written in a rather
+simple language, the genetic code. The genetic code consists of only four letters, A
+(adenine), T (thymine), C (cytosine), G (guanine) that are in fact nucleotides,
+molecules composed of a nucleobase, a ﬁve-carbon sugar and at least one phos-
+phate group that form the DNA. The gene transcription is the process of reading and
+translating those parts of a gene (exons and introns, the latter spliced out in mature
+mRNA) into mRNA that are essential for the synthesis of the gene product. Here it
+is important to know that the DNA consists of two antiparallel strands forming the
+DNA double helix, stabilized by hydrogen bonds and base stacking: The nucleotide
+A is always paired with a T and C is always paired with a G (see Fig. 23.1). The
+transcription of DNA into mRNA means that if there is an A on the DNA the
+mRNA will contain uracil (U), a G is translated into a C, a C into a G, and a T is
+translated into A. The structure of uracil is very similar to that of thymine. In the
+open reading frame of exonic regions, the sequence of three nucleotides codes for a
+distinct amino acid. Such a triplet of nucleotides/bases is called a codon. With the
+exception of three stop codons, each codon codes for a distinct amino acid, how-
+ever, an amino acid can sometimes be coded by different codons.
+    The short mRNA that conveys the information for the synthesis of one protein at
+its maximum leaves the nucleus of the cell and migrates into the cytoplasm. At the
+ribosomes, the information of the mRNA must be translated into a chain of amino
+acids forming a protein. Here another form of RNA, the transfer RNA (tRNA)
+comes into play. The tRNA has two functions, ﬁrst it carries an anticodon that is the
+complementary nucleotide sequence to a given codon on the mRNA, and second
+the tRNA picks up the appropriate amino acid in the cytoplasm that is coded by the
+mRNA. Step by step the codons are translated into amino acid chains until the gene
+product, i.e., the protein, is built up. In sum, a protein consists of a chain of amino
+acids and the order of this amino acid chain, is provided by the blueprint that is our
+genes.
+
+
+
+
+2
+ Cytoplasm refers to both cytosol and the organelles. Cytosol is the fluid substance in the cell
+separated from the outer cell wall by the cell membrane. Organelles refer to structures such as
+ribosomes within the cell.
+446                               M. Reuter et al.
+
+Fig. 23.1 The structure of
+the DNA double helix as ﬁrst
+identiﬁed by James Watson
+and Francis Crick in 1953.
+The DNA double strand that
+comes in the form of a wound
+helix gets its stability by
+knitting the two single strands
+together. The nucleotide A is
+always paired with a T and C
+is always paired with a G
+23   Molecular Genetics                                                              447
+
+
+23.2     Genetic Variability—Polymorphisms
+
+This rough overview of the protein biosynthesis is crucial to our understanding of
+how genetic variations can cause individual differences in behavior. It must ﬁrst be
+mentioned that there is a 99.9 % overlap in the genome of two unrelated humans.
+This means that most of the sequences of base pairs constituting our genome (a total
+of 3.2 billion bases/nucleotides/letters) are invariant across individuals! In other
+words, tiny variations among the remaining 0.1 % (corresponding to 3,000,000
+bases) may have huge effects. This great similarity in the genetic code across
+individuals is the prerequisite for belonging to the same species, i.e., we have
+comparable metabolic, motor, cognitive, etc., processes. However, the small dif-
+ferences in the DNA sequence across individuals cause the thrilling differences in
+personality, abilities, and behavior. If two people, let us call them Peter and Bob,
+met to compare their DNA sequences, they would only detect differences on
+average in every thousand letters. For example, at position 1003 of a certain gene,
+Peter has an A and Bob has a T. Adenine (A) and Thymine (T) are called alleles at
+position 1003. Loci on the DNA where there is no variation in the population are
+called monomorph and have only one possible allele. However, a gene locus where
+there is variability is called polymorphism if it occurs at least in 1 % of the pop-
+ulation. If the prevalence of such a base exchange is lower than 1 %, it is called
+“mutation.” In other words, polymorphisms are mutations that are rather wide-
+spread in a population. A mutation occurs by chance through a deﬁcient
+self-reproduction of genetic material. Only when such a “mistake” of nature occurs
+in the gametes they are transferred to the next generation, i.e., they are heritable.
+The “Out of Africa Hypothesis” postulates that every living human being is des-
+cended from a small group we immodestly call Homo sapiens (“wise human”) in
+Africa, who then dispersed across the globe and successfully conquered the world
+(while other forms of the genus homo such as Homo erectus or the newly dis-
+covered Homo denisova or Homo naledi did not survive to the present day). The
+migration of Homo sapiens started about 70,000 years ago. Since this time, the
+Homo sapiens population has dramatically increased and accordingly, the more
+humans that exist, the higher is the probability that a “mistake” in DNA redupli-
+cation or DNA repair takes place. If an individual inherits a mutation that is not
+adaptive for survival or reproduction, the probability that this individual will pass
+this mutation on to the next generation is low. This is the process known as natural
+selection. Therefore, polymorphisms, which are widely distributed mutations,
+cannot be completely disastrous. The opposite might even be more accurate—these
+mutations will bring advantages in certain environmental niches.
+    There exist different kinds of polymorphisms. By far, the most widespread form
+is the single nucleotide polymorphism (SNP) that is deﬁned by an alteration in a
+single nucleotide/base (as in the example of Peter and Bob). The deletion of a base
+can be fatal if it occurs in a coding region (located in an exon) that is translated into
+an amino acid sequence. By the deletion of a single base, the reading frame is
+destroyed, i.e., all ensuing codons are translated incorrectly or the translation
+448                                                                              M. Reuter et al.
+
+
+
+
+Fig. 23.2 Consequences of a single nucleotide polymorphism (SNP). Depicted is a small
+sequence from the coding region of a gene. a DNA strand with exclusively wild-type alleles;
+b deletion SNP in the third base of codon 1. Although the ﬁrst amino acid of the polypeptide
+remains unchanged, because both codons—ACC and ACG—code for the amino acid threonine,
+the rest of the codons lead to other amino acids. Most severe, the transcription ends with codon 4
+because TAG is a stop codon. Lysine is no longer considered. The protein cannot be synthesized
+c a SNP where there is a transition from G to T in the ﬁrst base of the second codon. Leucine
+instead of valine is inserted into the polypeptide. Typically, such a SNP does not prevent the
+production of the protein, but alters its functionality
+
+
+process ends too early (see Fig. 23.2b in comparison to Fig. 23.2a: a cytosine at
+position 3 has been deleted). Therefore, deletion polymorphisms in exons that
+change the reading frame are very rare, because the consequences are so disastrous
+that the organism can likely not survive without the production of this protein. Base
+pair transitions as depicted in the comparison of Fig. 23.2a, c (there is a G to T
+transition at codon No. 2, resulting in production of an alternative amino acid) are
+rather frequent and mostly do not prevent the production of the protein. However,
+this base pair transition may have consequences on the structure and functionality
+of the protein (e.g. reducing its thermostability3). SNPs do not only occur in coding
+regions but can also be observed all over the genome. We have just observed that
+polymorphisms in the coding region of a gene are very likely to have an effect on
+the gene product if it is related to an amino acid exchange. An exception is the
+presence of a silent mutation, as depicted in the comparison of Fig. 23.2b, c. Some
+
+
+3
+Thermostability describes how stable a certain structure is in the face of rising temperature.
+23   Molecular Genetics                                                           449
+
+amino acids can be coded by different codons. The codons ACC and ACG both
+code for threonine (1st codon). Silent mutations are less likely to result in alter-
+native gene products with altered functionality, although this may happen.
+    Another hot candidate for changes in functionality of a gene is the promoter
+region. The promoter initiates the transcription of a gene. Polymorphisms in the
+promoter region of a gene may have an influence on the efﬁciency of transcription
+factors to bind to the DNA, disturbing transcription complex assembly, and
+recruitment of RNA Polymerase II. Therefore, polymorphisms in the promoter
+region can affect the mRNA expression. Lower levels of mRNA expression are
+often related to a lower amount of the gene product (e.g. number of expressed
+neurotransmitter receptors in the brain).
+    Another form of polymorphism is the variable number of tandem repeats
+polymorphism (VNTR). Here, a sequence of bases is repeated several times on a
+gene. Individuals may differ in the number of these repeats. The dopamine trans-
+porter polymorphism DAT1-VNTR belongs to this family of polymorphisms. The
+most common alleles observable are a 9 and a 10 times repeat of a sequence of 40
+bases in the 3′ un-translated region (3′UTR) of the dopamine transporter gene
+(SLC6A3), however, the number of repeats possible can range from 3–11
+(Vandenbergh et al. 1992). Although results are controversial, the 10-repeat allele is
+most commonly related to an increased level of DAT1 expression (Heinz et al.
+2000). Within the category of VNTRs which belongs to the simple sequence repeats
+(SSRs) polymorphism, also known as microsatellite polymorphism or short tandem
+repeats (STRs). Here, very few bases, normally 2–6 bases, are repeated many times.
+The SSRs are often analyzed for kinship or population diversity analyses.
+A prominent example for the role of SSRs for social behavior is the microsatellite
+polymorphism in the promoter region of the arginine vasopressin 1A receptor
+(AVPR1A) gene, that influences partnership satisfaction in humans and explains
+bonding differences between the monogamous prairie vole and the promiscuous
+meadow vole (Walum et al. 2008; Lim et al. 2004).
+    Copy-number variations (CNVs) constitute alterations in the genome charac-
+terized by a variation in the number of copies of one or more sections of the DNA.
+CNVs correspond to relatively large regions of the genome that have been deleted
+(fewer than the normal number of copies) or duplicated (more than the normal
+number of copies). Reasons for CNVs are incorrect DNA duplications or insertional
+transpositions (gain in copy number) or deletions (losses of copies), as well as more
+complex rearrangements of the DNA. CNVs account for about 12 % of human
+genomic DNA and each variation may range from about one kilobase (1 kb = 1000
+bases/nucleotides) to several megabases (1 Mb = 1,000,000 bp) in size. The
+functionality of a gene can be altered by CNVs through disruption of a regulatory
+element (e.g. an enhancer or suppressor site) or by causing functional loss of a gene
+by a deletion. As with traditional polymorphisms, some CNVs do not have phe-
+notypic effects, e.g., the CNV does not result in an observable change at the level of
+behavior. Meanwhile, some prominent CNVs have been successfully related to
+psychiatric diseases like schizophrenia, attention-deﬁcit hyperactivity disorder
+450                                                                    M. Reuter et al.
+
+(ADHD), autism spectrum disorders (ASDs) or Williams–Beuren syndrome
+(WBS) (for an overview see Cook and Scherer 2008).
+
+
+
+23.3    Extraction of DNA
+
+Before we can analyze polymorphisms located on the genome, the DNA has to be
+extracted. Eukaryotic organisms (humans, animals, plants, fungi, and protists) store
+most of their DNA inside the nucleus of the cells (genomic DNA) and some of their
+DNA in organelles (e.g. mitochondria in humans and chloroplasts in plants).
+Therefore, the cell wall and the cell nucleus must be separated prior to analysis.
+This is done using an enzyme, proteinase K, in the presence of a chaotropic salt,
+which immediately inactivates all nucleases (nucleases can degrade the DNA).
+After cell lysis, the sample is pipetted into a reaction tube containing a ﬁlter
+composed of glass ﬁbers. The DNA binds selectively to the glass ﬁbers in the tube.
+Bound DNA is puriﬁed in a series of rapid “wash-and-spin” steps to remove
+contaminating cellular components (e.g. organelles). Finally, low salt elution
+releases the puriﬁed DNA from the glass ﬁbers. Today DNA extraction kits con-
+taining the ﬁlter tubes and all necessary reagents are commercially available. In
+addition, only pipettes and a centrifuge are necessary to conduct the DNA
+extraction. In modern labs, DNA extraction is typically performed by robots. These
+automated DNA extraction machines rely on alternate techniques that do not use
+ﬁlter tubes but instead rely on magnetic beads or vacuum units.
+
+
+
+23.4    Genotyping
+
+Genotyping is the process of determining the given alleles at a certain polymorphic
+locus in our genome. Due to the fact that we have a diploid set of chromosomes,
+each individual has two alleles at a distinct gene locus. For example, with respect to
+a SNP characterized by an A → G transition, an individual can have two identical
+alleles across the two chromosomes (AA or GG) or different alleles (AG) on each
+chromosome. AA, AG, and GG represent the three possible genotypes at this
+polymorphic site and the two alleles are named A and G.
+    The revolutionary invention of the polymerase chain reaction (PCR) by Kary
+Mullis in 1983 provided the starting point for molecular genetics research by
+making genotyping possible. The main problem in genotyping a polymorphic
+region on the genome is how tiny the information is that one is interested in: In the
+case of a SNP one out of three billion bases is exchanged. Furthermore, we have to
+keep in mind that the DNA is located in the small nucleus of a cell. In other words,
+the information we are interested in is unbelievably small. In order to solve this
+problem we have to amplify the “signal” to enable us to decide whether a certain
+polymorphic region contains, for example, an A or a G at a particular locus. PCR is
+23   Molecular Genetics                                                                     451
+
+conducted by a PCR machine that is simply a copy machine for nucleic acids (DNA
+or RNA). In brief, the principle of PCR—a series of repetitive chemical reactions
+running in a reaction tube—is as follows:
+    At ﬁrst, you must mark the region on the DNA where the polymorphism is
+located. This is done by designing two oligonucleotides (a chain of about 17–25
+bases), called primers, that are complementary to the original DNA strand. The
+forward primer binds to the 3′ → 5′ strand and the reverse primer to the 5′ → 3′
+strand. The two primers mark a region of about 200 base pairs, along which the
+SNP is located (i.e. the target region). The experimenter has to verify that the
+sequence of the primers—although very small—does not occur anywhere else in
+the genome, i.e., the primer sequence is speciﬁc to the region of interest. The aim of
+the PCR is to make more than a billion copies of the target region. So if you want to
+build up new copies you need to insert nucleotides (A, C, T, and G) into your
+reaction tube. As with other PCR reagents, these synthetic nucleotides are also
+commercially available from biotech companies. Reduplication of DNA is a pro-
+cess that is constantly ongoing in the living organism. PCR imitates this process.
+The crucial ingredient of a PCR reaction mix is a polymerase that does the
+ampliﬁcation process. Most common is the Taq polymerase.4 Finally, you must put
+a few ng/µl of DNA (the template) into the tube. The PCR contains the repetition of
+at least 30 PCR cycles. Each PCR cycle consists of three phases; denaturation,
+annealing, and elongation, each requiring a different temperature. During denatu-
+ration the temperature is raised to 95 °C to divide the two complementary DNA
+strands. Once the DNA strands are separated, the primers can anneal to the single
+DNA strands at a temperature of about 60 °C. Note, the exact annealing temper-
+ature can vary depending on the PCR protocol used and the sequence of the bases
+and primers in the target region. Then the temperature is raised up to 72 °C
+allowing the Taq polymerase to work.5 The Taq now elongates its own sequence by
+incorporating the synthetic nucleotides previously added to the PCR reaction mix.
+The PCR starts with double-stranded template DNA. After the ﬁrst PCR cycle we
+have two copies, after the second cycle four copies, after the third cycle eight
+copies, and so forth (see Fig. 23.3). The number of PCR copies per PCR run is
+calculated as 2n, with n indicating the number of PCR cycles. Therefore, a PCR run
+with 30 cycles would result in over 1 billion copies of the target region. The aim of
+a PCR is to amplify the signal of the polymorphic regions by producing billions of
+copies. However, a conventional PCR does not provide the genotype information,
+but only creates the prerequisites for genotyping. Genotyping is achieved by putting
+
+
+
+
+4
+ This thermostable enzyme called Thermus aquaticus (Taq) has not been “invented” by a scientist,
+but has been extracted naturally from a hot thermal spring called Morning Glory Pool in the US
+national park Yellowstone.
+5
+ The great variance of temperatures in a PCR explain why a thermostable enzyme is needed and
+scientists are lucky to have found such an enzyme in nature.
+452                                                                           M. Reuter et al.
+
+Fig. 23.3 Schematic overview on polymerase chain reaction (PCR). a The starting point is a c
+double-stranded DNA template. The lens glass highlights the region on the genome where a single
+nucleotide polymorphism (SNP; red letter) is located. It is apparent that the two DNA strands are
+complementary to each other (a G is paired with a C and an A is paired with a T). b The
+DENATURATION phase is portrayed. Heating the reaction tube up to 95 °C separates the two
+complementary DNA strands. c The ANNEALING phase is depicted. Lowering the temperature to
+about 60 °C allows the primers to bind to the single-stranded DNA. The bases of the primers are
+complementary to the DNA strands. d The ELONGATION phase is portrayed. At 72 °C the Taq
+polymerase can elongate the primers by incorporating synthetic nucleotides available in the
+reaction tube. e The status after the ﬁrst PCR cycle is depicted. A double-stranded DNA template
+has been copied and results in a double-stranded DNA
+
+
+the DNA amplicon (resulting from the described PCR process) on a
+gel-electrophoresis unit. If the polymorphism constitutes a VNTR, this indicates
+that the alleles differ with respect to the ampliﬁed fragment length. For example, the
+9 repeat allele of the dopamine transporter polymorphism DAT1 is 40 bases shorter
+than the 10 repeat alleles. Using an electric ﬁeld, shorter PCR amplicons move
+faster through the matrix of the electrophoresis gel (often made out of agarose) than
+longer amplicons. By labeling the PCR product with a dye (typically ethidium
+bromide), the different bands on the gel can be visualized later by means of a UV
+light. Samples of subjects who are heterozygous exhibit two bands, one upper band
+indicates homozygosity for the long allele and one lower band indicates homozy-
+gosity for the short allele (see Fig. 23.4). Of note, the direction of flow of the DNA
+fragments in Fig. 23.4 goes from the pockets to the bottom of the picture. In order
+to use gel-electrophoresis for genotyping SNPs (the PCR amplicons do not differ in
+size if there is a base exchange at a certain gene locus) the PCR amplicon has to be
+treated with an enzyme digest. Here, a speciﬁc restriction enzyme is able to cut the
+DNA strand into two shorter pieces in the presence of a certain allele (e.g. the G
+allele), but does not affect the DNA in the presence of the alternate allele (e.g. A).
+By means of the enzyme digest we yield two different strand lengths dependent on
+the absence or presence of the respective allele and this can be visualized/genotyped
+by means of gel-electrophoresis (this works similar to the mechanism described in
+Fig. 23.4). Today, more elaborate techniques like Real-Time (RT) PCR are avail-
+able that allow ampliﬁcation and genotyping in one PCR run. The advantage of
+RT-PCR is that the time-consuming gel-electrophoresis is no longer necessary. In
+brief, during the RT-PCR ampliﬁcation additional oligonucleotides labeled with
+fluorescent dyes (the so-called ‘probes’) are annealed to the target region. The
+probes are either complementary to the wild type (the typical allele) or to the mutant
+(non-standard) allele and by means of a melting curve analysis following the last
+PCR cycle, the genotypes can be determined with perfect reliability (for a detailed
+description of Real-Time PCR see Reuter et al. 2005). A disadvantage of RT-PCR
+is that mainly SNPs can be genotyped with this method.
+23   Molecular Genetics   453
+454                                                                             M. Reuter et al.
+
+
+
+
+Fig. 23.4 Results of a gel-electrophoresis for the VNTR dopamine transporter polymorphism
+DAT1. The most common alleles observable are a 9- and a 10-times repeat of a sequence of 40
+bases in the 3′ un-translated region (3′UTR) of the dopamine transporter gene (SLC6A3), however,
+the number of possible repeats ranges from 3–11 (Vandenbergh et al. 1992). Genotypes are made
+visible under an UV light. Column 1 (from left to right) indicates a sample being homozygous for
+the 9-repeat allele (genotype 9/9), in columns 2 and 7 the samples are homozygous for the
+10-repeat allele (genotype 10/10), in columns 3–6 and column 9 the samples are heterozygous
+(genotype 9/10), and column 8 shows the DNA ladder used to mark the size of the
+PCR-amplicons. Flow direction of the DNA fragment is from the upper to the lower part of
+the ﬁgure. The DNA fragment is inserted in the pocket at the upper part of the ﬁgure and then
+floats through the gel after the running buffer is set under electricity
+
+
+23.5     The Candidate Approach
+
+Behavioral genetics started in the 1990s with the so-called candidate gene approach.
+Due to the restricted throughput of PCR machines at this time, scientists chose
+distinct genes for their analyses (genotyping) according to ﬁndings from the liter-
+ature. For example, if individual differences in reward processing was the pheno-
+type under investigation then dopaminergic genes were the best starting point,
+because dopamine has (and is) postulated to be the ﬁnal common neural pathway of
+reward (Spanagel and Weiss 1999). As a consequence polymorphisms located on
+genes coding for dopamine receptor genes (e.g. DRD2), the dopamine transporter
+gene or enzymes involved in the metabolism of dopamine (e.g. COMT) were
+genotyped. In sum, the candidate gene approach is theory driven and therefore it is
+a deductive method (Montag and Reuter 2014). Nowadays, technical advances in
+PCR machines and PCR product analyzers make it possible to analyze many
+essential SNPs across whole genes in reasonable time.
+23   Molecular Genetics                                                        455
+
+
+23.6     Sequencing
+
+Sequencing is a technique that allows reading of the original genetic code, i.e.,
+through sequencing the precise order of bases within a DNA or RNA molecule can
+be determined. In contrast, genotyping only allows the determination of genotypes
+at a particular polymorphic region. In 1977, Frederick Sanger and colleagues
+developed a sequencing technique, the Sanger sequencing method, popularly used
+for over 25 years and which is still in use today. This method is based on the
+selective incorporation of chain-terminating dideoxynucleotides (ddGTP, ddATP,
+ddTTP, and ddCTP) by DNA polymerase during in vitro PCR. This means that
+after a dideoxynucleotide has been inserted in the nucleotide chain during the
+elongation process (see PCR), no further nucleotide can be incorporated and
+ampliﬁcation is terminated. To get information on the order of the nucleotide
+sequence of a distinct DNA strand, the experimenter has to run four separate PCR
+reactions. Each reaction contains all four deoxynucleotides (dATP, dGTP, dCTP
+and dTTP—i.e. one dNTP for each base A, G, C and T), but only one of the four
+dideoxynucleotides. The results of the DNA ampliﬁcation is made visible by put-
+ting the PCR products of the four PCR runs on separate lanes on an electrophoresis
+gel (see Fig. 23.5, left).
+   Sequencing was revolutionized by the invention of the dye-terminator
+sequencing method, which is currently used by high-throughput DNA sequence
+analyzers. By labeling the ddNTPs with fluorescent dyes, like in RT-PCR analysis,
+sequencing depends on just one rather than four PCR reactions. The fluorescent
+dyes emit light at different wavelengths that are measured by a sequencer machine
+(see Fig. 23.5, right).
+
+
+
+23.7     Genome Wide Scan Technique
+
+Besides following the already described candidate gene approach, genome wide
+scans (GWS) are often conducted to grasp as much variation as possible across the
+complete DNA to spot genetic variants associated with a phenotype of interest. For
+example, if researchers are interested in identifying which genetic variants are
+responsible for anxiety, they could draw participants from a large genetic databank
+based on their anxiety scores gathered via self-report (e.g. high and low anxiety
+scores). In a second step, researchers test the frequency of millions of allelic
+variants in the anxious versus the non-anxious group: signiﬁcant higher/lower
+statistical prevalence rates of a particular SNP in the comparison of low and high
+anxious humans could be seen as an association with anxious behavior.
+   GWSs conducted to cover genetic variations across the genome which differs in
+terms of ﬁne granularity. The greater coverage of the DNA required, the more
+expensive the procedures are. If the researchers aim for a complete coverage of
+genetic variation of a single person, the complete genome must be sequenced. This
+456                                                                               M. Reuter et al.
+
+
+
+
+Fig. 23.5 Schematic overview of sequencing results. Left Sanger sequencing. For each of the four
+nucleotides (A, T, G, C) a separate analysis has to be run. The product of each reaction is spotted
+in a separate lane on an electrophoresis gel. The nucleic acid molecules are separated by applying
+an electric ﬁeld to move the negatively charged molecules through a matrix of agarose or other
+substances like polyacrylamide. Shorter molecules move faster and migrate further than longer
+ones, because shorter molecules migrate more easily through the pores of the gel. Right
+Dye-terminator sequencing: The ddNTPs are labeled with different fluorescent dyes, which emit
+light at different wavelengths and are measured by an optical unit of the sequencing machine
+
+
+means that basically every base of a person’s DNA is read out (see Sequencing).
+Clearly this is a very costly endeavor, which is usually prohibitively expensive.
+Therefore, researchers need to choose between a range of chips (e.g. available from
+companies such as Illumina) giving information on up to ﬁve million SNPs of a
+single participant. Among these SNPs are up to 4.2 million TagSNPs. The ﬁrst
+TagSNPs were derived by sequencing the DNA of N = 270 participants from four
+populations in the International HapMap project. In contrast to the major success of
+having sequenced the complete human genome of two persons in the year 2000, the
+HapMap project provided for the ﬁrst time a sufﬁcient number of participants to
+reliably detect common genetic variants on the human DNA. TagSNPs take
+advantage of the linkage disequilibrium between SNPs lying closely to each other
+on the genome. Speciﬁcally, SNPs located in adjacent areas are likely to be
+inherited together. A perfect linkage equilibrium is characterized by r2 = 1.
+Knowing the genotypes of a series of TagSNPs covering a larger genomic area
+gives researchers information on which genetic variants to expect without having
+genotyped every single one of the known SNPs in this area. TagSNPs can be
+23   Molecular Genetics                                                           457
+
+inferred by means of haplotype analyses. These are mathematical algorithms that
+calculate the linkage between SNPs in a certain gene region on one chromosome.
+   The newest large international genomic project is called 1kGP and investigates
+the human genome of a much larger group consisting of N = 2500 participants from
+25 populations around the globe. By sequencing this large number of participants it
+will be possible to get more detailed insights into the variability of human DNA,
+detecting alleles with a minor allele frequency of >1 % in the population. A large
+number of the aforementioned 4.2 million TagSNPs were detected by this new
+project. It has been suggested that it is possible to cover up to 35 million SNPs with
+5 million TagSNPs. Among the 5 million SNPs covered, about 2 million SNPs can
+be found in genic regions. The rest of the covered SNPs can be found in intergenic
+regions—the vast areas lying between genes. These areas have been known as ‘junk
+DNA’ for a long time, because researchers thought that intergenic regions are
+evolutionary relics on our DNA and no longer of importance. This view has
+changed in recent years, as these intergenic regions appear responsible for much of
+the regulatory processes of gene activity.
+
+
+
+23.8     Matrix Assisted Laser Desorption Ionization—Time
+         of Flight Mass Spectrometry (MALDI-TOF-MS)
+
+MALDI-TOF-MS is a technique that can be used for high-throughput genotyping.
+However, the throughput, i.e., the number of genotypes assessed per run (about
+15,000), is much lower than in GWS studies (GWS; see above). Therefore, the
+choice of which method to use for genotyping (PCR, Sequencing,
+MALDI-TOF-MS or GWS) depends on the size and the aim of the planned project.
+Clearly, the available funding for a project also plays an important rule, because
+GWS—although providing ﬁne-grained information on each participant—are still
+more costly than analyzing a number of SNPs of a person by means of
+MALDI-TOF-MS. Results of GWS studies often come up with only a very small
+number of polymorphisms that hold the massive correction for multiple testing.
+Often nothing is known about the gene on which these SNPs are located. The
+straightforward strategy is now to screen these genes by covering at least all
+TagSNPs. In addition, a further approach would be the investigation of all relevant
+genes of a certain neural pathway by means of Tag-SNP analysis. For example, if a
+researcher is interested in reward processing, he or she could investigate all
+pathway-based genes of relevance for dopaminergic signaling. Here,
+MALDI-TOF-MS is the method of choice.
+    Before conducting a MALDI-TOF-MS analysis there are several preprocessing
+steps. The scientist has to set up a list of SNPs he/she is interested in. By software
+supported in silico6 analysis the primers for the PCR analysis and so-called
+
+
+6
+In silico means that the designs are conducted on a computer.
+458                                                                    M. Reuter et al.
+
+extension primers for an ensuing extension reaction have to be designed and tested
+for compatibility. The best possible result is to “plex” up to 40 different SNPs in
+one reaction. When using a 384-well PCR plate it is possible to get 40 by 384
+(=15,360) genotype results. Before the actual analysis, the preprocessed samples
+(preprocessing encompasses three different biochemical reactions including PCR)
+must be spotted by a nanodispenser on a microchip, which is then inserted into the
+mass spectrometer. Using a laser each well of the microchip is then ﬁred and the
+molecules fly high through the wind tunnel of the mass spectrometer, which is
+under a vacuum. The time it takes for the molecules to fly to the top of the wind
+tunnel (time-of-flight) gives information on the size of the molecules, e.g., smaller
+molecules fly high faster. Using earlier plex designed in silico, it has been ensured
+that each of the genotypes of the approximately 40 SNPs has a distinct molecular
+size. The mass spectrometer is capable of detecting DNA fragments within a range
+of 4500–9000 Da, and can distinguish between analytes separated by 16 Da or
+more (analytes are typically 18–25 nucleotides).
+
+
+
+23.9    Epigenetics
+
+Genetic research had—and often still has—a bad image among the public.
+Although people are aware that genetic research can prospectively promote the
+development of new medical therapies, the fear of the misuse of genetic information
+remains prevalent in the minds of many. For example, the perception that important
+phenotypes such as Intelligence, which is proven to be causally related to profes-
+sional success, are strongly and genetically determined (heritability estimates for
+intelligence range between 0.50 and 0.70; Bouchard et al. 1990), makes many
+people uncomfortable, because it means that our own influence on our fate is
+limited. A strong heritability for psychiatric diseases has also been proven
+(McGufﬁn et al. 2001). However, the fact that many disorders, such as depression,
+are influenced by many genes makes identiﬁcation of the polymorphisms involved
+very complicated. The same is true for intelligence and other complex phenotypes,
+such as those studied in Neuroeconomics. In contrast to monogenetically caused
+disorders, such as the neurological condition Huntington’s disease, a complex
+concert of hundreds of genes influences the aforementioned psychological pheno-
+types. It can be assumed that each of the single genetic markers merely represents a
+genetic risk factor, which only comes into play when additional risk factors—not
+just genetic ones—are also present. These risk factors can be environmentally
+conditioned. For example, stress, ﬁnancial worries, relationship problems, the ill-
+ness of one’s child, etc., can trigger the onset of a psychiatric disease if a genetic
+risk factor is given.
+   On the other hand, we know that environmental factors, e.g., treatments, train-
+ings, or therapies can ameliorate or cure a disease. It could be shown that therapy
+outcome can be dependent on the genetic makeup of an individual. For example,
+Knuts et al. (2014) reported that a sample of agoraphobia patients those carrying the
+23   Molecular Genetics                                                               459
+
+5-HTTLPR low expression genotypes had a more favorable response to exposure
+therapy two weeks following treatment, compared to patients with other genotypes.
+Using a slightly different approach, Caspi et al. (2003) demonstrated that the risk
+for depression is dependent on 5-HTTLPR genotype but only in the presence of
+critical life events. The risk for depression increases only exponentially in carriers
+of the 5-HTTLPR ss-genotype. If no critical life events are present, carriers of the
+ss-, the sl-, and the ll-genotype do not differ with respect to their risk for depression.
+The study by Caspi et al. is one of the ﬁrst and most prominent studies demon-
+strating a gene by environment interaction. At this point in time the molecular
+mechanisms of how environmental factors can influence genes were totally
+unknown. Interestingly, the term “epigenetics” had already been coined in 1942 by
+the British developmental biologist Conrad Hal Waddington. At this time even the
+structure of DNA was still unknown. Epigenetics denotes processes that act outside
+the regulation of gene expression, but that affect it (Epi stems from an old Greek
+word meaning “over” or “outside of”). Epigenetics is a ﬁeld of biology that
+investigates what factors determine the activity of a gene and thus the development
+of the cell temporarily and whether some of these changes are inherited by the next
+generation. In molecular genetics, epigenetic analyzes focus mostly, in addition to
+histone modiﬁcations, on methylation analysis. DNA methylation is a modiﬁcation
+of DNA that occurs through the addition of a methyl group to the 5-carbon position
+of a cytosine ring (see Fig. 23.6a). Notably, DNA methylation only occurs if the
+cytosine base (C) is followed by a guanine base (G). Adjacent cytosine and guanine
+bases are knitted together by a phosphodiester bond (p). This is the reason why the
+sequence of a cytosine-phosphoguanine is designated as CpG-site (see Fig. 23.6b).
+CpG islands are regions in the human genome where the prevalence of CpG-sites is
+very high (i.e. >50 %) and the observed-to-expected CpG ratio is greater than
+60 %. CpG islands represent about 1 % of the genome (see Fig. 23.6c). A strongly
+methylated gene has a low or no expression rate. Hypermethylated genes are
+densely “packed,” which prevents the transcription factors from binding. This is the
+reason why genes that are not expressed in a certain cell type are hypermethylated.
+For example, the insulin gene is strongly methylated in a neuronal cell in which
+insulin is not produced. Therefore, cell differentiation is closely related to
+methylation.
+    Two methods are widely used to assess the percentage of CpG methylation in a
+given DNA region: Bisulﬁte-Sequencing and MALDI-TOF-MS. Both techniques
+demand bisulﬁte treated DNA. Treatment of DNA with bisulﬁte converts cytosine
+residues to uracil (U), but leaves 5-methylcytosine residues unaffected. In other
+words, if a CpG site is methylated the 5-methylcytosine is unchanged, whereas in
+the case of no methylation, a uracil replaces the cytosine base. After the DNA
+sequence is bisulﬁte treated, the Bisulﬁte Sequencing is run as in normal
+sequencing. However, MALDI-TOF-MS needs a special chemistry to ﬁnally allow
+quantiﬁcation of the percentage of methylation for discrete CpG sites. However, the
+principle of MALDI-TOF-MS remains unchanged.
+460                                                                            M. Reuter et al.
+
+
+
+
+Fig. 23.6 Methylation in epigenetics: a DNA methylation is a modiﬁcation to DNA that occurs
+through the addition of a methyl group to the 5 carbon position of a cytosine ring. DNA
+methylation only occurs if the cytosine base (C) is followed by a guanine base (G). b Adjacent
+cytosine and guanine bases are knitted together by a phosphodiester bond (p). This is why the
+sequence of a cytosine-phosphoguanine is designated as CpG-site. c CpG islands are regions in
+the human genome where the prevalence of CpG-sites is very high (i.e. >50 %) and the
+observed-to-expected CpG ratio is greater than 60 %. CpG islands represent about 1 % of the
+genome
+
+
+References
+
+Bouchard TJ Jr, Lykken DT, McGue M, Segal NL, Tellegen A (1990) Sources of human
+   psychological differences: the Minnesota study of twins reared apart. Science 250(4978):223–
+   228
+Caspi A, Sugden K, Mofﬁtt TE, Taylor A, Craig IW, Harrington H, McClay J, Mill J, Martin J,
+   Braithwaite A, Poulton R (2003) Influence of life stress on depression: moderation by a
+   polymorphism in the 5-HTT gene. Science 301(5631):386–389
+Cook EH Jr, Scherer SW (2008) Copy-number variations associated with neuropsychiatric
+   conditions. Nature 455(7215):919–923
+Heinz A, Goldman D, Jones DW, Palmour R, Hommer D, Gorey JG, Lee KS, Linnoila M,
+   Weinberger DR (2000) Genotype influences in vivo DAT availability in human striatum.
+   Neuropsychopharmacology 22:133–139
+Knuts I, Esquivel G, Kenis G, Overbeek T, Leibold N, Goossens L, Schruers K (2014)
+   Therapygenetics: 5-HTTLPR genotype predicts the response to exposure therapy for
+   agoraphobia. Eur Neuropsychopharmacol 24(8):1222–1228
+Lim MM, Wang Z, Olazábal DE, Ren X, Terwilliger EF, Young LJ (2004) Enhanced partner
+   preference in a promiscuous species by manipulating the expression of a single gene. Nature
+   429(6993):754–757
+23   Molecular Genetics                                                                    461
+
+McGufﬁn P, Riley B, Plomin R (2001) Genomics and behavior. Toward behavioral genomics.
+   Science 291(5507):1232–1249
+Montag C, Reuter M (2014) Disentangling the molecular genetic basis of personality: from
+   monoamines to neuropeptides. Neurosci Biobehav Rev 43:228–239
+Reuter M, Küpper Y, Schmitz A, Breuer JP, Wend U, Hennig J (2005) Detection of new single
+   nucleotide polymorphisms by means of Real Time PCR. J Genet 84:341–345
+Spanagel R, Weiss F (1999) The dopamine hypothesis of reward: past and current status. Trends
+   Neurosci 22(11):521–527
+Vandenbergh DJ, Persico AM, Hawkins AL, Grifﬁn CA, Li X, Jabs EW, Uhl GR (1992) Human
+   dopamine transporter gene (DAT1) gene maps to chromosome 5p15.3 and displays a VNTR.
+   Genomics 14:1104–1106
+Walum H, Westberg L, Henningsson S, Neiderhiser JM, Reiss D, Igl W, Ganiban JM, Spotts EL,
+   Pedersen NL, Eriksson E, Lichtenstein P (2008) Genetic variation in the vasopressin receptor
+   1a gene (AVPR1A) associates with pair-bonding behavior in humans. Proc Natl Acad Sci USA
+   105:14153–14156

@@ -1,0 +1,511 @@
+Chapter 21
+Structural MRI: Morphometry
+
+Christian Gaser
+
+
+
+
+Abstract Human brains are characterised by considerable intersubject anatomical
+variability, which is of interest in both clinical practice and research. Computational
+morphometry of magnetic resonance images has emerged as the method of choice
+for studying macroscopic changes in brain structure. Magnetic resonance imaging
+not only allows the acquisition of images of the entire brain in vivo but also the
+tracking of changes over time using repeated measurements, while computational
+morphometry enables the automated analysis of subtle changes in brain structure. In
+this section, several voxel-based morphometric methods for the automated analysis
+of brain images are presented. In the ﬁrst part, some basic principles and techniques
+are introduced, while deformation- and voxel-based morphometry are discussed in
+the second part.
+
+
+
+21.1    Introduction
+
+The Jena psychiatrist Hans Berger became famous for the discovery of electroen-
+cephalography. Less known, however, are Berger’s imaginative studies of brain
+morphometry. He tried, for example, to estimate the cortical surface by gluing small
+metal plates onto a post-mortem brain. Since the area and weight of a single metal
+plate were known, the total weight of the plates was used in order to estimate the
+total area of the cortex. Nowadays, computer-based methods use the same idea with
+so-called triangulation. However, now the metal plates are replaced by small tri-
+angles forming a computerised mesh that renders the shape of the cortical surface
+and allows a reliable and accurate measurement. This new approach belongs to the
+recently developed methods for the automated analysis of brain structure that are
+referred to as ‘computational morphometry’ (Takao et al. 2010).
+
+
+
+C. Gaser (&)
+Structural Brain Mapping Group, Departments of Neurology and Psychiatry,
+Jena University Hospital, Am Klinikum 1, 07747 Jena, Germany
+e-mail: christian.gaser@uni-jena.de
+
+© Springer-Verlag Berlin Heidelberg 2016                                           399
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_21
+400                                                                           C. Gaser
+
+    Besides the use of computer algorithms, the availability of new imaging methods
+played a seminal role in morphometry. These new imaging methods not only allow
+the acquisition of images of the entire brain in vivo but also the tracking of changes
+over time using repeated measurements. Thus, they represented a real advance
+because previously post-mortem examinations were the only way to examine brain
+structures.
+    The ﬁrst imaging method that allowed mapping of cerebral structures in vivo
+was pneumoencephalography. This procedure involved drainage of most of the
+cerebrospinal fluid (CSF) from around the brain and replacement with air. The
+ventricular system of the brain could then be identiﬁed on an X-ray of the skull.
+However, this method proved to be very invasive and painful. It took until the70s of
+the last century before computed tomography provided images of the brain in three
+dimensions. The real breakthrough in imaging techniques, however, came with
+magnetic resonance imaging (MRI), which allowed a much higher spatial resolution
+without ionising radiation. This method has become the standard tool of macro-
+scopic anatomy, both in clinical practice and in research. Another advantage of this
+imaging method is that variable image contrasts can be achieved by using different
+parameters for longitudinal (T1) and transverse (T2) relaxation times and proton
+density. The signal intensities on T1, T2 and proton density relate here to speciﬁc
+tissue contrasts. The most commonly used imaging sequence for MR-morphometry
+is T1-weighted imaging because of its high contrast for brain parenchyma (see
+Fig. 21.1). Other imaging sequences can be used to evaluate CSF spaces, oedema
+or subacute stroke (T2 weighted), to enhance parenchymal abnormalities, such as
+low-grade glioma (fluid-attenuated inversion recovery [FLAIR]), or to visualise
+acute ischaemia (diffusion weighted).
+    In addition to the various methodological developments, morphometry has
+gained increasing importance in the ﬁeld of neuroscience because completely new
+
+
+
+Fig. 21.1 T1-weighted MRI
+scan. The small image (top
+right) shows the location of
+the axial slice (main image).
+This sequence reveals a high
+contrast for brain parenchyma
+and the different signal
+intensities relate to grey and                                            White matter
+white matter and
+cerebrospinal fluid
+(CSF) [modiﬁed from (Gaser
+2005)]
+                                                                          Grey matter
+
+
+
+
+                                                                    CSF
+21   Structural MRI: Morphometry                                                    401
+
+applications have become possible. While in the early days the applications were
+limited to the quantiﬁcation of global parameters such as brain weight or brain
+volume, nowadays a wide spectrum of applications is supported. This ranges from
+the investigation of local morphometric changes in certain diseases up to the
+detection of brain plasticity.
+   In this chapter, two different morphometric methods for the analysis of MR
+images of the brain are presented. In the ﬁrst part, some basic principles and
+techniques are introduced, while two morphometric methods are discussed in the
+second part that both work on a voxel-wise level.
+
+
+
+21.2     Basic Principles
+
+21.2.1 Spatial Normalisation
+
+Brains are characterised by considerable intersubject anatomical variability. In order
+to analyse brains across different subjects, an adjustment to a reference system
+using a stereotactic or spatial normalisation is required. This permits the analysis of
+brains in a standardised space or coordinate system. However, this procedure is also
+useful for brain morphometry and consequently a variety of methods based on this
+idea exists.
+    In order to spatially normalise brain images, it is ﬁrst necessary to deﬁne a
+standardised coordinate system by using speciﬁc anatomical landmarks. The most
+widely used reference system is the Talairach atlas proposed by Talairach and
+Tournoux (1988). The basic idea is to deﬁne the anterior and posterior commissures
+and several points relative to them to align and scale a brain image. The anterior
+commissure is the origin of the coordinate system and all locations within the brain
+can now be deﬁned with standardised coordinates in millimetres (Fig. 21.2). This
+allows the comparison of anatomical localisations between different brains and even
+different studies.
+    The adjustment due to spatial registration can be achieved in different ways
+(Fig. 21.3). The simplest procedure is to only correct the position of the images, for
+which displacements and rotations are applied. The image size (or brain size)
+remains unchanged, which is necessary, for example, for brain images of the same
+subject, in longitudinal (serial) measurements over time. Since image size is not
+changed, this special case is also referred to as ‘rigid body transformation’. In
+contrast, images of different subjects need to be additionally corrected for image
+size by scaling or resizing the image. Furthermore, for a full afﬁne transformation,
+an additional shearing of the image can be applied (Fig. 21.3). Since the adjustment
+is done for the entire image in the same way (or linearly), the term ‘linear spatial
+normalisation’ is used.
+    In contrast to linear normalisation, nonlinear normalisation also corrects for local
+differences between two brains. For this, images are locally warped (deformed)
+402                                                                                        C. Gaser
+
+
+
+
+                                               z
+
+
+
+
+                           y            CA             CP
+
+
+
+
+Fig. 21.2 Talairach coordinate system. The coordinate origin of the Talairach space is deﬁned by
+the anterior commissure (CA). From here, all locations in the brain can be speciﬁed as coordinates
+in millimetres. The line through the anterior and posterior (CP) commissures is used for aligning
+the coordinate system. The image shows the extent in the y-direction (anterior-posterior) and
+z-direction (inferior-superior). The x-axis (not shown here) determines the left-right direction
+[modiﬁed from (Gaser 2005)]
+
+
+
+
+           Translation                       Scaling
+
+
+
+
+            Rotation                       Shearing
+                    Linear (affine) normalisation                       Non-linear normalisation
+
+
+Fig. 21.3 Linear and nonlinear spatial registration. The left side of the ﬁgure shows the four
+possible linear transformations that are applied to the entire image. A special case is the so-called
+rigid body transformation. Here, the image is adjusted only by translations and rotations. An
+additional change in image size can be achieved by scaling and shearing the image. The
+aggregation of these linear transformations is known as ‘afﬁne normalisation’. In contrast to linear
+normalisation, nonlinear normalisation also corrects for local differences between two brains (right
+side of the ﬁgure). For this, images are locally warped (deformed) until the differences between
+them are minimised (modiﬁed from (Gaser 2005))
+21   Structural MRI: Morphometry                                                   403
+
+until the differences between them are minimised (Fig. 21.3). The cost of com-
+puting such local deformations is much higher and increases with the required
+spatial resolution of the deformations. The advantage of nonlinear normalisation,
+however, is the greater accurate adjustment of the brains to the reference brain.
+   Linear and nonlinear normalisation can be performed using different normali-
+sation algorithms [a detailed overview is given in (Toga 1999)]. Landmark-based
+methods use manual label points (landmarks) in the brain. These corresponding
+points are deﬁned in all brains and are then aligned. Contour-based methods use not
+just a few points or landmarks but the whole contour of a region, such as the outline
+of the corpus callosum in the sagittal plane or even the entire surface of the cortex
+as a three-dimensional contour (Thompson et al. 1997). Finally, intensity-based
+methods exist which use the local image intensity in order to achieve a spatial
+alignment between the images. Here, the squared sum of the signal intensity dif-
+ferences is used, for example, as an indicator of the similarity between two images.
+By minimising these intensity differences, an alignment of both images is achieved.
+
+
+
+21.2.2 Segmentation
+
+Segmentation algorithms are among the most commonly used methods in brain
+morphometry. The aim of these methods is to segment an image into separate
+anatomical tissue compartments, such as grey matter, white matter and CSF, after
+removing non-brain parts. With more sophisticated approaches, it is also possible to
+segment pathological changes, such as tumours, lesions or stroke-affected regions.
+However, in addition to the T1 images, this usually requires MR sequences, such as
+T2 weighting or FLAIR, where the pathological changes can be better differentiated.
+    A plethora of semi-automated and automated algorithms exists, such as intensity
+thresholding, region growing, classiﬁers, clustering, Markov random ﬁeld models,
+artiﬁcial neural networks, deformable models or atlas-guided approaches (Pham
+et al. 2000). From all of these examples, one of the most commonly used methods
+will be presented here in detail: the Gaussian mixture model, which belongs to the
+group of classiﬁers (Ashburner and Friston 2005). First, an intensity histogram of
+the image is estimated that plots the frequencies of the image intensities on the
+y-axis (Fig. 21.4, bottom left). The simpliﬁed example in Fig. 21.4 shows only four
+different intensity distributions. Here, the smallest image intensities are assigned to
+the background (left part of the histogram), followed by CSF, grey and white matter
+with the highest image intensity in the right part of the histogram. Gaussian curves
+that can differ with regard to height and width are now ﬁtted into this intensity
+distribution. The maximum of each of these four Gaussian curves represents the
+mean intensity value for the respective tissue compartment. For the example of grey
+matter, this means that at the peak maximum the probability that this image voxel
+belongs to grey matter is largest. The more the image intensity deviates from this
+404                                                                                                           C. Gaser
+
+ Frequency                  T1 image             Estimated grey matter
+                                                                         p=0.95
+
+
+                                                                         p=0.95
+
+
+                                                                                                              p=0.05
+
+
+                                                                           Bayes
+                                                                         estimation
+
+
+
+                                                                                                              p=0.90
+
+                                                                                      Posterior probability
+                               Image intensity                           p=0.05         for grey matter
+              Back-                    white
+             ground           gre
+                      CSF      y                                         p=0.95
+
+                                                    Prior information
+                                                     for grey matter
+
+
+Fig. 21.4 Image segmentation using a priori information. First, the image intensities of the T1
+image (upper left) are used to plot their frequencies in a histogram. Several peaks—corresponding
+to different image intensities of the tissue compartments—can be differentiated. In the next step,
+Gaussian mixture curves for each tissue compartment are ﬁtted into the histogram in order to
+estimate the probability that a voxel belongs to that tissue (lower left). A map for grey matter is
+shown (upper right) with the estimated probability for two selected locations (red circles). Based
+solely on a similar image intensity, the cerebral and extracranial circles exhibit a similar probability
+for belonging to grey matter. This can be adjusted by combining the image intensity-based
+information with prior information (below) using a Bayesian approach [modiﬁed from (Gaser
+2005)]
+
+
+value, the less likely it is grey matter and is rather CSF (at lower intensity) or white
+matter (with higher intensity).
+    The intensity distributions for each tissue compartment overlap because at a
+common voxel size of 1 × 1 × 1 mm3 any given voxel might contain more than
+one tissue. This is referred to as ‘partial volume effect’ and most often occurs at the
+border between brain parenchyma and CSF, at boundaries between grey and white
+matter, and in structures where white matter ﬁbres cross the grey matter. These
+partial volume effects can be modelled explicitly in order to estimate a more
+accurate segmentation (Tohka et al. 2004).
+    To guide tissue segmentation, additional tissue probability maps can be used to
+consider prior anatomical knowledge about the spatial distribution of different
+tissues (Ashburner and Friston 2005). Image intensity and prior knowledge can then
+be combined via a Bayes estimator. In fact, prior anatomical knowledge is used to
+drive and restrict the tissue segmentation algorithm (Fig. 21.4, right). While this
+may be valuable as long as the prior probability maps match the subject’s tissue
+distribution, it might lower segmentation accuracy in all populations that deviate
+from these maps (e.g. children, Alzheimer’s disease patients) (Wilke et al. 2008).
+21   Structural MRI: Morphometry                                                   405
+
+
+21.3     Voxel-Based Methods
+
+Voxel-based methods allow the analysis of each voxel in the MR data. This
+voxel-wise analysis is possible because all brains are adjusted by means of a spatial
+normalisation to a standard anatomical space. Thus, each voxel relates to the same
+corresponding anatomical structure across all brains, which can be assumed if a
+high-dimensional nonlinear spatial normalisation is applied.
+    While different voxel-wise measures can be used for that approach, the most
+common approach is to segment brains into different tissue compartments and
+analyse the local distribution for a speciﬁc tissue. This method is referred to as
+‘voxel-based morphometry.’ Another approach is to analyse the deformations that
+are necessary in order to non-rigid deform a brain to adapt it to another brain.
+Because this approach is based on deformations, it is known as ‘deformation-based
+morphometry.’
+    Prior to statistical analysis, the images have to be spatially smoothed (ﬁltered)
+with a Gaussian kernel. The reason for this is threefold. First, parametric tests
+assume that the data follow a Gaussian distribution and after smoothing with a
+Gaussian kernel the data are more normally distributed according to the central limit
+theorem (Nichols and Hayasaka 2003). Second, smoothing accounts for small
+interindividual differences in local brain anatomy that remain after spatial nor-
+malisation. Finally, smoothing enables greater sensitivity for effects that approxi-
+mately match the size of the smoothing kernel according to the matched ﬁlter
+theorem (Ashburner and Friston 2000).
+    In the next step, smoothed images can then be compared in each voxel
+(Fig. 21.5). For statistical analysis, usually a general linear model is used. This
+model—the equivalent of a multiple regression—incorporates a number of different
+statistical models ranging from simple correlation to repeated measures ANOVA in
+longitudinal designs. The result is a statistical parametric map, which allows a
+statistical statement about the initial hypothesis in each voxel. However, due to the
+mass-univariate approach, a correction for multiple comparisons has to be applied.
+The most frequently used correction is based on the Gaussian random ﬁeld theory
+(Worsley et al. 1996) that enables a correction on the voxel or cluster level
+(although a correction on the more theoretical set level is also possible) (Friston
+et al. 1996). Another option for the consideration of the issue of multiple com-
+parisons has become very popular in recent years. This method is based on the
+adaptive control of the false discovery rate (FDR) and was originally proposed for
+microarray data to identify genetic effects (Benjamini and Hochberg 1995). Finally,
+permutation tests do not assume normally distributed data and enable a correction
+for multiple comparisons particularly for small sample sizes. They use random
+shuffles of the data to attain a correct distribution of a test under a null hypothesis
+(Nichols and Holmes 2002). Again, a correction on the voxel or cluster level is
+possible. Another possibility is to use a correction based on threshold-free cluster
+enhancement (TFCE) that combines both levels by accumulating cluster-like local
+spatial support at a range of cluster-forming thresholds (Smith and Nichols 2009).
+406                                                                                        C. Gaser
+
+
+
+
+                                                                 General linear
+                                                                    model
+
+   Reference                                                                           Statistical
+     brain
+                           ..                    ..                                 parametric map
+                            .                     .
+
+
+                      Individual         Individual voxel-
+                        brains         wise measurements
+
+Fig. 21.5 Principle of a voxel-based analysis. For a voxel-wise analysis, it is ﬁrst necessary to
+spatially register all brains to a reference brain. Now, in each voxel a morphometric parameter (e.g.
+grey matter volume) is estimated that can be statistically analysed using a general linear model.
+The result is a statistical parametric map which allows a statistical statement about the initial
+hypothesis in each voxel [modiﬁed from (Gaser 2005)]
+
+
+    Since the analysis is made on a voxel-wise level, this approach offers several
+advantages over conventional morphometry. One such advantage is the reduction of
+partial volume effects, since a structural change can be detected in each voxel of the
+brain and not only in the entire structure. Thus, structures that are only partially
+altered can be detected with higher sensitivity compared to region-based methods.
+Furthermore, an analysis can not only be carried out in predeﬁned regions but also
+throughout the brain. Large sample numbers can be examined with high reliability
+due to the automated measurement. These advantages might explain the great
+popularity of these methods in recent times.
+
+
+
+21.3.1 Deformation-Based Morphometry (DBM)
+
+DBM is based on the application of nonlinear registration procedures to spatially
+normalise one brain to another one. The simplest case of spatial normalisation is to
+correct the orientation and size of the brains. In addition to these global changes, a
+nonlinear normalisation is necessary to minimise the remaining regional differences
+by means of local deformations. If this local adaptation is possible, the deforma-
+tions now reveal information about the type and localisation of the structural dif-
+ferences between the brains and can undergo subsequent analysis (Fig. 21.6).
+21   Structural MRI: Morphometry                                                             407
+
+
+        Baseline               After 7 months                   Jacobian determinant
+                                                                  (volume changes)
+
+
+
+
+                        Zoom                                               Zoom
+Fig. 21.6 Principle of DBM. Left This example shows two T1 images of a male patient with
+schizophrenia at his ﬁrst episode and a subsequent scan after 7 months. In the enlarged views
+shown underneath, the larger lateral ventricles at the second time point can be clearly seen. The
+principle of DBM is to warp the second scan to the baseline scan by introducing high-dimensional
+deformations. Once this is achieved, the differences between both images are encoded in the
+deformations applied for the warp. These deformations can then be used to calculate volume
+changes by using the Jacobian determinant (right images) [modiﬁed from (Mietchen and Gaser
+2009)]
+
+
+   Figure 21.6 shows an example for a single patient with schizophrenia. A ﬁrst
+baseline scan was acquired at the beginning of his ﬁrst psychotic episode and a
+subsequent scan was acquired after 7 months where the enlarged ventricles are
+visible with the naked eye. The second image is warped to the baseline scan by
+introducing high-dimensional deformations. Differences between both images are
+minimised and are now coded in the deformations. Finally, a map of local volume
+changes can be quantiﬁed by a mathematical property of these deformations–the
+Jacobian determinant. This parameter is well known from continuum mechanics
+and is usually used for the analysis of volume changes in flowing liquids or gases.
+The Jacobian determinant allows a direct estimation of the percentage change in
+volume in each voxel and can be statistically analysed (Gaser et al. 2001). This
+408                                                                          C. Gaser
+
+approach is also known as ‘tensor-based morphometry’ because the Jacobian
+determinant represents such a tensor.
+   A deformation-based analysis can be carried out not only on the local changes in
+volume but also on the entire information of the deformations, which also includes
+the direction and strength of the local deformations (Gaser et al. 1999). Since each
+voxel contains three-dimensional information, a multivariate statistical test is nec-
+essary for analysis. A multivariate general linear model or Hotelling’s T2 test is
+commonly used for this type of analysis (Gaser et al. 1999; Thompson et al. 1997).
+   The principle of DBM can be applied to both cross-sectional and longitudinal
+data. In a cross-sectional design, typically brain images of two groups are warped to
+a reference image. Thereafter, the different deformations to the reference image
+between the two groups can be compared. On the other hand, longitudinal data
+comprise measurements of the same subject at different time points. Here, the idea
+of DBM is slightly modiﬁed. Now, the baseline image at the ﬁrst time point serves
+as a reference image. All subsequent images of a subject are warped to this baseline
+image and the individual changes over time can be obtained. This allows the
+tracking of subtle changes over time, which cannot be detected by conventional
+morphometry.
+
+
+
+21.3.2 Voxel-Based Morphometry (VBM)
+
+VBM provides the voxel-wise estimation of the local amount or volume of a
+speciﬁc tissue compartment (Ashburner and Friston 2000). VBM is most often
+applied to investigate the local distribution of grey matter, but can also be used to
+examine white matter. However, the sensitivity for detecting effects in white matter
+is limited due to the low intensity contrast in large homogeneous white matter
+regions with only small changes in intensity. The concept of VBM incorporates
+different preprocessing steps: (1) spatial normalisation to a reference brain (tem-
+plate), (2) tissue classiﬁcation (segmentation) into grey and white matter and CSF
+and (3) bias correction of intensity non-uniformities. Ashburner and Friston (2005)
+proposed an approach whereby all three steps are combined within the same gen-
+erative model. This model is based on a mixture of Gaussians and additionally
+considers smooth intensity variations and nonlinear registration using tissue seg-
+mentations. This approach allows for more accurate and reliable results than simple
+serial applications of each single step.
+    Further improvement can be achieved if high-dimensional spatial registration
+techniques such as diffeomorphic registration approaches are used. Diffeomorphic
+registrations are based on a large-deformation framework and not only provide a
+number of elegant mathematical properties but generally allow for a better accuracy
+of the spatial registration (Ashburner 2007).
+    Local deformations are now used in order to reduce structural differences between
+original and template images. This facilitates a precise comparison within brain
+regions between different subjects. However, existing structural differences between
+21   Structural MRI: Morphometry                                                             409
+
+the brains are now largely reduced and the sensitivity for detecting these effects in
+the statistical analysis is therefore minimised. Thus, the volume of a particular tissue
+within a voxel has to be preserved. This is attained by multiplying (or modulating)
+voxel values in the segmented images by the Jacobian determinants that are derived
+from the spatial registrations. This process is referred to as ‘modulation.’
+
+
+
+References
+
+Ashburner J (2007) A fast diffeomorphic image registration algorithm. Neuroimage 38(1):95–113
+Ashburner J, Friston KJ (2000) Voxel-based morphometry–the methods. Neuroimage 11(6 Pt
+    1):805–821
+Ashburner J, Friston KJ (2005) Uniﬁed segmentation. Neuroimage 26(3):839–851
+Benjamini Y, Hochberg Y (1995) Controlling the false discovery rate—a practical and powerful
+    approach to multiple testing. J Roy Stat Soc B Met 57(1):289–300
+Friston KJ, Holmes A, Poline JB, Price CJ, Frith CD (1996) Detecting activations in PET and
+    fMRI: levels of inference and power. Neuroimage 4(3 Pt 1):223–235
+Gaser C (2005) Morphometrie. In: Walter H (ed) Funktionelle Bildgebung in Psychiatrie und
+    Psychotherapie. Schattauer Verlag, Stuttgart, pp 89–104
+Gaser C, Volz HP, Kiebel S, Riehemann S, Sauer H (1999) Detecting structural changes in whole
+    brain based on nonlinear deformations-application to schizophrenia research. Neuroimage 10
+    (2):107–113
+Gaser C, Nenadic I, Buchsbaum BR, Hazlett EA, Buchsbaum MS (2001) Deformation-based
+    morphometry and its relation to conventional volumetry of brain lateral ventricles in MRI.
+    Neuroimage 13(6 Pt 1):1140–1145
+Mietchen D, Gaser C (2009) Computational morphometry for detecting changes in brain structure
+    due to development, aging, learning, disease and evolution. Front Neuroinform 3:25. doi:10.
+    3389/neuro.11.025.2009
+Nichols T, Hayasaka S (2003) Controlling the familywise error rate in functional neuroimaging: a
+    comparative review. Stat Methods Med Res 12(5):419–446
+Nichols TE, Holmes AP (2002) Nonparametric permutation tests for functional neuroimaging: a
+    primer with examples. Hum Brain Mapp 15(1):1–25
+Pham DL, Xu C, Prince JL (2000) Current methods in medical image segmentation. Annu Rev
+    Biomed Eng 2:315–337
+Smith SM, Nichols TE (2009) Threshold-free cluster enhancement: addressing problems of
+    smoothing, threshold dependence and localisation in cluster inference. Neuroimage 44(1):83–98
+Takao H, Abe O, Ohtomo K (2010) Computational analysis of cerebral cortex. Neuroradiology 52
+    (8):691–698
+Talairach J, Tournoux P (1988) Co-planar stereotaxic atlas of the human brain: 3-dimensional
+    proportional system—an approach to cerebral imaging. Thieme, New York
+Thompson PM, MacDonald D, Mega MS, Holmes CJ, Evans AC, Toga AW (1997) Detection and
+    mapping of abnormal brain structure with a probabilistic atlas of cortical surfaces. J Comput
+    Assist Tomogr 21(4):567–581
+Toga AW (ed) (1999) Brain warping. Academic Press, San Diego
+Tohka J, Zijdenbos A, Evans A (2004) Fast and robust parameter estimation for statistical partial
+    volume models in brain MRI. Neuroimage 23(1):84–97
+Wilke M, Holland SK, Altaye M, Gaser C (2008) Template-O-matic: a toolbox for creating
+    customized pediatric templates. Neuroimage 41(3):903–913
+Worsley KJ, Marrett S, Neelin P, Vandal AC, Friston KJ, Evans AC (1996) A uniﬁed statistical
+    approach for determining signiﬁcant signals in images of cerebral activation. Hum Brain Mapp
+    4(1):58–73

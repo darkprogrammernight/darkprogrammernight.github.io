@@ -1,0 +1,504 @@
+
+7
+Defining Deception
+(Beyond BFLs and Conscious Intent)
+
+Sometimes people tell outright lies. People sometimes say things that
+they very well know are false with the intent and for the purpose of duping
+others. But outright lies are not the only ways people go about deceiving others. In fact, outright lies probably account for only a small proportion of deceptive messages.
+Chapters 7 and 8 set the stage for TDT by addressing some issues that have
+been skirted so far but are essential to understanding deception and TDT’s
+place in deception theory. This chapter explores one fundamental question
+in considerable detail: What is deception? Chapter 8 addresses the closely related issue of the various forms deceptive messages can take. Two theories by
+my good friend and colleague Steve McCornack (information manipulation
+theory, IMT, and information manipulation theory 2, IMT2) addressing deceptive message form, function, and production are presented in chapter 8.
+Together, the next two chapters move our understanding of deception beyond
+both conscious intent and outright lies.
+This chapter is subtitled “Beyond BFLs and Conscious Intent.” Steve McCornack’s ideas of bald-faced lies (BFLs) and bald-faced truths (BFTs) were briefly
+mentioned in chapter 5 as a critique of prior theory. Almost all deception
+research compares outright lies (BFLs) to unproblematic, unpackaged, easy
+truths. Deception, however, is not limited to BFLs, and, if IMT2 is correct, BFLs
+are not even the deceptive message of choice in most deception-prompting
+situations. BFLs constitute only a small and nonrepresentative minority of
+deceptive messages.
+Further, and especially relevant to this chapter, most theorists and researchers define deception as an intentional act. In contrast to the conscious intent
+
+102
+
+CHAPTER SEVEN
+
+requirement, IMT, IMT2, and TDT take a more functional approach to defin
+ing deception. Steve McCornack and I certainly don’t preclude intent, but we
+tend to think that if someone was “deceived,” then there was deception. Our
+theories let us talk about messages that function to deceive without knowing
+the intention states of the person who is doing the deceiving. In short, this
+chapter and the next outline a theoretical stance that moves beyond BFL and
+conscious intent.
+The relegation of deceptive intent to a lesser role marks a departure for
+TDT (and companion theories IMT and IMT2) from the theories of deception reviewed in the previous chapters. Because TDT defines deception differently than its rivals, it makes sense to spend some time working through
+various issues in defining deception and discussing the theoretical implications of various definitions.
+In this chapter attention is turned to conceptual issues in defining honesty, deception, and lying. My approach to defining these terms is explained.
+It might be surprising that a whole chapter is dedicated to defining deception.
+It is my opinion, however, that defining deception is not as straightforward
+as it might at first seem, and that a new approach to deception and deception
+detection is well served by reconsidering what we mean by deception. Good
+theory, I believe, requires a solid, well-thought-out conceptual foundation. I
+have been thinking about how to define deception for almost three decades,
+and this chapter describes that thinking.
+DEFINING DECEPTION
+In chapter 6, the following definitions of deception, lying, and honest communication were provided without explanation:
+• Deception is intentionally, knowingly, or purposefully misleading another person.
+• A lie (or bald-faced lie, BFL for short) is a subtype of deception that
+involves outright falsehood, which is consciously known to be false
+by the teller, and is not signaled as false to the message recipient.
+• Honest communication lacks deceptive purpose, intent, or awareness.
+Honest communication need not be fully accurate or true, or involve
+full disclosure.
+Before discussing my definitions,1 let’s take a look at definitions of deception by Ekman, Burgoon, and Vrij for comparison:
+
+DEFINING DECEPTION
+
+103
+
+One person intends to mislead another, doing so deliberately, without prior
+notification of this purpose, and without having been explicitly asked to do
+so by the target.2
+Deception is defined as a message knowingly transmitted by a sender to
+foster a false belief or conclusion by the receiver. . . . More specifically, deception occurs when communicators control the information contained
+in their messages to convey a meaning that departs from the truth as they
+know it.3
+A successful or unsuccessful deliberate attempt, without forewarning, to create in another a belief which the communicator considers to be untrue.4
+As you can see, the wording is a little different, but there is a general consensus among Ekman, Burgoon, and Vrij on what constitutes deception. Like
+the three examples just provided, most definitions of deception these days define it as an intentional or knowing attempt to mislead another person.
+It follows from these definitions that speaking the literal truth and being
+honest are not the same things. Along the same lines, deception and falsehoods are not synonymous. Deception is not a matter of the truth or falsity
+of what is said but an issue of deceptive intent. An “honest mistake,” that is,
+saying something that one incorrectly believes to be true, is false but it is not
+considered as deception. Further, saying something known to be false is not
+deceptive if it is said in such a way that the hearer should know it is false. Sarcasm is an obvious example. If I say “Nice job!” after you make an obvious
+mistake, you know not to take me literally. None of these cases involve intent
+to mislead. However, saying something that is literally true in a sarcastic way
+so that the listener infers something false can be deceptive. In short, what is
+literally true can be deceptive and saying something false need not be deceptive. What makes something deceptive is, according to most definitions, the
+conscious intent to mislead.
+Also, according to prevailing definitions, what matters is the intent, not what
+is achieved. Lies that fool no one still count as deception. Focus is placed almost entirely on the intention state of the would-be deceiver. If a sender is trying to deceive, then it’s deception according to most definitions. The Vrij definition above makes this most explicit.
+Some cases of deception are clear-cut. When someone says something that
+is clearly false, it is clear that the person speaking the falsehood knows that
+it is false and intends to deceive the target person, and if the target is indeed
+
+104
+
+CHAPTER SEVEN
+
+misled by the statement, we have a successful bald-faced lie (BFL). The deceptive nature of such lies is uncontroversial and unequivocal. In such cases, the
+peculiarities of particular definitions matter not. Successful BFLs are deception according to all academic and nonacademic definitions alike. In the next
+chapter, I present some research showing that just about everyone everywhere
+sees BFLs as deception. But, evidence will also be presented showing that BFLs
+are only one type of deception, and not an especially common type. BFLs are
+deception, but most deception is not achieved through BFLs.
+BEYOND BFLS AND INTENT
+BFLs populate much of the experimental work on deception and deception detection. But deception is not always so simple and clear-cut, especially outside
+the lab. I have several situations in mind that muddy the conceptual waters
+and pose challenges for the deceptive-intent approach to defining deception.
+The considerations discussed here led me, after much thought, to the definitions I provide in this book that move beyond mere intent and outright lies.
+I engage these issues with a little more tentativeness than I approach many
+issues in the book. I do not believe that one definition is necessarily right and
+the rest are wrong. Definitions are not like theories that can be tested against
+data and falsified. I am certainly not after a normative definition here. That is,
+I am not seeking to define deception in a way that is consistent with common
+everyday usage of the term among English speakers. I am not approaching the
+task of defining deception as if I am creating an entry in a dictionary. Instead,
+I see the issues discussed here as considerations that make some definitions
+more or less useful for various theoretical, empirical, and practical purposes.
+I seek a definition that works well for the scope of this book, that fits within
+the logic of TDT, and that makes the most sense to me as a theoretician seeking a precise understanding of my topic.5
+My method here is to offer some thought experiments and then provide
+commentary. Let’s start. What if you say something to a friend, you did not set
+out to mislead them, but you realize soon after you spoke that they misunderstood you and were misled by your words? Let us further presume that this
+misunderstanding is not trivial to the other person. The misunderstanding
+may cause that person some harm, and an accurate understanding is in his
+or her best interests. But, even though you know they were misled because of
+something you said and you know this might have some undesirable consequences for them, for whatever reason you don’t set the record straight. You
+don’t correct their misunderstanding. Did you deceive them?
+I think the answer is yes. If you know you misled someone and don’t correct
+
+DEFINING DECEPTION
+
+105
+
+that, that is deception even if there was no deceptive forethought, intent to do
+so, or at-the-time recognition. Some readers might disagree or think that this is
+splitting conceptual hairs. But read on. If Steve McCornack’s IMT2, described
+in the next chapter, is right, we sometimes start talking (i.e., the speech production systems are moving forward creating speech) before we consciously
+know what we are going say. That is, we are producing on the fly. We are composing our words and forming our ideas as we go. Consequently, misleading
+statements that work to our benefit can come out of our mouths without prior
+conscious intent, planning, or forethought of deception. Of course, some lies
+are deliberate, planned, consciously intended and the like. But I don’t want to
+be limited only to deception involving prior intent. As a consequence of considerations like these, I have long favored a definition of deception involving
+intent or awareness, such as: “Deception involves knowingly or intentionally misleading another person.”6
+The word “knowingly” in my 2010 definition was meant to include even
+after-the-fact awareness that someone was misled under the scope of deceit
+and thereby moves beyond the conscious-intent requirement.7
+FUNCTIONAL DEFINITIONS
+I have also long preferred definitions of deception in terms of its effect on
+people rather than how it is accomplished. In my view, what makes deceptive
+actions deceptive is that someone is deceived (excuse the circularity), not the
+specifics of how that deception is accomplished. From my perspective it matters not for the purpose of defining deception whether a person is misled by a
+false statement, a mixture of true and false information, a mere omission of a
+relevant detail, an equivocal message, an evasive shift in the direction of conversion, etc. Consequently, the words “misleading” or “misled” are critical to
+my definitions of deception. When I first began to study deception, it was not
+unusual for scholars to try to provide a list of the various ways deception might
+be accomplished. Various categories of deceptive messages were offered. Such
+lists typically included falsification and omission but missed many other forms
+of deceptive messages. As we will see in the next chapter, deceptive messages
+just don’t fit neatly into a manageable set of mutually exclusive types. Trying
+to define deception by listing all the ways it can be accomplished is misguided.
+My preference for a functional definition of deception is not universally
+shared. I have a friend who claims to eschew deception almost completely,
+and he is quite proud of his honesty, seeing it as a virtue marking moral rectitude. In discussing this virtue with him, I learned that he holds a very narrow definition of deception. Only BFLs, he says, count as dishonest. Strategic
+
+106
+
+CHAPTER SEVEN
+
+omission or ambiguity, he claims, is not dishonesty—only outright intentional
+falsehoods matter. As I watched him communicate with others, I saw him
+mislead people from time to time, but never with BFLs. He would omit a detail or be vague, or subtly change the subject. Being a skilled communicator,
+he didn’t need to lie outright to mislead. From my point of view, the outcome
+was the same: people were deceived. But his narrow definition of deception
+as strictly limited to BFLs lets him hold the belief that he is an honest person
+who fastidiously avoids deception. I once thought his view was idiosyncratic,
+but l have since met others with the same view.
+If we view deception primarily from an ethical-moral point of view in which
+deception is viewed as a bad thing and the goal is to be a good person who
+does not do bad things, then a narrow definition of deception is psychologically
+useful. Such views let people see themselves as good, moral people while still
+being able to function in a social world. But I don’t think such a limited definition of deception provides any comfort to those who are deceived by messages that mislead without being BFLs. All this aside, I think there is much
+more to deception than just the ethical-moral question of good–bad, right–
+wrong. Don’t get me wrong; I think ethics and integrity are very important
+considerations, but that’s not the focus of this book or TDT. In line with the
+meta-theoretical stance of my former professor Gerald Miller, I see questions
+of definition and questions of value as different sorts of questions that require
+different sorts of answers.8
+SELF-D ECEPTION
+Another issue that clouds things is self-deception. If deception is defined
+as a knowing or intentional act, self-deception is precluded, and so is other-
+deception that stems from self-deception. If I am self-deluded, my communication reflects my delusions, and you are misled by me into believing that my
+delusions are true because of my communication, is this deception? If we define deception as knowingly or intentionally misleading another, then the answer is no. Delusional messages are not deceptive. The sender consciously believes the message to be true, so self-deception is excluded by definition, and
+the communication is classified as sincere and honest even though it is false
+and misleading to the audience.
+This issue has come to the forefront of political news coverage with the
+presidency of Donald J. Trump. The Washington Post has a running tally of
+Trump’s false and misleading statements. As I write this, Trump’s average
+stands at 8.3 falsehoods per day, with a one-day high of 125 on September 7,
+2018.9 Can we say that Trump is lying?
+
+DEFINING DECEPTION
+
+107
+
+The more I have thought about this, the more uncomfortable I am with
+excluding all other-deception that involves self-deception. The turning point
+in my thinking was reading a book by Robert Trivers.10 As a theoretical evolutionary biologist, Trivers was puzzled by self-deception. Wouldn’t accurate
+perception better enable survival?11 Trivers’s solution to the puzzle is that self-
+deception is adaptive because it makes us better at other-deception. The idea
+is, the more sincere I am, the better I can fool you.
+I don’t know that I fully accept Trivers’s ideas. But I don’t want to rule out
+subconsciously motivated deception. To me, intention implies conscious awareness. Using the word “knowing” in definitions definitely involves conscious
+awareness. But I think actions can have function and purpose without conscious awareness. So, I added “or purposefully” to my definition of deception
+as a nod to the kind of deception Trivers was thinking about.
+Daniel Kahneman popularized the ideas of “system one” and “system two”
+thinking.12 For people who have not read Thinking, Fast and Slow, system one
+is fast, automatic, and subconscious, while system two is conscious, deliberate,
+and calculating. Much work on deception presumes that deception is a system
+two activity. If Trivers and McCornack are right, however, deception can also
+be the output of system one processes.
+Here is a really good example. Let’s consider Mrs. Keech and the Seekers
+from the social scientific classic When Prophecy Fails.13 Basically, the Seekers
+were a cult that predicted the end of the world. As we all know, the world did
+not end in the 1950s. The Seekers’ prophecy proved objectively false. In the
+immediate aftermath of the failed prediction, one of the leaders, Mrs. Keech,
+received a spiritual message that she shared with the group. The faith of the
+group had been so pure that God called off the mass destruction. The Seekers, as you can imagine, rejoiced. They weren’t a loser cult holding objectively
+false beliefs that had just been unequivocally proven wrong. Instead, they were
+the saviors of the planet (or at least the Great Lakes states)!
+For the purpose of discussion, let’s presume that the Seekers’ system of
+beliefs really was fantasy, that disaster was not actually averted that Decem
+ber night in 1954, and that the messages Mrs. Keech received were fiction of
+some sort or another. Fiction or not, however, it is clear from the story’s telling that Mrs. Keech’s messages were accepted with enthusiasm by the Seekers. My question is, Was Mrs. Keech’s salvation message (and other spiritual
+messages for that matter) deceptive?
+From the standpoint of most definitions of deception, we can’t be sure about
+the deceptiveness of Mrs. Keech’s messages, even though we can be reasonably certain about ground truth. According to intent-based definitions, the de-
+
+108
+
+CHAPTER SEVEN
+
+ceptiveness of the messages hinges on whether Mrs. Keech was a conscious
+fraud or a sincere but delusional true-believer. Those who believe that it was
+all an act will see the messages as deceptive. Those who think Mrs. Keech
+was sincere but delusional will see the messages as false but, by definition,
+not deceptive. The thing is, if we accept an intent-based definition of deception, we can never know the deceptiveness of the message, because we don’t
+know what was inside Mrs. Keech’s head. Maybe she was a conscious fraud.
+Maybe she was just crazy.
+I find this ambiguity deeply unsatisfying. One really troubling implication
+of deceptive-intent definitions of deception is that outside the lab, it is often
+the case that we just can’t ever know if something is deceptive, because we
+can’t mind-read. Deception researchers often speak about the issue of knowing “ground truth.” That is, to know that a statement is false, we have to know
+what is true. In a criminal context, for example, if a suspect claims innocence,
+we have to know factual guilt or innocence to establish ground truth. But, from
+a definition point of view, when we adopt deceptive intent as the critical issue,
+knowing ground truth is not sufficient to settle the issue. It is the communicator’s understanding of the truth that is at issue. Consider the implications
+for an eyewitness account. The issue is not what actually happened but what
+the witness thought he or she saw.
+This is a tough issue, but I think the messages were deceptive regardless of
+Mrs. Keech’s intent. The messages functioned deceptively. People were misled.
+The communication had deceptive purpose. They served Mrs. Keech and the
+group well. By including “or purposefully” in my definition, I get to count examples such as this as deceptive even if we don’t know her intent. We don’t
+have to get inside senders’ heads. I prioritize ground truth and deceptive impact and function over deceptive intent.
+THEORY OF MIND
+At this point in the discussion, it is worth mentioning that intent and awareness play a different role in my thinking about deception than in the various
+cue theories discussed in chapters 4 and 5. In the logic that undergirds cue
+theories, the leakage, clues, and cues that give away liars are byproducts of psychological differences between liars and honest people. Those psychological
+differences that produce cues might not exist without the awareness that one
+is deceiving and without the intent to deceive. A person needs to know that
+he or she is lying if he or she is to fear detection, experience guilt, or enjoy
+duping delight. A person who does not know that would not necessarily be ex-
+
+DEFINING DECEPTION
+
+109
+
+pected to experience heightened arousal as a result of lying, or to exert more
+cognitive effort, or to engage extra strategic efforts to appear believable. This
+is precisely why Trivers argues that self-deception enhances other-deception.
+Without intent and conscious knowledge, the logic of cue theories falters.
+Thus, cue thinking ties theorists and researchers to intent-based definitions.
+But TDT (and IMT and IMT2) are not cue theories, so the byproducts of
+intent and awareness that might bring about leakage and cues are not needed
+for theoretical coherence. Nevertheless, intent and awareness play a different,
+albeit critical, role. Human and primate deception involves a cognitive ability
+that is sometimes called theory of mind.14 It involves thinking about thinking,
+in both self and others. It involves understanding mental states such as intentions and beliefs, the realization that both the self and other people have mental
+states such as intentions and beliefs, and the insight that our own intentions
+and beliefs might be different from others’ intentions and beliefs. Theory of
+mind lets us, among other things, take the perspective of others. Theory of
+mind allows me to understand that what my wife may want for a gift is not the
+same as what I want for myself. I understand that what she wants and what I
+want may not always align.
+Human deception typically involves theory of mind. In order to effectively
+deceive someone, we need to understand that others don’t automatically know
+what we know and that we can do and say things that affect others’ belief states.
+Consider deception by omission. I’ll give a personal example here. About the
+time I started working on this chapter, I was in the process of being recruited
+by another university. A university (UAB) contacted me, persuaded me to a pply,
+invited me for an interview, and made me an attractive job offer that I accepted
+a week before writing this sentence. As I write this, I have not yet told my current employer, and I do not plan to do so until it is near the time to resign. If
+my current employer is likely to find out about my new job before I want to
+disclose it, it makes sense for me to disclose my new job before it is discovered.
+If I don’t and they find out, I look deceptive. Nothing is gained from hiding
+known information, and there are potential costs. However, it is probably in
+my best interest to postpone my current employer’s knowing about my departure, so that I am not treated differently in the meantime. This will postpone
+much awkwardness. The point of this story is that for omission to work deceptively, the deceiver (me) must have some idea what the target person (people
+at my current university) already know and don’t know, and have ideas about
+how the target person(s) might find about. People need to mentally represent
+others’ thoughts for deception to function.
+
+110
+
+CHAPTER SEVEN
+
+My example implied a very conscious consideration of others’ mental states,
+but I do not think theory-of-mind cognition is of necessity in conscious awareness. We have much knowledge about others’ knowledge states, but we don’t
+keep that information active in working memory all the time. I don’t require
+constant active effort and intent to keep from blurting out my secret.
+Theory of mind is also critical from the target person’s perspective. If deception requires inferring others’ mental states, so too does deception detection.
+As we will see in later chapters, people are more likely to infer that someone
+is lying in situations where the person has a motive to lie. My projected motive module of TDT is a special case of theory of mind.
+The lack of conscious awareness has interesting implications on the target
+person’s end too. If TDT is right, people do not actively and consciously monitor
+others for signs of dishonesty. We believe others as a passive default state. But
+trigger events can kick us out of our default and into conscious consideration
+of honesty.
+Theory of mind raises a very important point about deception. It matters
+what the target person knows and what a sender thinks the target person
+knows. Most people won’t lie if they think the truth is already out of the bag.
+If you lie but the target knows the truth, any advantage gained by deception is
+not realized, and your own credibility is reduced. It is all downside. Regarding
+omission, as I said previously, there is no reason to withhold information that is
+already known. This was part of the Scharff technique (named after the WWII
+Nazi interrogator) of interrogation. If detainees were fooled into thinking the
+information was already known, they need not hide the information: “Scharff
+began by asking a prisoner a question he already knew the answer to, informing the prisoner that he already knew everything about him, but his superiors
+had given instruction that the prisoner himself had to say it. Scharff continued
+asking questions that he would then provide the answers for, each time hoping
+to convince his captive that there was nothing he did not already know. When
+Scharff eventually got to the piece of information he did not have, prisoners
+would frequently give the answer, assuming Scharff already had it in his files
+anyway, often saying so as they provided the information.”15
+Not only can people be tricked into revealing sensitive information that they
+believe is already known, but bluffing about what is known can be used as lie
+deterrence. Because there is little deceptive value in lying about something
+known, leading a sender to believe you already know the truth (or that you
+can and will find out) can prevent a lie. Alternatively, target persons can use
+known information as a lie detection tool if they don’t let senders know what
+they know. This is done by asking someone a question whose answer you al-
+
+DEFINING DECEPTION
+
+111
+
+ready know. If the person contradicts what you know, this suggests the possibility that he or she is lying.16
+This last possibility reminds me of a story involving my wife and two of her
+graduate students. My wife teaches her students the importance of reading
+original work and of not second-hand citing. Second-hand citing is relying on
+some third party’s description of work, but citing the original work as if it had
+been read. Back to the story, my wife had read the first student’s thesis draft
+and asked the student about some suspicious citations. The student replied
+that she had read the original work, having found it in the university library.
+My wife knew for a fact that the library’s only copy had been checked out (because she had been the one who checked it out). Just to be sure, she asked the
+student some details about the book in question. It was clear that the student
+had not read the work in question, although the student tried to bluff her way
+through it. The bluff was unsuccessful, but my wife never told the student that
+she knew the student was lying. My wife didn’t trust the student after that, and
+eventually the student found a new (and more gullible) advisor. The student
+was more effective in bluffing her new advisor, but had more difficulty bluffing her way through the life of a young professor.
+Not long after that experience, my wife was talking with another of her students. She asked about some citations in the student’s thesis as she had with
+the first student. This student too said that she had read the original. It had
+been hard to find. The library’s only copy was checked out, so she had to go
+through interlibrary loan. The student went on to talk about details of the book
+with my wife. To this day, this second student is one of my wife’s favorites. Unlike the first student, she passed the secret integrity test.
+A final example of the importance of theory of mind comes from research
+on the development of deception and theory of mind in children. In an experiment I find especially informative, three-year-old and five-year-old children selected among desirable and less desirable stickers while interacting with either a good puppet or a bad puppet.17 Children were asked which sticker they
+wanted. Good Puppet would take a sticker other than the one the child had indicated, while Bad Puppet would always take the sticker that the child said he
+or she wanted. Several trials ensued. Three-year-olds were repeatedly frustrated
+by Bad Puppet and often became quite upset. But, when asked which sticker
+they wanted, they would point to the desired sticker, only to be thwarted once
+again as Bad Puppet took their preferred sticker. The experiment went very differently for most of the five-year-olds. After figuring out that the Bad Puppet
+really would take the desired sticker, when asked to their preference, the older
+children simply lied. They “picked” a disfavored sticker, which was snatched up
+
+112
+
+CHAPTER SEVEN
+
+by Bad Puppet, leaving the actually favored sticker for the clever child. Thus,
+as we can see from these examples, intent, perceptions of others’ intent, and
+the broader issue of theory of mind are critical to how deception functions.18
+CONVENTIONALLY AND TRANSPARENTLY FALSE STATEMENTS
+The next situation to consider is that of conventionally or transparently false
+statements. Maybe the best example of a conventionally false statement is when
+(presuming Americans in the United States) a person, in passing, casually
+asks, “How are you?” and the reply is “Fine.” This exchange is highly routinized and conventional. So is “What’s up?”—“Nothing much.” I don’t consider
+“fine” or “nothing much” deceptive even if the factually accurate answerer is
+not fine or something really is up. People in the language community understand, or at least should understand, that when we ask routinized, conventional questions in greetings, we get a routinized, conventional answer in return. I once had a socially awkward colleague who used to answer honestly to
+such questions. A passing “How are you?” in a hallway yielded an extensive
+and graphic reply about current digestive problems. The answer was honest,
+but “Fine” would have been a much better answer. Had we not heard about
+the digestive problems, we would not have felt deprived or deceived. (Almost)
+no one really thinks “fine” means everyone is currently wonderful and good.
+It’s just what we say, and we all know it.
+It’s not always clear, however, just what is conventional and what is common knowledge that members of a community should have. I, for example,
+enjoy online gaming. If I am playing World of Warcraft, and I encounter a female character in the game, I don’t presume that the person playing that character is female. And if I find out that a female character is played by a male, I
+would not necessarily feel deceived. It’s role-playing. I don’t presume that the
+actors in movies have the personalities of the people they play. I don’t feel deceived that James Bond or Spider-Man are not real or that the actors who play
+them don’t really have their powers or abilities. It’s the movies. We know it’s
+fiction.19 Similarly, I don’t see role-playing as deception. The whole point of
+role-playing is to play a role.
+For a while I was playing a female character in an online game similar to
+World of Warcraft. During that time, I met another female character online,
+and we adventured together in the game world a few nights a week over a few
+months. Not that it really mattered to me either way, but I guessed with reasonable confidence that this other person was really female. But we never really
+chatted about things outside the game world except for things like “be right
+back, taking the dog out” or “early night, got to work in the morning.” Never-
+
+DEFINING DECEPTION
+
+113
+
+theless, I thought she probably knew I was male, just as I had pieced together
+that she was an adult female who lived in Colorado. One night I said something that made clear that I was male playing a female character. I could tell
+she felt shocked and deceived. I did not think I was deceptive. I never claimed
+to really be female, and it was just a role-playing game. But is this an example
+of deception?
+Situations like these led to a discussion with a colleague, Joe Walther, who
+studies computer-mediated communication and who was interested in information on online dating sites. If a female who actually weighs 129 pounds lists
+her weight as 120, is she lying? Joe mostly saw the question as issues of deceptive intent and ground truth. Do people actually know their current weight?
+Weight can fluctuate. Then there is liberal rounding. Still, I wondered about
+convention. What if everyone knocks off five to fifteen pounds, and everyone
+knows that everyone does this? If I know that 120 really means 130, it’s not
+deception, I argued. Might this be similar to how-are-you-I’m-fine? We actually did a series of experiments to try and sort it out.20 Unfortunately, the results were not entirely clear; they did suggest that a little self-deception might
+be at play but also that reports of weight might also be knowingly adjusted
+downward. We never really got at the issue of how statements of body weight
+are heard and understood in the online dating community.
+A related issue is transparently false statements. As a general rule, I don’t
+think that obviously false statements are deceptive. People should know better, and the tellers of such tales ought not expect to be believed and taken literally. For example, if I say, “I just looked out the window, it is a clear night,
+and I can see all three of Earth’s moons,” you wouldn’t believe that the Earth
+had three moons, would you?
+But things are murky here too. The title of my theory is truth-default theory,
+after all, and sometimes people do believe some pretty unbelievable things.21
+I gave some examples in chapter 1. Here is another humorous yet informative example.
+Several years ago, when I was a professor of communication at Michigan
+State University, there were the beginnings of a strong push by the university administration to encourage faculty to get external grants. In the beginning the pressure was mostly incentive based. To publicize and encourage
+grant-getting and to try and create a culture change, the college started naming a researcher of the month.22 Large posters were made and visibly posted
+each month naming the awardee, and describing the funded research project.
+Much to my initial horror, I was named September’s researcher of the month
+for my deception research funded by the National Science Foundation. Profes-
+
+114
+
+CHAPTER SEVEN
+
+sor September with a photo shoot and all. Yikes! But my initial consternation
+gave way to much amusement and even appreciation when I saw the poster.
+It was truly a gem.
+The right column accurately described the research, the grant, and my work
+on truth-bias. The left column offered the following biographical sketch, complete with what appeared to be me on the cover of Rolling Stone magazine.
+Tim Levine gained his BS in Psychology from Northern Arizona University while leading the Lumberjacks to their first Big Sky Conference
+basketball title ever, scoring 34 points in the decisive double-overtime
+victory over the University of Montana. Picked 19th overall by the Knicks
+in the NBA draft, Tim chose his MA over the big money and hot lights
+of pro sports. While earning his Masters in Communication at West Virginia University, Tim was approached by a young coal miner from S
+ eattle
+named Chris Cornell, who heard Tim jamming on the bass with a Morgantown band in the Wharf District pub. Cornell immediately invited
+Tim on tour with his band, a then-little-known quartet called Sound
+garden. Thus, Tim’s MA was delayed for ten years, seven international
+tours, and five full-length CDs.
+The early 90’s found Tim pursuing his PhD at MSU. His thesis, entitled Pinnochio: an in-depth study of deception in 19th-century Italy,
+is still required reading for all CIA interrogators. One of Tim’s breakthrough discoveries is elucidated on pages 943–944. . . . Observations
+of a carbon-based arboreal subject engaged in purposeful prevarication
+showed unmistakable increase in length of the proboscis, at times 300
+microns, depending upon the magnitude of the deception. —Bart Moore
+(2007).
+Despite the obviously outlandish content and the fact that the poster was
+about deception research, more than one person approached me and said some
+thing like “Wow, I didn’t know you were in Soundgarden,” or, “I can’t believe
+you turned down a chance to play in the NBA.” Amusement aside, this was
+more evidence that I was on the right theoretical path with TDT. But with particular respect to transparent falsehoods, even the most outlandish things can
+fool some people. The implications for defining deception are intriguing.23
+FAILED DECEPTIVE ATTEMPTS
+The last of my little thought experiments regarding defining deception asks
+if deception has to be successful to be deception. I think most people who ac-
+
+DEFINING DECEPTION
+
+115
+
+cept intent-based approaches to defining deception see deceptive intent as sufficient. If a person was trying to deceive someone else, that is still deception,
+even if the lie fails and no one was deceived. It’s the thought that counts, so to
+speak. In my view, however, someone must actually be misled for deception
+to exist. I prefer to call failed attempts at deception “attempted deception,” to
+distinguish them from successful deception.
+CONCLUSION
+To sum up this discussion, I see useful distinctions between conscious intentional deceptions, deceptive attempts, messages perceived as deceptive, and
+messages that are functionally deceptive. Intentional deception is meant to deceive, and it achieves this end. The target person is misled by design. In deceptive attempts, someone tries to deceive another person, and there is deceptive
+intent, but the target is not actually misled. This situation may be thought of
+as failed deception. In perceived deception, the target person attributes deception to a communication regardless of the actual intent or infers intent that
+was not there. Finally, messages that are functionally deceptive mislead others regardless of the actual or perceived intent. Functionally deceptive messages lead to the same outcome as deception, without getting into the message source’s head regarding their intention states.
+An important implication is that message features like the truth and falsity of specific content, message intent, and message function or impact need
+to be distinguished because these things do not map perfectly onto one another. So, someone can say something that is objectively false, omit information, change the subject, and so forth, in a manner that is either intended to
+deceive or not. The objective truth or falsity of messages may or may not actually function as deception, and such messages may or may not be perceived
+as deception. In short, speaker intent, purpose, and message consequence in
+combination define deception, not the objective qualities of messages or information dimensions (discussed in the next chapter). Further, mere speaker
+intent is neither sufficient nor necessary in and of itself to define deception.

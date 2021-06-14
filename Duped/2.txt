@@ -1,0 +1,984 @@
+
+2
+Cues
+This chapter and the next review the prior research on deception and deception detection. The topic of deception is expansive, and the prior research
+extensive. This review is therefore selective. My goal is not to cover everything, but instead to give the reader a deep understanding of the most informative and influential prior findings relevant to assessing the empirical adequacy of the theories reviewed in chapter 4, as well as TDT. Research more
+germane to specific subtopics falling under the umbrella of TDT is covered in
+part 2 rather than here.
+The research reviewed focuses on answering four long-standing and central questions. Research on the first two questions is covered in this chapter,
+and the research on the third and fourth questions in the next. To review, these
+four key questions are:
+1. What do people look for in order to distinguish whether someone
+else is honest or lying?
+2. What, if any, specific behaviors actually distinguish truthful communication from lies?
+3. How accurate are people at distinguishing truths from lies?
+4. Under what conditions (if any) are people more accurate or less accurate at lie detection, and what types of people (if any) are more
+skilled or less skilled lie detectors?
+In answering these questions, I rely on meta-analysis rather than on the results of individual primary studies. For readers not familiar with meta-analysis,
+it is a set of statistical procedures used for summarizing prior findings across
+
+18
+
+CHAPTER TWO
+
+many studies. The results of individual studies become the data points in meta-
+analysis, and trends across studies are examined.
+It is my impression that my reliance on meta-analysis may be controversial
+within some scholarly circles. When I have sought to publish individual papers in peer-reviewed journals, one or more reviewers typically find fault with
+my reliance on meta-analysis, asserting that my approach to reviewing the past
+literature is problematic because I failed to mention some specific finding or
+another favored by the reviewer. Because this is such a common criticism, I
+start here by explaining the several reasons I have adopted an approach that
+prioritizes meta-analysis over specific findings from primary studies.
+First, a number of high-quality meta-analyses on the topics covered here
+enable us to see trends across large numbers of studies. I believe it would be
+remiss not to rely on these meta-analyses. Surely better conclusions are obtained from reliance on vastly larger samples. Second, reliance on individual
+studies creates the risk of either cherry-picking results that support one’s own
+favored conclusion or concluding that the results are just a confusing jumble
+of contradictory findings. The thing is, individual studies or findings can be
+cited to support pretty much all the claims put forth by the various theorists
+and researchers. At the same time, individual findings can also be cited that
+seem to disprove just about any claim or theory. For just about every claim or
+finding, there is a seemingly contradictory finding. When there are literally
+hundreds of previous findings to pick and choose from, it is not surprising
+that lists of citations can be provided in support of any number of contradictory claims. Competently conducted meta-analysis avoids cherry-picking by
+including large numbers of studies selected by study features rather than by
+study results. Meta-analysis also allows us to see trends across studies, making
+convergence in results visible. It reveals idiosyncratic findings as just that. Apparently contradictory results can be seen in the context of more general patterns. Finally, meta-analysis provides a big-picture overview of research that
+often cannot be seen when looking at individual results. It provides a context
+for understanding specific findings. For these reasons and more (e.g., greater
+statistical power, increased precision in point estimation, detection of publication bias and other artifacts), meta-analyses are given priority in this review.
+Even with meta-analysis, however, caution is still needed in the interpretation research findings. If all studies share a common feature or practice,
+the trend across studies will reflect that commonality. Results are always constrained by the methods used to produce the findings, and until new methods
+are tried, limitations that extend across literatures can be invisible. Such is almost certainly the case with the research reviewed in this chapter and the next.
+
+CUES
+
+19
+
+It is not so much that the findings are flawed or invalid. Instead, findings and
+conclusions are limited by constraints imposed by the research methods that
+have become conventional over time, and by what I believe are theoretically
+myopic understandings of deception. As the book progresses, I will point out
+some of these limitations, their implications, ways to overcome them, and empirical evidence that once overcome, new insights are gained. For now, let me
+lead you through a tour of the historical mainstays of prior deception research.
+DECEPTION CUES
+By deception cues I mean objective, observable, parsed or delineated behaviors
+that are statistically associated with (a) folk wisdom regarding what liars do, (b)
+people’s truth–lie assessments, and/or (c) the act of lying as opposed to telling
+the truth. That is, deception cues are specific behaviors thought to, or used to,
+rightly or wrongly distinguish truths from lies. Research has shown that folk
+wisdom regarding deception cues does not neatly map onto what people actually rely on when making truth–lie judgments and that none of these corresponds fully with the behaviors that do and do not actually differentiate honest messages from lies. But these three sets of cues are not totally independent
+either. This chapter considers separately the issues of folk beliefs, relied-upon
+cues, and the actual utility of cues, while also considering the overlap between
+these sets of behaviors.
+Examples of cues include nonverbal behaviors such as direction of gaze,
+self-touching, foot wiggling, particular facial expressions, and tone of voice.
+Cues can also be verbal-linguistic, such as pronoun usage, negations, or the
+number of details provided in an account of an event. Obviously, human behavior can be categorized or scaled in any number of different ways, and thus
+the number of different cues that can be studied is large. One meta-analysis,
+for example, identified 158 different cues that had been investigated in research
+prior to 2003.1 A more recent meta-analysis of just linguistic cues found 202
+such cues including 79 that were nonredundant and studied in at least four
+prior independent investigations.2
+Although cues can be verbal or nonverbal, nonverbal cues have clearly been
+the primary focus of prior cue research, especially prior to 2000. I think there
+are two interrelated reasons for the historical emphasis on nonverbal cues.
+First, folk wisdom about deception detection holds that nonverbal behaviors
+are useful in spotting liars. Second, and perhaps as a result, a disproportionate number of the researchers who have studied deception over the years happen also to have long-standing interests in nonverbal communication. Leading
+deception researchers such as Paul Ekman, Bella DePaulo, and Judee Bur-
+
+20
+
+CHAPTER TWO
+
+goon are known not only for their deception research but also for more general work on nonverbal communication. It is natural that they would integrate
+their thinking on nonverbal communication and deception. But, because of
+pervasive folk beliefs and because influential researchers were especially interested in nonverbal communication, the research has skewed in that direction.
+It is worth emphasizing that the cues discussed in this chapter are probabilistically related to deception and perceptions of deception rather than necessarily or invariably linked to deception or veracity assessment. That is, the
+research tells us about statistical trends over large numbers of people rather
+than about the behaviors, perceptions, or beliefs of specific people. For example, vocal pitch appears to be one of the more reliable cues to actual deception.3 On average, liars tend to have more highly pitched voices when they
+are lying than the voices of people who are speaking honestly. This does not
+mean that people with high voices lie more than people with deeper voices or
+that if someone’s vocal pitch increases, they are beginning to tell a lie. On average, lies are slightly but significantly more highly pitched than honest statements, all else being equal.
+It is very common in the social sciences, and deception research is no exception, to focus on “significant differences.” A result that is labeled “statistically significant” is one where the extent of difference or statistical association is improbable (usually, 5% or less) assuming no difference or association
+at all. Statistical significance refers to the probability of a finding conditional
+on the statistical nil-null hypothesis being true. This means that presuming
+there was just one focal test conducted, there is a 95% or better chance that
+the finding would not have been obtained if there were really no difference or
+association. In terms of effect size, which is discussed below, a result that is
+significant is unlikely to be a difference of exactly d = 0.00.4
+It is good and useful to know that some finding is not literally zero, but
+such knowledge is very limited, and it can be misleading to make the inferential leap from not-zero to something important. If you have one penny, you
+are not flat broke, but that penny will not take you very far or buy you much.
+Having a few dollars and being a millionaire are very different economic situations even though both are not zero money. So, if some finding is not zero,
+we want to know how big the finding is, and statistical significance does not
+tell us this. For this reason, in understanding statistical trends or probabilistic
+relationships, perhaps the most critical consideration is effect size.
+Effect sizes tell us the strength of statistical association. In the case of deception cues, effect sizes tell us how much difference there is in the observation of the cue between truths and lies. Obviously, the larger the effect size as-
+
+CUES
+
+21
+
+sociated with a given cue, the more useful that cue. A nondeception example
+of a very large effect size is that men tend to be taller than women. One source
+lists the sex difference in height as d = 1.72.5 Even the strongest deception cues
+are much, much weaker than this. The difference in vocal pitch, for example,
+is d = 0.21.6 But even a difference as large as the difference in height between
+men and women is still probabilistic if we want to apply the general trend to
+specific people. For example, if we know there are two people in a room, and
+we know that one is taller than the other, how likely is it that the taller person
+is male and the shorter person is female? We can’t be sure, right? Both could
+be males, both could be females, or there could be one male and one female.
+All we know is that the two people are not the same height and that, on average, men are taller than women. From this information we can only play
+the odds, and we might guess that the taller person is male and the shorter
+person female. We also need to remember that this is a guess based on proba
+bilistic information and that some women are tall, some men are short, and
+some women are taller than some men. And vocal pitch (or any other deception cue) is much less informative about honesty than height is about the biological sex of a human. Using cues as the basis for deciding that a particular
+person is lying about something is a tenuous and error-prone business at best.
+Understanding the size of an effect size requires some context. Researchers
+talk about small, medium, and large effects in abstract senses, but to understand how big a difference is, it helps to ask, “Compared to what?” Let me give
+two real examples from deception research where I think a failure to put effect sizes in context may lead to some potentially misleading research claims.
+The first example involves two experiments that were published in Psychological Science reporting evidence for unconscious lie detection.7 Both experiments showed that measures of unconscious lie detection were significantly
+better than chance, and significantly better than an explicit lie detection task.
+The effect sizes for the efficacy of unconscious lie detection relative to chance
+were reported as d = 0.32 in the first experiment and d = 0.27 in the second
+experiment.
+The second example is a relatively recent meta-analysis of the effectiveness
+of deception detection training.8 Training improved accuracy over no training, d = 0.50.
+Now let’s provide some context. The average accuracy in deception detection experiments is 54%, a value significantly better than chance at d = 0.42.9
+A previous meta-analysis of deception detection training reported that training improved accuracy from 54% to 58%, and the effect size for that improvement was r = 0.20.10 An effect size of r = 0.2 converts to d = 0.41. Research also
+
+22
+
+CHAPTER TWO
+
+shows a placebo effect for deception detection training.11 Even bogus training
+can improve accuracy over a no-training control.
+Put into context, the evidence for the efficacy of unconscious lie detection
+is actually weaker than the accuracy obtained in the average explicit deception
+detection task.12 Unconscious lie detection may have been better than explicit
+detection in Ten Brinke’s two experiments, but unconscious lie detection is
+less impressive than the 54% average that we will look at in the next chapter.
+A training effect of d = 0.5 seems like a pretty substantial effect, but it is not
+that different from what was found in a previous meta-analysis, and in terms of
+bottom-line accuracy, that’s an improvement from about 54% accuracy in no-
+training controls to about 59% accuracy with training. Further, that gain is over
+no training, not a placebo control. In both cases the findings are statistically
+significant and the effect sizes look ample, but accuracy still falls within the
+slightly-better-than-chance range, training or not, conscious or unconscious.
+Before we get into specific findings from cue research, it is also important
+to remember that cues are not enacted in isolation, even though they are often
+treated this way in the literature. That is, cues are often discussed, and treated
+statistically, as if they are independent from one another.13 But cues can be
+highly intercorrelated, and they present as constellations of cues and are interpreted by others as a package. I call these constellations of cues that create
+impressions demeanor.14 Demeanor is discussed in greater detail in chapter
+13. For now, keep in mind that when we talk about this cue or that cue, cues
+do not travel alone but instead in groups, and people’s impressions and judgments rest more on overall demeanor than on any specific cue.
+Folk Beliefs about Deception Cues
+The definitive research study of the cues that people associate with deception
+was done by Charlie Bond.15 Bond’s study was a truly amazing undertaking,
+both in its scope and in its findings. He investigated the stereotypes and folk
+beliefs people hold about liars and deception cues. With the help of eighty-
+nine co-researchers from around the world, data were collected in seventy-five
+different countries using forty-three different languages. In all, data were collected from 4,840 subjects across two studies.
+In the first study, forty subjects (twenty males and twenty females) from
+each of fifty-eight different countries were surveyed and asked a simple open-
+ended question: “How can you tell when people are lying?” In locations where
+English was not the dominant language, the question was translated into the
+local language, and the answers were translated back to English. Multiple an-
+
+CUES
+
+23
+
+swers were allowed. The 2,320 subjects gave 11,157 responses that were classified into one of 103 different categories of answers.
+Far and away, the most frequent answer was that a liar won’t look you in the
+eye, or in other words, liars avert their gaze. Nearly two-thirds of the people
+(63.7%) mentioned eye behavior of this type as a signal to deception. The next-
+most-common answer was nervousness, mentioned by a mere 28% of the
+people. Behaviors such as incoherent speech, body movements, facial expressions, speech errors, logical inconsistencies, blushing, and pauses and delayed
+speech were listed by between 15% and 25% of those surveyed.
+The findings were remarkably consistent across the different countries.
+Gaze aversion was listed as the top-ranked response in fifty-one of the fifty-
+eight countries, and gaze aversion was listed as a cue in every country where
+the data were collected. The cross-country reliability of the responses was an
+astounding α = .98.
+Some responses were surprisingly uncommon. Fewer than 1% of respondents gave answers that involved group membership (politicians, ethnic minorities, etc.), motivational factors, or confessions. These last two are striking,
+because experimental work shows that motivation and confessions strongly impact assessments of honesty and dishonesty.16 However, as we will see in the
+next section, folk beliefs do not map perfectly onto cue reliance or cue utility.
+In their second study, a survey was constructed with close-ended questions
+and was distributed to forty men and women in each of sixty-three different countries. Research subjects were presented with a list of cues and asked
+whether liars, compared to honest people, do such things more often, less frequently, or about the same. Again, gaze aversion was the number one most
+common deception belief, with 71.5% of people worldwide agreeing that liars
+have less eye contact. Approximately two-thirds of subjects also answered that
+liars shift their posture more than usual, liars touch and scratch themselves
+(these are “adaptors” in the nonverbal literature), and liars talk too much. About
+half of the people thought liars act nervous.
+There are a number of striking aspects of these results. I think the finding
+that will be the most surprising for most people is the degree of convergence
+across cultures. Even people who know very little about nonverbal communication and cross-cultural communication know that nonverbal communication
+is culturally dependent. But, when it comes to deception, research shows more
+cross-cultural similarity than differences. In my work on honest demeanor, I
+too have found an amazing degree of similarity in the nonverbal styles of believable and deceptive-looking people across language and country.17
+
+24
+
+CHAPTER TWO
+
+A second noteworthy finding is that people everywhere believe that deception cues are mostly nonverbal. Although verbal cues such as logical inconsistencies are mentioned, the primacy of nonverbal behaviors (eyes, face, body,
+hands, and voice) is clear and pronounced. This primacy of nonverbal folk cues
+was also evident in an earlier meta-analysis of beliefs about deception.18 In
+that analysis, strong beliefs (effect sizes d > 1.00) included liars (compared to
+honest speakers) doing more self-touching, making more speech errors, talking faster, and making more posture shifts, more pausing, and less eye contact. Thus, from the vantage of folk wisdom, people believe that observation
+of nonverbal behavior is the best way to tell whether someone is lying or not.
+From a research marketing point of view, social scientists arguing for nonverbal deception cues, as well as pop-psych lie detection gurus, have an easy sales
+pitch when claiming nonverbal cues as the path to lie detection.
+A third interesting observation is that changing up the question asked to
+participants produces very different sorts of answers. Bond asked people, “How
+can you tell when people are lying?” When the question is changed to something like “Think of a time when you found out you were lied to. How did you
+discover the lie?” the answers shift to verbal signals like confessions and content inconsistency with knowledge.19 Thus, there seems to be a strong disconnect between folk beliefs about what liars do and what people actually do to
+catch liars. There is more on how people really detect deception in chapter 14.
+A final point to make about Bond’s findings is that even though avoiding
+eye contact is the most widely held belief about deception, it holds no actual
+utility as a deception cue. Its validity is zero. The amount of eye contact is unrelated to actual lying (d = 0.01).20 This, of course, raises the question, Why
+are people’s folk beliefs about deception so very wrong?
+Cues Linked with Judgments of Truths and Lies
+Unlike folk beliefs of deception cues, where there is a single, go-to study with
+simple and clear findings, the empirical story of cues linked with veracity assessment is more complex and multifaceted. Research on folk cues generally
+uses survey methods where people are asked what they think liars do. Research
+on cues linked with judgments, in contrast, tends to be experimental and behavioral. In a prototypical experiment, people might be shown several videotaped statements (some of which are actually honest, and others are lies) and
+asked to make a judgment about which are true and which are lies. The behaviors of the senders (people making the statements) can then be coded for cues
+by the researchers. How much eye contact did they have? Did they act nervous?
+Researchers then look at what the senders were doing in relation to how of
+
+25
+
+CUES
+
+Table 2.1. Cues that affect truth-lie judgments
+Cue
+
+Zuckerman et al. (1981)
+
+Hartwig and Bond (2011)
+
+Gaze
+
+0.45 (H)
+
+0.30 (H)
+
+Posture shifts
+
+0.50 (L)
+
+0.18 (L)
+
+Response latency
+
+0.36 (L)
+
+0.37 (L)
+
+Speech rate
+
+0.67 (L)
+
+0.43 (L)
+
+Speech errors
+
+0.27 (L)
+
+0.52 (L)
+
+Speech hesitations
+
+0.58 (L)
+
+0.56 (L)
+
+Plausibility
+
+—
+
+1.06 (H)
+
+Logical coherence
+
+—
+
+0.72 (H)
+
+Involvement
+
+—
+
+0.93 (H)
+
+Vocal uncertainty
+
+—
+
+0.95 (L)
+
+Friendliness
+
+—
+
+0.74 (H)
+
+Cooperation
+
+—
+
+0.90 (H)
+
+Nervousness
+
+—
+
+0.63 (L)
+
+Note: Numerical findings are the effect size d for each cue. (H) indicates cues where increases are
+linked to judgments of honesty and (L) cues are associated with lie judgments. The dashes were
+not included in the earlier meta-analysis. All reported effects are statistically significant at p < .05.
+Sources: Maria Hartwig and Charles Bond, “Why Do Lie-Catchers Fail? A Lens Model Meta-analysis of
+Human Lie Judgments,” Psychological Bulletin 137, no. 4 (July 2011): 643–59, http://dx.doi.org:10.1037
+/a0023589; Miron Zuckerman, Bella M. DePaulo, and Robert Rosenthal, “Verbal and Nonverbal
+Communication of Deception,” in Advances in Experimental Social Psychology 14, edited by Leonard
+Berkowitz, 1–59 (New York: Academic Press, 1981).
+
+ten a sender was seen as honest or deceptive by judges. Sender behaviors that
+predict judges’ truth-deception assessments are cues linked with judgments.
+When considering specific cues linked with judgments, there are two meta-
+analyses on the topic, and even though the two meta-analyses were published
+thirty years apart, the findings are reasonably consistent.21 Table 2.1 list cues
+and impressions that are associated with truth and lie judgments across studies
+as of 1981 and 2011. People are more likely to attribute deceit to speakers who
+avoid eye contact, shift posture more often, take longer to respond, talk faster,
+make more speech errors, have more pauses and hesitations, have less plausible content, contradict themselves, are less conversationally involved, convey
+uncertainty in their voices, are less friendly and cooperative, and act nervous.
+There are many similarities between the folk-wisdom cues and the judged-
+
+26
+
+CHAPTER TWO
+
+as-deception cues, but there are also some interesting differences. Cues like eye
+contact, nervousness, speech errors, coherence, response latencies, and hesitations show up in both sets. Plausibility shows up as the strongest cue affecting judgments, however, and gaze avoidance loses its prominence. Also, judgments seem to be influenced more strongly by gestalt impressions (involved
+and engaged, friendly, cooperative, confident, calm rather than nervous) than
+specific cues (avoids eye contact, shifts posture, makes speech errors). In my
+own research on demeanor,22 I have found that these gestalt impressions and
+specific cues tend to be highly intercorrelated with one another, and it is behaviors in combination that really matter. That is, people who are believable enact the believable-appearing behaviors as a package or a set, while people who
+tend to be judged as deceptive do many things in combination that make them
+less believable. In our first demeanor experiment (TDT experiment twenty-
+nine, described in chapter 13), for example, the difference in truth–lie judgments between the honest and the deceptive demeanor senders was a whopping d = 2.58! It is constellations of behaviors that influence the honesty and
+deception judgments, and the impact of these constellations is massive, vastly
+stronger than the impact of even the most potent single cue in isolation.
+Further, assessments of honesty–deception rest not only on the number
+of cues but also on how the cues change (or not) over time. In one of my favorite studies that is almost never cited, Henningsen and colleagues (including
+a friend of mine from graduate school, Mike Cruz) showed research subjects
+videotapes of mock witnesses being questioned by an attorney.23 The content
+of the testimony was constant, but the nonverbal cues of the witnesses were
+varied. Some witnesses exhibited consistent folk deception cues (adaptors, gaze
+aversion, nonfluent speech), some avoided these deception cues, and some
+were inconsistent in their nonverbal presentation, showing the cues for some
+answers and not others. Inconsistent nonverbal performances were seen as
+more deceptive than consistent performances, even performances that were
+consistently deceptive looking (d =0.63).
+Behaviors That Actually Distinguish Truths and Lies
+The third set of cues to discuss is probably of the most interest to many readers. These are cues that do or do not actually distinguish truths and lies.
+There is plenty of prior research on cues’ actual validity-utility in distinguishing
+truths and lies, and this research has been summarized in four different meta-
+analyses. The first meta-analysis, published in 1981,24 examined nineteen different cues that had been studied anywhere between two and sixteen times
+each. This first meta-analysis found that eight of the nineteen cues showed sta-
+
+CUES
+
+27
+
+tistically significant differences between truths and lies. For more than twenty
+years, the 1981 meta-analysis was the go-to source for deception cues. In 2003
+deception cues were again assessed, this time by Bella DePaulo and her colleagues.25 The 2003 meta-analysis examined 158 cues or impressions from
+120 different samples. Individual cues had been studied anywhere from three
+to forty-nine times. Two additional meta-analyses were published in 2006 and
+2007 but were smaller in scale than the 2003 analysis.26
+The results across the four meta-analyses are summarized in Table 2.2.
+Cues are split into three groups: cues that show consistent differences between truths and lies across meta-analyses, cues that are significant in one
+meta-analysis but not others, and cues where the meta-analyses all agree that
+there is little difference between truths and lies.
+Looking across the four meta-analyses, two cues have consistently been
+found to distinguish lies from truth. Liars exhibit higher vocal pitch and increased pupil dilation. There were huge effects for these cues in 1981, but as
+the research has progressed, the cumulative effects have diminished and are
+no longer large. Thus, the best scientific evidence to date suggests that vocal
+pitch and pupil dilation are small but real cues to deception.27
+There is also a set of cues that show up as statistically significant in one
+meta-analysis but not the others. It is hard to know what to make of some of
+these inconsistencies. Take, for example, hand movements. In 2003 the effect
+is d = 0.00. In 2007 the effect is reported as d = 0.38. This is not a large effect,
+but it was bigger than most (and was in fact the largest effect reported in that
+particular meta-analysis), and it was highly statistically significant, p < .001.
+It is hard to reconcile how the cumulative across-study evidence can point to
+both zero and significantly not-zero. If pushed, we might guess that maybe a
+lot of supportive evidence accumulated between 2003 and 2007 to push the
+effect from 0.00 to 0.38. A closer look at the details of the studies producing
+these conflicting findings shows that this cannot be the case. The 2003 d =
+0.00 effect is based on 951 subjects from twenty-nine studies, while the 2007
+d = 0.38 effect is based on 308 subjects from just five prior studies. We see
+the same pattern for response latency. The smaller effect in 2003 is based on
+more evidence than the larger effect in 2006 and 2007. Still, the pattern is not
+consistent across cues.
+Methodological choices may explain some of the differences between the
+DePaulo and the Sporer–Schwandt meta-analyses. It is an unfortunate fact that
+many published articles do not report statistical findings in sufficient detail for
+use in meta-analysis, and the different meta-analyses dealt with the problem
+differently. The DePaulo meta-analysis threw a very wide net and included
+
+Table 2.2. Validity of deception cues in signaling actual deception
+
+Cue
+
+Zuckerman et al.
+
+DePaulo et al.
+
+Sporer and
+Schwandt
+
+Consistent Differences between Truths and Lies
+Pupil dilation
+
+1.49*
+
+.39*
+
+—
+
+Pitch
+
+2.26*
+
+.21*
+
+.18*
+
+Mixed findings
+Adaptors
+
+.40*
+
+.01
+
+.04
+
+Head nods
+
+—
+
+.01
+
+.18*
+
+Hand movements
+
+—
+
+.00
+
+.38*
+
+Foot and leg movements
+
+.06
+
+.09
+
+.13*
+
+Response latency
+
+.13
+
+.02
+
+.21*
+
+Illustrators
+
+.12
+
+.14*
+
+.03
+
+Repetitions
+
+—
+
+.21*
+
+.17
+
+Shrugs
+
+.48*
+
+.04
+
+—
+
+Speech errors
+
+.23*
+
+.17
+
+.08
+
+Consistent No-Difference
+Eye contact/gaze
+
+.11
+
+.01
+
+.02
+
+Blinks
+
+.61
+
+.07
+
+.01
+
+Head movements
+
+.27
+
+.02
+
+.12
+
+Smile
+
+.09
+
+.00
+
+.06
+
+Posture shift
+
+.08
+
+.05
+
+.02
+
+Response length
+
+.12
+
+.03
+
+.08
+
+Speech rate
+
+.02
+
+.07
+
+.02
+
+Filled pauses
+
+—
+
+.00
+
+.08
+
+Unfilled pauses
+
+—
+
+.04
+
+.03
+
+Note: Findings are the absolute value of the effect size d. * are findings that are statistically significant
+at p < .05. The results are from Miron Zuckerman, Bella M. DePaulo, and Robert Rosenthal, “Verbal
+and Nonverbal Communication of Deception,” in Advances in Experimental Social Psychology 14, ed.
+Leonard Berkowitz (New York: Academic Press, 1981), 1–59; Bella M. DePaulo, James J. Lindsay, Brian
+E. Malone, Laura Muhlenbruck, Kelly Charlton, and Harris Cooper. “Cues to Deception,” Psychologi
+cal Bulletin 129, no. 1 (January 2003): 74–118, http://dx.doi:10.1037/0033–2909.129.1.74; Siegfried
+Ludwig Sporer and Barbara Schwandt, “Moderators of Nonverbal Indicators of Deception: A Metaanalytic Synthesis,” Psychology, Public Policy, and Law 13, no. 1 (February 2007): 1–34, https://doi
+.org/10.1037/1076–8971.13.1.1, and “Paraverbal Indicators of Deception: A Meta-analytic Synthesis,” Applied Cognitive Psychology 20, no. 4 (May 2006): 421–46, https://doi.org/10.1002/acp.1190.
+
+CUES
+
+29
+
+studies where effect sizes could not be measured precisely. Findings that were
+“non-significant” with no other information were considered to have zero effect. Studies where the direction of effect but not size of effect were discerned
+were given the smallest possible non-zero effect (d = ± 0.01). This made the
+DePaulo meta-analysis much more extensive in that it included many more
+prior findings but it also biased the results downward to some unknown extent. The extent of the bias likely varies from cue to cue, but as many as 41%
+of the estimates may have been underestimates. Thus, the DePaulo meta-
+analysis is best considered a lower-bound estimate.28
+Sporer–Schwandt, in contrast, used only estimates of effects that could be estimated precisely and thus included a much smaller slice of the prior research.
+The nature of reporting practices is such that detailed findings are more likely
+to be reported when findings are “significant” than when they are not. Thus,
+larger findings were more likely to find their way into the Sporer–Schwandt
+analysis. Therefore, while Sporer–Schwandt provides a more precise estimate
+of the effects that can be precisely estimated, it is very likely that those meta-
+analyses overestimate cues’ effects (because smaller findings are less likely to
+be included). For this reason, the Sporer–Schwandt results are probably best
+considered an upper-bound estimate. In cases where Sporer–Schwandt provides larger estimates than DePaulo, my best guess is that the truth lies somewhere in between. In the cases where DePaulo found larger effects, there was
+presumably little downward bias, and those numbers might provide the best
+estimate given the larger sample.
+The inconsistencies also point to something I have long observed. Cue findings are ephemeral. They are highly significant in one study, only to vanish
+or even reverse in the next. And, the trend is, the more evidence, the smaller
+the effect. We will explore this in more detail in the next section, on the decline effect.
+The third set of cues produces a consistent lack of difference between truths
+and lies. Cues like eye contact, smiling, posture shifts, and speech rate show
+no significant differences and small effects across meta-analyses. It is scientifically safe to conclude that these behaviors do not signal honesty or deceit. Although in statistics we do not accept the literal null hypothesis of d = 0.00, we
+can have a high degree of confidence that the true population effect is near zero.
+Table 2.3 lists all the cues from the DePaulo meta-analysis that had been
+studied at least ten times. The criterion of ten or more prior studies is arbitrary, but because cue findings are shifty, I just don’t have much confidence
+in findings based on fewer data than that. Table 2.3 lists some statistically sig-
+
+Table 2.3. Associations between cues and actual lying
+Number Prior
+Studies
+
+Effect Size (d)
+
+Heterogeneous
+
+Details
+
+24
+
+−.30*
+
+Yes
+
+Verbal-vocal uncertainty
+
+10
+
++.30*
+
+No
+
+Nervousness
+
+16
+
++.27*
+
+Yes
+
+Vocal tension
+
+10
+
++.26*
+
+Yes
+
+Vocal pitch
+
+21
+
++.21*
+
+Yes
+
+Fidgeting
+
+14
+
++.16*
+
+Yes
+
+Illustrators
+
+16
+
+−.14*
+
+No
+
+Facial pleasantness
+
+13
+
+−.12*
+
+Yes
+
+Foot and leg movements
+
+28
+
+−.09
+
+Speech rate
+
+23
+
++.07
+
+Blinking
+
+17
+
++.07
+
+Nonverbal immediacy
+
+11
+
+−.07
+
+Posture shifts
+
+29
+
++.05
+
+Response length
+
+49
+
+−.03
+
+Self-references
+
+12
+
+−.03
+
+Response latency
+
+32
+
++.02
+
+Head movements
+
+14
+
+−.02
+
+Relaxed posture
+
+13
+
+−.02
+
+Eye contact
+
+32
+
++.01
+
+Self-fidgeting
+
+18
+
+−.01
+
+Head nods
+
+16
+
++.01
+
+Silent pauses
+
+15
+
++.01
+
+Hand movements
+
+29
+
+.00
+
+Smiling
+
+27
+
+.00
+
+Non-ah speech errors
+
+17
+
+.00
+
+Filled pauses
+
+16
+
+.00
+
+Cue
+
+Note: * p < .05.
+Note: Cues studied at least ten times.
+Source: Bella M. DePaulo, James J. Lindsay, Brian E. Malone, Laura Muhlenbruck, Kelly Charlton, and
+Harris Cooper. “Cues to Deception,” Psychological Bulletin 129, no. 1 (January 2003): 74–118, http://
+dx.doi:10.1037/0033–2909.129.1.74
+
+CUES
+
+31
+
+nificant cue effects, but most cues are not significant (even cumulated across
+ten or more studies), and those that are significant typically show small and
+heterogeneous effects. Heterogeneous effects are those that vary significantly
+from study to study.
+A Decline Effect for Cues
+I have long noticed that cue findings are erratic. As a graduate student, I was
+especially impressed by one particular cue experiment by deTurck and Miller.29
+They used an unusually realistic method for generating truths and lies, and
+also developed a way to control for nondeception arousal. The results showed
+six cues that differentiated not only between truths and lies but also between
+aroused truths and lies. The six cues were adaptors, hand gestures, speech errors, pauses, response latencies, and message duration. What’s more, the effect sizes ranged from d = 0.72 to d = 1.18. These were big, strong effects! But
+I was also aware of the meta-analysis findings at the time.30 Cumulative findings across studies were uniformly weaker in meta-analysis, and the response
+latency and duration findings did not hold up as significant in meta-analysis.
+So, which findings should we believe? When the 2003 DePaulo meta-analysis
+was eventually published, its findings discredited both prior candidates.31 The
+trend was clear: effect sizes for cues get smaller over time as evidence accumulates. Maybe the careful reader already noticed this trend in Table 2.2.
+Then, several years ago, I read a popular press news story that gave me a
+label for what I was observing: the “decline effect.”32 The title of the article is
+“The Truth Wears Off,” and the subtitle asks, “Is There Something Wrong
+with the Scientific Method?” The article recounts several documented cases
+of once-good findings that became harder and harder to replicate. I was sure
+this was happening in the deception cue literature. Then a new meta-analysis
+was published that conveniently listed side by side the average effect sizes and
+the number of studies comprising the average effect.33 I did the correlation.
+It was significant and negative.34 I contacted the authors of that new meta-
+analysis, and we reanalyzed their data.35 The decline effect is real, and the effect shows up both cross-sectionally and longitudinally. This decline effect in
+deception cue research is graphed in figure 2.1. Each dot is a different cue.
+The average effect size (d) for each cue is plotted on the vertical axis, and the
+number of studies (k) investigating the cue is the horizontal axis. The size of
+the dot is proportional to the combined sample size. Larger dots correspond
+to larger samples. Small dots are findings based on few subjects. As you can
+see, the trend is very clear once graphed. As time goes by, as evidence accumulates, and as the sheer quantity of data increases, cues get weaker and weaker.
+
+32
+
+CHAPTER TWO
+
+Figure 2.1. The relationship between the number of times a cue has been studied
+(k) and its cumulative effect size (d) weighted by sample size.
+
+Primary Studies Tell a Different Story than Meta-Analyses
+Recent evidence suggests that it would be wrong to conclude that cues do not
+distinguish truths from lies. A recent meta-analysis looked at the combined
+predictive power of multiple cues for distinguishing truths from lies in 125
+prior research reports yielding 144 statistical predications.36 The findings were
+unexpected, given the findings of previous meta-analyses, and very provocative.
+The results were expressed in units of the multiple correlation coefficient,
+R, which reflects the combined predictive power of all the cues in a given
+study. The average R was .52, which was highly significant and substantial.
+This translates to a percent-correct rate of 67.9%. Clearly, cues do distinguish
+truths from lies in most studies.
+The extent of predictive power varied quite a bit from study to study. The
+multiple correlations uncovered ranged from near zero (R = .01) to almost
+perfect prediction (R = .87). The middle 50% of findings fell between .37 and
+.70, with a median of .48. Despite the variation, the results were stable across
+a number of considerations. Student samples did not differ from non-student
+data. The motivation to lie did not affect cue utility, and neither did the pres-
+
+CUES
+
+33
+
+ence or absence of interaction or whether the lies were about feelings or facts.
+Curiously, predictability was not affected by number of cues to make the prediction or the nature of the cues (visible, written, content, vocal, or global impression). Further, most of the predictive power was carried by a single cue
+(r = .43 for single strongest cue, R = .52 for combined effects).
+These findings seem hard to reconcile with findings that focus on the utility
+of specific cues. The r = .43 for the average effect for the strongest cue is equivalent to d = 0.95. As shown in Table 2.3, however, there is no evidence that any
+specific cue is anywhere near this strongly associated with honesty and deceit.
+That discrepancy is odd indeed.
+I have some findings that may shed light on how cues can be predictive of
+deceit in specific studies, while specific cues are not consistently predictive
+across studies. The study was a placebo-control experiment testing the effectiveness of training people to deception detection with nonverbal cues.37 The
+training findings are described toward the end of the next chapter, but here I
+will focus on the cue findings and the story behind the results. For our initial
+“valid training” condition, we picked four cues that past literature suggested
+were associated with deception; for our placebo training, we picked four cues
+that past research indicated as unrelated to deception. Subjects were trained
+to look for either the valid cues, the placebo cues, or no cues at all (no-training
+control). The results were not what we expected and were initially inexplicable.
+The placebo group performed better than the no-training control, but the valid
+training group did the worst! We then coded the truths and lies that the subjects had viewed for the cues that we had trained them in. Three of the four
+“valid” cues were significantly related to deception, but in the opposite way
+that one would have anticipated based on past research. The cues were highly
+“significant,” but they flipped sign.
+In the stimulus messages used in the bogus training experiment, we had
+two senders who produced four truths and four lies each. Four of eight cues
+showed significant differences for honesty, with effect sizes ranging from d =
+0.20 to d = 0.35. But these differences were small compared to the differences
+between the senders. The senders differed on seven of eight cues (d = 0.41 to
+d = 2.72). Senders also differed in their cues from message to message within
+truths and within lies on four of the eight cues (d = .41 to d = 0.84). Further,
+there were statistically significant interactions between sender, message, and
+actual honesty on twenty-nine of the thirty-two possible interactions.
+Consider the implications! There are cues differences, but sometimes they
+flip sign. What signals deception in some studies signals honesty in others.
+Further cues differ from person to person much more than they differ between
+
+34
+
+CHAPTER TWO
+
+truths and lies. And specific individuals differ from honest statement to honest statement and lie to lie. This makes trying to get a valid baseline problematic if not impossible. People are not constant in the cues over time.
+The conclusion that I draw from these findings and from the various cue
+meta-analyses is that compelling evidence exists for the ephemeral nature of
+cues. At the level of the individual study investigating some set of deception
+cues, cues are statistically useful in distinguishing truths from lies. Cue studies reliably find cue effects that both are statistically significant and have moderate to large effect sizes, and this is true regardless of the demographics of
+the liar, the topic of the lies, the motivation of the liar, what the lie was about,
+or the particular cues studied. Yet, when specific cues are studied again, the
+findings do not replicate. That is, there are always cues in almost all data sets,
+but what those cues tell us changes from study to study, and as research accumulates over time, the utility of specific cues regresses toward zero.
+SUMMARY
+The purpose of this chapter is to summarize findings of prior research on deception cues, with emphasis on conclusions drawn from meta-analysis so that
+we might focus on the big picture and trends over time, rather than getting
+caught up in idiosyncratic findings. The review and discussion are organized
+around two key questions.
+What do people look for in order to distinguish whether someone else is
+honest or lying? People pay much attention to nonverbal behavior when assessing honesty and deceit. In terms of specific cues, there is a worldwide, cross-
+cultural consensus in the folk belief that liars avoid eye contact. But when behaviors that actually influence honesty assessments are analyzed, perceptions
+of plausibility, logical consistency, confidence, friendliness, and conversational
+involvement are quite important. What’s more, cues are not used in isolation,
+nor are they uncorrelated. Constellations of cues combine to create an honest or dishonest demeanor that guides people’s decisions about whether or
+not someone is honest. (There is more on this in chapter 13 when sender demeanor and the BQ [believability quotient] are discussed.)
+What, if any, specific behaviors actually distinguish truthful communication from lies? The short answer is, not many. The only two cues that hold up
+consistently across various meta-analyses are that liars have larger pupils and
+higher pitch, on average, than honest senders. The differences are not large
+enough to have much practical use in lie detection. In general, there are few
+behavioral differences that distinguish truths from lies, and the differences
+
+CUES
+
+35
+
+that are there are not large, are inconsistent, and tend to diminish as scientific evidence accumulates.
+The next chapter addresses two additional questions:
+• How accurate are people at distinguishing truths from lies?
+• Under what conditions (if any) are people more accurate or less accurate at lie detection, and what types of people (if any) are more
+skilled or less skilled lie detectors?

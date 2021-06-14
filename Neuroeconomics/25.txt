@@ -1,0 +1,1084 @@
+Chapter 25
+Eye Movements
+
+Ulrich Ettinger and Christoph Klein
+
+
+
+
+Abstract The study of eye movements may provide a “window to the soul”, that
+is, a unique opportunity to investigate the mind and brain of humans and animals. In
+this chapter we argue that the study of eye movements may also be of use in
+neuroeconomics research. We ﬁrst describe the types of eye movements that are of
+relevance in this context and outline their neural correlates. We then outline the key
+oculographic methods that are likely to be applied in neuroeconomics experiments
+and point out the advantages of oculomotor research over manual motor experi-
+ments. We address the long researched issue of the association between eye
+movements and visual attention. That research supports the beneﬁt of studying eye
+movements as a concurrent level of analysis in addition to manual responses in
+order to better understand the temporal and spatial features of attention. We then
+review key literature on the pupil, which shows a close relationship between pupil
+dynamics and various cognitive and affective states. Finally, we summarise some
+important ﬁndings from oculomotor research in the ﬁeld of neuroeconomics. It is
+concluded that the study of eye movements represents a convenient, objective and
+reliable method that may yield important additional data to better understand
+economic decision-making processes as well as their neurophysiological correlates.
+
+
+
+
+U. Ettinger (&)
+Department of Psychology, University of Bonn, Kaiser-Karl-Ring 9, 53111 Bonn, Germany
+e-mail: ulrich.ettinger@uni-bonn.de
+C. Klein
+Department of Child and Adolescent Psychiatry and Psychotherapy, University of Freiburg,
+Hauptstr. 8, 79104 Freiburg, Germany
+e-mail: christoph.klein.kjp@uniklinik-freiburg.de; c.klein@bangor.ac.uk
+C. Klein
+Department of Child and Adolescent Psychiatry, Psychosomatics and Psychotherapy,
+University of Cologne, Cologne, Germany
+C. Klein
+School of Psychology, Bangor University, Penrallt Road, LL57 2AS Bangor, UK
+
+© Springer-Verlag Berlin Heidelberg 2016                                                   481
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_25
+482                                                             U. Ettinger and C. Klein
+
+
+25.1    Introduction
+
+It has long been suggested that the eye is the “window to the soul”. Wade and Tatler
+(2005, p. 1) in their comprehensive history of oculomotor research quote De
+Laurens in a writing from the sixteenth century as stating “Orpheus called the eyes,
+the looking glasses of nature: Hesichius, the doores for the Sunne to enter in by:
+Alexander the Peripatecian, the windowes of the mind, because that by the eyes we
+doe cleerely see what is in the same, we pearce into the deepe thoughts thereof, and
+enter into the privities of his secret chamber”.
+    The notion that the eye may offer privileged access to the study of the mind, i.e.
+to human and animal cognition, motivation, emotion, ability and personality as well
+as psychopathology, has been reiterated in modern times (Stern and Dunham 1990).
+The eye offers a wealth of information about ongoing cognitive and emotional
+processes, ﬁrst and foremost of course about where the person is directing their
+overt visual attention (see below). Additionally, the measurement of eye blinks as
+well as the characterisation of the more subtle features of the eye such as the size of
+the pupil can be used proﬁtably to make inferences about state variations in the
+viewer’s arousal levels as well as demands on information processing (see below).
+    Together, the eye and its internal as well as external movements presents an
+easily accessible model system that can be studied across species—a microcosm
+within which to explore the interactive processes of perception, cognition and motor
+control as well as their neural substrates, their modulation by emotion and their
+impairments in disease (Leigh and Zee 2006; Liversedge et al. 2011).
+    Historically, the scientiﬁc study of eye movements can be broadly structured into
+four eras (Duchowski 2002; Rayner 1998). First, in the nineteenth century and in
+the early twentieth century, basic facts about the oculomotor system were discov-
+ered. These discoveries include fundamental eye movement characteristics such as
+saccadic latencies (reaction times) as well as the phenomenon of saccadic sup-
+pression, i.e. the reduction of visual perception during saccades which facilitates a
+stable representation of the visual world despite changes to the retinal image during
+fast ocular movements. The second phase, from the 1930– 1950s, a time when
+psychology was dominated by the behaviourist paradigm, saw a stronger focus of
+applications of eye movement research. A third major impetus into oculomotor
+research could be observed in the 1970s to the late 1990s, due to the increasing
+availability of ever more accurate oculographic methods. Fourth, we are today in
+the fortunate position to be able to draw upon a range of easily available and highly
+sophisticated oculographic hardware and software systems. These allow us not only
+to record eye movements with never seen temporal and spatial resolution but also to
+perform interactive experiments, for example, by modifying the visual input on the
+basis of eye movements or eye position (Duchowski 2002). An additional devel-
+opment with major impact on applied as well as basic research is the measurement
+of eye movements outside the laboratory in everyday life situations (Holmqvist
+et al. 2011). Finally, signiﬁcant recent advances in the development of oculographic
+methods include the availability of eye-trackers that are compatible with magnetic
+25   Eye Movements                                                                483
+
+resonance imaging (MRI) scanners, thus allowing precise recording of eye move-
+ments simultaneously to the acquisition of brain images.
+   In this chapter, it will be proposed that the study of eye movements may inform
+neuroeconomics research. To do so, different types of eye movements will ﬁrst be
+described and fundamental methodological issues in their study will be detailed.
+The key oculographic methods are then reviewed before it will be argued, thus the
+study of eye movements offers signiﬁcant advantages in neurocognition research in
+comparison to standard manual motor experiments. Next, the processes of visual
+perception and attention and their interactive relationships with movements of the
+eyes will be outlined. Finally, literature on eye movements and neuroeconomics
+will be discussed.
+
+
+
+25.2    Types of Eye Movements
+
+The human eye movement repertoire can be classiﬁed into different types of eye
+movements along various lines. A widely recognised functional classiﬁcation by
+Leigh and Zee (2006) distinguishes between saccades, ﬁxation, smooth pursuit,
+vestibular eye movements, optokinetic eye movements, the quick phase of nys-
+tagmus and vergence eye movements.
+   Another commonly made distinction is that between gaze stabilising and gaze
+shifting eye movements (Gilchrist 2011). Gaze stabilizing eye movements are those
+that maximise stability of foveal processing during target movement, head move-
+ment or both, such as vestibular, optokinetic and smooth pursuit eye movements.
+Fixation, although not characterised by overtly observable eye movements, is also
+considered a mechanism of oculomotor gaze stabilisation. The primary gaze
+shifting movements on the other hand are saccades, i.e. rapid eye movements that
+serve to bring the image of an object of interest onto the fovea. Of most relevance to
+oculomotor paradigms in experimental psychology and cognitive neuroscience are
+saccades, smooth pursuit eye movements and ﬁxation.
+   Saccades (from the French word “la saccade”, meaning “jerk”) are fast, jerk-like
+and ballistic eye movements with durations of 20–50 ms and a maximal velocity of
+up to 600°/s. In everyday situations humans efﬁciently explore their visual envi-
+ronment by making approximately 3–4 saccades per second (or about 12,000 per
+hour) with maximal amplitudes of approximately 15°, beyond which gaze shifts are
+more likely to be implemented by head movements (Gilchrist 2011). Saccades can
+also be elicited very easily in experimental settings by instructing the observer to
+shift their gaze from one (e.g. central) target to a sudden-onset target at another
+location (e.g. in the periphery). This basic “prosaccade” task, which is considered to
+involve largely automatic processing, can be experimentally modiﬁed in order to
+tap speciﬁc cognitive processes (Hutton 2008). For example, spatial working
+memory can be assessed by asking a saccade to the location of a briefly flashed
+peripheral target to be executed after a short delay interval (Crawford et al. 1989;
+Ettinger et al. 2005; Sawaguchi and Goldman-Rakic 1991). Temporal and/or spatial
+484                                                             U. Ettinger and C. Klein
+
+prediction abilities can be challenged by requiring the execution of saccades to a
+target that is displayed in different locations in a temporally and/or spatially pre-
+dictable manner (Allman et al. 2012; Joiner and Shelhamer 2006). Another variant
+is the so-called antisaccade task, in which a saccade to the opposite location of a
+peripheral target is requested, thus requiring cognitive control functions (Hutton
+and Ettinger 2006; Munoz and Everling 2004). Importantly, non-human primates
+can also be trained to make saccades in different experimental paradigms, allowing
+the development of cross-species model systems of cognitive processes (see below).
+    Prosaccades are controlled by a neural network involving posterior parietal
+cortex, frontal and supplementary eye ﬁelds, superior colliculus, striatum, thalamus
+and cerebellum, whereas volitional saccades recruit increased activation levels in
+these areas and involve additional activations, such as in the dorsolateral and
+ventrolateral prefrontal cortices (for reviews, see Johnston and Everling 2008;
+McDowell et al. 2008; Muri and Nyffeler 2008). See Fig. 25.1 for an illustration of
+some of the areas mediating prosaccades.
+    Smooth pursuit serves to keep the image of a slowly moving object on the fovea
+by matching smooth eye velocity to target velocity as closely as possible (Barnes
+2008, 2011). Pursuit typically involves a combination of smooth eye movements
+and saccades. The latter may be compensatory, reducing position error when eye
+velocity is higher or lower than target velocity or intrusive, occurring in segments of
+otherwise good pursuit, for example by anticipating future target movement. The
+neural control of smooth pursuit eye movements (Fig. 25.2) involves motion sen-
+sitive neurons in the visual cortex (V5 in humans, MT/MST in monkeys), the
+posterior parietal cortex, the frontal and supplementary eye ﬁelds, the cerebellum
+and pontine, vestibular and oculomotor nuclei (for reviews, see Ilg and Thier 2008;
+Lencer and Trillenberg 2008; Sharpe 2008).
+    Fixation occurs in periods when the eyes are relatively still and when most visual
+information is gained from the environment, primarily by foveal but also parafoveal
+and peripheral visual processing. Movements of the eyes do in fact occur during
+
+Fig. 25.1 Neural correlates
+of saccadic eye movements.
+The ﬁgure shows clusters of
+signiﬁcant activation
+(p < 0.05 corrected cluster
+level) in a prosaccade task in
+healthy humans measured
+with fMRI at 3T ﬁeld
+strength. Unpublished data
+(Herweg, Weber and
+Ettinger). FEF frontal eye
+ﬁelds; IPS intraparietal sulcus
+25   Eye Movements                                                                           485
+
+
+
+
+Fig. 25.2 Neural correlates of smooth pursuit eye movements. The ﬁgure shows clusters of
+signiﬁcant activation (p < 0.05 corrected voxel level) in a smooth pursuit task in healthy humans
+measured with fMRI at 3T ﬁeld strength. Unpublished data (Meyhöfer, Steffens, Weber and
+Ettinger). FEF frontal eye ﬁelds; SEF supplementary eye ﬁelds; IPS intraparietal sulcus; V1
+primary visual cortex; V5 motion sensitive area in visual cortex
+
+
+ﬁxation, particularly tremor, drift and microsaccades (Martinez-Conde et al. 2013).
+These are small movements, however, and are not usually noticed by the viewers
+themselves or by untrained observers.
+   The reason for the interest of experimental psychology in saccades, pursuit and
+ﬁxations lies primarily in the close relationship of these types of eye movements
+with overt visual attention. The link between these will be elaborated upon later in
+this chapter, after oculographic recording methods and their advantages have been
+delineated.
+
+
+
+25.3     Oculographic Methods
+
+At present,1 researchers interested in the study of eye movements can choose
+between a range of different recording methods. Good current overviews of these
+oculographic methods have recently been published (Eggert 2007; Haslwanter and
+Clarke 2010; Holmqvist et al. 2011; Shelhamer and Roberts 2010); older but still
+insightful reviews can be found in Yarbus (1967) and Young and Sheena (1975).
+The methods most commonly used in psychology and neuroscience include
+video-based combined corneal reflection and pupil tracking, infrared limbus ocu-
+lography, electro-oculography (EOG), dual Purkinje tracking and the scleral search
+
+
+1
+ The history of methods in oculomotor research is summarised in detail by Wade and Tatler
+(2005).
+486                                                               U. Ettinger and C. Klein
+
+coil technique. In the context of neuroeconomic experiments with eye movement
+recordings, where saccades and ﬁxations are likely to be the most relevant oculo-
+motor events, video-based combined corneal reflection and pupil trackers, infrared
+limbus trackers as well as the older EOG are suggested to be the most suitable
+methods, as they have good temporal and spatial performance characteristics, are
+non-invasive and relatively quick to set up and calibrate. These methods are
+described in the following.
+   EOG involves the placing of surface electrodes lateral to each eye as well as to a
+reference region such as the forehead. The method exploits the observation that the
+human eye represents an electrical dipole, with the retina being more negative than
+the cornea (hence the term “corneo-retinal potential”), and whose axis is approxi-
+mately collinear with the optical axis of the eye. There is a small difference in
+potential due to electrical activity of retina cells at the fundus of the eye. Given that
+the electrical dipole moves with every rotation of the eye, differences in electrical
+potential at the skin surface can be used to detect changes in eye position.
+   Advantages of EOG include the accurate recording of horizontal eye movements
+over a relatively large amplitude range (up to ±40°; Leigh and Zee 2006) whilst
+being non-invasive and causing only minimal discomfort to participants.
+Disadvantages primarily include the presence of (electrical, electro-cortical and
+electro-myographic) noise as well as eyelid artefacts. Additionally, vertical eye
+movements are measured much less reliably than horizontal eye movements due to
+the concurrent movement of the eye lid.
+   Infrared limbus oculography (e.g. Reulen et al. 1988) uses emitter/detector
+arrays placed directly in front of the eye, usually by being ﬁxed to a headset. The
+emitters shine infrared light onto the eye, from where it is reflected back onto the
+detectors. The intensity of the reflected light differs between iris and sclera and,
+accordingly, the distribution of light across the array of sensors of reflected light
+changes when the eye moves. This signal can be used to measure eye movements
+with high temporal and spatial performance characteristics. Disadvantages of the
+method include artefacts due to movements of the head or the headset, discomfort
+from wearing the headset and blocking of the visual ﬁeld due to the emitter/detector
+arrays.
+   Video-based combined corneal reflection and pupil trackers are currently
+amongst the most widely used oculographic methods in psychology. Unlike other
+methods, these eye-trackers work on a combination of two different signals, viz. the
+image of the pupil and the reflection of infrared light from the cornea (the ﬁrst
+Purkinje image; see Fig. 25.3). These signals together yield a precise and accurate
+measure of the point of regard with excellent temporal and spatial resolution. Such
+eye-trackers often work remotely, that is the infrared light source and camera are
+placed away from the participant, e.g. below the computer screen that displays the
+experimental stimuli (see Fig. 25.4 for an example), thus posing zero discomfort to
+participants. A further advantage of these eye-trackers is the possibility of not only
+obtaining eye position data but simultaneously also a measure of pupil size with
+every sample (see below).
+25   Eye Movements                                                                             487
+
+
+
+
+Fig. 25.3 Pupil and corneal reflection images. The pictures show images of the pupil (in blue) and
+the ﬁrst corneal reflection (in yellow) obtained by a video-based combined pupil and corneal
+reflection tracker (EyeLink 1000; SR Research Ltd., Ottawa, Ontario, Canada). Picture used with
+permission from SR Research Ltd.
+
+
+
+
+Fig. 25.4 Setup of a remote eye-tracker. The picture shows as an example of a laboratory setup
+the EyeLink 1000 eye-tracker (SR Research Ltd.). The infrared light source and camera are placed
+remotely, beneath the monitor that displays the stimulus for the participant. A chinrest is used to
+minimise head movements. Picture used with permission from SR Research Ltd.
+
+
+    Video-based combined corneal reflection and pupil trackers tend to be user
+friendly and quick to set up. However, this scientiﬁc method still requires precise
+operating and attention to detail in order to yield valid data. In this context, a
+number of laboratory conditions have to be considered (Holmqvist et al. 2011). In
+brief, an ideal eye-tracking laboratory is a quiet room with dim but strictly con-
+trollable light conditions. Complete darkness should be avoided as it may lead to
+enlarged and more variable pupil size, which can pose problems for pupil tracking.
+Additionally, the infrared light source may become visible in complete darkness
+and pose a source of distraction for participants. When a light source is used to
+488                                                                 U. Ettinger and C. Klein
+
+moderately illuminate the laboratory it should be placed such that no direct light
+falls onto the eye, the camera or the computer screen.
+    Other factors that need to be considered when applying this method are certain
+participant characteristics that may reduce the ease with which data can be collected
+or the quality of the collected data. Makeup such as mascara may lead to the
+detection of signal mistaken as pupil and should thus be avoided. Droopy eyelids
+may cover the pupil thereby causing partial signal loss. Glasses may usually be
+worn without preventing accurate recordings; however, they can also produce
+signals that may be mistakenly interpreted as pupil or corneal reflection.
+
+
+
+25.4    Methodological Advantages of Oculomotor Research
+
+Psychologists and cognitive neuroscientists wishing to study certain cognitive
+processes often face the problem of operationalising their measurement. A typical
+experimental setup involves presenting a stimulus (input), which then arguably
+engages the individual in a certain cognitive process, and recording the response to
+that stimulus (output). Most often the output that is studied is a manual motor
+response, such as a button press or a joystick movement, or a verbal response.
+Whilst this standard procedure is being successfully employed in the pursuit of
+numerous research questions, the study of ocular movements as an alternative
+motor response may offer certain advantages over manual responses. These
+advantages have been put forward most clearly in the context of research on psy-
+chiatric and neurological patients (Klein and Ettinger 2008), but they also hold in
+other research settings.
+   First, oculomotor responses and associated cognitive processes have been
+studied intensively with unit recordings in non-human primates and other animals,
+providing a rich set of comparative data and background knowledge on the neural
+mechanisms of such cognitive processes. A prime example of this is the investi-
+gation of spatial working memory and its correlation in the dorsolateral prefrontal
+cortex (DLFPC) using the oculomotor delayed response task in non-human pri-
+mates (Sawaguchi and Goldman-Rakic 1991) as well as humans (Sweeney et al.
+1996). The ability to perform the same tasks in both experimental animals and
+humans provides a comprehensive and systematic description of the relevant
+cognitive and neural processes.2
+   Second, eye movements can be observed directly and without much technical
+artefacts. Speciﬁcally, movements of the eyes, which involve only six muscles, are
+more easily recorded and interpreted than movements of the limbs, which involve
+dozens of muscles. The high precision of measurement stems from the fact that the
+eyeball can rotate only within the socket. The resultant oculographic recordings
+allow for the derivation of a manifold of meaningful, speciﬁc and reliably
+
+
+2
+See also the work of Glimcher et al. (2005) on saccadic decision making discussed below.
+25   Eye Movements                                                                489
+
+measurable parameters (Holmqvist et al. 2011). This holds both for eye movements
+recorded in the laboratory and in the “ﬁeld”, that is in ecologically valid situations
+such as during domestic tasks, whilst moving through the environment, whilst
+driving a car or operating a plane or when engaged in sports (for reviews, see Land
+and Tatler 2009; Duchowski 2002).
+    Third, oculomotor tasks are hands- and language-free, they typically utilise
+simple stimuli and instructions and they are shorter than complex neuropsycho-
+logical assessments of cognitive function. These tasks are therefore culture fair and
+they have proven highly acceptable to a diverse range of individuals from the
+general population, including children and older participants as well as cognitively
+impaired patients.
+    Fifth, nowhere in the human brain can the complex interaction of perception and
+action—elaborated in the “Gestaltkreis” theory by von Weizsäcker (1996)—be
+studied more directly than in the oculomotor system. And due to the dynamic nature
+of this interplay an important feature of the interaction between “mind” and “world”
+becomes visible and analysable that remains completely concealed during the
+simple measurement of manual reaction times: the process nature of these inter-
+actions. In order to understand the structure of such processes, however, it is
+required to understand the interplay between vision, attention and eye movements
+(see below).
+    Together these methodological advantages of oculomotor research reiterate its
+importance in the operationalisation of the measurement of speciﬁc cognitive
+processes in basic and applied research situations where manual motor responses
+would otherwise be used to indicate the output of the organism.
+
+
+
+25.5    Eye Movements, Attention and Vision
+
+Before we investigate the interaction of eye movements, attention and vision in
+more detail, we need to ask why we move our eyes at all. Or, as Delgado-García
+(2000) put it: “Why move the eyes if we can move the head”? The answer to this
+question lies in the observation that eye movements serve at least two important
+purposes: (1) By shifting the point of gaze, they allow swift, high-acuity, foveal
+processing of visual stimuli without the need to perform conspicuous—and com-
+paratively clumsy—head movements. (2) They stabilise visual perception by
+compensating for head or body movements.
+   Both arguments point to the important role of eye movements in supporting
+visual perception, a point expanded by Findlay and Gilchrist (2003) in relation to
+the importance of eye movements in visual attention. The primary role of the eye
+amongst all human sensory organs, in turn, is buttressed by the dual observations
+that the eyes take in more information (bits) than any other sensory organ and that
+approximately 50 % of human neocortex responds to changes in the visual envi-
+ronment. Thus, eye movements serve to maximise the quality and structure of the
+490                                                                        U. Ettinger and C. Klein
+
+
+
+
+ (a) Fovea centralis:                           (b) Diagrammatic representation of the visual
+                                                system in primates, showing the visual information
+ Source:
+                                                processing pathways. (Image by Prof. Peter
+ http://en.wikipedia.org/wiki/Fovea_centralis   Schiller. Used with permission.)
+
+                                                Source: MIT Open Courseware
+
+Fig. 25.5 The visual system
+
+
+information intake of the most important of human sensory modalities. But why
+should this be the case? The answer is revealed by the mere anatomy of the eyes.
+    Figure 25.5 provides an illustration of the visual system of primates. Through
+the pupil, light reaches the photoreceptors (i.e. rods (dim light) and cones (bright
+light, colours)) on the retina. Transduction in the photoreceptors translates light
+information from a spotlight into an electric signal. The highest density of cones
+enabling the most precise viewing can be found in the central fovea, a roughly
+1.5 mm small area located about 5° temporally to the visual axis. From the pho-
+toreceptors the neural impulses are sent via retinal ganglion cells to the lateral
+geniculate nucleus of the thalamus and from there to the primary visual cortex V1
+and further to the visual association cortices V2–V5, from where visual information
+spreads out to be processed by various cortical and sub-cortical regions. With
+regard to the intricate link between eye movements and visual attention, the mere
+fact that the central fovea comprises less than 1 % of the retinal size but projects to
+over 50 % of the visual cortex to process the light that comes from only the central
+2° of the visual ﬁeld makes clear how strongly the selective nature of visual
+attention is anatomically “embodied”.
+25   Eye Movements                                                                   491
+
+    Whilst these (functional) anatomic considerations underline the importance of
+the visual system as a system of information selection, many of the close and
+complex relationships between eye movements and visual attention have over the
+decades been unveiled by experimental research in human and non-human primates
+(for a recent review primarily of the experimental literature, see Kowler 2011).
+Here, two fundamental questions can be asked. First, how do “top-down” and
+“bottom-up” factors interact; and second, how important are low-level features such
+as contrast, colour or motion compared to other higher level stimulus structures
+such as objects or gist (Einhäuser et al. 2008)?
+    One of the answers to the second question has been the concept of “saliency
+maps” suggested by Koch and Ullman (1985) as a spatial distribution of local
+contrasts of features such as colour, luminance or movement. The higher the
+physical salience of a location in the visual ﬁeld, the greater is the likelihood that it
+is attended and ﬁxated. The corresponding rather low-level perceptual analyses are
+thought to take place at early stages of information processing in the visual system.
+The concept of saliency maps is certainly intriguing as a theoretical approach that
+enables precise predictions of ﬁxation locations. On the one side, such models have
+indeed been shown to outperform random models of ﬁxation location (Foulsham
+and Underwoord 2008). On the other side, however, multiple other factors in
+addition to such “outstanding” features are involved in determining our gaze
+position that emphasise in different ways top-down aspects of gaze control,
+including strategic decisions (Najemnik and Geisler 2005), speciﬁc interests
+(Birmingham et al. 2009; Einhäuser et al. 2008) or speciﬁc tasks (Buswell 1935;
+Yarbus 1967).
+    Amongst the different top-down factors, strategic decisions may aim for opti-
+mising task performance. This may include gazing at locations that maximise the
+probability of ﬁnding a searched target (Najemnik and Geisler 2005) or aligning
+gaze near the centre position in a scene to identify large portions of the scene with
+this single optimal viewing position (Tatler 2007). Speciﬁc interests such as interest
+in relevant social information, in addition, may override perceptual saliency and
+direct an observer’s gaze to heads and eyes in complex social scenes (Birmingham
+et al. 2009). Similarly, objects that can be identiﬁed as “interesting” because they
+can be recalled retrospectively by the participants, explain the allocation of attention
+and ﬁxations better than early perceptual saliency which, however, may impact on
+an object’s saliency and thus contribute to an object’s “interestingness” indirectly
+(Einhäuser et al. 2008). In line with the implied interaction of top-down and
+bottom-up factors, Cerf et al. (2008), too, found that the combined influences of
+face preference (top-down) and low-level salience (bottom-up) improve the pre-
+diction of gaze positions. The aforementioned examples thus indicate that visual
+attention is in fact controlled both by exogenous bottom-up processes of perceptual
+saliency and endogenous top-down processes (Chica et al. 2013).
+    One of the crucial issues in understanding the dynamics of eye movements refers
+to the spatial sequencing of saccades during the exploration of visual scenes.
+According to Kowler (2011), two concepts have been important here. The ﬁrst, the
+“winner-takes-all” principle, deﬁnes how saccadic goals are chosen; the second
+492                                                               U. Ettinger and C. Klein
+
+principle, called “inhibition of return”, speciﬁes how the currently ﬁxated area is
+left again to ﬁxate another goal. According to the ﬁrst principle, the region with the
+momentarily highest “strength” (e.g., due to its saliency) attracts the attention, but
+quickly loses its strengths for other regions to be ﬁxated, according to the second
+principle. During such sequences of saccades, (covert) visual attention moves to the
+location that is about to be ﬁxated next before the eyes move to that location
+(Henderson et al. 1989). The strength of the coupling of movements of attention
+and of the eyes has also been shown by experiments demonstrating that it is not
+possible to orient attention to one location whilst moving the eyes to another
+(Hoffman and Subramanian 1995).
+    This sequence of alternations between attending a certain location, followed by
+its inhibition and the focussing of the next salient location, generates a scan path of
+ﬁxations and saccades across a stimulus of interest (Liechty et al. 2003). Scan paths
+have been described since Noton and Stark’s (1971) seminal observation that when
+participants look at visual stimuli (here: different patterns) their gazes follow
+repeatedly a ﬁxed path that is characteristic of an individual subject. These
+researchers also observed that different individuals develop different scan paths for
+the same pattern, and each individual develop different scan paths for different
+patterns, but that each scan path remained consistent across different presentations
+of the same pattern. The “replication” of scan paths developed during viewing
+conditions in the absence of the stimulus under conditions of visual imagery is
+certainly amongst the clearest demonstrations of top-down factors in gaze control.
+    According to some authors, there are two different states of covert visual
+attention during the exploration of complex stimuli, viz. local and global (Liechty
+et al. 2003). During states of local visual attention, short saccades are employed to
+extract information from speciﬁc and adjacent locations of a stimulus; during states
+of global visual attention, long saccades are used to extract and integrate infor-
+mation from various locations of a complex stimulus (Liechty et al. 2003). Local
+and global visual attention is thought to be controlled by the inferior temporal and
+posterior parietal cortex, respectively; their interaction is thought to be controlled by
+the prefrontal cortex (Liechty et al. 2003).
+    To conclude, the anatomy of the human eye with the central fovea as a small
+area of outstanding visual acuity “dictates” the dynamics of visual attention and eye
+movements as a temporal-spatial process that is co-determined both by perceptual
+bottom-up factors and cognitive-motivational top-down influences. Needless to say
+that no technique is better suited to investigating these dynamics of visual infor-
+mation processing than oculographic methods.
+
+
+
+25.6    Pupillometry
+
+Information processing through eye movements is inevitably associated with
+complex cognitive and emotional processes and their central and autonomous
+correlates. Modern eye-trackers can measure one particular facet of this complex
+25   Eye Movements                                                                   493
+
+response in addition to the proper eye movements, namely the pupil size and its
+changes and fluctuations. This classical psychophysiological parameter has been
+shown to be sensitive to a range of cognitive and affective states that may be
+relevant at the workplace or in confrontation with stimuli from an economics
+context, such as signals of ﬁnancial rewards.
+    Pupillary responses manifest either in increase or decrease of the pupil diameter.
+The increase in pupil diameter is called dilation or “mydriasis” and is caused by the
+iris dilator. The iris dilator is a muscle bundle composed of radially arranged muscle
+ﬁbres that is controlled by sympathetic innervation from the superior cervical
+ganglion, which is itself under tonic excitatory control descending from the
+hypothalamus (Kandel et al. 2000). The decrease in pupil diameter is called con-
+striction or “miosis” and is effected by the iris sphincter muscle. This muscle is
+composed of circularly arranged muscle ﬁbres and is innervated by the parasym-
+pathetic nervous system exerting its effects through the mesencephalic Nucleus
+Edinger-Westphal that innervates the ciliary ganglion cells through the oculomotor
+brain nerve III (Kandel et al. 2000).
+    More recently, pupil size has been shown to co-vary intra-individually with the
+ﬁring rate of the locus coeruleus (LC), one of the brain’s two origins of nora-
+drenergic neurons. The LC, which is located in the pons, has been associated with
+general arousal through its widespread afferent projections but is not directly or
+anatomically linked with the pupil (Aston-Jones and Cohen 2005). According to
+Aston-Jones and Cohen (2005), the LC provides a tonic mode of ﬁring that can vary
+between low activity in inattentive, non-alert states and high activity in distractible
+states that promote task shifting. This structure, in addition, provides a phasic mode
+of ﬁring when the subject is engaged in a task. The tonic and phasic modes interact
+in that prominent phasic LC ﬁring which takes place during phases of moderate
+tonic ﬁring, that is, when the subject is neither drowsy nor distracted and shifting to
+another task. According to Aston-Jones and Cohen (2005), these patterns of LC
+ﬁring are controlled by the anterior cingulate (ACC) and orbitofrontal cortices
+(OFC), both of which are thought to monitor task-related utility.
+    In one experiment, worthwhile to be described in some detail, these researchers
+presented human participants with a discrimination task, in which task difﬁculty and
+rewards for correct responses continually increased. Initially, the reward value
+increased faster than task difﬁculty and thus error rates; after several trials, however,
+the increase in task difﬁculty led to increased number of errors and reduced reward
+rate. In line with the tonic-phasic distinction of LC ﬁring, the authors observed a
+steady rising of baseline (tonic) pupil diameter with increasing task difﬁculty, and a
+decrease in phasic discrimination-related pupil dilation. When discrimination suc-
+cess declined and participants abandoned the current task series to start a new one,
+baseline pupil diameter was greatest. This pattern of ﬁndings, which conﬁrms
+Wilder’s “Law of Initial Values” (Wilder 1958), exempliﬁes nicely some of the
+features of the pupillary dynamics: it is sensitive to both cognitive and
+affective/motivational processes (which may be as fundamental as those proposed
+by Aston-Jones and Cohen 2005); it encompasses both tonic and phasic responses;
+it is controlled both by more proximal (N. Edinger-Westphal) and more distal
+494                                                            U. Ettinger and C. Klein
+
+(hypothalamus) brain structures and may be correlated with the activity in
+anatomically not directly related brain regions (LC, ACC, OFC). Therefore, the
+dynamics of the human pupil can be expected to be sensitive to a wide range of
+tasks, situations and states and hence they may help in interpreting the ﬁndings of
+eye movement studies that employ the experimental variation of conditions, situ-
+ations or states.
+   In line with this overall summary, dilation of the pupil, in comparison to
+appropriate control conditions, has been associated with high task load/difﬁculty
+(Beatty 1982a; Hess and Polt 1964; Kahneman and Beatty 1966; Moresi et al. 2008;
+Steinhauer et al. 2004), high stimulus presentation rate (Poock and Noel 1975), low
+stimulus probability (Reinhard and Lachnit 2002), processing of ambiguity
+(Ben-Nun 1986; Schluroff et al. 1986), exploratory versus exploitative gambling
+choices (Jepma and Nieuwenhius 2011), emotional excitement or emotional
+valence (Goldwater 1972; Partala and Surakka 2003), (un)pleasantness of verbal
+passages (White and Maltzman 1978), pleasantness of pictures (Metalis and Hess
+2013), positive or negative emotional baby voices (Partala and Surakka 2003),
+interest value (Hess and Polt 1960) or aesthetic liking (Johnson et al. 2010).
+Conversely, decreases in task-evoked phasic responses or smaller tonic pupil
+diameters have been reported with increasing time-on-task (Beatty 1982b) or in
+insomniacs (Lichtstein et al. 1992). Sleepiness, however, is not only associated with
+miotic responses but also with faster oscillations of the pupil diameter (McLaren
+et al. 1992).
+   These examples amply illustrate that pupil recordings may provide valuable
+additional insights into the processing of difﬁculty or effort-related aspects of
+stimuli in a wide range of settings of relevance to decision making and experimental
+economics.
+
+
+
+25.7    Oculomotor Research in Neuroeconomics
+
+Neuroeconomics is an interdisciplinary scientiﬁc endeavour that aims to understand
+human decision making, particularly in the context of economic choices. The goal
+of neuroeconomics is thus to use neuroscientiﬁc data in order to better understand
+the deliberation process in decision-making situations with the ultimate goal of
+improving economic models.
+   Accordingly, the methods of neuroeconomics are drawn from its constituent
+scientiﬁc ﬁelds, namely neurobiology, behavioural and experimental economics as
+well as cognitive, social and evolutionary psychology (see Part 8 of this book).
+They include behavioural experiments in which participants can obtain ﬁnancial
+rewards, “games” where participants’ rewards depend on the behaviour of other
+(simulated or real) participants, recordings of heart rate and skin conductance,
+electroencephalography (EEG), magnetoencephalography (MEG), positron emis-
+sion tomography (PET), functional magnetic resonance imaging (fMRI), animal
+25   Eye Movements                                                               495
+
+studies involving single-neuron recordings and, of course, oculography, viz. the
+recording of eye movements.
+    Here we argue that the recording of eye movements (with or without concurrent
+recordings of neurophysiological activity) may be one particularly useful method to
+inform our understanding of the neural and cognitive processes taking place during
+economic decision making. This argument is based on the methodological advan-
+tages of oculography detailed above as well as our understanding of the association
+between attentional processes and eye movements and their neural mechanisms.
+Indeed, oculographic recordings in the study of decision making were ﬁrst made in
+the 1970s (Russo and Rosen 1975) and have since been used proﬁtably to elucidate
+the underlying processes. In the following we will not provide a comprehensive
+overview of the published work in neuroeconomics that has used oculographic
+methods; instead, we will give some examples selected to illustrate the richness of
+oculographic approaches in neuroeconomics and refer the reader at this point to
+further relevant articles (see e.g. Causse et al. 2011; Costa-Gomes et al. 2001;
+Glöckner and Herbold 2011; Krajbich et al. 2010; Lohse and Johnson 1996;
+Middlebrooks and Sommer 2011; Reutskaja et al. 2011; Ross et al. 2011; Stritzke
+et al. 2009).
+    In one recent example, Arieli et al. (2011) recorded eye movements in a decision
+task where participants had to choose amongst two lottery scenarios with differing
+prizes and probabilities. They aimed to compare two possible procedures that may
+be implemented in the decision-making process, viz. the holistic and component
+procedures. In the holistic procedure, participants treat the two alternatives holis-
+tically, for example by evaluating the certainty equivalent of each alternative and
+selecting the one with the higher certainty equivalence or by computing the
+expectation of each of the two alternatives and selecting the one with the higher
+expectation. In the component procedure, it is thought that participants compare the
+prizes and the probabilities as separate components. Using eye movement record-
+ings, Arieli et al. (2011) found that the more difﬁcult of these problems were
+associated with saccades between the same components of the two alternatives,
+suggesting a component procedure, whereas in easier problems saccades between
+elements within the same alternative were more frequent, suggesting a holistic
+processing approach. That study thus nicely demonstrates how the investigation of
+eye movements can provide valuable information on the likely cognitive processes
+taking place during decision making.
+    Similarly, Camerer and colleagues (e.g. Bhatt and Camerer 2005) have used
+oculographic methods to distinguish between different neuroeconomic theories
+which make similar predictions at the behavioural level. As these theories could not
+be distinguished purely in terms of the participants’ behavioural decisions, the
+recording of eye movements provided an additional level of analysis that helped to
+rule out alternative explanations.
+    In addition to serving as a tool to enrich behavioural experiments by providing
+an additional level of explanation, eye movements have also been studied in the
+search for the neural substrate of economic decision making in non-human pri-
+mates. An impressive example of this approach is the work by Glimcher and
+496                                                                      U. Ettinger and C. Klein
+
+colleagues (see e.g. Glimcher et al. 2005; Glimcher 2009). These researchers have
+developed a neurobiological model of decision making that is based on utility
+theory from economics and makes prominent use of eye movement behaviour and
+neurophysiology in monkeys.
+    In this model, the ﬁnal stages of saccadic decision making involve the selection of
+that action from a number of alternatives that is judged to be most desirable in a
+“winner-takes-all” process, resulting in a saccade in a certain direction. Work by
+Schall and colleagues (Hanes and Schall 1996; Schall and Thompson 1999) has
+shown that frontal eye ﬁeld (FEF) neurons display topographic ﬁring over the
+stimulus position in a “winner-takes-all” fashion that encodes the direction of the
+saccade; when the level of activity at that location exceeds a certain threshold, a
+saccade is executed. Of importance to an understanding of saccadic decision making
+are, however, also the processing steps that lead up to this decision in the FEFs.
+    For example, in studies using moving stimuli, Newsome and colleagues (Parker
+and Newsome 1998) observed that the topographically arranged neurons in MT are
+motion sensitive. It was also shown that the outputs of these neurons are passed on
+to neurons in the posterior parietal cortex, where they are mathematically inte-
+grated, thereby generating a topographic map of motion direction from which they
+extract a decision variable which is then passed on to the FEFs.
+    This process is not just a model of primitive, low-level decision making, but
+likely a model of much more complicated decisions with relevance to neuroeco-
+nomics was shown in a study by Platt and Glimcher (1999). In that study, monkeys
+were trained to make saccades to the right or left, and both the likelihood and the
+magnitude of reward for these saccades were manipulated experimentally. It was
+found that the ﬁring of neurons in the lateral intraparietal area (LIP) accurately
+represented the expected value of a saccade, thus yielding a directly measureable
+neural substrate of economic choice. In other words, area LIP represents a topo-
+graphic map in which the relative expected value or utility of each possible saccade
+is coded.3
+    Glimcher and colleagues also draw upon work by Schultz et al. (1997) on
+dopamine release in the striatum in order to explain from where LIP neurons receive
+information about the physiological expected utilities. Schultz et al. (1997) observed
+that dopamine neurons code what is called reward prediction error in learning theory
+(Sutton and Barto 1998), that is, these neurons receive inputs on expected and on
+actual reward, calculate the difference (the so-called reward prediction error) and
+transmit the results to cortical and basal ganglia neurons using dopamine as neuro-
+transmitter. As such, the outputs of the computations of these neurons may explain
+how physiological expected utilities are generated in parietal neurons.
+    On the basis of the observation of neuronal encoding in LIP of relative expected
+utility under such fairly straightforward experimental conditions, Glimcher and
+
+
+3
+ Of note, a recent study by Leathers and Olson (2012) showed that LIP neurons encode not just the
+reward value of saccades but also an incurred penalty, suggesting that these neurons represent not
+the action value but the motivational salience of the stimulus (see, however, Newsome et al. 2013).
+25   Eye Movements                                                                      497
+
+colleagues went on to investigate how their ﬁring patterns would respond when an
+action, i.e. the choice of saccade direction, was less clearly related to an expected
+value than in the above studies.
+   In a series of experiments, Dorris and Glimcher (2004) engaged both humans and
+monkeys in a version of the inspection game, a strategic game from game theory
+where one participant, the inspector, veriﬁes the another participant, the inspectee,
+adheres to certain rules. The monkeys played against a computer in a saccadic choice
+version of the game. At the behavioural level, the experiments showed that the
+monkeys’ dynamic behaviour closely resembled that of humans, supporting the cross-
+species validity of the oculomotor model of this game. At the neurophysiological
+level, the research showed that the brain topographically encodes, in directly mea-
+surable neural activity patterns, the relative desirabilities of all possible actions (which
+are of course directly and unambiguously measurable via oculographic methods). As
+Glimcher et al. (2005) argue, it may be these topographic maps in LIP which represent
+the neural substrate of economic decision making.
+   The implications of the development of oculomotor model systems of economic
+choice are wide ranging. Given the availability of cross-species models and the
+above described advantages of studying the eye movement system of further models
+could be developed allowing the study of a wide range of influences on economic
+decision making, from state factors such as pharmacological challenges to trait
+factors such as genetics (cf. the chapters by Reuter and Montag in this book).
+   Glimcher and colleagues also draw conclusions from these studies concerning the
+historical tension between prescriptive and descriptive approaches to the study of
+economic decision making (see Chap. 1, by Reuter and Montag, in this book).
+Prescriptive approaches emphasise the optimal and efﬁcient decision making of homo
+economicus, whereas descriptive approaches, based on data collection, often obtain
+evidence of irrational economic decisions leading to poor utility maximising.
+Neuroeconomics as a discipline may contribute to the debate between these approa-
+ches by studying the mechanisms of decision making in the brain using experimental
+model systems, some of which may involve saccadic eye movements as the means to
+indicate the outcome of the decision-making process. According to Glimcher et al.
+(2005), the neurobiological work on primate saccadic decision making provides
+evidence against the dual-systems view held by some economists, that decisions arise
+out of a conflict between two interacting systems, one being clearly utility based (and
+evolutionarily recent) and the other being irrational (and evolutionarily old). Instead,
+the work by Glimcher and others has identiﬁed direct evidence of neural activity
+representing—in many situations—classical expected utility.
+
+
+
+25.8     Conclusions
+
+The present chapter has provided an introduction to the study of eye movements as
+a method in neuroeconomics research. We have described different recording
+techniques, highlighted the history of oculomotor research, and listed advantages of
+498                                                                     U. Ettinger and C. Klein
+
+oculography over other behavioural measurements of cognition. An important
+aspect of oculomotor research concerns the complex interplay between eye
+movements and visual attention that underlies the cycle of saccades and ﬁxation.
+Furthermore, we touched upon the sensitive dynamics of pupil responses, the
+measurement of which can be obtained “for free” when using modern eye-trackers,
+and gave examples of how neuroeconomic research may beneﬁt from eye move-
+ment recordings. Overall, we hope to have raised interest in this method in
+researchers in neuroeconomics.
+   What can be concluded from the work described in this chapter? We will phrase
+our answers to this question in the form of theses and proposals for future eye
+movement research in the ﬁeld of neuroeconomics.
+1. The study of eye movements provides a rich body of behavioural and neuro-
+   scientiﬁc evidence that can be incorporated into neuroeconomics research. This
+   applies especially to the work on attention and decision making as well as their
+   neural correlates.
+2. Neuroeconomics research may beneﬁt from the systematic integration of eye
+   movement recordings in more or less all research settings, be it the behavioural
+   lab, the MRI scanner or the ﬁeld. As described, such recordings may provide an
+   additional level of analysis with which it may be possible to separate competing
+   accounts of economic decision making.
+3. The availability of cross-species models of economic decision making provides
+   a highly innovative model system which builds upon animal neurophysiology,
+   behavioural oculomotor research and human neuroeconomics. Such work pro-
+   vides an important foundation for extending research into utility theory and
+   neuroeconomic decision making into animal behaviour and neurophysiology,
+   for example involving direct pharmacological interventions to modulate the
+   reward system, by drawing upon the method of recording eye movements.
+
+
+
+References
+
+Allman AA, Ettinger U, Joober R, O’Driscoll GA (2012) Effects of methylphenidate on basic and
+   higher-order oculomotor functions. J Psychopharmacol 26(11):1471–1479
+Arieli A, Ben-Ami Y, Rubinstein A (2011) Tracking decision makers under uncertainty. Am
+   Econ J Microecon 3:68–76
+Aston-Jones G, Cohen JD (2005) An integrative theory of locus coeruleus-norepinephrine
+   function: adaptive gain and optimal performance. Annu Rev Neurosci 28:403–450
+Barnes GR (2008) Cognitive processes involved in smooth pursuit eye movements. Brain Cogn
+   68:309–326
+Barnes GR (2011) Ocular pursuit movements (Chapter 7). In: Liversedge SP, Gilchrist I,
+   Everling S (eds) The Oxford handbook of eye movements. Oxford University Press, Oxford
+Beatty J (1982a) Task-evoked pupillary responses, processing load, and the structure of processing
+   resources. Psychol Bull 91:276–292
+Beatty J (1982b) Phasic not tonic pupillary responses vary with auditory vigilance performance.
+   Psychophysiology 19(2):167–172
+25   Eye Movements                                                                             499
+
+Ben-Nun Y (1986) The use of pupillometry in the study of on-line verbal processing, evidence for
+    depth of processing. Brain Lang 28:1–11
+Bhatt M, Camerer CF (2005) Self-referential thinking and equilibrium as states of mind in games:
+    fMRI evidence. Games Econ Behav 52:424–459
+Birmingham E, Bischof WF, Kingstone A (2009) Saliency does not account for ﬁxations to eyes
+    within social scenes. Vision Res 49:2992–3000
+Buswell GT (1935) How people look at pictures: a study of the psychology and perception in art.
+    University Chicago Press, Oxford
+Causse M, Baracat B, Pastor J, Dehais F (2011) Reward and uncertainty favor risky
+    decision-making in pilots: evidence from cardiovascular and oculometric measurements.
+    Appl Psychophysiol Biofeedback 36:231–242
+Cerf M, Harel J, Einhäuser W, Koch C (2008) Predicting human gaze using low-level saliency
+    combined with face detection. Adv Neural Inf Process 20:241–248
+Chica AB, Bartolomeo P, Lupianez J (2013) Two cognitive and neural systems for endogenous
+    and exogenous spatial attention. Behav Brain Res 237:107–123
+Costa-Gomes M, Crawford VP, Broseta B (2001) Econometrica 69(5):1193–1235
+Crawford TJ, Henderson L, Kennard C (1989) Abnormalities of nonvisually-guided eye
+    movements in Parkinson’s disease. Brain 112(Pt 6):1573–1586
+Delgado-García JM (2000) Why move the eyes if we can move the head? Brain Res Bull 52
+    (6):475–482
+Dorris MC, Glimcher PW (2004) Activity in posterior parietal cortex is correlated with the relative
+    subjective desirability of action. Neuron 44(2):365–378
+Duchowski AT (2002) A breadth-ﬁrst survey of eye-tracking applications. Behav Res Methods
+    Instrum Comput 34(4):455–470
+Eggert T (2007) Eye movement recordings: methods. In: Straube A, Büttner U
+    (eds) Neuro-Ophthalmology, vol 40. Karger Publishers, pp 15–34
+Einhäuser W, Spain M, Perona P (2008) Objects predict ﬁxations better than early saliency. J Vis
+    8:1–26
+Ettinger U, Hejda S, Flak V, Corr PJ (2005) Prepulse inhibition of the acoustic startle reflex and
+    oculomotor control. Psychophysiology 42:473–482
+Findlay JM, Gilchrist ID (2003) Active vision: the psychology of looking and seeing. Oxford
+    University Press, Oxford
+Foulsham T, Underwoord G (2008) What can saliency models predict about eye movements?
+    Spatial and sequential aspects of ﬁxations during encoding and recognition. J Vis 8:1–17
+Gilchrist I (2011) Saccades (Chapter 5). In: Liversedge SP, Gilchrist I, Everling S (eds) The
+    Oxford handbook of eye movements. Oxford University Press, Oxford
+Glimcher PW (2009) Choice: towards a standard back-pocket model. In: Glimcher PW,
+    Camerer C, Poldrack RA, Fehr E (eds) Neuroeconomics: decision making and the brain.
+    Academic Press, New York, pp 501–519
+Glimcher PW, Dorris MC, Bayer HM (2005) Physiological utility theory and the neuroeconomics
+    of choice. Games Econ Behav 52(2):213–256
+Glöckner A, Herbold AK (2011) An eye-tracking study on information processing in risky
+    decisions: evidence for compensatory strategies based on automatic processes. J Behav
+    Decision Mak 24:71–98
+Goldwater BC (1972) Psychological signiﬁcance of pupillary movements. Psychol Bull 77:340–
+    355
+Hanes DP, Schall JD (1996) Neural control of voluntary movement initiation. Science 274
+    (5286):427–430
+Haslwanter T, Clarke AH (2010) Eye movement measurement, electro-oculography and
+    video-oculography. Handb Clin Neurophysiol 9:61–79
+Henderson JM, Pollatsek A, Rayner K (1989) Covert visual attention and extrafoveal information
+    use during object identiﬁcation. Percept Psychophys 45:196–208
+Hess EH, Polt JM (1960) Pupil size as related to interest value of visual stimuli. Science 132:349–
+    350
+500                                                                      U. Ettinger and C. Klein
+
+Hess EH, Polt JM (1964) Pupil size in relation to mental activity during simple problem-solving.
+    Science 143:1190–1192
+Hoffman JE, Subramanian B (1995) The role of visual attention in saccadic eye movements.
+    Percept Psychophys 57:787–795
+Holmqvist H, Nyström M, Andersson R, Dewhurst R, Jarodzka H, van de Weijer J (2011) Eye
+    tracking: a comprehensive guide to methods and measures. Oxford University Press, Oxford
+Hutton SB (2008) Cognitive control of saccadic eye movements. Brain Cogn 68(3):327–340
+Hutton SB, Ettinger U (2006) The antisaccade task as a research tool in psychopathology, a critical
+    review. Psychophysiology 43:302–313
+Ilg UJ, Thier P (2008) The neural basis of smooth pursuit eye movements in the rhesus monkey
+    brain. Brain Cogn 68:229–240
+Jepma M, Nieuwenhius S (2011) Pupil diameter predicts changes in the exploration-exploitation
+    trade-off, evidence for the adaptive gain theory. J Cogn Neurosci 23:1587–1596
+Johnson MG, Muday JA, Schirillo JA (2010) When viewing variations in paintings by Mondrian,
+    aesthetic preferences correlate with pupil size. Psychol Aesthet Creativity Arts 4:161–167
+Johnston K, Everling S (2008) Neurophysiology and neuroanatomy of reflexive and voluntary
+    saccades in non-human primates. Brain Cogn 68:271–283
+Joiner WM, Shelhamer M (2006) An internal clock generates repetitive predictive saccades. Exp
+    Brain Res 175:305–320
+Kahneman D, Beatty J (1966) Pupil diameter and load on memory. Science 154:218–219
+Kandel ER, Schwartz JH, Jessell TM (2000) Principles of neural science, 3rd edn. Prentice Hall,
+    London
+Klein C, Ettinger U (2008) A hundred years of eye movement research in psychiatry. Brain Cogn
+    68:215–218
+Koch C, Ullman S (1985) Shifts in selective visual attention, towards the underlying neural
+    circuitry. Hum Neurobiol 4:219–227
+Kowler E (2011) Eye movements: the past 25 years. Vis Res 51:1457–1483
+Krajbich I, Armel C, Rangel A (2010) Visual ﬁxations and the computation and comparison of
+    value in simple choice. Nat Neurosci 13(10):1292–1298
+Land MF, Tatler BW (2009) Looking and acting: vision and eye movements in natural behaviour.
+    Oxford University Press, Oxford
+Leathers ML, Olson CR (2012) In monkeys making value-based decisions, LIP neurons encode
+    cue salience and not action value. Science 338(6103):132–135
+Leigh RJ, Zee DS (2006) The neurology of eye movements, 4th edn. Oxford University Press,
+    Oxford
+Lencer R, Trillenberg P (2008) Neurophysiology and neuroanatomy of smooth pursuit in humans.
+    Brain Cogn 68:219–228
+Lichtstein KL, Johnson RS, Gupta S, O’Laughlin DL, Dykstra TA (1992) Are insomniacs sleepy
+    during the day? A pupillometric assessment. Behav Res Ther 30(3):283–292
+Liechty J, Pieters R, Wedel M (2003) Global and local covert visual attention: evidence from a
+    Bayesian Hidden Markov Model. Psychometrika 68:519–541
+Liversedge SP, Gilchrist I, Everling S (2011) The Oxford handbook of eye movements. Oxford
+    University Press, Oxford
+Lohse GL, Johnson EJ (1996) A comparison of two process tracing methods for choice tasks.
+    Organ Behav Hum Decis Process 68(1):28–43
+Martinez-Conde S, Otero-Millan J, Macknik SL (2013) The impact of microsaccades on vision:
+    towards a uniﬁed theory of saccadic function. Nat Rev Neurosci 14(2):83–96
+McDowell JE, Dyckman KA, Austin BP, Clementz BA (2008) Neurophysiology and
+    neuroanatomy of reflexive and volitional saccades, evidence from studies of humans. Brain
+    Cogn 68:255–270
+McLaren JW, Erie JC, Brubaker RF (1992) Computerized analysis of pupillograms in studies of
+    alertness. Invest Ophthalmol Vis Sci 33(3):671–676
+Metalis SA, Hess EH (2013) Pupillary response/semantic differential scale relationships. J Res
+    Pers 16:201–216
+25   Eye Movements                                                                              501
+
+Middlebrooks PG, Sommer MA (2011) Metacognition in monkeys during an oculomotor task.
+    J Exp Psychol Learn Mem Cogn 37(2):325–337
+Moresi S, Adam JJ, Rijken J, Van Gerven PWM, Kuipers H, Jolles J (2008) Pupil dilation in
+    response preparation. Int J Psychophysiol 67:124–130
+Munoz DP, Everling S (2004) Look away, the anti-saccade task and the voluntary control of eye
+    movement. Nat Rev Neurosci 5:218–228
+Muri RM, Nyffeler T (2008) Neurophysiology and neuroanatomy of reflexive and volitional
+    saccades as revealed by lesion studies with neurological patients and transcranial magnetic
+    stimulation (TMS). Brain Cogn 68:284–292
+Najemnik J, Geisler WS (2005) Optimal eye movement strategies in visual search. Nature
+    434:387–391
+Newsome WT, Glimcher PW, Gottlieb J, Lee D, Platt ML (2013) Comment on “In monkeys
+    making value-based decisions, LIP neurons encode cue salience and not action value”. Science
+    340(6131):430
+Noton D, Stark L (1971) Scanpaths in saccadic eye movements while viewing and recognizing
+    patterns. Vis Res 11:929–942
+Parker AJ, Newsome WT (1998) Sense and the single neuron: probing the physiology of
+    perception. Annu Rev Neurosci 21:227–277
+Partala T, Surakka V (2003) Pupil size variation as an indication of affective processing. Int J Hum
+    Comput Stud 59:185–198
+Platt ML, Glimcher PW (1999) Neural correlates of decision variables in parietal cortex. Nature
+    400(6741):233–238
+Poock GK, Noel CE (1975) Effects of layout of workplace on pupillary diameter. Percept Motor
+    Skill
+Rayner K (1998) Eye movements in reading and information processing: 20 years of research.
+    Psychol Bull 124:372–422
+Reinhard G, Lachnit H (2002) The effect of stimulus probability on pupillary response as an
+    indicator of cognitive processing in human learning and categorization. Biol Psychol 60:199–
+    215
+Reulen JP, Marcus JT, Koops D, de Vries FR, Tiesinga G, Boshuizen K, Bos JE (1988) Precise
+    recording of eye movement: the IRIS technique. Part 1. Med Biol Eng Comput 26(1):20–26
+Reutskaja E, Nagel R, Camerer CF, Rangel A (2011) Search dynamics in consumer choice under
+    time pressure: an eye-tracking study. Am Econ Rev 101:900–926
+Ross M, Lanyon LJ, Viswanathan J, Manoach DS, Barton JJ (2011) Human prosaccades and
+    antisaccades under risk: effects of penalties and rewards on visual selection and the value of
+    actions. Neuroscience 196:168–177
+Russo EJ, Rosen LD (1975) An eye ﬁxation analysis of multialternative choice. Memory Cogn
+    3:267–276
+Sawaguchi T, Goldman-Rakic PS (1991) D1 dopamine receptors in prefrontal cortex: involvement
+    in working memory. Science 251(4996):947–950
+Schall JD, Thompson KG (1999) Neural selection and control of visually guided eye movements.
+    Annu Rev Neurosci 22:241–259
+Schluroff M, Zimmermann T, Freeman RB, Hofmeister K, Lorscheid T, Weber A (1986) Pupillary
+    responses to syntactic ambiguity of sentences. Brain Lang 27:322–344
+Schultz W, Dayan P, Montague PR (1997) A neural substrate of prediction and reward. Science
+    275:1593–1599
+Sharpe JA (2008) Neurophysiology and neuroanatomy of smooth pursuit, lesion studies. Brain
+    Cogn 68:241–254
+Shelhamer M, Roberts DC (2010) Magnetic scleral search coil. Handb Clin Neurophysiol 9:80–87
+Steinhauer SR, Siegle GJ, Condray R, Pless M (2004) Sympathetic and parasympathetic
+    innervation of pupillary dilation during sustained processing. Int J Psychophysiol 52:77–86
+Stern JA, Dunham DN (1990) The ocular system. In: Cacioppo JT, Tassinary LG (eds) Principles
+    of psychophysiology: physical, social, and inferential elements. Cambridge University Press,
+    Cambridge, pp 513–553
+502                                                                     U. Ettinger and C. Klein
+
+Stritzke M, Trommershäuser J, Gegenfurtner KR (2009) Effects of salience and reward
+    information during saccadic decisions under risk. J Opt Soc Am A: Opt Image Sci Vis 26
+    (11):B1–13
+Sutton R, Barto A (1998) Reinforcement learning. MIT Press, Cambridge
+Sweeney JA, Mintun MA, Kwee S, Wiseman MB, Brown DL, Rosenberg DR, Carl JR (1996)
+    Positron emission tomography study of voluntary saccadic eye movements and spatial working
+    memory. J Neurophysiol 75:454–468
+Tatler BW (2007) The central ﬁxation bias in scene viewing, selecting an optimal viewing position
+    independently of motor biases and image feature distributions. J Vis 7:1–17
+von Weizsäcker V (1996) Gestaltkreis - Theorie der Einheit von Wahrnehmen und Bewegen
+    (Bearb. v. Peter Achilles). Suhrkamp Verlag, Berlin
+Wade NJ, Tatler BW (2005) The moving tablet of the eye: the origins of modern eye movement
+    research. Oxford University Press, Oxford
+White GL, Maltzman I (1978) Pupillary activity while listening to verbal passages. J Res Pers
+    12:361–369
+Wilder J (1958) Modern psychophysiology and the law of initial value. Am J Psychother
+    12:199–221
+Yarbus AL (1967) Eye movements and vision. Plenum Press, New York
+Young LR, Sheena D (1975) Eye-movement measurement techniques. Am Psychol 30:315–330
+Appendix A
+Neuroanatomy
+
+
+
+
+See Figs. A.1, A.2, A.3, A.4, A.5, A.6, A.7, A.8 and A.9.
+
+
+
+
+Fig. A.1 Explanation of the orientation in the human brain
+
+
+
+
+© Springer-Verlag Berlin Heidelberg 2016                                   503
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1
+504                                                  Appendix A: Neuroanatomy
+
+
+
+
+Fig. A.2 Different perspectives on the human brain
+Appendix A: Neuroanatomy                                                                     505
+
+
+
+
+Fig. A.3 Medial sagittal section through the brain. a Midsagittal section. b MRI image (mid-
+sagittal section). 1 Corpus callosum (callosal commissure), 2 Gyrus cinguli (cingulate cortex), 3
+Fornix, 4 Thalamus, 5 Chiasma opticum, 6 Infundibulum hypophysis, 7 Hypophysis, 8 Corpus
+mamillare, 9 Epiphysis, 10 Mesencephalon (midbrain), 11 Aqueductus mesencephali (only in a),
+12 Lamina tecti, 13 Ventriculus quartus, 14 Pons, 15 Medulla oblongata, 16 Velum medullare
+superius (MRI image from the University clinic in Freiburg, by Dr. J. Klisch, Department of
+Neuroradiology)
+506                                                                      Appendix A: Neuroanatomy
+
+
+
+
+Fig. A.4 Lateral view of the cerebrum. Frontal lobe in red, parietal lobe in blue, occipital lobe in
+green, temporal lobe in purple. 1 Parasagittal cortical zone, 2 Sulcus frontalis superior, 3 Sulcus
+frontalis inferior, 4 Gyrus frontalis superior, 5 Gyrus frontalis medius, 6 Gyrus frontalis inferior, 7
+Pars orbitalis, 8 Pars triangularis, 9 Pars opercularis, 10 Frontal pole, 11 Sulcus centralis, 12 Sulcus
+precentralis, 13 Gyrus precentralis, 14 Sulcus postcentralis, 15 Gyrus postcentralis, 16 Sulcus
+lateralis, 17 Gyrus supramarginalis, 18 Gyrus temporalis superior, 19 Gyrus temporalis medius, 20
+Gyrus temporalis inferior, 21 Sulcus temporalis superior, 22 Sulcus temporalis inferior, 23 Gyrus
+angularis, 24 Lobulus parientalis superior, 25 Lobulus parientalis inferior, 26 Occipital pole, 27
+Temporal pole (modiﬁed according to Spitzer, in Duus: Neurologisch-topische Diagnostik,
+Thieme 1990)
+Appendix A: Neuroanatomy                                                                       507
+
+
+
+
+Fig. A.5 Medial view of the cerebrum. Frontal lobe in red, parietal lobe in blue, occipital lobe in
+green, temporal lobe in purple, Cyrus cinguli in yellow. 1 Corpus callosum, 2 Gyrus cinguli, 3
+Sulcus centralis, 4 Lobulus paracentralis, 5 Sulcus pararietooccipitalis, 6 Sulcus calcarinus, 7
+Precuneus, 8 Cuneus, 9 Visual cortex, 10 Gyrus parahippocampalis, 11 Uncus, 12 Fornix, 13 Tela
+choroidea, 14 Commissura anterior, 15 Septum pellucidum, 16 Isthmus gyri cinguli, 17 Gyrus
+dentatus, 18 Thalamus, 19 Adhesio interthalamica (modiﬁed according to Spitzer, in Duus:
+Neurologisch-topische Diagnostik, Thieme 1990)
+508                                                                  Appendix A: Neuroanatomy
+
+
+
+
+Fig. A.6 Basal view of the cerebrum. Frontal lobe in red, occipital lobe in green, temporal lobe in
+purple. 1 Fissura longitudinalis cerebri, 2 Gyri orbitales, 3 Gyrus rectus, 4 Bulbus olfactorius, 5
+Tractus olfactorius, 6 Sulcus olfactorius, 7 Substantia perforata anterior, 8 Gyrus temporalis
+inferior, 9 Gyrus parahippocampalis, 10 Uncus, 11 Chiasma opticum, 12 Corpora mamillaria, 13
+Midbrain (modiﬁed according to Spitzer, in Duus: Neurologisch-topische Diagnostik, Thieme
+1990)
+Appendix A: Neuroanatomy                                                                           509
+
+
+
+
+Fig. A.7 The most important inner structures of the cerebrum (frontal section). 1 Cerebral cortex,
+2 Corpus callosum, 3 Ncl. caudatus, 4 Putamen, 5 Globus pallidus, 6 Thalamus, 7 Claustrum of
+insula, 8 Capsula interna, 9 Lateral ventricles, 10 Third ventricle, 11 Fissura longitudinalis cerebri,
+12 Sulcus lateralis, 13 Fossa lateralis, 14 Insular cortex
+510                                  Appendix A: Neuroanatomy
+
+
+
+
+Fig. A.8 View on the limbic system
+Appendix A: Neuroanatomy                    511
+
+
+
+
+Fig. A.9 Projections of the limbic system

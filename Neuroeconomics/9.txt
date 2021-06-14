@@ -1,0 +1,921 @@
+Chapter 9
+Framing Effects: Behavioral Dynamics
+and Neural Basis
+
+Xiao-Tian Wang, Lilin Rao and Hongming Zheng
+
+
+
+
+Abstract Research on framing effects has been one of few multidisciplinary
+endeavors joined by psychologists, economists, political scientists, and manage-
+ment and marketing researchers. Framing effects epitomize the power of linguistic
+subtlety in regulating decision-making, showing that different ways of framing,
+phrasing, or presenting virtually identical choice options systematically affect risk
+preference, evaluation of experience, and persuasiveness of messages. Given its
+central role in the studies of decision biases, the framing effect has been used as an
+experimental probe for understanding general mechanisms of human judgment and
+decision-making. Researchers have proposed various models explaining the fram-
+ing effect. However, it was not until recently that research of framing effects started
+to focus more on psychological mechanisms above and beyond phenomenology.
+We conducted a meta-analysis of neural correlates of framing effects. The topo-
+graphic convergences from a total of 26 foci found in the fMRI studies of framing
+effects revealed two key brain areas underlying framing effects: the left anterior
+cingulate cortex (ACC) and the right inferior frontal gyrus (IFG). Together with
+behavioral ﬁndings, these results suggest that valence framing as a secondary cue
+becomes most salient and effective when primary contextual or social cues are
+absent or incongruent. The processing of choice problems under these conditions
+call for an ambiguity-reducing and conflict-monitoring function, which would result
+in the ACC activation. Second, the right IFG activation suggests that the nature of
+valence framing is both semantic and hedonic, involving not only verbatim lin-
+guistic analysis, but also interpretation of its affective tones and metaphorical
+implications.
+
+X.-T. Wang (&)
+Psychology Department, University of South Dakota,
+Vermillion, SD 57069, USA
+e-mail: xtwang@used.edu
+L. Rao
+Institute of Psychology, Chinese Academy of Sciences,
+Beijing, China
+H. Zheng
+Southwest Jiaotong University, Chengdu, China
+
+© Springer-Verlag Berlin Heidelberg 2016                                           145
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_9
+146                                                                    X.-T. Wang et al.
+
+
+9.1     Behavioral Studies of Framing Effects
+
+9.1.1    Framing and Framing Effects: Deﬁnition
+         and Typology
+
+Since the seminal work by Kahneman and Tversky (1979), Tversky and Kahneman
+(1981), framing effects have been widely studied by researchers from across the
+social sciences for over 30 years. Research on framing effects has been one of few
+multidisciplinary endeavors joined by psychologists, economists, political scien-
+tists, and management and marketing researchers. Framing effects epitomize the
+power of linguistic subtlety in regulating decision-making, oftentimes without
+awareness of the decision-maker. Different ways of framing, phrasing or presenting
+virtually identical choice options systematically affect risk preference, evaluation of
+experience, products or job candidates, and persuasiveness of arguments in nego-
+tiation and communication. A meta-analysis has shown that among some primary
+predictors of risky choice, framing condition was the top predictor (partial r = 0.44)
+followed by the value of risky payoff (partial r = 0.14), and type of good at stake
+(partial r = 0.13) while gain or loss condition and probability of payoff were not
+signiﬁcant in predicting choice preference (Kühberger et al. 1999, p. 213).
+    Tversky and Kahneman (1981) used the term ‘decision frame’ broadly to refer to
+“the decision-maker’s conception of the acts, outcomes, and contingencies asso-
+ciated with a particular choice” (p. 453). Later deﬁnitions of framing effects, despite
+the differences in their connotations and coverage, pinpoint two typical features:
+equivalency in choice outcomes and opposing valences in presentations of the
+choice outcomes. That is, framing effects occur when frames that cast “the same
+critical information in either a positive or a negative light” cause individuals to have
+different choice preferences (Chong and Druckman 2007; Druckman 2001; Levin
+et al. 1998, p. 150).
+    Consider the well-known Asian disease problem demonstrated ﬁrst by Tversky
+and Kahneman (1981). In the cover story of the problem, the respondents were
+asked to imagine that “the US is preparing for the outbreak of an unusual Asian
+disease, which is expected to kill 600 people. Two alternative programs to combat
+the disease have been proposed.” The outcomes of the disease-combating plans
+were then framed (phrased) differently. In the positive frame the respondents were
+told: “If Plan A is adopted, 200 people will be saved. If Plan B is adopted, there is a
+one-third probability that all 600 people will be saved, and two-thirds probability
+that none of them will be saved.” Given a binary choice between the two alternative
+plans, the majority of the respondents (72 %) were risk averse, preferring the sure
+option (Plan A) over its gamble equivalent (Plan B). However, when the same
+outcomes were ‘negatively framed’ in terms of lives lost (“If Plan A is adopted, 400
+people will die. If Plan B is adopted, there is a one-third probability that none of
+them will die, and two-thirds probability that all 600 people will die.”), the majority
+of the respondents (78 %) were risk-taking, preferring the gamble option (Plan B)
+over its sure-thing equivalent. This classic framing effect has been reliably
+9 Framing Effects: Behavioral Dynamics and Neural Basis                               147
+
+replicated with different samples and across cultures and disciplines (e.g., see
+Kühberger 1998; Kühberger et al. 1999).
+    Such risk preference reversal due to valence framing of virtually equivalent
+choice outcomes raises radical doubts about basic assumptions in economic theories
+of rationality. How can decision agents make consistent and rational choices when
+empirical evidence of choice preference appears to be so malleable, so vulnerable to
+framing effects? The classic framing effect is thus viewed as an irrational decision
+bias and a cognitive illusion because it violates the invariance axiom of expected
+utility theory, which requires a rational decision-maker to have a consistent pref-
+erence order among identical choice prospects independent of the way the prospects
+are presented or framed.
+    As illustrated in the Asian disease problem, equivalent choice outcomes can be
+framed with either positive valence or negative valence (e.g., lives saved vs. lives
+killed, survival rate vs. mortality rate, gain vs. loss, opportunity vs. threat, success
+vs. failure, beneﬁts vs. costs). A cumulative body of evidence has shown a wide
+range of behavioral consequences due to framing of decision problems (Chong and
+Druckman 2007; Kühberger 1998; Levin et al. 1998). Based on their meta-analysis
+of different kinds of framing effects, Levin et al. (1998) proposed a well-adopted
+typology. They proposed three types of framing effects: (1) Risky choice framing,
+as illustrated by the Asian disease problem where framing of choice outcomes
+affects risk preference (risk averse or risk seeking) of the decision-maker;
+(2) Attribute framing, where framing of attributes or characteristics of an object
+or event affects the evaluation of the object (e.g., a sample of ground beef was rated
+as better tasting when it was labeled as ‘75 % lean’ rather than ‘25 % fat’, see Levin
+and Gaeth 1988); and (3) Goal framing, where framing of either the positive
+consequences of performing an act or the negative consequences of not performing
+the act affects implicit goals an individual adopts and persuasiveness of a message.
+A well-known example of goal framing effects has been documented by
+Meyerowitz and Chaiken (1987), showing that women were more apt to engage in
+breast self-examination when presented with information stressing the negative
+consequences of not engaging in this action than when presented with information
+stressing the positive consequences of engaging in this action.
+    As stated in the title of the paper by Levin et al. (1998), all frames are not created
+equally. Similarly, not all framing effects are the same. Some involve irrational
+preference reversals (e.g., the opposite choice preferences under different framings)
+while others involve a shift in choice preference (e.g., making one option even more
+attractive than another). A choice shift differs from a choice reversal in that the
+proportion of risky choices differs across framing conditions but is not signiﬁcantly
+greater than 0.5 under one framing condition and signiﬁcantly less than 0.5 in an
+alternative framing condition. Wang (1996a) makes the distinction between bidi-
+rectional framing effects which involve a reversal in risk preference and unidi-
+rectional framing effects which involve a preference shift (e.g., from risk seeking to
+even more risk seeking under negative framing, or from risk averse to even more
+risk averse under positive framing).
+148                                                                     X.-T. Wang et al.
+
+
+9.1.2    Theories of Framing Effects
+
+Given its central role in the studies of decision biases, the framing effect has been
+used as an experimental probe for understanding general mechanisms of human
+judgment and decision-making. Researchers have proposed various models
+explaining framing effects.
+1. Prospect Theory
+An initial and prevalent explanation of framing effects is based on the prospect
+theory’s (Kahneman and Tversky 1979) S-shaped value function which is separated
+by a zero point (status quo) with a gain region above the status quo and a loss
+region below the status quo. Tversky and Kahneman (1981) theorized that framing
+manipulation determines whether outcomes are encoded as gains or losses and that
+this encoding determines which portion of the S-shaped value function would
+contribute to the risk preference of the decision-maker. For gains implicated in the
+positive framing condition, the subjective value function is concave and promotes
+risk aversion, whereas for losses implicated in the negative framing condition, the
+value function is convex and promotes risk seeking. However, this prospect of
+theoretical account of framing effects is limited to risky choice framing. In case of
+attribute framing where the presence of risk is not essential, valence of framing
+(e.g., success rate vs. failure rate) may either evoke favorable or unfavorable
+associations in memory (Levin and Gaeth 1988) or evoke different reference points
+(goal or minimum requirement rather than status quo, Wang and Johnson 2012).
+2. Fuzzy-Trace Theory
+Another famous account of framing effects is derived from fuzzy-trace theory pro-
+posed by Reyna and Brainerd (1991, 1995, 2011). The theory posits that people form
+two types of mental representations about a past event, called verbatim and gist traces.
+Gist traces are fuzzy representations of a past event (e.g., its bottom-line meaning),
+whereas verbatim traces are detailed representations of a past event. Although people
+(adults) are capable of processing both verbatim and gist information, they prefer to
+reason with gist traces rather than verbatim traces. In the case of encoding choice
+outcomes of a sure thing and a gamble of equal expected value in the Asian disease
+problem, the gist translations boil down to choosing between (a) saving some people,
+(b) saving some people or saving no one under the positive (gain) frame, and choosing
+between (c) some people die, and (d) some people die or none die under the negative
+(loss) framing. Reyna and Brainerd (1991, 1995) showed that relational gist of
+quantities (e.g., some, all, none) was sufﬁcient to replicate the classic framing effect.
+Thus, framing effects can be seen as a result of translating expected choice outcomes
+to gist representations of quantities with positive or negative connotations. These
+nonnumerical framing effects demonstrated that numbers, which are essential to
+predictions of prospect theory and all other utility theories, were not necessary to
+observe the framing effect. Moreover, according to prospect theory or other expected
+utility theories, the outcome of zero in the gamble option literally contributes nothing
+9 Framing Effects: Behavioral Dynamics and Neural Basis                             149
+
+to predictions of choice behavior because the value of zero, based on the S-shaped
+value function, is also set at zero. However, when the information about the zero
+outcomes was removed from the classic Asian disease problem, framing effects
+disappeared (see Reyna and Brainerd 2011).
+3. Asymmetry in Dual Processing
+Another approach to theorizing framing effects emphasizes the interplay between
+two distinct processing systems or asymmetry in affective or cognitive processing.
+Dunegan (1993), for example, proposed that framing may act as a catalyst for
+different modes of cognitive processing. Characteristics of controlled cognitive
+modes were found when information was negatively framed; characteristics of more
+automatic processing were found when information was positively framed, sug-
+gesting that positive framing may be perceived as a default with a lower cognitive
+processing load. Kuo et al. (2009) employed eye tracking to measure cognitive
+effort in a framing study. Their results suggest an asymmetry in cognitive effort, as
+indicated by eye ﬁxation and eye-movement time per word, due to positive and
+negative frames. More effort was observed in the negative framing condition than in
+the positive framing condition. However, a study by Whitney et al. (2008) found
+that working memory load slightly reduced risk-seeking tendency but not framing
+effects, suggesting that valence framings did not have differential effects on cog-
+nitive processing effort.
+    Another account of framing effects proposed by McElroy and Seta (2003, 2004)
+focuses on the asymmetry between analytic processing and holistic processing. This
+model assumes that analytic processing is insensitive to the influence of framing,
+whereas holistic processing is more susceptible to framing. By behaviorally
+inducing selective hemispheric activation, framing effects were found when the
+right hemisphere was selectively activated, whereas they were not observed when
+the left hemisphere was selectively activated.
+4. Ambiguity-Ambivalence Hypothesis
+There are other limits and constraints to framing effects in addition to hemispheric
+dominance. Meta-analyses (Levin et al. 1998; Kühberger 1998) show that the effect
+of framing is overall signiﬁcant but not as ‘pervasive’ or ‘robust’ as previously
+believed. Many researchers have explored the premise and moderators of framing
+effects. Some examples of the moderators are sex of the decision-maker (Fagley and
+Miller 1990, 1997), cognitive ability (Stanovich and West 1998), personal
+involvement (Levin et al. 1998, p. 160), reflection on and rationale for the decision
+(Takemura 1994; Fagley and Miller 1987; Miller and Fagley 1991; Sieck and Yates
+1997), personal knowledge about risks involved (e.g., Bohm and Lind 1992; Levin
+and Chapman 1990), perceived ambiguity of the values presented in the problem
+descriptions (Kühberger 1995), task context (e.g., medical vs. statistical, Bless et al.
+1998), need for cognition (LeBoeuf and Shaﬁr 2003), perceived interdependence
+between individuals at risk (Bloomﬁeld et al. 2006; Wang et al. 2001), and social
+group size and composition (Bloomﬁeld 2006; Shimizu and Udagawa 2011a;
+Wang 1996a, b; Zhang and Miao 2008).
+150                                                                   X.-T. Wang et al.
+
+    The aforementioned studies focusing on the variables that can enhance, limit, or
+even eliminate a framing effect have taken into consideration individual as well as
+situational factors that determine the magnitude as well as process of framing
+effects. This line of research calls for an overarching theory of framing effects that
+addresses these ecological, social, and dispositional constraints on and premises of
+framing effects. This led to the development of an ambiguity-ambivalence
+(AA) hypothesis of framing effects and decision biases (Wang 2008). The AA
+hypothesis assumes that (1) decision cues are selected and used in accordance to
+their priorities. (2) Cue priority reflects ecological and social validity of a cue in
+predicting speciﬁc risks, beyond the stated values and probabilities of outcomes in a
+choice task. Primary cues are valid ecological, social, and life-history variables
+(such as kith-and-kin relations, social group size, sex, age, health, socioeconomic
+status, and mating/reproductive cues, etc.). Secondary cues in decision-making are
+mainly communicational, such as verbal framing, facial expression, tone of voice,
+etc. (3) Primary cues determine the settings of decision reference points (e.g., goals
+and bottom lines) and anchor decision preference while secondary cues (and
+individual dispositional factors) ﬁne tune the settings of reference points and choice
+preference. (4) Decision biases, such as framing effects, tend to occur as a result of
+secondary cue use when primary cues are either absent in risk communication (i.e.,
+an ambiguity condition) or when primary cues elicit conflicting preferences (i.e., an
+ambivalence condition).
+    From this perspective, framing effects would occur as a result of ambiguity and
+ambivalence in decision cues and preferences. Similar ideas can be seen in
+fuzzy-trace theory (Reyna and Brainerd 1991) and the discussion on the use of
+probabilistic mental models (Gigerenzer et al. 1991) to deal with informational
+ambiguity as a premise of framing effects (Chang et al. 2002; Kühberger 1995).
+    As predicted from the AA hypothesis, framing effects occurred when making
+life–death decisions in evolutionarily novel and socially unfamiliar large group
+contexts but disappeared when the same problems were scaled down to a small
+group context with a handful of people (Bloomﬁeld 2006; Shimizu and Udagawa
+2011a; Zhang and Miao 2008; Wang and Johnston 1995; Wang 1996a, b).
+Moreover, work experience in large organizations reduced sensitivity to framing
+manipulation in large group contexts (Shimizu and Udagawa 2011b). Interestingly,
+framing effects in a small group reappeared when the small group included both
+strangers and kin relatives, thus creating ambivalence in risk preference between a
+“we all live or die together” risk-seeking preference for kith-and-kin and a more
+risk-averse preference for strangers (Wang et al. 2001).
+9 Framing Effects: Behavioral Dynamics and Neural Basis                          151
+
+
+9.2     A Neuroscience Approach to Understanding Framing
+        Effects
+
+The discussion so far summarizes behavioral studies of framing effects. These
+studies leave open the possibility for more theoretical development and better
+understanding of underlying processes that produce or inhibit framing effects. It
+was not until recently that research on framing effects started to focus more on the
+underlying psychological mechanisms above and beyond phenomenology, owing
+to rapid development in neuroimaging technology. Neuroscience and neuroimaging
+can help forward our understanding of framing effects in at least four different yet
+coherent ways.
+    First, the neuroscience approach would allow us to evaluate framing theories by
+mapping the framing-related brain activations against the key brain areas implicated
+by different theories of framing effects. Second, many hypothetical mechanisms and
+post-hoc explanations based on behavioral effects can be better understood, veri-
+ﬁed, or disproved by using the brain imaging technique. Third, neuroimaging
+studies often shed light into puzzling or conflicting ﬁndings from behavioral studies
+of framing effects. Fourth, brain imaging studies capture online neural activities of
+the entire brain during the decision-making. This brain map of activation or
+deactivation may highlight uncharted brain areas and provide insights and new
+leads for future investigations.
+    In the following sections of the chapter, we illustrate the use and usefulness of
+the neuroscience approach to framing effects by generating predictions about neural
+correlates of framing effects based on different theoretical viewpoints, and by
+conducting a meta-analysis of the fMRI studies of framing effects. We end the
+chapter with a summary and conclusions regarding the status quo of behavioral and
+neuroimaging studies of framing effects.
+
+
+
+9.2.1    Contrasting and Evaluating Theories of Framing
+         Effects
+
+As illustrated in Table 9.1, theories of framing effects make overlapping but dis-
+tinctive predictions about brain regions underpinning the proposed functions. The
+predictions presented in Table 9.1 are by no means meant to be thorough or
+systematic.
+   Table 9.1 is only a sketchy outline to exemplify how theories of framing effects
+can be tested with neuroimaging studies. For a more speciﬁc example, consider an
+fMRI study of framing effects by Gonzalez et al. (2005). The authors proposed a
+cognitive–affective tradeoff model which can be classiﬁed as one of the ‘asymmetry
+in dual processing models’ as listed in Table 9.1.
+   The cognitive–affective tradeoff model assumes that the framing effect occurs
+due to a tradeoff between the cognitive effort required to calculate expected values
+Table 9.1 Theories of framing effects and predicted brain activations
+                                                                                                                                                                                               152
+
+
+Theory                       Assumptions                                              Behavioral effects                                 Predicted key brain areas associated with
+                                                                                                                                         valence framing
+Prospect theory (Kahneman    S-shaped value function separated by a zero point        Risk averse in a positive frame and risk seeking   Brain areas associated with gains/rewards and
+and Tversky 1979)            (status quo) indicates risk aversion in gains or under   in a negative frame                                losses/punishments (e.g., the nucleus
+                             positive framing and risk seeking in losses or under                                                        accumbens, the ventral striatum, and the orbital
+                             negative framing                                                                                            frontal cortex, see, e.g., Breiter et al. 2001;
+                                                                                                                                         O’Doherty et al. 2001; Tom et al. 2007) are
+                                                                                                                                         expected to be differentially activated by
+                                                                                                                                         valance framing
+Fuzzy-trace theory (Reyna    Framing effects are a result of translating expected     Classic framing effects can be replicated or       Activation levels in the prefrontal cortex, the
+and Brainerd 1991, 1995,     choice outcomes to gist representations of quantities    reversed by replacing numerical information by     site of working memory and the regions of the
+2011)                        (e.g., some, many, all, none)                            relational gist of quantities                      parietal lobe for numerical processing, including
+                                                                                                                                         the intraparietal sulcus and the inferior parietal
+                                                                                                                                         lobule (Honey et al. 2002; Owen 1997; Piazza
+                                                                                                                                         et al. 2004; Pinel et al. 2004) would reflect the
+                                                                                                                                         appearance and disappearance of framing effects
+Asymmetry in dual            Valence framing catalyzes different modes of             More cognitive effort was observed in the          Framing effects are expected to be associated
+processing models (Dunegan   processing. Framing effects are strengthened by          negative framing condition than in the positive    with right hemispheric activation and
+1993; Kuo et al. 2009;       holistic processing and attenuated by analytical         framing condition. Selective right hemisphere      differential activations in the brain areas related
+McElroy and Seta 2003,       processing                                               activation promoted framing effects                to loss aversion (e.g., the ventral striatum) and a
+2004)                                                                                                                                    tradeoff between cognitive/analytical processing
+                                                                                                                                         in the dorsal lateral prefrontal cortex (dlPFC)
+                                                                                                                                         and affective/holistic processing in the ventral
+                                                                                                                                         medial prefrontal cortex (vmPFC) (e.g., Cendri
+                                                                                                                                         et al. 2012; Montague and Berns 2002;
+                                                                                                                                         Sokol-Hessner et al. 2012; Tom et al. 2007)
+Ambiguity-Ambivalence        Framing effects tend to occur when primary choice        Framing effects occurred in large anonymous        Ambiguity and ambivalence in risk preference
+Hypothesis (Wang 2008)       cues are either absent or incongruent, thus inducing     group contexts when primary social cues were       may be reflected in differential activations in the
+                             ambiguity or ambivalence in choice preference and        absent, but disappeared in small face-to-face      brain regions associated with linguistic
+                             making secondary cues of framing more salient and        group contexts. However, framing effects           processing and the regions responsible for
+                             decisive                                                 reappeared when the same life–death problem        conflict monitoring and resolution (e.g., anterior
+                                                                                      was presented in a small group context             cingulate cortex (ACC), Botvinick et al. 2004;
+                                                                                      involving both strangers and kin                   Holroyd et al. 2004)
+                                                                                                                                                                                               X.-T. Wang et al.
+9 Framing Effects: Behavioral Dynamics and Neural Basis                             153
+
+of an alternative and the affective value of the alternative. The model predicts that
+decision-makers prefer choice options that are cognitively less effortful to process
+or/and affectively more pleasant. In a positive frame, the compromise between
+maximizing hedonic feeling and minimizing cognitive effort is easier to achieve.
+For instance, selecting the option in which “200 people will be saved” feels more
+positive in an emotional sense and is less effortful (i.e., no calculations are nec-
+essary). In contrast, such a compromise is more difﬁcult to attain in the negative
+frame. Although the option in which “400 people will die” requires little calcula-
+tion, the relatively bad outcome makes it less attractive due to a stronger feeling of
+displeasure. Thus when selecting among options presented in a negative frame,
+individuals are more willing to undertake the cognitive effort demanded to assess
+the more risky option in order to get the hedonically less unpleasant outcome.
+   Previous studies have shown that individuals take longer to make decisions
+when the options are framed as losses rather than gains (Payne et al. 1993).
+However, it is still unknown whether it is a result of a greater cognitive effort in the
+negative than in the positive frame or a result of a larger affective cost. To answer
+these questions derived from the cognitive-affective tradeoff model, the authors
+conducted an fMRI study which revealed that the cognitive effort required to select
+a sure gain was considerably lower than the cognitive effort required to choose a
+risky gain. The fMRI results, although not directly correlated with the behavioral
+framing effects, showed signiﬁcantly higher activation levels in the frontal and
+parietal lobes when making risky rather than certain choices under positive frames.
+This ﬁnding is consistent with their theoretical view that the sure gain is a default
+choice over its gamble equivalent when considering cognitive processing effort.
+
+
+
+9.2.2    Neuroimaging Tests of Alternative Behavioral
+         Accounts of Framing Effects
+
+Behavioral studies of framing effects have yielded interesting results that are often
+open to alternative explanations. These alternative accounts of behavioral ﬁndings
+can be further evaluated in neuroimaging studies. A recent fMRI study by Zheng
+et al. (2010) on group- size-dependent framing effects illustrates such a value of the
+neuroimaging approach.
+    In a series of studies (Wang 1996a, b; Wang et al. 2001), we examined the
+appearance and disappearance of framing effects when the size of the group (the
+total number of lives at stake) was systematically manipulated. The same life–death
+problem was framed either in terms of lives saved or in terms of lives lost. The
+framing effect was evident, but it occurred only when the problem was presented in
+a large, anonymous, and thus ambiguous group context involving 600 lives or
+more. The framing effect disappeared when the size of the endangered group was
+within a two-digit number (<100), and the majority of the participants
+154                                                                           X.-T. Wang et al.
+
+unambiguously preferred the gamble option under both the saving lives and losing
+lives framing conditions.
+    These ﬁndings suggest that the small size of a social group signals a higher
+interdependence between group members and evokes a kith-and-kin rationality that
+guides a live-or-die together risk preference. In contrast, risk preference of a
+decision-maker becomes erratic when prioritized group cues are absent in a large
+anonymous group context. When risk preference is ambiguous, secondary cues
+such as verbal framing are attended and used to direct choices. However, an
+alternative hypothesis of group size-dependent framing effects based on a utility
+theory would posit that people are more competent in calculating small numbers
+than large numbers when evaluating risky outcomes, and thus are less ambiguous in
+their choice preference and less susceptible to framing manipulation.
+    To evaluate these rival accounts of group size-dependent framing effects, Zheng
+et al. (2010) conducted an fMRI study. The results of this study, as shown in
+Table 9.2, help to evaluate the two alternative hypotheses.
+    Group size difference was captured by activation in the middle frontal gyrus.
+Verbal framing in the large group context was associated with activation of the right
+inferior frontal gyrus while the same valence framing in the small group context
+was associated with activation of different brain structures, including the insula and
+an area in the parietal lobe. These differential activations were all located in the
+right hemisphere. Note that the right inferior frontal gyrus includes the homologue
+of the Broca’s area.
+    These results support the group size account rather than the numerical size
+account of framing effects. First, behavioral framing effects only occurred in the
+large group context and were associated with the right IFG activation. In contrast,
+the disappearance of the framing effect in the small group context was associated
+with activation of different brain structures (e.g., the right insular). Second, the
+group size-dependent framing effect was restricted in the right hemisphere, thus was
+unlikely an explicit numerical processing effect. If numerical processing played a
+major role in determining appearance or disappearance of framing effects, the left
+hemisphere and the brain structures related to numerical processing should be
+
+
+Table 9.2 Brain activation by framing in large and small group contexts (from Zheng et al. 2010)
+Brain Area Experimental          Hemisphere      Cluster size      Z        MNI coordinates
+Condition                                        (voxels)          max      x    y       z
+ IFG P600 minus N600              Right             9                3.35      33      29 −8
+ Insula P6 minus N6               Right            12                3.61      33    −13  13
+ Parietal lobe P6 minus N6        Right            17                3.42      33    −31  52
+ MFG 600 minus 6                  Right            23                3.70      24      32  -8
+Note: IFG Inferior frontal gyrus, MFG Middle frontal gyrus. P denotes positive frame, and
+N denotes negative frame. The number (600 or 6) represents the number of people at stake. The
+montreal neurological institute (MNI) coordinates are used to map images. The activation under
+positive framing was larger than that under negative framing condition in both 600 and 6 group
+size conditions. The differences were all detected at the level of uncorrected p < 0.001
+9 Framing Effects: Behavioral Dynamics and Neural Basis                            155
+
+differentially activated (e.g., Piazza et al. 2004; Pinel et al. 2004). Additional
+behavioral results further exclude the ‘large-number’ account of framing effects.
+Wang (1996a) demonstrated that framing effects occurred in large groups of 6000
+as well as 600 people, and disappeared in small groups of 60 as well as 6 people.
+The tenfold difference between the two large groups and between the two small
+groups did not make a difference in choice preference. Further evidence comes from
+the Wang, et al. (2001) study, where the classic framing effect occurred in the
+context of 6 billion human lives but disappeared in the context of 6 billion ET
+(extraterrestrial) lives. Thus, the framing effect is not likely a large number effect,
+but is human group size sensitive.
+    Our ﬁndings overall are consistent with the predictions of the AA hypothesis:
+distinct brain areas are recruited for solving ambiguity or ambivalence caused by
+the lack of primary social or relational cues in a large anonymous group context. In
+contrast, framing effects diminished in a small group context while the insula and
+parietal lobe in the right hemisphere were distinctively activated, suggesting an
+important role of emotion in switching choice preference from an indecisive mode
+to a more consistent risk-taking inclination.
+    The brain imaging ﬁndings are interesting in that they suggest that the framing
+effect is both linguistic and implicit. The affective component of valence framing
+may direct a holistic, right hemispheric process while the cognitive connotation of
+framing activates implicit linguistic processing in the right hemisphere in addition
+to activation of the common linguistic processing regions in the left hemisphere.
+Previous studies show that the right IFG is involved in response inhibition and
+impulse control (Aron et al. 2003, 2004; Asahi et al. 2004). Thus, the higher
+activation found in the right IFG under positive framing suggests a greater control
+effort induced by using positive framing than negative framing in making hypo-
+thetical life–death choices.
+
+
+
+9.2.3    Gaining New Insights from Brain Imaging Studies
+         of Framing Effects
+
+The ﬁndings from neuroimaging studies of framing effects often provide new
+insights and new research directions. In this section, we report several new ﬁndings
+derived from a current analysis of an fMRI study of framing effects, in which we
+examined brain activations when making hypothetical risky choices.
+   The risky choice problems, adopted from those used in the study by Wang
+(1996a), involved monetary investment (either 600 or 60,000 Chinese Yuan) and
+property (either 6 or 600 precious oil paintings) at stake. The structure of the choice
+problems used in this study was identical to that of the Asian disease problem. The
+156                                                                            X.-T. Wang et al.
+
+participants were asked to make a binary choice between a sure outcome (framed
+either as saving one-third of a total amount or losing two-thirds of the total amount)
+and a gamble of equal expected value. Twenty-one participants (8 males) took part
+in this study. The procedure was the same as that used in Zheng et al. (2010).
+    The behavioral effects of valence framing were signiﬁcant in the painting sce-
+nario (risk-seeking choices increased from 47.8 % under positive framing to
+57.6 % under negative framing), χ2(1) = 7.617, p = 0.0058. The framing effect was
+not signiﬁcant in the money investment scenario (the risk-seeking choice = 55.7 %
+under positive framing and 62.2 % under negative framing; χ2(1) = 0.246,
+p = 0.620).
+    The results of the fMRI data analysis are shown in Table 9.3 and Fig. 9.1. The
+left inferior frontal gyrus and the left superior frontal gyrus were identiﬁed to have a
+higher activation level under negative framing than positive framing while the left
+medial temporal cortex showed a higher activation under the positive framing than
+negative framing. These results are consistent with some previous ﬁndings. The
+inferior frontal gyrus is also found to be associated with framing effects in our
+previous study (Zheng et al. 2010). In addition, the left medial temporal cortex and
+the left superior frontal gyrus identiﬁed in the present analysis are geographically
+close to two of the activation regions reported by De Martino et al.’ (2006): the left
+medial temporal gyrus and the left superior frontal sulcus, respectively.
+    Human neuropsychological studies have highlighted the importance of both
+frontal cortex and the medial temporal cortex, including the hippocampus in
+memory encoding and retrieval (e.g., Cohen and Eichenbaum 1993; Tulving et al.
+1994). Previous studies also suggest that effortful and strategic memory processes
+are mainly mediated by the frontal lobes, whereas automatic associative memory
+processes are mainly mediated by the medial temporal lobes and hippocampus
+(MTL/H) (e.g., Moscovitch 1994). Thus, our results suggest a differential activation
+pattern by framing where the negative framing involves more elaborative encoding
+in the frontal lobe and the positive framing elicits more holistic encoding in the
+medial temporal cortex.
+
+
+Table 9.3 Brain regions associated with framing effects
+Cluster size    Region                        BAs         Peak T value   MNI coordinates
+Frame: positive > negative
+122            Left medial temporal cortex    20           4.61          −39      −21     −21
+Frame: negative > positive
+120            Left superior frontal gyrus      6         −2.85          −15      −21       75
+41             Left inferior frontal gyrus                −2.89          −57       21        9
+9 Framing Effects: Behavioral Dynamics and Neural Basis                                     157
+
+
+
+
+Fig. 9.1 Brain regions showing the effect of frame. Abbreviation IFG Inferior frontal gyrus; MTC
+Medial temporal cortex; SFG Superior frontal gyrus. Error bars denote standard errors. The
+statistical signiﬁcance was determined by Monte Carlo simulations to obtain a P-corrected value
+<0.05, after correcting for whole brain comparisons. The corrected threshold corresponds to a
+P-uncorrected value <0.005 with a minimum cluster size of 1080 mm3 (a gray mask with 55,342
+voxels was used)
+
+
+9.2.4     A Meta-Analysis of Neuroimaging Studies of Framing
+          Effects—Toward a Better Understanding of Framing
+          Effects
+
+In the ﬁeld of neuroscience, there have not been many neuroimaging studies on
+framing effect so far. We carried out a systematic search using the keywords
+‘framing effect’ and ‘MRI’ to identify relevant studies included in the PubMed and
+PsycINFO databases; the search was conducted in December 2012, and no time
+span was speciﬁed for date of publication. Our inclusion criteria were that: (1) the
+studies presented coordinate-based analyses of the data; (2) all or most of the brain
+158                                                                            X.-T. Wang et al.
+
+was imaged; and (3) participants were asked to choose in different frames. The
+fMRI studies obtained from this search are summarized below in Table 9.4.
+   As shown in Table 9.4, the choice tasks involved both life–death and monetary
+and other types of problems. The behavioral framing effects were all signiﬁcant,
+either bidirectional or unidirectional. Non-verbal valence framing had similar
+behavioral effects. Guitart-Masip et al. (2010) adopted a unique valence framing by
+
+
+Table 9.4 Functional MRI studies of framing effects
+Study             Behavioral framing effects     Main neural correlates            n      Foci
+                  inside the scanner
+De Martino        Used monetary problems.        The framing effect was            20     6
+et al. (2006)     The percentage of              associated with amygdala
+                  risk-seeking choices           activity; but reduced by
+                  =42.9 % in positive frame      ACC, OMPFC, and right
+                  =61.6 % in negative frame      OFC activity
+Gonzalez          Used life–death, monetary,     Higher activation in              15     7
+et al. (2005)     and other problems. The        positive–gamble choices
+                  percentage of risk-seeking     than in positive–certain
+                  choices                        choices in the right
+                  =33 % in positive frame        DLPFC, posterior
+                  =59 % in negative frame        precentral sulcus, and
+                                                 multiple areas in the
+                                                 parietal cortex
+Guitart-Masip     Used monetary problems         The framing effect was            24     3
+et al. (2010)     with visual (conditioned       associated with activation of
+                  stimuli) valence frames. The   the left amygdala, right
+                  risk-seeking choices           caudate, and right insula
+                  (in the last session)
+                  =40 % in positive frame
+                  =50 % in negative frame
+Roiser et al.     Used monetary problems.        Framing effects-prone             30     4
+(2009)            Framing susceptible and in-    individuals had higher
+                  susceptible participants       activation in the left
+                  differed in the size of the    amygdala, whereas
+                  alleles at 5-HTTLPR. The       insusceptibility to framing
+                  risk-seeking choices           was associated with ACC
+                  =43.3 % in positive frame      activation.
+                  =56.7 % in negative frame
+Zheng et al.      Used life–death problems.        The framing effect was         22   3
+(2010)            The risk-seeking choices         correlated with activation in
+                  =52 % in positive frame          the right IFG. The
+                  =65 % in negative frame          reduction of the framing
+                                                   effect was associated with
+                                                   activation in the right
+                                                   insula and an area in the
+                                                   right parietal cortex
+Note: ACC Anterior cingular cortex; OMPFC Orbital and medial prefrontal cortex; DLPFC Dorsal
+lateral prefrontal cortex; 5-HTTLPR serotonin transporter-linked polymorphic region; OFC The
+orbitofrontal cortex; IFG inferior frontal gyrus
+9 Framing Effects: Behavioral Dynamics and Neural Basis                            159
+
+associating visual stimuli (different texture patterns printed on a card) with gains or
+losses before using them as valence frames for framing choice outcomes. When the
+sure-thing outcome of a choice is either presented on a ‘gain’ card (positive frame)
+or on a ‘loss’ card (negative frame), classic monetary framing effects occurred.
+    Brain regions which were reported to contribute to the appearance of framing
+effects include the amygdala (De Martino et al. 2006; Guitart-Masip et al. 2010), the
+insula, and the right IFG (Zheng et al. 2010).
+    Some brain regions inhibit or reduce framing effects. De Martino et al. (2006)
+found that greater activity in the orbital and medial prefrontal cortex (OMPFC)
+predicted a reduced susceptibility to the framing effect across participants. The
+anterior cingulate cortex (ACC) was also implicated in reduced framing effects (De
+Martino et al. 2006; Roiser et al. 2009).
+    The ACC is thought to reduce framing effects by acting as a teaching signal
+(Botvinick 2007). Because ACC activation was greater when participants’ choices
+were incongruent with frame effects (De Martino et al. 2006), it may modulate the
+motivational influence of the amygdala on choice. This possibility is supported by
+the greater coupling between the ACC and the amygdala in participants who were
+less susceptible to the frame (Roiser et al. 2009). A similar role might be attributed
+to the orbital frontal cortex (OFC), a region which correlates with resistance to
+monetary framing effects (De Martino et al. 2006), and with which the ACC has
+strong reciprocal connectivity (Kringelbach and Rolls 2004).
+    Interestingly, researchers discovered that susceptibility to framing is related to
+genetic variation in the serotonin transporter gene (the 5-HTTLPR). Individuals
+homozygous for the short allele at the 5-HTTLPR rather than individuals
+homozygous for the long allele were found to be more susceptible to valence
+framing when making hypothetical monetary risky choices. This susceptibility to
+framing effects is associated with altered amygdala activity and lack of prefrontal
+regulatory control (Roiser et al. 2009). However, this ﬁnding has been challenged
+by a follow-up study. Talmi, Hurlemann, Patin, and Dolan (2010) reported that two
+patients with Urbach-Wiethe disease, a rare condition associated with congenital,
+complete bilateral amygdala degeneration, exhibited an intact framing effect.
+However, choice preference in these patients did show a qualitatively distinct
+pattern compared to controls, as evidenced by a signiﬁcantly increased risk-seeking
+preference. These ﬁndings suggest that the amygdala does exert an overall influence
+on risk-taking but may not play a causal role in framing effects.
+    We then conducted our meta-analysis by entering the coordinates of all the foci
+that were reported in the above fMRI studies of framing effects to get their topo-
+graphic convergences. The goal of coordinate-based meta-analysis of neuroimaging
+data is to identify brain areas where the reported foci of activation converge across
+published experiments. In this meta-analysis of neural correlates of framing effects,
+we adopted a widely used technique for coordinate-based meta-analyses of neu-
+roimaging data, called activation likelihood estimation (ALE). ALE assesses the
+overlap between foci based on modeling them as probability distributions centered
+at their respective coordinates. ALE maps are then obtained by computing the union
+of activation probabilities for each voxel. To differentiate true convergence of foci
+160                                                                                 X.-T. Wang et al.
+
+from random clustering (i.e., noise), a permutation test is applied: to obtain an ALE
+null distribution, the same number of foci as in the real analysis are randomly
+redistributed throughout the brain (see Eickhoff et al. 2009; Turkeltaub et al. 2002).
+In other words, the meta-analysis determines if the clustering is signiﬁcantly higher
+than expected under the null distribution of a random spatial association of results
+from the considered experiments.
+   Our analysis was implemented using GingerALE Version 2.1.1 (available at
+http://brainmap.org/ale). The meta-analysis was performed using the Montreal
+Neurological Institute (MNI) stereotactic coordinates derived from the studies listed
+in Table 9.4. Coordinates published in Talairach space were transformed to the
+Montreal Neurological Institute (MNI) template according to the Lancaster trans-
+form (icbm2tal) in GingerALE. Statistical signiﬁcance was determined using a
+permutation test of randomly generated foci. No assumptions were made con-
+cerning the distribution or spatial separation of these random foci; however, clusters
+of activity were required to exceed 200 mm3 in volume. The test was corrected for
+multiple comparisons using the false discovery rate (FDR) method (Genovese et al.
+2002). Anatomical labels of ﬁnal cluster locations are provided by the Talairach
+Daemon.
+   Initially, a total of 23 foci were analyzed. The ALE meta-analysis showed that
+high ALE values were observed in the left ACC and the right IFG (see Table 9.5;
+Fig. 9.2), indicating these two brain regions are the key neural correlates of framing
+effects.
+   We then added into the ALE meta-analysis the coordinates of the three foci
+associated with framing effects as reported in the previous section of this chapter.
+The brain localization results for framing effects based on the 26 foci remained the
+same.
+   Neurobiological studies of the right IFG have shown some converging evidence
+for its unique role in ‘semantic selection’ by which competing activated concepts
+are sorted out, inhibiting competing concepts while selecting one concept for
+action, particularly when the concept to be selected involves atypical usage. For
+instance, when people are given a common noun (e.g., cake) and asked to produce a
+typical use (‘bake’ or ‘eat’), the left IFG is strongly active; but when asked to
+produce an unusual use (e.g. ‘sell’) of such nouns, the right IFG is more strongly
+active (see Jung-Beeman 2005 for a review). Both the left and the right IFG play a
+
+
+Table 9.5 Neural correlates of framing effects derived from ALE meta-analysis
+Cluster      Region           BA       Talairach                ALE (×10−2)         Volume (mm3)
+                                       coordinates
+                                       x       y        z
+ 1           Left ACC          24      −4       36     −6       1.16                408 (880)
+ 2           Right IFG         47       32      30     −8       0.90                216 (216)
+Note: ACC Anterior cingulate cortex; IFG Inferior frontal gyrus, BA Brodmann area. The values in
+parentheses are the results after adding four foci from the study reported in this chapter in the prior
+section
+9 Framing Effects: Behavioral Dynamics and Neural Basis                                       161
+
+
+
+
+Fig. 9.2 Meta-analysis results of neural correlates of framing effects. a Topographic convergences
+from the foci reported in the studies in Table 9.4. b Topographic convergences from the foci
+reported in the studies in Table 9.4 plus additional foci reported in this chapter
+
+
+unique role in understanding the ﬁgurative meaning of a metaphor beyond semantic
+analysis (Rapp et al. 2004). In addition, the right IFG is active in response inhibition
+and selection. The go/no-go task, which taps the ability to inhibit prepotent
+response tendency (for instance, stop pressing a button when a red signal appears),
+has consistently activated the lateral prefrontal cortex, particularly the right IFG
+(Aron et al. 2003; Asahi et al. 2004; Chikazoe et al. 2007). Some researchers
+consider the right IFG the most important prefrontal structure that exerts inhibition
+and cognitive control over subcortical structures of the brain (Aron et al. 2004). The
+same area is also implicated in risk aversion: higher risk aversion is correlated with
+higher activity at the right IFG (Christopoulos et al. 2009).
+   Coupled with the results of our meta-analysis, these ﬁndings suggest that the
+right IFG is a unique neural correlate of framing effects. It plays an integrative role
+in evaluating risk-related cues and in regulating risk preference and choice selection
+based on both semantic and affective meanings imbedded in choice problems.
+   Researchers have suggested a variety of ways to interpret the neuroimaging
+ﬁndings of the framing effect. De Martino et al. (2006) suggested that the framing
+effect is driven by an affect heuristic underwritten by an emotional system. From the
+perspective of a dual-system framework, Kahneman and Frederick (2006) inter-
+preted these ﬁndings as evidence that different frames evoke distinct emotional
+responses that different individuals can suppress to various degrees. Similarly,
+Gonzalez et al. (2005) proposed a model which tries to incorporate a tradeoff
+between the cognitive effort required to calculate expected values of an alternative
+and the affective value of the alternative to explain the choice process underlying
+the framing effect.
+162                                                                             X.-T. Wang et al.
+
+   Based on our meta-analysis and the AA hypothesis of framing effects, we pro-
+pose a new view on neural mechanisms of framing effects. First, valence framing as
+a secondary choice cue becomes most salient and effective when primary contextual
+or social cues are absent or incongruent. The processing of choice problems under
+these conditions calls for an ambiguity-reducing and conflict-monitoring function,
+which would result in the ACC recruitment and activation. Second, the right IFG
+activation suggests that the nature of valence framing is both semantic and hedonic,
+involving not only verbatim linguistic analysis but also interpretation of its affective
+tones and metaphorical implications.
+
+Acknowledgments This work was partially supported by National Science Foundation
+(NSF) Grant SES-1123341, and a research fund from the Key Laboratory of Behavioral Science,
+Institute of Psychology of the Chinese Academy of Sciences to the ﬁrst author, and a research fund
+(No. Y2CQ043005) from the Institute of Psychology of the Chinese Academy of Sciences to the
+second author. We thank Steven Garelik for his helpful comments on an earlier version of this
+paper.
+
+
+
+
+References
+
+Aron AR, Fletcher PC, Bullmore ET, Sahakian BJ, Robbins TW (2003) Stop-signal inhibition
+   disrupted by damage to right inferior frontal gyrus in humans. Nat Neurosci 6:115–116
+Aron AR, Robbins T, Poldrack R (2004) Inhibition and the right inferior frontal cortex. Trends
+   Cogn Sci 8:170–177
+Asahi S, Okamoto Y, Okada G, Yamawaki S, Yokota N (2004) Negative correlation between right
+   prefrontal activity during response inhibition and impulsiveness: an fMRI study. Eur Arch
+   Psychiatry Clin Neurosci 254:245–251
+Bless H, Betsch T, Franzen A (1998) Framing the framing effect: the impact of context cues on
+   solutions to the “Asian disease” problem. Euro J Soc Psychol 28:287–291
+Bloomﬁeld AN (2006) Group size and the framing effect: treats to human beings and animals.
+   Mem Cogn 34:929–937
+Bloomﬁeld AN, Sager JA, Bartels DM, Medin DL (2006) Caring about framing effects. Mind Soc
+   5:123–138
+Bohm P, Lind H (1992) A note on the robustness of a classical framing result. J Econ Psychol
+   13:355–361
+Botvinick MM (2007) Conflict monitoring and decision making: Reconciling two perspectives on
+   anterior cingulate function. Cogn Affect Behav Neurosci 7:356–366
+Botvinick MM, Cohen JD, Carter CS (2004) Conflict monitoring and anterior cingulate cortex: an
+   update. Trends in Cognitive Sciences 8:539–546
+Breiter HC, Aharon H, Kahneman D, Dale A, Shizgal P (2001) Functional imaging of neural
+   responses to expectancy and experience of monetary gains and losses. Neuron 30:619–639
+Cendri A, Hutcherson CA, Plassmann H, Gross JJ, Rangel A (2012) Cognitive regulation during
+   decision making shifts behavioral control between ventromedial and dorsolateral prefrontal
+   value systems. J Neurosci 32:13543–13554
+Chang CJ, Yen SH, Duh RR (2002) An empirical investigation of competing theories to explain
+   the framing effect in accounting-related decision. Behav Res Acc 14:35–64
+Chikazoe J, Konishi S, Asari T, Jimura K, Miyashita Y (2007) Activation of right inferior frontal
+   gyrus during response inhibition across response modalities. J Cogn Neurosci Arch 19:69–80
+Chong D, Druckman J (2007) Framing theory. Annu Rev Polit Sci 10:103–126
+9 Framing Effects: Behavioral Dynamics and Neural Basis                                     163
+
+Christopoulos GI, Tobler PN, Bossaerts P, Dolan RJ, Schultz W (2009) Neural correlates of value,
+   risk, and risk aversion contributing to decision making under risk. J Neurosci 29:12574–12583
+Cohen NJ, Eichenbaum HE (1993) Memory, amnesia, and the hippocampal system. MIT Press,
+   Cambridge, MA
+De Martino B, Kumaran D, Seymour B, Dolan RJ (2006) Frames, biases, and rational
+   decision-making in the human brain. Science 313:684–687
+Druckman JN (2001) On the limits of framing effects: Who can frame? J Polit 63:1041–1066
+Dunegan KJ (1993) Framing, cognitive modes, and image theory: toward an understanding of a
+   glass half full. J Appl Psychol 78:491–503
+Eickhoff SB, Laird AR, Grefkes C, Wang LE, Zilles K, Fox PT (2009) Coordinate-based
+   activation likelihood estimation meta-analysis of neuroimaging data: a random-effects
+   approach based on empirical estimates of spatial uncertainty. Hum Brain Mapp 30:2907–2926
+Fagley NS, Miller PM (1987) The effects of decision framing on choice of risky vs. certain
+   options. Organ Behav Hum Decis Process 39:264–277
+Fagley NS, Miller PM (1990) The effect of framing on choice: interactions with risk-taking
+   propensity, cognitive style, and sex. Pers Soc Psychol Bull 16:496–510
+Fagley NS, Miller PM (1997) Framing effects and arenas of choice: your money or your life?
+   Organ Behav Hum Decis Process 71:355–373
+Genovese CR, Lazar NA, Nichols TE (2002) Thresholding of statistical maps in functional
+   neuroimaging using the false discovery rate. NeuroImage 15:870–878
+Gigerenzer G, Hoffrage U, Kleinbölting H (1991) Probabilistic mental models: a Brunswikian
+   theory of conﬁdence. Psychol Rev 98:506–528
+Gonzalez C, Dana J, Koshino H, Just M (2005) The framing effect and risky decisions: examining
+   cognitive functions with fMRI. J Econ Psychol 26:1–20
+Guitart-Masip M, Talmi D, Dolan R (2010) Conditioned associations and economic decision
+   biases. NeuroImage 53:206–214
+Holroyd CB, Nieuwenhuis S, Mars RB, Coles MGH (2004) Anterior cingulate cortex, selection for
+   action, and error processing. In Posner MI (ed) Cognitive neuroscience of attention. Guilford
+   Press, New York, pp 219–231
+Honey GD, Fu CH, Kim J et al (2002) Effects of verbal working memory load on corticocortical
+   connectivity modeled by path analysis of functional magnetic resonance imaging data.
+   NeuroImage 17:573–582
+Jung-Beeman M (2005) Bilateral brain processes for comprehending natural language. Trends
+   Cogn Sci 9:512–518
+Kahneman D, Frederick S (2006) Frames and brains: elicitation and control of response
+   tendencies. Trends Cogn Sci 11:45–46
+Kahneman D, Tversky A (1979) Prospect theory. Econometrica 47:263–292
+Kringelbach ML, Rolls ET (2004) The functional neuroanatomy of the human orbitofrontal cortex:
+   evidence from neuroimaging and neuropsychology. Prog Neurobiol 72:341–372
+Kühberger A (1995) The framing of decisions: a new look at old problems. Organ Behav Hum
+   Decis Process 62:230–240
+Kühberger A (1998) The influence of framing on risky decisions: a meta-analysis. Organ Behav
+   Hum Decis Process 75:23–55
+Kühberger A, Schulte-Mecklenbeck M, Perner J (1999) The effects of framing, reflection,
+   probability, and payoff on risk preference in choice tasks. Organ Behav Hum Decis Process
+   78:204–231
+Kuo FY, Hsu CW, Day RF (2009) An exploratory study of cognitive effort involved in decision
+   under Framing-an application of the eye-tracking technology. Decis Support Syst 48:81–91
+LeBoeuf RA, Shaﬁr E (2003) Deep thoughts and shallow frames: on the susceptibility to framing
+   effects. J Behav Decis Mak 16:77–92
+Levin IP, Chapman DP (1990) Risk taking, frame of reference, and characterization of victim
+   groups in AIDS treatment decisions. J Exp Soc Psychol 26:421–434
+Levin IP, Gaeth GJ (1988) Framing of attribute information before and after consuming the
+   product. J Consum Res 15:374–378
+164                                                                             X.-T. Wang et al.
+
+Levin IP, Schneider S, Gaeth GJ (1998) All frames are not created equal: a typology and critical
+   analysis of framing effects. Organ Behav Hum Decis Process 76:149–188
+McElroy T, Seta J (2003) Framing effects: an analytic-holistic perspective. J Exp Soc Psychol
+   39:610–617
+McElroy T, Seta JJ (2004) On the other hand Am I rational? Hemispheric activation and the
+   farming effect. Brain Cogn 55:572–580
+Meyerowitz BE, Chaiken S (1987) The effect of message framing on breast self-examination
+   attitudes, intentions, and behavior. J Pers Soc Psychol 52:500–510
+Miller PM, Fagley NS (1991) The effects of framing, problem variations, and providing rationale
+   on choice. Pers Soc Psychol Bull 17:517–522
+Montague PR, Berns GS (2002) Neural economics and the biological substrates of valuation.
+   Neuron 36:265–284
+Moscovitch M (1994) Cognitive resources and dual-task interference effects at retrieval in normal
+   people: the role of the frontal lobes and medial temporal cortex. Neuropsychology 8:524
+O’Doherty J, Kringelbach ML, Rolls ET, Hornak J, Andrews C (2001) Abstract reward and
+   punishment representations in the human orbitofrontal cortex. Nat Neurosci 4:95–102
+Owen AM (1997) The functional organization of working memory processes within human lateral
+   frontal cortex: the contribution of functional neuroimaging. Euro J Neurosci 9:1329–1339
+Payne JW, Bettman JR, Johnson EJ (1993) The adaptive decision maker. Cambridge University
+   Press, New York
+Piazza M, Izard V, Pinel P, Le Bihan D, Dehaene S (2004) Tuning curves for approximate
+   numerosity in the human intraparietal sulcus. Neuron 44:547–555
+Pinel P, Piazza M, Le Bihan D, Dehaene S (2004) Distributed and overlapping cerebral
+   representations of number, size, and luminance during comparative judgments. Neuron
+   41:983–993
+Rapp AM, Leube DT, Erb M, Grodd W, Kircher TTJ (2004) Neural correlates of metaphor
+   processing. Cogn Brain Res 20:395–402
+Reyna VF, Brainerd CJ (1991) Fuzzy-trace theory and framing effects in choice: Gist extraction,
+   truncation, and conversion. J Behav Decis Mak 4:249–262
+Reyna VF, Brainerd CJ (1995) Fuzzy-trace theory: an interim synthesis. Learn Individ Differ 7:1–75
+Reyna VF, Brainerd CJ (2011) Dual processes in decision making and developmental
+   neuroscience: a fuzzy-trace model. Dev Rev 31:180–206
+Roiser JP, De Martino B, Tan GCY, Kumaran D, Seymour B, Wood NW, Dolan R (2009) A
+   genetically mediated bias in decision making driven by failure of amygdala control. J Neurosci
+   29:5985–5991
+Shimizu K, Udagawa D (2011a) A re-examination of the effect of contextual group size on
+   people’s attitude to risk. Judgment and Decision Making 6:156–162
+Shimizu K, Udagawa D (2011b) How can group experience influence the cue priority? A
+   re-examination of the ambiguity-ambivalence hypothesis. Front Evol Psychol 2:1–9
+Sieck W, Yates JF (1997) Exposition effects on decision making: choice and conﬁdence in choice.
+   Organ Behav Hum Decis Process 70:207–219
+Sokol-Hessner P, Hutcherson C, Hare T, Rangel A (2012) Decision value computations adjust to
+   the available decision time. Eur J Neurosci 35:1065–1074
+Stanovich KE, West RF (1998) Individual differences in framing and conjunction effects. Think
+   Reason 4:289–317
+Takemura K (1994) Influence of elaboration on the framing of decision. J Psychol 128:33–39
+Talmi D, Hurlemann R, Patin A, Dolan R (2010) Framing effect following bilateral amygdala
+   lesion. Neuropsychologia 48:1823–1827
+Tom SM, Fox CR, Trepel C, Poldrack RA (2007) The neural basis of loss aversion in decision
+   making under risk. Science 315:515–518
+Tulving E, Kapur S, Craik FIM, Markowitsch HJ, Houle S (1994) Hemispheric encoding/retrieval
+   asymmetry in episodic memory: positron emission tomography ﬁndings. Proc Natl Acad
+   Sci USA 91:2016–2020
+9 Framing Effects: Behavioral Dynamics and Neural Basis                                  165
+
+Turkeltaub PE, Eden GF, Jones KM, Zefﬁro TA (2002) Meta-analysis of the functional
+   neuroanatomy of single-word reading: method and validation. Neuroimage 16:765–780
+Tversky A, Kahneman D (1981) The framing of decisions and the psychology of choice. Science
+   211:453–458
+Wang XT (1996a) Framing effects: Dynamics and task domains. Organ Behav Hum Decis Process
+   68:145–157
+Wang XT (1996b) Domain-speciﬁc rationality in human choices: violations of utility axioms and
+   social contexts. Cognition 60:31–63
+Wang XT (2008) Risk communication and risky choice in context: ambiguity and ambivalence
+   hypothesis. Ann N Y Acad Sci 1128:78–89
+Wang XT, Johnson GJ (2012) A tri-reference point theory of decision making under risk. J Exp
+   Psychol Gen 141:743–756
+Wang XT, Johnston V (1995) Perceived social context and risk preference: a re-examination of
+   framing effects in a life-death decision problem. Journal of Behavioral Decision Making
+   8:279–293
+Wang XT, Simons F, Brédart S (2001) Social cues and verbal framing in risky choice. J Behav
+   Decis Mak 14:1–15
+Whitney P, Rinehart CA, Hinson JM (2008) Framing effects under cognitive load: The role of
+   working memory in risky decisions. Psychon Bull Rev 15:1179–1184
+Zhang Y, Miao D (2008) Social cues and framing effects in risky decisions among Chinese
+   military students. Asian J Soc Psychol 11:241–246
+Zheng H, Wang XT, Zhu L (2010) Framing effects: behavioral dynamics and neural basis.
+   Neuropsychologia 48:3198–3204

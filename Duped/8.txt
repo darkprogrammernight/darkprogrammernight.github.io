@@ -1,0 +1,665 @@
+
+8
+Information Manipulation
+(Beyond BFLs and Conscious Intent, Part 2)
+
+This chapter turns our attention to the various ways people deceive others with words. As noted in the previous chapter, most deception research focuses on what Steve McCornack calls bald-faced truths (BFTs) and bald-faced
+lies (BFLs).1 But there are many ways to deceive besides the outright lie, and
+many honest messages are not BFTs. This chapter makes a distinction between lies and the broader issue of deception. To this end, two theories (information manipulation theory [IMT] and information manipulation theory 2
+[IMT2]) are reviewed. Both move the discussion well beyond BFTs and BFLs.
+IMT and IMT2 are theories that complement TDT. But the overlap is mini
+mal, and the focus is different. TDT covers areas of traditional concern in deception research, such as deception detection. IMT is about how people deceive with words, and why it is that words can be used to deceive. IMT also
+provides a useful descriptive framework for thinking about variation in messages that function to deceive. IMT2, in contrast, is a theory of deceptive message production. That is, IMT2 is a theory that tries to explain how it is that
+people verbalize deceptive messages.
+Both IMT and IMT2 are the creations of my good friend and colleague Steve
+McCornack. IMT2 is new and a major extension of the original IMT. Although
+these theories are wholly Steve’s, I played a role in testing the original IMT, and
+our collaborative research on IMT is covered in this chapter. IMT is described,
+and several of Steve and my old studies testing IMT are enumerated. Next,
+IMT2 is summarized, and its implication for deception theory is explained.
+INFORMATION MANIPULATION THEORY (IMT)
+Steve McCornack developed IMT as his doctoral dissertation at the University
+of Illinois under the guidance of Barbara O’Keefe and published an article-
+
+INFORMATION MANIPULATION
+
+117
+
+length theoretical statement in Communication Monographs in 1992, along
+with a companion article testing key predictions.2 IMT adapted ideas from the
+philosopher of language Herbert Paul Grice to deception. A similar application of Grice to deception was also made about the same time in the context
+of perjury law,3 and the Polish linguist Dariusz Galasinski independently had
+an idea remarkably similar to IMT.4 Interpersonal deception theory (IDT) describes dimensions of information management that parallel IMT dimensions,
+but the IDT versions are not tied to Grice, and according to IDT authors, any
+similarity is purely coincidental.5
+Before sketching IMT, a brief primer on Grice’s idea of implicature is needed.6
+Grice was concerned with the disconnection between formal logic and every
+day communication. He observed that people often don’t say what they mean
+but are nevertheless understood. His idea of implicature is a catchall label
+to capture the idea of implying, meaning, or suggesting something that is
+not said outright, explicitly, and directly. Grice’s conversational implicatures
+share some similarities with Edward T. Hall’s idea of high-context communication in Beyond Culture.7 The meaning is not in the literal understanding
+of words and requires understanding of the situation or context of the ut
+terance.8
+For example, I was recently on a college search committee where several
+professors and I were discussing the suitability of several potential job candidates. One of my colleagues said of one of the applicants who was, on paper,
+especially well qualified, “I know his work. He has lots of publications.” I interpreted this to mean (i.e., what was implicated was) that although the person
+published much research and might look good on paper, the candidate’s research was of low quality. What Grice’s ideas are about is explaining the “logic”
+we use to implicate things to others and that we use to decode what others
+implicate to us. How is it that (A) “he publishes with high frequency” can be
+both be meant as and understood as (B) “his work is not very good”? How do
+we get from A to B?
+In order to make sense of implicatures, Grice thought, we need to accept
+adherence to a cooperation principle (CP) and its maxims. People mean something when they are talking, and they generally want those to whom the talk
+is directed to understand what is meant. Specifically, Grice’s CP holds: “Make
+your contribution such as it is required, at the stage at which it occurs, by the
+accepted purpose or direction of the talk exchange in which you are engaged.”9
+The CP has four maxims, or subrules.10
+• Quantity: Make your contribution sufficiently informative, but don’t
+provide too much information.
+
+118
+
+CHAPTER EIGHT
+
+• Quality: Make your contribution true. Don’t say false things or
+things that you don’t know.
+• Relevance: Stay on topic and make what you say relevant to the conversation.
+• Manner: Be clear, and avoid unneeded ambiguity.
+As long as people follow the maxims fully, understanding is straightforward.
+Anyone who knows the language can understand what is meant by a statement that is informative, accurate, relevant, and unambiguous. But, of course,
+people don’t always follow the maxims. Sometimes people don’t follow them
+at all, but sometime violations are just on the surface and the maxims are followed on a deeper level. It was the surface violations that involve deeper adherence that most interested Grice. Grice lists several ways in which people can
+violate one or more of the maxims. People can opt out of the maxims, making it explicit that they are not cooperating. This is the conversational equivalent of a “no comment.” The maxims may clash in such a way that fulfilling
+one violates another. Most interestingly for Grice, people may flout a maxim
+by blatantly violating it (think sarcasm). Finally, Grice mentions in passing
+that people can “quietly and unostentatiously” violate a maxim, and in doing
+so they are likely to mislead others.11
+Conversational implicatures, according to Grice, occur when a speaker says
+one thing, means another, and nevertheless expects to be understood correctly.
+The listener presumes that the speaker is following the CP; the speaker actually means what is implicated, not what is said; and the speaker thinks that
+the listener should be able to figure it out. Figuring it out follows the logic that
+if the speaker is following the CP, the speaker does not mean what was said,
+and probably means this other thing, that which was implicated.
+Back to my colleague and his statement about the sheer amount of publishing seemed to flout quantity. If he had read the work, surely he had an
+opinion of it. If that opinion was positive, he would say so. He would have
+said something like: “I know their work. They do cool stuff.” But, he didn’t
+know what others thought of the candidate, and he didn’t want to be on rec
+ord with a negative evaluation, so he said too little, which still communicated
+his opinion, just off the record.12
+Shifting from Grice to IMT’s origination, McCornack was generally interested in deception in romantic relationships. He had already published McCornack and Park’s model of relational deception, and he was interested in moving beyond deception detection in the direction of deceptive message design.
+His method involved a series of steps. He first asked a set of research subjects
+to describe a situation in which they had deceived a dating partner. He basi-
+
+INFORMATION MANIPULATION
+
+119
+
+cally collected numerous stories of relational deception. Stories that were sufficiently detailed were rewritten to be hypothetical and reworded to maintain
+anonymity. These situations were then given to and evaluated by a second set
+of research subjects for deception potential. Situations were selected that were
+neither too high (everyone lied) nor too low (everyone was honest). Next, a third
+set of subjects was asked to imagine themselves in one of the situations that
+had deception potential, and those subjects were asked to write out what they
+might say if they were in such a situation.
+“Committed Chris” was one of the situations he used that will give the
+reader an idea of the message creation task:
+You have known Chris for over two years and have been dating for over
+a year. Because of the length of the relationship, you feel very close to
+Chris. Recently, however, your feelings have begun to change. Chris is
+extremely jealous, and the two of you have recently been arguing about
+almost anything. Chris is in the phase where s/he wants to have a serious committed relationship, but you feel like you want to date others.
+Recently you have been dating someone else, unbeknownst to Chris.
+This other relationship has been a lot of fun, and has recently become
+more intense both sexually and emotionally.
+One night when you and Chris are out, Chris is acting really cold.
+Suddenly, Chris looks at you and says “Lately you’ve been acting really
+distant. Is there anything wrong?”13
+Quick, what would you say?
+Here are some possible replies . . .
+•
+•
+•
+•
+•
+
+•
+•
+
+•
+
+“No, nothing’s wrong.”
+“I don’t know.”
+“I have a lot of things on my mind. Sorry.”
+“I was just distracted. Want another drink, or should we go somewhere else?”
+“Chris, why are you always so jealous! You are the one who is acting
+cold. Don’t go projecting things onto me. What’s wrong with you?
+Why do you have to be like this?”
+“I’m not happy with how we fight all the time these days.”
+“Yeah, my feelings for you are changing. I know you want a commitment, but I’m sorry, I’m not ready for that. Maybe we should start
+dating other people.”
+“We need to talk. I have been putting it off because I didn’t want to
+
+120
+
+CHAPTER EIGHT
+
+hurt you. I know you want a commitment, but you are too jealous,
+and we fight too much. Plus, I met this other person, and it is getting serious. Sorry I didn’t tell you sooner. . . . I know I should have.
+We had a good thing, but it’s just not working.”
+• “Yes, I am seeing some else, and I like them more than you. Bye.”
+The first message option above is a BFL. The last is a BFT. The “We need
+to talk . . .” message is a packaged truth. As you can see, there are many possible deceptive responses that fall in between BFLs and BFTs.
+Steve had almost three hundred subjects complete the what-would-you-say
+task in response to Committed Chris or one of the other deception-prompting
+situations. In examining the resulting messages, Steve came to several key insights and conclusions. First, there was a striking amount of variability in the
+ways in which people responded to the various situations. People said very different things in response to the same situation. Second, although there were examples of BFLs and BFTs (that is, some people told the complete truth without
+concern for self-presentation or the other person’s feelings, and some people just
+outright lied), neither was especially prevalent. BFLs and BFTs were unusual
+and infrequent. Third, in contrast to BFLs and BFTs, most people shaded and
+manipulated the truth in various subtle and original ways. Fourth, the variation in messages that were deceptive seemed to correspond to violations of one
+or more of Grice’s maxims. That is, most deceptive messages involved some
+combination of omitted information (quantity violation), false information
+(quality violation), a lack of clarity functioning to obscure information (manner violation), and/or irrelevant information, providing a diversion of attention (relevance violation). Finally, existing taxonomies of deception types (e.g.,
+omissions, half-truths, exaggerations, etc.) failed to capture the variations in
+deceptive messages. In fact, the messages just did not seem to fall into some
+manageable set of mutually exclusive “types” or categories.
+These observations led to the key idea behind IMT. Messages that are deceptive
+are covert violations of one or more of Grice’s maxims. People are misled because
+they tacitly assume that the deceiver is behaving cooperatively; that is, communicators are trying to be understood and following the CP and its maxims.
+For the most part, when we communicate, we have to assume that the people
+we are communicating with are following the CP and its maxims. Otherwise,
+we just can’t make sense of communication. The catch is that by presuming
+that others are cooperative, we open ourselves up to being duped by those
+who feign good-faith cooperative interaction. We get fooled because the violations are covert.
+
+INFORMATION MANIPULATION
+
+121
+
+Think about the implications of this for a moment. Consider reading this
+book. Understanding that what I am writing requires that I want to be understood and that you think not only that I want to be understood but that there
+is a good chance of your understanding what I write. If you think that I just
+make stuff up willy-nilly, that I leave out important points and include superfluous information at random, that my writing is nebulous and impenetrable,
+and that what I am writing often has nothing to do with the point of the book,
+is there really any point in reading it in the first place? I think not. If we can’t
+presume some degree of cooperation, communication loses all functionality.
+If we have to second-guess every sentence, we can’t learn anything. We bog
+down quickly in uncertainty.
+This is where IMT and TDT converge. Presuming speakers follow the CP
+(at least on some level) and the idea of the truth-default are very similar. And
+the reason for adherence to the CP and its maxims and the reason for the
+truth-default are the same: they are required for effective and efficient communication and cooperation. We need something like a CP or a truth-default
+in order to communicate because the alternative leads to communicative solipsism. The implication of the CP and the truth-default is the same too; these
+make us vulnerable to deceit.
+One of the primary contributions of IMT is that it provides a coherent and
+theoretically grounded way to talk about variation in deceptive messages. Most
+deception involves covert violations of one or more of four maxims.14 Deception by withholding information (i.e., omission) covertly violates quantity. Deception with false information is a covert violation of quality. Covert violations
+of relevance are deception by evasion. Finally, covert violations of manner are
+deceptive equivocation. But most deceptive messages are not “pure types” reflecting violations of just one maxim. Rather, most deceptive messages can be
+thought of as reflecting a point in four-dimensional space with the four maxims forming four dimensions.
+IMT STUDY ONE: THE FIRST IMT STUDY
+Steve and my first study of IMT15 simply involved having new subjects read
+one of the deception-provoking situations and an exemplar message and having the subjects evaluate the message in terms of its honesty or deceptiveness.
+The prediction was that messages that violated the maxims would be rated as
+more dishonest than a baseline honest control message that was fully disclosive, factually true, relevant, and clear. We had over a thousand subjects read
+and rate one of many situation-message combinations. We used two different
+situations and two different message examples for each of the maxim viola-
+
+122
+
+CHAPTER EIGHT
+
+Table 8.1. Initial test of IMT
+Message Condition
+
+Honesty Rating
+
+Base-line honest
+
+5.47
+
+Quality (false)
+
+1.74
+
+Relevance (evasive)
+
+2.93
+
+Manner (equivocal)
+
+3.43
+
+Quantity (omission)
+
+4.20
+
+Note: Possible values range from 1 to 7, with higher scores indicating more honest. All scores are significantly different at p < .0001.
+
+tions (quality, quantity, relation, manner, no violation) taken from the research
+described previously. Subjects rated the honesty of the message on seven-point
+scales where one was completely deceptive and seven was maximally honest.
+The results are in table 8.1.
+The data were consistent with the main prediction of IMT. Messages violating the various maxims were judged as more dishonest than a control honest message not violating one of the maxims. Further, the effects were huge,
+with the experimental variation in message example accounting for 47% of
+the variance honest ratings (that is equivalent to a d of 1.88!). But, even the
+objectively honest messages were not rated as completely honest. Presumably
+coming clean involved revealing prior deception. Further, while everyone rated
+false messages as very deceptive, violations of quantity and manner were rated
+as kind of deceptive, near the midpoint of the scale range. They were rated as
+more deceptive than the honest message by more than a full scale point, but
+more honest than an outright lie by a similar margin.
+IMT STUDY TWO: REPLICATION AND INCLUSION
+OF A DICHOTOMOUS ASSESSMENT
+To try and sort things out, in 2001 I replicated our 1992 results with a twist.16
+I had subjects read Committed Chris and rate one of five message examples,
+just like our original 1992 experiment. The twist was I also asked subjects to
+make a dichotomous, forced-choice, honest–deceptive evaluation too. The results are in table 8.2.
+As in the original, larger 1992 study, all the violations were rated as less
+honest than the honest baseline control, replicating basic support for IMT.
+This was true both for scaled honesty and the forced-choice evaluation. And
+
+123
+
+INFORMATION MANIPULATION
+
+Table 8.2. Replication of initial IMT findings
+Message Condition
+
+1992
+
+2001
+
+% Honest
+
+Base-line honest
+
+5.47
+
+5.82
+
+98%
+
+Quality (false)
+
+1.74
+
+2.29
+
+13%
+
+Relevance (evasive)
+
+2.93
+
+2.55
+
+11%
+
+Manner (equivocal)
+
+3.43
+
+3.82
+
+51%
+
+Quantity (omission)
+
+4.20
+
+3.34
+
+47%
+
+Note: Possible values range from 1 to 7, with higher scores indicating more honest.
+
+the pattern of the means was similar, although this time quantity was rated
+as more deceptive than in the previous study. On the truth–deception pick-
+one question, there was near-unanimity that the honest message was honest.
+People rated it only 5.8 out of 7 in scaled honesty, but when forced to choose,
+they rated it as honest, not deception. There was also near-perfect agreement
+on quality and relevance. Just under 90% of the people said those were deceptive.17 However, there was a near fifty-fifty split on manner and quantity violations. About half of the people said honest, half said deceptive.
+Close examination of the scaled honesty rating gives a clue to what’s going
+on. Although the averages for quantity and manner were quite similar, the distributions of scores were not. Honest ratings of manner were normally distributed around the mean, near the center of the honesty scale. Most people rated
+the manner violations as neither fully honest nor fully deceptive. They saw
+them as in-between. The distribution of quantity violations, however, was bi-
+modal. A sizable group of people (just under half ) rated omissions as very deceptive. Another sizable group of people rated them on the honest side of the
+scale midpoint. No one gave it a seven—perfectly honest, but lots of people
+used four and five. The conclusion I draw from this is that there is a great deal
+of convergence in how people see outright lies, evasion, and equivocation. But
+there are large individual differences in how omission is seen. Some people
+see it as deceptive as evasion or an outright lie. Other people see it more like
+equivocation, somewhere between honesty and outright deceit.
+IMT STUDY THREE: EFFECTS OF DECEPTION SEVERITY
+I have two more IMT studies to tell you about before summing up and moving
+on to IMT2. It seemed to me in thinking about IMT results that how people
+
+124
+
+CHAPTER EIGHT
+
+rate different violation types isn’t just about how the deception was being accomplished (i.e., the type of violation) but also about the nature of the deception, specifically what the deception is hiding. My thinking was that the differences between the violation types might expand or contract depending on
+the severity of the consequences of the deception. If the consequences of the
+deception were really bad, the type of violation might make less difference.
+To test this line of thinking, my students Kelli Asada and Lisa Massi and I
+designed some new situations and messages.18 Continuing the relational deception theme, we told approximately two hundred subjects about a hypotheti
+cal dating relationship between Chris and Sam. Chris and Sam do not always
+practice safe sex. Some of our subjects were told that Sam had an STD in the
+past from a prior relationship, but that it was treated, completely cured, noncontagious, basically just prior history.19 The rest of the subjects learned that
+Sam is HIV-positive.20 This was back in the days before drug treatments were
+highly effective; HIV was considered fatal. Sam either outright lied (BFL quality
+violation) to Chris saying, depending on the condition, that he was tested and
+is HIV-negative or denied ever having an STD of any kind, or Sam just does
+not tell Chris (quantity violation). Thus, subjects rated an omission or a falsification about a not-such-a-big deal or a really serious big bad deception.
+The differences between quality and quantity violations observed in our
+prior experiments went away under high deception severity. When the issue
+was having unsafe sex with an HIV-positive partner, it didn’t matter much
+whether the deception was an outright lie or an oh-I-forgot-to-tell-you deception. Either way, the behavior was rated as highly deceptive (averages greater
+than six on a seven-point scale). When the issue was a less consequential matter of a prior-but-cured STD, the outright lie was rated as highly deceptive,
+but mere omission dropped to mid-range, not-honest-but-not-totally-deceptive,
+similar to what quality violations had produced in other studies.
+IMT STUDY FOUR: RELATIONSHIP AMONG IMT DIMENSIONS
+The final IMT study reviewed here looked at the interrelationships among perception of maxim violations.21 IMT studies typically involve ratings of quality,
+quantity, relevance, and manner in addition to ratings of honesty. So, subjects
+read a situation and a message in response to the situation and then rate the
+message on scales to assess the truth or falsity of the message, the amount of
+information revealed, clarity, relevance, and honesty–deceptiveness. One IMT
+replication by other researchers found that messages exemplifying one type of
+violation were also rated as violations of the other violations as well, and this
+was thought to be a problem.22
+
+INFORMATION MANIPULATION
+
+125
+
+I did a study to try and sort this out. I reanalyzed two large IMTs data sets,
+each involving around a thousand subjects.23 In both data sets, ratings of the
+various dimensions were highly intercorrelated. The correlations ranged from
+r = .51 to .85. Using a statistical analysis called confirmatory factor analysis, I
+found that a second-order unidimensional model fit both data sets. What this
+means is that the maxims and maxim violations are not stand-alone, independent sorts of ideas. They have a common force guiding how they function.
+This is evidence that something like the CP is playing a causal role behind
+the scenes. This idea that the dimensions are intertwined and are different
+variations or aspects of the CP is very much consistent with IMT. It would be
+a problem for IMT if it were otherwise.
+This also suggests that people who don’t know Grice’s ideas or IMT don’t
+really make clear distinctions between violations of various sorts. Once it’s
+pointed out, recognizing violations of various sorts is very useful in spotting
+potential deception. Having worked on IMT research and taught IMT ideas, I
+am now very sensitive to answers that don’t answer the question actually asked
+and subtly try to answer a different, not-asked question. I often notice vague,
+ambiguous statements open to multiple interpretations. People who seem to
+be saying too little or too much catch my attention. I don’t interpret such things
+as deception, but instead as what Ekman calls “hot spots”—things that might
+(or might not) signal deceit. Knowing Grice and IMT gives me labels for these
+things. Having words to describe observations can help sharpen those observations and provide structure to my thinking, helping me make sense of what
+is observed. What the findings of IMT study 4 suggest is that absent awareness of the theory behind IMT, everyday people don’t make these kind of distinctions. Various violations reflect degrees of deceptiveness, but there is little
+nuance to the perception beyond mere deceptiveness. Rather than posing a
+problem for IMT, this observation, I think, points to IMT’s utility. IMT is not
+a folk theory of how communication is perceived. Instead, it adds insight that
+we would not have without the theory.
+Another nice thing about IMT’s approach is that the CP provides coherence
+to the maxims. Grice and CP provide an overarching structure that keeps the
+various maxims from just being an arbitrary list. This is a big advantage over
+various typologies of deception types. The problem with most observation-
+based category schemes is that any two different researchers looking at the
+same set of messages will invariably come up with different ways to classify the
+messages into types. The fact is that there are usually lots of different ways any
+finite set of messages can be classified. Of course, different researchers think
+their own categories are right and that others are misguided. Theory-based
+
+126
+
+CHAPTER EIGHT
+
+approaches provide a way out of arbitrariness. If we look at IDT’s five dimensions of information management and ask why these five and not some other
+set, there is not a clear answer other than the opinion of IDT authors. But, for
+IMT, the basis for selecting quality, quantity, relevance, and manner is clear. It
+has to be those four. The theory would not make sense if it were any other way.
+IMT2
+For McCornack, the original IMT was just a starting point—a small part of a
+much larger theoretical ambition. Ever self-critical, McCornack has said many
+times that the original IMT is not even a theory.24 In his view IMT is theoretical, but not a theory in a strict sense of theory. More importantly for Steve,
+the original IMT did not do what he really wanted to accomplish. Steve was
+after a theory of deceptive message production. How is it that people say deceptive things? When do people answer honestly? When will people simply
+omit a critical piece of information? When do people outright lie? What determines the options, and how exactly does this work? The original IMT is silent
+on such questions. IMT tells us why people are misled by messages, and it provides a theoretically based descriptive framework capturing the various forms
+deceptive messages can take. But it is not a theory of message production.
+Around the time that Buller and Burgoon published IDT in 1996, Steve
+was becoming increasingly frustrated with deception theory and research. The
+practice of social scientific scholarship on deception had become very contentious as different groups of researchers struggled, often behind the scenes,
+to further their own perspectives and undermine the competition. Between
+1997 and 2014, Steve took a long break from deception to focus on writing
+some amazing and successful communication textbooks.25 So, although his
+1997 article really set the stage for IMT2, IMT2 was not completed and published until 2014. IMT2, just recently completed as of this writing, was published in a special issue of Journal of Language and Social Psychology that also
+contains the article-length summary of TDT and our joint statement on our
+vision for deception theory.26
+Steve begins his explication of IMT2 by observing that most deception research, whether the focus is on leakage and cues, detection accuracy, or deceptive message production, presumes that people produce one of two types
+of messages: BFTs and BFLs. As mentioned earlier in this chapter, the origi
+nal 1992 IMT research showed unequivocally that BFTs and BFLs don’t describe the kinds of discourse people actually generate in deception-provoking
+situations like Committed Chris.
+
+INFORMATION MANIPULATION
+
+127
+
+McCornack is critical of what he sees as the prevailing model of deceptive
+discourse production that is top-down, linear, and step-by-step sequential. In
+the prevailing model to which McCornack objects, the sender faces a difficult
+situation where information in the sender’s head, if disclosed, creates problems for the sender. The sender then sizes up the choices: BFL or BFT. The
+truth is assessed to be problematic, so a decision is made to lie. Now that the
+sender has the intention to lie established, they start to construct a lie from
+scratch. The sender makes something up. This process involves cognitive high
+load because the sender has to come up with something plausible, and it is
+scary because he or she might get caught. This is all very arousing. Finally,
+once a convincing lie is mentally composed, the final step is to engage speech
+production and actually speak the lie. In contrast, if BFT was selected, then
+the sender simply calls up memory, which is presumed to be easily accessible,
+downloads memory into speech production, and out comes an honest message absent the load, emotion, and arousal of a BFL. This prevailing model,
+McCornack argues, runs afoul of what is known in areas such as speech production, cognitive neuroscience, linguistics, and communication.
+In contrast to the prevailing view, IMT2 takes an opportunistic problem-
+solving approach to message production. There is a starting place, a desired
+end state, and a problem space in between that must be traversed. Solving a
+problem is guided by a principle of least effort. People opportunistically start
+down the easiest path that seems to work, adjusting course as they go. People
+begin to speak while still in the process of planning, omitting information that
+might be problematic or dropping in a falsehood on the fly as needed when
+obstacles are met. As McCornack explains:
+The prevailing model of deceptive discourse production presumes a top-
+down, linear-sequential, stepwise process: people decide a priori to lie,
+cognitively construct a deceptive message, and then present this message
+as verbal and nonverbal behavior. In contrast, an opportunistic problem-
+solving model of deception suggests that we often begin speaking before
+any intent to deceive exists, and before such discourse actually becomes
+deceptive. While we are speaking (and streaming activated, relevant,
+truthful information from memory to speech production), we often opt
+“on the fly” to delete relevant information or include false information
+that then renders our discourse—mid-utterance—functionally deceptive.
+Why? Because, while we are speaking, we continue to calculate initial-
+state/end-state discrepancies. And as new truthful information is acti-
+
+128
+
+CHAPTER EIGHT
+
+vated in memory and marked as relevant for disclosure, if this information widens (rather than narrows) these discrepancies, we’ll respond by
+deleting or distorting it.27
+IMT2 does not presume that problems are attacked all at once, but instead that
+our brains break up problems into parts that are processed in different modules in parallel. Rather than producing messages as intact units that are downloaded for speech output, the process involves cyclical processing of micro-
+bursts of mental activity, most of which go on outside conscious awareness.
+Further, how solutions are addressed is guided largely by memory and past
+experience. Problems are seldom solved with a “Eureka!” moment novel solution that pops into our heads out of the blue. We usually don’t need to make
+things up from scratch. Reapplying what worked previously is much more efficient. Putting this and more together, McCornack et al. describe the central
+premise of IMT2 as:
+Deceptive and truthful discourse both are output from a speech production system involving parallel-distributed-processing guided by efficiency,
+memory, and means-ends reasoning; and this production process involves a rapid-fire series of cognitive cycles (involving distinct modules
+united by a conscious workspace), and modification of incrementally-
+constructed discourse during the turn-at-talk in response to dynamic
+current-state/end-state discrepancies.28
+The formal structure of IMT2 is presented as three sets of theoretical propositions: intentional states, cognitive load, and information manipulation. The
+IMT2 propositions29 are as follows:
+Intentional States (IS)
+IS1: Deceptive intent and conscious awareness of it both arise only after initial state/ end state gaps are perceived as irreconcilable through truth.
+IS2: Deceptive intent may arise, exist, and decay at any temporal point during
+the production of deceptive discourse.
+
+Cognitive Load (CL)
+CL1: The comparative cognitive load associated with the production of truthful versus deceptive discourse is based on the gap between activated information units in memory, the functional demands of the initial state, and
+the desired end state, that is, the difficulty of reasoning through perceived
+problem spaces.
+
+INFORMATION MANIPULATION
+
+129
+
+CL2: Communicators disclose information units in their discourse that constitute the most-efficient communicative paths through perceived problem
+spaces.
+CL3: Deceptive discourse that proves successful in efficiently reconciling
+problematic initial-state/end-state discrepancies is repeated recurrently
+when similar states arise.
+
+Information Manipulation (IM)
+IM1: Communicators produce “BFL” quality and quantity violations when the
+most salient, activated information units within memory are perceived as
+untenable to disclose.
+IM2: Quantity violations are the most frequent form of deceptive discourse.
+IM3: Relation violations are the least frequent form of deceptive discourse.
+IM4: Manner violations will occur less frequently than quantity or quality violations, but more frequently than relation violations.
+IM5: Within deceptive discourse, disclosed information units that violate
+quality derive from truthful information units that previously have been
+stored in long-term memory-and that are activated within working
+memory by initial-state conditions.
+IM6: When the activated units of truthful information in memory are judged
+as untenable to disclose, but no alternative, associated information units
+are activated from which speakers can construct quality violations, discourse production falters.
+
+The intentional-state propositions hold that deceptive intent is the result
+of a contextual problem-solving process where deception is deemed the most
+efficient solution and that deceptive intent may, but need not, precede deceptive speech production. These propositions, of course, are very germane to our
+previous discussion of intent in defining deception. For the purposes here,
+the most interesting thing about these propositions is that deceptive intent is
+treated as an empirical issue rather than as a given that is true by definition.
+If IMT2 is correct about the timing of intent, most commonly accepted definitions of deception need to be rethought.
+The cognitive load propositions directly challenge Vrij’s and the four-factor
+theory’s contention that deception is more cognitively effortful than honesty.
+As Steve puts it: “High cognitive load is not intrinsic to deceptive discourse
+production. Instead, both truthful and deceptive discourse production may
+generate high or low cognitive load, depending on the information activated
+
+130
+
+CHAPTER EIGHT
+
+within memory and the contextual degrees of freedom constraining potential
+problem solutions. . . . Rather than an a priori decision to lie or tell the truth
+being the determinant of consequent cognitive load, the projected cognitive
+load of potential problem solutions should determine whether one pursues a
+discourse path that ends up being truthful or deceptive.”30
+From the perspective of IMT2, deception is often enacted precisely because
+it provides an easy and efficient path through some problem space. That is, according to McCornack, prior deception theories get the causal direction wrong.
+Load determines deception; deception doesn’t cause load. Further, deceptive
+practices that are most likely to be used have proven successful in the past,
+making them easy and low effort.
+The information manipulation propositions form the core of IMT2 and reflect a degree of precision absent in most other deception theories. Propositions IM2 to IM4 specify the relative frequency of various ways to deceptively
+manipulate information. According to IMT2, the most frequent approach to
+deception is simple omission. Compared to omission (quantity violations),
+BFLs (quality violations) are rare. But manner violations are more unusual
+still, and relevance violations are the least frequent of all. This frequency gradient follows from the idea that people do what’s most efficient. It is easy to
+covertly violate quantity. If some specific information bit is problematic, it’s
+easy to just edit it out, or just not bring it up in the first place. When mere
+omission can’t remain covert, like when you are put on the spot by a direct
+question, then quality violations typically provide the easiest solution. Manner
+and relevance are the least frequent because their use is limited to situations
+where they can remain covert.
+For example, if we are asked a direct question, it is hard to violate relevance
+without that being obvious. If we are not put on the spot, then mere omission
+is easier than active evasion.
+Proposition IM5 says that when people do outright lie, the content tends
+to come from memory that is already activated by the nature of the situation
+and the direction of the conversation. That is, “lies are built from truth.”31 As
+a consequence, IMT2 holds that honest messages and lies involve fundamentally the same speech production process.
+Proposition IM6 is especially intriguing from the perspective of this book
+and TDT. The issue is raised about what happens when the truth can’t be said
+but there is nothing in memory to form a lie. The answer is that message production falters. As McCornack explains:
+
+INFORMATION MANIPULATION
+
+131
+
+At least three factors should intersect to create the potential for production disruption: the possession and activation of truthful information
+untenable for disclosure, the asking of questions that place demands on
+speakers for specific and detailed information, and the failure (through
+memory search and retrieval processes) to find associated false information that quickly can be deployed to construct a quality violation responsive to these questions. The practical implication of this is profound:
+within certain contexts, deception—or more precisely, the possession
+of problematic information—should be detectable. The key to such detection is asking the right questions.
+Following the faltering of speech production, speakers may simply “default” to confession of truth. Because the truth already will be activated
+within working memory—but they cannot find plausible alternative information from which to build a problem solution—speakers may spontaneously decide that the simplest, most efficient path for resolving the
+situation (despite the high projected costs associated with disclosure) is
+to dump all salient truthful mental contents. Thus, it is not just that the
+right questions may allow for “deception detection”; the right questions
+may trigger confessions.32
+As we shall see in chapter 14, IMT2 provides a nice account of the conditions
+under which deception detection is improved. The differences from Vrij’s cognitive approach are striking. Deception is not necessarily more cognitively effortful than the truth. The trick is not adding load, but cutting off covert quantity, manner, and relevance violations with careful questions, and then, once
+BFTs and BFLs are the only options, options for credible lies can be cut off.
+IMT2 has several important implications beyond deception detection. As
+mentioned previously, it offers a damning critique of the cognitive load approach. I hope my reader will excuse another long quote and the redundancy
+of the point, but Steve makes his case persuasively and eloquently, and the
+point bears repeating:
+No valid scientific reason exists for presuming that the production of
+deceptive discourse is intrinsically more difficult than the production
+of truthful discourse. This is especially the case with regard to the most
+common form of deception used in conversations: Quantity violations.
+Such violations borrow on similar production mechanisms to everyday
+
+132
+
+CHAPTER EIGHT
+
+truth telling; hence, they should not evoke escalation in load above and
+beyond truth.
+Deception should evoke greater load than truth telling when four conditions obtain: the form of deception being produced is a BFL, the truthful information one possesses is contextually unproblematic, the truthful information is easily accessible within memory (i.e., involves data
+that recently were uploaded to working memory), and any false information that might be used to construct the BFL must be retrieved from
+long-term memory. In such cases, the generation of a BFL should involve more cognitive effort than the generation of a BFT.
+Here is the catch. In such situations as above, people do not produce
+BFLs; unless they are sociopathic, recreational liars. That is, when the
+truth is not difficult to disclose (because it is easily accessible to conscious mind and contextually palatable), people disclose it. When do people
+lie? When they judge the truthful information as being so problematic
+that it cannot be disclosed. And why do they lie? Because it is less load-
+intensive to construct a message based on situationally appropriate, false
+information than it is trying to package the problematic truthful information into face-maintaining linguistic form.33
+A second implication of IMT2 is that there seems to be a tacit assumption
+in thinking about deception, fostered by the priority placed on deceptive intent
+in most definitions, that the point of deception is to deceive. IMT2 (and TDT,
+as discussed in later chapters) views deception more tactically. Deception is a
+means to an end, almost never an end in itself. In IMT2 what people want is
+some desired end state, and people communicatively work through problem
+spaces to achieve those ends. Deception sometimes provides an efficient path.
+I think a third and related implication is especially interesting. If we ask
+who lies, IMT2’s answer is “people who have things to hide.” Basically, people
+who do bad things have things to lie about. But most of us are simply not in
+situations where deception is needed very often, and hence honesty is the efficient way through most conversations.
+This is relevant to one of the things I noticed in my expert interrogation
+experiment described in chapter 14. The expert interrogators spend a lot of
+time trying to get at the interviewee’s character. In most deception experiments
+(but not several of mine), interviewees are randomly assigned to truth or lie.
+If IMT2 and TDT are right, however, honesty and deception are not random.
+People deceive when the truth is problematic for them. As Steve says, people
+
+INFORMATION MANIPULATION
+
+133
+
+deceive when their activated memories contain information that is untenable
+to disclose. Thus, the interrogators’ strategy of assessing character makes perfect sense from the point of view of IMT2 and TDT. People who have poor
+characters have things to hide and need to lie. People who act with integrity
+need not deceive. So, assessing general integrity should be informative. But
+this strategy would have no utility at all in the mock-crime experiments that
+dominate the legal and criminal psychology literature, where random assignment and instructed lies rule. Maybe the performance of experts in those experiments tells us more about the experiments than the experts.
+CONCLUSION
+This wraps up chapter 8, in which IMT and IMT2 are summarized. As
+promised in the chapter title, we have now moved beyond conscious deceptive
+intent and bald-faced lies to a more nuanced and ecological understanding of
+deceptive communication. The next chapter begins an in-depth look at TDT
+propositions and research.

@@ -1,0 +1,1309 @@
+
+12
+The Veracity Effect and Truth–Lie Base-Rates
+As the chapter’s title says, we now move on to the veracity effect and
+truth–lie base-rates, which are the main implications of truth-bias and the
+truth-default for deception detection. The veracity effect and base-rate findings follow directly from and are caused by truth-bias and the truth-default.
+Alternatively, I could have titled this chapter “How Hee Sun Park Changed
+Deception Research, Part One.” It was Steve McCornack and our early studies
+together that got me transfixed by truth-bias in the first place, but it was Hee
+Sun who got me to see why truth-bias is not a bias. Hee Sun originated the
+ideas in this chapter. I helped her refine them, test them, write them up, and
+publish them. But the veracity effect and base-rate predictions were her ideas,
+ideas that forever changed the way I understand deception detection. It is not
+an understatement to describe her impact on the social science of deception
+as transformative and revolutionary.
+Although Hee Sun is an exceptionally accomplished researcher and thinker,
+I am older, male, and better known for deception research. There might be
+a tendency for some to presume that I was the main driver in our collaborative work. Here is an example from a few years ago that has stuck with me. I
+know a very senior and accomplished communication professor who is a big
+fan of TDT experiment eighteen. In a conversation we once had, I mentioned
+that the idea was Hee Sun’s. This professor told me in so many words: “No
+way. Everyone knows you are the brains, and Hee Sun is just riding your coattails.” For the record, I am not being modest. The ideas in this chapter originated with Hee Sun Park. She planted them in my head. Maybe I would have
+had them anyway and come to the same conclusions on my own in time, but
+that is counterfactual.
+Today, Dr. Hee Sun Park is a professor in the Media School at Korea Uni-
+
+198
+
+CHAPTER TWELVE
+
+versity in Seoul, South Korea. South Korea is her home country, and KU is the
+top private university in the country. She has published more than a hundred
+journal articles to date. Her main specialties are cross-and intercultural communication (particularly expressions of apology and gratitude) and the statistical analysis of data. Coming up as a new professor, she won several prestigious early career awards from different professional associations. She recently
+became a fellow of the International Communication Association. The point
+here is that she is not some intellectual lightweight. She is among the most
+accomplished communication professors of her generation.
+This story begins with a young Hee Sun Park finishing up her undergradu
+ate degree in communication at Michigan State University, where she took
+a class from Steve McCornack. She came to America as a college student to
+better learn English, and she discovered communication as a topic of study.
+Like me and so many others, she didn’t even know communication was an
+academic field before taking classes in it. Like me, she got hooked. She discovered that communication was the academic field that best captured her interests. So she decided to go to graduate school in communication and learn
+more. She was born to be in academics, and understanding social interaction
+was and still is her calling.
+Hee Sun went to Steve’s office hours to discuss graduate school. Steve recommended University of Hawaii, where I was at the time. My colleagues and
+I had created a top-notch master’s degree program there. Hee Sun applied to
+Hawaii and elsewhere. She got in most places to which she applied, but Hawaii did not initially offer her full-ride funding, while another program did.
+Nevertheless, she chose Hawaii over the program offering guaranteed funding, because she thought she’d get a better education there (based largely on
+Steve’s advice). I met her when she showed up one day in Hawaii, ready to
+start graduate school. She ended up working her way into funding at Hawaii
+as well as winning consecutive top student awards both her years there. It did
+not take long for those of us with an eye for academic talent to spot her. To
+this day, I can’t say that I have taught a better student.
+Her first year in graduate school, I was teaching a seminar in deception, and
+she enrolled in my class. I assigned, among other readings, the Leery Lover
+study described in the previous chapter (TDT experiment thirteen), which Steve
+and I had published a few years earlier. The class read the assigned articles,
+and we discussed them. First-year graduate student Hee Sun Park explained
+to the class that the logic behind our hypotheses was flawed and our interpretation of findings was wrongheaded.
+So here is a new student saying that two of her professors (Steve and I) had
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+199
+
+our logic wrong and that a paper that made it through the peer-review process
+at the top journal in our field was critically flawed. She claimed to see something obvious that Steve and I and the journal editor (Judee Burgoon) and the
+three reviewers had missed. Wow! Really? What are the odds that a first-year
+master’s student understood something about deception that Judee, Steve, I,
+and the rest of the deception researchers at the time had missed?
+I’ve now been a professor for a long time. There have not been a lot of students who have directly challenged me on a point of logic and interpretation
+of results in my own work. Fewer still are the students who had whatever it
+takes to confront me, not only on my own work but on one of the papers I
+thought to be among my better works. Even fewer students turned out to be
+right. The number might be zero if not for Hee Sun Park.
+Here’s the thing, though. Hee Sun was the type of student who read all the
+assigned readings multiple times. She was known to go through the references
+of assigned works and read referenced work to trace back ideas or chase down
+loose ends. When she took a firm position on an idea, she had thought about
+it good and hard, and she had done her homework.
+Honestly, it took me a while to understand Hee Sun’s argument. I was stuck
+in a mental rut of the conventional thinking at the time. I hate when that happens. My thinking was clouded by how deception researchers thought at the
+time and how things were done in the published research of the time. Hee
+Sun didn’t have that indoctrination into the status quo, and she was (and is
+still) an exceptionally good critical thinker able to think outside the box. But
+even though I was initially skeptical of her argument, I took her criticism seriously and reanalyzed our data to check out her point. When I did that, the
+results were just what she predicted.
+I took her argument from that day in class and gave it the label “the veracity
+effect.” I reanalyzed the data from Steve’s and my prior experiments, designed
+a new study, wrote them all up, and published the package as an article in the
+same journal as our original Leery Lover experiments, thereby setting the record straight.1 That paper has become my second-most cited article and my
+most cited paper on the topic of deception (currently with more than three
+hundred Google Scholar citations). This was all because Hee Sun Park took
+me on, didn’t back down, and opened my eyes to a different way of thinking
+about deception detection research findings.
+I was not the only professor at the University of Hawaii that Hee Sun challenged. She polarized the faculty. Several of us thought she was everything an
+ideal graduate student should be. She was exceptionally hardworking, smart,
+insatiably curious, and an original but disciplined thinker, and she loved to de-
+
+200
+
+CHAPTER TWELVE
+
+bate ideas. Today she calls debating ideas “ping-pong.” Ping-pong is verbally
+batting ideas back and forth. She engages her own students in ping-pong.
+When I play intellectual ping-pong with Hee Sun Park, I know to bring my A-
+game. It’s a great way to test ideas. Most of the ideas in this book have been
+ping-pong tested by Hee Sun Park (as well as Steve McCornack, Pete Blair,
+Kim Serota, Tom Hove, René Weber, Torsten Reimer, and Frank Boster, my
+intellectual ping-pong buddies).
+Back to Hee Sun’s story. One good thing about her willingness to argue her
+thoughts is that she quickly gained the respect of those who value that sort of
+thing. Oh, by the way, she changed the trajectory of deception research. Once
+the veracity effect is understood, research findings are interpreted differently.
+Nevertheless, other faculty thought Hee Sun was disrespectful and face threatening. No doubt this perception was all the worse because she was an Asian
+woman who did not act in accordance with the stereotype of the demure Asian
+woman. As a consequence, she also took many lumps from those who didn’t
+appreciate being challenged. Not every professor is open-minded, and not every
+one is secure enough to appreciate smart, thoughtful criticism. Hee Sun even
+had her newly earned funding pulled for a while, until supportive faculty intervened on her behalf.
+Anyway, that’s the story behind the veracity effect. It would not be Hee Sun’s
+only contribution to deception research. Many might even say it’s not her most
+important insight. The story of how Hee Sun changed deception research part
+two is told in chapter 14. I will say that her insights impressed the hell out of
+me! But now I should explain her insight that led to the veracity effect.
+THE VERACITY EFFECT
+In the original Leery Lovers experiment, Steve’s and my reasoning was based
+on the misguided idea that truth-bias and lie-bias would lower accuracy. We
+predicted low accuracy when suspicion was low, because absent suspicion,
+people would be truth-biased. Truth-bias, we presumed, would impair accuracy. As suspicion increased, we reasoned, truth-bias would decline, and accuracy would improve, but only to a point. There would be a sweet spot of
+not-too-much and not-too-little suspicion. Too much suspicion would create
+lie-bias, and accuracy would again decline. Thus, we predicted higher accuracy
+for moderate suspicion than for either low or high suspicion.
+Our results fit our prediction nicely (see the top row in table 11.1). Accuracy was highest under moderate suspicion. Our nonlinear inverted U prediction showed up just as we anticipated. So, we inferred that since the re-
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+201
+
+sults came out just as we had predicted, our thinking that gave rise to our
+hypothesis was right.
+In terms of logic, we predicted that if A (our argument), then B (our findings). We found B. We inferred that since B was obtained, A was correct. Researchers do this all the time. If the data come out as predicted, it is inferred
+that the data came out that way because the reasoning that led to the hypothesis
+is correct. But that is affirming the consequence, a common logical fallacy. Logically, B, of course, can happen for reasons other than A. Affirming the consequence wasn’t Hee Sun’s criticism, but falling for it did make me more confident in our original thinking than I should have been.
+Even prior to Hee Sun’s criticism, there was a warning sign in the data. I
+don’t know if this is what tipped her off. Remember from the last chapter that
+even in the high-suspicion condition, there was no evidence of pervasive lie-
+bias. In our original argument, lie-bias produced the downturn from moderate
+to high suspicion. We found the downturn, just as we expected. But if people
+weren’t lie-biased, why did the downturn occur? We speculated about the reasons for the downturn in the original paper, but that speculation explained
+away the small part of the results that didn’t fit our thinking rather than instigate a full-scale questioning of our original thinking. In hindsight, there is an
+important lesson here about the dangers of confirmation bias and affirming
+the consequence. Confirmation bias is the tendency to interpret evidence in
+such a way that it falls in line with our own preconceptions.
+I would like to think that I am both older and wiser now, but confirmation
+bias is insidious. It is easy to see flaws in others’ thinking, and so much harder
+to see the holes in one’s own thinking. This is why we need to stay vigilant for
+our own intellectual blind spots. It is also why good ping-pong partners with
+diverse knowledge bases are so valuable. I rely on smart people like Hee Sun
+Park and my other intellectual ping-pong buddies to point out the self-serving
+blind spots in my own thinking.
+What Hee Sun pointed out was that our reasoning was based on a false
+premise. Our reasoning rested on the idea that truth-bias and lie-bias would
+lower accuracy. She said this was wrongheaded given the way our experiment
+(and most other experiments) was designed. You see, we (like most deception
+detection experimenters then and now) had exposed the subjects to an equal
+number of truths and lies. We also calculated accuracy by averaging across
+truths and lies. In the Leery Lover experiment, all subjects saw and evaluated
+twelve video segments: six truths and six lies. When there is an equal num
+ber of truths and lies, Hee Sun argued, neither truth-bias nor lie-bias should
+
+202
+
+CHAPTER TWELVE
+
+affect accuracy (presuming accuracy is scored as the number of correct judgments divided by the total number of judgments). She rightly said that truth-
+bias would make people better at getting the honest messages right. At the
+same time, truth-bias makes people miss more lies. The gains and losses
+would balance out when averaging across equal numbers of truths and lies.
+So, neither suspicion nor truth-bias should affect total accuracy when there is
+an equal number of truths and lies. Suspicion should make people better at
+lies and worse at truths and have no effect when averaging across truths and
+lies if truths and lies are equally weighted. To really start to understand what
+is going on, Hee Sun said, we would need to score accuracy for truths and lies
+separately. Do that, she said, and you will see.
+Initially I didn’t really get her point. But after class I went back to my office
+and set about rescoring the data to look at accuracy for truths and lies separately. As you probably guessed, she was, of course, right.
+TDT STUDIES THIRTEEN AND FOURTEEN REVISITED
+In the previous chapter, I presented the Leery Lovers suspicion experiment
+and Rachel Kim’s replication. The results are provided in table 11.1. Both studies show that suspicion reduced but did not eliminate truth-bias. Both studies also found the slightly-better-than-chance accuracy typical of the literature.
+But accuracy was higher in some conditions than others. In TDT experiment
+thirteen (Leery Lovers), accuracy was higher under moderate suspicion (65%)
+than under low (53%) or high (57%) suspicion. In TDT experiment fourteen
+(Rachel’s replication), accuracy was better under low (56%) and moderate (56%)
+suspicion than high suspicion (48%).
+Table 12.1 shows what the results of those experiments look like when accuracy for truths and accuracy for lies are scored separately. These are the same
+data as reported in table 11.1, just scored differently. The first two rows are
+what I saw when I reanalyzed the data the way Hee Sun suggested.
+In the Leery Lovers experiment, when Steve and I scored accuracy across
+truths and lies, overall accuracy across suspicion conditions rounded to 58%.
+When broken down by truths and lies, accuracy for truths was 82% and accuracy for lies was 34%. Total accuracy is the average of truth accuracy and lie
+accuracy (34 + 82 = 116; 116 ÷ 2 = 58). With an equal number of truths and
+lies, this is always the case.
+When looking at table 12.1, probably the most noticeable thing is that accuracies look pretty good for truths but pretty dismal for lies. Truth accuracy is
+always above 50%, sometimes by quite a bit. Accuracy on lies is always below
+50%, sometimes by quite a bit.
+
+203
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+Table 12.1. Results of TDT experiments thirteen and fourteen revisited
+Suspicion
+Outcome Variable
+
+Low
+
+Moderate
+
+High
+
+Across Conditions
+
+TDT experiment 13: College dating couples
+Truth accuracy
+
+84.3%
+
+87.9%
+
+73.5%
+
+81.8%
+
+Lie accuracy
+
+22.5%
+
+37.4%
+
+43.1%
+
+34.3%
+
+TDT experiment 14: Unacquainted college students
+Truth accuracy
+
+84.0%
+
+81.3%
+
+56.8%
+
+73.8%
+
+Lie accuracy
+
+27.3%
+
+30.0%
+
+39.4%
+
+32.3%
+
+So, when the communication was honest, subjects were usually correct.
+When the messages were lies, subjects were usually incorrect. One of the things
+that Hee Sun argued is that whether people are accurate or not depends to a
+huge extent on simply whether a truth or a lie is being assessed. As long as
+someone is truth-biased (and we know from the last chapter that people usually are truth-biased), people are more likely to be right about truths than lies.
+That is, the veracity of the message (whether or not it is honest) is a strong
+determinant of the correctness of a judgment about the veracity of the message. This is the veracity effect.
+The Veracity Effect—The honesty (i.e., veracity) of communication predicts whether the message will be judged correctly. Specifically, honest
+messages produce higher accuracy than lies. The veracity effect results
+from truth-bias.
+Both TDT experiments thirteen and fourteen show strong veracity effects.
+Subjects did much better on the truths than on the lies. In experiment thirteen, it was 82% for truths to 34% correct for lies. In experiment fourteen, the
+split was 74% for truths to 32% for lies. Further, the veracity effect is biggest
+when suspicion is low. Truths are in the eighties, and lies are in the twenties.
+As suspicion increases, truth-bias goes down, and the gap between truth accuracy and lie accuracy gets smaller. The veracity effect gets smaller. But it does
+not go away. This was true in both experiments.
+This was another of Hee Sun’s insights. Truth-bias and suspicion affect accuracy for truths and accuracy for lies in opposite ways that cancel out when
+
+204
+
+CHAPTER TWELVE
+
+we average across truths and lies. Unless accuracy for truths and lies is scored
+separately, what’s going on is obscured. In table 11.1 with overall accuracy averaged across truths and lies, it looks as if experiments thirteen and fourteen
+tell different stories about how suspicion affects accuracy. In Table 12.1, with
+truth and lie accuracy scored separately, we can see that both experiments actually tell the same story. Clarity is achieved.
+TERMINOLOGY
+“Accuracy,” as the term is typically and traditionally used in most (but not all)
+deception detection research, refers to the raw percentage correct for truth–lie
+discriminations. For example, in the Leery Lover study, research subjects saw
+and rated twelve messages. Judges made a dichotomous, forced-choice truth or
+lie judgment for each. Accuracy was scored as the number of judgments each
+subject got correct divided by twelve. It is a percentage-correct score, just like
+scoring a true-false test. It is important to remember that accuracy (defined
+and scored in this way) is an average across truths and lies.
+We could also calculate percentage correct separately for just the truths and
+just the lies (as is done in tables 12.1 and 12.2). I call these scores truth accuracy and lie accuracy. So, we can talk about truth-bias (the percentage of total
+judgments that are truth/honest judgments), truth accuracy (the percentage of
+truthful messages correctly judged as honest), lie accuracy (the percentage of
+lies that are correctly judged as lies), and overall accuracy (or accuracy for short,
+which is the percentage of all messages that are judged correctly). Overall accuracy is the weighted average of truth accuracy and lie accuracy. The weighting
+is equal when truths and lies are equally prevalent or probable. The veracity
+effect takes place when truth accuracy and lie accuracy are different. Truth accuracy is typically larger than lie accuracy, and overall accuracy is halfway between the two.
+Some researchers prefer sensitivity and bias measures from signal detection
+math. But, I prefer accuracy, truth-bias, truth-accuracy, and lie-accuracy. Averages are easier to understand and are accessible to a much wider audience. I
+can safely presume that everyone reading this book understands a simple average, but not everyone knows signal detection math. I further doubt that many
+of the researchers who claim to prefer signal detection metrics really understand it. I think this because if I report accuracy, truth-bias, truth-accuracy, and
+lie-accuracy, then those who know signal detection have all they need to calculate signal detection metrics. The conversions are a simple matter for those in
+the know, but most signal detection advocates I have encountered don’t seem
+to realize this. But the real reason for my preference is more theoretical. I’ll
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+205
+
+come back to the reasons for my preference once the main ideas of this chapter are fully developed.
+WHY, WHEN, AND SO WHAT?
+Table 12.2 summarizes the evidence for the veracity effect in my experiments
+over the years. In every deception detection experiment I have ever done, accuracy for truths has been greater than accuracy for lies. Further, the stronger
+the truth-bias, the stronger the veracity effect. When I correlate the truth-bias
+observed in each prior study with the size of the veracity effect (accuracy of
+truths minus accuracy of lies), the correlation for the twenty-five experiments
+in Table 12.2 is a whopping r = .96. This nearly perfect correlation is graphed
+in figure 12.1 to make the point visually.2
+Before moving on to base-rates, there are five important points I want to (re)
+emphasize regarding the veracity effect. These involve why the veracity effect
+happens, when and how often it happens, and why it is such a game changer
+for understanding deception detection. Once the veracity effect and its implications are fully understood, the findings and conclusions from chapter 3 are
+seen differently. Sweeping claims about chance-level or slightly-better-than-
+chance accuracy must be qualified as applying only to an unusual and arbitrary research-induced situation that departs from most everyday communication experiences described in chapter 9.
+1. Truth-bias causes the veracity effect. Look at figure 12.1 again. The
+horizontal axis of the graph plots the percentage of messages judged
+as honest in each of my experiments. A truth-bias score of fifty corresponds to neither truth-bias nor lie-bias. That is, at fifty, truth
+and lie judgments are equally prevalent (i.e., fifty-fifty). None of
+the plotted results found a lie-bias. If they had, lie-bias would show
+up as a truth-bias score below fifty. If we extrapolate from the line
+formed by the pattern of plotted results, we notice that if there is
+no truth-bias (i.e., truth-bias = exactly fifty), then the corresponding
+value of the veracity effect on the vertical axis is zero. That’s right,
+if there is no truth-bias, there is no veracity effect. On the other end
+of the diagonal (upper right of the graph), if truth-bias was one hundred (all messages judged as honest), the veracity effect would be one
+hundred too. If research participants judged every message as honest, then they would get 100% of the honest messages right and 0%
+of the lies right. The veracity effect (the difference between accuracy
+for truths and accuracy for lies) would be 100% (100%-0% = 100%).
+
+Table 12.2. “The veracity effect” in my research
+Experiment
+
+Truth-Bias
+
+Truth Accuracy
+
+Lie Accuracy
+
+TDT experiment 10
+
+72%
+
+75%
+
+32%
+
+TDT experiment 11
+
+68%
+
+74%
+
+38%
+
+TDT experiment 12
+
+70%
+
+63%
+
+23%
+
+TDT experiment 13
+
+72%
+
+82%
+
+34%
+
+TDT experiment 14
+
+71%
+
+74%
+
+32%
+
+TDT experiment 15
+
+58%
+
+68%
+
+51%
+
+TDT experiment 16
+
+88%
+
+96%
+
+17%
+
+TDT experiment 17
+
+68%
+
+69%
+
+38%
+
+TDT experiment 18
+
+66%
+
+67%
+
+34%
+
+TDT experiment 20
+
+65%
+
+72%
+
+44%
+
+TDT experiment 24
+
+63%
+
+65%
+
+39%
+
+TDT experiment 25
+
+62%
+
+66%
+
+43%
+
+TDT experiment 26
+
+56%
+
+65%
+
+56%
+
+TDT experiment 28
+
+69%
+
+77%
+
+39%
+
+TDT experiment 39 - 441
+
+54%
+
+63%
+
+52%
+
+TDT experiment 45
+
+70%
+
+72%
+
+52%
+
+TDT experiment 46
+
+67%
+
+88%
+
+55%
+
+TDT experiment 47
+
+60%
+
+87%
+
+68%
+
+TDT experiment 48
+
+53%
+
+78%
+
+73%
+
+66%
+
+67%
+
+37%
+
+59%
+
+53%
+
+35%
+
+60%
+
+77%
+
+58%
+
+61%
+
+69%
+
+46%
+
+72%
+
+75%
+
+31%
+
+56%
+
+57%
+
+44%
+
+Group experiment
+
+2
+
+LSS2010 background questions
+LSS2010 direct question
+4
+
+LSS2010B
+
+Probing experiment 1
+
+5
+
+Probing experiment 3
+
+3
+
+1
+
+Control conditions only, averaged across studies.
+
+2
+
+Ernest S. Park, Timothy R. Levine, Chad M. Harms, and Merissa H. Ferrara, “Group and Individual Ac-
+
+curacy in Deception Detection,” Communication Research Reports 19, no. 2 (2002): 99–106, https://doi.org
+/10.1080/08824090209384837.
+3
+
+Timothy R. Levine, Allison Shaw, Hillary C. Shulman, “Increasing Deception Detection Accuracy with Stra-
+
+tegic Questioning,” Human Communication Research 36, no. 2 (April 2010): 216–31, https://doi.org/10.1111
+/j.1468-2958.2010.01374.x.
+4
+
+Timothy R. Levine, Allison Shaw, Hillary C. Shulman, “Assessing Deception Detection Accuracy with Di-
+
+chotomous Truth–Lie Judgments and Continuous Scaling: Are People Really More Accurate When Honesty Is
+Scaled?” Communication Research Reports 27, no. 2 (2010): 112–22, https://doi.org/10.1080/08824090903526638.
+5
+
+Timothy R. Levine and Steven A. McCornack, “Behavioral Adaptation, Confidence, and Heuristic-Based
+
+Explanations of the Probing Effect,” Human Communication Research 27, no. 4 (October 2001): 471–502,
+https://doi.org/10.1111/j.1468-2958.2001.tb00790.x.
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+Figure 12.1. The relationship between truth-bias and the veracity effect.
+
+It has to be this way. The more the truth-bias, the better the performance on truths, and the lower the performance on lies, and the
+larger the difference between truth accuracy and lie accuracy.
+2. Because truth-bias is incredibly robust, so too is the veracity effect. If
+there were no truth-bias, the veracity effect would go away. If there
+were lie-bias, then the veracity effect would flip sign, and accuracy
+for lies would be higher than accuracy for truths. But, as TDT proposition three (chapter 11) tells us, most people believe others’ communication most of the time. Truth-bias is pervasive. Where there
+is truth-bias, there is the veracity effect. As a consequence, accuracy
+for truths is typically higher than accuracy for lies. Recall from chapter 3 that this is just what meta-analysis has found.
+3. Any variable that affects truth-bias will also affect the veracity effect.
+Several variables impacting the extent of truth-bias were discussed
+in the previous chapter. Applying those variables here, the veracity
+effect will be stronger with senders with an honest demeanor,
+people who know each other, when people interact face-to-face, and
+for people who vicariously observe interaction involving questions
+and answers. The veracity effect is weaker with experts, when judges
+
+207
+
+208
+
+CHAPTER TWELVE
+
+are primed to be suspicious, and when senders have less honest demeanors. Variables such as these (demeanor, suspicion, relational
+closeness, face-to-face interaction) have much larger effects on truth-
+bias than truth–lie discrimination and consequently impact the veracity effect more than overall accuracy. That is, these variables increase or decrease the probability that some communication is
+believed independent of whether it should be believed. This means
+that there are many studies out there that are looking for findings in
+the wrong place by focusing on overall accuracy rather than the veracity effect. This also undercuts rival theories like IDT that do not
+recognize the veracity effect and how it plays out in research, especially in face-to-face communication with known others.3
+4. Critically, the veracity effect changes the understanding of the
+well-documented and often-mentioned 54% “slightly-better-than-
+chance” accuracy finding. Recall from chapters 1 and 3 that the average accuracy in deception detection experiments is just under
+54%. Hopefully, it is now clear that “54%” makes a very misleading soundbite. Now that the veracity effect has been explained, we
+can add the critical nuance that is needed to understand what the
+54% does and does not mean. What it does mean is that people are
+54% correct at truth–lie discrimination in tasks involving an equal
+number of truths and lies. It does not mean that people are better
+than chance at detecting lies per se. Because of the veracity effect,
+people are typically worse than fifty-fifty at correctly calling out a
+lie. Because it matters a great deal whether a truth or a lie is being
+assessed, the average across truths and lies (i.e., overall accuracy)
+does not apply to truth accuracy or lie accuracy scored separately.
+The 54% is overall accuracy, and this is often not clear when that
+figure is tossed out as a soundbite. Overall accuracy corresponds
+with lie accuracy only when truth-bias is zero, and truth-bias is almost never zero.
+5. T here is another thing to consider about the 54% accuracy soundbite truth–lie in tasks involving an equal number of truths and lies. I
+call the ratio of truths to lies in a lie detection task the truth–lie base-
+rate, or just base-rate for short. The 54% average accuracy comes
+from studies with fifty-fifty base-rates (equal numbers of truths and
+lies), and the 54% average applies only to the fifty-fifty base-rate environment. If the base-rate changes, so does overall accuracy. As we
+will see shortly, overall accuracy changes very predictably as a result
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+209
+
+of changes in the base-rate. For now, I just want to reiterate a few
+related points about 54% accuracy and base-rates. Fifty-fifty base-
+rates are ubiquitous in deception research. Fifty-fifty base-rates are
+researcher imposed for the sake of “balance” and do not reflect or
+model the base-rates outside research settings (see chapter 9). As I
+said before, 54% does not generalize beyond the artificial, research-
+imposed, fifty-fifty base-rate. Therefore, 54% is a product of the
+lab, not communication outside lab constraints, and if we are interested in deception detection accuracy outside the lab, we had better
+understand how base-rates impact accuracy.
+BASE-R ATES
+I have thought about this a lot, and I still find it stunning that my coauthors
+and I are the only deception researchers who study base-rates and that TDT is
+the only deception theory to prioritize base-rates as an important variable. If
+my claims are true that (a) accuracy findings from studies with fifty-fifty truth–
+lie base-rates do not generalize beyond fifty-fifty base-rates, and (b) fifty-fifty
+base-rates are highly unusual outside the lab, then it follows that (c) findings
+from the lab hold only in the artificial lab settings, and (d) the 54% accuracy
+soundbite is very misleading. One would think that this is important to know.
+Instead, most research continues to be done the way it has always been done,
+and 54% accuracy is tossed out as an undisputed fact that applies to all human deception detection.
+The main impact of the veracity effect paper was that it drew attention to
+the difference between truth accuracy and lie accuracy. After its publication,
+more and more studies started reporting truth accuracy and lie accuracy in addition to overall accuracy. That, I think, is a good thing.
+Here’s the thing, though. I would probably not have ever bothered to do
+base-rate experiments if I did not know about and understand the veracity effect. Base-rate effects follow directly from the veracity effect. Truth-bias causes
+the veracity effect, and the veracity effect causes base-rate effects. Without making these links, it is easy to miss the importance of base-rates.
+The dearth of research on base-rates by people outside my small circle of
+coauthors highlights one of the important but underappreciated aspects of
+good theory: It points us to the important variables. Absent good theory, we
+are liable to look for the wrong things in the wrong places and to overlook
+that which seems obvious once pointed out. Good theory needs to be generative. It points us in a direction that, lacking the theory, we would not have
+thought to go. TDT’s concerns with lie prevalence and truth-bias/truth-default
+
+210
+
+CHAPTER TWELVE
+
+coupled with Hee Sun’s insights into the veracity effect lead us right to the
+importance of base-rates. The reason my team studies base-rates while other
+labs don’t is that my team understands deception through the lens of TDT and
+not one of the cue theories. As we will soon see with the Park–Levine model,
+TDT makes some very precise and very accurate predictions about how base-
+rates affect accuracy.
+Obviously, base-rates vary drastically in different situations. Sometimes,
+base-rates are extreme. If we are thinking about terrorists with bombs at airport
+security screening checkpoints, the ratio of terrorists to non-terrorists is minuscule. These days I travel through the Atlanta airport a lot. Atlanta Hartsfield-
+Jackson Airport claims a quarter million passengers per day.4 That’s more than
+90 million per year. No planes flying out of Atlanta have blown up recently,
+so I infer that none of those 90 million passengers had a bomb with the intent to down a plane. But, one day, some terrorist with a bomb might try to
+slip through. The task of stopping them is the cliché needle-in-the-haystack.
+On the other extreme, my friend and coauthor Pete Blair works with police
+on improving interviewing-interrogation skills and has access to real videotaped interrogations of suspects. In one tape, a murder suspect is being interviewed about a neighbor who was fatally stabbed multiple times. The suspect
+denies any knowledge of the crime and claims to have been asleep the whole
+time. This guy came to be a suspect because the police followed a trail of bloody
+footprints to his door, and inside his apartment found half-washed bloody
+clothes and a bloody knife, among other incriminating evidence. What are
+the chances the suspect is lying about his lack of knowledge about the crime?
+My wife, dressed in gym clothes, just told me she is going to work out. To
+give you a little more information, she left on foot, the gym is a short walk, she
+is serious about her workouts, and we work out at the same gym, so there is a
+good chance I will see her there later, after I write a few more paragraphs. A
+little earlier today I heard an interview with US presidential candidate Donald
+J. Trump. He told the reporter that he doesn’t talk about himself very much.
+This caught my ear because, among other things, he spent most of the interview talking about himself. Listening to a politician being interviewed by an
+aggressive journalist asking tough questions is different from talking to your
+spouse about the day’s plans. Getting pitched by a salesperson is different
+from getting advice from your doctor. As we have learned, lies are usually less
+likely than truths, because most people are mostly honest most of the time. But
+there are those people who lie much more than the rest of us, and there are
+those situations where lies are more likely than difficult truths. One of TDT’s
+insights is that situations are not all the same. Situations and people differ in
+truth–lie base-rates, and these differences matter a great deal.
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+211
+
+According to the logic of TDT, sometimes people are sensitive to base-rates,
+and sometimes people are not. For example, TDT proposition six and the Projected Motive Model specify that people project others’ motivational states and
+adjust their expectations accordingly. In the last chapter, a variety of other trigger
+events were listed. To the extent that a trigger event reflects the actual probability of deception, people are to some extent sensitive to changes in base-rates.
+If there isn’t a sufficiently powerful trigger, the truth-default state will make
+people insensitive to base-rates. People in the truth-default state believe others regardless of the base-rate.
+To be theoretically precise here, according to TDT there are two factors that
+determine sensitivity to base-rates. First, people are insensitive to base-rates
+in the absence of a trigger event due to the truth-default state. That is, people
+in the truth-default state are invariably insensitive to base-rates. They believe
+regardless. Second, even if there is a trigger, and the possibility of deception
+is actively considered, people will still be insensitive to base-rates if there is
+little or no contingency or association between the presence of triggers and
+the presence of deception. People are sensitive to base-rates only when triggers are both present and informative about the actual base-rates.
+One particular situation where people should be insensitive to base-rates
+is in everyday conversation. TDT experiments fifteen and sixteen (from the
+last chapter) showed that absent experimental priming to consider honesty,
+the truth-default state was nearly universal, and the idea that some communication might be deceptive just did not come to mind. In situations like this,
+people are completely oblivious to truth–lie base-rates.
+Another particular place where people should be insensitive to base-rates
+is in typical deception detection experiments. In the type of experiments that
+produce the 54% average accuracy results, triggers prompt active consideration of honesty–deceit, but the triggers are not useful for correctly distinguish
+ing truths and lies. In most experiments, deception motives, situations, and
+prompted suspicion are held constant across truths and lies. People are not
+in the truth-default state because they know they are in a deception detection
+experiment, but the truths and lies all occur in the same situation (e.g., did
+they commit a mock crime? did they cheat?), and suspicion is constant across
+truths and lies.
+TDT EXPERIMENT SEVENTEEN: THE FIRST BASE-R ATE EXPERIMENT
+To review, truth-bias and the veracity effect mean that truth accuracy is higher
+than lie accuracy. So, if subjects in deception detection experiments were shown
+only honest messages, they would get higher accuracy then if we showed them
+only lies. In the Leery Lover data in Tables 11.1 and 12.1, people were 82%
+
+212
+
+CHAPTER TWELVE
+
+correct on just truths, 34% correct on just lies, and 58% correct with a fifty-
+fifty truth–lie mix. But, in that experiment, all subjects saw an equal number
+of truths and lies.
+In TDT experiment seventeen, we experimentally varied the proportions of
+truths and lies.5 Subjects (177 students at the University of Hawaii) watched
+and judged twelve videotaped interviews and were randomly assigned to one
+of three conditions. One-third of the subjects were in a 75% honest condition
+(nine truths and three lies), one-third were in a fifty-fifty condition (six truths
+and six lies), and the remaining one-third were exposed to 75% lies (three
+truths and nine lies). Each subject judged each of the twelve segments as either a truth or a lie, and we scored the judgments for overall accuracy. We predicted that accuracy would be highest with 75% truths, lowest with 75% lies,
+and in between with 50% truths and lies.
+We found a nice big effect for our base-rate induction. The statistical test
+was highly significant (p < .0001), and the effect size was a substantial r = .46.
+Accuracy was 59.5%, 51.9%, and 39.8% for 75%, 50%, and 25% honest base-
+rates, and all three averages were significantly different from one another.
+Two other findings should be mentioned for comparison to later experiments. First, the base-rate induction did not affect truth-bias. That is, subjects
+were insensitive to base-rates. Showing subjects more truths made them right
+more often, but it did not make them guess truth more often. Second, we did
+a test for linearity in accuracy results. That is, we tested the extent to which
+59.5%, 51.9%, and 39.8% form a straight line. The linear decomposition accounted for 98% of the variance in the omnibus effects. What this means is
+that a straight line fit the results very well. These two findings show up in
+all seven base-rate experiments (TDT experiments seventeen through twenty-
+three) I have done to date. Base-rate effects are linear in every experiment, and
+subjects are always insensitive to base-rates in these experiments.
+THE PARK–LEVINE PROBABILITY MODEL
+Due to time (and relevance) constraints, we now skip ahead a few years in Hee
+Sun’s story. After getting her master’s at the University of Hawaii, Hee Sun
+moved on to the University of California, Santa Barbara (UCSB). Not long after
+that, I accepted a faculty position at Michigan State University, where I stayed
+for twelve years. While at UCSB, and against faculty advice, Hee Sun started
+taking classes in math and mathematical statistics. She was told that math has
+little to do with communication. All she needed was the pull-down menus in
+the statistical software and to know where to look on the printouts. That is all
+many quantitative communication researchers want to know about statistics.
+But Hee Sun didn’t (and still doesn’t) see it that way. So while maintaining a
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+213
+
+full load of doctoral classes in communication and teaching a full graduate assistant load of classes, she also was taking a second full load in math and statistics. Among the first payoffs was the Park–Levine Probability Model. As it
+turns out, math can inform communication theory and research. Math is the
+language of science whether social scientists want to admit it or not.
+In the beginning of a basic probability class in math (it may well have been
+basic, but the prerequisites for enrollment were four years of college-level calculus plus advanced linear algebra), Hee Sun and the other students were
+learning some theorems related to conditional probabilities. Ever the integrative thinker, Hee Sun thought something like “Oh! This would apply to the veracity effect and overall accuracy at different base-rates.” She called me and explained it; I did a little reading in basic probability to get up to speed, and we
+set out writing it up for a communication audience. We sent the paper off to a
+top journal in the field, and our paper was accepted.6 The paper laid out and explained what has come to be known as the Park–Levine Probability Model, which
+is another module in TDT dealing specifically with accuracy and base-rates.
+The Park–Levine Probability Model—Because honest messages yield
+higher accuracy than lies (i.e., the veracity effect), the proportion of truths
+and lies (base-rates) affects accuracy. As long as people are truth-biased,
+as the proportion of messages that is honest increases, so does average
+detection accuracy. This relationship is linear and predicted to be the accuracy for truths times the proportion of messages that are true plus the
+accuracy for lies times the proportion of messages that are lies.
+The Park–Levine Probability Model is a formula for predicting overall accuracy in deception detection experiments at different base-rates. As previously mentioned, overall accuracy is the proportion of truth–lie discriminations that are correct, truth-accuracy is the proportion of truthful messages
+correctly judged as truthful, and lie accuracy is the proportion of lies correctly
+judged as lies. P(T) is the proportion of messages that are truthful and P(L) is
+the proportion that are lies. P(T) and P(L) sum to 100% and reflect the truth–
+lie base-rate. The Park–Levine formula is:
+Overall Accuracy = [Truth Accuracy × P(T)] + [Lie Accuracy × P(L)]
+So, using the numbers from the Leery Lover experiment in tables 11.1 and
+12.1, we have:
+.58 = (.82)(.5) + (.34)(.5)
+
+214
+
+CHAPTER TWELVE
+
+Table 12.3. Using the Park–Levine Model to
+forecast accuracy at different base-rates using the
+Leery Lover results from TDT experiment thirteen
+Base-Rate
+
+Calculation
+
+Predicted Overall Accuracy
+
+100% honest
+
+(.82)(1.00) + (.34)(.00)
+
+82%
+
+90% honest
+
+(.82)(.90) + (.34)(.10)
+
+77%
+
+75% honest
+
+(.82)(.75) + (.34)(.25)
+
+70%
+
+50-50
+
+(.82)(.50) + (.34)(.50)
+
+58%
+
+75% lies
+
+(.82)(.25) + (.34)(.75)
+
+46%
+
+90% lies
+
+(.82)(.10) + (.34)(.90)
+
+39%
+
+100% lies
+
+(.82)(.00) + (.34)(1.00)
+
+34%
+
+Overall accuracy was 58%, or .58, truth accuracy was .82, lie accuracy was
+.34, and P(T) and P(L) were both .5, since the experiment used the ubiquitous
+fifty-fifty base-rate. But what if the base-rate were different? Six different projections are provided in table 12.3 to demonstrate how the Park–Levine formula works. As you can see, the more the base-rate tips toward more truths
+than lies, the higher the overall accuracy. The greater the proportion of lies,
+the lower the accuracy. But just how accurate are these projections?
+Here are a few things about the Park–Levine predictions. If we plotted the
+predicted overall accuracy in Table 12.3, we could see that all the values fall
+perfectly on a straight line. Park–Levine predicts that accuracy is a linear function of truth–lie base-rates. Further, the steepness of the slope is a function
+of truth-bias. If there were no truth-bias, the line would be flat. The larger the
+truth-bias, the steeper the slope. In the Leery Lover projections in Table 12.3,
+subjects were quite truth-biased, so the veracity effect was concomitantly strong
+and the slope of the base-rate effects relatively steep.
+TDT EXPERIMENT EIGHTEEN: ACCURACY IS A
+PREDICTABLE LINEAR FUNCTION OF BASE-R ATES
+Moving ahead in the story again, Hee Sun completed her PhD at UCSB and
+got a job as a new tenure-track Assistant Professor at Michigan State University. About the same time, Rachel Kim had finished her MA at the University
+of Hawaii. She had been an undergraduate student of mine at Hawaii at the
+same time Hee Sun was an MA student there. I successfully recruited Rachel
+to MSU to work on her PhD under my direction, and Rachel became my lab
+supervisor. Also about this time, we secured funding from the National Science
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+215
+
+Foundation to start creating the cheating tapes introduced in chapter ten and
+TDT experiment eight. The cheating tapes provided us a good way to give the
+Park–Levine formula a serious test. We wanted to find out just how good the
+Park–Levine formula is at projecting accuracy across base-rates.
+At this point, let me introduce the twin ideas of confirmatory research and
+risky (vs safe) tests. The vast majority of quantitative social and health science
+research today uses a family of inferential statistical techniques called null
+hypothesis significance tests (NHST), or just significance testing for short.
+With NHST, research predictions are tested against a nil-null hypothesis of
+no difference or no effect. When researchers say a finding is “significant” or
+“p < .05,” what this means statistically is that the obtained finding is less than
+5% likely, presuming that there were no effect at all.7 The logic is, if we can
+statistically show that the straw man hypothesis of no effect whatsoever is improbable, then there is probably some difference between the experimental
+groups or some non-zero statistical relationship between the variables. With
+NHST, simply not-zero translates into proof that a research hypothesis is right.
+It is my opinion that the sort of statistical evidence that NHST provides is
+pretty weak and far from risky. The bar to pass for supporting a hypothesis
+is just ruling out zero. Any finding where zero is unlikely is significant and
+counts as support. That is not a very high bar. If the research involves a large
+enough sample size, support is pretty much guaranteed, because, in social science, pretty much everything is related to everything else at least a little bit.
+Think of it this way. The null hypothesis is a “point prediction.” It is exactly zero. In NHST, the research hypothesis expresses a wide range of values,
+everything that is other than zero. If zero is ruled out as statistically improbable
+given the data, then the research hypothesis is supported.
+Confirmatory tests work in a way that is opposite from the logic of NHST.
+In confirmatory research, the research hypothesis makes a point prediction.
+If the data are such that the predicted value is within the margin of error of
+the observed finding, the research prediction is sustained. The hypothesis is
+said to be consistent with the data. All values, zero or otherwise, outside the
+margin of error are inconsistent with data. In this way, confirmatory tests require much more precise predictions and are much more risky than NHST.
+In NHST predictions can be wrong and still supported so as long as the findings are anything but zero. In risky, confirmatory tests, the bar is set much
+higher. The predictions are precise, and if the predictions are wrong, the data
+are much less likely to provide spurious support. I always wanted to have predictions precise enough for point predictions and a risky confirmatory test.
+TDT experiment eighteen and the Park–Levine formula gave me the chance.
+Here is what we did.8 We had the first set of NSF cheating tapes where
+
+216
+
+CHAPTER TWELVE
+
+ achel was the confederate, Mikayla Hughes was the interviewer, and I was
+R
+the experimenter. The set of tapes we were working with contained seven lies
+(false denials of actual cheating) and fifteen honest interviews (truthful denials). The average duration was about two minutes per interview.
+From these tapes, we first created a “control set” using all seven lies and
+seven randomly selected truths, thus giving us fourteen segments with a typical
+fifty-fifty base-rate. Next we created a 100% lie set of tapes using all seven lies
+from the control set with all the truths removed. Once we had the all-lie set,
+we proceeded to create sets of seven interviews with all possible different base-
+rates. From the seven lies, we randomly chose one to remove and replaced
+that with a randomly selected honest interview from the control set. This was
+repeated without replacement until we had eight sets of interviews ranging
+from seven to zero lies plus the control set.
+Next, we recruited 463 students to be judges in our experiment. Subjects
+were randomly assigned to one of nine experimental conditions: either the
+fourteen interview, fifty-fifty base-rate control group or one of the eight base-
+rate conditions with seven interviews ranging from seven to zero lies. We
+scored the judgments in the control group for truth accuracy and lie accuracy,
+and we scored the judgments in the various base-rate groups for overall accuracy and truth-bias.
+We predicted that subjects would be least accurate when they viewed 100%
+lies, they would score highest in the 100% truth group, and that the base-rate
+groups would show a linear increase in accuracy as the proportion of honest
+messages was incrementally increased. We also expected insensitivity to base-
+rates. That is, accuracy would increase, but truth-bias would be flat across
+base-rates.
+In the fifty-fifty control, truth-bias was 66.1%, overall accuracy was 50.7%,
+truth accuracy was 67.1%, and lie accuracy was 34.3%. Accuracy scores in
+the eight base-rate conditions were (from 0% honest to 100% honest): 36.4%,
+35.6%, 39.2%, 47.5%, 56.0%, 56.6%, 58.8%, and 65.1%. The base-rate effect
+on accuracy was statistically significant and large, p < .001, r = .49. The test of
+linearity was also statistically significant and large, p < .001, r = .47. The linear
+decomposition accounted for 95% of the omnibus base-rate effect. The deviation from linearity was not significant. Truth-bias did not vary across base-rate
+conditions, r = .00.
+But here is the really cool thing. We took the truth accuracy and lie accuracy from the control group and plugged them into the formula along with
+the base-rates that we experimentally changed to predict the accuracy in each
+of the eight experimental groups. We compared the resulting calculations to
+
+217
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+Table 12.4. TDT experiment eighteen results:
+Accuracy is a predictable linear function of base-rates
+Base-Rate (% honest)
+
+Calculation
+
+Prediction
+
+Actual Result
+
+100%
+
+(.67)(1.00) + (.34)(.00)
+
+.67
+
+.65
+
+86%
+
+(.67)(.86) + (.34)(.14)
+
+.62
+
+.59
+
+71%
+
+(.67)(.71) + (.34)(.29)
+
+.57
+
+.57
+
+57%
+
+(.67)(.57) + (.34)(.43)
+
+.53
+
+.56
+
+50% (control)
+
+.51
+
+43%
+
+(.67)(.43) + (.34)(.57)
+
+.48
+
+.48
+
+29%
+
+(.67)(.29) + (.34)(.71)
+
+.44
+
+.39
+
+14%
+
+(.67)(.14) + (.34)(.86)
+
+.39
+
+.36
+
+0%
+
+(.67)(.00) + (.34)(1.00)
+
+.34
+
+.36
+
+the actual results in each of the conditions with different base-rates. The calculations, predictions, and results are in table 12.4 and graphed in figure 12.2.
+The predictions were not perfect, but they were all close. All eight of the actual results came within 5 points of the predictions, and on average, the predictions were off by only 2.5 points. All the predicted values fell within the
+margins of error around the obtained results.
+Based on the predicted values, the formula for the line was:
+Accuracy = .34 + .33 (base-rate)
+When we use linear regression to fit a line to the actual data, the line was:
+Accuracy = .34 + .32 (base-rate) + error
+As you can see, both the slope and the y-intercept of the line best fitting the
+findings closely approximate the line predicted based on the control group results and the base-rate experimental induction. We titled our paper accordingly:
+“Deception Detection Accuracy Is a Predictable Linear Function of Message Veracity Base-Rates.” We published these results in Communication Monographs
+in 2006. In 2007 the article received the Franklin H. Knower Article Award
+from the Interpersonal Division of the National Communication Association.
+TDT experiment eighteen shows several important things. It replicates the
+linear base-rate effects of TDT experiment seventeen with different research
+
+218
+
+CHAPTER TWELVE
+
+Figure 12.2. Predicted and actually observed accuracy as a function of truth-lie
+base-rate in TDT experiment eighteen.
+
+subjects viewing different types of truths and lies and using a wide range of
+base-rates. In both studies the effects were linear, the deviation from linearity
+was not statistically significant, and subjects were completely insensitive to
+base-rates. TDT experiment eighteen added a risky confirmatory test of the
+Park–Levine Probability Model, and the model passed beautifully. But most importantly, TDT experiment eighteen shows (a) base-rates matter a great deal,
+and (b) truth-bias is adaptive in environments where honesty is more prevalent than deception.
+TDT EXPERIMENTS NINETEEN, TWENTY, AND TWENTY-O NE:
+THE INTERACTIVE BASE-R ATE EXPERIMENTS
+Before getting into the rest of the base-rate experiments, I want to say a few
+words about replication and generality. Throughout the book, I have asserted
+the importance of replication many times. Good scientific findings are reproducible, period. The next five experiments (presented in two sets) bring my total number of base-rate experiments to seven. While there is not some magic
+number of replications I seek, I am to the point where I am sufficiently con-
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+219
+
+fident about how and why base-rates play out in deception detection experiments.
+So, why do I go through all the effort to replicate, replicate, replicate? There
+is more to it than just good scientific practice, although that is part of my motivation. Part of it is just for my own peace of mind. I want to have confidence
+in my findings and claims. Part of it is persuasion. If I can show that my findings replicate consistently, then others are more likely to accept my claims
+and evidence.
+A big part of my insistence on replication is my personal experience (or more
+often that of graduate students working under my direction) of failing to replicate others’ work. I talked in chapter 2 about deception-cue findings failing to
+replicate. The problem is bigger than that. A paper recently published in Science showed that 60% (almost two-thirds!) of experiments in top psychology
+journals fail to replicate.9 Yikes! Psychology is currently in a replication crisis,
+and no doubt the situation is not much better in other health and social sciences. So insistence on replication is prophylactic. I don’t want to be part of
+the problem, and I want to be a positive scientific role model.
+In my view, the replication crisis has two main causes. The first has to do
+with NHST, questionable research practices, and publication bias. The basic
+idea is that there are lots of tricks to getting p < .05 findings, like doing lots
+of tests but reporting only the significant ones. This makes the findings look
+stronger than they really are. Journals are more likely to publish supportive
+work, and this makes the problem worse. Over the past decade I have become
+increasingly cynical about research practices. I don’t think it is outright fraud
+or deception, but I think current practice creates an environment where research findings don’t replicate. I think there are lots of authors out there playing the just-get-published game, and the net result is findings that are less
+likely to replicate.
+There is a second, much less cynical, reason why many findings don’t replicate. Some findings are just temperamental and fragile by nature. The findings are “real,” but they hinge on a constellation of factors that are not understood. When the stars align, so to speak, the findings are there. Sometimes
+the stars align by chance in a study. Other times, researchers have figured out
+how to align them by trial and error. In either case, an experiment needs to
+be done exactly the right way. Change a little seemingly trivial detail here or
+there, and the results are different. That is, some effects are more situationally variable than others.
+I have in mind a continuum with fragile (ephemeral) findings on one end
+and very robust findings on the other end. Robust findings usually come out;
+
+220
+
+CHAPTER TWELVE
+
+if you change up the research design, no matter. I have very intentionally built
+my theory on a foundation of robust findings. The more stable my foundation,
+the better. This is why I replicate, replicate, replicate with intentional variation
+in research design from study to study. I not only want findings that replicate;
+I want robust findings that hold up under a variety of conditions. I want to be
+sure I am building on a solid foundation.
+TDT experiments nineteen, twenty, and twenty-one sought to replicate TDT
+experiments seventeen and eighteen in a face-to-face setting.10 The previous
+two experiments involved watching videotaped interviews. Experiments nineteen to twenty-one involved live interaction with truths and lies about autobiographical information. The judges either asked the interview questions or
+observed the interaction from across the room. Either way, it was all done in
+real time. Also, the senders and judges were either strangers or previously acquainted. We predicted that in live interaction the same linear base-rate effects would be observed as were previously observed with videotape, and that
+the linear effects would hold for participants and observers and for friends
+and strangers alike.
+Experiments nineteen through twenty-one were done over a couple years
+in the communication interaction lab at Michigan State University. Respectively, the subjects were 120, 205, and 243 students at MSU. Scheduling was
+done such that at least two subjects came to the lab for each session. In experiment nineteen, subjects were scheduled individually and did not know the
+other participants scheduled at the time. In experiments twenty and twenty-
+one, subjects were asked to bring a friend. We kept track of who knew each
+other and who didn’t.
+Subjects in the experiments were randomly assigned to one of three roles:
+sender, interviewer, or observer. If there were just two subjects for any given
+session, there were just senders and interviewers. That was the minimum.
+If more than two subjects showed, all those not selected as the sender or the
+interviewer were made observers. The interviewers asked the senders questions, the senders answered (sometimes truthfully, sometimes lying), and the
+observers looked on. Interviewers and observers judged each of the sender’s
+answers as a truth or lie, and we scored each interviewer and each observer
+for truth-bias and accuracy.
+Senders got their instructions in a different room from the interviewers and
+observers. Senders first wrote truthful answers to ten autobiographical questions. Examples included a favorite vacation, if the sender had pets, number
+and ages of siblings, career aspirations, and the like. Once all questions were
+honestly answered in writing, the sender was randomly instructed to lie when
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+221
+
+answering anywhere from zero to all ten of the quesstions. They were given
+an instruction sheet to lie on such and such questions and answer honestly
+on such and such questions. It was fully randomized as to the number of lies
+and which question was lied about. If two different senders were randomly
+assigned to lie three times, they would not be lying in response to the same
+three questions.
+The researcher collected the honest answers to verify that during the interview the sender really lied as instructed. Senders were told to be as believable
+as possible, and, as an incentive, they could win a cash prize. The more often
+they were believed, the more money they won. Then senders were brought
+to the interview room where the interviewer and observer(s) waited.
+Interviewers asked the ten questions one at a time, and interviewers and observers judged each response as a truth or a lie. As an incentive, interviewers
+and observers could earn a cash prize, depending on how many they got right.
+Higher accuracy paid better. Interviewers and observers were told that senders might be lying on some or all answers, but answers might be truthful too.
+Any number of truths and lies were possible. After the game, truth-bias and
+accuracy was scored on the spot, and cash was paid out based on real performance. The subjects in these experiments found the task fun and engaging.
+The base-rate induction had significant and large effects in all three experiments, p < .001 and r = .69, .65 and .50. In all three, the linear decomposition
+was significant, and the deviation from linearity was not significant. The linear
+base-rate held for interviewers and observers and friends and strangers. Base-
+rate effects appear robust.
+TDT EXPERIMENTS TWENTY-T WO AND TWENTY-T HREE:
+THE KOREAN BASE-R ATE REPLICATIONS
+In the two most recent replication experiments,11 we returned to the cheating tapes, but this time we used interviews from the second set of tapes with
+Lauren Hamel as the interviewer and shorter, twenty-second, segments. By the
+time we did experiments twenty-t wo and twenty-three, Hee Sun and I were on
+the faculty at Korea University in Seoul, and the subjects in the experiments
+were students at Korea University. The tapes they watched were MSU students denying cheating.
+Experiment twenty-two involved 133 subjects who saw and rated eight interviews, of which either 25%, 50% or 75% were honest. Experiment twenty-three
+had 121 new subjects judge six interviews (different from the interviews used
+in the previous experiment), which were either 0%, 50%, or 100% honest.
+Both experiments found the expected linear base-rate effects. As with all
+
+222
+
+CHAPTER TWELVE
+
+previous studies, the deviations from linearity were again not significant. This
+was true for both studies individually and when the results were pooled. Once
+again, subjects were insensitive to base-rates. These data show that the linear
+base-rate effects extend to an intercultural setting.
+IMPLICATIONS OF THE BASE-R ATE EXPERIMENTS
+TDT experiments seventeen through twenty-three show a remarkably consistent pattern of results. All seven experiments show the same linear pattern.
+As the proportion of messages becomes increasingly honest, accuracy at distinguishing truths from lies improves proportionally. This happens because
+of truth-bias and the veracity effect and because, in deception detection experiments, people are insensitive to base-rates.
+Although I hope it is now obvious, let me try to succinctly summarize why
+the base-rate experiments are so important for TDT. Its core claim is that truth-
+bias and the truth-default are adaptive. The truth-default works well for us as
+individuals and as a species. In chapter 9, TDT studies one through five on lie
+prevalence showed that most people are mostly honest most of the time. If we
+think about those findings as evidence for base-rates outside the lab, what that
+means is that in everyday communication settings, the truth–lie base-rates are
+tipped heavily in the direction of mostly honest. Deception is infrequent relative to honest communication.
+What TDT base-rate experiments seventeen through twenty-three all show
+is that accuracy improves substantially as the base-rates move away from the
+artificial fifty-fifty base-rates of the lab and move closer to everyday life. The
+54% accuracy finding from chapter 3 applies to situations where truths and
+lies are equally probable. But in everyday communication situations, where
+lying is less frequent than it is in a lab, truth-bias works well for us. The base-
+rate experiments show this. Reliable linear base-rate effects are a big win for
+TDT, because TDT is the only deception theory that emphasizes base-rates, the
+seven experiments all show the hypothesized base-rate effects, and the base-
+rate effects show the utility of truth-bias outside the lab.
+This past summer, I gave a talk at SARMAC (Society for Applied Research
+in Memory and Cognition) in Victoria, British Columbia. The title of my talk
+was “Truth-Bias: Who Is Biased, Subjects or Deception Researchers?”12 In it,
+I tried to make the points I am making here. Yes, subjects are truth-biased.
+They think messages are truthful more often than they are in deception detection experiments, with the researcher-imposed fifty-fifty truths and lies. But
+subjects’ responses in experiments match the base-rates outside the lab much
+better than the researcher-imposed base-rates in the lab. Maybe, I argued, it’s
+
+VERACITY EFFECT AND TRUTH–LIE BASE-RATES
+
+223
+
+not the subjects who are biased. Subjects are put into an artificial environment where lies are much more prevalent than in normal life; then, when subjects respond in ways that more closely mirror real communication situations
+than in the lab, the researchers conclude that it is the subjects who are biased.
+Really? I argued that maybe we researchers should be a little more self-critical
+and a bit more concerned with the ecological validity of research. Maybe we
+researchers should ask ourselves why we design our experiments to be so unrealistic and why are we so blind to the fact that we are doing so.
+Base-rates along with instructed lies (see chapter 10 for that rant) are among
+my biggest concerns about ecological validity in deception research. The base-
+rate experiments clearly show that 54% accuracy does not generalize beyond
+fifty-fifty truths and lies. If we want findings to apply to everyday situations, we
+need a better understanding of the prevalence of deception in different situations and of how different base-rates impact findings.
+After my SARMAC talk, during the Q & A, one researcher asked me a very
+good question. Unfortunately, I did not answer it very well, and I am afraid I
+was dismissive. I have been stewing about a better, more thoughtful answer
+ever since. The question was about the meaning of “accuracy,” and it came
+from a signal-detection perspective. The point of the question was that raw
+accuracy may be a larger number when the base-rate tips toward more honest messages, but because subjects are insensitive to base-rates, it is misleading to say they are more “accurate.” Sure, they get a higher percentage correct, but that is mere capitalization on chance. In terms of the relationship
+between being correct and chance, the higher percentage correct with more
+truthful messages is just the same slightly-better-than-chance accuracy we see
+at the fifty-fifty base-rate.
+Here is my do-over. It really comes down to what we mean by “accuracy.”
+There are two distinct views here. In one view, reflected in inter-coder relia
+bility statistics or sensitivity metrics in signal detection, someone is accurate
+to the extent that they are better than chance. From this perspective, if you always say “heads” when flipping a two-headed coin, you are not accurate. There
+is no skill needed. You can just play the odds.
+The way I am using the term “accuracy” is more naive. It is just whether
+you are right or not. You make a correct pick, you win. It does not matter if it
+was skill or luck. It is kind of like different ways of playing billiards. Do you
+have to call your shot in advance, or are “slops” allowed?
+I have been thinking about this a lot, especially the implications for TDT
+logic. My idea is that the truth-default evolved because it was adaptive. It does
+not matter that it exploits chance. In fact, that is the point. We evolved the
+
+224
+
+CHAPTER TWELVE
+
+way we did because this way chance works in our favor. Evolving the cognitive
+ability to beat chance is expensive. Adapting to chance is so much more efficient. But this view rests on a particular meaning of accuracy. No doubt many
+smart people will object to my use of the word “accuracy.”
+The final point I want to make about the base-rate experiments is that finding that people are insensitive to base-rate kills interpersonal deception theory
+(IDT) dead. This is unequivocal falsification. As mentioned in chapters 4 and
+5, IDT is predicated on people being sensitive to the truthfulness and deceptiveness of others’ communication. Sensitivity to deception starts the cat-and-
+mouse sequence of target suspicion and sender adaptation. In the TDT view,
+in contrast, except for the very specific conditions outlined in this chapter and
+chapter 14, people are oblivious to the veracity of others’ communication.
+SUMMARY
+This chapter describes the veracity effect, the Park–Levine Probability Model,
+and our research on linear base-rate effects. The veracity effect is the finding
+that the veracity of the sender’s message affects the correctness of the judge’s
+inferences about honesty and deceit. As long as people are truth-biased, truth
+accuracy is greater than lie accuracy. Accuracy for truths is typically much higher
+than 50%; accuracy for lies is usually below 50%.
+The veracity effect gives rise to base-rate effects. Almost all prior deception
+research involves an equal number of truths and lies. Research using fifty-fifty
+base-rates yields the often-cited 54% average accuracy. But changing the ratio
+of truths and lies in experiments changes accuracy in very predictable ways.
+The more truths relative to lies, the higher the accuracy.

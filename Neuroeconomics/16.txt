@@ -1,0 +1,905 @@
+Chapter 16
+Neuroeconomic Approaches
+in Mental Disorders
+
+S. Lis and P. Kirsch
+
+
+
+
+Abstract Approaches from neuroeconomy have recently received increased
+attention in the investigation of mental disorders. In this chapter, we will give an
+overview of concepts and paradigms from neuroeconomics that have been applied
+in different mental disorders and summarize ﬁrst results in this emerging ﬁeld. We
+focus, thereby, on ‘social decision-making’ which constitutes one of the main
+concepts of neuroeconomy. First ﬁndings suggest that these approaches may prove
+to be promising research tools in the investigation of social functioning, which is a
+prominent symptom domain in many mental disorders. In contrast to self- and
+observer-based questionnaires that have provided information on how interaction
+behaviour is subjectively perceived by the patients themselves or their social
+environment, the variety of exchange games from behavioural economy allow for a
+direct and, thus, unbiased assessment of interaction behaviour. So far, ﬁndings
+suggest that neuroeconomic tools are suited to uncover alterations in social inter-
+action behaviour in mental disorders, such as anxiety disorders, depression, bor-
+derline personality disorder, attention-deﬁcit/hyperactivity disorder, but also
+schizophrenia and autism. However, the investigation of social interaction beha-
+viour in mental disorders poses particular challenges. Deﬁcits in basal or complex
+cognitive functions, such as working memory, deﬁcits in basal social cognitive
+processes, such as the recognition of emotional facial expressions and a lower
+socioeconomic status due to long periods of illness and unemployment can be
+assumed to affect interaction behaviour. These have to be disentangled for the
+purpose of characterizing social decision-making in mental disorders and under-
+standing the causes underlying its alterations. The combination of neuroeconomic
+
+
+S. Lis (&)
+Institute of Psychiatric and Psychosomatic Psychotherapy,
+Central Institute of Mental Health, Medical Faculty Mannheim,
+University of Heidelberg, Mannheim, Germany
+e-mail: stefanie.lis@zi-mannheim.de
+P. Kirsch
+Department of Clinical Psychology, Central Institute of Mental Health,
+Medical Faculty Mannheim, University of Heidelberg, Mannheim, Germany
+e-mail: Peter.Kirsch@zi-mannheim.de
+
+© Springer-Verlag Berlin Heidelberg 2016                                         311
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_16
+312                                                                S. Lis and P. Kirsch
+
+approaches and their elaborated quantitative models with methods from experi-
+mental psychology und cognitive neurosciences seems a promising avenue to
+achieve this goal.
+
+
+
+16.1    Introduction
+
+Neuroeconomics has been deﬁned as a discipline originated by merging economics,
+psychology and neuroscience (Glimcher and Rustichini 2004), combining their
+theoretical and methodological approaches. From behavioural economics, this new
+discipline inherited the demand to deﬁne a uniﬁed theory of human
+decision-making or even human behaviour. However, when taking mental disorders
+and the related altered behaviours into account, it becomes obvious that this
+demand is almost unapproachable within this context. Clinical sciences are far away
+from deﬁning single theories which account for all behavioural alterations, even
+when only focusing on one particular mental disorder. Therefore, it is obvious that
+neuroeconomic approaches to mental disorders cannot provide theories explaining
+their whole etiology. However, with the emergence of neuroeconomics, a number
+of central concepts, mainly adopted from economics, came into the focus of neu-
+roscience. These may provide a theoretical and methodological framework and,
+therefore, be of great value when describing impaired behaviours in patients suf-
+fering from mental disorders and searching for their neurobiological underpinnings.
+    A variety of avenues by which neuroeconomic approaches can foster the
+investigation of alterations in decision-making and its cerebral correlates in mental
+disorders are discussed in a recent series of commentaries addressing disorders,
+such as depression (Ernst 2012), anxiety disorders (Hartley and Phelps 2012),
+addiction (Monterosso et al. 2012) and attention-deﬁcit/hyperactivity disorder
+(Sonuga-Barke and Fairchild 2012). A comprehensive review on the usability of
+neuroeconomics for psychiatric research (Hasler 2012) characterized these central
+concepts, such as utility, expectation, uncertainty and gain-loss-asymmetry in
+relation to mental disorders. Hasler (2012) outlined the link between speciﬁc
+neuroeconomic parameters and behavioural correlates which bear a special
+importance within the context of different mental disorders. These parameters, such
+as speciﬁc coefﬁcients of value function, time discounting function or utility
+function, rely on a broad database of studies in healthy subjects. They constitute not
+only speciﬁc quantitative measurements of behaviour, but also allow for linking
+them to certain neurobiological systems, such as speciﬁc cerebral structures or
+neurotransmitter systems.
+    Three different main domains can be distinguished in neuroeconomics: ‘social
+decision-making’, ‘decision-making under risk and uncertainty’ and ‘intertemporal
+choice’ (Loewenstein et al. 2008). From these domains, social decision-making has
+attracted most attention in the context of psychiatric research. However, the
+methodology to investigate this domain of functioning still needs to be developed. It
+can be assumed that neuroeconomic approaches will be able to ﬁll the gap by
+16   Neuroeconomic Approaches in Mental Disorders                                   313
+
+providing ecologically valid paradigms that allow the probe of those functions
+regarded as crucial for most mental disorders (Sharp et al. 2012): Alterations in
+social interaction constitute a signiﬁcant symptom domain, e.g. in social phobia or
+borderline personality disorder (BPD), they modulate the extent of symptoms
+within other domains of psychopathology, or affect recovery and long-term out-
+comes (see King-Casas and Chiu 2012). This chapter will, therefore, focus on the
+application of neuroeconomic approaches to social functioning in mental disorders.
+    The importance of alterations in social cognition for the psychopathology, and
+especially for the often pronounced impairments of everyday functioning in the
+context of mental disorders, has been noticed with growing interest during the last
+years. Recently, it has been emphasized that the study of social cognition should be
+extended to a second person perspective (Schilbach et al. 2013): it allows to take
+into account that particular social cognitive deﬁcits in mental disorders might only
+be observable in real interpersonal interactions as they are used in neuroeconomic
+games. However, the possible usefulness of neuroeconomic approaches, particu-
+larly using the approach of social exchange games, to study social decision-making
+received attention only very recently. Due to this, the number of available studies
+that apply such games in the investigation of mental disorders remains sparse. This
+particularly holds true when compared to the boom of these approaches in the social
+neurosciences in general. However, the interest in these approaches is momentarily
+drastically increasing which becomes evident in the growing number of both
+empirical studies and theoretical papers that emphasize the usefulness of these
+approaches for the understanding of mental disorders in the context of cognitive,
+affective and social neuroscience (Kishida et al. 2010; Hasler 2012; Kishida and
+Montague 2012; Sharp et al. 2012).
+    Beyond the availability of well-founded computational models of social
+exchanges, these approaches may constitute ecologically valid and well-deﬁned test
+settings to study single social cognitive processes and their importance for social
+interactions. Social exchanges require a multitude of different cognitive, affective
+and social processes. Thus, Carter (2012) emphasized that social ‘choice behaviour
+relies on the integration in the brain of a diverse array of specialized processes that
+vary according to changing context’ (see also Loewenstein et al. 2008). With that,
+neuroeconomic approaches allow the study of single speciﬁc social cognitive
+functions, such as emotion recognition processes or mentalizing that are assumed to
+be altered in mental disorders. However, alterations of these processes are here
+investigated in a complex interplay with other processes during social interactions.
+This is in contrast to analyzing them in isolation in a highly artiﬁcial manner as it is
+done, e.g. in traditional multiple choice emotion recognition tasks. Beyond the
+consideration of speciﬁc social cognitive processes being part of a complex func-
+tional network, this approach extends the study of social cognition by taking the
+goal, i.e. the ‘why’, of processing into account in that it investigates overt or covert
+behaviour within a speciﬁc social interaction context (Willems 2011).
+    Interestingly, while there are a number of recent behavioural studies using social
+exchange games in clinical research, only a small number of them have applied
+neuroscientiﬁc methodology. In the next section, we will summarize the ﬁndings
+314                                                                 S. Lis and P. Kirsch
+
+separately for a number of mental disorders. Finally, we will discuss their appli-
+cability for clinical social neuroscience.
+
+
+
+16.2    Exchange Games in Speciﬁc Mental Disorders
+
+From the variety of paradigms available, the majority of studies have applied
+approaches that focus on the assessment of trust and fairness and the perception of
+social norms.
+    The most often applied exchange games are the ultimatum game (UG), and the
+trust game (TG) (for a detailed description of economic games please see Chap. 2
+of this book). These approaches were applied in the investigation of alterations of
+social interaction behaviour in schizophrenia, depressive disorders, borderline
+personality disorder, anxiety disorders, social phobias, psychopathy,
+attention-deﬁcit-hyperactivity disorder and autism spectrum disorder. The majority
+of studies focus on virtual interaction situations within dyads, in which the beha-
+viour of an alleged social interaction partner is simulated by computer algorithms.
+Studies that actually measure the behaviour of real partners constitute a minority
+(e.g. Agay et al. 2008; Chiu et al. 2008; King-Casas et al. 2008; Zhang et al. 2012).
+    Studies differ in regard to whether exchanges are investigated as a single
+exchange with several partners or as multi-round games, i.e. as repeated exchanges
+with the same partner, shifting the emphasis from certain cognitive processes (e.g.
+trust) to others (e.g. the maintaining of interpersonal relations involving the
+building of reputation). In most exchange games, the roles of the partners differ in
+regard to the cognitive processes involved, e.g. taking the role of the investor or the
+trustee during the TG, or of the proposer or the responder in the UG. Studies differ
+in regard to whether the patient’s behaviour is studied in ﬁxed or varying roles
+within the single exchange games, e.g. BPD patients always represent the trustees
+in a multi-round trust game (e.g. King-Casas et al. 2008), or schizophrenic patients
+act as proposers as well as responders in an UG (e.g. Agay et al. 2008). Several
+studies suggest that the occurrence of alterations in social behaviour depends on the
+speciﬁc role during the exchange game, as e.g. patients show behavioural alter-
+ations as responders but not as proposers (e.g. Agay et al. 2008). Thus, it is
+important to take the details of the realization of neuroeconomic approaches into
+account when assessing heterogeneity and homogeneity in the still limited number
+of neuroeconomic studies in mental disorders.
+
+
+
+16.2.1 Schizophrenia
+
+Agay et al. (2008) conducted the ﬁrst study with schizophrenic patients applying
+the UG as a neuroeconomic exchange game. They found a comparable exchange
+behaviour in patients and healthy subjects in the role of the responder, but
+16   Neuroeconomic Approaches in Mental Disorders                                  315
+
+alterations of behaviour in the patients’ group in the role of the proposer. After
+rejection of an offer, both groups increased their offer in the second round.
+However, in case of an accepted offer, healthy subjects reduced their offer in the
+subsequent trial, while the schizophrenic patients did not adjust their behaviour.
+Approximately 20 % of the patients exhibited nonstrategic behaviour, in that they
+further reduced their offer after a rejection or increased their offer after acceptance
+in the previous trial. Such behaviour was observed in none of the healthy subjects.
+A study by Billeke et al. (2015) supported this ﬁnding of altered strategic behaviour
+in schizophrenic patients when taking the role of the proposer during an UG. In
+general, the patients made more often hyperfair offers and showed a higher varia-
+tion of behaviour towards the alleged human co-players, but also when playing with
+a computer. During the course of the interaction, the pattern of adaptation to risk
+was opposite in healthy subjects and patients when taking the social and nonsocial
+condition into account. Moreover, the authors were able to link these differences to
+alterations in neural processing during the anticipation of the responder’s choice,
+i.e. to brain oscillatory activity in frontal and temporoparietal brain regions.
+    Other studies suggest that schizophrenic patients differ also as responder during
+UG exchanges: patients accepted more unfair offers than healthy subjects (Csukly
+et al. 2011; Wischniewski and Brune 2011). Such a behaviour was also observed in
+subjects with a high level of interpersonal schizotypal symptoms (van’t Wout and
+Sanfey 2011). These results have been interpreted as an indication of a reduced
+sensitivity towards unfairness to their own disadvantage in schizophrenic patients
+(Wischniewski and Brune 2011), and a blunted emotional response (van’t Wout and
+Sanfey 2011). However, it seems worth pointing out that the socioeconomic status
+of patients that suffer from chronic mental disorders is quite often reduced com-
+pared to healthy controls. Thereby, the value of the gain at risk may differ between
+groups and thus, differentially influence the exchange behaviour of these groups.
+Until now, the majority of studies do not take this presumably important factor into
+account.
+    Wischniewski and Brune (2011) suggest that in general, the exchange behaviour
+of schizophrenic patients seems to be determined by the same rules as that of
+healthy subjects (see also de la Asuncion et al. 2015). In both groups, rejection rates
+increased with the unfairness of offers. Similarly, both groups equalled in regard to
+the likelihood of punishing unfairness of a proposer when they watched two
+individuals during the dictator game (DG). Based on their ﬁnding, they conclude
+that moral value appreciation is not affected in schizophrenia.
+    In contrast, Csukly et al. (2011) found higher acceptance rates of unfair pro-
+posals and lower acceptance rates with fair proposals in the schizophrenic patients
+during an UG. This contradicts an overall increased tendency to accept offers
+independent of their height due to a higher need caused by a lower socioeconomic
+status. In contrast, these data agree with a general lack in differential reactions
+during social interactions. A reduced influence of the partner’s fairness has been
+conﬁrmed by subsequent studies: investment were not influenced by the trustee’s
+fairness during an UG (de la Asuncion et al. 2015) or during a trust game (Lis et al.
+2011; see also Fett et al. (2012) for similar ﬁndings in a mixed group of patients
+316                                                                 S. Lis and P. Kirsch
+
+with different psychotic disorders). Beyond the partners’ fairness, emotional facial
+expressions may provide socially relevant context information and may serve as
+cues towards the partners’ future behaviour. Studies that investigated the influence
+of emotional expressions on the adaptation of behaviour, consistently suggest
+impairments in schizophrenia (Csukly et al. 2011; Lis et al. 2011; de la Asuncion
+et al. 2015). All studies revealed that the interaction behaviour is modulated by the
+facial expression of the social partner in healthy subjects, but not in schizophrenic
+patients. This holds true for the responder behaviour in the UG and the investor
+behaviour in the TG. The behavioural alteration towards facial expressions seems to
+be particularly relevant to the case in which they serve to guide behaviour during
+social interactions, since no deﬁcits were observed in a simple emotion evaluation
+task (Lis et al. 2011). However, caution is necessary when interpreting these
+ﬁndings as deﬁcits speciﬁc for using emotional cues to adapt social behaviour.
+None of the studies applied a control condition to exclude, as an underlying
+mechanism, more general cognitive impairments in the adaptation of behaviour to
+complex cues, i.e. to context information without a social and emotional content.
+
+
+
+16.2.2 Depressive Disorders
+
+During the last few years, the interest in neuroeconomic tasks has tremendously
+increased in the investigation of social dysfunctioning in depressive disorders (see
+for a recent review Wang et al. 2015). In contrast to studies in schizophrenia,
+studies focused more often on the affective responses to fair and unfair reactions.
+    As it was reported for patients suffering from schizophrenia, alterations in the
+behaviour of patients with major depressive disorder depend on the role taken
+during an UG (Destoop et al. 2012). While no alterations were observed when the
+patients acted as the responder, they offered a higher percentage of their account
+when in the role of the proposer compared to healthy subjects (see similar ﬁndings
+Scheele et al. 2013). Destoop et al. (2012) interpreted this behaviour as a strategy to
+avoid rejection which agrees with an enhanced rejection sensitivity in individuals
+with depressive disorders (Rosenbach and Renneberg 2011).
+    However, ﬁndings are not consistent regarding the behaviour when in the role of
+the responder during UG. In line with ﬁndings from Radke et al. (2013b), Wang
+et al. (2014) reported, in general, a lower rate of acceptance in patients with major
+depressive disorders (MDD). Moreover, in the case of unfair offers, there was no
+differential response towards an alleged human co-player in contrast to a computer
+control condition in MDD, suggesting that this behavioural alteration is not char-
+acteristic for social interactions: while healthy participants particularly rejected
+more often the very unfair offers from a human partner, MDD patients rejected very
+unfair offers from both the human partner and the computer (Wang et al. 2014). In
+contrast, Scheele et al. (2013) found more rejections only in the case of slightly
+unfair offers. When studying student populations with depressive symptoms, no
+behavioural alterations were found (Gradin et al. 2015; see also Pulcu et al. 2015) or
+16   Neuroeconomic Approaches in Mental Disorders                                 317
+
+even increased acceptance rates (Harle et al. 2010). This suggests that altered
+interaction behaviour in clinical samples is not solely attributable to the effects of
+depressive symptoms.
+    Alterations of exchange behaviour seem to not be caused by impaired judge-
+ments of fairness in general. Data from Scheele et al. (2013) found no evidence
+towards altered perception of fairness, although data of Wang et al. (2014) suggest
+that patients may tend to be more sensitive in the case of very unfair offers when
+fairness is evaluated independently of an interaction.
+    Several studies consistently revealed altered emotional responses during inter-
+actions in depressive disorders. Unfair offers during an UG elicited stronger neg-
+ative emotions (Harle et al. 2010) and higher guilt (Pulcu et al. 2015) and defection
+during a PD evoked stronger feelings of betrayal (Gradin et al. 2016). Moreover,
+depressive participants reported lower satisfaction in the case of cooperative
+behaviour of both the participant and the partner during a PD (Gradin et al. 2016)
+and reduced levels of happiness to fair offers during an UG (Gradin et al. 2015).
+These alterations were accompanied by alterations in brain activation during
+interactions suggesting altered processing of fairness and reward as well as linked
+emotional responses. Depressive participants showed a reduced activation in the left
+dorsolateral prefrontal cortex, which was correlated with the experience of
+increased guilt when the participant defected and the partner cooperated during PD
+(Gradin et al. 2016). Increasing engagement of the nucleus accumbens and the
+dorsal caudate with increasing fairness of an offer during UG was attenuated in
+depressive participants resulting in a lower activation in these brain area compared
+to healthy subjects (Gradin et al. 2015). In contrast, increasing unfairness of offers
+was linked to increasing activation of the dorsal anterior cingulate and the insula in
+both groups (Gradin et al. 2015).
+    Zhang et al. (2012) used a modiﬁed trust game to investigate the effects of
+altruism and risk-taking on social interaction behaviour in depressive subjects. All
+subjects played as trustees. They were informed that during each exchange they
+would play with a different real co-player, while actually, the investments were
+determined by the experimental setting. In this modiﬁcation of the trust game, the
+investor asked the trustee to repay a speciﬁc ratio of the amount at his/her disposal
+(“beneﬁcial” with 20 %, “equal” with 50 % and “unfair” with 80 %). Participants
+could choose to repay exactly the amount requested, more than requested (“altru-
+istic” behaviour) or less than requested (“deceptive” behaviour). Additionally, the
+probability (25 or 75 %) with which the investor would detect whether this
+investment differed from the requested amount was given. If deception was
+detected, the monetary units earned in the single trial were conﬁscated as punish-
+ment. Subjects with a depressive disorder differed qualitatively in their preference
+of choice options, in that they chose altruistic repayments in the case of beneﬁcial
+and equal requests less often, and also deceptive repayments in the case of unfair
+requests less often. Thus, effects of previous exchanges seem to be weaker in
+depressive patients who were less generous in the case of benevolent partners, as
+well as less punishing in the case of malevolent partners. Beyond that, risk of
+deception affected the patients’ behaviour as well: they chose deceptive responses
+318                                                                S. Lis and P. Kirsch
+
+less frequently than healthy subjects when the risk for detection was low. This
+ﬁnding was interpreted as indicating enhanced risk avoidance in depressive
+disorders, but also suggests that these patients might have problems with integrating
+information from different domains, such as risk-taking, inferring the intentions of
+others and decision-making. When looking on deceptive behaviours of the partic-
+ipants themselves, Shao et al. (2015) identiﬁed a reduced efﬁciency in the inte-
+gration of lateral prefrontal-striatal/limbic networks in MDD patients, although
+during this modiﬁed trust game behavioural alterations in MDD could not
+unequivocally be conﬁrmed.
+    Besides studies that point to alterations in speciﬁc aspects of interaction beha-
+viour during economic tasks in depressive disorders, others suggest that
+decision-making in social interactions is determined by mechanism similar to those
+in healthy subjects. Examples are the effects of emotional expressions and the
+influence of offer alternatives (Radke et al. 2013b; see also for an attenuated effect
+of smiling faces as cues for fair behaviour of a trustee in case of a comorbid
+depressive disorder in BPD, Franzen et al. 2011).
+    Data suggest that alterations in social interaction behaviour in depressive dis-
+orders can be quantiﬁed by exchange games. However, future studies have to
+address the underlying causes of these alterations, such as an increased rejection
+sensitivity as suggested by Destoop et al. (2012), or an inability to convert anger
+into a social action like a ‘ﬁght back’ towards a partner linked to neuroanatomical
+alterations in nucleus caudatus or the anterior insula activations as suggested by
+Zhang et al. (2012). Moreover, interaction behaviour may be differentially affected
+by the participants’ gender, possibly modulated by speciﬁc symptoms, such as
+suicidal ideations (Caceda et al. 2014). It seems obvious that exchange games have
+to be combined with approaches from experimental psychology that stress different
+cognitive and social cognitive processes during an exchange situation to understand
+the mechanisms responsible for altered interaction behaviour and altered emotional
+responses.
+
+
+
+16.2.3 Anxiety Disorders
+
+Applying an UG, Grecucci et al. (2012) found altered behaviour of subjects with
+anxiety disorder in the responder’s, but not the proposer’s, role. Patients accepted
+more unfair offers than healthy subjects. This effect depended on the clinical sub-
+type, being observable in those patients with generalized anxiety disorder, but not
+with panic disorder. Additionally, the pharmacological treatment modulated inter-
+action behaviour: treatment with serotonin reuptake inhibitors normalized these
+behavioural alterations. The authors discuss the relevance of interpersonal factors
+and assertiveness in decision-making of patients with anxiety disorders.
+   As an alternative approach, a TG was used to investigate social interaction
+behaviour of patients with social anxiety disorders in the role of the investor
+(Sripada et al. 2009). Interaction during a multi-round trust game played with a
+16   Neuroeconomic Approaches in Mental Disorders                                 319
+
+human partner was associated to an attenuated activation in medial prefrontal cortex
+in patients with an anxiety disorder compared to healthy subjects (Sripada et al.
+2009). The authors linked this result to deﬁcits in mentalizing, since no comparable
+pattern of altered cerebral activation was observed when playing with a computer.
+However, during the computer game, subjects knew they had a 50 % chance to
+receive a fair repay, while there were three virtual ‘human’ partners that differed in
+regard to their probability of splitting the investment (with a repayment of 75, 50 or
+25 %). Thus, the alleged human interaction was linked to a higher uncertainty of
+exchange behaviour, a factor well known to influence decision-making during
+exchange games.
+   A study by McClure et al. (2007) addressed social interaction behaviour in
+adolescents with anxiety and mood disorders (A/D) who were free of psychotropic
+medication during the time of testing. The authors applied the Prisoners’ Dilemma
+(PD) to directly measure pro-social, submissive and hostile or competitive beha-
+viours together with self-reports on anger and the experience of cooperativeness.
+Alterations in play behaviour suggest a priority on maintaining positive interper-
+sonal interactions by choosing pro-social behaviour, but not conflict avoidance:
+A/D patients more often cooperated compared to their healthy controls when the
+co-player had cooperated in the preceding round. However, there were no differ-
+ences between groups in regard to reactions to noncooperative behaviour of the
+co-players. In contrast, a PD study by Rodebaugh et al. (2013) reported that patients
+with generalized social anxiety give less during a PD interaction and tended to show
+less reaction to defection. Interestingly, female patients reported a higher extent of
+anger after defection by the partner (Sripada et al. 2009). Yet, this self-report was
+not accompanied by an increased probability for choosing a defecting strategy in
+the following round. As the authors note, at ﬁrst glance, such an altered interaction
+pattern does not appear to be the reason for interpersonal dysfunction. However,
+social interactions are complex feedback-oriented systems. Within these systems,
+comparable behavioural patterns might be perceived by social partners in different
+manners depending on modulating factors, such as expectations and expectation
+violations intertwined with speciﬁc personality traits. Until now, there has been a
+lack of studies that address the mechanisms of the interpretation of social actions,
+such as the interpretation of self-protective behaviour as limited self-disclosure or
+an enhanced vulnerability by reduced self-assertiveness, especially in the context of
+a mental disorder in one of the interaction partners.
+
+
+
+16.2.4 Personality Disorders
+
+16.2.4.1   Borderline Personality Disorder
+
+Deﬁcits in social interactions constitute one of the central psychopathological
+features of BPD. The diagnostic criteria of the DSM-IV-TR describe the impair-
+ments in social relationships as ‘frantic efforts to avoid real or imagined
+320                                                                  S. Lis and P. Kirsch
+
+abandonment’, ‘pattern of unstable and intense interpersonal relationships charac-
+terized by alternating between extremes of idealization and devaluation’ and
+‘inappropriate, intense anger or difﬁculty controlling anger’. A multitude of studies
+conﬁrm the existence of alterations in social relationships in BPD (for review see
+Lis and Bohus 2013).
+    The most prominent neuroeconomic study in BPD was done by King-Casas
+et al. (2008). They applied a 10-round trust game with real interactions, while
+measuring the BOLD response. While the investor was always a healthy subject,
+the trustees’ role was taken by a BPD patient or a healthy subject. Dyads including
+a BPD trustee showed less cooperation over the course of the game. This was due to
+those exchange rounds in which the investor transferred a very low amount of
+monetary units. In these rounds, healthy trustees often repaid a high sum. Such
+behaviour might aim at encouraging the investor to be more cooperative and
+transfer greater investments in subsequent trials. In contrast, BPD trustees reacted
+with a low repayment, i.e. they showed a less generous behaviour and, thereby, an
+inability to “repair” the cooperation. These ﬁndings are in line with those applying a
+PD: BPD patients showed a lower proportion of cooperative responses than healthy
+controls and patients with a bipolar disorder when playing with an alleged partner
+(Saunders et al. 2015). Since the partner’s behaviour was preprogrammed to follow
+a tit-for-tat strategy, a break of cooperation by the BPD patient was followed by a
+defection by the partner. This choice may result in a permanent break of cooper-
+ation as described by King-Casas et al. (2008) if the patients did not initiate a repair
+of the relation themselves by switching to a cooperative behaviour after defection of
+the partner. This implies that particularly reconciliation after problems in social
+relations may represent a core deﬁcit in this mental disorder. However, further
+studies must test whether this interpretation for the emergence of uncooperative
+behaviour in speciﬁc social constellations holds true.
+    The study by King-Casas et al. (2008) linked alteration in overt interaction
+behaviour in BPD to alterations in cerebral activation, especially a lack in the
+modulation of the activation in the anterior insula by the height of the received
+investment in the BPD group. The authors interpreted this ﬁnding as a lack in the
+perception of the violation of social norms in the behaviour of social partners, and
+speculated that this might be linked to negative expectations during social inter-
+actions. However, a subsequent study by Franzen et al. (2011) suggests that the
+perception of social norms does not differ between BPD patients and controls.
+When asked to assess the fairness of a trustee’s behaviour during a trust game, the
+BPD patients’ ratings differentiated the degrees of fair and unfair behaviour in the
+same manner as healthy subjects. This suggests that the ability of recognizing
+unfairness is uncompromised in BPD. Further studies are necessary to clarify
+whether the ﬁndings of King-Casas et al. (2008) can indeed be explained by an
+altered expectancy on the fairness of social partners in BPD.
+    It can be assumed that context information is essential for the formation and
+adaptation of expectancies in social encounters. Findings of Franzen et al. (2011)
+suggest that BPD patients use context information to guide social interaction
+behaviour differently from healthy subjects. Social context might be given by a
+16   Neuroeconomic Approaches in Mental Disorders                                  321
+
+potential break-down of a cooperation (see Meyer-Lindenberg 2008), but equally
+by social cues, such as the emotional facial expressions of interaction partners. In
+healthy subjects, the presence of emotional facial cues strongly affects interaction
+behaviour: they ignore the overall fairness of an interaction partner and transfer
+equal investments to fair and unfair partners with varying emotional expressions
+(Franzen et al. 2011; Lis et al. 2011, 2013). In contrast, BPD patients adapt their
+investment behaviour not only to the emotional facial cues signalling the expected
+repayment in the single round, but also simultaneously integrate the preceding
+experiences with the fairness of a trustee, i.e. they transferred less money to unfair
+than to fair partners, while simultaneously taking the speciﬁc provided social cues
+in a single round into account. An altered influence of emotional facial expression
+on exchange behaviour was also found by Polgar et al. (2014): while healthy
+subjects accepted more offers during an UG when the partner displayed a happy
+facial expression, this held true for the BPD patients only in the case of fair offers.
+Thereby, BPD patients accepted more offers overall than healthy controls.
+    The only study with a nonsocial control task applied a trust game (Unoka et al.
+2009). Over the course of ﬁve rounds, healthy investors increased the amount of
+transferred monetary units, while BPD patients did not change their investment
+behaviour. This ﬁnding suggests that BPD patients failed to develop trust.
+However, this study did not provide any feedback on the interaction partner’s
+behaviour during the game. Thus, one may argue that it does not measure inter-
+action behaviour, deﬁned as a two-way encounter during which the behaviour of
+one individual influences that of the other and that uncertainty about the behaviour
+of the partner may contribute to this ﬁnding. Nevertheless, Unoka et al. (2009)
+conﬁrmed that the behavioural alteration seen in BPD is speciﬁc for a social
+encounter, since no comparable behaviour was observed in a control task that asked
+subjects to play with a computer.
+    The ﬁndings of the various studies using the trust game in BPD all suggest
+altered interaction behaviour. Thus, further studies seem promising to gain further
+knowledge on the underlying mechanisms and modulating variables. A recent study
+by Lonnqvist et al. (2012) points to the importance of personality traits for the
+behavioural pattern seen by King-Casas et al. (2008): the inability to repair ruptured
+cooperation seems to be linked to a combination of high neuroticism and low
+agreeableness, i.e. the interplay of two personality dimensions identiﬁed by the
+ﬁve-factor model (see also Thielmann et al. 2014).
+    Although these ﬁndings suggest a high importance of personality traits for the
+exchange behaviour in BPD, other ﬁndings suggest a different link between per-
+sonality traits and exchange behaviour in healthy individuals and BPD subjects.
+Wischniewski and Brune (2012) applied the dictator game and found a diverging
+effect of personality traits in BPD compared to healthy subjects. In the healthy
+group, selﬁsh behaviour was linked to high Machiavellianism and low agreeable-
+ness. An opposite pattern was observed in the BPD group. Additionally, high
+extraversion and high openness went along with less costly punishment and higher
+neuroticism was linked with higher punishment in the BPD group, but not in
+healthy subjects. The authors interpreted these results in BPD as—as they state
+322                                                                 S. Lis and P. Kirsch
+
+—‘angry retaliation’ which is motivated by identiﬁcation with the victim’s per-
+spective, suggesting different motivations for the observed behaviour in BPD
+patients and healthy subjects.
+    In an alternative approach, Bartz et al. (2011) investigated the effects of the
+‘pro-social’ peptide oxytocin on interaction behaviour in BPD. They applied a
+three-round “assurance game” to investigate cooperation and trust. In this social
+dilemma paradigm, the virtual partner was programmed to behave cooperatively.
+Comparably to the PD, the subject can decide whether to cooperate or defect, and
+the gain is determined by the interplay of cooperation and defection of both players.
+BPD patients cooperated more often than healthy individuals. This is in accordance
+with the ﬁndings of Franzen et al. (2011) that point to overall higher investments in
+BPD. Surprisingly, oxytocin did not modulate the exchange behaviour. However, it
+affected whether the participant expected the co-player to be trustworthy. Again,
+surprisingly, oxytocin did not increase trustfulness, but led to less trusting expec-
+tations in BPD patients. Although this ﬁnding suggests that the oxytocin system
+might be affected in BPD, the data of Bartz et al. (2011) do not suggest a simple
+lack in trust explained by a lower oxytocin level. Instead, the authors propose that
+oxytocin may affect the salience of social cues, and, thereby, trigger positive or
+negative social emotions based on the social repertoire of the individual and/or the
+social context. It has to be emphasized that oxytocin modulates the self-reported
+expectations towards a social partner, but not the actual exchange behaviour. This
+discrepancy in the self-report of emotional experiences and motivations and actual
+interaction behaviour underlines the importance of applying interaction paradigms
+to extend our understanding of social dysfunction in mental disorders. It agrees with
+other studies, e.g. McClure et al. (2007), that similarly depicts a gap between
+self-perceived behaviour and the actually chosen social actions. Considering the
+often discussed bias in perceiving oneself and others that is assumed to exist in
+BPD, but also in other mental disorders, such as depression, this discrepancy seems
+to be expectable and should be taken into account in investigating alteration in
+social functioning, as well as in the development of psychotherapeutic interventions
+and cognitive training programs (see also Lis and Bohus 2013).
+
+
+16.2.4.2   Psychopathy
+
+Although psychopathic behaviour is characterized by the violation of moral standards
+and many studies have aimed at identifying deﬁcits in moral reasoning, the number of
+studies that try to capture alterations of moral behaviours with neuroeconomic tasks is
+sparse. Koenigs et al. (2010) investigated quite a small sample of six primary and six
+secondary psychopaths compared to 22 non-psychopaths with a DG and an UG. Only
+primary psychopaths offered lower amounts during the DG than during the UG.
+Beyond that, they accepted fewer unfair offers in the role of the responder in the UG.
+Since the authors found a comparable behavioural pattern in subjects with lesions in
+the vmPFC, they argued in favour of an involvement of this cerebral structure in
+primary psychopathy and hypothesized that deﬁcits in regulating anger and
+16   Neuroeconomic Approaches in Mental Disorders                                   323
+
+frustration may underlie these alterations. However, a subsequent study of the
+behaviour in the role of the responder during an UG did not replicate altered behaviour
+in criminal offenders with psychopathy (Radke et al. 2013a). Further studies are
+necessary that disentangle cognitive and affective processing during exchange
+behaviour together with its psychophysiological and neuronal correlates.
+
+
+16.2.5 Attention-Deﬁcit/Hyperactivity Disorder
+
+Although high levels in interpersonal dysfunction are well known to characterize
+adults with Attention-Deﬁcit/Hyperactivity Disorder (ADHD), up to date, only a
+few studies have addressed alterations in social cognitive processes and used
+exchange games to study interpersonal functioning in this clinical group. Lis et al.
+(2013) used a trust-game to explore behavioural alteration during social interactions
+in adults with ADHD. They manipulated the overall fairness together with the
+availability of social cues that signalled the likely fairness of the repayment during a
+single exchange in four virtual trustees. ADHD patients were equally generous
+toward all social interaction partners independent of their partners’ fairness. This
+behaviour was beneﬁcial in respect to maximizing a gain when playing with a fair
+partner, but resulted in a disadvantage when playing with unfair partners.
+Alterations were not caused by deﬁcits in more basal cognitive or social cognitive
+processes, since these abilities were controlled for in the study. Thus, a general
+inattentiveness as a cause of interaction problems in ADHD, as it has been dis-
+cussed in the past, has been excluded in this study. One line of interpretation of
+these ﬁndings is that of altered reward sensitivity in ADHD, which results in
+overemphasizing value, but ignoring the probability of reward. Thereby, it agrees
+with other approaches applying paradigms from behavioural economics that do not
+focus on social exchanges, but on decision-making under risk and uncertainty or
+intertemporal choice (Sonuga-Barke and Fairchild 2012).
+    A recent study identiﬁed the relevance of a comorbid conduct disorder for
+alterations in adolescents with ADHD (Northover et al. 2015). This subgroup
+rejected moderately unfair offers in the role of the responder during an UG more
+often than ADHD patients without this comorbid disorder or healthy controls.
+Thereby, the rejection rate was closely linked to the severity of the comorbid
+conduct disorder. The authors propose deﬁcits in emotion regulation as underlying
+mechanism in this subgroup of ADHD patients.
+
+
+16.2.6 Autism Spectrum Disorder
+
+As in psychopathy or ADHD, the number of studies applying an exchange game in
+autism spectrum disorder (ASD) is sparse. In contrast to the large number of studies
+in schizophrenia, depression or BPD, this seems surprising since alterations in
+social cognition and social interaction behaviour form a core symptom domain of
+324                                                                  S. Lis and P. Kirsch
+
+ASD. Thus, the DSM-IV deﬁnes qualitative impairments in social interaction as
+one of the diagnostic criteria which may manifest itself in a lack of social or
+emotional reciprocity.
+    The study by Chiu et al. (2008) is one of the few actual neuroeconomic studies
+investigating social exchange behaviour in mental disorders. The authors measured
+BOLD responses during a 10-round iterative TG. Adolescents or young adults with
+high-functioning ASD and healthy subjects took the role of the trustee while
+playing with a healthy subject as investor. The ASD patients’ behavioural pattern
+during the exchange equalled that of the healthy controls, but differed from healthy
+subjects regarding hemodynamic response patterns along the anterior-posterior axis
+of the cingulate cortex. The authors postulate that a TG trial can be divided into two
+phases. They separate a decision of the partner, in this case the decision of the
+investor, from the decision of the player his/herself, in this case the decision to
+repay a speciﬁc ratio of the monetary units as trustee. Neural activity revealed
+robust “self’’ and ‘‘other’’ response patterns along cingulate cortex for these distinct
+phases in healthy subjects. In contrast, the ASD patients’ “self” response pattern,
+i.e. a relatively greater activation in middle cingulate domains and less activation in
+the anterior and posterior ends of the cingulate cortex, was absent. The observed
+activation during the “self” decision phase in ASD equalled that of healthy subjects
+during a non-social control condition, i.e. playing with a computer. Thereby, the
+attenuation of the neural “self”-pattern was stronger with the extent of symptom
+severity in the ASD patients. The alterations of brain activation were conﬁned to the
+“self”-related decisions since the brain patterns during the investor’s decision were
+comparable in both groups.
+    In the past, autism has been primarily linked to impairments in Theory-of-Mind
+tasks and the inability to infer other’s emotions and intentions. However, the
+authors proposed that their data might be interpreted as an impairment in the ability
+to represent their own intentions, but an intact ability to represent the intentions of
+social partners. This shifts the locus of dysfunction to introspection and
+self-referential processes in ASD. Nevertheless, it seems worth considering that an
+alternative interpretation might be that the self-phase is also determined by inferring
+the intentions of others, in that the own repay might influence the future investment
+behaviour of the partner. Comparably, the processing during the investors’ decision
+phase might be affected more strongly by an evaluation of the actual observable
+investment behaviour and less by the inference of future intentions of the partner.
+    Altered social interaction behaviour in high-functioning autism (HFA) seems to
+not be caused by deﬁcits in moral reasoning (Li et al. 2014): HFA children dif-
+ferentiated between hypothetical characters described in stories and even assessed
+individuals harming others as worse than healthy control children. Nevertheless,
+these judgements did not affect the patients’ cooperation in a subsequent PD. In
+contrast, healthy children were more cooperative towards partners to whom they
+had previously attributed more positive moral features. These ﬁndings suggest that
+autism might be linked to a lack in taking context information into account.
+Whether this may also hold true for the use of other cues, such as emotional facial
+expressions, has to be investigated in future studies.
+16   Neuroeconomic Approaches in Mental Disorders                                  325
+
+    The relevance of studies using neuroeconomic tasks for the explanation of
+everyday functioning in autism has been shown by Edmiston et al. (2015). They
+linked altered engagement of neural structures during a PD to playground behaviour
+of autistic children. Both ASD and healthy subjects did not differ in the ratios of
+cooperative and defective responses when they played the PD with a child they had
+previously met during a naturalistic peer interaction playground paradigm.
+However, the engagement of a social salience network including brain regions such
+as the insula, the temporoparietal junction and the caudate was attenuated in ASD
+children, particularly during defection of a human partner. Beyond these alterations
+speciﬁc for social interaction, altered neural activations, particularly in the insula,
+were observed during defection in the PD when subjects interacted with both a
+human partner and a computer during a nonsocial control condition. Across groups,
+both the engagement of the insula as well as the temporoparietal junction during
+defection by a human partner was linked to behaviour and stress responsivity
+during the playground paradigm. These ﬁndings suggest that the identiﬁcation of
+altered neural activations during standardized economic tasks actually contributes
+to a deeper understanding of dysfunctional behaviour in naturalistic social
+interactions.
+
+
+
+16.3     Summary
+
+As Carter (2012) stated, ‘it is unlikely that there will be neuroeconomic disorders’.
+Nevertheless, the limited number of studies that applied economic exchange games
+in clinical research to date paints a promising picture of these approaches as a
+toolbox for the investigation of alterations in social functioning in mental disorders.
+So far, ﬁndings can be summarized in that exchange games are suited to uncover
+alterations in social interaction behaviour together with its neuronal correlates.
+Beyond that, these approaches enable the investigation of speciﬁc social cognitive
+functions as emotion recognition or Theory of Mind embedded in an ecologically
+valid context: single processes are analyzed as components within a broader
+functional network of diverse cognitive and social cognitive processes that influ-
+ence each other with the ﬁnal goal to successfully cope with social relationships.
+These processes have to be continuously adjusted during the interaction depending
+on the partner’s action and reaction. This becomes particularly important if eco-
+nomic tasks are not realized as one-shot games, but require a repeated interaction
+with the same partner over multiple rounds. Further, studies have to address the
+involved cognitive and social cognitive processes in more detail. Thereby,
+exchange games with virtual partners and a controlled variation of single modu-
+lating factors within a carefully chosen experimental design might provide a useful
+tool to get further insight into the underlying mechanisms and the identiﬁcation of
+the impairment linked to a speciﬁc function and its relevance for a speciﬁc mental
+disorder. However, due to the still very small number of empirical studies, it is too
+early to assess whether the theoretical frameworks and experimental approaches
+326                                                                       S. Lis and P. Kirsch
+
+will contribute to the understanding of the causes underlying mental disorders. This
+holds true especially since—from a methodological point of view—the existing
+studies are rather heterogeneous in regard to, e.g. sample sizes, concomitant psy-
+chopharmacological treatments, different comorbidities and the control of poten-
+tially modulating factors, such as socioeconomic status and cognitive impairments.
+All these factors may be of particular relevance when investigating impairments of
+social interactions in mental disorders (see Fig. 16.1) and add to heterogeneity of
+ﬁndings that goes beyond that of the speciﬁc realization of exchange games with its
+consequences for the related cognitive functions.
+    It seems worth summarizing some aspects that might improve future research
+with economic exchange games in mental disorders. First of all, one of the main
+advantages of this scientiﬁc approach is that it provides testable quantitative
+models. None of the studies in clinical research so far have made the attempt to use
+this strength to prove theoretical assumptions about dysfunctions in speciﬁc
+domains of interaction behaviour. Closely connected to this is the lack of studies
+that use quantitative parameters of these models to actually link them to altered
+behavioural correlates and neurobiological systems. In general, the majority of
+studies strongly relied on the measurement of overt behaviour and did not apply
+neuroscientiﬁc methods. Thus, studies that aim to characterize the alterations in
+
+
+
+
+Fig. 16.1 Factors contributing to heterogeneity in investigations of social decision-making in
+clinical samples
+16   Neuroeconomic Approaches in Mental Disorders                                 327
+
+mental disorders by using these strengths of neuroeconomic approaches are
+strongly needed.
+    Beyond that, exchange games aim towards measuring interaction behaviour.
+However, social interaction is deﬁned as a dynamic sequence of social actions
+between individuals or groups. These actions are continuously adjusted according
+to the perceived past and anticipated future behaviour of the interaction partner.
+This implies that an analysis of interaction behaviour requires the analysis of
+interdependencies of social actions between partners. Yet, not all of the studies that
+claim to apply exchange games actually take these interdependencies into account,
+in that they do not provide feedback about the partner’s behaviour or focus more on
+general performance than on the adaptation to the partner’s behaviour. This might
+affect ﬁndings of alterations in mental disorders since taking the second person’s
+perspective into account seems to be essential for the detection of alterations in
+social cognitive processes. Furthermore, only few studies measured interactions
+between real partners. One might argue that virtual partners allow for an experi-
+mental control of the partner’s behaviour and are, thereby, the basis to gain insight
+into the relevance of speciﬁc social cues or behavioural pattern for the development
+of an interaction. We fully agree with this argumentation, since—particularly in
+clinical samples—the patients’ behaviour might lead to speciﬁc interactional pat-
+terns that prevent the analysis of factors that modulate interactions and might
+constitute promising target behaviours for therapeutic interventions. Nevertheless,
+the programming of virtual partners requires a precise knowledge in regard to
+realistic interaction behaviours to allow for plausible modelling and experimental
+manipulation of behaviour of virtual partners. To achieve this goal, we need a close
+orchestration between the different sub-disciplines combined in the ﬁeld of neu-
+roeconomy to improve approaches in clinical research based upon the knowledge of
+healthy interaction behaviour.
+    Finally, it has to be mentioned that clinical samples are often characterized by
+dysfunctions in quite basal cognitive processes that might affect basal processes of
+perception and action, but also more complex functions such as working memory or
+attention. The separation of alterations genuinely linked to social cognition from
+those in other domains of cognitive functioning constitutes a particular challenge in
+the use of approaches from neuroeconomy in clinical research. So far, studies that
+apply appropriate nonsocial control condition constitute the minority.
+    Although we have to deal with a variety of problems in the use of neuroeconomic
+approaches in clinical research, a growing number of studies add to our under-
+standing of the important domain of social functioning in mental disorders. In the
+past, the main sources of information about social interaction behaviour in clinical
+samples have been self- and observer-based questionnaires that provide information
+on how interaction behaviours are subjectively perceived. Neuroeconomic approa-
+ches add objective behavioural and neurobiological descriptions of the interaction
+behaviour itself and thus allow a new perspective in the investigation of interaction
+problems in mental disorders.
+328                                                                           S. Lis and P. Kirsch
+
+
+References
+
+Agay N, Kron S et al (2008) Ultimatum bargaining behavior of people affected by schizophrenia.
+    Psychiatry Res 157(1–3):39–46
+Bartz J, Simeon D et al (2011) Oxytocin can hinder trust and cooperation in borderline personality
+    disorder. Soc Cogn Affect Neurosci 6(5):556–563
+Billeke P, Armijo A et al (2015) Paradoxical expectation: oscillatory brain activity reveals social
+    interaction impairment in schizophrenia. Biol Psychiatry 78(6):421–431
+Caceda R, Moskovciak T et al (2014) Gender-speciﬁc effects of depression and suicidal ideation in
+    prosocial behaviors. PLoS One 9(9):e108733
+Carter CS (2012) Neuroeconomics: sharpened tools of value for clinical cognitive and affective
+    neuroscience. Biol Psychiatry 72(2):82–83
+Chiu PH, Kayali MA et al (2008) Self responses along cingulate cortex reveal quantitative neural
+    phenotype for high-functioning autism. Neuron 57(3):463–473
+Csukly G, Polgar P et al (2011) Are patients with schizophrenia rational maximizers? Evidence
+    from an ultimatum game study. Psychiatry Res 187(1–2):11–17
+de la Asuncion J, Docx L et al (2015) Abnormal emotion processing, but intact fairness and
+    intentionality considerations during social decision-making in schizophrenia. Front Psychol
+    6:1058
+Destoop M, Schrijvers D et al (2012) Better to give than to take? Interactive social
+    decision-making in severe major depressive disorder. J Affect Disord 137(1–3):98–105
+Edmiston EK, Merkle K et al (2015) Neural and cortisol responses during play with human and
+    computer partners in children with autism. Soc Cogn Affect Neurosci 10(8):1074–1083
+Ernst M (2012) The usefulness of neuroeconomics for the study of depression across adolescence
+    into adulthood. Biol Psychiatry 72(2):84–86
+Fett AK, Shergill SS et al (2012) To trust or not to trust: the dynamics of social interaction in
+    psychosis. Brain 135(Pt 3):976–984
+Franzen N, Hagenhoff M et al (2011) Superior ‘theory of mind’ in borderline personality disorder:
+    an analysis of interaction behavior in a virtual trust game. Psychiatry Res 187(1–2):224–233
+Glimcher PW, Rustichini A (2004) Neuroeconomics: the consilience of brain and decision.
+    Science 306(5695):447–452
+Gradin VB, Perez A et al (2015) Abnormal brain responses to social fairness in depression: an
+    fMRI study using the ultimatum game. Psychol Med 45(6):1241–1251
+Gradin VB, Perez A et al (2016) Neural correlates of social exchanges during the Prisoner’s
+    Dilemma game in depression. Psychol Med 46(6):1289–1300
+Grecucci A, Giorgetta C et al (2012) Anxious ultimatums: how anxiety disorders affect
+    socioeconomic behaviour. Cogn Emot 27:230–244
+Harle KM, Allen JJ et al (2010) The impact of depression on social economic decision making.
+    J Abnorm Psychol 119(2):440–446
+Hartley CA, Phelps EA (2012) Anxiety and decision-making. Biol Psychiatry 72(2):113–118
+Hasler G (2012) Can the neuroeconomics revolution revolutionize psychiatry? Neurosci Biobehav
+    Rev 36(1):64–78
+King-Casas B, Chiu PH (2012) Understanding interpersonal function in psychiatric illness through
+    multiplayer economic games. Biol Psychiatry 72(2):119–125
+King-Casas B, Sharp C et al (2008) The rupture and repair of cooperation in borderline personality
+    disorder. Science 321(5890):806–810
+Kishida KT, Montague PR (2012) Imaging models of valuation during social interaction in
+    humans. Biol Psychiatry 72(2):93–100
+Kishida KT, King-Casas B et al (2010) Neuroeconomic approaches to mental disorders. Neuron 67
+    (4):543–554
+Koenigs M, Kruepke M et al (2010) Economic decision-making in psychopathy: a comparison
+    with ventromedial prefrontal lesion patients. Neuropsychologia 48(7):2198–2204
+16   Neuroeconomic Approaches in Mental Disorders                                               329
+
+Li J, Zhu L et al (2014) The relationship between moral judgment and cooperation in children with
+    high-functioning autism. Sci Rep 4:1–6
+Lis S, Bohus M (2013) Social interaction in borderline personality disorder. Curr Psychiatry Rep
+    15(2):338
+Lis S, Schönwetter T et al (2011) Impaired integration of social-emotional information in
+    schizophrenia during a simulated social interaction. Nervenheilkunde 30:385–393
+Lis S, Baer N et al (2013) Social interaction behavior in ADHD in adults in a virtual trust game.
+    J Atten Disord 20:335–345
+Loewenstein G, Rick S et al (2008) Neuroeconomics. Annu Rev Psychol 59:647–672
+Lonnqvist JE, Verkasalo M et al (2012) Personality disorder categories as combinations of
+    dimensions: Translating cooperative behavior in borderline personality disorder into the
+    ﬁve-factor framework. J Pers Disord 26(2):298–304
+McClure EB, Parrish JM et al (2007) Responses to conflict and cooperation in adolescents with
+    anxiety and mood disorders. J Abnorm Child Psychol 35(4):567–577
+Meyer-Lindenberg A (2008) Trust me on this. Science 321(5890):778–780
+Monterosso J, Piray P et al (2012) Neuroeconomics and the study of addiction. Biol Psychiatry 72
+    (2):107–112
+Northover C, Thapar A et al (2015) Emotion regulation in adolescent males with attention-deﬁcit
+    hyperactivity disorder: testing the effects of comorbid conduct disorder. Brain Sci 5(3):369–
+    386
+Polgar P, Fogd D et al (2014) Altered social decision making in borderline personality disorder: an
+    ultimatum game study. J Pers Disord 28(6):841–852
+Pulcu E, Thomas EJ et al (2015) Social-economical decision making in current and remitted major
+    depression. Psychol Med 45(6):1301–1313
+Radke S, Brazil IA et al (2013a) Unfair offers, unfair offenders? Fairness considerations in
+    incarcerated individuals with and without psychopathy. Front Hum Neurosci 7:406
+Radke S, Schafer IC et al (2013b) Do different fairness contexts and facial emotions motivate
+    ‘irrational’ social decision-making in major depression? An exploratory patient study.
+    Psychiatry Res 210(2):438–443
+Rodebaugh TL, Shumaker EA et al (2013) Interpersonal constraint conferred by generalized social
+    anxiety disorder is evident on a behavioral economics task. J Abnorm Psychol 122(1):39–44
+Rosenbach C, Renneberg B (2011) Rejected, excluded, ignored: the perception of social rejection
+    and mental disorders—a review. Verhaltenstherapie 21:87–98
+Saunders KE, Goodwin GM et al (2015) Borderline personality disorder, but not euthymic bipolar
+    disorder, is associated with a failure to sustain reciprocal cooperative behaviour: implications
+    for spectrum models of mood disorders. Psychol Med 45(8):1591–1600
+Scheele D, Mihov Y et al (2013) A negative emotional and economic judgment bias in major
+    depression. Eur Arch Psychiatry Clin Neurosci 263(8):675–683
+Schilbach L, Timmermans B et al (2013) Toward a second-person neuroscience. Behav Brain Sci
+    36(4):393–414
+Shao R, Zhang HJ et al (2015) The neural basis of social risky decision making in females with
+    major depressive disorder. Neuropsychologia 67:100–110
+Sharp C, Monterosso J et al (2012) Neuroeconomics: a bridge for translational research. Biol
+    Psychiatry 72(2):87–92
+Sonuga-Barke EJ, Fairchild G (2012) Neuroeconomics of attention-deﬁcit/hyperactivity disorder:
+    differential influences of medial, dorsal, and ventral prefrontal brain networks on suboptimal
+    decision making? Biol Psychiatry 72(2):126–133
+Sripada CS, Angstadt M et al (2009) Functional neuroimaging of mentalizing during the trust
+    game in social anxiety disorder. NeuroReport 20(11):984–989
+Thielmann I, Hilbig BE et al (2014) Willing to give but not to forgive: Borderline personality
+    features and cooperative behavior. J Pers Disord 28(6):778–795
+Unoka Z, Seres I et al (2009) Trust game reveals restricted interpersonal transactions in patients
+    with borderline personality disorder. J Pers Disord 23(4):399–409
+330                                                                       S. Lis and P. Kirsch
+
+van’t Wout M, Sanfey AG (2011) Interactive decision-making in people with schizotypal traits: a
+   game theory approach. Psychiatry Res 185(1–2):92–96
+Wang Y, Zhou Y et al (2014) Impaired social decision making in patients with major depressive
+   disorder. BMC Psychiatry 14:18
+Wang Y, Yang LQ et al (2015) Game theory paradigm: a new tool for Investigating social
+   dysfunction in major depressive disorders. Front Psychiatry 6:128
+Willems RM (2011) Re-appreciating the why of cognition: 35 years after Marr and Poggio. Front
+   Psychol 2:1–5
+Wischniewski J, Brune M (2011) Moral reasoning in schizophrenia: An explorative study into
+   economic decision making. Cogn Neuropsychiatry 25:1–16
+Wischniewski J, Brune M (2012) How do people with borderline personality disorder respond to
+   norm violations? Impact of personality factors on economic decision-making. J Pers Disord
+   27:531–546
+Zhang HJ, Sun D et al (2012) Impaired social decision making in patients with major depressive
+   disorder. Brain Behav 2(4):415–423
+               Part VI
+Applied Neuroeconomics

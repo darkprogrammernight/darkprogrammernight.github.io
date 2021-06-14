@@ -1,0 +1,811 @@
+Chapter 4
+Genes and Human Decision-Making
+
+Martin Reuter and Christian Montag
+
+
+
+
+Abstract The present chapter aims to give a concise overview of the genetics of
+human decision-making. The focus will be on studies that can be considered within
+the ﬁeld of neuroeconomics. Although genetic studies in neuroeconomics are scarce
+to date, interest in and use of, genetic designs is increasing. This popularity is based
+on the huge potential of genetic research. The collection of data is more naturalistic as
+it is not restricted to the laboratory, and genes convey information on brain meta-
+bolism relevant to decision-making. The widespread belief, that genetic information
+is already determined before birth and therefore, is not subject to influence or change
+over the lifespan, has recently been revised. The young discipline of epigenetics has
+shown that environmental factors can influence the activity of genes throughout life.
+Therefore, investigating the interaction between genes and environment on a
+behavioral, as well as a, molecular level is a promising direction for research. The
+empirical neuroeconomics studies published to date have adopted a candidate gene
+approach. This means researchers have identiﬁed theory-driven, distinct gene loci
+relevant for decision-making in economic contexts, from the literature. These pioneer
+studies are reviewed and discussed below. For those readers who are not familiar with
+molecular genetics, we recommend the chapter on genetics contained in the methods
+section of this book as a complementary introduction.
+
+
+
+M. Reuter (&)
+Department of Psychology, University of Bonn, Bonn, Germany
+e-mail: martin.reuter@uni-bonn-diff.de
+M. Reuter
+Center for Economics and Neuroscience (CENs), University of Bonn, Bonn, Germany
+C. Montag
+Department of Molecular Psychology, Institute for Psychology and
+Education, Ulm University, Ulm, Germany
+e-mail: christian.montag@uni-ulm.de
+C. Montag
+Key Laboratory for NeuroInformation, Center for Information in Medicine,
+School of Life Science and Technology, University of Electronic Science and
+Technology of China, Chengdu, People’s Republic of China
+
+© Springer-Verlag Berlin Heidelberg 2016                                              67
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_4
+68                                                             M. Reuter and C. Montag
+
+
+4.1    The Molecular Genetic Basis of Human
+       Decision-making
+
+Every day we make numerous decisions that influence both our current actions and
+which can also have strong implications for our future. The choice between cheese
+cake and apple pie for dessert is obviously not a big thing, but the decision whether
+or not to invest in high-risk stocks promising enormous proﬁt, may lead to wealth
+or to ﬁnancial ruin. From the media and from our own observations, we are well
+aware that there is great variability in the way people make their decisions. There is,
+in fact, much greater variability in decision-making behavior between—rather than
+within—people. This means that individuals typically show a rather stable pattern
+of behavior—referred to as personality. Some people are notoriously prone to
+making risky decisions, whereas others tend to procrastinate over a decision and
+make their choices after considering the alternatives very carefully. Impulsivity and
+risk-taking on the one hand, and anxiety and reflectiveness on the other, seem to
+represent two opposing aspects of personality in decision-making (Zaleskiewicz
+2001). However, often our decisions do not only influence our own fortune, but also
+that of others. Man, as a social individual, takes decisions that also have conse-
+quences for others and in the same way our own decisions are influenced by the
+opinions and actions of our fellow human beings (Kaplan and Miller 1987).
+Therefore, personality traits like cooperativeness, characterizing a person’s attitude
+towards prosocial behavior, are also of great interest to the investigation of human
+decision-making. It is presumed that the genetic underpinnings of such personality
+traits build the biological basis for stable patterns in decision-making that seem to
+be rather invariant across situations and, therefore, allow the prediction of a deci-
+sion even in rather speciﬁc situations. Of course these predictions will not be perfect
+because we know, e.g., from laboratory experiments, that instructions can mold
+performance (Wickelgren 1977; see the discussion of the speed-accuracy-tradeoff
+in simple decisions in Chap. 14 of this book) and that states (e.g., current mood)
+also have a strong impact on decision-making. However, personality traits are
+highly heritable (up to 50 %; e.g., Tellegen et al. 1988). For the reasons outlined
+above, genes related to personality prove excellent candidate genes for human
+decision-making.
+    Even before neuroeconomics was established as an autonomous scientiﬁc dis-
+cipline, neuroscientists had used genetic approaches for investigating human
+decision-making. This work was in part triggered by an interest in psychiatric and
+neurological diseases in which decision-making in patients is strongly impaired.
+Those patients with brain lesions in clearly deﬁned neural structures, e.g., of the
+ventromedial prefrontal cortex, offered insights into brain regions relevant for
+decision-making. A famous paradigm used in such studies is the IOWA Gambling
+Task, which measures the ability of a person to prefer constant small rewards under
+low risk of losing money, compared to seldom occurring high rewards under high
+risk of losing money (IGT; Bechara et al. 2000). The ventromedial prefrontal cortex
+is essential in impulsive decision-making, with patients with lesions in this area
+4 Genes and Human Decision-Making                                                   69
+
+demonstrating a preference for smaller immediate rewards, rather than for larger,
+delayed rewards. The same pattern of behavior is observed in individuals with a
+drug addiction, a disorder marked by a lack of impulse control (e.g., Ert et al. 2013;
+van der Plas et al. 2009). To date there exist numerous genetic association studies in
+different patient samples and in samples of healthy subjects, that try to explain
+differences in IGT performance by means of candidate gene polymorphisms. The
+serotonin transporter linked polymorphic region (5-HTTLPR), an insertion/deletion
+polymorphism marked by the presence or absence of 43 base pairs in the promoter
+region of the serotonin transporter gene, has been most extensively studied in this
+context. Subjects with at least a deletion on one chromosome (genotypes SS and
+SL) were referred to as S-allele carriers and showed a threefold decrease in mRNA
+expression compared to subjects with no deletion on either chromosome (genotype
+LL) (Lesch et al. 1996). In a sample of N = 885 healthy Chinese college students,
+subjects homozygous for the S-allele had signiﬁcantly lower IGT scores in the ﬁrst
+40 trials than L-allele carriers (He et al. 2010). The IGT task comprises 5 blocks
+with 20 trials each. The ﬁrst two blocks (trials 1–40) indicate decisions under
+uncertainty, whereas blocks 3–5 represent decisions under risk. The main effect of
+5-HTTLPR on IGT performance could not be replicated in healthy Caucasian
+samples (Lage et al. 2011; Stoltenberg and Vandever 2010). In patients with
+obsessive compulsive disorders, da Rocha et al. (2008) reported signiﬁcantly lower
+IGT scores in S-allele carriers, however, in contrast to the study by He et al. (2010),
+only in the third, fourth, and ﬁfth blocks, i.e., those blocks related to impulsive
+decision-making.
+    The IGT has strong parallels to research questions in neuroeconomics, where
+decisions under ambiguity and under risk are of scientiﬁc interest. Neuroscientists
+also have a long tradition in differentiating subcomponents of the decision-making
+process by means of biological variables. Cognitive processes related to informa-
+tion processing, memory, and executive control are the prevailing dependent
+variables. The best supported gene locus with respect to working memory capacity
+is the COMT Val158Met polymorphism, located in exon 158 of the catecholamine-
+O-methyltransferase (COMT) gene. COMT degrades monoamines (e.g., dopamine)
+in the synaptic cleft. The catabolizing activity of Met-allele carriers is about three-
+to fourfold lower than that of Val-allele carriers (Lachman et al. 1996). The
+Met-allele is associated with higher working memory capacity and better executive
+control abilities more generally (Goldberg and Weinberger 2008). However—and
+of interest for neuroeconomics—the Val-allele is related to higher positive emo-
+tionality (PE), as compared to the Met-allele (Montag et al. 2012; Reuter and
+Hennig 2005; Wacker et al. 2012). PE comprises personality traits like extraversion
+and novelty seeking, as well as other characteristics related to risk-taking and
+reward-seeking (e.g., Krebs et al. 2009; Smillie 2013).
+    These examples of genetic association studies have direct implications for the
+decision processes under investigation in neuroeconomics. Moreover, the gene
+markers outlined above are among the best studied polymorphisms in neuroeco-
+nomic research. It must be noted that we identiﬁed thousands of genetic association
+studies from different disciplines in the literature relating candidate gene loci to
+70                                                               M. Reuter and C. Montag
+
+various phenotypes. However, for most of these polymorphisms the proof of
+functionality is missing. The 5-HTTLPR and the COMT Val158met polymor-
+phisms related to altered mRNA expression and differences in metabolic enzyme
+activity, respectively, are laudable exceptions.
+
+
+
+4.2     Molecular Genetics in Neuroeconomics
+
+4.2.1    Ultimatum Game (UG)
+
+Behavioral economists have developed paradigms—so called games—that permit
+the investigation of human decision-making under experimentally controlled con-
+ditions (for an in depth overview of games in neuroeconomic research see Chap. 2
+by Civai and Hawes in this book). One of the most prominent paradigms in neu-
+roeconomics is the Ultimatum Game (UG), which provides a framework for the
+study of prosocial behavior in two players interacting anonymously with each other;
+Player 1 (the proposer) has to split an endowment with player 2 (the responder).
+Player 2 can either accept or reject the offer from player 1. If player 2 accepts the
+offer, the money is split as proposed by player 1. Should player 2 reject the offer,
+both players receive nothing (Camerer 2003). Thus, the UG represents a classic
+“take it or leave it” situation. The responder has to either accept the offer of the
+proposer in its present form or must reject it outright. There is no opportunity for
+negotiation. The UG played in the laboratory perfectly parallels real life situations.
+Often we are confronted with such “take it or leave it” situations. For example, if
+we apply for a job in public service where income brackets are ﬁxed, we have to
+either accept the salary or leave it and look for a job on the free market. The Greek
+debt cut is a prime example of a real life UG. A group of banks and investors in
+Greek government debt had the choice between exchanging their debt for new
+bonds worth about 70 % less than the original, or encounter the total breakdown of
+the Greek ﬁnance system, resulting in the complete loss of their invested money.
+    There is a general agreement in the literature that responder behavior in the UG
+represents fairness preference. If an offer is judged as unfair we are likely to
+dispense with the offer altogether rather than be satisﬁed with a small proportion of
+the pie. Punishing a proposer for an unfair offer (i.e., a low offer that is greater than
+zero) is not rational and contradicts economists’ view on man as a homo eco-
+nomicus. It is suggested that the homo economicus is merely guided by self-interest
+and always tries to maximize his proﬁt. In order to do so, he only makes strictly
+rational decisions (Persky 1995). However, the behavior of the proposer is far more
+complex than that of the responder. It is a mixture of fairness preference on the one
+hand and strategic consideration on the other hand: to be a social human being
+capable of taking the perspective of the responder (theory of mind) and strategic
+considerations (maximize own proﬁt while minimizing the risk of being punished
+for an unfair offer).
+4 Genes and Human Decision-Making                                                   71
+
+    An initial twin study from Sweden showed that more than 40 % of the variation
+in subjects’ rejection behavior in the UG, is explained by additive genetic effects
+(Wallace et al. 2007). These data underline the strong genetic basis for the etiology
+of fairness preferences. However, the heritability estimates for proposer behavior
+were negligible in this study. To date, two existing molecular genetic studies have
+tried to identify candidate genes for behavior in the UG. The ﬁrst study was
+published by Zhong et al. (2010), who found that the dopamine D4 receptor
+(DRD4) gene explains at least a small proportion of variance in the UG responder
+behavior. The DRD4 gene consists of 3400 base pairs (bp) and is located at
+chromosome 11p15.5. In exon III of this gene a highly polymorphic variable
+number of tandem repeats (VNTR) polymorphism has been identiﬁed, which is
+characterized by a repetitive sequence of 48 bp (between 2 and 11 repeats) (van Tol
+et al. 1992). Three alleles are most common; the 2-repeat, the 4-repeat, and the
+7-repeat; the ancestral 4-repeat allele is most frequently occurring across all eth-
+nicities. In Caucasians, the 7-repeat is more frequent than the 2-repeat allele.
+However, in Asians the 7-repeat allele is extremely rare and is typically not con-
+sidered in Asian genetic association studies.
+    Besides reported associations between the DRD4 exon III polymorphism and
+various phenotypes related to decision-making behavior, like impulsivity, novelty
+seeking, gambling behavior and attention-deﬁcit hyperactivity disorder (ADHD),
+the functionality of this polymorphism has been further demonstrated (Strobel et al.
+1999; Ebstein et al. 1996; Eisenegger et al. 2010; Nikolaidis and Gray 2010).
+The VNTR region of the DRD4 gene encodes a portion of the third intracellular
+loop region of the transcribed receptor protein that spans the nerve cell membrane
+and mediates interaction with second messenger proteins. The 2-repeat allele shows
+a 50 % reduction in the production of cyclic adenosine monophosphate (cAMP), as
+compared with the 4-repeat and 7-repeat alleles (Asghari et al. 1995). Regarding
+decision-making behavior in the UG, Zhong et al. (2010) reported that carriers of
+the 4/4 genotype stated a 25 % higher minimum acceptable offer in the role of the
+second mover, as compared with carriers of the 2/4 and 2/2 genotypes. Notably,
+these results came from a Chinese sample, where the 7-repeat allele is very rare and
+was therefore not considered in the analysis. The authors did not ﬁnd an association
+between the DRD4 exon III polymorphism and the UG proposer behavior. This is
+in line with the fact that there are no heritability estimates for UG proposer behavior
+available in the literature to date. Although Zhong et al. reported a signiﬁcant
+association between the DRD4 gene and fairness preference as assessed by the UG,
+the proportion of explained variance is rather small. This is typical for quantitative
+traits and underlines the necessity of identifying further genetic variants that
+influence behavior in the UG. With this aim in mind, a second genetic association
+study focusing on the dopaminergic system’s influence on behavior in the UG was
+devised (Reuter et al. 2013). The DRD2 receptor gene has been linked to various
+facets of prosocial behaviors like cooperation, attachment style, mentoring, paternal
+parenting, and positive emotionality, to name but a few (Walter et al. 2011; Gillath
+et al. 2008; Shanahan et al. 2007; Lucht et al. 2006; Reuter et al. 2006). Two
+polymorphisms, for which functionality has been established, are most investigated
+72                                                             M. Reuter and C. Montag
+
+in genetic association studies; the DRD2/ANKK1-Taq Ia (rs1800497) and the
+DRD2 C957T (rs6277) polymorphisms. The DRD2/ANKK1-Taq Ia polymorphism
+is a restriction fragment polymorphism on chromosome 11 at q22–q23 (Noble
+2003). Three genotypes of the dopamine DRD2/ANNK1-Taq Ia locus can be dif-
+ferentiated: The A1A1 genotype (also referred to as TT genotype), the A1A2
+genotype (also referred to as TC genotype), and the A2A2 genotype (CC genotype).
+Due to the small prevalence of the A1A1 genotype (3 % in healthy Caucasians),
+A1A1 and A1A2 subjects are commonly grouped as A1 + subjects, whereas A2A2
+subjects are referred to as A1– subjects. The prevalence of at least one A1 allele
+(A1 + group) leads to a reduction of up to 30 % in D2 receptor density (e.g.,
+Pohjalainen et al. 1998). The direct impact of the DRD2/ANKK1-Taq Ia poly-
+morphism on D2 receptor density has recently been questioned, since this single
+nucleotide polymorphism (SNP) is located about 10 kb downstream of the DRD2
+gene, within a protein-coding region of the adjacent ANKK1 gene (Neville et al.
+2004). Zhang et al. (2007) investigated 23 SNPs within the DRD2 gene and found a
+decreased expression of the short splice variant of the D2 receptor compared to the
+long splice variant, caused by two intronic SNPs (rs2283265 and rs1076560).
+Interestingly, in the study by Zhang et al. (2007) the minor alleles of the two SNPs
+show strong linkage disequilibrium with the A1 allele of the DRD2/ANKK1-Taq Ia
+polymorphism (D′ = 0.855). These data indicate that, due to linkage, the
+DRD2/ANKK1-Taq Ia polymorphism is indeed a marker for dopamine receptor
+density.
+    The above-mentioned study by Reuter et al. (2013) replicates the ﬁndings by
+Zhong et al. (2010). In this study, the 4/4 genotype was associated with signiﬁ-
+cantly higher minimum acceptable offers (20 % higher) as compared to carriers
+without the 4/4 genotype and, similar to the Zhong et al. study, the DRD4 exon III
+polymorphism was not related to the proposer behavior. In addition, Reuter et al.
+detected an association between a haplotype block, spanning 15 kb of the
+DRD2/ANKK1 region, consisting of the rs18000497 (also known as
+DRD2/ANKK1-Taq Ia) and rs2283265 SNPs, and the ﬁrst mover offer in the UG.
+Carriers of at least one TT haplotype offered signiﬁcantly less money in the UG
+(ﬁrst mover-proposals) than carriers without a TT haplotype. This haplotype effect
+explains about 6 % of the variance in proposer behavior. The TT haplotype indi-
+cates that a subject has, at least on one chromosome, the minor alleles of both gene
+variants. Both minor alleles have been associated with lower DRD2 receptor
+density or decreased relative expression of DRD2s mRNA respectively
+(Pohjalainen et al. 1998; Zhang et al. 2007). On the other hand the
+second-mover-behavior was not related to genetic variations in the DRD2/ANKK1
+region. One may wonder why there is a positive molecular genetic association with
+proposer behavior in the UG, when heritability estimates from a twin study suggest
+zero heritability for this distinct behavior (Reuter et al. 2013; Wallace et al. 2007).
+This is indeed a contradiction. However, the same standards apply to both quan-
+titative genetic studies (twin studies) and molecular genetic studies: only an inde-
+pendent replication can reduce the probability of false positive or false negative
+4 Genes and Human Decision-Making                                                  73
+
+ﬁndings. While the DRD4 results were successfully replicated, it remains to be
+clariﬁed whether replication of the twin and the DRD2-proposer data is possible.
+   The DRD4 exon III effect is unambiguously related to fairness preference (re-
+sponder behavior, i.e., size of minimum acceptable offer), whereas the
+DRD2/ANKK1 effect is far more complicated to explain. As described above, the
+proposer behavior constitutes a mixture of fairness preference and strategic con-
+sideration. Future experiments investigating the UG and the related dictator game
+(DG) in a within-subject design could disentangle these two facets of proposer
+behavior. In the DG two anonymous players interact with each other. However, the
+“interaction” is limited to the ﬁrst mover. He has to split a certain amount of money
+between himself and the other player. In contrast to the payoff in the UG, which is
+dependent on the acceptance/rejection of the ﬁrst mover’s proposal by the second
+mover, the ﬁrst mover in the DG (for a full description of the dictator game, please
+see Chap. 2 by Civai and Hawes in this book), also known as “the dictator”, makes
+a proposal that is implemented independently of the second mover, i.e., the second
+mover cannot reject the dictator’s offer. The identiﬁcation of distinct gene loci
+related to the proposals in the UG and in the dictator game would help to clarify this
+issue.
+
+
+
+4.2.2    Dictator Game (DG)
+
+As mentioned above, the decision-making process of the dictator in the DG is
+assumed to reflect prosocial behavior (generosity; altruism; the dictator has not to
+fear punishment for an unfair offer) and is therefore more straightforward to
+interpret than the ambiguous ﬁrst mover behavior in the UG. Whereas genetic
+association studies in the UG concentrate on dopaminergic gene loci, so far all
+available studies on the dictator game report associations with the classic prosocial
+hormones, vasopressin, and oxytocin. Vasopressin and oxytocin are phylogeneti-
+cally very old neuropeptides, consisting of nine amino acids (they are thus referred
+to as nonapeptides). The two hormones differ only in two amino acids. Invertebrates
+also possess antecedent forms of oxytocin and vasopressin, which indicates the
+evolutionary importance of these two hormones. Their relevance for prosocial
+behavior was impressively demonstrated when differences in social behaviors and
+related biological systems between prairie (Microtus ochrogaster) and meadow
+voles (Microtus pennsylvanicus) were discovered (Lim et al. 2004). These two
+kinds of voles, although from the same species, are marked by extreme differences
+in pair bonding and fostering of offspring. Male prairie voles are monogamous, are
+engaged in parental care and exhibit a stable social structure, whereas the closely
+related meadow voles are solitary, polygamous, and do not care about rearing the
+offspring. Lim and colleagues discovered that the arginine vasopressin 1a receptor
+(AVPR1a) mRNA expression in the ventral forebrain is signiﬁcantly higher in the
+monogamous prairie voles than in the promiscuous meadow voles. Interestingly,
+the insertion of a viral AVPR1a gene vector into the ventral forebrain of male
+74                                                              M. Reuter and C. Montag
+
+meadow voles reduced promiscuity and increased preference for an individual
+partner. This same genetic region was the focus of interest in the ﬁrst human genetic
+studies investigating social behavior by means of the dictator game. In a seminal
+study of 203 university students who played an online version of the DG, Knafo
+et al. (2008) demonstrated that allocation of funds in the Dictator Game (DG) was in
+part determined by length of the arginine vasopressin 1a (AVPR1a) RS3 promoter
+repeat region. The RS3 polymorphism is one of three promoter region
+microsatellites (the other two are (GT)25 and RS1). Microsatellites represent small
+repeats of DNA bases, also known as simple sequence repeats (SSR). All three
+polymorphisms in this study were SSRs, i.e., repetitive DNA sequences charac-
+terized by a short base-pair motif that is repeated several to many times in tandem
+(e.g., CACACACA). It has been demonstrated that such SSRs can exert an influ-
+ence on the translation and transcription of a gene (Beckmann et al. 2007). In the
+study by Knafo et al. dictators with short versions (308–325 bp) of the AVPR1a
+RS3 repeat allocated signiﬁcantly smaller amounts of money to the other player
+than participants with long versions (327–343 bp). Additionally, the length of the
+RS3 repeat region was related to the amounts of AVPR1a mRNA expression in
+hippocampal postmortem specimens. Long AVPR1a RS3 repeats were associated
+with higher AVPR1a hippocampal messenger RNA levels than short RS3 repeats.
+This proof of functionality (although demonstrated in brain tissue of only n = 15
+individuals) shows that the association of the AVPR1a RS3 polymorphism is not
+correlative in nature, but that this genetic variant has an influence on central nervous
+vasopressin receptor metabolism. Results indicate that higher mRNA levels of the
+APPR1a receptor are related to more generous behavior. In a further study using a
+modiﬁed version of the DG, the initial positive association between AVPR1a RS3
+polymorphism and generosity was replicated in a sample of 3.5-year-old twins
+(Avinun et al. 2011). Children were required to allocate sticker charts instead of
+money, as in adult games. The ﬁndings demonstrate that prosocial behaviors
+develop earlier in life than is usually expected. Preschoolers at the age of 3.5
+already behave socially.
+    A third study by the same group tested the influence of the oxytocin receptor
+gene on behavior in the DG (Israel et al. 2009). The human OXTR gene is located
+on chromosome 3p25.3 spanning approximately 19 kbp, and consists of three
+introns and four exons (Inoue et al. 1994). The rationale for extending the search for
+prosocial genes to the oxytocin system is straightforward. Independent studies have
+demonstrated that both vasopressin and oxytocin promote social behaviors in dif-
+ferent mammalian species including humans (for an overview see Ebstein et al.
+2009). Vasopressin and oxytocin exert overlapping functions, in part caused by
+mutual effects on their respective receptors. This is possible because both hormones
+seem to have comparable receptor afﬁnities (e.g., Landgraf and Neumann 2004;
+Ragnauth et al. 2004; Pedersen and Boccia 2006).
+    Israel et al. (2009) investigated N = 203 Israeli students with the DG and
+genotyped for 15 single tagging SNPs across the oxytocin receptor gene (OXTR).
+Three of these SNPs showed an association with the allocations of the dictator, of
+which rs1042778 exhibited the strongest effect. Carriers of the G allele (genotypes
+4 Genes and Human Decision-Making                                                    75
+
+GG and GT) as compared to the T allele carriers (genotype TT), split their
+endowments more generously. Noteworthy, the positive effects of rs1042778 were
+replicated in an independent study of N = 98 female participants (Israel et al. 2009).
+Unfortunately these ﬁndings were not replicated in a sample of N = 684 Swedish
+twins (Apicella et al. 2010).
+
+
+
+4.2.3    Trust
+
+Trust is the prerequisite for all successful social interactions, no matter whether
+these take place on a dyadic (lovers, couples, friends) or on a more complex level
+(groups, companies, societies, countries) (e.g., Zak and Knack 2001). From an
+evolutionary perspective, trust is adaptive and has promoted the development of the
+human species (Kümmerli and Brown 2010). Of relevance to neuroeconomics,
+studies exist that suggest trust is related to the prosperity of societies (Knack and
+Keefer 1997). Trust behavior and altruism alike can be subsumed under the term
+“prosocial behaviors”. Therefore, it is not surprising that similar biological systems
+are involved in altruism and trust behavior. A seminal study by Kosfeld et al.
+(2005) found that administration of nasal oxytocin increases trust in humans and
+that this association was not related to risk proneness. In a placebo-controlled
+pharmacological study, they used the Trust Game. This famous economic game is
+played in the laboratory and represents a one-shot interaction between two
+anonymous interaction partners. Participants were randomly assigned the roles of
+either an investor or a trustee. Both start the game with an initial endowment
+(monetary units, MU). In the ﬁrst stage of the game, the investor can send any even
+number of MUs to the trustee. The amount sent by the investor is tripled by the
+experimenter. Then, the trustee decides how much money to return to the investor.
+Any back transfer between 0 MU and the maximum amount available to the trustee
+is feasible. To obtain measures of trust and trustworthiness (i.e., the size of the back
+transfer) for each participant, the trust game, in some versions, is played under role
+uncertainty. First, each player makes the decision in the role of the investor and
+subsequently must decide as a trustee, how many MUs to send back for any
+possible amount sent by the investor. After all decisions have been made, a ran-
+domization device determines which player in a given pair actually had the role of
+the investor and which player had the role of the trustee. Players’ decisions were
+then implemented and subjects were paid according to their decisions (for a full
+description of the Trust Game and other economic games, please see Chap. 2 by
+Civai and Hawes in this book).
+    One may argue that the data of Kosfeld and colleagues show that administration
+of oxytocin increases trust, but that this laboratory experiment does not reflect a
+natural setting in which no drugs are consumed. However, in addition to the main
+effect of drug (placebo vs. oxytocin), the data also show large variability in the
+amount of trust in the placebo condition. A genetic approach may be adopted to
+investigate this variability in behavior under natural conditions (i.e., free of drug
+76                                                               M. Reuter and C. Montag
+
+intake). A Swedish twin study of more than 2000 twin pairs showed that trust is
+indeed heritable. Heritability estimates were 0.33 for males and 0.39 for females
+(Oskarsson et al. 2012). However, it must be noted that trust was assessed via a
+self-report measure, using one single item (“Generally speaking, would you say that
+most people can be trusted, or that you can’t be too careful in dealing with peo-
+ple?”). If oxytocin does play a role in trust behavior, as demonstrated by Kosfeld
+et al. (2005), then it is likely that genetic variants of the oxytocin system are related
+to individual differences in trust behavior. The ﬁrst study investigating polymor-
+phisms on the OXTR gene was conducted by Apicella et al. (2010). In their study
+(outlined above), they investigated both the DG and the Trust Game. The authors
+did not ﬁnd an association between any of the nine OXTR SNPs under investigation
+and participant’s behavior in the trust game. In another trust study by Krueger et al.
+(2012), a SNP in intron 3 of OXTR (rs53576), characterized by an adenine (A) to
+guanine (G) transition, was related to trust behavior but not to trustworthiness, in a
+sample of N = 108 US students. Participants with the homozygous GG genotype
+showed higher trust behavior than individuals with at least one A-allele (genotypes
+AG or AA). This ﬁnding is in line with another study reporting higher behavioral
+and dispositional empathy in carriers of the GG genotype as compared to the
+A-allele carriers (genotypes AA or AG; Rodrigues et al. 2009). Unfortunately there
+exists no test of functionality for the rs53576 SNP so far. In a trust study of N = 100
+healthy Caucasian subjects, the present authors tested nine SNPs—mainly in the
+promoter region of the OXTR gene—for an association with trust behavior (Reuter
+et al. 2009). Haplotype analyses (a mathematical method from bioinformatics used
+in genetics to look for a putative linkage between several SNPs located in close
+proximity on the same chromosome) revealed a 6-SNP haplotype block or a 3-SNP
+haplotype block, dependent on the mathematical algorithm used to estimate the
+haplotypes. The smaller haplotype was included within the larger haplotype. The
+6-SNP haplotype was obtained by a more liberal haplotype estimation method.
+Both haplotypes were signiﬁcantly related to trust and explained between 6 and
+10 % of the observed variance. It turned out that the SNP rs2268498, located in the
+promoter of OXTR, is the driving force in both haplotype blocks. In order to prove
+the functionality of these genetic variations, we conducted mRNA expression
+analyses in hippocampus specimens of pharmaco-therapy resistant temporal lobe
+epilepsy patients, from whom we also obtained blood samples for genotyping.
+Results showed that carriers of the haplotype that had been associated with high
+trust in the laboratory experiment showed a 50 % reduction in OXTR mRNA
+expression, as compared to the haplotypes that were related to low trust (Reuter
+et al. 2016). In line with the behavioral data, mRNA expression analyses showed
+that rs2268498 is the SNP that essentially influences functionality.
+    Tabak et al. (2014) used an iterated Prisoner’s Dilemma in order to investigate
+behavioral and affective responses following a betrayal of trust. Participants were
+told to interact with an anonymous partner. In reality they played with/against a
+computer program that initially exhibited a cooperative tit-for-tat strategy and then
+began to defect over a series of consecutive trials. The dependent measures were the
+time point at which participants started to betray even though the computer was
+4 Genes and Human Decision-Making                                                     77
+
+cooperative, and when they started to retaliate to unfair decisions made by the
+computer. Emotional responses to betrayal and retaliation were also assessed. Three
+different haplotypes on the OXTR were identiﬁed that were related either to faster
+retaliation after betrayal, or with high or low post-betrayal satisfaction, respectively.
+
+
+
+4.2.4    Altruism
+
+Many neuroeconomic studies using the dictator game interpret the ﬁrst mover’s
+(i.e., the dictator’s) decision as a marker for generosity or altruism. Therefore, the
+ﬁndings reported in the above section on the dictator game can also be viewed as
+molecular genetic association studies on altruism. However, the question arises of
+whether the decision-making in the DG is really altruistic behavior. There exist in
+the literature countless deﬁnitions of altruism. One deﬁnition, encompassing many
+different facets of the concept, deﬁnes altruism as the selfless concern for the
+welfare of others. However, there is a great debate in the literature as to whether
+true altruism really exists (Fehr and Fischbacher 2003). Pure altruism is giving
+without regard to reward or the beneﬁts of recognition and need. People who doubt
+the existence of pure altruism argue that helping others is intrinsically rewarding for
+altruistic persons and therefore they are pursuing their personal interest, rather than
+the interests of others. In other words helping others makes them feel good, e.g., by
+enhancing their self-esteem. This line of argument overcomes the apparent
+incompatibility with economic concepts like the homo economicus, postulating that
+humans are selﬁsh, rational beings, motivated merely through self-interest (Ng and
+Tseng 2008). In order to disentangle genetic and environmental (e.g., upbringing,
+education, etc.) influences contributing to the widely acknowledged variability in
+altruistic behavior, twin studies are considered the gold standard method. These
+behavioral genetic studies mostly rely on self-report data: A twin study by Rushton
+et al. (1986) on 563 pairs of monozygous (MZ) and dizygous (DZ) twins using an
+altruism scale, reported that 50 % of the variance in altruism was due to genes and
+the remaining 50 % due to environmental factors. Noteworthy, the total environ-
+mental variance came from nonshared environmental sources (e.g., epigenetic
+factors, peer influences, etc.), not from shared ones. A second study by Matthews
+et al. (1981) found 72 % heritability for a self-report adjective checklist measure of
+empathy in 114 MZ and 116 DZ middle-aged male twins. In an additional twin
+study of 322 pairs of twins, Rushton (2004) replicated the strong genetic effects on
+prosocial behavior. He reported heritability estimates of 0.40 for females and of
+0.50 for males for social responsibility. In contrast to the study from 1986, shared
+environmental factors accounted for about 23 % of this variance, whereas in the
+previous studies, environmental effects were exclusively due to nonshared envi-
+ronmental factors.
+    Two independent groups have investigated the role of the DRD4 Exon 3
+polymorphism on self-report measures of altruism and arrived at similar results:
+Bachner-Melman et al. (2005) observed signiﬁcantly higher altruism scores in
+78                                                                M. Reuter and C. Montag
+
+carriers of the 4-repeat allele and Anacker et al. (2013) found signiﬁcantly higher
+altruism scores in carriers of the 4/4 genotype. Mertins et al. (2011) used a repeated
+public goods game (for a detailed description of the public goods game please see
+Chap. 2 in this book by Civai and Hawes) in order to study genetic effects on
+altruistic behavior and found evidence for the role of a functional repeat poly-
+morphism in the promoter region of the monoamine oxidase A (MAO-A) gene. In
+the public goods game participants have to decide whether to give money to a
+community pool or to take their money for themselves, while also proﬁting from the
+donations of the other community members. The money in the community pool is
+multiplied by the experimenter and shared equally among the community members,
+irrespective of whether they have contributed. Noteworthy, the return to the indi-
+vidual is always smaller than their original contribution. Therefore, investing in the
+community pool is considered an altruistic behavior. In addition, the public goods
+game was not conducted as a single shot game, but in a dynamic setting of
+increasing information about the other players’ contributions. The ﬁndings show
+that male participants carrying the low activity alleles were signiﬁcantly less
+altruistic (i.e., gave less money to the community pool) than carriers of the high
+activity alleles. Interestingly the genetic effects became smaller with increasing
+information about the other players’ behavior in the public goods game. However,
+in female participants carrying two low activity alleles of the MAO-A polymor-
+phism, the opposite behavior was observed. In females, the low activity alleles were
+related to higher altruistic decisions. Gender differences with respect to the MAO-A
+promoter repeat polymorphism must be interpreted with caution, given the fact that
+the MAO-A gene is located on the X-chromosome. This means that men have only
+one allele at the polymorphic region (as they possess only one X-chromosome),
+whereas women have a genotype with an allele on each of their two X-chromosomes.
+The polymorphism, which is located 1.2 kb upstream of the MAO-A coding
+sequences, consists of a 30 bp repeated sequence present in 3, 3.5, 4, or 5 copies.
+Functional studies have shown that the 3.5 and 4 copy alleles (i.e., the high activity
+alleles) are transcribed 2–10 times more efﬁciently than the 3 or 5 copy alleles (i.e., the
+low activity alleles) (Sabol et al. 1998). However, it is not yet proven how strong the
+functional impact of the second allele is in women compared to the one allele in men.
+At least the location of the MAO-A polymorphism on the X-chromosome could be a
+potential explanation for contradictory results based on gender.
+    In a laboratory study with N = 101 healthy Caucasian participants, we investi-
+gated altruism in a donation experiment (Reuter et al. 2011). Altruism was not
+assessed by a classic economic game, but by the amount of money donated to a
+poor child in a developing country, after participants earned money through par-
+ticipation in two straining computer experiments. The focus was on the dopamin-
+ergic system, because dopamine has proven to be—in addition to the prominent
+neuropeptides oxytocin and vasopressin—crucial for prosocial behaviors like
+cooperation, attachment style, mentoring, paternal parenting, and positive
+4 Genes and Human Decision-Making                                                   79
+
+emotionality, to name but a few (Lucht et al. 2006; Reuter et al. 2006; Shanahan
+et al. 2007; Gillath et al. 2008; Walter et al. 2011). The functional Val158Met
+polymorphism was signiﬁcantly associated with the size of the donations. Carriers
+of at least one Val-allele donated about twice as much money, compared to those
+participants without a Val-allele (genotype Met/Met). The functional COMT SNP
+together with the personality trait cooperativeness, as assessed by the Temperament
+and Character Inventory (TCI; Cloninger et al. 1993), explained about 15 % of the
+variance in donation size. The Val-allele, which is characterized by high altruism
+and also by high catabolic activity with respect to the degradation of dopamine, is
+the ancestral allele at the polymorphic region in codon 158 on the COMT gene.
+Today we have equal allele frequencies for the Val- and the Met-allele in Caucasian
+populations, indicating that the allele frequency of the Met-allele must have dra-
+matically increased over the last 100,000 years. Therefore, it can be concluded that
+altruism (as represented by the Val-allele) is less adaptive than selﬁshness (repre-
+sented by the absence of the Val-allele; i.e., the presence of the Met/Met genotype).
+However, from the perspective of evolutionary psychology, altruism was the pre-
+requisite for mankind’s’ success and increases inclusive ﬁtness. Eldakar and Wilson
+(2008) contributed an interesting model to this debate. Their model identiﬁes a
+strategy called “selﬁsh punisher” that involves behaving selﬁshly in ﬁrst-order
+interactions and “altruistically” in second-order interactions by punishing other
+selﬁsh individuals. The act of punishing other selﬁsh individuals can be considered
+a form of second-order altruism. The idea behind this is that selﬁsh punishers limit
+selﬁsh behavior and thereby enable altruists to coexist in a stable equilibrium.
+    Strobel et al. (2011) investigated a related construct named altruistic punishment
+(for more details, please see Chap. 12 on altruistic punishment by Alexander
+Strobel, in this book). Altruistic punishment refers to a behavior in which indi-
+viduals punish others for unfair actions (e.g., free-riding, defection, noncoopera-
+tion) at a cost to themselves and for the sake of others or the community. According
+to this deﬁnition, altruistic punishment indeed meets the criterion for altruism. The
+authors conducted a combined fMRI-genetics study. Besides the major ﬁnding that
+brain regions related to cognitive and affective functioning (DLPFC, ACC, insula)
+were essentially involved in altruistic punishment, they reported an allele load effect
+(Met/Met > Val/Met > Val/Val) with respect to the BOLD-response (contrast
+punishment vs. nonpunishment) in the cingulate gyrus, the nucleus accumbens and
+the insula. Strobel et al. discuss this ﬁnding as suggestive in favor of the hypothesis
+that the evolutionarily younger, Met-allele, is favored in societies where reciprocal
+behavior—in this case punishment of unfair behavior—is the social norm. Given
+that, the Met/Met genotype could be related to less altruism (Reuter et al. 2013), but
+in the study by Strobel et al. to more pronounced brain activity during altruistic
+punishment, it cannot be taken for granted that altruism and altruistic punishment
+are highly correlated, although both constructs represent prosocial behavior. Future
+studies should test this hypothesis in a within-subject design.
+80                                                                    M. Reuter and C. Montag
+
+
+4.3    Summary and Perspectives
+
+The present chapter on genes and human decision-making gives an overview of
+prominent genetic studies that have been published in the ﬁeld of neuroeconomics
+to date. It becomes apparent that all studies adopt a candidate gene approach, i.e.,
+they derived their hypotheses for testing speciﬁc gene loci from the general liter-
+ature on genes and human decision-making. Besides the oxytocin and the vaso-
+pressin receptor genes, dopaminergic gene loci have been a particular focus of
+interest. Positive associations between these polymorphisms and economic con-
+structs like trust, altruism, generosity and reciprocity, support results from quanti-
+tative genetic studies (twin studies) demonstrating that human decision-making in
+economic contexts is substantially influenced by genetic factors. However, the
+explained variance in the phenotypes under investigation is rather small, as is
+common in genetic association studies. New techniques in molecular genetics like
+genome wide association studies (GWAS; for an overview please see the methods
+chapter on genetics in this book), provide the hope of unraveling new gene loci
+associated with economic decision-making.
+    As outlined in the introduction to this chapter, the genetic approach in neuroe-
+conomics offers the possibility of assessing biological variables in ecologically
+valid situations. This is a clear advantage over MRI studies, which provide a rather
+artiﬁcial—and simultaneously, extreme—laboratory setting. Time will tell whether
+interest in this new and promising genetic approach will increase in the ﬁeld of
+neuroeconomics.
+
+
+
+References
+
+Anacker K, Enge S, Reif A et al (2013) Dopamine D4 receptor gene variation impacts
+   self-reported altruism. Mol Psychiatry 18(4):402–403
+Apicella CL, Cesarini D, Johannesson M et al (2010) No association between oxytocin receptor
+   (OXTR) gene polymorphisms and experimentally elicited social preferences. PLoS One 5(6):
+   e11153. doi:10.1371/journal.pone.0011153
+Asghari V, Sanyal S, Buchwaldt S et al (1995) Modulation of intracellular cyclic AMP levels by
+   different human dopamine D4 receptor variants. J Neurochem 65(3):1157–1165
+Avinun R, Israel S, Shalev I et al (2011) AVPR1A variant associated with preschoolers’ lower
+   altruistic behavior. PLoS One 6(9):e25274. doi:10.1371/journal.pone.0025274
+Bachner-Melman R, Gritsenko I, Nemanov L et al (2005) Dopaminergic polymorphisms
+   associated with self-report measures of human altruism: a fresh phenotype for the dopamine D4
+   receptor. Mol Psychiatry 10(4):333–335
+Bechara A, Tranel D, Damasio H (2000) Characterization of the decision-making deﬁcit of
+   patients with ventromedial prefrontal cortex lesions. Brain 123(11):2189–2202
+Beckmann J, Estivill X, Antonarakis S (2007) Copy number variants and genetic traits: closer to
+   the resolution of phenotypic to genotypic variability. Nat Rev Genet 8(8):639–646
+Camerer CF (2003) Behavioral game theory: experiments on strategic interaction. Princeton
+   University Press, Princeton
+4 Genes and Human Decision-Making                                                                81
+
+Cloninger CR, Svrakic DM, Przybeck TR (1993) A psychobiological model of temperament and
+    character. Arch Gen Psychiatry 50(12):975–990
+da Rocha FF, Malloy-Diniz L, Lage NV et al (2008) Decision-making impairment is related to
+    serotonin transporter promoter polymorphism in a sample of patients with
+    obsessive-compulsive disorder. Behav Brain Res 195(1):159–163
+Ebstein RP, Novick O, Umansky R et al (1996) Dopamine D4 receptor (D4DR) exon III
+    polymorphism associated with the human personality trait of novelty seeking. Nat Genet 12
+    (1):78–80
+Ebstein RP, Israel S, Lerer E et al (2009) Arginine vasopressin and oxytocin modulate human
+    social behavior. Ann N Y Acad Sci 1167:87–102
+Eisenegger C, Knoch D, Ebstein RP et al (2010) Dopamine receptor D4 polymorphism predicts
+    the effect of L-DOPA on gambling behavior. Biol Psychiatry 67(8):702–706
+Eldakar OT, Wilson DS (2008) Selﬁshness as second-order altruism. Proc Natl Acad Sci USA 105
+    (19):6982–6986
+Ert E, Yechiam E, Arshavsky O (2013) Smokers’ decision making: more than mere risk taking.
+    PLoS One 8(7):e68064. doi:10.1371/journal.pone.0068064
+Fehr E, Fischbacher U (2003) The nature of human altruism. Nature 425(6960):785–791
+Gillath O, Shaver PR, Baek JM et al (2008) Genetic correlates of adult attachment style. Pers Soc
+    Psychol Bull 34(10):1396–1405
+Goldberg TE, Weinberger DR (2008) Genes and the parsing of cognitive processes. Trends Cogn
+    Sci 8(7):325–335
+He Q, Xue G, Chen C et al (2010) Serotonin transporter gene-linked polymorphic region
+    (5-HTTLPR) influences decision making under ambiguity and risk in a large Chinese sample.
+    Neuropharmacology 59(6):518–526
+Inoue T, Kimura T, Azuma C et al (1994) Structural organization of the human oxytocin receptor
+    gene. J Biol Chem 269(51):32451–32456
+Israel S, Lerer E, Shalev I et al (2009) The oxytocin receptor (OXTR) contributes to prosocial fund
+    allocations in the dictator game and the social value orientations task. PLoS One 4(5):e5535.
+    doi:10.1371/journal.pone.0005535
+Kaplan MF, Miller CE (1987) Group decision making and normative versus informational
+    influence: effects of type of issue and assigned decision rule. J Pers Soc Psychol 53(2):306–313
+Knack S, Keefer P (1997) Does social capital have an economic payoff? A cross-country
+    investigation. Q J Econ 112(4):1251–1288
+Knafo A, Israel S, Darvasi A et al (2008) Individual differences in allocation of funds in the
+    dictator game associated with length of the arginine vasopressin 1a receptor RS3 promoter
+    region and correlation between RS3 length and hippocampal mRNA. Genes Brain Behav 7
+    (3):266–275
+Kosfeld M, Heinrichs M, Zak PJ et al (2005) Oxytocin increases trust in humans. Nature 435
+    (7042):673–676
+Krebs RM, Schott BH, Düzel E (2009) Personality traits are differentially associated with patterns
+    of reward and novelty processing in the human substantia nigra/ventral tegmental area. Biol
+    Psychiatry 65(2):103–110
+Krueger F, Parasuraman R, Iyengar V et al (2012) Oxytocin receptor genetic variation promotes
+    human trust behavior. Front Hum Neurosci 6:4
+Kümmerli R, Brown SP (2010) Molecular and regulatory properties of a public good shape the
+    evolution of cooperation. Proc Natl Acad Sci USA 107(44):18921–18926
+Lachman HM, Papolos DF, Saito T et al (1996) Human catechol-O-methyltransferase
+    pharmacogenetics: description of a functional polymorphism and its potential application to
+    neuropsychiatric disorders. Pharmacogenetics 6(3):243–250
+Lage GM, Malloy-Diniz LF, Matos LO et al (2011) Impulsivity and the 5-HTTLPR polymorphism
+    in a non-clinical sample. PLoS One 6(2):e16927. doi:10.1371/journal.pone.0016927
+Landgraf R, Neumann ID (2004) Vasopressin and oxytocin release within the brain: a dynamic
+    concept of multiple and variable modes of neuropeptide communication. Front
+    Neuroendocrinol 25(3–4):150–176
+82                                                                       M. Reuter and C. Montag
+
+Lesch KP, Bengel D, Heils A et al (1996) Association of anxiety-related traits with a
+   polymorphism in the serotonin transporter gene regulatory region. Science 274(5292):1527–
+   1531
+Lim MM, Wang Z, Olazábal DE, Ren X, Terwilliger EF, Young LJ (2004) Enhanced partner
+   preference in a promiscuous species by manipulating the expression of a single gene. Nature
+   429(6993):754–757
+Lucht M, Barnow S, Schroeder W et al (2006) Negative perceived paternal parenting is associated
+   with dopamine D2 receptor exon 8 and GABA(A) alpha 6 receptor variants: an explorative
+   study. Am J Med Genet B Neuropsychiatr Genet 141B(2):167–172
+Matthews KA, Batson CD, Horn J et al (1981) ‘‘ Principles in his nature which interest him in the
+   fortune of others…”: the heritability of empathic concern for others. J Pers 49(3):237–247
+Mertins V, Schote AB, Hoffeld W et al (2011) Genetic susceptibility for individual cooperation
+   preferences: the role of monoamine oxidase A gene (MAOA) in the voluntary provision of
+   public goods. PLoS One 6(6):e20959. doi:10.1371/journal.pone.0020959
+Montag C, Jurkiewicz M, Reuter M (2012) The role of the catechol-O-methyltransferase (COMT)
+   gene in personality and related psychopathological disorders. CNS Neurol Disord: Drug
+   Targets 11(3):236–250
+Neville MJ, Johnstone EC, Walton RT (2004) Identiﬁcation and characterization of ANKK1: a
+   novel kinase gene closely linked to DRD2 on chromosome band 11q23.1. Hum Mutat 23
+   (6):540–545
+Ng ICL, Tseng LM (2008) Learning to be sociable: the evolution of homo economicus. Am J Econ
+   Soc 67(2):265–286
+Nikolaidis A, Gray JR (2010) ADHD and the American Journal of Med Genet B DRD4 exon III
+   7-repeat polymorphism: an international meta-analysis. Soc Cogn Affect Neurosci 5(2–3):188–
+   193
+Noble EP (2003) D2 dopamine receptor gene in psychiatric and neurologic disorders and its
+   phenotypes. Am J Med Genet B Neuropsychiatr Genet 116B(1):103–125
+Oskarsson S, Dawes C, Johannesson M et al (2012) The genetic origins of the relationship
+   between psychological traits and social trust. Twin Res Hum Genet 15(1):21–33
+Pedersen CA, Boccia ML (2006) Vasopressin interactions with oxytocin in the control of female
+   sexual behavior. Neuroscience 139(3):843–851
+Persky J (1995) Retrospectives: the ethology of homo economicus. J Econ Perspect 9(2):221–231
+Pohjalainen T, Rinne JO, Någren K et al (1998) The A1 allele of the human D2 dopamine receptor
+   gene predicts low D2 receptor availability in healthy volunteers. Mol Psychiatry 3(3):256–260
+Ragnauth AK, Goodwillie A, Brewer C et al (2004) Vasopressin stimulates ventromedial
+   hypothalamic neurons via oxytocin receptors in oxytocin gene knockout male and female mice.
+   Neuroendocrinology 80(2):92–99
+Reuter M, Hennig J (2005) Association of the functional catechol-O-methyltransferase
+   VAL158MET polymorphism with the personality trait of extraversion. NeuroReport 16
+   (10):1135–1138
+Reuter M, Schmitz A, Corr P et al (2006) Molecular genetics support Gray’s personality theory:
+   the interaction of COMT and DRD2 polymorphisms predicts the behavioural approach system.
+   Int J Neuropsychopharmacol 9(2):155–166
+Reuter M, Montag C, Altmann S (2009) Genetically determined differences in human trust
+   behavior: the role of the oxytocin receptor gene. In: NeuroPsychoEconomics, conference
+   proceedings
+Reuter M, Frenzel C, Walter NT et al (2011) Investigating the genetic basis of altruism: the role of
+   the COMT Val158Met polymorphism. Soc Cogn Affect Neurosci 6(5):662–668
+Reuter M, Felten A, Penz S et al (2013) The influence of dopaminergic gene variants on decision
+   making in the ultimatum game. Front Hum Neurosci 7:242
+Reuter M, Montag C, Altmann S, Bendlow F, Elger C, Kirsch P, Becker A, Schoch-McGovern S,
+   Simon M, Weber B, Felten A (2016) Functional characterization of an oxytocin receptor gene
+   variant (rs2268498) previously associated with socialcognition by expression analysis in vitro
+   and in human brain biopsy. Soc Neurosci. Jul 27:1–8.
+4 Genes and Human Decision-Making                                                              83
+
+Rodrigues SM, Saslow LR, Garcia N et al (2009) Oxytocin receptor genetic variation relates to
+    empathy and stress reactivity in humans. Proc Natl Acad Sci USA 106(50):21437–21441
+Rushton JP (2004) Genetic and environmental contributions to pro-social attitudes: a twin study of
+    social responsibility. Proc Biol Sci 271(1557):2583–2585
+Rushton JP, Fulker DW, Neale MC et al (1986) Altruism and aggression: the heritability of
+    individual differences. J Pers Soc Psychol 50(6):1192–1198
+Sabol SZ, Hu S, Hamer D (1998) A functional polymorphism in the monoamine oxidase A gene
+    promoter. Hum Genet 103(3):273–279
+Shanahan MJ, Erickson LD, Vaisey S et al (2007) Helping relationships and genetic propensities: a
+    combinatoric study of DRD2, mentoring, and educational continuation. Twin Res Hum Genet
+    10(2):285–298
+Smillie LD (2013) Extraversion and reward processing. Curr Dir Psychol Sci 22(3):167–172
+Stoltenberg SF, Vandever JM (2010) Gender moderates the association between 5-HTTLPR and
+    decision-making under ambiguity but not under risk. Neuropharmacology 58(2):423–428
+Strobel A, Wehr A, Michel A et al (1999) Association between the dopamine D4 receptor (DRD4)
+    exon III polymorphism and measures of Novelty Seeking in a German population. Mol
+    Psychiatry 4(4):378–384
+Strobel A, Zimmermann J, Schmitz A et al (2011) Beyond revenge: neural and genetic bases of
+    altruistic punishment. Neuroimage 54(1):671–680
+Tabak BA, McCullough ME, Carver CS et al (2014) Variation in oxytocin receptor gene (OXTR)
+    polymorphisms is associated with emotional and behavioral reactions to betrayal. Soc Cogn
+    Affect Neurosci 9(6):810–816
+Tellegen A, Lykken DT, Bouchard TJ Jr et al (1988) Personality similarity in twins reared apart
+    and together. J Pers Soc Psychol 54(6):1031–1039
+van der Plas EA, Crone EA, van den Wildenberg WP et al (2009) Executive control deﬁcits in
+    substance-dependent individuals: a comparison of alcohol, cocaine, and methamphetamine and
+    of men and women. J Clin Exp Neuropsychol 31(6):706–719
+Van Tol HH, Wu CM, Guan HC et al (1992) Multiple dopamine D4 receptor variants in the human
+    population. Nature 358(6382):149–152
+Wacker J, Mueller EM, Hennig J et al (2012) How to consistently link extraversion and
+    intelligence to the catechol-O-methyltransferase (COMT) gene: on deﬁning and measuring
+    psychological phenotypes in neurogenetic research. J Pers Soc Psychol 102(2):427–444
+Wallace B, Cesarini D, Lichtenstein P et al (2007) Heritability of ultimatum responder behavior.
+    Proc Natl Acad Sci USA 104(40):15631–15634
+Walter NT, Markett SA, Montag C et al (2011) A genetic contribution to cooperation:
+    dopamine-relevant genes are associated with social facilitation. Soc Neurosci 6(3):289–301
+Wickelgren WA (1977) Speed-accuracy tradeoff and information processing dynamics. Acta
+    Psychol 41(1):67–85
+Zak PJ, Knack S (2001) Trust and growth. Econ J 111(470):295–321
+Zaleskiewicz T (2001) Beyond risk seeking and risk aversion: personality and the dual nature of
+    economic risk taking. Eur J Pers 15:105–122
+Zhang Y, Bertolino A, Fazio L et al (2007) Polymorphisms in human dopamine D2 receptor gene
+    affect gene expression, splicing, and neuronal activity during working memory. Proc Natl Acad
+    Sci USA 104(51):20552–20557
+Zhong S, Israel S, Shalev I et al (2010) Dopamine D4 receptor gene associated with fairness
+    preference in ultimatum game. PLoS One 5(11):e13765. doi:10.1371/journal.pone.0013765

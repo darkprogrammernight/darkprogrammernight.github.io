@@ -1,0 +1,856 @@
+Chapter 11
+Individual Differences in Decision-Making:
+A Neural Trait Approach to Study Sources
+of Behavioral Heterogeneity
+
+Kyle Nash and Daria Knoch
+
+
+Abstract People display rich heterogeneity in decision-making, but from where do
+these individual differences originate? And what are the processes that underlie
+decision-making heterogeneity? In this chapter, we explore a ‘neural trait approach’
+in which neuroscience measures of meaningful dispositional differences are used to
+illuminate the sources of variability in decision-making. We begin by outlining the
+neural trait approach, with a focus on two methods: resting state electroen-
+cephalography and structural magnetic resonance imaging. Next, we review inno-
+vative studies that have used these methodologies to explore time and social
+preferences in decision-making. We then outline future research considerations and
+close by discussing certain opportunities and challenges afforded by this research
+and the neural trait approach in general.
+
+
+
+11.1     Introduction
+
+Behavioral heterogeneity in decision-making is ubiquitous. One person struggles
+with temptation and another effortlessly resists the same enticement. One individual
+takes a bold risk and another person eschews tempting chance. One person shows
+charity and another shows little to no regard for others. Given the same choices in
+the same situation, it is relatively assured that people will not act uniformly and will
+instead display a rich variety of responses. Economic models of decision-making,
+however, primarily describe the ways in which the average person will approach a
+given choice (Sanfey 2007; Smith and Huettel 2010; Wischniewski et al. 2009).
+Such an approach is uniquely capable of revealing general processes in
+decision-making and has been immensely powerful in predicting behavior across
+groups (Camerer 2003). Given the manifest heterogeneity of behavior, though,
+individual differences have been somewhat underemphasized and represent a ‘ﬁnal
+
+K. Nash  D. Knoch (&)
+Department of Social Psychology and Social Neuroscience, Institute of Psychology,
+University of Bern, Bern, Switzerland
+e-mail: daria.knoch@psy.unibe.ch
+
+© Springer-Verlag Berlin Heidelberg 2016                                            191
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_11
+192                                                               K. Nash and D. Knoch
+
+frontier’ that, if explored, can deepen our understanding of decision-making pro-
+cesses (Appelt et al. 2011; Braver et al. 2010; Heatherton 2011; Kanai and Rees
+2011; Levallois et al. 2012; Wischniewski et al. 2009). Key questions include:
+From where do these (often stark) differences in decision-making originate? And
+once these sources are discovered, what can be inferred about the psychological
+processes that lead to such behavioral heterogeneity?
+    Prior work on individual differences in economic decision-making has often
+focused on conceptually relevant personality traits. Notable traits include the Big 5
+(Becker et al. 2012; Kurzban and Houser 2001; Lu and Argyle 1991), behavioral
+inhibition and behavioral activation systems (BIS and BAS, respectively; Carver
+and White 1994; Scheres and Sanfey 2006), Machiavellianism (Christie and Geis
+1970; Spitzer et al. 2007; Wilson et al. 1998) and social value orientation (Van
+Lange 1999, 2000). For example, Scheres and Sanfey (2006) examined whether
+BIS (trait aversive motivation) and BAS (trait approach motivation) predicted
+behavior in the Dictator game (DG) and the Ultimatum game (UG). They found that
+trait levels of approach motivation amongst proposers predicted a strategic shift
+from low offers in the DG to higher, even-split offers in the UG (Scheres and Sanfey
+2006). People scoring high on Machiavellianism prefer exploitative over cooper-
+ative strategies (Wilson et al. 1998), such as opportunistic defection in a bargaining
+game (Gunnthorsdottir et al. 2002). And a recent study by Becker et al. (2012)
+found that Big 5 traits in general showed small degrees of association with classic
+economic preferences, including patience, risk, positive and negative reciprocity,
+trust in others, and altruistic tendencies.
+    These and many other studies have shown that variance in decision-making
+behavior can be partially explained by personality trait questionnaires. However,
+this approach is not without certain limitations. Questionnaire research is somewhat
+restricted by the degree to which people can access and accurately judge personality
+processes. For example, in the classic paper by Nisbett and Wilson (1977), people
+demonstrated that they are sometimes unaware of stimuli that lead to their behavior,
+unaware of the behavior itself, and unaware of the stimulus → behavior link.
+Essentially, people may not know why they act in certain ways, which poses a large
+problem for self-report. Additionally, self-report is vulnerable to bias. People tend
+to respond in socially desirable ways, may respond randomly, and may change their
+responses based on their estimation of an experiment’s purpose (Edwards 1957;
+Nichols and Maner 2008). Finally, personality measurements that precede depen-
+dent variable measurements could introduce statistical noise. For example, people
+who ﬁll out questionnaires that make certain preferences more salient may act
+differently in subsequent economic games. Conversely, people who play an eco-
+nomic game may respond differently on subsequent questionnaires.
+    As an alternative to the questionnaire, we hold that neuroscience methods
+uniquely allow for objective measurement of meaningful dispositional differences
+that could shed light on the sources of variability in decision-making, particularly in
+terms of key economic preferences (Berkman and Falk 2013; Kanai and Rees 2011;
+Levallois et al. 2012). This chapter, which details the neural trait approach in
+neuroeconomics, is composed of four sections. The ﬁrst outlines the neural trait
+11   Individual Differences in Decision-Making: A Neural Trait …                   193
+
+approach. The second section highlights contemporary studies that have speciﬁcally
+utilized the neural trait approach to explore preferences in decision-making. The
+third section highlights future research considerations on the neural trait approach to
+individual differences in decision-making. The ﬁnal section outlines certain
+opportunities and challenges afforded by this research and the neural trait approach
+in general.
+
+
+
+11.2     The Neural Trait Approach
+
+We deﬁne a neural trait as a quantiﬁable brain-based characteristic that is stable
+over time and capable of influencing economic and/or social preferences. In the
+ﬁeld of neuroeconomics, most studies that have employed the neural trait approach
+have focused on the characteristics of brain structure or resting state brain activity.
+Generally, the neural trait approach involves two steps; (1) indexing
+task-independent, brain-based differences and (2) examining whether these neural
+trait indices predict behavior in decision-making or processes directly relevant to
+decision-making. The ﬁrst and most salient objective of this approach is to deter-
+mine sources of behavioral heterogeneity (Braver et al. 2010; Kanai and Rees
+2011). As previously stated, economic models of decision-making typically
+describe aggregate behavior across individuals (Levallois et al. 2012; Scheres and
+Sanfey 2006; Wischniewski et al. 2009). However, individuals can evidence quite
+divergent behavior in the same scenarios. Smith and Huettel (2010) note that even
+in Kahneman and Tversky’s (1979) work on decision-making biases, sizable
+minorities within their sample displayed behavior that directly opposed funda-
+mental decision-making phenomena. Traits, and neural traits in particular, can
+explain this remarkable amount of variance in decision-making. The second
+objective of the neural trait approach is to add an additional level of analysis that
+can supplement and be informed by task-dependent analyses of neural and psy-
+chological processes (Berkman and Falk 2013). Based on prior literature it can be
+stated that neural traits can help researchers infer why differences in
+decision-making may occur (though interpretation should be cautious, see the
+Cautions and Implications section below). In sum, neural traits associated with
+certain functions can demonstrate how and suggest why people differ in their
+preferences.
+
+
+
+11.3     Neural Trait Measurement
+
+What makes an effective neural trait measure, then? We suggest that such a measure
+must meet certain criteria. First, to be able to capture dispositional differences the
+neural trait must be stable over time. For example, the measure should demonstrate
+high test–retest reliability. Second, the measure should be unique or speciﬁc to that
+194                                                                 K. Nash and D. Knoch
+
+individual, or, in other words, highly capable of recognizing a person based on the
+measure.
+    We focus on two methods that thoroughly fulﬁll these criteria and have been
+used in neuroeconomic research. The ﬁrst is resting state electroencephalographic
+(rsEEG) activity (for a general description of the EEG method see the chapter of
+Debener et al. in this book). Essentially, this method involves recording brain
+electrical activity on the scalp when the participant is at rest (as little as 2 min of
+recording is needed). As such, rsEEG reflects baseline patterns of brain activity that
+are not related to any particular task. Within neural trait research, rsEEG is typically
+analyzed by computing power values for different frequency bands. Importantly,
+these frequency-based measures of resting EEG activity are relatively stable in the
+adult brain, revealing test–retest reliabilities of up to 0.8 over a period of 5 years
+(Dunki et al. 2000; Näpflin et al. 2007), are heritable (estimates ranging from 70 to
+96 % heritability; see de Geus 2010; Smit et al. 2008; van’t Ent et al. 2009; Zietsch
+et al. 2007), and are unique or speciﬁc to the individual (i.e., it is possible to predict
+who the individual is based on the particular pattern of EEG activity—at up to a
+99 % recognition rate; Dunki et al. 2000; Näpflin et al. 2007). These ﬁndings
+comprehensively demonstrate that rsEEG can effectively capture dispositional
+differences in neural functioning. Additionally, rsEEG overcomes a signiﬁcant
+limitation of neuroscience research—one that is particularly germane to individual
+difference research: the limitation of small sample size (Button et al. 2013). Larger
+sample sizes are needed to detect individual sources of variability, and rsEEG is a
+relatively inexpensive and efﬁcient neuroscience method.
+    The second measure that fulﬁlls the criteria for a good neural trait is structural
+magnetic resonance imaging (MRI) of brain anatomy (for a general description of
+the MRI method see the chapters 8c (fMRI), 8d (VBM), and 8e (DTI) in this book).
+Neuroanatomical differences can be quantiﬁed through measuring and analyzing
+MRI data (i.e., high resolution images of the brain) with gray-matter approaches
+(such as voxel based morphometry, VBM, or vertex-based analyses, for example
+with the freesurfer image analysis suite) and white-matter approaches (such as
+diffusion tensor imaging, DTI). Whereas gray-matter approaches typically yield
+regionally speciﬁc estimations of cortical/subcortical volume, thickness, or surface
+area (Ashburner and Friston 2000), white-matter approaches quantify features of the
+neural connections or pathways in the brain (Basser 1995). The basic notion behind
+both gray- and white-matter approaches is that these brain differences reflect dif-
+ferent functional or processing capacity (Boyke et al. 2008; DeYoung et al. 2010).
+Unsurprisingly, cortical volume (i.e., the combination of cortical thickness and
+surface area) is highly stable in the adult brain (DeYoung et al. 2010; Han et al.
+2006), heritable (estimates ranging from 80 % heritability; Thompson et al. 2001;
+Panizzon et al. 2009) and highly speciﬁc to the individual (Mechelli et al. 2005).
+White-matter outcome variables have also demonstrated excellent test–retest reli-
+ability (Benson et al. 2007; Buechel et al. 2004) and are highly heritable too
+(estimates from 75 to 90 % heritability; Chiang et al. 2009). Much like resting
+EEG, then, structural MRI measures are ideal to quantify brain-based
+inter-individual differences (Kanai and Rees 2011). Moreover, structural
+11   Individual Differences in Decision-Making: A Neural Trait …                   195
+
+measures have the added beneﬁt of being able to image cortical and subcortical
+anatomy with a high degree of spatial precision.
+   Research utilizing the neural trait approach, either with rsEEG or with structural
+MRI, carries with it further advantages. First, because resting EEG and structural
+MRI can be measured separately from behavioral performance, researchers can then
+measure behavioral performance in more ecologically valid environments—that is,
+outside of the MRI scanner or without being hooked up to EEG-electrodes.
+Relatedly, the separation of behavioral measurement from neural measurement
+permits multiple tasks to be administered to the same set of subjects. Therefore, it is
+distinctively possible to link superﬁcially different preferences, such as risk, time,
+and social preferences, to some common neural circuitry and/or common psycho-
+logical process.
+
+
+
+11.4     Neural Trait Research and Decision-Making
+
+In this section, we review a number of studies that applied the neural trait approach
+to investigate the sources of individual differences in economic decision-making.
+Note that the following explication is not exhaustive. We instead focus on con-
+temporary research that has utilized the neural trait approach to investigate sig-
+niﬁcant preferences in economic decision-making; namely time preferences and
+social preferences.
+
+
+
+11.4.1 Time Preferences
+
+Time preferences describe the degree to which a person favors rewards or behav-
+ioral options as a function of time (Berns et al. 2007). Generally, people overlook or
+‘discount’ future rewards in favor of smaller, sooner rewards, depending on the
+amount of delay of the future reward. A reduced preference for sooner rewards is
+critical in forgoing immediate temptations to reach longer term goals (Casey et al.
+2011; Mischel et al. 2011). Time preferences are highly variable across individuals
+(Peters and Büchel 2011). Moreover, such individual differences in time preference
+are stable and predict a wide range of impulsive, yet consequential, every-day
+behaviors, like smoking, inﬁdelity, and food consumption (Beck and Triplett 2009;
+Casey et al. 2011; Mischel et al. 2011; Reimers et al. 2009). However, relatively
+little is known about the sources of these individual differences (Olson et al. 2009;
+Peters and Büchel 2011; Shamosh et al. 2008). Thus, the neural trait approach
+appears well suited to explore such heterogeneity, as was demonstrated in a recent
+study by Gianotti et al. (2012). In this study, participants ﬁrst had resting EEG
+activity measured. After, participants completed a task in which they made a series
+of decisions between smaller–sooner rewards and later–larger rewards that differed
+in magnitude and delay. In their analyses, the researchers used a source localization
+196                                                                         K. Nash and D. Knoch
+
+technique to identify the brain regions that generated the rsEEG activity
+(sLORETA; Pascual-Marqui 2002) and correlated this estimated neural activity
+with time preferences. Results demonstrated that approximately 14 % of the vari-
+ance in time preferences was explained by rsEEG source localized to the left
+DLPFC. Speciﬁcally, lower levels of baseline activity in this region were associated
+with increased delay discounting (see Fig. 11.1). Thus, in using a task-independent
+measure of baseline neural activity, which allowed quantiﬁcation of a trait-like
+neural signature of each individual’s brain function at rest, the authors were able to
+explain a sizable degree of heterogeneity in intertemporal choice. Notably, this is
+not the only example of using the neural trait approach to predict time preferences.
+Bjork et al. (2009) employed structural MRI to measure gray matter volume in
+prefrontal regions to determine whether anatomical differences in the PFC predict
+behavioral heterogeneity in a similar measure of time preference. Mirroring the
+resting EEG ﬁndings, Bjork et al. (2009) found that a greater degree of delay
+discounting was associated with reduced PFC cortical volume, including reduced
+volume in lateral PFC regions. Similarly, Yu (2012) used whole-brain voxel-based
+morphometric analysis to examine white-matter volume and time preferences.
+Results demonstrated that delay discounting was negatively associated with lateral
+PFC subgyral white-matter volume and positively correlated with
+parahippocampal/hippocampal white-matter volume. Olson et al. (2009) used a
+similar method and examined the relationship between delay discounting and
+white-matter integrity using DTI. They found that delay discounting was negatively
+associated with increased white-matter integrity in several regions, including lateral
+
+
+
+
+Fig. 11.1 Adapted from Gianotti et al. (2012): On the left the graph shows the signiﬁcant
+correlation between delay discount rate and beta 3 activity level in the DLPFC assessed by rsEEG.
+Beta 3 activity is associated with increased cortical activity. Higher numbers on the Y-axis indicate
+higher delay discounting rates and higher numbers on the X-axis indicate higher levels of resting
+brain activity in left DLPFC. On the right locations of the voxels that showed negative signiﬁcant
+correlations are indicated in red in a sagittal view of the brain. A anterior; P posterior
+11   Individual Differences in Decision-Making: A Neural Trait …                   197
+
+PFC regions (Olson et al. 2009). In all four studies, then, higher lateral PFC
+functioning capacity (increased resting activity, cortical volume, white-matter
+volume, and white-matter integrity) predicted lower levels of delay discounting.
+These resting EEG and structural results are further complimentary with studies that
+have experimentally modulated lateral PFC functioning. For example, reducing
+activity in the left lateral PFC through transcranial magnetic stimulation (TMS)
+causes an increase in delay discounting (Figner et al. 2010). Because this region has
+been related to self-control in other decision-making processes, these ﬁndings thus
+converge to support speculation that dispositional differences in the lateral PFC
+might reflect differences in a more general ‘self-control capacity’ (p. 6, Gianotti
+et al. 2012).
+
+
+
+11.4.2 Social Preferences
+
+Social preferences are predominantly deﬁned as the degree to which an individual
+positively or negatively accounts for the well-being or material gains and losses of
+other people (Fehr 2009). A large body of research demonstrates that people are
+heterogeneous in their social preferences, including preferences for cooperation
+(Fehr and Gächter 2000), rejection of unfair offers (Güth 1995; Roth 1995), and
+altruism (Andreoni and Miller 2002). For example, the DG is regarded as a puta-
+tively ‘pure’ measure of prosocial preference (Camerer and Fehr 2002; for an
+introduction into behavioral economic games see the Chap. 2 by Civai and Hawes
+in this book). In this game, roughly 80 % of proposers do offer more than nothing
+to their interaction partner and up to 20 % offer an even-split (Forsythe et al. 1994),
+indicating a wide range of social preferences. In the UG, modal offers tend toward a
+fair split, yet the mean offer is typically around 40 %, again indicating signiﬁcant
+individual variation (Camerer 2003). We thus turn to neural trait research that has
+begun to delve into the sources of heterogeneity in social preferences.
+
+
+
+11.4.3 Prosocial Behavior and Altruism
+
+Often deﬁned as behavior that beneﬁts another individual or group at a personal
+cost to the actor (Camerer 2003; Fehr and Fischbacher 2003; Henrich et al. 2006),
+altruism is a strong other-regarding tendency as a large proportion of people help
+unrelated strangers (Camerer 2003). However, such altruistic yet costly behavior is
+characterized by ‘enormous individual heterogeneity’ (p. 73, Morishima et al.
+2012). For example, Andreoni and Miller (2002) found that people could be
+classiﬁed into three very different groups based on behavior in a modiﬁed DG; a
+purely selﬁsh group, a more strategic group, and a fair group. Similarly, Kurzban
+and Houser (2005) found that 63 % of players in a public goods game could be
+classiﬁed as conditional cooperators, 13 % as altruists, and 20 % as selﬁsh
+198                                                              K. Nash and D. Knoch
+
+free-riders. Nonetheless, variables such as sex, wealth, age, and education are poor
+predictors of individual differences in altruistic behavior (Camerer 2003; Henrich
+et al. 2006). To ﬁll this empirical gap, Morishima et al. (2012) used structural MRI
+to explore whether anatomical differences in the temporo-parietal junction
+(TPJ) predicted individual differences in altruism, as measured with dictator and
+reciprocity games. The TPJ has been repeatedly linked to perspective-taking—the
+ability to account for other peoples’ thoughts, emotions, and goals (Saxe and
+Kanwisher 2005; Young et al. 2010). Differences in TPJ structure, and thereby
+differences in perspective-taking, were hypothesized to predict altruism, as mea-
+sured with a game in which participants allocated money between themselves and
+an anonymous partner. The researchers found that increased TPJ volume predicted
+an increased tendency to act altruistically (i.e., assign money to their partner at a
+personal cost), particularly in situations when the participant was in an advanta-
+geous position relative to other individuals (Morishima et al. 2012). Thus, this study
+not only provided a link between individual differences in brain structure to pref-
+erences for altruism, but it also suggests that altruism is dependent upon an indi-
+vidual’s capacity to engage in perspective-taking, as evidenced by TPJ volume.
+
+
+
+11.4.4 Costly Punishment
+
+The threat of punishment plays an important role in norm compliance. A key reason
+that the threat of punishment is so effective is that many people are willing to
+enforce the fairness norm by delivering punishment, even at a cost (Fehr and
+Gächter 2000). Unsurprisingly, given that such behavior requires sacriﬁce, pref-
+erences for costly punishment behavior are characterized by signiﬁcant variation
+(Herrmann et al. 2008). For example, Fischbacher et al. (2013) used a unique
+approach in which they examined responders’ reaction times to decisions made in a
+modiﬁed UG to characterize heterogeneity in costly punishment behavior. They
+found that strictly selﬁsh respondents and respondents who displayed social pref-
+erences showed distinct reaction times to unkind and unfair offers. This empirically
+demonstrates a large degree of heterogeneity in costly punishment behavior.
+Findings from the few attempts to explain sources of such behavioral heterogeneity
+have been mixed, however. Gender, income, wealth, and education have low
+predictive power that varies strongly according to the idiosyncrasies of the different
+study designs (Camerer, 2003). On the other hand, up to 40 % of variation in costly
+punishment behavior can be attributed to genetic components (Wallace et al. 2007),
+hinting that stable and objective dispositional differences might be uniquely capable
+of explaining heterogeneity in costly punishment. Knoch et al. (2010) thus utilized
+the neural trait approach to index such stable and objective differences. In their
+study, participants ﬁrst had rsEEG activity measured. After, participants then played
+as the responder in the UG. As the responder, participants accepted or rejected a
+proposed division of 20 CHF from 12 anonymous, ostensibly different interaction
+partners. A rejection ensures that both parties get no money at all. Thus, the
+11   Individual Differences in Decision-Making: A Neural Trait …                 199
+
+responder can punish the proposer, but at a personal cost. Knoch et al. (2010)
+conducted a whole-brain correlational analysis between source localized resting
+EEG activity and costly punishment behavior. Results demonstrated that the
+propensity to punish was predicted by baseline cortical activity in the right DLPFC.
+That is, higher resting state activity in this area predicted higher levels of costly
+punishment behavior. Strikingly, this pattern of rsEEG activity explained approx-
+imately 50 % of the variance in costly punishment. Because there is considerable
+evidence that the lateral PFC is linked to self-control processes (Aron et al. 2003;
+Miller and Cohen 2001) and given that costly punishment conflicts with economic
+self-interest, the authors surmised that resting state activity in the DLPFC might
+predict costly punishment because such activity reflects a capacity to implement
+self-control to overcome self-interested choices. This is further supported by brain
+stimulation research in which disrupted lateral PFC functioning caused reduced
+costly punishment behavior (Baumgartner et al. 2011; Knoch et al. 2008; Knoch
+et al. 2006; van’t Wout et al. 2005).
+
+
+
+11.4.5 Impartiality and Intergroup Bias
+
+People can and do act with impartiality. This is certainly not always the case,
+however, as ingroup bias or favoritism may be the default response (Brewer 1999).
+Thus, behavior in an intergroup context can run the gamut from ﬁerce parochialism
+to stoic impartiality. In general, personality measures have been relatively poor
+predictors of heterogeneity in impartiality and intergroup bias (Hewstone et al.
+2002). To better explain sources of individual differences in the propensity for
+impartiality, it would appear that more objective individual markers, as afforded by
+the neural trait approach, would be more apposite. Recently, Baumgartner et al.
+(2013a, b) examined whether impartiality may be explained by structural differ-
+ences in the brain. They used structural MRI and measured impartiality by having
+participants—in the role of a third-party—view a series of prisoner’s dilemma
+interactions between dyads of ingroup and outgroup members. In this game, the
+interacting players simultaneously decided whether to cooperate and transfer points
+or defect and keep points which were later turned in for real money. The
+‘third-party’ participants viewing the interactions could then deliver punishment (or
+not). Administering punishment was costly, as participants had to give up points to
+strip the other player of their points. Impartiality was computed as the differences
+between punishments of ingroup members versus punishment of outgroup members
+in situations of unilateral defection. Intriguingly, Baumgartner et al. (2013a, b)
+found that increased dmPFC volume was associated with increased impartiality or
+fairness (see Fig. 11.2). In addition, Baumgartner and colleagues used the dmPFC
+volume to split participants into three separate groups (low, medium, and high
+dmPFC) and examined punishment levels of both ingroup and outgroup defectors.
+As expected, these three groups demonstrated strong differences in impartiality.
+Those with low dmPFC volumes demonstrated ingroup favoritism (reduced
+200                                                                          K. Nash and D. Knoch
+
+
+
+
+Fig. 11.2 Adapted from Baumgartner et al. (2013a, b): On the left the scatter plot shows the
+signiﬁcant negative correlation between the partiality score and gray-matter volume in the
+dorsomedial prefrontal cortex (DMPFC), which is adjusted for several covariates (e.g., age and
+brain size, see article for details). High values on the partiality score indicate that third-parties
+strongly differed in the punishment of outgroup and ingroup perpetrators, whereas low values
+indicate that third-parties demonstrated an impartial punishment pattern, i.e., they equally punished
+outgroup and ingroup perpetrators. On the right locations of voxels in the DMPFC that showed
+signiﬁcant negative correlations with the partiality score are indicated in yellow color in a sagittal
+view of the brain
+
+
+punishment of the ingroup) and outgroup prejudice (increased punishment of the
+outgroup). Those with medium levels of dmPFC volume demonstrated ingroup
+favoritism but not outgroup prejudice. Finally, those with high levels of dmPFC
+volume demonstrated equal treatment of ingroup and outgroup defectors (i.e.,
+ingroup perpetrators were punished just as strongly as outgroup perpetrators). Thus,
+heterogeneity in impartiality was tightly bound to dmPFC volume. These ﬁndings
+point to a potential psychological mechanism as, much like the TPJ, the dmPFC has
+been repeatedly implicated in social cognition and perspective-taking processes
+(Adolphs 2003; Van Overwalle 2009). Thus, the ability to overcome ingroup
+favoritism and outgroup prejudice may depend on the capacity to engage in
+perspective-taking equally for ingroups and outgroups—a capacity that may be
+largely determined by dmPFC volume.
+
+
+
+11.4.6 Deception
+
+Lying and deception are ubiquitous in social interactions. Typically, people deceive
+others for personal gain, but the propensity to deceive is highly variable amongst
+individuals (Gino and Pierce 2009; Kashy and DePaulo 1996). Attempts to explain
+this heterogeneity have primarily focused on self-reported personality traits (e.g.,
+11   Individual Differences in Decision-Making: A Neural Trait …                  201
+
+Phillips et al. 2011). However, personality traits tend to have low predictive power
+of deception (DePaulo 2004). A neural trait approach might prove a better pre-
+dictive tool. As evidence of this, Baumgartner et al. (2013a, b) recently used source
+localization of resting EEG to examine whether trait levels of neural activation
+might explain differences in deceiving others. They used an ecologically valid
+measure of self-initiated deception with real, monetary consequences. In this task,
+participants promised whether or not they would return money to real partners in a
+trust game, but were later given the opportunity to break that promise (i.e., keep the
+investment). A cluster analysis revealed three groups; (1) dishonest subjects that
+had uniformly high promise rates but uniformly low return rates; (2) moderately
+dishonest subjects that had relatively lower promise rates and moderate return rates;
+and (3) honest subjects that had high promise rates and high return rates.
+Heterogeneity in deception was thus easily discernible. In their primary analyses,
+they found that the tendency to deceive was associated with reduced resting state
+activation in the anterior insula. The higher the neural baseline activation in this
+area is the lower individuals’ propensity to deceive. This resting state activation in
+the insula accounted for 23 % of the variance in deceptive behavior. Furthermore,
+they found that the same pattern of baseline anterior insula activation that was
+associated with reduced deception was also associated with trait levels of negative
+affect and dispositional tendencies to avoid aversive emotional situations. As such,
+these ﬁndings are a good example of the power of the neural trait approach as they
+suggest who lies and who remains honest. One might primarily expect that people
+who are less inclined to deceive have strong prosocial preferences, as opposed to
+those who deceive, an expectation which future research could explore. This study
+revealed a unique relationship, however. Honesty was related to more resting
+activity in a brain area associated with mapping internal bodily states and in rep-
+resenting emotional arousal and conscious feelings (Craig 2009). Thus, people with
+heightened baseline insula activity may be predisposed towards honesty because
+their hyperactive emotional system could make a deceptive act too aversive. In this
+case, the examination of neural traits indicated predisposing psychological pro-
+cesses that may have otherwise been unknown or considered relatively unimportant.
+    In sum, across these studies, even in the highly complex domain of social
+preferences, neural traits are demonstrably capable of explaining behavioral
+heterogeneity in decision-making. In the next section, we explore how the neural
+trait approach may be adapted for future research.
+
+
+
+11.5     The Neural Trait Approach in Future Research
+
+This chapter has explored the neural trait approach to explaining dispositional
+differences in decision-making with a particular focus on time and social prefer-
+ences. In addition to explaining behavioral heterogeneity in decision-making,
+however, we further contend that the neural trait approach holds promise as a key
+component in fuller research designs.
+202                                                              K. Nash and D. Knoch
+
+    For example, prior research has primarily emphasized contextual or situational
+factors that determine decision-making behavior or explain economic preferences.
+Given the twin advantages of stability and objectivity, neural traits have the ability
+to powerfully augment contextual research by uncovering brain-based individual
+differences and examining whether these differences interact with situational vari-
+ables. Such an approach is not new, as it was classically formulated by Kurt Lewin
+in his now famous equation describing (B)ehavior as a function of (P)erson × (E)
+nvironment (Lewin 1946). We argue that modern forms of this ‘equation’ could
+include neural trait measures of (P) in combination with experimental manipula-
+tions (E) known to impact decision-making behavior (B). For example, subtle or
+even subliminal cues can shift behavior from selﬁsh to prosocial behavior and vice
+versa (Bargh et al. 2001; Bateson et al. 2006; Rand et al. 2012). Neural traits
+associated with differences in self- and other-regarding preferences should moderate
+reactions to economic and social cues. That is, neural traits associated with
+self-regarding preferences might predict reactions to monetary cues; whereas neural
+traits associated with other-regarding preferences might predict reactions to social
+cues (see also Declerck et al. 2013, for similar reasoning). Future research para-
+digms that combine neural trait measures and situational manipulations could
+deepen our understanding of decision-making processes.
+    Future research may also utilize the neural trait approach as a unique component
+in fuller analyses of genetic → brain → behavior pathways. In parallel with the
+neural trait approach, a number of researchers have examined individual differences
+in decision-making by assessing potential genetic contributions (e.g., Boettiger
+et al. 2007; Cesarini et al. 2009; Kuhnen and Chiao 2009; for an overview on genes
+and human decision-making, see also Chap. 4 in this book). The question is, how
+do these genes then affect behavior? More speciﬁcally, what are the mechanisms?
+The answer, proposed as the intermediate phenotype model, is that genes impact
+behavior through neural mechanisms (Meyer-Lindenberg and Weinberger 2006).
+The basic notion is that genes influence an individual’s behavior through their
+effects on the brain. To be an effective, brain-based intermediate phenotype, certain
+criteria have been articulated. Central amongst these criteria are the characteristics
+of stability and heritability (Gottesman and Gould 2003; Green et al. 2008). As
+noted previously, resting EEG activity and structural MRI are both highly stable
+and heritable. Neural traits are thus ideal intermediate phenotypes.
+    As an example, Gianotti et al. (2012) also employed the intermediate phenotype
+approach in the aforementioned time preference research. In addition to measuring
+resting EEG, these researchers genotyped participants on the COMT Val158Met
+polymorphism, which has been related to dopamine levels in the PFC and delay
+discounting in prior research (Boettiger et al. 2007; Paloyelis et al. 2010). Results
+demonstrated that participants with more Val alleles (greater COMT activity and
+lower dopamine levels in the PFC) exhibited greater delay discounting. This effect
+was mediated by the baseline activation levels in the left lateral PFC: Higher
+numbers of Val alleles lead to lower baseline activation which, in turn, biases
+choices towards greater impatience. More studies such as this could provide a
+mechanistic understanding of the contribution of speciﬁc gene variants to individual
+11   Individual Differences in Decision-Making: A Neural Trait …                             203
+
+
+
+
+Fig. 11.3 From Gianotti et al. (2012): a demonstration of the intermediate phenotype approach.
+Pictured is the path diagram that illustrates that baseline EEG beta 3 activity level in the left
+DLPFC mediates COMT-determined differences in steepness of delay discounting
+
+
+differences in neural traits and behavior that goes beyond simple biomarker iden-
+tiﬁcation (see Fig. 11.3).
+
+
+
+11.6     Cautions and Implication
+
+One should be cognizant of potential issues involved in the neural trait approach.
+Detecting neural traits that relate to certain behaviors can often involve examining
+activity throughout the entire brain. Thus, the probability of ﬁnding a spurious
+relationship is greatly inflated unless the researcher uses appropriate corrections for
+multiple testing. One should also be aware that there is a temptation to
+over-interpret neural trait ﬁndings. By relating decision-making behavior to certain
+brain areas, there is an inclination to ‘guess’ at the psychological process that
+mediates the brain—behavior link. Indeed, this potential was often discussed in this
+chapter as an advantage of the approach. To be clear, however, inferring the psy-
+chological mechanism is more appropriate when a brain region has been tightly
+linked to speciﬁc, germane functioning. To address this issue, one can also provide
+204                                                                     K. Nash and D. Knoch
+
+supplementary evidence. Recall the deception research in which Baumgartner et al.
+(2013a, b) found that the same pattern of baseline anterior insula activation that
+predicted reduced deception also predicted higher levels of trait negative affect.
+This supports their inference that people with high resting activity in the anterior
+insula are predisposed to be honest due to a hyperactive emotional system at rest
+which could make a deceptive act too bothersome.
+   There are also a number of exciting broad implications. For example, even
+though neural traits are highly stable, they may not be immutable. Indeed, enduring
+changes can be made to neural structures and mechanisms through training. For
+example, techniques such as neurofeedback, meditation, or repeated practice of
+certain skills have the capacity to increase cortical volume or cortical baseline
+activity in speciﬁc brain regions (e.g., Ghaziri et al. 2013; Lazar et al. 2005;
+Takeuchi et al. 2010). Thus, targeted training manipulations of speciﬁc neural traits
+might allow researchers to effect longer lasting changes to even the most complex
+of preferences or decision-making behaviors, such as adherence to social norms.
+   Finally, we propose that the neural trait approach has the ability to synthesize
+decision-making phenomena that, on the surface, appear distinct but in reality may
+be partly explained by the same or similar neural traits. For example, several studies
+outlined above demonstrate that dispositional differences in the DLPFC predict
+behavioral heterogeneity in decision-making preferences; i.e., heterogeneity in time
+preferences (Gianotti et al. 2012), risk preferences (Gianotti et al. 2009), costly
+punishment (Knoch et al. 2010), and norm compliance (Spitzer et al. 2007;
+Steinbeis et al. 2012). Given that this region has been strongly implicated in
+self-control (Cohen and Lieberman 2010; Coutlee and Huettel 2012; Figner et al.,
+2010; Heatherton and Wagner 2011; Miller and Cohen 2001), it is a tantalizing
+possibility that these disparate decision-making domains could be linked to a
+common neural trait and/or psychological capacity. Future research could take
+advantage of the neural trait approach to potentially demonstrate a shared basis
+between risk, time, and social preferences.
+
+
+
+References
+
+Adolphs R (2003) Cognitive neuroscience of human social behaviour. Nat Rev Neurosci 4(3):165–
+   178
+Andreoni J, Miller J (2002) Giving according to GARP: an experimental test of the consistency of
+   preferences for altruism. Econometrica 70(2):737–753
+Appelt KC, Milch KF, Handgraaf MJ, Weber EU (2011) The Decision Making Individual
+   Differences Inventory and guidelines for the study of individual differences in judgment and
+   decision-making research. Judgment Decis Making 6(3):252–262
+Aron AR, Fletcher PC, Bullmore T, Sahakian BJ, Robbins TW (2003) Stop-signal inhibition
+   disrupted by damage to right inferior frontal gyrus in humans. Nat Neurosci 6(2):115–116
+Ashburner J, Friston KJ (2000) Voxel-based morphometry—the methods. Neuroimage 11(6):805–
+   821
+Bargh JA, Lee-Chai A, Barndollar K, Gollwitzer PM, Trötschel R (2001) The automated will:
+   nonconscious activation and pursuit of behavioral goals. J Pers Soc Psychol 81(6):1014–1027
+11   Individual Differences in Decision-Making: A Neural Trait …                             205
+
+Basser PJ (1995) Inferring microstructural features and the physiological state of tissues from
+   diffusion weighted images. NMR Biomed 8:333–344
+Bateson M, Nettle D, Roberts G (2006) Cues of being watched enhance cooperation in a
+   real-world setting. Biol Lett 2(3):412–414
+Baumgartner T, Knoch D, Hotz P, Eisenegger C, Fehr E (2011) Dorsolateral and ventromedial
+   prefrontal cortex orchestrate normative choice. Nat Neurosci 14(11):1468–1474
+Baumgartner T, Gianotti L, Knoch D (2013a) Who is honest and why: baseline activation in
+   anterior insula predicts inter-individual differences in deceptive behavior. Biol Psychol 94
+   (1):192–197
+Baumgartner T, Schiller B, Hill C, Knoch D (2013b) Impartiality in humans is predicted by brain
+   structure of dorsomedial prefrontal cortex. Neuroimage 81:317–324
+Beck RC, Triplett MF (2009) Test–retest reliability of a group-administered paper–pencil measure
+   of delay discounting. Exp Clin Psychopharmacol 17(5):345–355
+Becker A, Deckers T, Dohmen T et al (2012) The relationship between economic preferences and
+   psychological personality measures. Annu Rev Econ 4:453–478
+Benson RR, Meda SA, Vasudevan S, Kou Z, Koushik GA, Hanks RA, Millis SR, Makke M,
+   Latif Z, Coplin W, Maythaler J, Haacke EM (2007) Global white matter analysis of diffusion
+   tensor images is predictive of injury severity in traumatic brain injury. J Neurotraum 24:466–
+   459
+Berkman ET, Falk EB (2013) Beyond brain mapping using neural measures to predict real-world
+   outcomes. Curr Dir Psychol Sci 22(1):45–50
+Berns GS, Laibson DI, Loewenstein G (2007) Intertemporal choice—toward an integrative
+   framework. Trends Cogn Sci 11(11):482–488
+Bjork JM, Momenan R, Hommer DW (2009) Delay discounting correlates with proportional
+   lateral frontal cortex volumes. Biol Psychiatry 65(8):710–713
+Boettiger CA, Mitchell JM, Tavares VC, Robertson M, Joslyn G, D’Esposito M, Fields HL (2007)
+   Immediate reward bias in humans: fronto-parietal networks and a role for the
+   catechol-O-methyltransferase 158Val/Val genotype. J Neurosci 27(52):14383–14391
+Boyke J, Driemeyer J, Gaser C, Büchel C, May A (2008) Training-induced brain structure changes
+   in the elderly. J Neurosci 28(28):7031–7035
+Braver TS, Cole MW, Yarkoni T (2010) Vive les differences! Individual variation in neural
+   mechanisms of executive control. Curr Opin Neurobiol 20(2):242–250
+Brewer MB (1999) The psychology of prejudice: ingroup love and outgroup hate? J Soc Issues 55
+   (3):429–444
+Buechel C, Raedler T, Sommer M, Sach M, Weiller C, Koch MA (2004) White matter asymmetry
+   in the human brain: a diffusion tensor MRI study. Cereb Cortex 14(9):945–951
+Button KS, Ioannidis JP, Mokrysz C, Nosek BA, Flint J, Robinson ES, Munafò MR (2013) Power
+   failure: why small sample size undermines the reliability of neuroscience. Nat Rev Neurosci 14
+   (5):365–376
+Camerer C (2003) Behavioral game theory: experiments in strategic interaction. Princeton
+   University Press, Princeton
+Camerer CF, Fehr E (2002) Measuring social norms and preferences using experimental games: a
+   guide for social scientists
+Carver CS, White TL (1994) Behavioral inhibition, behavioral activation, and affective responses
+   to impending reward and punishment: the BIS/BAS scales. J Pers Soc Psychol 67:319
+Casey BJ, Somerville LH, Gotlib IH, Ayduk O, Franklin NT, Askren MK et al (2011) Behavioral
+   and neural correlates of delay of gratiﬁcation 40 years later. Proc Natl Acad Sci 108
+   (36):14998–15003
+Cesarini D, Dawes CT, Johannesson M, Lichtenstein P, Wallace B (2009) Genetic variation in
+   preferences for giving and risk taking. Q J Econ 124(2):809–842
+Chiang MC, Barysheva M, Shattuck DW, Lee AD, Madsen SK, Avedissian C et al (2009)
+   Genetics of brain ﬁber architecture and intellectual performance. J Neurosci 29(7):2212–2224
+Christie R, Geis FL (1970) Studies in Machiavellianism. Academic Press, New York
+206                                                                        K. Nash and D. Knoch
+
+Cohen JR, Lieberman MD (2010) The common neural basis of exerting self-control in multiple
+   domains. In: Trope Y, Hassin R, Ochsner KN (eds) Self control in society, mind, and brain.
+   Oxford University Press, Oxford, pp 141–162
+Coutlee CG, Huettel SA (2012) The functional neuroanatomy of decision making: prefrontal
+   control of thought and action. Brain Res 1428:3–12
+Craig AD (2009) How do you feel–now? The anterior insula and human awareness. Nat Rev
+   Neurosci 10(1):59–70
+Declerck CH, Boone C, Emonds G (2013) When do people cooperate? The neuroeconomics of
+   prosocial decision making. Brain Cogn 81(1):95–117
+de Geus EJ (2010) From genotype to EEG endophenotype: a route for post-genomic understanding
+   of complex psychiatric disease? Genome Med 2(9):1–4
+DePaulo BM (2004) The many faces of lies. In: Miller AG (ed) The social psychology of good and
+   evil. Guilford Press, New York, pp 303–326
+DeYoung CG, Hirsh JB, Shane MS, Papademetris X, Rajeevan N, Gray JR (2010) Testing
+   predictions from personality neuroscience brain structure and the big ﬁve. Psychol Sci 21
+   (6):820–828
+Dunki RM, Schmid GB, Stassen HH (2000) Intraindividual speciﬁcity and stability of human
+   EEG: comparing a linear vs a nonlinear approach. Methods Inf Med (Methodik der Information
+   in der Medizin) 39(1):78–82
+Edwards AL (1957) The social desirability variable in personality assessment and research.
+   Dryden Press, New York
+Fehr E (2009) Social preferences and the brain. In: Glimcher PW, Camerer C, Poldrack RA et al
+   (eds) Neuroeconomics: decision making and the brain. Academic Press, London, pp 215–232
+Fehr E, Fischbacher U (2003) The nature of human altruism. Nature 425(6960):785–791
+Fehr E, Gächter S (2000) Fairness and retaliation: the economics of reciprocity. J Econ Perspect 14
+   (3):159–181
+Figner B, Knoch D, Johnson EJ, Krosch AR, Lisanby SH, Fehr E, Weber EU (2010) Lateral
+   prefrontal cortex and self-control in intertemporal choice. Nat Neurosci 13(5):538–539
+Fischbacher U, Hertwig R, Bruhin A (2013) How to model heterogeneity in costly punishment:
+   insights from responders’ response times. J Behav Decis Mak 26(5):462–476
+Forsythe R, Horowitz JL, Savin NE, Sefton M (1994) Fairness in simple bargaining experiments.
+   Games Econ Behav 6(3):347–369
+Ghaziri J, Tucholka A, Larue V, Blanchette-Sylvestre M, Reyburn G, Gilbert G et al (2013)
+   Neurofeedback training induces changes in white and gray matter. Clin EEG Neurosci 44
+   (4):265–272
+Gianotti LR, Figner B, Ebstein RP, Knoch D (2012) Why some people discount more than others:
+   baseline activation in the dorsal PFC mediates the link between COMT genotype and impatient
+   choice. Front Neurosci 6
+Gianotti LR, Knoch D, Faber PL, Lehmann D, Pascual-Marqui RD, Diezi C et al (2009) Tonic
+   activity level in the right prefrontal cortex predicts individuals’ risk taking. Psychol Sci 20
+   (1):33–38
+Gino F, Pierce L (2009) Dishonesty in the name of equity. Psychol Sci 20(9):1153–1160
+Gottesman II, Gould TD (2003) The endophenotype concept in psychiatry: etymology and
+   strategic intentions. Am J Psychiatry 160(4):636–645
+Green AE, Munafò MR, DeYoung CG, Fossella JA, Fan J, Gray JR (2008) Using genetic data in
+   cognitive neuroscience: from growing pains to genuine insights. Nat Rev Neurosci 9(9):710–
+   720
+Gunnthorsdottir A, McCabe K, Smith V (2002) Using the Machiavellianism instrument to predict
+   trustworthiness in a bargaining game. J Econ Psychol 23(1):49–66
+Güth W (1995) On ultimatum bargaining experiments—A personal review. J Econ Behav Organ
+   27(3):329–344
+Han X, Jovicich J, Salat D, van der Kouwe A, Quinn B, Czanner S et al (2006) Reliability of
+   MRI-derived measurements of human cerebral cortical thickness: the effects of ﬁeld strength,
+   scanner upgrade and manufacturer. Neuroimage 32(1):180–194
+11   Individual Differences in Decision-Making: A Neural Trait …                             207
+
+Heatherton TF (2011) Neuroscience of self and self-regulation. Annu Rev Psychol 62:363–390
+Heatherton TF, Wagner DD (2011) Cognitive neuroscience of self-regulation failure. Trends Cogn
+   Sci 15(3):132–139
+Henrich J, McElreath R, Barr A, Ensminger J, Barrett C, Bolyanatz A et al (2006) Costly
+   punishment across human societies. Science 312(5781):1767–1770
+Herrmann B, Thöni C, Gächter S (2008) Antisocial punishment across societies. Science 319
+   (5868):1362–1367
+Hewstone M, Rubin M, Willis H (2002) Intergroup bias. Annu Rev Psychol 53:575–604
+Kahneman D, Tversky A (1979) Prospect theory: an analysis of decision under risk. Econometrica:
+   J Econometric Soc 263–291
+Kanai R, Rees G (2011) The structural basis of inter-individual differences in human behaviour
+   and cognition. Nat Rev Neurosci 12(4):231–242
+Kashy DA, DePaulo BM (1996) Who lies? J Pers Soc Psychol 70(5):1037–1050
+Knoch D, Pascual-Leone A, Meyer K, Treyer V, Fehr E (2006) Diminishing reciprocal fairness by
+   disrupting the right prefrontal cortex. Science 314(5800):829–832
+Knoch D, Nitsche MA, Fischbacher U, Eisenegger C, Pascual-Leone A, Fehr E (2008) Studying
+   the neurobiology of social interaction with transcranial direct current stimulation—The
+   example of punishing unfairness. Cereb Cortex 18(9):1987–1990
+Knoch D, Gianotti LR, Baumgartner T, Fehr E (2010) A neural marker of costly punishment
+   behavior. Psychol Sci 21(3):337–342
+Kuhnen CM, Chiao JY (2009) Genetic determinants of ﬁnancial risk taking. PLoS ONE 4(2):
+   e4362
+Kurzban R, Houser D (2001) Individual differences in cooperation in a circular public goods game.
+   Eur J Pers 15(S1):S37–S52
+Kurzban R, Houser D (2005) Experiments investigating cooperative types in humans: a
+   complement to evolutionary theory and simulations. Proc Natl Acad Sci USA 102(5):1803–
+   1807
+Lazar SW, Kerr CE, Wasserman RH, Gray JR, Greve DN, Treadway MT et al (2005) Meditation
+   experience is associated with increased cortical thickness. Neuroreport 16(17):1893–1897
+Levallois C, Clithero JA, Wouters P, Smidts A, Huettel SA (2012) Translating upwards: linking
+   the neural and social sciences via neuroeconomics. Nat Rev Neurosci 13(11):789–797
+Lewin K (1946) Behavior as a function of total situation. In: Cartwright D (ed) Field theory in
+   social science: selected theoretical papers. Harper & Row, New York, pp 238–304
+Lu L, Argyle M (1991) Happiness and cooperation. Personality Individ Differ 12(10):1019–1030
+Mechelli A, Friston KJ, Frackowiak RS, Price CJ (2005) Structural covariance in the human
+   cortex. J Neurosci 25(36):8303–8310
+Meyer-Lindenberg A, Weinberger DR (2006) Intermediate phenotypes and genetic mechanisms of
+   psychiatric disorders. Nat Rev Neurosci 7(10):818–827
+Miller EK, Cohen JD (2001) An integrative theory of prefrontal cortex function. Annu Rev
+   Neurosci 24(1):167–202
+Mischel W, Ayduk O, Berman MG, Casey BJ, Gotlib IH, Jonides J et al (2011) ‘Willpower’ over
+   the life span: decomposing self-regulation. Soc Cogn Affect Neurosci 6(2):252–256
+Morishima Y, Schunk D, Bruhin A, Ruff CC, Fehr E (2012) Linking brain structure and activation
+   in temporoparietal junction to explain the neurobiology of human altruism. Neuron 75(1):73–
+   79
+Näpflin M, Wildi M, Sarnthein J (2007) Test–retest reliability of resting EEG spectra validates a
+   statistical signature of persons. Clin Neurophysiol 118(11):2519–2524
+Nichols AL, Maner JK (2008) The good-subject effect: investigating participant demand
+   characteristics. J Gen Psychol 135(2):151–166
+Nisbett RE, Wilson TD (1977) Telling more than we can know: verbal reports on mental
+   processes. Psychol Rev 84(3):231–259
+Olson EA, Collins PF, Hooper CJ, Muetzel R, Lim KO, Luciana M (2009) White matter integrity
+   predicts delay discounting behavior in 9-to 23-year-olds: a diffusion tensor imaging study.
+   J Cogn Neurosci 21(7):1406–1421
+208                                                                         K. Nash and D. Knoch
+
+Paloyelis Y, Asherson P, Mehta MA, Faraone SV, Kuntsi J (2010) DAT1 and COMT effects on
+    delay discounting and trait impulsivity in male adolescents with attention deﬁcit/hyperactivity
+    disorder and healthy controls. Neuropsychopharmacology 35:2414–2426
+Panizzon MS, Fennema-Notestine C, Eyler LT, Jernigan TL, Prom-Wormley E, Neale M et al
+    (2009) Distinct genetic influences on cortical surface area and cortical thickness. Cerebral
+    Cortex 19(11):2728–2735
+Pascual-Marqui RD (2002) Standardized low-resolution brain electromagnetic tomography
+    (sLORETA): technical details. Methods Find Exp Clin Pharmacol 24(Suppl D):5–12
+Peters J, Büchel C (2011) The neural mechanisms of inter-temporal decision-making:
+    understanding variability. Trends Cogn Sci 15(5):227–239
+Phillips MC, Meek SW, Vendemia JMC (2011) Understanding the underlying structure of
+    deceptive behaviors. Personality Individ Differ 50(6):783–789
+Rand DG, Greene JD, Nowak MA (2012) Spontaneous giving and calculated greed. Nature 489
+    (7416):427–430
+Reimers S, Maylor EA, Stewart N, Chater N (2009) Associations between a one-shot delay
+    discounting measure and age, income, education and real-world impulsive behavior.
+    Personality Individ Differ 47(8):973–978
+Roth A (1995) Bargaining experiments. In: Kagel J, Roth A (eds) Handbook of experimental
+    economics. Princeton University Press, Princeton, pp 254–348
+Sanfey AG (2007) Social decision-making: insights from game theory and neuroscience. Science
+    318(5850):598–602
+Saxe R, Kanwisher N (2005) People thinking about thinking people: the role of the
+    temporo-parietal junction in “theory of mind”. In: Social neuroscience: key readings.
+    Psychology Press, New York, pp 171–182
+Scheres A, Sanfey AG (2006) Individual differences in decision making: drive and reward
+    responsiveness affect strategic bargaining in economic games. Behav Brain Functions 2(1):35
+Shamosh NA, DeYoung CG, Green AE, Reis DL, Johnson MR, Conway AR et al (2008)
+    Individual differences in delay discounting relation to intelligence, working memory, and
+    anterior prefrontal cortex. Psychol Sci 19(9):904–911
+Smit DJ, Stam CJ, Posthuma D, Boomsma DI, De Geus EJ (2008) Heritability of “small-world”
+    networks in the brain: a graph theoretical analysis of resting-state EEG functional connectivity.
+    Hum Brain Mapp 29(12):1368–1378
+Smith DV, Huettel SA (2010) Decision neuroscience: neuroeconomics. Wiley Interdiscip Rev
+    Cogn Sci 1(6):854–871
+Spitzer M, Fischbacher U, Herrnberger B, Grön G, Fehr E (2007) The neural signature of social
+    norm compliance. Neuron 56(1):185–196
+Steinbeis N, Bernhardt BC, Singer T (2012) Impulse control and underlying functions of the left
+    DLPFC mediate age-related and age-independent individual differences in strategic social
+    behavior. Neuron 73(5):1040–1051
+Takeuchi H, Sekiguchi A, Taki Y, Yokoyama S, Yomogida Y, Komuro N et al (2010) Training of
+    working memory impacts structural connectivity. J Neurosci 30(9):3297–3303
+Thompson PM, Cannon TD, Narr KL, Van Erp T, Poutanen VP, Huttunen M et al (2001) Genetic
+    influences on brain structure. Nat Neurosci 4(12):1253–1258
+Van Lange PA (1999) The pursuit of joint outcomes and equality in outcomes: an integrative
+    model of social value orientation. J Pers Soc Psychol 77:337–349
+Van Lange PA (2000) Beyond self-interest: a set of propositions relevant to interpersonal
+    orientations. Eur Rev Soc Psychol 11(1):297–331
+Van Overwalle F (2009) Social cognition and the brain: a meta-analysis. Hum Brain Mapp 30
+    (3):829–858
+Van’t Ent D, Van Soelen IL, Stam CJ, De Geus EJ, Boomsma DI (2009) Strong resemblance in the
+    amplitude of oscillatory brain activity in monozygotic twins is not caused by “trivial”
+    similarities in the composition of the skull. Human Brain Mapp 30(7):2142–2145
+11   Individual Differences in Decision-Making: A Neural Trait …                            209
+
+van’t Wout M, Kahn RS, Sanfey AG, Aleman A (2005) Repetitive transcranial magnetic
+   stimulation over the right dorsolateral prefrontal cortex affects strategic decision-making.
+   Neuroreport 16(16):1849–1852
+Wallace B, Cesarini D, Lichtenstein P, Johannesson M (2007) Heritability of ultimatum game
+   responder behavior. Proc Natl Acad Sci 104(40):15631–15634
+Wilson DS, Near DC, Miller RR (1998) Individual differences in Machiavellianism as a mix of
+   cooperative and exploitative strategies. Evol Human Behav 19(3):203–212
+Wischniewski J, Windmann S, Juckel G, Brüne M (2009) Rules of social exchange: game theory,
+   individual differences and psychopathology. Neurosci Biobehav Rev 33(3):305–313
+Young L, Dodell-Feder D, Saxe R (2010) What gets the attention of the temporo-parietal junction?
+   An fMRI investigation of attention and theory of mind. Neuropsychologia 48(9):2658–2664
+Yu R (2012) Regional white matter volumes correlate with delay discounting. PLoS ONE 7(2):
+   e32595
+Zietsch BP, Hansen JL, Hansell NK, Geffen GM, Martin NG, Wright MJ (2007) Common and
+   speciﬁc genetic influences on EEG power bands delta, theta, alpha, and beta. Biol Psychol 75
+   (2):154–164

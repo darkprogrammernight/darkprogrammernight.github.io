@@ -1,0 +1,842 @@
+
+10
+Deception Motives
+The previous chapter focused on TDT’s claims that deception and lying
+are infrequent relative to honest communication and that most lies are told by
+a few prolific liars. But even people who don’t lie very often might lie sometimes. Similarly, people who lie relatively often might be honest. This chapter
+considers the questions of when and why people lie.
+An important idea in TDT is that deception is not random. People typically
+lie for a reason. It follows that lying and deception are to some extent predictable. It further follows that there are times when we need to be on guard for
+deception, and times in which there is little need to worry about deception.
+The trick is distinguishing between these two types of situations.
+This chapter is all about deception motives. By deception motives, I simply
+mean the reasons why people engage in deception. The initial focus of this
+chapter is on TDT’s deception motive module, TDT proposition five, and my
+empirical research findings relevant to deception motives. TDT’s deception
+motive module and TDT proposition five pretty much say the same thing.
+Deception Motives module: People lie for a reason, but the motives behind
+truthful and deceptive communication are the same. When the truth is consistent with a person’s goals, he or she will almost always communicate honesty. Deception becomes probable when the truth makes honest communication difficult or inefficient.
+TDT proposition five: Deception is purposive. Absent psychopathology,
+people lie for a reason. Deception, however, is usually not the ultimate goal,
+but instead a means to some other ends. That is, deception is typically tactical. Specifically, most people are honest unless the truth thwarts some
+
+DECEPTION MOTIVES
+
+153
+
+ esired goal or goals. The motives or desired goals achieved through comd
+munication are the same for honest and deceptive communications, and
+deception is reserved for situations where honesty would be ineffectual, in
+efficient, and/or counterproductive in goal attainment.
+INSPIRATION
+My thinking on when and why people lie was influenced by the work of two
+individuals, Sissela Bok and Steve McCornack. Steve has been introduced in
+previous chapters. Sissela Bok is a philosopher and ethicist,1 well known in
+deception research for her book Lying: Moral Choice in Public and Private Life.2
+Her book is my top recommended reading for those interested in the moral
+and ethical aspects of lying and deception.
+Bok’s analysis of the ethics of lying tries to answer the question: When, if
+ever, is lying morally justified? Her analysis rests on what she calls the principle of veracity. The principle of veracity holds that lying requires a justification, while honesty does not. Truth and deception are not ethical equals. Ethically speaking, she says, we need good reasons to lie. Absent a good reason to
+the contrary, the default mode of ethical communication should be honesty.
+She is initially open to the idea that there may be situations in which telling
+a lie can be an ethical choice over not lying, but she believes such situations
+require careful consideration. This is not the case for normal honest communication. Much of her book is devoted to examining situations where lying
+might be argued to be morally justified. She concludes that these situations
+are likely few and far between and that honesty is typically the better moral
+choice.
+My thinking takes her principle of veracity out of the context of ethics and
+into the everyday communication practices of normal people. I wondered,
+What if people generally operated on something like the principle of veracity?
+Maybe honesty is a default mode of communication, and deception requires
+justification. When I am thinking about justification, I am not thinking only (or
+even mostly) of the careful ethical analysis provided by Bok (although people
+can do that). Instead I have in mind a more simple type of justification, like
+when deception solves a problem or helps achieve a goal. The analogy is not
+perfect, because honest communication is goal directed too, but much along
+the lines of Bok’s principle of veracity, I propose that people are honest unless
+honesty interferes with conversational goals and desired outcomes. Rather than
+deception being just a moral choice, it might be a practical one. Deception need
+not even be a conscious choice. But deception almost always serves a purpose.
+
+154
+
+CHAPTER TEN
+
+When honesty works fine for us, virtually everyone is honest. People do not lie
+when the truth works for them. When the truth makes honesty inconsistent
+with goals, however, then people may or may not be deceptive. Deception becomes increasingly probable as the truth becomes a stronger impediment to
+desired outcomes. Some people take the path of deception, and some people
+are honest even though honesty comes with a cost. But deception is practiced
+only in situations where honesty is a problem. So I believe that most people
+usually act in accordance with the principle of veracity.
+This application of Bok’s ideas fits very nicely with Steve McCornack’s view
+of deception as problem-solving. Here is an excerpt from a larger quote by
+McCornack from chapter 8: “When the truth is not difficult to disclose (because it is easily accessible to the conscious mind and contextually palatable),
+people disclose it. When do people lie? When they judge the truthful information as being so problematic that it cannot be disclosed.”3
+This seems to me a clear case of idea convergence. According to McCornack, people are honest when they can be and when the truth is not problematic. People are deceptive when honesty interferes with desired goal states and
+when deception also provides the easier path to the goals. This is a practical
+speech production version of Bok’s veracity principle, and both are very much
+consistent with the logic of TDT.
+KEY TDT CLAIMS
+TDT makes several claims regarding when and why people deceive others.
+Those claims were summarized in the Deception Motives module and TDT
+proposition five. The module and proposition can be broken down into a series of five basic claims. Let’s make these explicit and take a close look at each.
+1. People lie for a reason. That is, deception is purposive. It is therefore not
+random.
+Most, if not all, communication is goal directed. Deception is no exception.
+The basic functions of communication include being informative and sharing information; influencing the affect, cognition, and behaviors of others; entertainment; and building, maintaining, or ending social, personal, and professional relationships. People say what they do to achieve goals in line with
+these general functions of communication. If we look closely at what people
+say and the situations people are in, it becomes clear that what people say is
+not random. Instead, communication can be understood as working toward
+one or more communication functions. This is the case for almost all communication, including both deceptive and honest messages.
+
+DECEPTION MOTIVES
+
+155
+
+2. Deception is usually not the ultimate goal but instead is a means to some
+other end or ends. That is, deception is typically tactical.
+People do not deceive others because deception is a desired end in itself. Rather,
+deception is usually a means to some end. So, when I say “deception motives,”
+I do not mean to imply that deception is the goal. I see deception as a way to
+achieve goals. Maybe an example will help.
+Remember the Peskin experiment described in chapter 7, with the children
+interacting with a good puppet and a bad puppet?4 The problem the children
+faced is that the bad puppet would take the desired sticker. What the children
+wanted was their favored stickers. Lying by telling the bad puppet that they
+preferred an unpreferred sticker was a simple and efficient means to achieve
+the desired outcome. The point wasn’t deception per se. The goal was to obtain something that they wanted. When the desired sticker could be obtained
+in other ways, as in when the children were interacting with the good puppet,
+the children didn’t lie.
+Thus, I think of deception as tactical. It is a part of a bigger picture. It is a
+move we sometimes make when the truth gets in our way.
+3. The motives behind truthful and deceptive communication are the same.
+I have a concern about titling this chapter and module “deception motives.”
+The term “deception motives” might incorrectly imply that the motives for deception are distinct or different from the motives guiding honest communication. This is not the case. It is not what is desired that motivates deception
+but the fit between what is desired and the truth.
+People, for example, usually want to avoid punishment for wrongdoing.
+People who have done nothing wrong will honestly say, “I didn’t do that bad
+thing.” The truth works well for the innocent. Guilty people often deny wrongdoing too, but since they are guilty, their claims of innocence are false. In this
+example, both honest people and liars say the same sorts of things for the same
+reasons. They want to be seen as good people, they don’t want others to think
+they did a bad thing, and they want to avoid punishment.
+The same reasoning applies to more socially acceptable lies. Consider receiving a gift. It is polite to express gratitude. The gratitude may be actually felt
+when the gift is appreciated or may be absent when the gift was unwanted or
+unappreciated. Either way, the motives for expressing gratitude are often the
+same. We want to be polite and to be seen as polite. We want to maintain a
+positive social image and not hurt the gift-giver’s feelings. Deception is motivated by the match between the situation and the goal. It is not unique to particular goals or desired end states.
+
+156
+
+CHAPTER TEN
+
+As a final example, let’s consider the kids in Peskin’s experiment again. The
+kids want the cool stickers. When dealing with Good Puppet, the kids can get
+what they want by being honest. With Bad Puppet, deception is required to get
+the desired sticker. In both cases, the goal is to get the cool stickers. Sometimes
+deception is needed, sometimes it’s not, but the goal is the same either way.
+4. When the truth is consistent with a person’s goals, the person will almost
+always communicate honesty.
+If TDT and IMT2 are correct, people will almost always be honest when honesty is sufficient for goal attainment. That is, when the truth works just fine,
+people are honest. For the most part, innocent people will not lie and falsely
+confess guilt.5 If you like a gift, you generally won’t tell the gift-giver that it
+sucks. The kids in Peskin’s experiment never lied to Good Puppet.
+I guess by now some readers are finding my repeated hedging irritating. My
+writing contains frequent use of words like “usually,” “typically,” and “almost
+always.” No doubt some readers would prefer stronger, more decisive claims.
+But I use such wording intentionally, because I am talking about trends and
+not universals, and I have some exceptions in mind that can happen but are
+infrequent and unusual.
+I say people are “almost always” honest when honesty is sufficient for their
+goals because this may not apply to pathological liars. When I say “pathological liars,” I mean people who meet several criteria.6 They are not delusional or
+psychiatrically detached from reality, they lie habitually and chronically, they
+lie without apparent reason and even when the truth would suit them better, and they lie without regard for the potential negative consequences for lying. I have known two pathological liars in my life, and this firsthand experience leads me to believe that they exist. I also believe them to be exceptionally
+rare. Pathological liars are a clear exception to TDT’s view of deception motives. But other TDT propositions and modules have interesting implications
+for those who interact with pathological liars. Concepts like the truth-default
+(next chapter) and projected motives (later in this chapter) suggest that dealing with pathological liars is likely an extremely difficult, baffling, confusing,
+and unpleasant experience. The truth-default has no utility when dealing with
+a pathological liar, and projecting motives becomes impossible. The resulting uncertainty makes interaction with a pathological liar a troubling and disturbing experience. This has certainly been my experience with the pathologi
+cal liars I have (to my misfortune) known. I hope you never meet one. If you
+have, you have my sympathy.
+False confessions are a very different issue from pathological lying. Like
+
+DECEPTION MOTIVES
+
+157
+
+pathological lying, false confessions may seem inconsistent with my view of
+deception motives, but unlike pathological lying, I don’t see them as an exception. False confessions are usually motivated and follow the principles that
+people lie for a reason and don’t lie when the truth works. There are at least
+four kinds of false confessions, and they reflect very different motives. But
+each type is motivated, and all are understandable from the TDT perspective.
+The general public may not know this, but police frequently get numerous
+false confessions to high-profile crimes. These confessions seem to be motived by some kind of weird publicity or fame seeking or perhaps the desire to
+be infamous. The goal is fame or infamy and the truth is problematic due to
+actual innocence, so some people lie and confess to crimes they didn’t commit. I understand from connections in law enforcement that this sort of deception is often easy to detect. The confessor is too eager to confess, and they
+typically do not know critical crime facts that have not been made public. Police will often not disclose critical details for this very reason. I think of these
+cases (please excuse my lack of political correctness) as crazy false confessions.
+They seem crazy to most of us, but they are not anomalous for TDT, because
+they are motivated by a problematic truth.
+A second type of false confession is rational. My guess is these are very
+common in plea bargaining in the US legal system. In such cases people are
+forced into a lose-lose decision: falsely plead guilty and receive some lesser
+negative consequence or maintain one’s innocence at the risk of a more severe negative consequence. Pleading guilty can be the rational choice for an
+innocent person who believes the evidence is contrived but persuasive (e.g.,
+a judge is likely to believe the police over the accused), if the accused simply
+cannot afford the legal costs of fighting the bogus charges, or when the certain costs of a guilty plea are tolerable but the uncertain costs of a failed innocence claim are much worse.
+Third, false confessions can also be obtained by coercive interrogation practices. In this case, the goal of the confessor is to make the interrogation end,
+and the truth does not seem to work. Such confessions may not seem rationale to most of us who think about long-term consequences, but if the interrogation is sufficiently aversive, the immediate priority of cessation may take
+precedence. Further, younger people and mentally disabled people may place
+more priority on immediate over longer term outcomes and may therefore be
+especially likely to false confess under pressure to do so. In any case, there is
+usually a rationality to coerced false confessions and they follow the rules of
+motived lying.
+A final type of false confession stemming from interrogation practices in-
+
+158
+
+CHAPTER TEN
+
+volves planting false memories or persuading an innocent person of his or
+her own guilt. Sometimes, for example, drinking alcohol in excess can lead to
+memory loss. The initial honest response to what we did while drunk is that
+we just don’t recall. In such situations, people might be especially susceptible
+to the implanting of false memories, especially with prolonged interrogations
+where the honest answer is not effective in ending the interrogation and where
+false evidence ploys are used.7
+5. Deception becomes probable when the truth makes honest
+communication difficult or inefficient.
+This last point may be the most important and brings us full circle to the
+idea that lying is not random. Absent psychopathology, people deceive when
+the truth thwarts a person’s goals. When the truth is a problem, not everyone
+will be deceptive, but if the truth presents no obstacle, almost everyone will
+be honest. Thus, deception is not random and occurs in particular and predictable situations.
+TDT EXPERIMENT SIX: SELECTING TRUTHS AND LIES
+My student Rachel Kim and I, along with Lauren Hamel (who was working
+on my team at the time), did a series of experiments testing TDT proposition
+five in a variety of ways.8 Our first deception motive experiment was a “message selection” experiment. In message selection experiments, research subjects are provided with hypothetical or recalled situations and fixed message
+choices. They are asked to imagine themselves in (or to recall) the situation
+described and then asked to pick from a set of prewritten messages what they
+might say. The situations are experimentally varied, and the goal of research
+is to see how changes in the situation affect the message choices.
+We came up with six base situations where the truth might or might not be
+made problematic. The situations covered things like what to say to a person
+who gives a gift, inquires about a woman looking fat, opinions of a movie, or
+questions about whether a promised favor was done. In each case, we made
+two versions—one where the truth worked just fine, and the other where the
+truth was problematic in the situation. Our predictions were, of course, that
+when the truth was not problematic, honesty would be nearly universal. In
+situations where the truth was made problematic, however, lying would be
+prevalent. In both cases, the motives for telling the truth and honesty were the
+same; only how the goals might be accomplished was altered.
+Here is an example of one of the situations from our experiment. Imagine
+that . . .
+
+DECEPTION MOTIVES
+
+159
+
+You’re having dinner at a friend’s house. You love the food. They say, “I hope you
+like the food. I spent all afternoon cooking. How do you like it?”
+How would you answer? Please pick one of the following replies:
+(a) “I think the dinner is fantastic. This is one of the best home-cooked
+meals I have ever had.”
+or
+(b) It was kind of you to invite me over and put so much effort into
+preparing the food, but it is not one of my favorites.”
+In this version of the situation, message (a) is honest and message (b) is dishonest.
+Then we altered the situation by changing just one key word. We provided
+the exact same two message choices. Imagine that . . .
+You’re having dinner at a friend’s house. You hate the food. They say, “I hope
+you like the food. I spent all afternoon cooking. How do you like it?”
+How would you answer? Please pick one of the following replies:
+(a) “I think the dinner is fantastic. This is one of the best home-cooked
+meals I have ever had.”
+or
+(b) “It was kind of you to invite me over and put so much effort into
+preparing the food, but it is not one of my favorites.’’
+In the first situation we predicted that virtually everyone picks message (a).
+The truth (you liked the food) is compatible with goals (e.g., protect friend’s
+feelings, be polite). Since the truth works just fine, people are honest. There is
+no reason to lie and say the food was disliked. In the second situation, where
+the food was disliked, however, the truth is a problem. The choice is between
+a packaged truth (thanks, but it was not my favorite) or BFL (yum yum, it was
+so delicious). We expected many more lies in the second situation than in the
+first situation.
+We used six different base situations and had two versions for each. For
+each situation, there was an honest message response and a deceptive message response. The responses were the same for both versions of the situa-
+
+160
+
+CHAPTER TEN
+
+tion, but in one version the truth was unproblematic and in the other the truth
+was awkward.
+One situation did not work well, but for the other five, subjects picked the
+honest response 100% of the time when the honest response was not problematic, and no subject ever picked the dishonest message option when the
+deception worked against the goal of the situation. In contrast, when the situations were flipped and the honest message was problematic and the deceptive
+option offered a solution, deceptive messages were selected 72% of the time,
+with deception responses being selected anywhere from 53% to 94%, depending on the situation.9 Thus, the results were very much in line with our predictions and TDT proposition five.
+TDT EXPERIMENT SEVEN: GENERATING TRUTHS AND LIES
+Selection methodology like that used in experiment six is often criticized in
+my field of human communication. In actual conversations, people clearly do
+not choose from among preset message options. Critics of selection methods
+often prefer a generation method. Subjects are given situations, and, instead
+of selecting from prewritten message options, they are asked to write out what
+they would say. The written responses can then be coded into the same categories of messages reflected in the selection choices.
+We thought that our prediction would hold regardless of method, but we
+needed to show that. So we replicated TDT experiment six using the same
+situation variations but just asked our new subjects to write out what they
+would say. We then coded all the written messages as either honest or deceptive. All the messages were independently coded by two of the authors, and
+coding agreement was 99.7%. Because we were worried about researcher bias
+and wanted to be sure the coding was valid, we also used two additional coders
+who didn’t know our hypotheses. We recruited a professor familiar with deception research and a person with no training at all in social science. Agreement
+with our coding was 100% for the professor and 97% for the nonexpert coder.
+This gave us much confidence that messages coded as honest were really honest and that the messages we thought were deceptive were clearly deceptive.
+Once again, for the five situations that worked in study six, when the truth
+worked just fine, people were 100% honest. Not a single person generated a
+message coded as deceptive in any of the versions where the truth was nonproblematic. But things were much different in the versions where the truth
+was inconvenient. Messages were coded as deceptive 76% of the time, with
+the five situations ranging from 58% to 91%.10 Thus, regardless of whether
+the method involved selection or generation, the data came out as expected.
+
+DECEPTION MOTIVES
+
+161
+
+TDT EXPERIMENT EIGHT:
+INTRODUCING THE NSF CHEATING EXPERIMENTS
+Up until now the evidence for the prevalence and deception motive predictions all relied on various types of self-report methods. As the label implies,
+self-reports involve asking research participants to respond to open-or closed-
+ended questions about their feelings, thoughts, or behaviors. Self-reports are
+widely used in social science research, and they can yield useful data. The utility
+of self-reports, however, is typically limited by two considerations. The validity
+of self-reports usually depends on the extent to which respondents can answer
+accurately and the extent to which the subjects are willing to answer honestly.
+In the prevalence studies reported in the previous chapter, the main concern
+is with the second of these requirements. How do we know that research subjects aren’t lying about how much they lie? But the first concern might be an
+issue too. Do people even know how often they lie? That is, even if we presume
+honest answers to the survey questions, how accurate is the recall?
+There is a similar concern with the two previous deception motive studies (TDT experiments six and seven) just described. In particular, I am skeptical of inferring a one-to-one correspondence between what I might call projected communication, recalled communication, and actual communication.
+That is, presuming honest, well-intentioned research subjects who take their
+task seriously, I think that what people think they might say in some imagined
+situation may be different from what they would recall having said in some remembered situation. Both of these might be different from what would actually come out of their mouths when we objectively look at what they actually
+say when they are actually in that situation. Projected communication, recalled
+communication, and actual communication behavior can be very different.11
+But they are not necessarily different. The trouble is, we often just don’t know.
+My preferred research strategy for dealing with concerns such as these is
+through multimethod triangulation. My thinking is that if we can study the
+same question different ways, and if the findings from different methods converge on the same conclusion, then we can be confident in the conclusion. Alternatively, if different methods lead to different results, then we need to fig
+ure out what it is about the different methods that is causing the differences.
+This was the logic behind TDT experiment eight. Experiments six and seven
+showed clear convergence among selection and generation methods, but both
+involved self-reports of projected communication. Experiment eight tested TDT
+proposition five and the deception motives module by observing actual observed communication of people in situations where the truth was and was
+not problematic.
+
+162
+
+CHAPTER TEN
+
+I developed the cheating experiments like that used in experiment eight to
+get “real lies” that I knew were really lies. Most deception experiments involve
+what I call instructed lies (or sanctioned lies). In deception experiments using instructed lies, research subjects are randomly assigned to honest or deceptive
+conditions, and those who are supposed to be deceptive are told to lie about
+something, while honest subjects are instructed to be honest. For example, in
+the first deception detection experiment way back in 1941,12 senders were asked
+questions of a factual and autobiographical nature. Immediately after each
+question was asked, a card was flashed to the sender instructing the sender to
+either lie or tell the truth. As a second example, in a classic Ekman and Friesen
+deception detection experiment,13 senders (female nursing students) watched
+pleasant and unpleasant film clips. They were subsequently asked about the
+films, and they were instructed to lie about the unpleasant nature of the unpleasant films while being honest about the pleasant films.14 The mock crime
+research common in modern deception research in legal and criminal psychology also uses instructed lies. Some subjects, usually based on random assignment, are instructed to steal something (or perpetuate some other make-
+believe crime) and then lie to proclaim their innocence. Honest participants,
+in contrast, do some control activity and are instructed to honestly maintain
+their innocence regarding the staged wrongdoing.
+Instructed lie experiments make me uneasy. Are instructed lies even deception? Are instructed liars really trying to dupe someone, or are they just trying
+to be good subjects and follow instructions? If instructed lies are really lies, do
+they work in the same way and have the same outcomes as spontaneous, noninstructed lies? This, I suggest, is an issue of ecological validity, and different
+theories of deception see different features of ecology as especially important.
+In TDT motives to lie play a central role, so why people are lying (or honest)
+matters for my understanding of deceptive communication.
+The basic idea of ecological validity in research design is that all social behaviors exist within a social context, and the context matters.15 That is, we must
+consider the ecology in which people are a part. We want the behaviors and
+processes we study to reflect the processes and behaviors of interest, and thus
+we worry that if the ecology of the research lab is different from the ecology
+of deception outside the research setting, then maybe the findings are limited
+to the ecology of the lab.
+One way different theories of deception differ is in which aspects of the
+ecology are considered important. For example, it is not surprising that mock
+crimes are used more in legal and criminal psychology than in other deception
+research. If what the lies are about matters, and the concern is legal or criminal
+
+DECEPTION MOTIVES
+
+163
+
+situations, then maybe lies should be about guilt or innocence of some crime.
+Mock crimes are used to simulate truth and lies in real crime situations. But
+if real guilt or innocence (and all that comes with a life of crime or a life as
+a law-abiding citizen) is critical, then maybe having college students play-act
+crimes is very different from real crime and real criminals. So, what aspects
+of a crime situation are most important?
+As mentioned earlier, lie stakes play a critical role in Ekman’s thinking and
+research. In Ekman’s theory, leakage and deception clues stem from the emotional stakes linked with deception. What is important is whether the liars fear
+detection and experience guilt. From the Ekman perspective, therefore, an ecologically valid experiment would need to simulate the emotional experiences
+of liars in nonresearch settings. Detected liars should expect punishment.
+IDT, in contrast, places the emphasis elsewhere. IDT researchers object to
+short snippets of videotaped behavior, instead insisting that long streams of
+real interaction are required if data are to be ecologically valid.16 Deception
+cues stemming from strategic and nonstrategic affect and cognition presumably require longer segments of communication behavior before becoming
+observable.
+Because TDT is not a cue theory, stakes, communication duration, or mere
+interactivity are not especially important from the TDT standpoint. The research reviewed in chapter 3 bears this out. Stakes, communication duration,
+and mere interactivity make little difference in deception detection. In TDT,
+in contrast, what matters are things like individual differences in sender lie
+prevalence (previous chapter), sender transparency and demeanor (chapter 13),
+receiver understanding of context and receiver ability to solicit honest confessions (chapter 14), and, most important for the current chapter, sender motivation. Thus, for TDT, a key aspect of ecological validity is that the motives
+for deception in the lab are similar to the motives that guide deception outside the lab. The cheating experiments achieve this.
+There are only a few experiments looking at differences between instructed
+and noninstructed lies.17 Although cue theories predict that instruction to lie
+(compared to noninstructed lies) should affect the prevalence of deception
+cues (deception cues are expected to be more prominent in unsanctioned deception),18 research has not borne this out.19 Instruction to lie does, however,
+appear to affect confession rates.20 Subjects who are instructed to lie confess
+less under questioning. This suggests that subjects’ main goal may be to be
+good subjects and follow instructions. Because confession seeking (and not observation of cues) is a path to effective detection in TDT, using noninstructed
+lies is important for empirical as well as theoretical reasons.
+
+164
+
+CHAPTER TEN
+
+The issue of ground truth is even more important than ecological concerns
+in the validity of deception research design. In order to know if some communication might be deceptive, we need to know the truth. Outside the lab it
+is often impossible to be certain about the truthfulness of some communication. But if we are going to compare truths and lies, we must know what the
+truth is. This is the issue of ground truth.21 So, when I wrote earlier that “I
+developed the cheating experiments like that used in experiment eight to get
+‘real lies’ that I knew were really lies,” by “real lies” I meant noninstructed lies;
+“that I knew were really lies” referred to my knowing ground truth.
+TDT experiment eight used a version of my cheating experiment.22 Briefly,
+the method goes like this: Subjects come to my lab for a study about “teamwork.” They are paired with a partner who they think is another subject but
+who is actually working for me. Together the subject and the partner play a
+trivia game for a cash prize of five or ten dollars per right answer. Between
+the third and the fourth questions, the experimenter is called out of the room
+for some contrived reason, and the answers are left in a closed folder in easy
+reach of the subject. The partner suggests cheating, but it is up to the subject
+whether or not to cheat. After a few minutes, the experimenter returns and
+completes the trivia game. Next, the subject is interviewed about the experiment and asked, among other things, if they cheated. Honest answers are noncheaters who deny cheating, and cheaters who confess to cheating. Lies are if
+a noncheater falsely confesses, or a cheater falsely denies cheating.
+The prediction in experiment eight was that subjects who did not cheat
+would answer honestly to the cheating question (because the truth works well
+for them), but cheaters are more prone to lie. And this was just what we found.
+We ran 126 subjects through this version of the cheating experiment. Of these
+126, ninety-six (76%) chose not to cheat. When asked, all of them were honest
+about not cheating. In fact, of the more than five hundred subjects we have
+run through various versions of the cheating experiments, we have never had a
+spontaneous false confession. In contrast, of the thirty subjects who did cheat
+in experiment eight, 40% were honest and confessed, while 60% lied about
+cheating.23 Thus, experiment eight replicated experiments six and seven with
+actual behavior. Together, TDT experiments six through eight provide clear
+evidence with a variety of different methods for TDT proposition five and the
+deception motives module.
+CLASSIFYING DECEPTION MOTIVES
+If people lie for particular reasons, what might those reasons be? Or, put differently, in what sort of circumstances does the truth become problematic, there-
+
+DECEPTION MOTIVES
+
+165
+
+fore creating an incentive to deceive? Several studies and authors have sought
+to classify deception motives. One early list of deception motivations included
+(a) to save face, (b) to manage relationships, (c) to exploit, (d) to avoid tension/
+conflict, and (e) to control situations.24 Ekman provided a more extensive list
+of why children lie: (a) to avoid punishment, (b) to get something, (c) to protect friends, (d) to protect themselves, (e) to win admiration, (f ) to avoid social
+awkwardness, (g) to avoid embarrassment, (h) to maintain privacy, and (i) for
+power over authority.25 Alternatively, others have categorized motives for deception in terms of locus of primary benefit, that is, whether the lie benefits
+the self, another person, or the relationship.26 These various approaches have
+been combined, resulting in two-dimensional typologies, with one dimension
+being reward categories representing different social motivations (e.g., to save
+face) and the other being target categories pertaining to who would benefit
+from the potential reward (e.g., self or other).27
+TDT STUDY NINE: TOWARD A PAN-C ULTURAL
+LIST OF DECEPTION MOTIVES
+Given the prominence of motives in TDT, I wanted to take a look at the range
+of motives that guide human deceptive communication. So, TDT study nine
+took a broad look at why people lie.28 I put together a multicultural team and
+collected some informative data.
+Our method was pretty simple. We created an open-ended questionnaire
+asking subjects to recall an instance of lying or deception, from the perspective of either the liar or the target of the deception. That is, we asked some
+subjects to describe a situation in which they had been lied to and some subjects to describe a situation where they had lied to someone. Sometimes we
+used the word “lie,” and other times we asked about “deception.” We collected
+data in Egypt, Guatemala, Pakistan, Saudi Arabia, and the United States. In all,
+we collected 409 accounts of deception. After translations (when the language
+was other than English), my research team and I read through the accounts
+and came up with a list of deception motives that captured both the prior literature and the accounts in our new data. Once we had a list we were happy
+with, we went back through the data and sorted the various accounts into our
+deception motive categories. We did the sorting task independently and then
+cross-checked for agreement to ensure objectivity.29
+The list we came up with follows. People lied to cover up wrongdoing or to
+gain some type of advantage or benefit. People lied to protect others and out
+of concern for politeness. People lied to look good in the eyes of others. People
+lied to be funny or to be mean.
+
+166
+
+CHAPTER TEN
+
+1. Personal transgression. A lie to cover up a misdeed. Examples include lying to hide relational infidelity and making false excuses
+for why one was late to work.
+2. Economic advantage. A lie motivated by monetary gain. Examples
+include knowingly selling defective products, seeking loans under
+false pretenses, and con-artist schemes.
+3. Nonmonetary personal advantage. A lie to seek some desirable outcome for the self other than economic advantage. Examples include bogus excuses to get class notes for a missed class or to get a
+coworker to do a disliked task.
+4. Social/polite. Lies told to conform to a social rule or to avoid rudeness. An example is saying that one liked a gift that was not liked.
+5. Altruistic lies (other than social/polite). A lie told to protect another
+person, or another person’s advantage. An example is a father hiding a health problem from a child to avoid upsetting her.
+6. Self-impression management. Lies motivated by the desire to appear
+more favorably to others. An example is exaggerating accomplishments to impress a romantic interest.
+7. Malicious. Lies to cause harm to others. Common examples include
+spreading false rumors about another person to harm their reputation or to sabotage a relationship.
+8. Humor/joke. Deception to be funny or prank another.
+9. Pathological lies. Lies without apparent motive or purpose, lies
+borne out of delusion, or lies told with blatant disregard for reality
+and detection consequences.
+10. Avoidance. Lies told to avoid another person. An example includes
+fabricating an excuse to avoid attending an event with a friend.
+A surprising category was what we called avoidance lies. In avoidance lies
+people want to avoid another person or to decline an invitation and lied about
+the reason. For example, there was an event last night related to work that I
+should have attended. When asked, I expressed my regrets, claiming a previous
+engagement. That wasn’t true. I just didn’t want to go. Perhaps that could have
+been considered a politeness motive, or a face-saving/impression management
+motive, but avoidance motives were so common (almost 15% of all accounts
+fell into this category) that we made them their own category.
+Generally, self-serving lies were more common than polite or altruistic lies.
+Seeking some advantage for personal gain (30%), covering up a transgression
+(22%), and avoidance lies (15%) were more common than the other types.
+
+DECEPTION MOTIVES
+
+167
+
+Self-impression management motives accounted for 8% of the described deception, and politeness, altruism, maliciousness, jokes, and pathological lies
+were each evident in 5% or fewer of the deception accounts.
+There was a great deal of similarity across the different countries. With the
+exception of pathological lies (the least frequent type of deception reported),
+all of the motives were reported in a majority of countries where data were
+collected, and most of the motives were evident in all of countries. Thus, the
+motives seem general across a wide variety of deceptions in a variety of very
+different human cultures.
+There were a few notable differences between countries. The worst lies
+were disproportionally from the data collected in Pakistan. There, 17% of the
+lies were considered malicious. Purely malicious lying occurred in less than
+4% of the cases in the other countries. Pakistan also stood out in the prevalence of economically motived deception. Forty-three percent of the deception
+accounts in Pakistan involved some sort of fraud, scam, or rip-off to separate
+people from their money. In fact, our decision to separate out economic gain
+from other types of self-advantage motives was based on the Pakistan data so
+that we might capture this difference.
+Other notable cultural differences were observed in the data from Guatemala. There were more humor-joke lies (12%) there than elsewhere (5% or
+below everywhere else). Hiding transgression (30%, especially romantic in nature) was also unusually prevalent in the Guatemalan lies relative to the rest.
+PROJECTED MOTIVES
+As we have seen in this chapter so far, deception motives play an important
+part in TDT. Lying, I believe, is not random. Most people do not lie often.
+When people do lie, they do so for a reason. People are likely to lie in situations where the truth conflicts with some goal or desired state of affairs. Otherwise, people are almost always honest.
+To the extent that it is the match between the reality of the situation and
+the goals a communicator has prioritized that makes deception likely or not,
+understanding the nature of this match should be useful in anticipating when
+people will be deceptive and when deception is improbable. Two critical implications follow from this. First, it should be possible to improve lie detection
+by factoring in the presence or absence of a deception motive, and second,
+people may, at least tacitly, factor in situational considerations related to motives when assessing others’ communication. These considerations now lead
+us to think about deception motives from a message receiver’s perspective and
+consider projecting deception motives onto others.
+
+168
+
+CHAPTER TEN
+
+Two lines of prior social-scientific research on topics other than deception
+show the importance of perceived or projected motives in forming impressions of others’ honesty. First, in classic persuasion research, it has long been
+known that communicators are more credible when they argue against their
+own apparent interests.30 For example, a store clerk who pushes the most expensive brand or model will come off as less sincere than a clerk who endorses
+a less expensive product. The clerk pushing the more expensive item may be
+seen as having his or her own interests (especially if the clerk works on commission) or the employer’s interest in mind. That is, the employee may have
+an ulterior motive (economic profit) and is seen as less trustworthy. In contrast, the clerk who tells you that the less expensive item is just as good and is
+a better buy than the more expensive alternative does not seem to be communicating in self-interest. The only reason to say such things is because they are
+true. Thus, people very much do project motives onto others, and the motives
+one person projects onto another shape perceptions of honesty and integrity.
+Second, projecting motives can be understood as a subcategory of a larger
+category of social cognition called attributions. Attributions are perceived causes
+or reasons for behavior. That is, attributions are the academic label for the idea
+that people think about why other people do what they do. There is a long and
+extensive history of theory and research on attributions in social psychology.
+In Bertram Malle’s theory of attributions,31 people explain intentional and
+unintentional behaviors differently. When behavior is unintended, people look
+for causes (e.g., it is because of a person’s own nature or because of the environment), but when a behavior is intentional, people look for reasons. Since
+deception is usually considered intentional, it follows that people presume that
+others have reasons for being deceptive. While attribution theories look at how
+people infer causes and reasons from behavior, I’m suggesting the reverse is
+also true; people can and do anticipate behavior from knowledge of reasons.
+Consistent with this claim, attribution research shows that knowledge of ulterior motives produces suspicion.32
+This leads us to the Projected Motive Model and TDT proposition six:
+The Projected Motive Model: People know that others lie for a reason and are
+more likely to suspect deception when they think a person has a reason to lie.
+TDT Proposition Six: People understand that others’ deception is usually
+purposive and are more likely to consider a message as potentially or actually deceptive under conditions where the truth may be inconsistent with a
+
+DECEPTION MOTIVES
+
+169
+
+communicator’s desired outcomes. That is, people project motive states on
+others, and this affects suspicion and judgments of honesty and deceit.
+The projected motive thinking plays a critical role in TDT. Projecting a motive for deception is one of the trigger events that can lead people to abandon
+the truth-default and actively consider the possibility of deception. That is,
+if there are no obvious motives for another to be deceptive, people need not
+worry about deception because deception happens only when people have a
+reason to lie. But in situations where deception might be motivated, then the
+truth-default loses its utility, and people are well served by being on guard for
+possible deception.
+Motives and projected motives, however, are irrelevant or useless in most deception detection experiments. In experiments using instructed lies, the reason
+for lying is experimental instruction to do so, and instructions are usually determined at random. People watching and judging instructed truths and lies cannot meaningfully use motive information because the sender’s decision to lie
+is random and because, from the message receiver’s point of view, situational
+factors that might motivate deception are constant across honest and deceptive senders. The part of the ecology that motivates deception in nonresearch
+settings is taken out of the equation in most deception detection experiments.
+As an analogy, most deception detection experiments are like a murder mystery where either none of the suspects have a motive or all the suspects have
+the same motive. Solving the crime without the help of motive information to
+differentiate between suspects and nonsuspects makes the task of solving the
+mystery more difficult. In real-life murders, of course, most murderers have
+a motive to lie about their crime and most people who have not murdered
+someone have no reason to lie about murder. Consequently, understanding
+motive is usually helpful in solving and prosecuting the crime.
+If researchers only care about lie detection based on behavioral cues, controlling motive might make good sense. Good research design controls variation in factors considered extraneous. But if our interest is a more general understanding of deception and lie detection, then instructed lie research may be
+distorting the picture. That is, if people do, as TDT claims, lie for a reason, and
+if people do, as TDT says they do, project motives when evaluating the honesty
+of others, then the ecology of instructed lies differs in critical ways from naturally occurring deception and deception detection situations. The next three
+experiments were designed to make this point and provide initial evidence for
+TDT proposition six and the Projected Motive Model.
+
+170
+
+CHAPTER TEN
+
+TDT EXPERIMENTS TEN, ELEVEN, AND TWELVE: PROJECTED MOTIVES
+Rachel Kim, Pete Blair, and I did a series of experiments testing TDT proposition six and the idea of projected motives.33 The truths and lies came from
+the first version of the cheating experiment. The second version of the cheating experiment was described in TDT experiment eight, but all the cheating
+experiments are variations on the same basic design.34
+When Rachel Kim and I began the first version of the cheating experiment,
+we were surprised by a couple things. We were surprised by how few people
+cheated. Of the first forty subjects we ran through the experiment, only seven
+cheated, and we had to run thirteen subjects before we got our first cheater. We
+were also surprised by the number of confessions. Of those first seven cheaters,
+five of them confessed. So, after all the time it took to run the first forty subjects, we had only two lies on tape that we could use in later detection experiments. Most of our subjects didn’t cheat, and of those who did, many did not
+lie about it. We had expected more cheating liars. Eventually we got more lies
+on tape, but we got off to a slow start because our subjects were more honest
+than we had initially expected.35 This predated our work on lie prevalence. In
+retrospect, we should not have been so surprised, but we did not have a completed TDT back then to shape our thinking.
+Once I observed that honest confessions occurred, I added a variation. We
+ran a few additional subjects. Like most subjects, these new ones didn’t cheat,
+and when interviewed they honestly denied cheating. Then, I asked each of
+them if they would please redo their interview, lie, and falsely admit to cheating. Seven participants agreed.
+Thus, with the addition of these instructed false confessions, we had four
+types of interviews. We had all combinations of subjects who were honest or
+lying about being guilty or innocent. In the language of experimental design,
+we could experimentally cross veracity with guilt–innocence to create a twoby-two factorial design. That is, we had people who honestly confessed cheating, people who honestly denied cheating, people who denied cheating but
+were lying, and the false confessors who lied about cheating when they actually had not cheated.36
+When we show new subjects these four sets of interviews, what will they
+make of them? Deniers have a possible motive for deception. Maybe they
+cheated, maybe they didn’t, but either way we can expect them to deny cheating. But there is no obvious reason why people would confess if they had not
+cheated (and, in fact, if not instructed to false confess, they would not have
+done so otherwise; our subjects never false confessed in the cheating experi-
+
+DECEPTION MOTIVES
+
+171
+
+ments without explicit instructions to do so, not even once). So, confession
+should be believed because there is no apparent motive for lying. This was our
+hypothesis in experiments ten through twelve. People believe confessions more
+than denials. As a consequence, accuracy would be very high for true confessions, very low for false confessions, and in the middle for denials. Accuracy
+should be higher for true denials than false denials (this is the veracity effect,
+covered in chapter 12), but the difference between truths and lies is expected
+to be much smaller for denials than confessions. That is, we predicted the
+highest accuracy for true confessions, a big drop, then true denials, followed
+by false denials, then a big drop, and the lowest accuracy for false confessions.
+In TDT experiment 10, we showed 127 students twenty-seven videotaped
+interviews from the cheating experiments containing true and false confessions and denials. Subjects judged each interview as honest or deceptive regarding whether or not the person interviewed had actually cheated. We calculated truth-bias (percentage judged as honest) and accuracy (percentage judged
+correctly).
+The results were just as we expected. Confessions were believed over 90%
+of the time. In contrast, denials were believed 52% of the time. This, of course,
+is a big difference.37 In terms of accuracy, true confessions were judged correctly 95% of the time, true denials 56%, false denials 53%, and false confessions yielded only 12% accuracy.
+TDT experiment eleven replicated these results with a slight variation. Experiment ten used a “repeated measures” design. That is, all the subjects saw
+all four types of honest and deceptive truths and lies. Although there are advantages to repeated measures designs,38 they have disadvantages, like potential order effects, contrast effects, hypothesis guessing, etc. Such concerns
+can be controlled with an “independent groups” design in which subjects are
+randomly assigned to different experimental conditions. In the language of
+experimental design, the experimental variables are crossed, but subjects are
+nested with condition. So, to ensure that our results were not an artifact of the
+repeated measures approach, we recruited sixty-eight new subjects and randomly assigned them to see just the confessions or just the denials.
+The results were similar to experiment ten and, again, just as we expected.
+Confessions were believed 81% of the time, compared to 56% for denials. In
+terms of accuracy, true confessions were judged correctly 87% of the time,
+true denials 56%, false denials 47%, and false confessions had only a 26% accuracy. The results were not quite as strong, but the order held, and the predictions passed statistical standards.39
+In experiment twelve we went back to the repeated measures design used
+
+172
+
+CHAPTER TEN
+
+in experiment ten, but instead of recruiting college students, we showed the
+tapes to thirty-one professional investigators (a mix of police, mostly detectives, and fraud investigators working for banks). We wanted to show that our
+predictions would hold for people other than college students. The “the findings are limited by the use of college students as research subjects” refrain is
+the most overused criticism and lament in social science. Sometimes the use
+of college students does make a difference, but more often than not, it really
+doesn’t. The only way to know is to check. Generally, I prefer to rule out potential criticism and concerns, even when I think them farfetched or trivial.
+Besides ruling out a knee-jerk criticism and documenting generality across
+samples of research participants, I had another more substantive motivation
+for a replication of this particular prediction with professional investigators.
+Again and again I had heard researchers and practitioners alike say that police were a cynical bunch prone to lie-bias.40 I had a different interpretation.
+Prior research and thinking had often confounded deception and guilt. When
+comparing guilty liars to innocent honest folk, police and other lie detection
+professionals are less truth-biased than college students.41 I thought the bias
+might go the other way for confessions. That is, police might be more cynical
+about denials but more accepting of confessions. Experiment twelve offered
+an opportunity to disentangle deception and guilt.
+The results of experiment twelve were surprising. The investigators believed
+confessions (82%) much more than denials (59%), supporting the main hypothesis and replicating the experiments with college students. The professional investigators were not lie-biased. In fact, they did much better on true
+denials (40%) than false denials (22%). What was surprising was how much
+worse they were at the denials than were the students. Accuracy was only 31%!
+They were wrong more than two-thirds of the time in sorting out honest from
+deceptive denials. And they were not lie-biased. They believed 78% of the l iars
+denying wrongdoing.
+The findings of study twelve were strange indeed, and inexplicable by any
+theory in existence at the time. I now know they were not a fluke, because I
+have since replicated these results.42 The explanation is stuff for chapter 14, but
+to give a glimpse ahead, the idea is that the results had to do with the wording
+of the questions in the interviews. There are some questions that can make
+innocent people seem guilty and guilty people look innocent in comparison,
+thereby producing below-chance accuracy. Professionals may be more susceptible to this inadvertent misdirection. The important lesson is that answers
+are shaped by the questions asked, but people tend to infer that answers reflect the person answering.
+
+173
+
+DECEPTION MOTIVES
+
+Table 10.1. Truth-bias and accuracy results of TDT experiments
+ten, eleven, and twelve
+Confessions
+Experiment
+
+Truths
+
+Lies
+
+Denials
+Truths
+
+Lies
+
+Truth-Bias (percentage believed)
+Experiment 10
+
+95%
+
+88%
+
+56%
+
+47%
+
+Experiment 11
+
+87%
+
+74%
+
+62%
+
+51%
+
+Experiment 12
+
+86%
+
+77%
+
+40%
+
+78%
+
+Accuracy (percentage correct)
+Experiment 10
+
+95%
+
+12%
+
+56%
+
+53%
+
+Experiment 11
+
+87%
+
+26%
+
+62%
+
+49%
+
+Experiment 12
+
+86%
+
+23%
+
+40%
+
+22%
+
+Anyway, the results of TDT experiments ten through twelve are summarized
+in table 10.1. The findings of all three experiments are very much consistent
+with the idea that people project motives for deception, and people are more
+likely to believe others when there is no apparent reason for the person to lie.
+CHARLIE BOND ALSO TESTS THE OVERLOOKED OBVIOUS
+Unknown to me at the time I was collecting the data for the projected motive
+experiments, psychologist Charlie Bond independently came up with pretty
+much the same idea. He tested the idea a little differently and published his
+results under the title “Overlooking the Obvious: Incentive to Lie.”43 As we did,
+he tested his idea with three experiments. His work took longer to get into
+print than ours, but both sets of studies tell the same story. Deception motives
+determine deceptive communication, and awareness of others’ motives is very
+useful in detecting deception.
+In the Bond experiments, some subjects were given either an incentive to
+lie or an incentive for honesty. Subjects could choose to be honest or not, but
+if they didn’t choose the incentivized action, they had to do a boring activity
+for fifteen minutes. The incentive was avoiding the boring task. The incentive
+proved powerful. All subjects chose the incentive. When they could avoid the
+undesirable task with honesty, they were honest. When the unpleasant task
+was avoidable with a lie, they lied. Another group of subjects watched videotapes of the first group of incentivized subjects. The second group got to see
+
+174
+
+CHAPTER TEN
+
+the first group’s communications and the offer of incentives. Knowing the incentive structure let the second group of subjects correctly assess the actual
+honesty of the first group with nearly perfect (99%) accuracy. Accuracy dropped
+slightly, to 97%, in the second and third experiments, but the upshot was the
+same. Understanding the incentives and motives is obviously useful in predicting behavior, and people use knowledge of motives and incentives to interpret others’ actions.
+SUMMARY AND CONCLUSIONS
+This chapter is about deception motives. Lying is not random. People lie when
+the truth is inconsistent with their goals. When the truth is not a problem,
+people are honest. This makes deception somewhat predictable. This also
+means that understanding the context in which deception occurs is important, because there are situations when we really don’t need to worry about deception and other situations in which we need to be on guard for deception.
+A series of experiments using a variety of methods provided evidence consistent with key TDT claims regarding motives. People communicate honestly
+unless they have a reason not to. Research also looked at the motives that lead
+to deception, and a list of motives was derived. Finally, a series of experiments
+showed that people use contextual information regarding motivation when assessing others’ honesty and that the availability and use of motive-related information can improve deception detection accuracy.
+The next chapter continues the change here in focus from senders and
+truthful and deceptive messages to the receivers of those messages. Chapter
+eleven takes a close look at truth-bias and TDT’s namesake, the idea of a truth-
+default. In doing so, we will finally get at the core of TDT.
