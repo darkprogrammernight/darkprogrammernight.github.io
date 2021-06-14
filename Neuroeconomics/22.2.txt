@@ -1,0 +1,555 @@
+22.5     Analysis of DTI Data
+
+In the following, three common approaches to quantitative analysis of DTI data will
+be reviewed: ROI analysis (I), voxel-by-voxel analysis (II) and tract-based spatial
+statistics (TBSS; III). The ﬁrst two analyses may be performed with most common
+analysis programs; TBSS is part of FSL (Smith et al. 2006). ROI analyses (I) can be
+performed in several ways but it is common to all of them that diffusivity param-
+eters of every voxel within a two- or three-dimensional ROI are averaged and used
+for statistical analysis. ROIs may be deﬁned manually on each individual brain
+(I.1), they may be taken from publicly available atlases (I.2) or they may be
+delineated by means of tractography (I.3). Manual deﬁnition of ROIs (I.1) is done
+directly on FA maps or on anatomical volumes and then transferred to diffusion
+space, depending on where the respective anatomical structure is best identiﬁable.
+When drawing ROIs on FA maps, it might be helpful to superimpose diffusion
+color maps indicating the main diffusion direction. ROI deﬁnition solely on FA
+maps, however, is prone to preferably include high FA voxels since they are best
+visible and, thus, are taken as landmarks for orientation (i.e., there is an influence of
+anisotropy on ROI borders). Squared or orbital ROIs are different in this regard and,
+furthermore, less time-consuming to deﬁne but these uniform ROIs also account
+less for the individual forms of anatomic structures. Overall, it may be said that its
+accountancy for individual anatomy is the most important advantage of manual ROI
+deﬁnition, whereas on the other side its operator-dependency as well as the fact that
+the manual deﬁnition work is time-killing and nerve-racking are among its disad-
+vantages. The usage of atlas ROIs (I.2) is different in this regard. Here, anatomical
+template regions from publicly available atlases [Harvard-Oxford cortical and
+subcortical structural atlases (Caviness et al. 1996), John Hopkins University
+DTI-based white matter atlas (Hua et al. 2008), Freesurfer (Fischl et al. 2002)] are
+mapped on the individual brain. This approach is neither operator-dependent nor
+422                                                                     T. Rüber et al.
+
+particularly time-consuming; however, it has other difﬁculties: The anatomical
+template region is generated from one or (in most cases) more brains and made
+available in a three-dimensional standardized, or “stereotaxic,” coordinate space. It
+has to be transferred to individual, or “native,” space in order to align with indi-
+vidual anatomy using a mapping function. Individual’s brain anatomy, however,
+may not correspond to the anatomy of the template brain; moreover, the mapping
+function will never work perfectly leading to misalignment. [See paper by Evans
+et al. (2012) for a recent review of brain atlases and their problems]. When con-
+sidering the pros and cons of manually deﬁned ROIs versus atlas-derived ROIs, in
+many cases ROIs delineated by tractography (I.3) will yield the best of both worlds
+(Fig. 22.4): This procedure is not as operator-dependent as manual ROI deﬁnition
+(making it somewhat more “objective”) and it does consider individual anatomy,
+since it is run for every single subject. Tracts resulting from tractography are
+thresholded (excluding low probability voxels) before diffusivity parameters of all
+voxels within the respective maps are averaged. However, it is obvious that not all
+anatomic regions which may be subject to DTI analysis can possibly be recon-
+structed using tractography. In general, it shall not be dismissed that ROI analyses
+have two systematic problems that may not be overcome: First, depending on the
+size of the ROI, variation of diffusivity parameters within it is lost since all voxel
+values are averaged, second, it is not feasible to investigate the whole brain
+expressing a need for strong a priori hypotheses.
+
+Fig. 22.4 Illustration of
+tractography-based Region of
+Interest analysis of fractional
+anisotropy (FA). Tracts
+resulting from tractography
+are thresholded (excluding
+low probability voxels) before
+FA values of all voxels within
+the respective tracts are
+averaged [yielding “tract
+speciﬁc FA”] and used for
+statistical analysis
+22   Diffusion Tensor Imaging (DTI) and Tractography                                423
+
+    Voxel-wise analysis (II) as well as TBSS (III, see below) resolves these issues.
+In these analyses, all DTI volumes are normalized. Normalization describes the
+process of registering an individual brain to a template brain using a mapping
+function. Every voxel is assigned a speciﬁc “address” (Snook et al. 2007). The
+crucial premise is that, after normalization a certain “address” corresponds to a
+certain anatomical structure. That is, all brains and their parts align well to each
+other. The standard method of brain normalization includes two steps (Ashburner
+and Friston 2000; Jenkinson and Smith 2001; Snook et al. 2007): The ﬁrst step, a
+linear transformation, warps the brain in order to account for global brain differ-
+ences (size and position); the second step applies a nonlinear transformation which
+estimates internal brain deformations. After normalization, analyses are run inde-
+pendently including every voxel with the same “address,” under the assumption that
+all voxels with the same “address” represent the same anatomic location across
+subjects (Fig. 22.5). This enables comparison of diffusivity parameters between
+groups and correlation analysis with variables of interest. The advantages of voxel-
+wise analyses are obvious: They are fast, fully automated, operator-independent and
+investigate the whole brain without the need for a priori ROI deﬁnition. However,
+voxel-wise analyses are also connected with disadvantages. It is not surprising that
+the registration of healthy brains will never work perfectly, let alone the registration
+of lesioned brains (Jones and Cercignani 2010; Mukherjee et al. 2008). To alleviate
+some of the registration problems faced, one normally smoothes the normalized
+brains using a low pass ﬁlter. It shall not be dismissed, that smoothing FA maps is
+prone to cause problems, since most white matter tracts are thin, might thus be
+“washed out” by the smoothing and the selection of the right low pass ﬁlter is rather
+arbitrary but influences the results of voxel-wise analyses (Jones et al. 2005).
+Additionally, it is obvious that the need for brain normalization of low-resolution,
+high-contrast FA maps introduces problems: Smallest shifts between groups may
+incorrectly be interpreted as FA differences between groups. Furthermore, effects of
+partial volumes may challenge the analysis. Partial volume effects occur when a
+single voxel contains two or more tissue types but is presumed to only contain one
+that is white matter (Assaf and Pasternak 2008). This is especially likely to occur in
+white matter regions near the ventricles where high FA voxels are located just on
+the side of low FA voxels. Certain patient groups are particularly vulnerable to
+partial volume effects: Schizophrenic patients, for example, exhibit enlarged ven-
+tricles as compared to healthy controls (Honea et al. 2005). Another challenge of
+voxel-wise analysis concerns the sheer amount of statistical tests being performed.
+A skull-stripped FA map of somewhat good resolution contains approximately
+250,000 voxels. A whole-brain voxel-wise analysis, thus, comes along with a
+gigantic problem of multiple comparisons (Loring et al. 2002). This problem may
+be tackled with statistical correction methods. In analysis of MRI data, most
+commonly correction for family-wise error (FWE) is applied (Friston et al. 1994;
+Worsley 2005). A complementary, though not alternative way, is to apply
+voxel-wise analysis only within certain ROIs. One might, for example, reconstruct
+white matter tracts by means of tractography in native space; normalize FA maps
+and use the resulting transformation matrices to also normalize white matter tracts.
+424                                                                                T. Rüber et al.
+
+
+
+
+Fig. 22.5 Illustration of voxel-wise analysis of fractional anisotropy. After normalization of all
+volumes, statistical analyses are run independently for every voxel with the same “address” of a
+skill-stripped volume. The number of statistical comparisons may be reduced by only running
+voxel-wise analysis within a Region of Interest (which may be delineated by tractography as
+illustrated here)
+22   Diffusion Tensor Imaging (DTI) and Tractography                              425
+
+These normalized tracts are then used to build a canonical tract, which may be
+thresholded based on the voxel-by-voxel overlap of the individual normalized tracts
+(Rüber et al. 2012). Another way to reduce the number of statistical comparisons, is
+to restrict voxel-wise analysis to white matter by using white matter masks. These
+masks may be derived from anatomical volumes with FreeSurfer (Dale et al. 1999;
+Fischl et al. 1999) or other automated tools for segmentation and then transferred to
+diffusion space.
+    TBSS (III) has been developed to face two of the biggest challenges of con-
+ventional voxel-wise DTI analysis (Smith et al. 2006): multiple comparison and
+alignment. Voxel-wise analysis in TBSS is only conﬁned to the FA skeleton, which
+represents the centers of all white matter tracts common to the study group. This FA
+skeleton is used as an alignment-invariant feature to mitigate any residual
+misalignment after a common mapping function has been applied. The TBSS
+processing works as follows: First, individual FA maps are normalized applying a
+nonlinear transformation (similarly as described above). Based on all normalized
+brains, a mean FA map (in standard space) is generated and used to create the
+pseudo-anatomical white matter skeleton (it is pseudo-anatomical since white
+matter is segmented only based on FA and not on anatomical volumes such as T1 or
+T2). Next, the skeleton is projected on the individual FA map (in standard space),
+but is deformed based on a constrained local search for maximal FA values
+(Fig. 22.6). Lastly, voxel-wise testing may be performed within the skeleton as
+described above. Hence, TBSS is built on the strategy that the alignment of a
+skeleton containing maximal FA voxels to local FA maxima in the individual FA
+maps will mitigate the residual misalignment of previous nonlinear registrations.
+However, it has been criticized that this strategy primarily leads to correspondence
+of FA values but not to anatomical correspondence (Zalesky 2011). In other words,
+local FA maxima do not necessarily correspond to the same anatomical locations
+across subjects. In addition, if crude registration errors occur, they are difﬁcult to
+
+
+Fig. 22.6 Fractional
+anisotropy (FA) template
+brain and the respective FA
+skeleton as generated by
+TBSS. Please note how the
+FA skeleton aligns to the
+white matter but only covers
+the centers and, thus, reduces
+the number of multiple
+comparisons
+426                                                                     T. Rüber et al.
+
+identify in the skeleton (Jones and Cercignani 2010). Another disadvantage of
+TBSS concerns the fact that white matter regions exhibiting low FA values are not
+included in the analysis. Also, crossing ﬁber regions exhibit low FA values but are
+crucial from a neuroanatomical perspective. In newer versions of TBSS, one may
+choose to use models that incorporate ﬁber-speciﬁc measures (Jbabdi et al. 2010)
+which enhances analysis of crossing ﬁber regions. It may be concluded that TBSS is
+a powerful tool that successfully deals with some problems that come along with
+traditional analysis approaches to DTI data.
+   It is important to acknowledge that TBSS is not the only attempt to deal with the
+shortcomings of brain registration. However, one general problem of common
+registration algorithms is their dependency on “unidimensional” scalars, such as FA
+(Zalesky 2011). Conversely, DTI yields ellipsoids that are fully described by six
+independent parameters, and these parameters are lost when vectors are mapped to
+rotationally invariant scalars. Thus, anatomical information made available by DTI
+is not considered in common brain registration algorithms. Multichannel registra-
+tion algorithms which depend on all six parameters of the tensor have been pro-
+posed (Guimond et al. 2001), but are not widespread.
+
+
+
+22.6    Connectional Anatomy
+
+DTI is a boon to modern neuroscience not only for allowing the examination of
+white matter as such, but also for tractography and its potential to study connec-
+tional anatomy. The human brain consists of 100 billion neurons of which 20
+billion have been estimated to be located in the cerebral cortex (Azevedo et al.
+2009; Noctor et al. 2007). On average, every cortical neuron builds 7000 con-
+nections with other neurons and 150,000–180,000 km of myelinated ﬁbers are
+believed to be part of the brain (Drachman 2005). Connectional anatomy, however,
+does not solely yield insights into white matter circuits. Keeping in mind that
+“nothing deﬁnes the function of a neuron more faithfully than the nature of its
+inputs and outputs” (Mesulam 2005), it becomes clear that structure and function go
+together in neuroscience (Blits 1999) and how DTI may inform the study of neu-
+ronal mechanisms underlying cognitive functioning (ffytche and Catani 2005).
+Without any doubt, in the last decade has neuroscientiﬁc attention shifted from
+single loci to the networks connecting them. This has not only extended our
+knowledge on brain networks but also on single loci being part of these networks.
+For example, network analysis has opened an avenue for using tractography to
+provide information of gray matter parcellation (Behrens and Johansen-Berg 2005).
+Traditionally, cortical or subcortical regions are deﬁned based either on cytoar-
+chitectonic boundaries or on gross-anatomical landmarks. However, cytoarchitec-
+tonic boundaries do not necessarily correspond to gross-anatomical landmarks
+(Geyer et al. 2000). Thus, another basis for the deﬁnition of great matter boundaries
+is favored and connectivity-based parcellation has been named as a convincing
+candidate for this purpose (Le Bihan and Johansen-Berg 2012). The underlying
+22   Diffusion Tensor Imaging (DTI) and Tractography                                         427
+
+
+
+
+Fig. 22.7 Connectivity-based parcellation of the striatum according to its connections to several
+cortical and subcortical regions [Fig. 22.1 from Cohen et al. (2009); permission for reproduction
+by Nature Publishing Group]
+
+
+notion of connectivity-based parcellation is that cortical and subcortical subregions
+may be distinguished according to their so-called connectivity ﬁngerprint
+(Passingham et al. 2002). Connectivity ﬁngerprints delineate clusters of voxels with
+similar connection patterns (Fig. 22.7). Several studies have compellingly
+demonstrated the potential of this novel approach by yielding connectivity-based
+parcellations of the thalamus (Behrens et al. 2003a), amygdalae (Bach et al. 2011),
+basal ganglia (Menke et al. 2010), cingulate cortex (Beckmann et al. 2009), of
+Broca’s Area (Anwander et al. 2007), of the lateral premotor cortex (Tomassini
+et al. 2007), and supplementary motor area (Johansen-Berg et al. 2004). Results
+obtained by means of fMRI have yielded good correspondence with some of these
+parcellations, providing validation of this approach and underlining the functional
+relevance of connectivity-based boundaries (Johansen-Berg et al. 2005; Schubotz
+et al. 2010; Tomassini et al. 2007).
+   Tractography pushed DTI to another new ﬁeld of study called connectomics
+(Hagmann et al. 2008; Sporns et al. 2005), the comprehensive studies of neural
+connections in the brain. In 2009, NIH has announced a Request for Applications
+for the so-called Human Connectome Project. One year later, grants totaling $40
+million were awarded to two collaborating consortia. The overarching purpose of
+the project is to acquire and share data about human brain connectivity. It is hoped
+that “a deeper understanding of human brain connectivity and its variability will
+provide valuable insights into what makes us uniquely human and what accounts
+for the great diversity of behavioral capacities and repertoires in healthy adults”
+(Van Essen et al. 2012).
+428                                                                       T. Rüber et al.
+
+
+22.7    Clinical Applications
+
+Clinical applications of diffusion MRI broadly fall into three categories: lesion
+interrogation, tissue characterization, and tract reconstruction (Huston and Field
+2013). The beneﬁts of diffusion MRI are investigated in the context of many
+diseases including stroke, brain development disorders, epilepsy, dementia, psy-
+chiatric disorders, demyelinating diseases such as multiple sclerosis, and brain
+tumors. While diffusion MRI has contributed a lot to our understanding of the
+pathologies underlying these illnesses and is used as a complementary method of
+diagnosis in many cases, it is only in the case of acute brain ischemia that diffusion
+MRI has really found its way into clinical routine (Dubey et al. 2013). DWI may
+detect brain infarcts several hours before conventional anatomical sequences
+(Munoz Maniega et al. 2004), which is why it is endorsed in the diagnosis within
+the ﬁrst 12 h after acute brain ischemia (Schellinger et al. 2010). The infarct core
+volume, as estimated by DWI, has also been suggested to be an important predictor
+of clinical outcome and treatment efﬁcacy (Gonzalez 2012; Schellinger et al. 2010).
+Even more than the volume, its degree of overlap with the corticospinal tract or the
+arcuate fasciculus seems to be a predictor of motor and language impairment,
+respectively (Marchina et al. 2011; Zhu et al. 2010). Indeed, diffusivity parameters
+of the corticospinal tract could reliably be related to the degree of motor impairment
+(Lindenberg et al. 2010; Schaechter et al. 2009). As mentioned above, diffusion
+MRI may detect pathologic tissue alterations with a higher sensitivity as conven-
+tional anatomical sequences in some cases. However, the low pathologic speciﬁcity
+of its measures has set boundaries to its clinical usefulness in tissue characterization
+(Huston and Field 2013). Its application in pre-surgical diagnostics seems to be
+more promising: In neurosurgery, preoperative reconstructions of white matter
+tracts may lead to a better understanding of their individual anatomy and may, thus,
+facilitate their preservation during resection. A recent study with patients under-
+going anterior temporal lobe resection (Yogarajah et al. 2009) revealed that the
+extent of one part of the optic radiation as determined by preoperative tractography
+was related to the degree of complication by superior visual ﬁeld deﬁcits. Even
+more convincing, Wu et al. (2007) found that 118 patients with a highly aggressive
+tumor survived on average 7.2 months longer than 120 control patients with the
+same tumor if preoperative tract mapping had been performed.
+
+
+
+22.8    Genetics/Environment/Age
+
+White matter status may be thought to depend on genes, environment and age. It is
+an intuitive notion that white matter alterations happen within the framework of
+genes. This framework changes across the lifespan leaving more or less room for
+the white matter effects of environment in development and adulthood. DTI may
+detect even subtle white matter alterations; however, it remains challenging to
+22   Diffusion Tensor Imaging (DTI) and Tractography                               429
+
+speciﬁcally attribute these alterations to the influence of genetic factors, environ-
+ment or age. Especially, it is difﬁcult to differentiate between the influence of genes
+and environment (so-called nature–nurture debate) as will be shown below.
+    The influence of genes may well be studied through comparison between
+identical and nonidentical twins. In these studies, the excess in the pair correlation
+of identical twins over the pair correlation of nonidentical twins is attributed to
+genetic effects. Chiang and colleagues (Chiang et al. 2009) found that close to 80 %
+of FA variance may be explained by genetic factors, especially in parietal brain
+regions. Furthermore, the authors reported correlations between measures of
+intellectual performance and FA values. An overlapping set of genes seems to
+influence IQ scores as well as diffusivity parameters, since the authors were able to
+more accurately predict IQ by using FA values in the group of identical twins than
+they were in the group of nonidentical twins. In another DTI twin study (Jahanshad
+et al. 2010), 20–40 % of FA brain asymmetry was found to be genetically deter-
+mined. Using a group of 705 twins and their siblings, Chiang et al. (2011) inves-
+tigated factors moderating the heritability of white matter features as measured by
+FA. They found that higher heritability was associated with younger age, male sex,
+higher intellectual performance, and higher socioeconomic status. Some of the
+causal mechanisms behind their ﬁnding could only be subject to speculation. The
+observation of white matter heritability decreasing along age may be interpreted as
+increasing environmental influences on white matter microstructure.
+    Neuroplasticity is a term ﬁrst introduced by the polish neuroscientist Jerzy
+Konorski in 1948 to describe the brain’s ability to functionally and structurally adapt
+to changing environmental demands. Long enough, the brain was believed to be
+static after development but this conception has been substantially revised in the last
+decades (Jancke 2009): “[…] there is a continuous interaction between experiential
+process and brain structure. Over time, experiences are sedimented in the form of
+organic habits, dispositions and interactive schemes that eventually constitute the
+individual’s personality.” (Fuchs 2009) Additionally, white matter is no longer seen
+as passive infrastructure but as a plastic component of the brain. Using DTI,
+“neuroarcheology” (Le Bihan and Johansen-Berg 2012) may be performed to study
+the lasting effects of past experiences and to keep track of their neuronal correlates.
+Impressive associations between diffusivity characteristics of white matter and
+experience have been reported in highly trained experts in sensorimotor skills
+(Dayan and Cohen 2011). Bengtsson and colleagues reported higher FA values in
+professional pianists as compared to non-musicians in the posterior limb of the
+internal capsule (Bengtsson et al. 2005). Even more, the authors found several white
+matter regions exhibiting a positive correlation between the amount of hours prac-
+ticed and FA values. DTI-studies have also reported evidence for white matter
+plasticity in response to the acquisition of other sensorimotor skills, such as ballet
+dancing or playing golf. Furthermore, neuronal white matter correlates of high
+cognitive abilities have been found by means of cross-sectional DTI-studies. Floel
+et al. (2009) found that individual subject’s performance in an artiﬁcial learning task
+was related to FA values surrounding Broca’s area (a cortical region in the left
+frontal lobe which traditionally has been implicated in language processing) and
+430                                                                      T. Rüber et al.
+
+within ﬁbers arising from this area. Tsang et al. (2009) showed that variations in
+performance in a mental arithmetic task reflect variability of FA values in a central
+chunk of the anterior superior longitudinal fascicle. This tract connects the inferior
+parietal lobe with precentral and inferior frontal regions—cortical regions that have
+been shown to be coactive by means of fMRI in subjects performing mental arith-
+metic tasks. As the studies presented above are cross-sectional, it remains unclear
+whether the white matter alterations reported are the cause or the consequence of the
+respective expertise (i.e., are people with altered diffusivity characteristics more
+likely to play golf or do the alterations occur as people pick up golf playing skills).
+The results of cross-sectional studies, thus, always have to be discussed in the light
+of the so-called nature–nurture debate (Stiles 2011) and no ultimate inferences on
+the direction of causality can be made. Longitudinal studies are clearer in this regard
+and have become the gold standard for neuroimaging studies examining neuro-
+plasticity. Some longitudinal DTI-studies have been run and offer intriguing insights,
+since they enable the observation of the brain during the acquisition of new skills.
+One of the ﬁrst longitudinal DTI-studies reported an increase of FA values in the
+subcortical white matter underlying the intraparietal sulcus after subjects learned to
+juggle within 6 weeks (Scholz et al. 2009). FA values in the cluster reported
+increased slightly after 4 weeks without juggling but still were higher than before
+subjects learned to juggle. Longitudinal studies have also found FA changes after
+intensive memory training (Engvig et al. 2012; Landi et al. 2011; Takeuchi et al.
+2010). Keller and Just (2009) found lower FA values in the anterior left cerebral
+white matter in a group of eight to 12 year old children classiﬁed as poor readers
+compared to good readers at the same age. Poor readers then were randomly
+assigned to either an intervention group undergoing an intensive 100 h program of
+remedial reading instruction or to a control group. Children who had undergone the
+100 h program showed signiﬁcantly increased FA values in the anterior left cerebral
+white matter. Even more, this FA change correlated with improvement in phono-
+logical decoding. Children in the control group did not show signiﬁcant FA changes
+between the ﬁrst and the second scan. Schlaug et al. (2009) found that effective
+melodic intonation therapy of aphasic patients after stroke was related to an increase
+in structural connectivity in the contralesional arcuate fasciculus (a white matter
+pathway implicated in language processing). A recent study (Langer et al. 2012)
+investigated patients whose right arm injury required limb immobilization for at least
+14 days. They applied DTI to examine structural integrity of the corticospinal tracts
+and, furthermore, measured cortical thickness of sensorimotor regions based on
+high-res anatomical volumes, they had acquired. The authors found reduced cortical
+thickness and decreased FA values in the left sensorimotor regions and left corti-
+cospinal tract, respectively. The opposite changes were observed on the right side,
+which may indicate a skill transfer from the left hemisphere (controlling the right
+injured hand) to the right hemisphere (controlling the left non-injured hand) being
+caused by a compensatory use of the non-deprived hand.
+    It is an interesting notion that most of the training-induced plastic white matter
+alterations described above are represented by comparably higher FA values and,
+hence, contrast an age-related decrease in FA values observed after the maturational
+22   Diffusion Tensor Imaging (DTI) and Tractography                                431
+
+peak. Many recent studies employ DTI to investigate the neurobiology of aging
+determining this maturational peak, when maturation turns into degeneration
+(Kochunov et al. 2012; Lebel et al. 2012; Sullivan et al. 2010; Westlye et al. 2010).
+A link between white matter changes in the aging brain, cognitive decline and
+degenerative diseases such as Alzheimer’s disease have been established, commonly
+referred to as “disconnection hypothesis” (Bartzokis 2004; O’Sullivan et al. 2001).
+Generally, an increase in FA/a decrease in MD until the third and fourth decade are
+observed which is followed by a decrease in FA/an increase in MD. White matter
+volume seems to reach its peak ten to 20 years later in life than FA (Salat et al. 2009;
+Westlye et al. 2010). However, diffusivity parameters generally seem to be the better
+indicator of white matter maturation. It has been proposed that the inverted u-shaped
+(quadratic) course of FA along the lifespan is largely dependent on the degree of
+white matter myelination (Abe et al. 2002; Bartzokis et al. 2010; Gao et al. 2009).
+Keeping in mind that cognitive efﬁciency relies on the myelination of white matter
+ﬁbers, this proposition provides a possible link between the changes of diffusivity
+parameters on one end and the alterations of cognitive functions in the aging human.
+Indeed, the zenith of FA values largely concurs with the age range in which cog-
+nitive performance has been found to reach its peak (Salthouse 2009). Indeed,
+alterations of cognitive processing abilities, verbal memory, and motor skills along
+the lifespan have been related to diffusivity parameters (Bartzokis et al. 2010;
+Hedden et al. 2005; Salthouse 2000). Recently, it was shown that age-related
+over-recruiting of frontal lobe structures when completing a task-switching paradigm
+were negatively correlated to FA of these structures (Zhu et al. 2013). Further studies
+are warranted in this ﬁeld which derives its importance from the therapeutic
+potentials based on a better understanding of the aging brain.
+
+
+
+22.9     DTI-Studies in Neuroeconomics
+
+DTI-tractography has rarely been used in the ﬁeld of neuroeconomics. In the fol-
+lowing, two exemplary studies on associations between DTI measures and per-
+sonality traits will be discussed: Olson et al. (2009) found several frontal and
+temporal white matter regions which showed correlations between FA values and
+results of a delay discounting task in a group of 79 adolescents. Using
+DTI-tractography, Cohen et al. (2009) showed that structural connectivity between
+the striatum and certain cortical as well as subcortical regions was related to
+self-reported individual differences in personality traits such as novelty seeking and
+reward dependence. Both studies are based on two premises: (1) That white matter
+structural architecture reflects personality characteristics (as determined by delay
+discounting tests and self-reports, respectively) and (2) that this may be measured
+by means of DTI. Whereas the ﬁrst premise appeals to an intuitive notion (be-
+havioral differences have to have a structural equivalent somewhere in the brain), it
+is more surprising that they can actually be measured (second premise) by com-
+parably coarse-grained methods such as DTI. In the study by Olson and colleagues,
+432                                                                     T. Rüber et al.
+
+79 adolescents between the age of 9 and 23 underwent DTI and, among other tests,
+a delay discounting test. Delay discounting describes individual’s choice to prefer
+an immediate reward over a larger delayed reward (Ainslie 1975). Mature delay
+discounting behavior emerges in adolescent’s development and has been shown to
+correlate with age and verbal IQ (Olson et al. 2007). Equally, myelination of white
+matter is thought to occur as part of neuronal maturation (Arain et al. 2013) in
+adolescence and may be measured by diffusivity measures (Song et al. 2002). The
+aim of the current study was to relate delay discounting behavior to diffusivity
+measures. Previous fMRI studies had implicated the role of frontal, parietal and
+temporal regions in delay discounting (McClure et al. 2004; Wittmann et al. 2007)
+which is why the authors expected to ﬁnd structure-behavior correlations in these
+regions. However, they performed a whole-cerebrum voxel-wise regression anal-
+ysis. Results were not corrected for multiple comparisons, but the threshold of
+signiﬁcance was set to p < 0.001 and an extent threshold of 25 voxels was applied.
+The application of neuroimaging data analysis not corrected for multiple compar-
+isons has been heavily criticized (Bennett et al. 2009). It shall, however, not be
+dismissed that the authors applied a hypothesis-free whole-brain approach albeit
+having well-founded a priori hypotheses on where structural–behavioral correla-
+tions may be found which partly legitimates less conservative signiﬁcance testing.
+Indeed, the authors could report clusters indicating a positive FA─delay dis-
+counting correlation in several white matter regions primarily in the frontal and
+temporal lobes: The higher the FA values, the more the subject preferred higher
+delayed rewards over lower immediate rewards. In addition, regions with associ-
+ations between MD and delay discounting were found. These correlations were
+negative: The lower the MD values, the more the subject preferred higher delayed
+rewards over lower immediate rewards. Based on these analyses, it cannot be ruled
+out that, delay discounting as well as diffusivity measures both vary under the
+influence of a third (confounding) variable but are not actually related with each
+other. The authors mention age and verbal IQ as possible confounding variables and
+enter both as covariates into the regression equation. Several clusters remained
+signiﬁcant after controlling for age and/or verbal IQ, thus, giving evidence that the
+observed relation between diffusivity parameters and delay discounting is not
+completely due to the general influence of neurodevelopmental maturation indi-
+cated by age or part of a more general cognitive process measured by a verbal IQ
+test. Consequently, observed structural–behavioral associations may be seen as
+partly age-dependent and partly age-independent. To rule out that these associations
+do reflect general processes of decision-making, the cluster-wise averages of
+FA/MD were correlated with the outcome of a probability discounting task which
+did, except for one cluster, not yield signiﬁcant results. Observed white matter
+diffusivity characteristics may, thus, be viewed as speciﬁc microstructural correlate
+of delay discounting. Unfortunately, the authors missed to perform additional
+regression analyses for directional diffusivities. This would have been of special
+interest under the premise of radial diffusivity reflecting the degree of myelination
+and with regard to the fact that the frontal lobe becomes increasingly myelinated
+during adolescence. Lastly, the authors related the anatomical location of clusters to
+22   Diffusion Tensor Imaging (DTI) and Tractography                            433
+
+common white matter tracts implicating their role in delay discounting. The tracts
+were not individually modeled using tractography but probability masks from a
+common tractography white matter atlas (Wakana et al. 2004) were used. It may be
+summarized, that the study by Olson and colleagues compellingly illustrates some
+of the structural white matter correlates of delay discounting and their development
+in adolescence.
+    The second exemplary study discussed also suggests white matter circuitry to
+underlie certain personality traits. However, this study by Cohen and colleagues
+uses a different methodological approach: Variations in diffusivity measures are
+not found to be relevant here, rather structural connectivity as determined by
+tractography was found to correlate with novelty seeking and reward dependence
+in 20 healthy adults. This study as well as the study by Olson and colleagues
+relied on previous studies linking the personality traits of interest to neuronal
+circuitry. Cohen and colleagues mention evidence from studies linking novelty
+seeking and reward processing to a hippocampus-ventral striatal-midbrain loop
+and to prefrontal-striatal connections, respectively (Hollerman et al. 2000; Lisman
+and Grace 2005). They, thus, applied tractography to parcellate the striatum
+according to its connections to several cortical and subcortical regions (see this
+chapter’s paragraph on connectional anatomy and Fig. 22.7). These regions were
+deﬁned using a common atlas (Tzourio-Mazoyer et al. 2002). Voxels in the
+striatum were then labeled according to the region they were most strongly
+connected to. The connectional strength between these voxels and their respective
+regions were found to correlate with novelty seeking in the case of connections to
+the amygdala as well as the hippocampus and with reward dependence in the case
+of a network to cortical regions including medical and lateral orbitofrontal cor-
+tices, dorsolateral prefrontal cortex and supplemental motor area. Connections
+which correlated with novelty seeking did not correlate with reward dependence
+and vice versa. As intriguing as these ﬁndings are, it remains unclear which
+microstructural characteristics cause the altered connection strength. Even func-
+tional inferences of these microstructural characteristics in terms of neuronal
+efﬁciency have to be made with great caution. The authors conclude that
+“although it is tempting to speculate that individuals with higher tract strength
+values can transmit information more efﬁciently between regions, further work is
+needed to conﬁrm this interpretation.” The explanatory gap between white matter
+features as measured by DTI and character traits as deﬁned by psychology
+remains unsurpassed also by the most advanced DTI-studies.
+
+
+
+22.10     Conclusion
+
+The advent of DTI and tractography has paved the way to one of the most flour-
+ishing ﬁelds of today’s neuroscience: The non-invasive in vivo assessment and
+delineation of white matter tracts. As this chapter has tried to show, DTI has made
+immense contributions to distinct areas of neuroscientiﬁc research just as it has
+434                                                                            T. Rüber et al.
+
+changed our perspective on the brain as a whole. However, 25 years of experience
+with DTI has forced the community to increasingly recognize the limits of this
+imaging modality. In particular, the interpretation of DTI ﬁndings in terms of their
+neuronal underpinnings has been proven difﬁcult. In their very readable review,
+Jones and colleagues point out that “the only thing that we can say with any
+certainty in diffusion MRI is that we measure a signal change when a
+motion-sensitizing gradient is applied along a given axis. Inferring anything else is
+dependent on the quality of the model and the quality of the data” (Jones et al.
+2013). As outlined above, the tensor model is thought to be inadequate in some
+regards. More promising models of diffusion data are on hand; however, they are
+not in common use since most of them are connected to special hardware
+requirements as well as long acquisition times and a lack of experience in ongoing
+research. Hence, some of the main reasons for the continuously growing success of
+DTI may well be called pragmatic. Nonetheless, MRI hardware development will
+continue to push the ﬁeld of diffusion imaging forward which most likely will
+compensate for some of the drawbacks of newer diffusion models. Approaches
+other than the tensor model will, therefore, play a more prominent role in future
+times: Diffusion Spectrum Imaging (DSI), High Angular Resolution Diffusion
+Imaging (HARDI), and Q-Ball Imaging (QBI) have all been named as promising
+candidates (Tournier et al. 2011).
+   This chapter has provided an introduction to the mechanisms of DTI and worked
+to explain its utilization while highlighting its limitations and examples of suc-
+cessful applications. Notably, DTI has not yet found an established place in neu-
+roeconomics. However, there is no reason why this should not be the case in times
+to come. Even higher cognitive functions have already been shown to be at least
+partly constituted by white matter, which makes DTI a promising tool in behavioral
+psychology. It is our hope that this chapter will encourage neuroeconomists to use
+DTI in their research.
