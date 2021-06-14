@@ -1,0 +1,832 @@
+14.3    Neurophysiological Correlates of Decision Processes
+
+As noted in the introduction, a large number of studies have identiﬁed a link
+between patterns of neural ﬁring rates in oculomotor brain circuits and the
+dynamics of evidence accumulation during decision-making. The key ﬁnding
+relating neural activity to evidence accumulation is the characteristic ramping of
+ﬁring rates to a threshold level prior to initiating a saccade response. Using a variety
+of stimuli and tasks, it has been shown that neurons in FEF (Hanes and Schall 1996;
+Thompson et al. 1996, 1997), LIP (Shadlen and Newsome 1996, 2001), and SC
+(Ratcliff et al. 2003, 2007) all exhibit this ramping behavior. The consistency of the
+ﬁring rate data in the face of considerable variation in stimulus and task properties
+suggests that this activity reflects the evolution of a visual decision-making process
+rather than simple sensory processing. In this section, we ﬁrst discuss some of the
+research that has linked neural patterns of activity with cognitive representations of
+decision processes. We then focus on several recent studies that show how neural
+data can impose strong constraints on sequential sampling models, and can con-
+sequently be used to select among models that are very difﬁcult to distinguish by
+behavioral data alone.
+
+
+
+14.3.1 Identifying Decision-Related Neural Activity: The
+       Case of LIP
+
+A common task used to study the neural correlates of visual decision-making is the
+motion direction discrimination task developed by Newsome, Shadlen, and col-
+leagues (see Fig. 14.1; for recent reviews, see Gold and Shadlen 2007; Huk and
+Meister 2012). Monkeys judge the global direction of motion of a random dot
+14   The Psychology and Psychobiology of Simple Decisions …                       275
+
+stimulus and make a saccade-to-target response to indicate their choice. Task dif-
+ﬁculty is manipulated by varying the proportion of dots that move coherently in one
+direction. For these stimuli, it is well-established that motion coherence correlates
+closely with activity in macaque visual area MT (an extrastriate visual cortical area
+also known as V5), and that this activity forms the sensory basis for
+decision-making in this task. The response rate of MT increases roughly linearly
+with motion coherence, exhibits a time course that is tightly coupled with the onset
+of the stimulus, and quickly reaches a constant ﬁring rate during stimulus viewing
+(e.g., Britten et al. 1993). However, MT ﬁring rates are tightly linked to the
+presence of the stimulus on screen, and only correlate somewhat weakly with
+behavioral indices of judged direction of motion (Britten et al. 1996). For example,
+microstimulation of direction-selective MT neurons during stimulus viewing speeds
+responses favoring the preferred direction, and slows responses for the opposite
+direction (Ditterich et al. 2003), but the influence of microstimulation on behavioral
+choice becomes progressively weaker as the delay between stimulus offset and
+onset of microstimulation increases (Seidemann et al. 1998).
+    Perhaps the most striking distinction in activity patterns between MT and LIP
+neurons is that only the latter exhibit gradual ramping of ﬁring rates to a threshold
+following presentation of a stimulus (e.g., Shadlen and Newsome 1996, 2001),
+making LIP activity, but not MT activity, consistent with the kinds of evidence
+accumulation processes assumed by sequential sampling models. A simple
+hypothesis linking LIP activity with evidence accumulation is that the two are
+related linearly (e.g., LIP activity reflects discriminative perceptual evidence,
+integrated over time). The implication is that the rate of increase in LIP activity—or
+more generally, activity closely related to the decision process—would be reflected
+in the rate of evidence accumulation, corresponding to the drift rate in a diffusion
+decision model (e.g., Ratcliff 1978; Ratcliff and McKoon 2008), which indexes the
+average quality of stimulus information driving the decision process, and sets the
+average rate at which the evidence total changes over time. Although drift rate is
+commonly estimated as a free parameter from data in human behavioral studies, for
+the motion direction discrimination task, it is possible to derive estimates of drift
+rate directly from the motion coherence of the stimulus because the neural repre-
+sentation in MT is well approximated by a linear transformation of the motion
+signal (Britten et al. 1993). Deriving drift rates from the motion signal in this way
+has proved successful in modeling data from the motion direction discrimination
+task (Ditterich 2006; Mazurek et al. 2003). We now discuss several strands of
+research that provide convergent support for directly linking neural ﬁring rates with
+the process of evidence accumulation.
+    Figure 14.8 shows neural ﬁring rate data averaged across 104 LIP neurons of
+macaques performing the random dots task from a study by Shadlen and Newsome
+(2001). Monkeys viewed the stimulus for a variable amount of time before it was
+extinguished. After a variable retention interval, during which ﬁxation had to be
+maintained, the monkeys indicated their response by making a saccadic eye
+movement. The data are presented in two ways: In the left panel, ﬁring rate for
+different levels of motion coherence is presented relative to the onset of the
+276                                                                   D.K. Sewell and P.L. Smith
+
+
+
+
+Fig. 14.8 Population response of 104 LIP neurons recorded from macaques performing the
+motion discrimination task. Solid lines are for responses to saccade targets within the neuron’s
+receptive ﬁeld, dashed lines are for responses to targets outside the receptive ﬁeld. The left panel
+shows ﬁring rates for stimuli at different levels of motion coherence, aligned on stimulus onset.
+The right panel shows ﬁring rates aligned on the saccade response. Reproduced from Shadlen and
+Newsome (2001)
+
+
+stimulus. In the right panel, the neural response is presented relative to initiation of
+the saccade. The key ﬁndings are that (1) increasing the viewing time increases the
+level of spiking activity, (2) increases in spike rate occur faster with higher levels of
+motion coherence, and (3) prior to initiating a saccade, spike rates reach a common
+asymptote regardless of motion coherence. Results such as these led Gold and
+Shadlen (2001) to suggest LIP neurons might be performing a ‘read out’ function
+from sensory neurons in MT, integrating relative levels of evidence for different
+response alternatives. Although these results are intriguing, a limitation of the
+original version of the random dots task was that monkeys made their decisions
+after an experimenter-enforced delay, which meant the task did not yield the kind of
+RT data that have been used to test sequential sampling models in psychology.
+   Roitman and Shadlen (2002) subsequently investigated an RT version of the
+motion direction discrimination task that allowed the monkey to respond imme-
+diately upon making a decision. The ﬁndings from the RT task replicated the main
+ﬁndings from the original task: LIP ﬁring rates increased as a function of stimulus
+viewing time at a rate determined by motion coherence, reaching a common
+threshold ﬁring rate prior to making a saccade. Because monkeys initiated a saccade
+14   The Psychology and Psychobiology of Simple Decisions …                     277
+
+Fig. 14.9 Population
+response of LIP neurons
+recorded from macaques
+performing the response time
+version of the motion
+discrimination task.
+Responses are grouped
+according to behavioral
+response time, and are aligned
+on initiation of a saccade
+response. Note that the rate at
+which activity approaches the
+threshold ﬁring rate varies
+according to response time.
+Reproduced from Roitman
+and Shadlen (2002)
+
+
+
+
+upon making a decision, additional RT-related aspects of the data could be
+examined. Consistent with the notion of LIP activity reflecting evidence accumu-
+lation to a criterion, both behavioral RTs and LIP ramping activity were system-
+atically dependent on motion coherence. At higher levels of coherence, LIP ﬁring
+rates more rapidly approached asymptote, and behavioral RTs were shorter. The
+relationship between behavioral RT and ramping of LIP activity is shown in
+Fig. 14.9, which plots response-aligned LIP activity associated with different RT
+bands. Whereas the slowest RTs exhibit gradual ramping of LIP activity approxi-
+mately 700–800 ms prior to a saccade, the fastest RTs are associated with LIP
+ramping commencing only 300–400 ms prior to a response.
+    The issue of whether LIP represents the time integral of perceptual evidence was
+tested experimentally by Huk and Shadlen (2005). They presented monkeys with a
+random motion texture overlaid with the familiar random dots stimulus. During
+stimulus viewing, motion coherence was briefly perturbed by adding a 100 ms
+pulse of coherent motion to the texture. The direction of the motion pulse either
+matched or opposed that of the random dot stimulus. Consistent with the time
+278                                                           D.K. Sewell and P.L. Smith
+
+integration hypothesis, the motion pulse not only biased decision outcomes, but
+also exerted a sustained influence on LIP activity for up to 800 ms. This result was
+extended by Kiani et al. (2008), who showed that the timing of the motion pulse
+delivered during stimulus viewing was critical. When the motion pulse was added
+around the onset of the stimulus, the direction of motion affected both behavioral
+choice and LIP activity. However, when the pulse was delivered toward the end of
+stimulus presentation, choice probability and LIP ﬁring rates were unaffected. Kiani
+et al. interpreted their results as showing that evidence accumulation does not occur
+indeﬁnitely for ﬁxed duration stimuli, but that integration only occurs until a
+response criterion is reached. When the motion pulse was presented late in the trial,
+the monkey had most likely already made a decision, and apparently discounted
+subsequently presented stimulus information.
+    Microstimulation studies provide further insight into the relationship between
+LIP activity and decision-making that go beyond the correlational results discussed
+so far. Whereas the studies reviewed so far have observed a correlation between LIP
+activity and decision processes, microstimulation allows for more direct causal
+influences, as LIP activity is manipulated directly. Ditterich et al. (2003) established
+the causal connection between MT neurons and direction of motion decisions by
+showing that microstimulation of MT neurons induced a bias in choice behavior
+and RT favoring the preferred direction of the stimulated neuron. Hanks et al.
+(2006) adopted a similar approach for neurons in LIP. By applying microstimula-
+tion to neurons with receptive ﬁelds overlapping the response target, Hanks et al.
+showed that decision-making could be biased in a way similar to that demonstrated
+by Ditterich et al. Crucially, however, microstimulation to LIP produced smaller
+effects on choice and RT than MT stimulation. This is consistent with the idea that
+MT codes for the sensory data that provides the input to the decision process,
+whereas LIP codes for the value of the decision variable itself (i.e., the current level
+of accumulated evidence). In diffusion model terms, MT stimulation affects the drift
+rate of the diffusion process, which characterizes the quality of the perceptual
+evidence and determines the rate of evidence accumulation at the decision stage. By
+contrast, LIP stimulation does not influence drift rate, but instead adds a constant to
+the decision variable, moving the process closer to one response boundary. This is
+tantamount to biasing the starting point of the accumulation process without
+influencing the quality of the perceptual evidence or the rate of evidence
+accumulation.
+    An alternative way to use microstimulation to investigate decision-making is to
+use it to evoke a saccade that is spatially orthogonal to the locations of the response
+targets and to assess the extent to which the evoked saccade deviates toward one
+response or another (Gold and Shadlen 2000, 2003). If the motor program
+expressing the monkey’s decision is incrementally updated based on the level of
+accumulated evidence, then the deviations of the evoked saccades should system-
+atically relate to the monkey’s ﬁnal, voluntary, saccade response. The logic of this
+approach resembles that of the response-signal procedure used with human par-
+ticipants (e.g., Ratcliff 1988, 2006; Wickelgren 1977). In the response-signal task,
+decision-making is interrupted by a response signal, which prompts the observer to
+14   The Psychology and Psychobiology of Simple Decisions …                       279
+
+immediately make a response. In the case of evoked saccades, microstimulation
+serves as a response signal, which elicits a response directly. Gold and Shadlen
+(2000) applied microstimulation to FEF neurons while monkeys performed the
+random dots task. By varying the timing of the microstimulation, they were able to
+map the time course of evoked saccade trajectories, and indirectly trace the growth
+of decision-related information. Motion coherence and viewing duration had strong
+and systematic effects on the deviation of the evoked saccade toward the response
+target ultimately selected by the monkey: Stimuli with higher motion coherence that
+were viewed for longer produced larger deviations in the evoked saccades.
+   Results from experiments using the motion direction discrimination task provide
+convergent support for the idea that LIP ﬁring rates reflect the time integral of
+perceptual evidence. Manipulations of the input to the decision process, via the
+stimulus itself (e.g., Huk and Shadlen 2005; Kiani et al. 2008) or brain areas
+responsible for coding stimulus properties (Ditterich et al. 2003) influence both the
+speed and accuracy of responses. Importantly, these behavioral effects are reflected
+in the ﬁring rates of LIP neurons, and are detectable even when the nature of the
+response mapping is not known in advance of stimulus onset (Bennur and Gold
+2011). That ﬁring rates preceding a saccadic response increase to a common
+threshold level (Roitman and Shadlen 2002; Shadlen and Newsome 1996, 2001)
+lends strong support to the idea that LIP activity reflects bounded evidence accu-
+mulation, as postulated by diffusion models.
+
+
+
+14.3.2 Diffusion Modeling of Decision-Related Neural
+       Activity
+
+The striking similarity between decision-related neural activity and the accumula-
+tion of noisy evidence to a criterion invites the obvious question of whether a single
+model can simultaneously account for both neural and behavioral data. In the
+context of the motion direction discrimination task, a number of studies have shown
+that key aspects of the behavioral data can be accounted for within a diffusion or
+hybrid diffusion-accumulator modeling framework. Mazurek et al. (2003) proposed
+a hybrid diffusion-accumulator model driven by two populations of simulated MT
+neurons coding for different response alternatives. The time integral of the differ-
+ence in activation between MT populations was modeled with two evidence
+accumulators. The levels of activation in the accumulators were assumed to cor-
+respond to the spike rates of neural populations in LIP. The ﬁrst accumulator to
+reach a criterion determined the response. The model is closely related to Ratcliff’s
+(1978) diffusion model in that the inputs to the two accumulators are anticorrelated
+—evidence for one alternative is evidence against the other. Behaviorally, the
+Mazurek et al. model successfully accounted for accuracy data and mean RTs for
+correct responses. The model was also able to capture presaccadic ramping of
+neural activity to a threshold. However, it was not able to predict error RTs, nor was
+280                                                          D.K. Sewell and P.L. Smith
+
+it ﬁt to RT distributions. Ditterich (2006) subsequently showed that the model made
+incorrect predictions for the RT distributions from Roitman and Shadlen’s (2002)
+study. He modiﬁed the model by transforming the difference in MT activations
+using a sigmoidal time-dependent gain function prior to integration in LIP. By
+modifying the LIP input in this way, Ditterich showed that the model could account
+for choice probabilities, correct and error RT distributions, and the pattern of LIP
+activations simultaneously.
+    Ditterich’s (2006) success with the modiﬁed Mazurek et al. (2003) model is
+interesting because Ratcliff’s (1978) diffusion model has been shown to account for
+behavioral data from the motion direction discrimination task with human partici-
+pants (Palmer et al. 2005; Ratcliff and McKoon 2008). More generally, Ratcliff’s
+diffusion model (and the related dual diffusion model), has been shown to account
+for data from monkeys performing other simple decision tasks, such as gap dis-
+crimination (Ratcliff et al. 2003) and brightness discrimination (Ratcliff et al. 2007,
+2011). The important distinction between the Ratcliff diffusion model and that of
+Ditterich is that the drift rate in the former is constant over the course of a trial,
+whereas it is time-varying in the latter. By scaling the drift rate and diffusion
+coefﬁcient by a common time-dependent gain—affecting ν and σ in Eq. 14.1—the
+model was able to account for the error RT data and produce RT distributions that
+were more symmetrical than they otherwise would be. The intuition for why the
+shapes of the distributions change in this way is that the moment-to-moment
+changes in evidence accumulation become larger in size (due to the increase in drift
+rate), but more irregular (due to the increase in noise in the accumulation process
+brought on by the change in the diffusion coefﬁcient). This increases the likelihood
+that momentary noise will abruptly terminate the process by pushing it toward one
+of the decision boundaries. Because gain increased as a sigmoid function of time,
+slower RTs would be affected more than faster RTs, terminating faster than they
+would under stationary drift. Changing the drift and diffusion coefﬁcients in this
+way serves to truncate the tails of the RT distributions, resulting in more sym-
+metrical predictions. Psychologically, this account is of interest because it suggests
+that humans and macaques may be performing the task somewhat differently. One
+possibility is that monkeys performing the motion direction discrimination task may
+reduce their decision criterion over the course of a trial. Smith (1995, 2000) pointed
+out that many diffusion processes with time-varying drift rate (such as the OU
+process) can be modeled as processes with constant drift, but time-varying decision
+criteria—a form of model mimicry. Although this was not Ditterich’s preferred
+account for his result, time-varying response criteria have been proposed in other
+tasks like visual search, where exhaustive search of distractor arrays can be very
+time-consuming (e.g., Thornton and Gilden 2007). Ditterich’s explanation for
+time-dependent drift, which was couched in terms of maximizing reward rate, is
+consistent with the idea of observers seeking a balance between time spent on a
+single trial and reward rate within an experiment by manipulating their response
+criterion (cf. Bogacz 2007; Bogacz et al. 2006). Whether dynamically adjusting
+14   The Psychology and Psychobiology of Simple Decisions …                          281
+
+response criterion within a single trial provides a theoretically complete account of
+maximizing reward rate remains to be seen.
+    Whereas Ditterich (2006) successfully modeled behavioral and spike rate data
+from LIP, Ratcliff, and colleagues have examined neural data from SC alongside
+behavioral data from a variety of perceptual tasks (Ratcliff et al. 2003, 2007, 2011).
+SC is part of the same oculomotor decision circuit as LIP, and some SC neurons
+display many similar ramping to threshold characteristics as their LIP counterparts,
+as we discuss below. Ratcliff et al. (2003) investigated the relationship between the
+information processing dynamics of the diffusion model to SC ﬁring rates in
+monkeys performing a gap discrimination task. In Ratcliff’s diffusion model, a
+single accumulator integrates relative evidence for different response alternatives.
+By simultaneously recording from SC neurons associated with each response
+alternative, Ratcliff et al. (2003) were able to operationalize relative evidence in
+neural terms as the difference in ﬁring rates. By ﬁtting the standard two-barrier
+diffusion model to the choice-RT data, and then simulating sample evidence
+accumulation trajectories from the ﬁtted model, they were able to compare the
+accumulation of relative evidence in the diffusion model with the difference in ﬁring
+rates between competing SC neurons. An interesting feature of their data was that
+the time course of the growth of the difference in SC spike rates—a neural repre-
+sentation of accumulated discriminative evidence—was strongly predictive of
+behavioral RT (see Fig. 14.10; cf. Roitman and Shadlen 2002). Fast and slow
+responses were related to fast and slow growth of the difference in ﬁring rates,
+respectively. Figure 14.10 shows simulated evidence accumulation pathways for
+fast, slow, and intermediate responses against (relative) SC ﬁring rates. The model
+very closely reproduces the key features of the data, lending support to the idea that
+SC neurons are accumulating evidence in a manner similar to how the diffusion
+model characterizes the decision process.
+    A limitation of the Ratcliff et al. (2003) study is that the standard diffusion model
+is silent on the ﬁring rates of the individual SC neurons that code for the different
+response alternatives. By showing a correspondence between neural data and evi-
+dence accumulation trajectories in the two-barrier diffusion model, Ratcliff et al.
+(2003) could only relate its information processing dynamics to the difference in
+ﬁring rates. To address the neural data in more detail, and to generalize their
+ﬁndings to a different perceptual task, Ratcliff et al. (2007) examined ﬁring rates of
+individual SC neurons in macaques performing a brightness discrimination task. To
+account for these data, they used a hybrid diffusion-accumulator model, suggested
+by Smith (2000) and developed by Ratcliff and Smith (2004), which they termed
+the dual diffusion model. This models the decision process as a race between two
+independent diffusion processes to reach a criterion. The resulting model can be
+thought of as a diffusion process implementation of an independent race model, like
+the Poisson counter model discussed previously. After ﬁtting the dual diffusion
+model to the behavioral choice-RT data, Ratcliff et al. (2007) simulated decision
+trajectories from the ﬁtted model. Not only was the model able to account for the
+individual neural ﬁring rates, it was also able to account for the difference in ﬁring
+rates between SC neurons. This result provided a more direct interpretation of the
+282                                                                   D.K. Sewell and P.L. Smith
+
+
+
+
+Fig. 14.10 Comparison of simulated evidence accumulation trajectories from Ratcliff’s diffusion
+model with population response of SC neurons recorded from macaques completing a gap
+discrimination task. The top panel shows simulated accumulation trajectories for fast, interme-
+diate, and slow responses based on model parameters derived from ﬁtting the diffusion model to
+the behavioral data. The bottom panel shows the difference in accumulation trajectories for the two
+response alternatives (gray lines) alongside the difference in ﬁring rates for neurons coding for
+different response alternatives (black lines). Reproduced from Ratcliff et al. (2003)
+
+
+
+original Ratcliff et al. (2003) result, supporting the idea that the accumulation of
+discriminative evidence is reflected in the relative ﬁring rates of different neural
+populations.
+
+
+
+14.3.3 Using Neural Data to Constrain Model Selection
+
+The sequential sampling models developed in cognitive psychology have now
+reached a point at which they are able to quantitatively account for all the key
+features of choice-RT data observed behaviorally (Ratcliff and Smith 2004). As
+noted by Ratcliff and McKoon (2008), this is a remarkable accomplishment for
+psychology, where developing quantitatively precise theories is intrinsically difﬁ-
+cult. Part of the success of sequential sampling models has come from adding
+14   The Psychology and Psychobiology of Simple Decisions …                        283
+
+between-trial parameter variability like variability in start-point (Laming 1968;
+Ratcliff et al. 1999), and drift rate (Ratcliff 1978). This necessarily increases the
+complexity (and flexibility) of the models. A consequence of this increased com-
+plexity is that it has become quite difﬁcult to distinguish models purely on the basis
+of ﬁt to behavioral data. As Ratcliff and Smith reported, a variety of hybrid
+diffusion-accumulator models could produce ﬁts to behavioral data that were
+quantitatively very similar to Ratcliff’s diffusion model. Importantly, these hybrid
+models emphasized different psychological mechanisms. For example, Usher and
+McClelland’s (2001) LCA model was shown to account for behavioral data by
+assuming some combination of competition between accumulators and leakage (or
+decay) of evidence during the decision process. Although ﬁts of these models
+typically show that decay is not needed to account for behavioral data (i.e.,
+best-ﬁtting estimates of decay parameters are typically quite small, exerting mini-
+mal influence on model behavior; Ratcliff and Smith 2004), it is possible that decay
+may operate at a neurophysiological level, but remain undetectable in behavioral
+data. Indeed, the effects of short time scale decay that characterizes cellular
+membrane potentials may be masked by long time scale integration that serves to
+sustain spiking activity in a cortical network. The long time scale integration
+assumed by cognitive models explains why Ratcliff’s diffusion model can ﬁt data
+generated by a Poisson shot-noise model, as shown by Smith (2010), even though
+the former does not involve decay, whereas the latter does. Given the biological
+reality of short time scale decay at the cellular level, the key question concerning
+the role of decay in choice-RT models is whether there is an additional level of
+decay that operates over the longer time scales that characterize the time course of
+the decision process.
+    By collecting neural ﬁring rate data, it becomes possible to evaluate claims that
+long time scale decay and mutual inhibition are needed to account for neural data.
+Ratcliff et al. (2011) investigated the role of inhibition, recording from pairs of SC
+neurons that coded for different response alternatives in a brightness discrimination
+task and found no evidence of inhibition among SC neuron pairs. When condi-
+tioned on the ﬁring rate of the neuron coding for the target response, there was little
+difference in the ﬁring rate for the neuron coding the nontarget response, whereas an
+inhibition account would predict a decrease. Ratcliff et al. also found that the dual
+diffusion and LCA models provided similarly good ﬁts to the behavioral choice-RT
+data, but that the amount of inhibition predicted by the LCA model was minimal.
+As these conclusions were based on ﬁts to behavioral data, this result might have
+been expected on the basis of similar ﬁts reported by Ratcliff and Smith (2004). To
+investigate whether inhibition was needed to account for the neural data, simulated
+evidence accumulation trajectories were generated from both models. As with the
+behavioral data, both models closely captured the underlying neural dynamics.
+Because the dual diffusion model assumes no inhibition, and the simulated LCA
+trajectories also incorporated minimal inhibition, the result suggests that inhibition
+was not needed to account for the neural data. Indeed, by increasing levels of
+inhibition in the LCA model and generating simulated evidence accumulation
+trajectories, Ratcliff et al. showed that the model produced poorer ﬁts to behavioral
+284                                                          D.K. Sewell and P.L. Smith
+
+data and, contrary to the data, predicted negatively correlated ﬁring rates in target
+nontarget SC neuron pairs. They concluded that if inhibition were involved in
+decision-making in SC neurons, the strength of the inhibition was so low as to be
+undetectable.
+   The studies by Ratcliff et al. (2003, 2007, 2011) illustrate one of the advantages
+of using both behavioral and neural data in model testing. By ﬁtting models to
+behavioral data and examining whether the model dynamics resemble the under-
+lying neural dynamics, it is possible to draw strong conclusions about the rela-
+tionship between the underlying cognitive and neural processes. In the case of
+simple decision-making, combining analysis of neural data with mathematical
+modeling of behavioral data provides support for the linking hypothesis that evi-
+dence accumulation processes described by cognitive sequential sampling models
+are functionally related to ﬁring rates in the underlying neural populations. By
+examining data at the neural level, it is also possible to resolve model mimicry
+problems that appear at the behavioral level. Whereas hybrid diffusion-accumulator
+models are able to provide competitive ﬁts to behavioral data, they do so by
+invoking different psychological mechanisms (e.g., mutual inhibition). While, it is
+possible to appeal to neural plausibility to argue for the inclusion of certain pro-
+cessing mechanisms, the requirement to account for neurophysiological and
+behavioral data simultaneously allows these assumptions to be tested directly.
+   Neurally Constrained Modeling. A new development in integrating neural and
+cognitive-behavioral levels of analysis is that of neurally constrained modeling of
+choice-RT data (e.g., Purcell et al. 2010). Like the approach of Ratcliff et al. (2003,
+2007, 2011), who showed that models ﬁtted to behavioral data also predict neural
+ﬁring rates, this approach investigates the relationship between ﬁring rates and
+sequential sampling models. However, instead of treating accumulation rates as free
+parameters, this approach uses empirical spike trains recorded from early sensory
+areas as inputs to the decision process. By using neural data directly to constrain the
+model parameters, this approach provides a direct way to test assumptions about
+how neurons coding for different perceptual representations influence subsequent
+decision process.
+   Purcell et al. (2010) compared a range of sequential sampling models on their
+ability to account for combined behavioral and neurophysiological data from
+macaques performing a visual search task. In this task, the monkeys were required
+to make a saccade response to a singleton target stimulus embedded in an array of
+distractors (e.g., a red target among green distractors). Behavioral accuracy and RT
+data were collected. While the monkeys performed the task, recordings from two
+kinds of FEF neurons were made. Single-unit recordings from visual neurons in
+FEF, which were assumed to code for the perceptual representations of the stimuli,
+were collected. The spike trains recorded in these neurons were used as the input to
+the decision process in the models. Recordings were also made from movement
+neurons in FEF, which are responsible for executing the saccade response. Purcell
+et al. assumed that spike rates for these neurons coded for the integration of per-
+ceptual evidence over time.
+14   The Psychology and Psychobiology of Simple Decisions …                        285
+
+    Purcell et al. (2010) considered a number of different model architectures
+including correlated, independent, and competitively interacting diffusion pro-
+cesses, and examined the effect of different assumptions on the predicted evidence
+accumulation process. Evidence accumulation was either perfect (as in Ratcliff’s
+diffusion model; Eq. 14.1), leaky (as in the OU diffusion process; Eq. 14.2), or
+required a threshold level of visual FEF activity prior to the onset of evidence
+accumulation by movement neurons, which they termed a gated accumulation
+model. Purcell et al. found that both leaky and gated accumulation models provided
+the best account of the behavioral data. Because visual FEF neurons were assumed
+to provide a continuous stream of perceptual evidence to movement neurons—
+including the period before the neuron successfully discriminated the target—the
+models that assumed perfect integration failed to account for behavioral data, as
+they integrated input noise for the bulk of the trial. By contrast, the leaky and gated
+accumulation models were able to account for the behavioral data because leakage
+and the gating threshold counteracted the effects of input noise early in the trial.
+Using model parameters that optimized ﬁt to behavioral data, Purcell et al. simu-
+lated evidence accumulation trajectories and compared them with the ﬁring rates of
+movement neurons during the task. They considered several aspects of the move-
+ment neuron dynamics: the time at which spike activity increased from baseline
+levels, the speed with which spike rate increased, the baseline ﬁring rate, and the
+threshold ﬁring rate corresponding with initiation of a saccade. Whereas the leaky
+and gated accumulation models both provided good ﬁts to the behavioral data, only
+the gated accumulation model was able to account for the full suite of neural data.
+    The work of Purcell et al. (2010) shows the value of neural constraints in
+evaluating sequential sampling models. However, the properties of their proposed
+gating mechanism have yet to be investigated in other settings. Their gating
+mechanism represents one possible way to limit the accumulation of noise prior to
+stimulus presentation, ﬁrst discussed by Laming (1968) and recently investigated by
+Ratcliff and Smith (2010). Ratcliff and Smith investigated decision-making in a task
+in which letter stimuli were presented in dynamic noise and found that the effect of
+noise was to shift the leading edge of the RT distribution later in time. The shift was
+interpreted as a delay in the onset of evidence accumulation by the decision process.
+Their results showed that the onset of evidence accumulation by the decision
+process must be sensitive to the temporal stability of the stimulus representation.
+When stimuli are embedded in dynamic noise, the process of forming a stable
+representation of the stimulus is slowed, resulting in delayed onset of
+decision-making. It is not yet clear whether Purcell et al.’s gating mechanism can
+also provide an explanation of the delay in the onset of evidence accumulation
+produced by noise in Ratcliff and Smith’s (2010) task.
+    To summarize, by making very simple assumptions about how neural activity
+relates to coding of perceptual evidence, it is possible to simultaneously model data
+at both behavioral and neurophysiological levels of analysis. From a theoretical
+perspective, addressing both kinds of data has become increasingly important, as
+different kinds of model architectures have proved equally capable of accounting
+for behavioral data (Ratcliff and Smith 2004). Although there are a number of open
+286                                                          D.K. Sewell and P.L. Smith
+
+theoretical issues that remain to be settled, this approach to analyzing combined
+neural and behavioral data constitutes a signiﬁcant methodological and theoretical
+development.
+
+
+
+14.4    Summary and Conclusions
+
+In this chapter, we have attempted to provide an overview of the development of
+different classes of sequential sampling models in cognitive and mathematical
+psychology, and how they relate to data collected from single-unit recordings in
+neural oculomotor circuits. Sequential sampling models are among the most rig-
+orously tested models in psychology, and after many decades of reﬁnement, the
+best models can account for all of the major behavioral phenomena of interest
+(Ratcliff and McKoon 2008; Ratcliff and Smith 2004). One of the side effects of this
+theoretical progress is that several classes of models (e.g., diffusion and hybrid
+diffusion-accumulator models) have been shown to provide comparably good ﬁts to
+behavioral data, and are consequently very difﬁcult to distinguish. This is a salient
+issue because the assumptions of some models—such as those involving decay and
+mutual inhibition—are motivated by appeals to neural plausibility. While we
+appreciate such considerations, we note that such assumptions, like any theoretical
+assumptions, must be subject to empirical test. It is clear from recent work that there
+is much to be gained from the theoretical exchange between psychologists and
+neuroscientists interested in decision-making. The rich history of choice-RT
+research in cognitive and mathematical psychology provides a theoretical frame-
+work for studying the neural basis of decision-making. Reciprocally, constraints
+from neural data provide an opportunity to test and reﬁne decision models in ways
+that would not have been possible using behavioral data alone.
+
+
+
+14.4.1 Outstanding Questions and Future Directions
+
+Despite the substantial progress that has been made over the last decade or so in
+identifying neural correlates of decision processes and relating these two compo-
+nents of successful sequential sampling models, there are a number of issues that
+remain open. We briefly discuss three of these issues here.
+   One Decision Architecture or Many? Although the studies reviewed above have
+consistently shown links between neural ﬁring rates in oculomotor areas and evi-
+dence accumulation rates in decision models, there are subtle differences in some of
+the speciﬁc details of models associated with different brain areas. For example, for
+SC neurons in monkeys performing a brightness discrimination task, Ratcliff et al.
+(2011) found no functional role for mutual inhibition among decision neurons,
+suggesting that models like the LCA, which ascribe a central role to inhibition, may
+not be appropriate for modeling decision processes executed in SC. An open
+14   The Psychology and Psychobiology of Simple Decisions …                       287
+
+question is whether other brain areas show evidence for inhibition at the level of
+decision processes, and whether an LCA-like model might be suitable for neurons
+outside of SC.
+    Recent work by Purcell et al. (2012), extended their previous study of FEF
+movement neurons in monkeys performing a visual search task. Whereas, their
+initial study only allowed modeling of correct RT distributions (Purcell et al. 2010)
+their follow-up examined RT distributions for both correct and error responses
+using the same neurally constrained modeling approach. In contrast to what Ratcliff
+et al. (2011) found for SC neurons, Purcell et al. (2012) found support for a gated
+accumulation model that involved mutual inhibition among accumulators. The
+implication of these studies is that decision-making architectures and dynamics,
+though fundamentally very similar, as they draw on common principles of evidence
+accumulation, may vary in signiﬁcant ways across different brain areas. Additional
+work is needed to better understand how and why neural decision architectures
+might vary.
+    Modeling Evidence Integration. The results from the neurally constrained
+modeling approach of Purcell et al. (2010, 2012) provide support for a simple
+linking proposition about the neural representation of perceptual evidence. Using
+empirical spike train data to drive a decision mechanism is an important ﬁrst step in
+developing a comprehensive neurocomputational account of decision-making.
+However, this is only a partial solution. As the work of Wang and colleagues (e.g.,
+Lo and Wang 2006; Wang 2001, 2002; Wong and Wang 2006) and Smith and
+McKenzie (2011) highlighted, the question remains as to how temporal integration
+of evidence is realized neurocomputationally. Owing to the large differences in time
+scales between individual neurons involved in decision-making and the overall
+decision-making process itself, the neural mechanism that integrates evidence over
+behaviorally relevant time scales needs to be developed further. As with other
+theoretical approaches (e.g., Ditterich 2006; Mazurek et al. 2003; Purcell et al.
+2010, 2012; Ratcliff et al. 2003, 2007, 2011; Smith 2010), temporal integration of
+perceptual evidence is assumed to be a theoretical primitive of the models. The
+spiking neuron models developed by Wang and colleagues and recurrent loop
+models, like Smith and McKenzie’s, suggest some theoretical possibilities for how
+evidence might be integrated over long time scales. Combining such a theoretical
+decision architecture with the neurally constrained approach provides an interesting
+avenue for further development, as it could provide a strong test of the principles of
+recurrence and superposition used by Smith and McKenzie.
+    Neural Correlates of Bias and Reward. In addition to the work reviewed above
+that has investigated neural correlates of evidence accumulation, recent work has
+begun to use choice-RT modeling to investigate the neural correlates of prior
+knowledge and bias effects in simple decision tasks in humans (e.g., Bode et al.
+2012; Forstmann et al. 2010; Mulder et al. 2012) and monkeys (e.g., Rao et al.
+2012; Rorie et al. 2010).
+    For example, Rao et al. (2012) studied LIP responses of monkeys performing the
+motion direction discrimination task. Using cues indicating the most likely direction
+of motion for an upcoming stimulus, they observed systematic shifts in LIP ﬁring
+288                                                          D.K. Sewell and P.L. Smith
+
+rates following cue presentation, but no effect on the rate at which activity
+approached a threshold ﬁring rate. A similar effect on LIP response was observed
+by Rorie et al. (2010) who used a reward-based manipulation. For both studies,
+choice-RT modeling revealed an effect on the start-point of the evidence accu-
+mulation process.
+    In human studies, Forstmann et al. (2010) had people complete a cued version of
+the motion discrimination task similar to that used by Rao et al. (2012). Using
+fMRI, Forstmann et al. found that cues produced changes in cortico-striatal brain
+circuits, but only after accounting for the effects of response bias—as measured by
+ﬁtting an accumulator model to behavioral data (Brown and Heathcote 2008). This
+work has recently been extended by Mulder et al. (2012), who manipulated prior
+probability with cues and reward using payoffs. Their fMRI analysis revealed
+common effects of bias and reward on cortico-parietal decision circuits, which
+produced changes in response bias—indexed by the estimated starting point of
+evidence accumulation—in Ratcliff’s diffusion model.
+    In a similar vein, Bode et al. (2012) investigated sequence effects in a perceptual
+decision-making task, involving stimuli presented briefly in noise. They combined a
+model-based behavioral analysis with a pattern-classiﬁcation analysis of EEG data.
+Using Ratcliff’s diffusion model, Bode et al. showed that sequence effects in the
+behavioral data were consistent with changes in the starting point of the evidence
+accumulation process, reflecting a bias favoring the response made on the previous
+trial. Consistent with this response bias account, it was also found that prestimulus
+activity in the EEG trace was predictive of people’s responses on catch-trials where
+only noise was presented.
+    Taken together, these investigations into the neural correlates of bias and prior
+knowledge effects add to the growing body of evidence that both neural and
+behavioral choice-RT data can be accommodated by a common sequential sampling
+framework.
+
+
+
+14.4.2 Conclusion
+
+With the recent reﬁnement of techniques for recording spike rates from monkeys
+performing simple perceptual tasks, it has become possible to directly evaluate
+modeling assumptions made on the basis of neural plausibility. A number of
+research groups, using a variety of tasks and methods, have provided converging
+evidence that the spiking dynamics of neurons in FEF, LIP, and SC bear a striking
+resemblance to the evidence accumulation dynamics postulated by sequential
+sampling models of decision-making. By recording from oculomotor areas known
+to be involved in the processing of perceptual stimuli and preparation of saccadic
+responses, one can evaluate the degree of convergence between cognitive theory
+and neural data. Assumptions made in cognitive models have provided a basis for
+testing hypotheses about how the brain integrates perceptual evidence over time,
+and, importantly, how neural data can be used as a tool for model selection.
+14   The Psychology and Psychobiology of Simple Decisions …                                 289
+
+Acknowledgments This work was supported by ARC Discovery Grant DP110103406 awarded
+to P.L. Smith and R. Ratcliff. We thank Simon Lilburn for helpful comments on a previous version
+of the manuscript. David Sewell is now at the University of Queensland.
+
+
+
+
+References
+
+Audley RJ, Pike AR (1965) Some alternative stochastic models of choice. Br J Math Stat Psychol
+    18:207–225
+Bennur S, Gold JI (2011) Distinct representations of a perceptual decision and the associated
+    oculomotor plan in the monkey lateral intraparietal area. J Neurosci 31:913–921
+Bode S, Sewell DK, Lilburn SD, Forte JD, Smith PL, Stahl J (2012) Predicting perceptual decision
+    biases from early brain activity. J Neurosci 32:12488–12498
+Bogacz R (2007) Optimal decision-making theories: linking neurobiology with behaviour. Trends
+    Cogn Sci 11:118–125
+Bogacz R, Brown E, Moehlis J, Holmes P, Cohen JD (2006) The physics of optimal decision
+    making: a formal analysis of models of performance in two-alternative forced-choice tasks.
+    Psychol Rev 113:700–765
+Britten KH, Shadlen MN, Newsome WT, Movshon JA (1993) Responses of neurons in macaque
+    MT to stochastic motion signals. Vis Neurosci 10:1157–1169
+Britten KH, Newsome WT, Shadlen MN, Celebrini S, Movshon JA (1996) A relationship between
+    behavioral choice and the visual response of neurons in macaque MT. Vis Neurosci 13:87–100
+Brown SD, Heathcote A (2008) The simplest complete model of choice response time: Linear
+    ballistic accumulation. Cogn Psychol 57:153–178
+Busemeyer JR, Townsend JT (1993) Decision ﬁeld theory: a dynamic-cognitive approach to
+    decision making in an uncertain environment. Psychol Rev 100:432–459
+Churchland AK, Kiani R, Shadlen MN (2008) Decision-making with multiple alternatives. Nat
+    Neurosci 11:693–702
+Ditterich J (2006) Evidence for time-variant decision making. Eur J Neurosci 24:3628–3641
+Ditterich J, Mazurek ME, Shadlen MN (2003) Microstimulation of visual cortex affects the speed
+    of perceptual decisions. Nat Neurosci 6:891–898
+Edwards W (1965) Optimal strategies for seeking information: models for statistics, choice
+    reaction times, and human information processing. J Math Psychol 2:312–329
+Forstmann BU, Brown S, Dutilh G, Neumann J, Wagenmakers EJ (2010) The neural substrate of
+    prior information in perceptual decision making: a model-based analysis. Frontiers in Human
+    Neuroscience 4:1–12
+Gnadt JW, Andersen RA (1988) Memory related motor planning activity in posterior parietal
+    cortex of macaque. Exp Brain Res 70:216–220
+Gold JI, Shadlen MN (2000) Representation of a perceptual decision in developing oculomotor
+    commands. Nature 404:390–394
+Gold JI, Shadlen MN (2001) Neural computations that underlie decisions about sensory stimuli.
+    Trends in Cognitive Sciences 5:10–16
+Gold JI, Shadlen MN (2002) Banburismus and the brain: decoding the relationship between
+    sensory stimuli, decisions, and reward. Neuron 36:299–308
+Gold JI, Shadlen MN (2003) The influence of behavioral context on the representation of a
+    perceptual decision in developing oculomotor commands. J Neurosci 23:632–651
+Gold JI, Shadlen MN (2007) The neural basis of decision making. Annu Rev Neurosci 30:
+    535–574
+Green DM, Swets JA (1966) Signal detection theory and psychophysics. Wiley, New York
+Green DM, Smith AF, von Gierke SM (1983) Choice reaction time with a random foreperiod.
+    Percept Psychophys 34:195–208
+290                                                                   D.K. Sewell and P.L. Smith
+
+Hanes DP, Schall JD (1996) Neural control of voluntary movement initiation. Science 274:
+   427–430
+Hanks TD, Ditterich J, Shadlen MN (2006) Microstimulation of macaque area LIP affects
+   decision-making in a motion discrimination task. Nat Neurosci 9:682–689
+Huk AC, Meister MLR (2012) Neural correlates and neural computations in posterior parietal
+   cortex during perceptual decision-making. Front Integr Neurosci 6:1–13
+Huk AC, Shadlen MN (2005) Neural activity in macaque parietal cortex reflects temporal
+   integration of visual motion signals during perceptual decision making. J Neurosci 25:
+   10420–10436
+Kiani R, Hanks TD, Shadlen MN (2008) Bounded integration in parietal cortex underlies decisions
+   even when viewing duration is dictated by the environment. J Neurosci 28:3017–3029
+LaBerge D (1962) A recruitment theory of simple behavior. Psychometrika 27:375–396
+LaBerge D (1994) Quantitative models of attention and response processing in shape identiﬁcation
+   tasks. J Math Psychol 38:198–243
+Laming DRJ (1968) Information theory of choice reaction time. Wiley, New York
+Link SW, Heath RA (1975) A sequential theory of psychological discrimination. Psychometrika
+   40:77–105
+Lo C-C, Wang X-J (2006) Cortico-basal ganglia circuit mechanism for a decision threshold in
+   reaction time tasks. Nat Neurosci 9:956–963
+Luce RD (1986) Response times: Their role in inferring elementary mental organization. Oxford
+   University Press, Oxford
+Mazurek ME, Roitman JD, Ditterich J, Shadlen MN (2003) A role for neural integrators in
+   perceptual decision making. Cereb Cortex 13:1257–1269
+Mulder MJ, Wagenmakers EJ, Ratcliff R, Boekel W, Forstmann BU (2012) Bias in the brain: a
+   diffusion model analysis of prior probability and potential payoff. J Neurosci 32:2335–2343
+Palmer J, Huk AC, Shadlen MN (2005) The effect of stimulus strength on the speed and accuracy
+   of a perceptual decision. Journal of Vision 5:376–404
+Pike AR (1966) Stochastic models of choice behaviour: response probabilities and latencies of
+   ﬁnite Markov chain systems. Br J Math Stat Psychol 21:161–182
+Pike AR (1973) Response latency models for signal detection. Psychol Rev 80:53–68
+Purcell BA, Heitz RP, Cohen JY, Schall JD, Logan GD, Palmeri TJ (2010) Neurally constrained
+   modeling of perceptual decision making. Psychol Rev 117:1113–1143
+Purcell BA, Schall JD, Logan GD, Palmeri TJ (2012) From salience to saccades:
+   multiple-alternative gated stochastic accumulator model of visual search. J Neurosci 32:
+   3433–3446
+Rao V, DeAngelis GC, Snyder LH (2012) Neural correlates of prior expectations of motion in the
+   lateral intraparietal and middle temporal areas. J Neurosci 32:10063–10074
+Ratcliff R (1978) A theory of memory retrieval. Psychol Rev 85:59–108
+Ratcliff R (1988) Continuous versus discrete information processing: modeling accumulation of
+   partial information. Psychol Rev 95:238–255
+Ratcliff R (2002) A diffusion model account of response time and accuracy in a brightness
+   discrimination task: ﬁtting real data and failing to ﬁt fake but plausible data. Psychon Bull Rev
+   9:278–291
+Ratcliff R (2006) Modeling response signal and response time data. Cogn Psychol 53:195–237
+Ratcliff R, McKoon G (2008) The diffusion decision model: theory and data for two-choice
+   decision tasks. Neural Comput 20:873–922
+Ratcliff R, Rouder JN (1998) Modeling response times for two-choice decisions. Psychol Sci
+   9:347–356
+Ratcliff R, Rouder JN (2000) A diffusion model account of masking in two-choice letter
+   identiﬁcation. J Exp Psychol Hum Percept Perform 26:127–140
+Ratcliff R, Smith PL (2004) A comparison of sequential sampling models for two-choice reaction
+   time. Psychol Rev 111:333–367
+Ratcliff R, Smith PL (2010) Perceptual discrimination in static and dynamic noise: the temporal
+   relation between perceptual encoding and decision making. J Exp Psychol Gen 139:70–94
+14   The Psychology and Psychobiology of Simple Decisions …                                   291
+
+Ratcliff R, Van Zandt T, McKoon G (1999) Connectionist and diffusion models of reaction time.
+   Psychol Rev 106:261–300
+Ratcliff R, Cherian A, Segraves MA (2003) A comparison of macaque behavior and superior
+   colliculus neuronal activity to predictions from models of two-choice decisions. J Neurophysiol
+   90:1392–1407
+Ratcliff R, Gomez P, McKoon G (2004) A diffusion model account of the lexical decision task.
+   Psychol Rev 111:159–182
+Ratcliff R, Hasegawa YT, Hasegawa RP, Smith PL, Segraves MA (2007) Dual diffusion model for
+   single-cell recording data from the superior colliculus in a brightness-discrimination task.
+   J Neurophysiol 97:1756–1774
+Ratcliff R, Hasegawa YT, Hasegawa RP, Childers R, Smith PL, Segraves MA (2011) Inhibition in
+   superior colliculus neurons in a brightness discrimination task? Neural Comput 23:1790–1820
+Roe RM, Busemeyer JR, Townsend JT (2001) Multialternative decision ﬁeld theory: a dynamic
+   connectionist model of decision making. Psychol Rev 108:370–392
+Roitman JD, Shadlen MN (2002) Response of neurons in the later intraparietal area during a
+   combined visual discrimination reaction time task. J Neurosci 22:9475–9489
+Rorie AE, Gao J, McClelland JL, Newsome WT (2010) Integration of sensory and reward
+   information during perceptual decision-making in lateral intraparietal cortex (LIP) of the
+   macaque monkey. PLoS ONE 5:1–21
+Schall JD (2004) On building a bridge between brain and behavior. Annu Rev Psychol 55:23–50
+Seidemann E, Zohary E, Newsome WT (1998) Temporal gating of neural signals during
+   performance of a visual discrimination task. Nature 394:72–75
+Sewell DK, Smith PL (2012) Attentional control in visual signal detection: effects of abrupt-onset
+   and no-onset stimuli. J Exp Psychol Hum Percept Perform 38:1043–1068
+Shadlen MN, Newsome WT (1996) Motion perception: seeing and deciding. Proc Nat Acad Sci
+   93:628–633
+Shadlen MN, Newsome WT (2001) Neural basis of a perceptual decision in the parietal cortex
+   (area LIP) of the rhesus monkey. J Neurophysiol 86:1916–1936
+Smith PL (1995) Psychophysically principled models of visual simple reaction time. Psychol Rev
+   102:567–593
+Smith PL (2000) Stochastic dynamic models of response time and accuracy: a foundational primer.
+   J Math Psychol 44:408–463
+Smith PL (2010) From poisson shot noise to the integrated Ornstein-Uhlenbeck process: neurally
+   principled models of information accumulation in decision-making and response time. J Math
+   Psychol 54:266–283
+Smith PL, McKenzie CRL (2011) Diffusive information accumulation by minimal recurrent neural
+   models of decision-making. Neural Comput 23:2000–2031
+Smith PL, Ratcliff R (2004) Psychology and neurobiology of simple decisions. Trends Neurosci
+   27:161–168
+Smith PL, Ratcliff R (2009) An integrated theory of attention and decision making in visual signal
+   detection. Psychol Rev 116:283–317
+Smith PL, Van Zandt T (2000) Time-dependent poisson counter models of response latency in
+   simple judgment. Br J Math Stat Psychol 53:293–315
+Smith PL, Vickers D (1988) The accumulator model of two-choice discrimination. J Math Psychol
+   32:135–168
+Smith PL, Ratcliff R, Wolfgang BJ (2004) Attention orienting and the timecourse of perceptual
+   decisions: response time distributions with masked and unmasked displays. Vision Res
+   44:1297–1320
+Smith PL, Ellis R, Sewell DK, Wolfgang BJ (2010) Cued detection with compound
+   integration-interruption masks reveals multiple attentional mechanisms. J Vis 10:1–28
+Stone M (1960) Models for choice-reaction time. Psychometrika 25:251–260
+Teller DY (1984) Linking propositions. Vision Res 10:1233–1246
+292                                                                 D.K. Sewell and P.L. Smith
+
+Thompson KG, Hanes DP, Bichot NP, Schall JD (1996) Perceptual and motor processing stages
+   identiﬁed in the activity of macaque frontal eye ﬁeld neurons during visual search.
+   J Neurophysiol 76:4040–4055
+Thompson KG, Bichot NP, Schall JD (1997) Dissociation of visual discrimination from saccade
+   programming in macaque frontal eye ﬁeld. J Neurophysiol 77:1046–1050
+Thornton TL, Gilden DL (2007) Parallel and serial processes in visual search. Psychol Rev
+   114:71–103
+Townsend JT, Ashby FG (1983) Stochastic modeling of elementary psychological processes.
+   Cambridge University Press, Cambridge
+Usher M, McClelland JL (2001) The time course of perceptual choice: the leaky, competing
+   accumulator model. Psychol Rev 108:550–592
+Van Zandt T, Colonius H, Proctor RW (2000) A comparison of two response time models applied
+   to perceptual matching. Psychon Bull Rev 7:208–256
+Vickers D (1970) Evidence for an accumulator model of psychophysical discrimination.
+   Ergonomics 13:37–58
+Vickers D (1979) Decision processes in visual perception. Academic Press, New York
+Wagenmakers EJ, Brown S (2007) On the linear relation between the mean and the standard
+   deviation of a response time distribution. Psychol Rev 114:830–841
+Wald A (1947) Sequential analysis. Wiley, New York
+Wang X-J (2001) Synaptic reverberation underlying mnemonic persistent activity. Trends
+   Neurosci 24:455–463
+Wang X-J (2002) Probabilistic decision making by slow reverberation in cortical circuits. Neuron
+   36:955–968
+Wickelgren WA (1977) Speed-accuracy tradeoff and information processing dynamics. Acta
+   Psychol 41:67–85
+Wong K-F, Wang X-J (2006) A recurrent network mechanism of time integration in perceptual
+   decisions. J Neurosci 26:1314–1328

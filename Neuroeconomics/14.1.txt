@@ -1,0 +1,1037 @@
+Chapter 14
+The Psychology and Psychobiology
+of Simple Decisions: Speeded Choice
+and Its Neural Correlates
+
+David K. Sewell and Philip L. Smith
+
+
+Abstract In this chapter, we provide a tutorial review of the class of sequential
+sampling models of two-choice decision-making. These models, which have been
+developed in cognitive and mathematical psychology over the last 50 years, pro-
+vide a detailed quantitative account of performance in simple, speeded choice tasks.
+The models explain the major ﬁndings from a wide variety of behavioral decision
+tasks, including the relationship between choice probabilities and response time
+(RT), the speed-accuracy tradeoff, the shapes of RT distributions, and the relative
+speed of correct and error responses. More recently, electrophysiological recordings
+from decision-related brain areas in awake behaving monkeys have revealed a
+correspondence between patterns of neural ﬁring and the statistical processes of
+evidence accumulation assumed in the psychological models. We discuss the the-
+oretical relationship between the cognitive process of evidence accumulation and
+neural ﬁring rates and show how neural data can constrain behavioral models.
+Importantly, constraints from neurophysiological data can be used to test between
+models that are otherwise difﬁcult to distinguish. The convergence of psychological
+theory and neurophysiological data suggests that a common theoretical and math-
+ematical framework is sufﬁcient to account for simple decision-making data at
+neural and behavioral levels of analysis.
+
+
+
+14.1     The Psychology and Psychobiology of Simple
+         Decisions: Speeded Choice and Its Neural Correlates
+
+The simplest decision an organism can make involves choosing between two
+alternatives. The importance of such two-alternative forced choice (2AFC) deci-
+sions is reflected in the extent to which they have been studied in psychology and,
+
+D.K. Sewell  P.L. Smith (&)
+The University of Melbourne, Melbourne, VIC, Australia
+e-mail: philipls@unimelb.edu.au
+D.K. Sewell
+e-mail: d.sewell@uq.edu.au
+
+© Springer-Verlag Berlin Heidelberg 2016                                        253
+M. Reuter and C. Montag (eds.), Neuroeconomics, Studies in Neuroscience,
+Psychology and Behavioral Economics, DOI 10.1007/978-3-642-35923-1_14
+254                                                          D.K. Sewell and P.L. Smith
+
+more recently, in behavioral economics. For both psychologists and economists,
+the fundamental theoretical questions involve what is chosen, as a function of
+the discriminability or desirability of the alternatives, how long it takes to make the
+choice, and what mechanisms determine the choice. A wealth of 2AFC data col-
+lected over the last 50 years has led to detailed analyses of the relationship between
+psychology’s two ubiquitous dependent variables: choice probability and response
+time (RT). Probably the most familiar expression of this relationship is in the speed-
+accuracy tradeoff, which describes people’s ability to trade speed against accuracy
+in decision-making tasks (e.g., Luce 1986; Wickelgren 1977). In psychology, the
+theoretical understanding of the choice-RT relationship has been guided by the
+development of the influential class of sequential sampling models. According to
+these models, decisions are made by summing, or accumulating, samples of noisy
+evidence over time. Statistical variability in the moment-to-moment quality of the
+evidence is assumed to reflect noise in the cognitive or neural processes that code
+for different response alternatives. A response is initiated only after sufﬁcient evi-
+dence for a decision is obtained. Successful sequential sampling models, such as
+Ratcliff’s (1978), Ratcliff and McKoon (2008) diffusion model, account for
+behavioral data at the level of choice probabilities and the shapes of correct and
+error RT distributions. The model’s ability to provide very detailed accounts of data
+suggests that decision-making in simple decision tasks does indeed occur via a
+process of accumulating evidence to a criterion.
+    The characterization of decision-making as a process of accumulating evidence
+over time has attracted the attention of neuroscientists studying the neural correlates
+of decision-making. Using analogs of 2AFC decision tasks, in which monkeys
+respond to visually presented stimuli by making saccadic eye movements, neuro-
+scientists have uncovered striking similarities between the ﬁring rates of neurons in
+lateral intraparietal area (LIP), superior colliculus (SC), and the frontal eye ﬁelds
+(FEF) on the one hand, and the dynamics of evidence accumulation postulated by
+sequential sampling models on the other. Neurons in these brain areas are part of the
+oculomotor control circuit that is active when making saccadic eye movements. This
+invites the theoretical linking proposition (Schall 2004; Teller 1984) that activity in
+this circuit provides an online reflection of the accumulating evidence state prior to
+executing an eye movement. Indeed, patterns of neuronal ﬁring rate data in regions
+involved in perceptual decision-making appear to reflect the temporal integration, or
+accumulation, of evidence over relatively long time scales (e.g., Shadlen and
+Newsome 1996; for a review see Gold and Shadlen 2007). The correspondence
+between psychological theory and neurophysiological data suggests that phenomena
+at both cognitive and neural levels of analysis may be understood in terms of a
+common theoretical and mathematical framework (Smith and Ratcliff 2004). The
+principal beneﬁt of such correspondence is that insights at one level of analysis
+impose constraints on the other. The development of sequential sampling models
+from psychology has guided neurophysiological empirical investigations (e.g.,
+Ratcliff et al. 2003, 2007), and neurophysiological data have proved diagnostic in
+testing between models that are otherwise difﬁcult to distinguish on the basis of
+behavioral data alone (e.g., Purcell et al. 2010; Ratcliff et al. 2011).
+14   The Psychology and Psychobiology of Simple Decisions …                        255
+
+    In this chapter, we use models of simple decision-making as a link between
+psychological and neurophysiological levels of analysis. We focus particularly on
+the similarities between the time course of neural ﬁring rates preceding an eye
+movement response and the time course of the process of evidence accumulation
+estimated from sequential sampling models. Although most of the studies we dis-
+cuss involved neural data collected from monkeys performing simple perceptual
+decision tasks, sequential sampling models have also been successfully applied to
+behavioral data from other kinds of tasks involving higher order cognitive judg-
+ments including, but not limited to, recognition memory (e.g., Ratcliff 1978),
+lexical decision (e.g., Ratcliff et al. 2004), as well as tasks involving more complex
+value-based decisions (e.g., Busemeyer and Townsend 1993; Roe et al. 2001). For
+these kinds of “one-shot” tasks, a decision is usually made within a second or so
+after stimulus presentation. Because performance in these tasks is well described by
+sequential sampling models (e.g., Ratcliff and Smith 2004), we argue that the
+relationship between these sequential sampling models and neural processing
+dynamics likely extends beyond perceptual decision-making to other domains.
+    The chapter is organized into two parts. In the ﬁrst part, we discuss the
+benchmark patterns of empirical results that have been used to evaluate competing
+sequential sampling models in psychology. We then provide a nontechnical tutorial
+overview of the main classes of sequential sampling models that have been
+developed in cognitive and mathematical psychology, and discuss how different
+models succeed or fail in addressing the benchmark results. Different models reflect
+differing assumptions about the architecture of the decision process: whether evi-
+dence is represented in continuous or discrete quantities, is sampled in continuous
+or discrete time, and whether there is competitive interaction among decision units.
+We discuss the empirical and theoretical implications of these distinctions in fairly
+general, qualitative, terms and omit the technical details. Readers interested in these
+details are referred to the sources cited herein.
+    As we discuss below, models that assume that evidence is accumulated by a
+diffusion process provide a better account of behavioral data than models that
+assume it is accumulated by other kinds of processes (Ratcliff and Smith 2004).
+This provides strong support for the class of diffusion models, as opposed to
+plausible alternatives like accumulator and counter models. However, more recent
+neurally inspired models have successfully combined elements of diffusion models
+with decision architectures traditionally used in accumulator and counter models
+(e.g., Ratcliff et al. 2007; Smith 2000; Usher and McClelland 2001). Throughout
+our discussion, we focus on Ratcliff’s (1978), Ratcliff and McKoon (2008) diffu-
+sion model, as it has been tested extensively, and has been shown to provide a good
+account of decision-making in simple cognitive tasks (Ratcliff and Smith 2004). We
+then discuss recent theoretical developments showing that the simulated behavior of
+neural network circuits provides a biologically plausible basis for implementing a
+diffusion decision process in the brain (e.g., Smith 2010; Wang 2002). These
+studies provide a theoretical basis for understanding the neural computations that
+underpin decision processes, and provide an account of why diffusion models have
+proved successful in accounting for behavioral data.
+256                                                                    D.K. Sewell and P.L. Smith
+
+    In the second part of the chapter, we review ﬁndings that identify patterns of
+ﬁring rates in LIP, SC, and FEF neurons as neural correlates of evidence accu-
+mulation processes. In a variety of perceptual decision tasks, shortly after stimulus
+presentation, ﬁring rates in these brain areas exhibit systematic ramping to a
+threshold (e.g., Churchland et al. 2008; Hanes and Schall 1996; Purcell et al. 2010;
+Ratcliff et al. 2003, 2007, 2011; Shadlen and Newsome 1996, 2001), consistent
+with accumulation of evidence to a decision criterion. Much of the work we review
+here focuses on neural data collected from populations of macaque LIP neurons
+while the animals completed variants of a random dot motion direction discrimi-
+nation task developed by Newsome, Shadlen, and colleagues (see Gold and Shadlen
+2007, and Huk and Meister 2012, for reviews and discussion). In this task, a
+monkey is presented with a random dot motion stimulus, where some proportion of
+the dots move coherently in a single direction. To indicate the perceived direction of
+motion, the monkey makes a saccadic eye movement to a response target (see
+Fig. 14.1).
+    A striking aspect of the response of LIP neurons in tasks like these is that
+direction-speciﬁc ﬁring rates remain elevated even after the stimulus is extinguished
+(e.g., Gnadt and Andersen 1988; Shadlen and Newsome 1996, 2001). When viewed
+in terms of the general theoretical distinction between categorical and precategorical
+stimulus representations, the asymptotic level of ﬁring can be identiﬁed with for-
+mation of a response-related categorical representation of the stimulus, whereas the
+ramping of activity toward asymptote can be related to the evolving state of a
+precategorical representation. This is consistent with the idea that aspects of LIP
+
+
+
+
+Fig. 14.1 Overview of two versions of the random dot motion direction discrimination task
+developed by Newsome, Shadlen, and colleagues. In the response time version of the task (left
+panel), a monkey ﬁxates the cross in the center of the screen. Two saccade targets corresponding to
+different response alternatives are presented. One of the targets is positioned in the receptive ﬁeld
+of an LIP neuron. The random dot stimulus is then presented. Once the monkey makes a decision
+about the direction of coherent motion in the stimulus, it makes an eye movement to one of the
+saccade targets. The procedure is similar in the ﬁxed viewing duration version of the task (right
+panel) with the exception that there is an experimenter-enforced delay between offset of the
+random dot stimulus and when the monkey is allowed to make a response. Reproduced from
+Roitman and Shadlen (2002)
+14   The Psychology and Psychobiology of Simple Decisions …                       257
+
+activity reflect memory for the outcome of a decision process. Importantly, this
+sustained neural activity can also be distinguished from activity related to planning
+a speciﬁc oculomotor response, reinforcing the idea that decision outcomes have
+explicit—and experimentally identiﬁable—neural correlates (Bennur and Gold
+2011).
+   Beyond identifying neural correlates of the decision process, several studies
+have attempted to provide a joint account of behavioral and neural data through
+mathematical modeling (e.g., Purcell et al. 2010; Ratcliff et al. 2003, 2007, 2011).
+These studies bring to bear constraints from the neural data themselves, which have
+proved useful in distinguishing sequential sampling models that mimic each other at
+a purely behavioral level of analysis. We conclude the chapter with a brief dis-
+cussion of outstanding questions, and future directions for research.
+
+
+
+14.2     Sequential Sampling Models
+
+In this section, we review the three major classes of sequential sampling models that
+have been studied in psychology. Following Ratcliff and Smith (2004), we sum-
+marize the key benchmark effects that have been used to assess the models, along
+with how well-different classes of models address such data. A complementary
+evaluation of sequential sampling models was conducted by Bogacz et al. (2006),
+who examined how closely different model classes approached optimal behavior—
+deﬁned in terms of maximizing the rate of reward during an experiment—and the
+conditions under which the different models are formally equivalent. As we do not
+cover the broad scope of their review here, the interested reader is referred to their
+work for discussion.
+    All sequential sampling models of decision-making assume three common ele-
+ments: (1) an encoded representation of the stimulus or evidence that drives the
+decision process, (2) a mechanism that integrates, or accumulates, evidence over
+time, and (3) a stopping rule that determines when to halt evidence accumulation
+and initiate an appropriate response. Figure 14.2 shows a taxonomy of sequential
+sampling models. Individual models outlined in the ﬁgure are obtained by varying
+assumptions about these common elements.
+    Historically, the major distinction among sequential sampling models was in
+terms of decision architecture, which refers to the number of simultaneous evidence
+totals assumed in the model, or equivalently, whether decisions are based on
+absolute or relative levels of evidence. Models based on random walk and diffusion
+processes—the left-hand branch in Fig. 14.2—assume only a single signed evi-
+dence total is accumulated over the course of a trial. The single evidence total
+implements a decision rule that is based on the relative level of evidence. For
+example, in Ratcliff’s diffusion model, a decision is made only when the difference
+in the amount of evidence favoring one response over the other exceeds a criterion.
+By contrast, the decision architecture assumed by accumulator and counter models
+—the right-hand branch in Fig. 14.2—assumes that evidence for competing
+258                                                                  D.K. Sewell and P.L. Smith
+
+
+
+
+Fig. 14.2 Taxonomy of sequential sampling models. The branch on the left depicts random walk
+and diffusion models. The branch on the right depicts different accumulator and counter models.
+The class of models listed in the lower right of the ﬁgure are hybrid diffusion-accumulator models
+that combine aspects of diffusion models within a multi-accumulator architecture
+
+
+responses is accumulated in separate evidence totals. According to these models,
+there is a separate accumulator for each response alternative. The value of each
+accumulator’s evidence total reflects the level of evidence supporting that response.
+The ﬁrst accumulator to accrue a criterion amount of evidence determines the
+response, implementing a decision rule based on absolute levels of evidence.
+   The second major distinction among sequential sampling models is whether time
+and evidence are represented as discrete or continuous quantities. These factors
+deﬁne the statistical properties of the evidence accumulation process. For example,
+random walk models (e.g., Edwards 1965; Laming 1968; Link and Heath 1975;
+Stone 1960) assume continuous-valued evidence that is sampled in discrete time
+steps. As we discuss below, different assumptions about decision architecture and
+the nature of the evidence accumulation process lead to differences in the abilities of
+models to predict key benchmark effects like the shapes of RT distributions and the
+relative ordering of correct and error response times. A third distinction, which
+applies to more recently developed hybrid diffusion-accumulator models (e.g.,
+Usher and McClelland 2001; Ratcliff et al. 2007, 2011; Smith 2000), is whether
+accumulators for different response alternatives compete by mutually inhibiting one
+another. We defer discussion of this distinction to when we discuss neurophysio-
+logical data, as the relevant models are difﬁcult to distinguish with just behavioral
+data (see Ratcliff and Smith 2004). Before discussing the different model classes,
+we review the key benchmark effects that must be addressed by any successful
+model of choice-RT.
+14   The Psychology and Psychobiology of Simple Decisions …                      259
+
+
+14.2.1 Behavioral Benchmarks for Evaluating Sequential
+       Sampling Models
+
+In the cognitive and mathematical psychology literature, three benchmark effects
+have guided the development of models of decision-making. These are the
+speed-accuracy tradeoff, the right-skewed shape of RT distributions, and differences
+in the relative speeds of correct and error response times. Ratcliff and Smith (2004)
+examined how well different models accounted for these benchmark effects.
+    Speed-Accuracy Tradeoff. A common experimental manipulation in many kinds
+of tasks requires participants to differentially favor response speed and accuracy,
+and it is well known that participants are responsive to such instructions (Luce
+1986; Wickelgren 1977). When speed is emphasized, responding is faster, but more
+error-prone. When accuracy is emphasized, accuracy increases, along with response
+time. Across conditions, the differences in performance can be quite striking. For
+example, accuracy varies by around 10 %, whereas mean RTs can differ dramati-
+cally across speed- and accuracy-emphasis conditions. In some cases, mean RTs in
+conditions emphasizing accuracy are double those in conditions emphasizing speed
+(Ratcliff and Rouder 1998). The pattern of changes in accuracy and mean RT across
+speed and accuracy conditions, when combined with the other empirical benchmark
+phenomena discussed below, impose powerful constraints on sequential sampling
+models.
+    Shape of Response Time Distributions. Accounting for the shapes of RT dis-
+tributions has proved particularly diagnostic in evaluating sequential sampling
+models because the shapes of RT distributions impose more constraints than
+summary measures like mean RT. Typically, the mean and standard deviation of
+empirical RT distributions increase roughly in proportion to one another
+(Wagenmakers and Brown 2007). A characteristic property of RT distributions
+obtained from experiments with human participants is that they are right-skewed:
+Relative to median RT, the difference between the fastest RTs in different experi-
+mental conditions is much smaller than the difference between the slowest RTs.
+Moreover, as stimulus difﬁculty increases—for example, by increasing stimulus
+confusability—increases in mean RT are primarily associated with changes in the
+tails of the RT distribution. The fastest RTs—those that deﬁne the ‘leading edge’ of
+the RT distribution—change very little as difﬁculty increases, whereas the slowest
+RTs slow down dramatically.
+    Correct and Error Response Times. Early comparisons of sequential sampling
+models focused primarily on their ability to predict the empirical orderings of mean
+RTs for correct and error responses. In experiments where accuracy is stressed or
+the task is very difﬁcult, error RTs tend to be slower than correct RTs. By contrast
+when speed is stressed, or task difﬁculty is low, error RTs tend to be faster than
+correct RTs (Luce 1986). Moreover, in some cases, there is a crossover pattern, in
+which error RTs are slower than correct RTs in some conditions, but faster in other
+conditions of the same experiment (e.g., Ratcliff and Rouder 1998; Ratcliff and
+Smith 2004; Ratcliff et al. 1999; Smith and Vickers 1988). Accounting for these
+260                                                         D.K. Sewell and P.L. Smith
+
+different RT orderings has been one of the biggest theoretical challenges in
+developing sequential sampling models. We now introduce the major classes of
+sequential sampling models investigated by Ratcliff and Smith (2004), noting how
+well each model class addresses the benchmark phenomena.
+
+
+
+14.2.2 Accumulator and Counter Models
+
+According to accumulator and counter models, separate evidence totals for each
+response alternative are incremented until one of the totals exceeds a response
+criterion. In a 2AFC task, there are two separate evidence totals, one for each
+response alternative. In accumulator and counter models, the decision process can
+be conceptualized as a race between evidence accumulators to reach a decision
+threshold. The response is controlled by the accumulator that wins the race,
+implementing an absolute decision rule.
+    One of the earliest models of choice-RT was LaBerge’s (1962) recruitment model,
+which assumed that evidence for different response alternatives is sampled in unit
+increments at discrete, equally spaced time steps. At each time step, one of the two
+counters is incremented by one unit. The probability that the counter receiving the
+increment is the one associated with a correct response is a function of the stimulus
+discriminability. When discriminability is high, one of the counters increments at a
+much faster rate than the other; when discriminability is low, the two counters
+increment at more similar rates. The class of accumulator (e.g., Audley and Pike
+1965; Smith and Vickers 1988; Vickers 1970, 1979) and counter models (e.g.,
+LaBerge 1994; Pike 1966; Smith and Van Zandt 2000; Townsend and Ashby 1983)
+can be viewed as extensions of the recruitment model. According to these models,
+evidence accumulation for different response alternatives proceeds in parallel.
+    The class of accumulator models developed by Vickers and colleagues (e.g.,
+Smith and Vickers 1988; Vickers 1970, 1979) retained the recruitment model’s
+assumption of a constant sampling rate in discrete time, but assumed
+continuous-valued evidence. Figure 14.3 illustrates the mechanics of the Vickers
+accumulator model. At each time step, evidence is sampled from a continuous
+distribution, which is usually assumed to be Gaussian, as shown in the ﬁgure—
+although Smith and Vickers (1988) also considered a model with a double-
+exponential distribution of evidence, and showed its predictions were similar to
+those of the Gaussian model. The strength of the evidence favoring different
+alternatives is controlled by the parameters of the evidence distribution. For a
+Gaussian distribution, the mean is set to μ, which is a function of the discrim-
+inability of the stimulus alternatives, and the standard deviation is set to 1. The
+standard deviation determines within-trial variability in the accumulation process,
+meaning that different samples will provide different levels of evidence. A sensory
+referent determines how evidence samples are classiﬁed. Samples falling above the
+referent increment one accumulator; samples falling below the referent increment
+the other accumulator. In either instance, the increment to the accumulator is the
+14    The Psychology and Psychobiology of Simple Decisions …                                           261
+
+
+     Vickers Accumulator Model                                               Sensory Evidence~N(μ,1)
+
+
+    Continuous evidence is
+ sampled at discrete time steps
+
+                                               Below Referent    Above Referent
+
+
+
+                                   Accumulator 1                                 Accumulator 2
+                      10                                                10
+
+                          9                                             9
+
+                          8                                             8
+
+                          7                                             7
+
+                          6                                             6
+
+
+
+                                                                X2(t)
+                  X1(t)
+
+
+
+
+                          5                                             5
+
+                          4                                             4
+
+                          3                                             3
+
+                          2                                             2
+
+                          1                                             1
+
+                          0                                             0
+                           0   5     10   15     20   25   30            0   5     10   15   20   25   30
+
+                                    Time Step                                     Time Step
+
+Fig. 14.3 Overview of the Vickers accumulator model. On each trial, continuous-valued evidence
+is sampled at a ﬁxed rate, in discrete time. At each time step, a sample is drawn from a Gaussian
+distribution of sensory evidence with mean µ and standard deviation 1. The stimulus alternative
+the sample provides evidence for depends on the value of the sample relative to a sensory referent,
+and the corresponding accumulator is incremented by the appropriate amount. The response is
+controlled by the ﬁrst accumulator to reach a criterion (set to 10 here). Response time is
+determined by the number of steps required to reach the criterion. Sample trajectories from two
+trials are shown. On one trial, the response is determined by Accumulator 1 (solid line), on the
+other trial, Accumulator 2 controls the response (dashed line)
+
+
+absolute value of the difference between the sample and the referent. Once an
+accumulator has accrued a criterion amount of evidence, the corresponding
+response is initiated. To allow for trial-to-trial variability in the efﬁciency of
+stimulus processing (e.g., stimulus encoding), for the accumulator model and other
+models of different classes, some model parameters are allowed to vary across
+trials. Between-trial variability reflects the assumption of noise in the encoding
+process, which results in variability in the representations of nominally identical
+stimuli across different trials of an experiment. This assumption is a standard one in
+psychology and is fundamental to statistical decision frameworks such as signal
+detection theory (Green and Swets 1966). In the accumulator model, there is
+trial-to-trial variability in accumulation rates. Across trials, the accumulation rate μ
+is assumed to be Gaussian distributed with standard deviation rl , making the model
+262                                                                                                            D.K. Sewell and P.L. Smith
+
+doubly stochastic. The accumulation rate for a single trial is determined by a
+random sample from this distribution.
+   The time and evidence assumptions of the Poisson counter model (LaBerge
+1994; Pike 1966; Smith and Van Zandt 2000; Townsend and Ashby 1983) are
+complementary to those of the Vickers accumulator model. Unlike the accumulator
+model, evidence is accumulated in unit increments, as assumed in the recruitment
+model, but is sampled in continuous time. Figure 14.4 illustrates the properties of
+the Poisson counter model. The name of the model derives from the fact that, for
+each response alternative, the arrival times between consecutive evidence samples
+are exponentially distributed with means 1=a and 1=b. The relative magnitudes of
+the parameters a and b depend on stimulus discriminability. For each response
+
+
+                                                                             0.1
+
+  Poisson Counter Model
+                                                      Probability Density
+
+
+                                                                            0.08               Interarrival Time ~ Exponential (α)
+
+                                                                            0.06               Interarrival Time ~ Exponential (β )
+ Discrete evidence sampled
+    in continuous time                                                      0.04
+
+
+                                                                            0.02
+
+
+                                                                              0
+                                                                                   0                20         40        60         80           100
+                                                                                                         Interarrival Time (ms)
+
+
+                              Accumulator 1                                                                   Accumulator 2
+                   10                                                                          10
+
+                    9                                                                          9
+
+                    8                                                                          8
+
+                    7                                                                          7
+
+                    6                                                                          6
+           X1(t)
+
+
+
+
+                                                                                       X2(t)
+
+
+
+
+                    5                                                                          5
+
+                    4                                                                          4
+
+                    3                                                                          3
+
+                    2                                                                          2
+
+                    1                                                                          1
+
+                    0                                                                          0
+                     0   20    40   60   80   100   120                     140                 0        20    40   60   80   100    120   140
+                               Time (ms)                                                                       Time (ms)
+
+Fig. 14.4 Overview of the Poisson counter model. Discrete valued evidence is accrued in separate
+accumulators in continuous time. Waiting times between successive evidence samples are
+exponentially distributed with different mean interarrival times for the two alternatives. In this
+case, α > β, resulting in shorter periods between arrival times for Accumulator 1. The response is
+determined by the ﬁrst accumulator to accrue a criterion number of evidence samples, set here to
+10. Response time is determined by the sum of the interarrival times for the fastest accumulator.
+Two simulated evidence accumulation trajectories are shown in the ﬁgure. In both cases,
+Accumulator 1 determines the response
+14   The Psychology and Psychobiology of Simple Decisions …                        263
+
+alternative, the number of evidence samples accrued in some interval of time is
+therefore described by a Poisson process with respective intensities a and b. Like
+the Vickers accumulator model, when a criterion amount of evidence for one
+alternative has accrued, the corresponding response is initiated.
+    Speed-Accuracy Tradeoff. Accumulator and counter models, like all sequential
+sampling models, account for the speed-accuracy tradeoff in the same way, by
+varying the decision criterion across conditions. Under speed instructions, the cri-
+terion is relatively low, requiring only a small amount of evidence before a response
+is initiated. Because the accumulation process needs less evidence to reach the
+criterion, responses are faster. However, the low response criterion makes
+the process susceptible to decisions being initiated by random perturbations in the
+accumulation process, resulting in a greater proportion of errors. Under accuracy
+instructions, the decision criterion is relatively high. This means the accumulation
+process needs more evidence before a response can be initiated, resulting in longer
+RTs. However, responding becomes more accurate because the increased evidence
+sampling provides the accumulation process with more opportunity to average out
+the effects of momentary fluctuations due to noise.
+    Shapes of RT Distributions. Capturing the shapes of empirical RT distributions
+has proved especially difﬁcult for counter and accumulator models. For example,
+the original recruitment model (LaBerge 1962), predicted negatively skewed RT
+distributions under some circumstances, and RT distributions that became more
+normally distributed with increasing response criterion. The latter prediction is
+inconsistent with data from studies emphasizing accuracy, which typically show
+that increases in RT with changing stimulus discriminability are primarily due to
+changes in the tails of the distributions rather than a change in central tendency
+(e.g., Ratcliff and Rouder 1998). In Ratcliff and Smith’s (2004) evaluation of
+sequential sampling models, both the Poisson counter model and the Vickers
+accumulator model, were found to underestimate the extent of right skew in data,
+especially at low stimulus discriminabilities. Although the Vickers accumulator
+model could be made to better capture the shapes of RT distributions by assuming
+long-tailed (exponential) distributions of response criteria, the Poisson counter
+model could not. The reason for the difference is because the evidence totals in the
+Poisson counter model are independent of one another, whereas in the accumulator
+model there is an implied dependency between the totals because only one accu-
+mulator is incremented at any time step.
+    Correct and Error RTs. An appealing feature of the early accumulator and
+counter models (e.g., LaBerge 1962; Townsend and Ashby 1983; Vickers 1970)
+was that they predicted mean error RTs to be slower than correct RTs, as found in
+many studies with difﬁcult to discriminate stimulus alternatives. However, as noted
+above, this is only one of the patterns that have been observed in data. Under
+speed-emphasis in tasks with highly discriminable stimuli, error RTs are typically
+faster than correct responses. Pike (1973) suggested that trial-to-trial variability in
+accumulation rate allowed counter and accumulator models to predict faster error
+RTs, but Ratcliff and Smith (2004) found that the error RTs predicted by both the
+Poisson counter model and the Vickers accumulator model were only marginally
+264                                                           D.K. Sewell and P.L. Smith
+
+faster than correct RTs, and that both models underpredicted the magnitude of the
+effect. Ratcliff and Smith (2004) also found that the Poisson counter model was
+unable to account for crossover patterns in mean RT orderings. For the Vickers
+accumulator model, assuming between-trial variation in both the criterion and rate
+of evidence accrual can allow the model to account for crossover effects in some
+(Smith and Vickers 1988), but not all circumstances (Ratcliff and Smith 2004).
+   Summary of Accumulator and Counter Models. To summarize, accumulator and
+counter models only provide a partial account of the existing behavioral data.
+Although they address the speed-accuracy tradeoff and slow error RTs, they cannot
+provide an accurate account of the shapes of RT distributions without additional ad
+hoc assumptions about the distribution of response criteria, nor can they account for
+fast errors.
+
+
+
+14.2.3 Diffusion and Random Walk Models
+
+Unlike the counter and accumulator models discussed above, random walk and
+diffusion models assume a decision architecture involving a single signed evidence
+total, or equivalently, a relative decision rule (e.g., Edwards 1965; Laming 1968;
+Link and Heath 1975; Ratcliff 1978; Stone 1960). That is, evidence for one
+response alternative is simultaneously evidence against the other. The decision rule
+in these models can be viewed as initiating a response once the difference between
+two absolute evidence totals exceeds a criterion.
+    Early random walk models (Edwards 1965; Laming 1968; Stone 1960) were
+influenced by Wald’s (1947) sequential probability ratio test (SPRT). The SPRT is
+an optimal way of choosing between two competing hypotheses: For any desired
+level of accuracy, the SPRT takes the minimum expected time to reach a decision.
+In the context of decision-making, the optimality property of the SPRT addresses
+costs associated with both time and accuracy, which is what initially recommended
+it as a psychological model of the decision process. The relationship between
+decision-making and optimality, as formalized in the SPRT, continues to influence
+researchers interested in the neuroscience of decision-making (Bogacz 2007;
+Bogacz et al. 2006; Gold and Shadlen 2001, 2002). The SPRT works by accu-
+mulating log-likelihood ratios in discrete time steps. To frame the SPRT in terms of
+perceptual decision-making, stimulus information is sampled at a constant rate by a
+mechanism that evaluates which response alternative is favored by each sample. In
+the SPRT, the evidence provided by each sample is computed by taking the
+log-likelihood of the ratio of probabilities of obtaining the sample, given the truth of
+each response alternative.
+    A limitation of early random walk models based on the SPRT was that they
+predicted mean RTs for correct and error responses would be equal, which is
+inconsistent with data. (A notable exception to this was a study by Green et al.
+(1983), who collected RTs from very highly practiced participants and found no
+difference between RTs for correct responses and errors, but their ﬁndings are
+14   The Psychology and Psychobiology of Simple Decisions …                                     265
+
+atypical.) To account for the relative orderings of mean RTs for correct and error
+responses, (Link and Heath 1975), in their relative judgment theory, proposed a
+random walk model that omitted computation of likelihood ratios. In their model,
+noisy evidence samples are accumulated by the decision process directly, in much
+the same way as in the Vickers accumulator model. The relative judgment model is
+illustrated in Fig. 14.5. At the ﬁrst time step, the initial state of evidence accu-
+mulation is set to z. The evidence total required to initiate a response is determined
+by a boundary separation parameter, a, which sets the decision criterion. At each
+time step, a new sample of evidence is accumulated, which moves the process
+toward either the upper or lower response boundary. When the process reaches one
+of the boundaries, the corresponding response is initiated.
+    Whereas random walk models sample evidence at a constant rate in discrete
+time, diffusion models sample evidence continuously in time (Ratcliff 1978; Ratcliff
+and McKoon 2008). In the Wiener diffusion model of Ratcliff, the accumulation of
+evidence can be described mathematically by the stochastic differential equation,
+
+                                      dXt ¼ mdt þ rdWt :                                    ð14:1Þ
+
+   Equation 14.1 describes the change in accumulated evidence, dXt, in an
+inﬁnitesimal time interval, dt. Like the random walk model, evidence accumulation
+starts at some point, z, situated between response boundaries at a and 0. The mean
+rate at which evidence accumulates toward a response boundary is deﬁned by the
+
+
+
+
+Fig. 14.5 Random walk and Wiener diffusion model. Relative evidence for two alternatives is
+accumulated from some starting point, z, toward one of two response boundaries at a and 0. The
+rate of evidence accumulation is deﬁned by the drift rate of the diffusion process, which varies
+between trials according to a Gaussian distribution with mean ν and standard deviation η. The
+response is determined by the ﬁrst boundary the process reaches. Two simulated evidence
+accumulation trajectories are shown. In one case, the upper boundary is reached, resulting in an ‘A’
+response (solid line). In the other, the lower boundary is reached, resulting in a ‘B’ response
+(dashed line)
+266                                                             D.K. Sewell and P.L. Smith
+
+drift rate, which is normally distributed across trials with mean ν and standard
+deviation η. This means the diffusion model, like the version of the accumulator
+model described by Smith and Vickers (1988) is doubly stochastic.
+    In Eq. 14.1, ν controls deterministic changes in the quantity of accumulated
+evidence. In addition to this deterministic change, diffusion models incorporate
+moment-to-moment stochastic changes in the accumulated evidence. This is
+modeled as a white noise process, dWt, which is the formal derivative of the
+Brownian motion, or Wiener diffusion, process. The variance of the stochastic part
+of Eq. 14.1 is determined by the diffusion coefﬁcient of the process, σ2. In Ratcliff’s
+model, both the drift rate and diffusion coefﬁcient are constant over the course of a
+trial, but other authors have proposed models with time dependencies in both drift
+rate and diffusion coefﬁcient (e.g., Sewell and Smith 2012; Smith et al. 2010; Smith
+and Ratcliff 2009). The reason for introducing time dependencies is to try to capture
+the temporal properties of the perceptual and memory processes that encode the
+evidence in some cognitive tasks.
+    In principle, a limitation of the Wiener diffusion model is that, unless trial-to-trial
+variability in drift rate is assumed, the model allows accuracy to grow unboundedly
+as decision time increases (Smith 1995; Usher and McClelland 2001). This implies
+that decision-makers can achieve any desired level of accuracy, regardless of the
+discriminability of the stimulus alternatives, by setting sufﬁciently high-decision
+criteria. One way to impose a bound on accuracy without assuming between-trial
+parameter variability is to add a decay term to the drift. Augmenting the model in
+this way leads to an Ornstein-Uhlenbeck (OU) diffusion process (Busemeyer and
+Townsend 1993), which is described by the stochastic differential equation
+
+                              dXt ¼ ðm  bXt Þdt þ rdWt :                           ð14:2Þ
+
+    The −βXt term in Eq. 14.2 is interpreted psychologically as a ‘leak’ or temporal
+decay on the accumulated evidence total. This reflects the idea that the evidence
+available to the decision process may not be integrated perfectly over time.
+Mathematically, the decay term serves as a restoring force that pulls the accumu-
+lated evidence total toward the starting point. When β = 0, the OU process becomes
+the Wiener diffusion process, and evidence is integrated, without loss, over the
+course of an experimental trial. In practice, when ﬁtting the OU model to behavioral
+data, the best ﬁts are often achieved when the model mimics the Wiener diffusion
+model (i.e., when the decay term approaches 0; Ratcliff and Smith 2004). Ratcliff
+and Smith concluded that the decay term in the OU model is usually not necessary
+for modeling behavioral data in decision architectures with a single evidence total,
+but it can lead to improved ﬁts in other decision architectures, like the dual diffusion
+model discussed subsequently (Smith and Ratcliff 2009).
+    Speed-Accuracy Tradeoff. As mentioned previously in relation to accumulator
+and counter models, diffusion and random walk models account for the
+speed-accuracy tradeoff by varying the position of the decision criterion. In these
+models, this is accomplished by allowing the boundary separation parameter to
+differ under speed and accuracy instructions. Under speed instructions, boundary
+14   The Psychology and Psychobiology of Simple Decisions …                          267
+
+separation is small, which means that, geometrically, the starting point of the
+decision process is much closer to the two response boundaries. The process does
+not need to accumulate as much discriminative evidence to reach a response
+boundary, resulting in reduced RT, but because the process is more susceptible to
+random moment-to-moment perturbations in the accumulation process, it also leads
+to a higher proportion of errors. Under accuracy instructions, boundary separation is
+large, meaning that the process must accrue a relatively large amount of discrim-
+inative evidence before reaching a response boundary. This results in longer RTs
+and higher accuracy, as the effects of moment-to-moment noise are small, relative
+to the distance between the starting point of the accumulation process and the
+response boundaries.
+    Shapes of RT Distributions. In contrast to counter and accumulator models, the
+shapes of RT distributions are naturally predicted by the geometry of diffusion
+processes. Both diffusion and random walk models predict right-skewed RT dis-
+tributions without requiring any additional assumptions. The effects of between-trial
+noise can be illustrated by progressively decreasing drift rate and projecting
+accumulation trajectories onto one of the response boundaries (see Fig. 14.6a).
+When drift rate is incrementally decreased, the expected ﬁnishing times of the
+decision process becomes progressively longer. This geometric constraint on dif-
+fusion model predictions was discussed in detail by Ratcliff (2002), who showed
+that his diffusion model was unable to ﬁt simulated data that were not right-skewed.
+This showed that the good performance of the model is not a function of its
+flexibility, but rather, because it predicts a restricted range of RT distribution shapes
+that happen to be precisely those usually found in empirical data.
+    More recently, Ditterich (2006) showed RT distribution data collected by
+Roitman and Shadlen (2002) from monkeys performing the motion direction dis-
+crimination task (see Fig. 14.1) were highly symmetrical, and could not be
+accommodated by Ratcliff’s diffusion model. Ditterich’s result is interesting as the
+monkey RT data from that task differ from data from human participants per-
+forming the same task, who produce right-skewed RT distributions that are well
+described by Ratcliff’s model (Palmer et al. 2005; Ratcliff and McKoon 2008).
+However, highly symmetric RT distributions are sometimes found with human
+participants who are required to respond to an external deadline (e.g., Van Zandt
+et al. 2000). We discuss the implications of Ditterich’s result in more detail below,
+but note that symmetrical RT distributions are not characteristic of all monkey data.
+For example, the RT distributions from monkeys performing brightness discrimi-
+nation tasks and gap discrimination tasks are well described by diffusion models
+(Ratcliff et al. 2003, 2007, 2011).
+    Correct and Error RTs. Accounting for any differences between correct and error
+RTs proved difﬁcult for early random walk models, which predicted equal mean RTs
+(Stone 1960). Indeed, an appealing feature of the early accumulator and counter
+models (e.g., LaBerge 1962; Townsend and Ashby 1983; Vickers 1970) was that they
+predicted mean error RTs that were slower than correct RTs. Ratcliff (1978) later
+showed that introducing trial-to-trial variability in drift rate allowed his diffusion
+model to predict error RTs that are slower than correct RTs. This prediction follows
+268                                                D.K. Sewell and P.L. Smith
+
+
+ (a)                                                  Drift Variability
+                                                    Produces slow errors
+
+
+
+       1
+
+
+           2
+
+
+
+
+                                                             Weighted
+                                   v1         v2              Mean
+               Prop (Correct)      .92        .70               .81
+               MRT (Correct)      251 ms     341 ms           290 ms
+                Prop (Error)       .08        .30               .19
+                MRT (Error)       251 ms     341 ms           321 ms
+
+ (b)                                                 Start-Point Variability
+                                                     Produces fast errors
+
+
+
+
+ z1
+
+
+ z2
+
+
+
+                                                              Weighted
+                                        z1      z2             Mean
+                 Prop (Correct)      .93       .72               .83
+                 MRT (Correct)     206 ms     349 ms           268 ms
+                  Prop (Error)       .07       .28               .17
+                  MRT (Error)      349 ms     206 ms           233 ms
+  14   The Psychology and Psychobiology of Simple Decisions …                                         269
+
+b Fig. 14.6 Illustration of how variability in drift rate (top panel) and start-point (bottom panel)
+  determine the relative speed of correct and error responses in Ratcliff’s diffusion model. In each
+  panel, the top and bottom response boundaries are associated with correct and error responses,
+  respectively. The top panel illustrates how trial-to-trial variability in drift rate allows the diffusion
+  model to account for errors that are slower than correct responses. When drift rate varies across
+  trials, some decision processes will be driven by a drift rate close to 0. For these trials, evidence
+  accumulation will be slow, and more error prone. Because of the larger proportion of error trials
+  driven by low drift rates, combining data from trials with different drift rates results in error
+  responses that are, on average, slower than correct responses. To account for errors that are faster
+  than correct responses, trial-to-trial variability in start-point is needed. When the decision process
+  starts near the correct response boundary, errors will be very slow, but far less frequent. By
+  contrast, when the process starts near the error boundary, the errors will be much faster, and occur
+  with much higher probability. The result is an overall mean error RT that is less than that for
+  correct responses
+
+
+  from the geometry of the diffusion process (see Fig. 14.6a). When there is
+  between-trial variability in drift rate, accuracy, and RT for any individual trial is
+  determined primarily by the drift rate sampled for that trial. When drift rate is low and
+  takes on a value near 0, evidence accumulation is slow, and the probability of an error
+  increases. When drift rate is high, evidence accumulation is fast, and the probability of
+  an error is reduced. Combining data from individual trials with different drift rates
+  results in slower mean error RTs because a greater proportion of the error responses
+  are from trials with lower drift rates, and hence, slower RTs. This is illustrated in the
+  table included in Fig. 14.6a. Diffusion models based on the OU process account for
+  slow errors in the same way as Ratcliff’s model.
+     Trial-to-trial variability in drift rate, however, is only a partial solution to the
+  problem of orderings for correct and error RTs. To account for fast error responses,
+  a different sort of trial-to-trial variability is required. For random walk models,
+  Laming (1968) showed that trial-to-trial variability in starting point sufﬁced to
+  predict mean error RTs that were faster than correct RTs. This was subsequently
+  conﬁrmed for Ratcliff’s diffusion model (Ratcliff et al. 1999; Ratcliff and Rouder
+  1998; Ratcliff and Smith 2004). With variability in the starting point of the accu-
+  mulation process, fast errors arise in the diffusion model for the same kinds of
+  geometric reasons as slow errors are predicted with drift rate variability (see
+  Fig. 14.6b). When the decision process starts near the incorrect response boundary,
+  correct responses will be relatively slower and less frequent: The process must
+  travel further to reach the correct boundary, and is more susceptible to random
+  moment-by-moment perturbations leading it to terminate at the error boundary. By
+  contrast, under the same conditions, error responses will be faster and more
+  probable. The increase in the proportion of fast errors when the process starts near
+  the incorrect boundary combined with the decrease in proportion of slow errors
+  when the process starts near the correct boundary results in the overall mean error
+  RT being faster than the mean correct RT (Ratcliff and Rouder 1998). To account
+  for crossover patterns in mean RT orderings, the diffusion model requires both drift
+  variability and start-point variability (Ratcliff et al. 1999; Ratcliff and Rouder 1998;
+  Ratcliff and Smith 2004).
+270                                                           D.K. Sewell and P.L. Smith
+
+
+14.2.4 Hybrid Diffusion-Accumulator Models
+
+More recently, models that combine elements of accumulator and diffusion models
+have been proposed. In these hybrid models, there are separate accumulators for
+different response alternatives, but unlike the Vickers (1970) accumulator model,
+the accumulation process is modeled as a diffusion process. Decision-making in
+these models is determined by the ﬁrst of multiple racing diffusion processes to
+reach a criterion (Ratcliff et al. 2007, 2011; Ratcliff and Smith 2004; Smith 2000;
+Usher and McClelland 2001). Although the majority of hybrid models use an
+absolute decision rule, models with relative decision rules have been investigated
+by Ratcliff and Smith (2004), and make similar predictions. Hybrid models have
+been motivated, at least in part, by the pursuit of increased neural plausibility (e.g.,
+Usher and McClelland 2001).
+    Perhaps the most well-known hybrid diffusion-accumulator model is the leaky
+competing accumulator (LCA) model of Usher and McClelland (2001; see
+Fig. 14.7). In this model, separate accumulators integrate evidence for different
+response alternatives. The accumulation process is modeled using a coupled pair of
+racing OU diffusion processes. In the LCA model, the two accumulators mutually
+inhibit each other with strength proportional to the amount of evidence in each
+accumulator. With two accumulators, i and j, the stochastic differential equation that
+describes the change of evidence in accumulator i in the LCA model is
+
+                     dXi ¼ ðmi  bXi  kXj Þdt þ ri dWi ;    i 6¼ j:             ð14:3Þ
+
+    Ratcliff and Smith (2004) explored several alternatives to the LCA model that
+were all based on Eq. 14.3. For example, a racing accumulator model with leakage
+but no competition is obtained when k = 0, and the model reduces to a race between
+two independent OU diffusion processes. As these variations on the LCA model
+produced similar ﬁts to behavioral data, Ratcliff and Smith (2004) concluded that
+the existing behavioral data were insufﬁcient to distinguish different hybrid models.
+    Speed-Accuracy Tradeoff. Like other sequential sampling models, hybrid
+diffusion-accumulator models account for the speed-accuracy tradeoff by adjusting
+decision criteria in response to speed and accuracy instructions.
+    Shapes of RT Distributions. Because evidence accumulation is modeled as a
+diffusion process, hybrid models are able to account for the shapes of RT distri-
+butions in the same way as standard diffusion models. That is, the geometry of the
+accumulation process, which is characterized by within-trial noise, naturally pro-
+duces right-skewed RT distributions without requiring additional assumptions.
+    Correct and Error RTs. Depending on speciﬁc assumptions, hybrid
+diffusion-accumulator models can account for the relative speeds of correct and error
+RTs in different ways. Mutual inhibition between accumulators accounts for slow
+error RTs in Usher and McClelland’s (2001) LCA model, whereas variation in starting
+point—because it is accompanied by inhibition—allows it to predict fast error
+responses. Indeed, Ratcliff and Smith (2004) found the LCA model to be highly
+14   The Psychology and Psychobiology of Simple Decisions …                                      271
+
+
+
+  Leaky Competing Accumulator
+
+ Diffusive evidence accumulation
+   Decay and mutual inhibition
+
+
+
+
+                     Accumulator 1                                   Accumulator 2
+               1                                                1
+
+              0.9                                              0.9
+
+              0.8                                              0.8
+
+              0.7                                              0.7
+
+              0.6                                              0.6
+      X1(t)
+
+
+
+
+                                                       X2(t)
+              0.5                                              0.5
+
+              0.4                                              0.4
+
+              0.3                                              0.3
+
+              0.2                                              0.2
+
+              0.1                                              0.1
+
+               0                                                0
+                0     30       60       90       120             0    30       60      90       120
+
+                           Time (ms)                                       Time (ms)
+Fig. 14.7 Overview of the leaky competing accumulator model with moderate values of decay, β,
+and inhibition, k. The quality of perceptual evidence drives separate accumulators coding for
+different response alternatives. The accumulators interact competitively by inhibiting each other
+with strength proportional to the current value of the decision variable, X(t). In addition to mutual
+inhibition, there is passive decay, or leakage from each accumulator. The response is determined
+by the ﬁrst accumulator to accrue a criterion amount of evidence, set here to 1. Two example
+evidence accumulation trajectories are shown. In one case, Accumulator 2 determines the response
+(solid lines), and in the other, Accumulator 1 determines the response (dashed lines). The effect of
+inhibition can be seen in the accumulation trajectories. As the level of accumulated evidence for
+one response increases, the level of evidence for the other decreases
+
+
+sensitive to initial start-point conditions. The accumulator that started with the larger
+amount of initial evidence almost always controlled the response for that trial. When
+there is no inhibition between accumulators, hybrid diffusion-accumulator models can
+predict slower error RTs if the accrual rates for each accumulator are constrained to
+sum to a constant, imposing the condition that the overall rate at which evidence
+becomes available to the decision process is constant. The mechanism for predicting
+slow errors is then identical to that in standard accumulator and counter models: The
+accrual rate for the error response is lower than that for the correct response. To predict
+fast errors, starting point variability is also required.
+272                                                         D.K. Sewell and P.L. Smith
+
+   Summary of Diffusion and Hybrid Diffusion-Accumulator Models. Both diffusion
+and hybrid diffusion-accumulator models provide a complete account of benchmark
+behavioral data. They account for the speed-accuracy tradeoff, the shapes of RT
+distributions, and the relative speeds of correct and error RTs. A complication in
+evaluating these models with just behavioral data is that they can be quite difﬁcult
+to distinguish. Later on in the chapter, we discuss how neurophysiological data
+might assist in selecting among these different kinds of models.
+
+
+
+14.2.5 Relating Neurocomputational Principles
+       and Sequential Sampling Models
+
+The behavioral phenomena discussed above converge to show that models
+assuming diffusive accumulation of evidence provide the best account of human
+behavioral data. Diffusion models, including hybrid diffusion-accumulator models,
+predict the shapes of empirical RT distributions, the differences in performance
+under instructions emphasizing speed or accuracy, and the relative ordering of
+correct and error RTs. By contrast, counter and accumulator models can only
+partially handle these data. The evidence for diffusive evidence accumulation at a
+behavioral-level places a strong constraint on neurocomputational models of simple
+decision-making: In order to simultaneously account for data at neural and
+behavioral levels of analysis, computations carried out at the neural level need to
+make predictions at the behavioral level that are well described by diffusion models.
+Before we review neurophysiological data that bear on this issue, we briefly
+summarize recent theoretical work that has shown that biologically plausible net-
+work models can exhibit behavior that is consistent with the predictions of diffusion
+models.
+    The issue of how behavioral data characterized by diffusion processes are
+realized by neural ﬁring processes was addressed analytically by Smith (2010). He
+proposed the Poisson shot-noise process as an idealized model of neural
+population-level ﬁring rates. The shot-noise process describes the aggregated effect
+of a large number of small, independent, time-varying disturbances or perturba-
+tions, each of which occurs according to a Poisson process. In the shot-noise model,
+the Poisson process represents a sequence of action potentials in a bundle of neural
+ﬁbers and the disturbances represent the flux in postsynaptic potentials in the
+population of cells on which the action potentials impinge. In Smith’s model, pairs
+of excitatory-inhibitory shot-noise processes code evidence for different response
+alternatives. The difference between these pairs of processes is integrated until a
+criterion is reached, after which the corresponding response is initiated. Smith’s
+analysis drew on the weak convergence properties of excitatory-inhibitory
+shot-noise pairs to an OU velocity process at high ﬁring intensities. When the
+OU velocity process is integrated over time it becomes a model for behavioral-level
+evidence accumulation. At the long time scales of behavioral data, the integrated
+14   The Psychology and Psychobiology of Simple Decisions …                        273
+
+OU process has similar statistics to the Wiener process in Ratcliff’s (1978) diffusion
+model. Smith showed that simulated data generated by the shot-noise model were
+well ﬁt by Ratcliff’s model, providing evidence that aggregated neural processing
+dynamics give rise to evidence accumulation processes of the kind that can be
+characterized by diffusion models.
+    An issue that was not addressed by Smith’s (2010) analysis is how the neural
+representation of accumulated evidence is maintained over time. Indeed, one of the
+difﬁculties in linking behavioral-level data with neural mechanisms arises from the
+discrepant time scales on which behavioral and neural processes operate. Models of
+behavioral decision-making data assume integration of evidence over time scales
+measured in hundreds of milliseconds, whereas intracellular integration processes,
+operate on time scales around an order of magnitude less—no more than 50 ms
+(Wang 2001, 2002; Wong and Wang 2006). The question then is how the long time
+scale integration needed to support decision-making is realized by short time scale
+neural processes. Smith’s (2010) integrated OU model assumed long time scale
+integration as a theoretical primitive of the model, but gave no account of how such
+integration could be realized neurally.
+    Wang (2001, 2002), Wong and Wang (2006) has investigated models that
+attempt to address the time scale issue by incorporating slow reverberative feedback
+in the neural circuits involved in the decision process. In Wang’s models, accu-
+mulated evidence is represented by patterns of ﬁring rates in spiking neuron net-
+works. These models, which incorporate recurrent activation and inhibitory
+feedback, produce attractor dynamics that result in patterns of ﬁring activity that are
+sustained within the network. The sustained activity serves to maintain a short-term
+memory representation of the stimulus for the second or so required to make a
+decision, which is consistent with behavioral-level modeling of data from simple
+decision-making experiments (e.g., Ratcliff and Rouder 2000; Sewell and Smith
+2012; Smith et al. 2004, 2010; Smith and Ratcliff 2009). Recent extensions of the
+spiking network model have incorporated a burst-cell mechanism for implementing
+detection of when the decision process reaches a response threshold, producing a
+more comprehensive account of how decision-making might be implemented in
+such circuits (Lo and Wang 2006).
+    The analysis of Wang and colleagues was complemented by a recent study by
+Smith and McKenzie (2011), who showed that very simple, stochastic, recurrent
+loop architectures exhibit the same dynamic properties as Wang’s larger scale
+spiking network model. Smith and McKenzie extended the Poisson shot-noise
+model of Smith (2010) by adding a loop in which previously emitted spikes were
+maintained by recurrence, and new spikes were added by superposition. Whereas
+the dynamics of the Poisson shot-noise process served as a model of the short time
+scale integration of individual neurons, the recurrent loop dynamics served as a way
+of modeling long time scale dynamics exhibited by populations of neurons. Smith
+and McKenzie showed that the Poisson superposition model exhibited similar
+information accumulation properties to the integrated OU process derived from the
+shot-noise model. They also ﬁt the recurrent loop model to group-averaged data
+from one of the experiments reported by Ratcliff and Smith (2004) and found the ﬁt
+274                                                           D.K. Sewell and P.L. Smith
+
+to be quantitatively similar to that of Ratcliff’s diffusion model. These results
+support Smith’s (2010) conjecture that behavioral data that are well described by a
+Wiener diffusion process may be generated neurally by an integrated OU process.
+   The analyses of Wang and colleagues (Lo and Wang 2006; Wang 2001, 2002;
+Wong and Wang 2006) and Smith and colleagues (Smith 2010; Smith and
+McKenzie 2011) provide insight into the relationship between sequential sampling
+models in psychology and computations performed in the underlying neural pop-
+ulations. Spiking network models and the Poisson shot-noise networks implement
+neurally plausible decision processes that characterize important aspects of
+behavioral data. In the next section of this chapter, we discuss how neurophysio-
+logical data and choice-RT modeling that directly incorporates neurophysiological
+data as input provide a complementary perspective on relating psychology and
+neuroscience.
+
+
+
+
