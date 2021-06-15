@@ -1,0 +1,799 @@
+Chapter 5
+
+Mind Tricks: Psychological Principles Used in Social Engineering
+
+It all depends on how we look at things, and not on how they are themselves.
+
+—Carl Gustav Jung
+
+In Hollywood movies and television shows con men and law enforcement are portrayed with almost mystical talents. They have the ability to get away with anything; they seem to be able to just look into the eyes of a person and tell if they are lying or telling the truth. It is not uncommon to see situations like this: the cop looks into the eyes of his suspect and can automatically tell whether he is lying or telling the truth, or with just the power of suggestion the con man’s targets are handing over their life’s savings. Movies might have you believing that manipulation tactics and getting people to do anything you want is plausible or even easy. Are these scenarios really fiction? Is it possible to gain such abilities that are saved for fantasy in the movies?
+
+This chapter could be a book unto itself, but I will condense this information down to principles that will truly change the way you interact with people. Some of the topics in this chapter are based on research done by the brightest minds in their respective fields. The techniques discussed in these topics were tested and put through the paces in social engineering environments. For example, the topic of microexpressions is based on the research of the world-renowned psychologist and researcher, Dr. Paul Ekman, who used his genius to develop techniques into reading facial expressions that can literally change the way law enforcement, governments, doctors, and everyday people interact with others.
+
+Some of the principles of Richard Brandler and John Grinder, the originators of neurolinguistic programming, changed people’s understanding about thought patterns and the power of words. These topics are subjects for much debate, and this chapter attempts to demystify this subject and explain how you can use them in social engineering.
+
+Some of the best interrogators on the planet developed training and frameworks to help law enforcement learn how to effectively interrogate suspects. These principles have such deep psychological roots that learning the methods used can literally unlock the doors to the minds of your targets.
+
+Using cues that people give in their speech, gestures, eyes, and faces can make you appear to be a mind reader. This chapter examines these skills and explains them in detail so they can be utilized by a professional social engineer.
+
+Rapport is often a word used by sales trainers and salespeople, but it is a very important aspect of gaining trust and displaying confidence. Knowing how to instantly develop rapport with people is a skill that truly enhances the skill set of a social engineer, and this chapter shows you how.
+
+This chapter finishes with my own personal research on how you can use these skills to hack the human mind. A buffer overflow is a program usually written by a hacker to execute code, of malicious intent normally, through the normal use of a host program. When executed the program does what the hacker wants. What if it were possible to run “commands” on the human mind that would cause the target to do what you ask, give over information you seek, and, in essence, prove that the human mind is able to be manipulated?
+
+This powerful information, of course, can be used for very malicious intentions. My goal in releasing this information to the public in this way is to pull back the curtain from what the “bad guys” are doing by exposing their methods, thinking, and principles, then analyzing each one and showing what you can learn from it. Exposing these techniques makes identifying, defending, and mitigating against these attacks easier for everyone.
+
+This chapter is truly a mind-altering collection of data and principles. Following, studying, and researching the methods will not just enhance any security endeavors but these principles can also alter the way you communicate and interact with others.
+
+By no means, though, is this chapter a complete collection that covers all aspects of each of these skills. I provide links and tips to where you can find more information and programs to help you enhance these skills. This chapter sets a foundation as well as acts like a guide, pointing you in a direction so you can learn to enhance each skill over time.
+
+Learning social engineering skills is not a quick process, so don’t be impatient. The methods of learning some of these skills can take years to perfect and a lot of practice to even become proficient. Of course, you may possess a skill for a certain aspect but if you do not, don’t become impatient with trying to learn it. Keep on trying harder and practicing and you will get it.
+
+Before you get into the meat of this chapter, the following section sets the stage for why and how these principles will work. You must understand the modes of thinking that exist. After you understand more clearly how people take in and process information you can begin to understand the emotional, psychological, and physical representations of that process.
+
+
+
+
+
+Modes of Thinking
+
+To alter someone’s way of thinking you must understand the way people think and in what modes they think. This seems a logical first step to even attempting this aspect of social engineering.
+
+You might think you need to be a psychologist or a neurologist to understand the many aspects of how a person can think. Although that can help, it is not necessary. With a little research and some practical application you can delve into the inner workings of the human mind.
+
+In August of 2001 the FBI put out a law enforcement bulletin (www.social-engineer.org/wiki/archives/ModesOfThinking/MOT_FBI_3of5.htm) that made a few very profound statements on the modes in which people think:
+
+Simply confirming your nonverbal behavior to the client, using language from the client’s preferred representational system and matching speech volume, tone, and area of speech often overcomes client reluctance to communicate.
+
+This simple statement has a lot of depth in it. Basically it is saying that if you can first figure out the target’s dominant mode of thinking and then confirm it in subtle ways, you can unlock the doors of the target’s mind and help him actually feel at ease when telling you even intimate details. Logically you may ask then, “How do I figure out a target’s dominant mode of thinking?”
+
+Even asking people what their mode of thinking is will not offer a clear answer, because many people do not know what mode of thinking they often reside in. Due to that, as a social engineer you must have some tools to help you determine this mode and then quickly switch gears to match that mode. A clear and easy path exists to this answer but you need to know the basics first.
+
+The Senses
+
+For centuries philosophers have argued the value of perception. Some go so far as to say that reality is not “real” but just what our senses build into our perceptions. Personally, I do not subscribe to that idea, but I believe that the world is brought to our brain by our senses. People interpret those senses for their perception of reality. In the traditional classification we have five senses: sight, hearing, touch, smell, and taste.
+
+People tend to favor one of these senses and that is the one that is dominant. It is also the way people tend to remember things. As one exercise to determine your dominant sense, close your eyes and picture yourself waking up this morning—what is the very first thing you remember?
+
+Was the feeling of the warm sun on your face? Or maybe you remember the sound of the voice of your spouse or children calling you? Do you remember clearly the smell of coffee downstairs? Or quite possibly the bad taste in your mouth, reminding you that you need to brush your teeth?
+
+Of course, this science is not exact and realizing what your dominant sense is may take a few tries to figure out. I once talked to a couple about this concept and it was interesting to watch their expressions. The wife first remembered waking up and seeing the clock and then worrying that she was running late, whereas the husband first remembered rolling over and not feeling his wife next to him. After some more questions it became evident that the husband was a kinesthetic, or his dominant sense was his feeling, whereas his wife was very visual.
+
+Of course, walking up to your target and saying, “Close your eyes and tell me the first thing you remember this morning,” doesn’t seem reasonable. Unless, of course, your pretext is the family shrink, you might meet with some opposition on this route.
+
+How can you determine without going through an embarrassing interrogation about their morning rituals what a target’s dominant sense is?
+
+The Three Main Modes of Thinking
+
+Although we have five senses, the modes of thinking are associated with only three of them:
+
+Sight, or a visual thinker
+
+Hearing, or an auditory thinker
+
+Feeling, or a kinesthetic thinker
+
+
+
+Each sense has a range within which it works, or a sub-modality. Is something too loud or too soft? Too bright or too dark? Too hot or too cold? Examples of these are as follows: staring at the sun is too bright, jet engines are too loud, and –30 degrees Fahrenheit is too cold. Ivan Pavlov ran an experiment where he rang a bell every time he fed a dog. In the end the dog would hear the sound of the bell, then salivate. What most people don’t know is that he was more interested in the physical and emotional aspects of sub-modalities. The interesting point is that the louder the bell rang the more the dog salivated. The range change of the sub-modality produced a direct physical change. Pavlov’s research and all of his lectures are discussed in much detail at www.ivanpavlov.com.
+
+Even though people are very different from dogs, Pavlov’s research is very important in understanding how a person thinks. Many of us can think in all three modes, but we dominate in one—one “rings” the loudest. Even within our dominant mode, we might have varying degrees of depth for that dominant sense.
+
+Following I will discuss some of the details of each of these modes in more depth.
+
+Visual
+
+The majority of people are usually visual thinkers, in that they usually remember what something looked like. They remember the scene clearly—the colors, the textures, the brightness or darkness. They can clearly picture a past event and even build a picture for a future event. When they are presented with material to decide upon they often need something to see because visual input is directly linked to decision making. Many times a visual thinker will make a decision based on what is visually appealing to him regardless of what is really “better” for him.
+
+Although men tend to be visual, this does not mean that all men are always visual. That visual marketing or visual aspects normally appeal to men is true, but do not assume all men are visual.
+
+A visual person often uses certain words in his speech, such as:
+
+“I see what you mean.”
+
+“That looks good to me.”
+
+“I get the picture now.”
+
+
+
+And the range that the dominant sense works in for a visual thinker can have certain characteristics, or sub-modalities, such as:
+
+Light (bright or dim)
+
+Size (large or small)
+
+Color (black and white or color)
+
+Movement (fast or slow)
+
+Focus (clear or hazy)
+
+
+
+Trying to debate, sell, negotiate, manipulate, or influence a visual thinker with no visual input is very difficult if not impossible. Visual thinkers need visual input to make decisions.
+
+Auditory
+
+Auditory thinkers remember the sounds of an event. They remember that the alarm was too loud or the woman whispered too low. They recall the sweetness of the child’s voice or the scary bark of the dog. Auditory people learn better from what they hear and can retain far more from being told things than being shown things.
+
+Because an auditory thinker remembers the way something sounded, or because the sounds themselves help recall memories, he may use phrases such as:
+
+“Loud and clear…”
+
+“Something tells me…”
+
+“That sounds okay to me.”
+
+
+
+And the range of this dominant sense can be within these sub-modalities:
+
+Volume (loud or soft)
+
+Tone (base or treble)
+
+Pitch (high or low)
+
+Tempo (fast or slow)
+
+Distance (near or far)
+
+
+
+It is imperative to choose your words carefully with auditory thinkers. The words they hear will make or break the deal. I have seen whole encounters go from great to a disaster with one wrong word spoken to an auditory thinker.
+
+Kinesthetic
+
+Kinesthetic thinkers are concerned with feelings. They remember how an event made them feel—the warmth of the room, the beautiful breeze on their skin, how the movie made them jump out of their seat with fear. Often kinesthetic thinkers feel things with their hands to get the sense of the objects. Merely telling them something is soft isn’t as real as letting them touch it. But helping recall a soft item they touched before can recall emotions and feelings that are very real to a kinesthetic thinker.
+
+The term “kinesthetic” relates to tactile, visceral, and sense-of-self sensations of the body—basically, where a person’s body is in space and the self-awareness of how something made him feel. A kinesthetic thinker uses phrases such as:
+
+“I can grasp that idea.”
+
+“How does that grab you?”
+
+“I’ll get in touch with you.”
+
+“I just wanted to touch base.”
+
+“How does this feel?”
+
+
+
+And the range for this type can have the following sub-modalities:
+
+Intensity (strong or weak)
+
+Area (large or small)
+
+Texture (rough or smooth)
+
+Temperature (hot or cold)
+
+Weight (heavy or light)
+
+
+
+Helping a kinesthetic thinker recall a feeling or emotion tied to something can make those emotions reappear as real as the first time they occurred. Kinesthetic thinkers are probably the most difficult for non-kinesthetic thinkers to deal with because they do not react to sights and sounds and social engineers have to get in touch with their feelings to communicate with this type of thinker.
+
+Understanding these basic principles can go a long way toward being able to quickly discern the type of person you are talking to. Again, without asking the target to picture his morning rituals how can you discern the dominant sense? Even more so, why is this so important?
+
+Discerning the Dominant Sense
+
+The key to determining someone’s dominant sense is to try to introduce yourself, start a small conversation, and pay close attention to what is being said. As you walk up to the target and lean in to say good morning, maybe she barely looks at you. She might be rude, or she just may not be a visual. Visuals need to look at the person speaking to communicate properly, so this behavior would seem to lend to the fact she is not visual. Now ask a simple question such as, “Don’t you just love the feel of a beautiful day like today?” and notice her response, particularly whether she seems to light up or not.
+
+Maybe you wear a large, shiny silver ring. As you talk you gesture; maybe you see that the ring catches her eye. Does she reach out, interested, and need to hold the ring or get close to observe it? Kinesthetics are very touchy-feely when it comes to these things. I know a woman who is a strong kinesthetic and when she sees something she thinks is soft or high quality she must touch it. She will say, “Wow, that sweater looks so soft!” From that statement one might assume she is a visual, but what happens next is what solidifies it. She then walks up to the person and touches the sweater and feels it. This shows her dominant sense is kinesthetic. The same woman must touch everything in the grocery store when she shops, whether she needs it or not. By touching the objects, she makes a connection and that connection makes it real to her. Often she cannot remember things very well that she did not come into physical contact with.
+
+Asking questions that contain some of the key dominant words, observing a target’s reactions, and listening can reveal what dominant sense he or she uses. Listening for key words such as see, look, bright, dark can lead you to treat a target like a visual. As mentioned earlier this is not an exact science. There isn’t a general rule that states if a person says, “I can see what you are saying…” then he is always a visual. Each clue should lead you down the path toward verifying your hunch with more questions or statements. One word of caution: talking to someone in a different mode than they think in can be irritating to some. Using questions to determine a person’s mode of thinking can be off-putting. Use questions sparingly and rely more on observation.
+
+Why Understanding the Mode Is Important
+
+I once worked with a guy, Tony, who could sell a cup of water to a drowning man. Tony was a big believer in seeking out and then using a person’s dominant sense in sales. He had a few methods that he used that you may learn from. When he first engaged the target he had a very shiny silver-and-gold pen he would hold in his hand. He would gesture a lot and notice whether the person followed the pen with her eyes; if she did slightly Tony would continually make the gestures bigger to see whether her eyes followed. If that didn’t seem to work in the first few seconds he would click the pen open and closed. It wasn’t a loud noise, but loud enough to disrupt a thought and draw someone’s attention if she were an auditory. If he thought that was working he would click it with every important thought, causing the target to have a psychological reaction to the sound and what was being said. If that didn’t seem to work he would reach out over the table and tap her wrist or forearm, or if he was close enough touch her shoulder. He didn’t touch excessively, but enough to see whether she would shy away or seemed overly happy or disturbed by the touch.
+
+With these subtle methods he could quickly discern what the person’s dominant sense most likely was. This whole act would take under 60 seconds. After he found the information he was looking for, he would then start to move his conversation to that dominant sense, even taking on the traits of that sense in the words he spoke and way he acted and reacted to the conversation. One thing about Tony is that he outsold any person I have ever met. People would often say about him, “It is like he knew exactly what I needed.”
+
+Tony would talk to the person and treat the person the way they wanted to be talked to. If the person was a visual thinker, Tony would use phrases like “Can you see what I am saying?” or “How does this look to you?” He would use illustrations that involved “seeing” things or visualizing scenarios. He would put people in their comfort zone.
+
+People feel at ease when they are in their comfort zone. The more you can do as a social engineer to put people in their comfort zone, the better chance you have at success. People gravitate towards those with whom they are comfortable; it is human nature. For example, if someone makes you feel “warm and fuzzy,” or seems to understand what you are saying, or seems to see where you are coming from, you easily open up to, trust, and let that person in your circle.
+
+I want to reiterate this point: finding and using someone’s dominant sense is not an exact science. A social engineer should use it as a tool in the arsenal and not rely on it as something magical or scientific. Certain psychological aspects of human nature are based on proven science and can be relied upon. As a matter of fact, some of these aspects are so impressive that they can make you seem like a mind reader. Some of them have been a topic of serious debate and some accepted by psychologists, law enforcement, and social engineers for years. The next section of this chapter discusses these, starting with microexpressions.
+
+
+
+
+
+Microexpressions
+
+You are probably familiar with the idea of reading facial expressions. When someone is happy, sad, angry, or whatever, when someone feels it you can look at his or her face and see that emotion. What if someone tries to fake that expression, like a fake smile? We have all done it, walking through the market and bumping into someone we just don’t like that much—we put on a “smile” and say, “Hey John, nice to see you. Say hi to Sally.”
+
+We may act very pleasant and cordial, but inside we are feeling nothing but irritation. The expressions that we show for longer periods of time on our face are called macroexpressions and are generally easier for people to see the emotion that is being conveyed. Similar to microexpressions, macroexpressions are controlled by our emotions, but are not involuntary and often can be faked.
+
+A certain few pioneers into the study of human behavior have spent decades researching something, coined microexpressions, to understand how humans relay emotions.
+
+Microexpressions are expressions that are not easily controllable and occur in reaction to emotions. An emotion triggers certain muscular reactions in a face and those reactions cause certain expressions to appear. Many times these expressions last for as short as one-twenty-fifth of a second. Because they are involuntary muscular movements due to an emotional response, they are nearly impossible to control.
+
+This definition is not a new understanding either; Charles Darwin wrote a book in 1872 called, The Expression of the Emotions in Man and Animals. In this book Darwin noted the universal nature of facial expressions and how muscles were used in facial expressions.
+
+In the early 1960s two researchers, Haggard and Isaacs, first discovered what today is called microexpressions. In 1966, Haggard and Isaacs outlined how they discovered these “micromomentary” expressions in their publication titled, Micromomentary Facial Expressions as Indicators of Ego Mechanisms in Psychotherapy.
+
+Also in the 1960s, William Condon, a pioneer who studied hours of tapes frame by frame, discovered that humans had “micro-movements.” He also heavily researched neurolinguistic programming (more on that later) and body language.
+
+Probably one of the most influential researchers in the field of microexpressions is Dr. Paul Ekman. Dr. Ekman pioneered microexpressions into the science it is today. Dr. Ekman has been studying microexpressions for more than 40 years, receiving the Research Scientist Award as well as being labeled one of Time Magazine’s most influential people on earth in 2009.
+
+Dr. Ekman researched facial expressions with psychologist Silvan Tomkins. His research revealed that, contrary to popular belief, emotions are not culturally determined, but are universal across cultures and biological.
+
+Working with Dr. Maureen O’Sullivan he developed a project called the Wizards Project. He began to pioneer the use of microexpressions in lie detection. He used a base of 15,000 people from all walks of life and all cultures and found out of that large number that only 50 had the ability to spot a deception without training.
+
+In the 1970s Dr. Ekman developed FACS (Facial Action Coding System) to label and number each conceivable human expression. His work branched out to not only include facial expressions but also how the whole body was involved in deception.
+
+By 1972, Dr. Ekman had identified a list of expressions that were linked with basic or biologically universal emotions:
+
+Anger
+
+Disgust
+
+Fear
+
+Joy
+
+Sadness
+
+Surprise
+
+
+
+Dr. Ekman’s work began to take on a following, and many law enforcement and corporate environments began to use this research in detecting deception. In 1990, in a paper entitled “Basic Emotions,” Dr. Ekman revised his original list to include a range of positive and negative emotions (www.paulekman.com/wp-content/uploads/2009/02/Basic-Emotions.pdf). Dr. Ekman has published many books on emotions, facial expressions, and lie detection that can help each person to understand the value in being able to decode facial expressions.
+
+This brief history indicates that the subject of microexpressions is not some fantasy; on the contrary, real doctors, researchers, and professionals in the field of human behavior have put countless hours into understanding microexpressions. As a social engineer, understanding microexpressions can go a long way toward protecting your clients and teaching them how to notice subtle hints of deception.
+
+If you are a social engineer, or just a person interested in learning about microexpressions, I strongly suggest reading Dr. Ekman’s books, especially Emotions Revealed and Unmasking the Face. He is truly the authority on this topic. The following sections describe the microexpressions in a simplistic format so you can see how you can use this later on as a social engineer.
+
+As mentioned earlier, Dr. Ekman labeled six main microexpressions and later on added contempt to the list, making seven. The following sections cover these one by one.
+
+Anger
+
+Anger is usually easier to spot than some other expressions. In anger the lips become narrow and tense. The eyebrows slant downward and are pushed together—then comes the most noticeable characteristic of anger, the glare.
+
+Anger is a strong emotion and can trigger many other emotions along with it. Sometimes when a person feels anger at something, what you see is a microexpression such as that shown in Figure 5-1. What makes it hard to see is that the facial movements may last only one-twenty-fifth of a second.
+
+
+
+Dr. Paul Ekman
+
+Figure 5-1: Notice the glare, tense lips and tightened brows.
+
+Learning to see a specific microexpression can greatly enhance your understanding of people. To learn how to do so, Dr. Ekman recommends practicing that expression on yourself. He says follow these steps:
+
+1. Pull your eyebrows down and together; pretend you are trying to touch your nose with the inner parts of your eyebrows.
+
+2. While your brows are down, try to open your eyes wide, without adjusting your brow position.
+
+3. Press your lips together tight. Do not pucker your lips, just tense them together.
+
+4. Glare.
+
+
+
+What emotion do you feel? The first time I did this, I was overwhelmed with anger. The following is a vital point to this chapter:
+
+If producing the facial expression can cause the emotion, that must mean that our facial movements can affect the emotions we feel, and maybe even the emotions of those around us.
+
+Practice this emotion in a mirror until you get it right. Figure 5-2 shows a picture of Simon Cowell wearing a very definite angry expression.
+
+Figure 5-2: Notice the definite expression of anger on Simon’s face.
+
+
+
+It may not be as pronounced as Figure 5-1, but you can see all the signs on his face of being angry.
+
+Mastering the ability to reproduce microexpressions will go a long a way toward understanding the emotion behind them. When you can successfully reproduce and decode a microexpression, you can understand the emotion that is causing it. At that point you can understand the mental state of the person you are dealing with. Not only reproducing them on yourself but also being able to see and read them in others can be helpful in controlling the outcome of your social engineering engagements.
+
+Disgust
+
+Disgust is a strong emotion usually in reaction to something you really do not like. This “something” does not always have to be a physical object; it can also be something that is based on a belief or feeling.
+
+A food that you truly hate can cause the feeling of disgust, which will trigger this expression. What is amazing is even in the absence of the actual smell or sight of the food, the thought of it can cause the same emotion.
+
+When I was a teenager, I went to Disney World with a few friends. I am not, and I mean not, a fan of roller coasters. After much prodding I went on Space Mountain, an indoor roller coaster. About halfway through I had determined that I really didn’t mind roller coasters when suddenly I was smeared with something very wet and chunky. I was then hit with an odor that I can only describe as stomach contents. Not only me, but many behind me had the same reaction and none of us could hold back our lunch, so to speak. Before you knew it, a simultaneous puking splattered the glass of the Tomorrowland Transit Authority, a slow-moving observation ride that offers a peek into the actual Space Mountain ride on part of its journey. What is amazing is that people in the Tomorrowland ride who sat there slowly going around the park saw the aftereffects hit the glass as they rode through, and saw all the other riders getting physically ill, which made them also vomit—yet they didn’t smell the odor or have physical contact with the puke from the roller coaster riders. Why?
+
+Disgust. Bodily fluids generally bring on feelings of disgust and this is one reason that while reading this paragraph you probably started to exhibit the expressions of disgust.
+
+Disgust is often characterized by the upper lip being raised to expose the teeth, and a wrinkling of the nose. It may also result in both cheeks being raised when the nose is wrinkled up, as if to try to block the passage of the bad smell or thought into one’s personal space.
+
+I was reading an article on the winter Olympics when I saw this picture of Ekaterina Ilyukhina (see Figure 5-3) showing very clear traits of disgust. Notice the raised upper lip and the wrinkled nose. Is she looking at her score? Is a competitor beating her? I am not sure, but whatever she is looking at, it is not sitting well with her.
+
+Figure 5-3: Clear signs of disgust with a wrinkled nose and raised lip.
+
+
+
+Disgust is one of those emotions, according to Dr. Ekman’s research, that is in reaction to the sight, smell, or even thought of something distasteful. From a social engineering standpoint this emotion might not lead you down paths of success, but it can surely help you to see whether you are hitting the mark with your target or causing him or her to mentally shut down to your ideas.
+
+The odds are that if you cause disgust for any reason in your target, you have lost. If your appearance, smell, style, breath, or other aspect of your person can make a person feel disgust, then it will most likely close the door to success. You must be aware of what is acceptable and unacceptable to your targets. For example, if your audit is for a prestigious law firm and you have many piercings or tattoos, a very strong negative emotion may rise in your target, which can close the door to your social engineering attempt. If you see a facial expression similar at all to Figure 5-4 then you know it is time to leave the scene.
+
+Figure 5-4: If you see this expression, something is wrong.
+
+
+
+You must seriously consider your appearance when working on your pretext. If you happen to notice the strong negative emotion of disgust in your target, then backing down and politely excusing yourself to rework your pretext or find a different path in may be a good idea.
+
+Contempt
+
+Contempt is a very strong emotion that is often confused with disgust because it is so closely linked. Dr. Ekman didn’t even include contempt on his first list of the base emotions.
+
+In Dr. Ekman’s book Emotions Revealed he says, “Contempt is only experienced about people or the actions of people, but not about tastes, smells, or touches.” He then gave an example of eating calf brains, which might be disgusting to you as a thought, and will trigger disgust. Yet seeing someone eating them may trigger contempt for the person committing the act, not the act itself.
+
+In my opinion this is a very important point and makes understanding this microexpression crucial. That contempt is directed at a person rather than an object is crucial to understanding the microexpressions that go along with it. Being able to see whether the person you are dealing with is feeling contempt can help you to pinpoint more closely the reason for his or her emotion.
+
+Contempt is distinguished by wrinkling the nose and raising the lip, but only on one side of the face, whereas disgust is the raising of the whole lip and the wrinkling of the whole nose. A very subtle contempt expression can be seen in Figure 5-5.
+
+
+
+Dr. Paul Ekman
+
+Figure 5-5: Notice the slight nose wrinkle and the raising of only the right side of Dr. Ekman’s face.
+
+Try to mimic contempt, and if you are like me, you will quickly feel anger and contempt in your heart. Performing this exercise and seeing how these reactions affect you emotionally is interesting.
+
+In Figure 5-6 you can see Serena Williams displaying definite signs of contempt. I found this picture online and didn’t save the news article so I am not sure what the contempt was toward, but whatever it was, she is obviously feeling bad about it.
+
+Figure 5-6: Serena Williams showing contempt on the left side of her face.
+
+
+
+Contempt is often accompanied by anger, because the things that can cause contempt in a person can also trigger strong negative emotions. Contempt is one emotion you want to avoid triggering in anyone with whom you are dealing, especially if you are in a social engineering engagement.
+
+Fear
+
+Fear is often confused with surprise because the two emotions cause similar muscular reactions in the face. Recently while on a plane, I was about to write the section on happiness, but something amazing happened at that time that served as the impetus for writing this section on fear instead.
+
+I am not a short man, being 6’3”, and not a small build, either. While I sat on the plane with a few hours to kill I thought I would take advantage of the time to work. Let me add that coach seats aren’t what they used to be. As I sat with my laptop open staring off into space I pondered how to start the section I had intended to write. I soon realized I was meant to start writing about fear, because the gentlemen next to me pulled out a water bottle and took a swig, but I didn’t see him recap the bottle. Out of the corner of my eye I saw his bottle falling from his hands and toward my keyboard. My instant reaction was easily identified as fear.
+
+My eyes opened wide, while my eyebrows crunched together inward. My lips pulled together and out towards my ears. Of course, I didn’t realize all this as it was happening but afterward I was able to analyze what had happened and I knew I had felt fear. I then analyzed the way I felt my face move and determined that if I repeated the expression I felt that same emotion all over again. I am sure I looked similar to what is seen is Figure 5-7.
+
+Try to see whether you can generate this emotion in yourself by following these steps:
+
+1. Raise your eyebrows as high as they will go.
+
+2. Drop your mouth open slightly and pull the corners of your lips back.
+
+3. If you can, pull your eyebrows together while raising them as high as you can.
+
+
+
+How did you feel? How about in your hands and arms and your stomach? Did you notice any semblance of fear? If not, try the exercise again but think back to a time when you were in a situation (something similar to my plane experience, or a car in front of you screeching to a halt) out of your control. See how you feel then.
+
+
+
+Dr. Paul Ekman
+
+Figure 5-7: Clear signs of fear.
+
+Most likely you will feel the emotion. Browsing the Web I found this picture of U.S. Senator Olympia Snowe, who is showing very clear signs of fear (see Figure 5-8). Whatever question was asked of her before that picture was snapped caused a very distinct feeling of fear. Her eyebrows are raised high with her lips slightly open and pulled back, and her eyebrows are almost forced together while being raised as high as they can go.
+
+From a social engineering standpoint, fear is often used to cause people to react a certain way. Malicious social engineers use fear tactics to get an unsuspecting user to click a banner or give up a valuable piece of information. For example, malicious banners might claim “Your computer is infected with a virus. Click here to get fixed now!!” These banners work against non-technical users who fear the virus and will click, only to be infected at that point.
+
+Figure 5-8: Senator Snowe showing clear signs of fear.
+
+
+
+One company I worked with was hit by a malicious social engineer who used fear to gain access to the building. Knowing that the CFO was out of town on an important business meeting and could not be disturbed, the social engineer went into the company as a tech support guy. He demanded access to the CFO’s office, which was promptly denied. He then played this line, “Mr. Smith, your CFO, called me and told me that while he was away at this meeting I better come down and fix his e-mail problem and that if it is not fixed while he is gone, heads will roll.”
+
+The secretary feared that if it didn’t get fixed, she would be to blame. Would her boss really be angry? Could her job be at risk? Because she feared a negative outcome, the secretary let the phony tech support guy in. If he was a skilled social engineer he may have been watching her facial expressions and noticing whether she exhibited signs of worry or anxiety, which are related to fear. He then could have played on these signs more and more, getting her to cave in to her fear.
+
+Fear can be a big motivator to do many things that you (or your target) would not normally consider doing.
+
+Surprise
+
+As mentioned earlier, Dr. Ekman and many other psychologists in the area of microexpressions have concurred that surprise is closely linked to fear because of certain similarities. Even so, some marked differences exist, such as the direction the lips take and the way the eyes react.
+
+Try this exercise to show surprise:
+
+1. Raise your eyebrows, not in fear but with the goal of widening your eyes as much as you can.
+
+2. Let your jaw unhinge and open slightly.
+
+3. After you get the expression down pat try doing it quickly.
+
+
+
+I noticed I almost was forced to gasp in some air when I did it, causing me to feel something similar to surprise. You should see an expression similar to Figure 5-9.
+
+
+
+Dr. Paul Ekman
+
+Figure 5-9: Notice the way the eyes and lips appear similar to fear.
+
+Surprise can be good or bad. Hearing your daughter’s first words, of course, is a good surprise. Or the surprise can be one of an event, statement, or question that you didn’t expect that causes this response.
+
+That is what I suspect is happening to Jessica Simpson in Figure 5-10. Notice how her eyebrows are raised and her jaw is unhinged and open. She is showing all the classic signs of being surprised, maybe by the question that was just asked of her or a response to something she heard.
+
+Figure 5-10: Often confused with fear, surprise has some minor differences.
+
+
+
+If the surprise is positive, it can often cause even a smile or a jovial response. As Jessica’s expression in Figure 5-10 shows, she looks surprised, but also happy about the surprise. A social engineer can sometimes use surprise to open the target’s door, so to speak; following up with quick wit or a joke can quickly put the target at ease, causing her to lower her guard.
+
+Sadness
+
+Sadness is an overwhelming and strong emotion. Sadness is one of those emotions that we may feel ourselves when we see other people who are expressing this emotion. Some people can feel sadness just by seeing others who are sad, even to the point of crying.
+
+To show you how easily you can feel sadness, try this exercise:
+
+1. Drop your mouth open slightly.
+
+2. Pull the corners of your lips down.
+
+3. Hold your lips in place, and while doing that try to raise your cheeks as if you are squinting.
+
+4. While maintaining that tension, look down and let your upper eyelids droop.
+
+
+
+Most likely you will begin to feel sadness. When I first did this exercise, it was overwhelming for me. I instantly felt sad and found I had to control the length of time I performed it because it caused me to be sad for quite a while. To see how this should look, notice the expression in Figure 5-11.
+
+
+
+Dr. Paul Ekman
+
+Figure 5-11: Notice the lips and eyes drawn back and down, signifying sadness.
+
+Another aspect of sadness that makes it an amazing emotion is that it does not always have to display as agony or extreme grief. Sadness can be very subtle. Sadness can also be displayed in just one part of the face. People may try to hide sadness by using a fake smile or what I call “stoic eyes,” where they stare straight ahead, almost in a daze, but you can tell they are trying to control the emotion they are feeling.
+
+Take a look at Figure 5-12; in this picture you can see an example of sadness being expressed that way. During an interview about her divorce and family, Kate Gosselin tries to hide her emotion, but if you look at her lips you can see very subtle hints of sadness.
+
+Figure 5-12: Notice the lips drawn back and down, signifying sadness.
+
+
+
+Besides the lips, the eyes are another key indicator of sadness. This expression can be hard to read and can be confused with tiredness and other emotions, but looking at a person’s demeanor and body language can also help with the cues.
+
+This is the case with cultures that cover much of their face. As you can see in Figure 5-13, these women are attending a funeral; although mostly covered, the center woman reveals in her eyes that she is feeling sadness.
+
+Figure 5-13: Notice the eyes looking down and the upper eyelid drooping.
+
+
+
+Sadness is often used in social engineering because it can trigger people to take an action such as donate money or give out information. You have probably seen it used in television commercials showing a very disadvantaged child. These children may be malnourished, poverty stricken, and seemingly unloved, but for just a small donation you can bring a smile to the child’s face. The images of sad, crying, emaciated children will tug at your heartstrings. I am not suggesting that these commercials are malicious social engineering, just that they use social engineering to a degree, by using an emotional trigger to get a reaction out of the target.
+
+Unfortunately, malicious social engineers often use this emotional trigger to obtain things from their targets. I once walked into a restaurant and overheard a young man telling a group of older folks who were leaving that he just ran out of gas on the highway and needed to get home because his wife was nine months pregnant. He had been out of work and had just walked a mile off the highway to use the phone to call his wife and wondered if they could give him $20. When I heard some of the story I slowed down and made believe I was on a phone call to observe the rest. He told his tale and then backed it up with, “Look if you give me your address, I will mail you a check for the $20,” concluding with “I swear to God.”
+
+The story had some elements in it that could elicit compassion, especially when his face showed concern, anxiety, and sadness. He didn’t get $20—he was given $20 by each of the three people in that group. He said “God bless you” a few times and gave the group a few hugs and said he was going to go in to call his wife and tell her he was on the way home. He hugged them and they left feeling as if they had done their good deed for the week.
+
+A few minutes later as I’m eating my meal, I see him at the bar drinking a couple of fully paid-for drinks with his buddies. Mixing a sad story with some sad facial expressions, he had been able to manipulate the emotions of those around him.
+
+Happiness
+
+Happiness can have many facets to it—so many that I can probably make a chapter just on it, but that is not my focus. Dr. Ekman’s books cover many excellent points about happiness and similar emotions and how they affect the person with the emotion and those around him or her.
+
+What I want to focus on are just a couple aspects of happiness—most importantly the difference between a true smile and a fake smile. The true and the fake smile are an important aspect of human expressions to know how to read, and as a social engineer to know how to reproduce.
+
+Has there been a time where you met someone who was very pleasant but after you parted ways your spouse or you yourself said, “That guy was a fake…”?
+
+You might not have been able to identify the aspects of a true smile in your head but something told you the person wasn’t being “real.” In the late 1800s a French neurologist, Duchenne de Boulogne, did some fascinating research into smiling. He was able to attach electrodes to a man’s face and trigger the same “muscular” response in the face as a smile. Even though the man was using all the right muscles for smiling, de Boulogne determined that the look of the man was still a “fake smile.” Why?
+
+When a person smiles for real, de Boulogne indicates, two muscles are triggered, the zygomaticus major muscle and the orbicularis oculi. Duchenne determined that the orbicularis oculi (muscle around the eyes) cannot be triggered voluntarily and that is what separates a real from a fake smile.
+
+Dr. Ekman’s research concurs with Duchenne’s and although recent research indicates some can train themselves to think about triggering that muscle, more often than not a fake smile is all about the eyes. A real smile is broad with narrow eyes, raised cheeks, and pulled-up lower eyelids. It has been said that a real smile involves the whole face, from the eyes to the mouth, as seen in Figure 5-14.
+
+Figure 5-14: Dr. Ekman demonstrates a fake smile (left) next to a real smile (right).
+
+
+
+If you were to cover the top half of Dr. Ekman’s face you would be hard pressed to tell a real from a fake smile. It is not until you examine the eyes that it becomes clear, side by side, which smile is fake and which is real.
+
+When a person sees a real smile on another person, it can trigger that same emotion inside of them and cause them to smile. Notice in Figure 5-15 the picture of the two monks. The monk on the left side of the picture is displaying very outward signs of a real smile, real happiness. Just looking at him in this picture probably can trigger happiness in you.
+
+From a social engineering standpoint, knowing how to detect and also create a real smile is a valuable piece of information. A social engineer wants a target to be put at ease, so as to have the greatest positive effect on the target. Social engineers in any form, whether they are salespeople, teachers, psychologists, or any other social engineer, often start off a conversation with a smile. Quickly our brains analyze how we feel about that visual input given to us and it can affect the rest of the interaction.
+
+A lot of information is packed into the preceding section, yet you may be wondering how social engineers can train themselves not only to see microexpressions but also how to use them.
+
+Figure 5-15: His whole face is involved in his smile.
+
+
+
+Training Yourself to See Microexpressions
+
+Hollywood often overstates the abilities of the characters that appear in movies and television. For example, in the new hit television show Lie To Me (based on Dr. Ekman’s research) the main character, Dr. Lightman, can read microexpressions with seemingly no effort, and what is even more amazing is he usually can tell why the emotion is occurring.
+
+Yet in real life, much of the research done by those in the field, like Dr. Ekman, meant sitting in front of prerecorded sessions and analyzing these sessions frame by frame. After many years of working on this task he is probably able to notice, pick up, and analyze microexpressions very quickly. In the 1970s he did a research project where he identified some who had a natural ability to notice and correctly analyze microexpressions.
+
+Because many of us might not fall into that natural ability category we need a way to practice, train, and become proficient at performing, reading, and using microexpressions. I can tell you what works for me. I read the methods on how a particular microexpression is identified, then practice reproducing it using a mirror, comparing my expression to the notes from the professionals that describe how it is done. I usually have a picture that shows the emotion I am working on because having something to mimic helps me.
+
+After I feel relatively good about reproducing the microexpression I focus on how it makes me feel, tweaking small areas until the muscular movements cause me to feel the matching emotions.
+
+I then scour the Internet looking for pictures and try to identify the expressions in those pictures. Next, I record news or television shows and play certain parts in slow motion with the sound off to see if can determine the emotion, then listen to the story to see if I was close. All this leads up to working with live “subjects.” I watch people interact with each other and try to identify the emotions they are feeling during their discussions. I try both with being able to hear the conversation and also without being able to.
+
+The reason I chose this path before trying to read microexpressions in my own conversations is that I found that trying to do it in a live environment without having to also focus on making good conversation is easier. I just read the facial expressions and do not get confused by other sensory input. The preceding method is the one I used before I had a chance to meet Dr. Ekman and be introduced to his training methods. Of course, he has books that contain step-by-step instructions on recreating and reading these expressions. His books also include pictures showing the emotions as well as examples in the news that show those emotions. His book Emotions Revealed does this in a very professional format that is excellent for learning.
+
+In recent years Dr. Ekman has developed and released training specifically for microexpressions. His website, www.paulekman.com, has three different types of training that have changed the way people can learn this powerful science.
+
+Ekman’s training gives the user a lesson on each type of microexpression via video and text. The user can replay the expression video to see how each part of the face is involved. After the user spends as much time as needed learning and watching the video sections, she can take a pretest. The pretest enables her to see how good she is at noticing microexpressions. When the user guesses at what microexpression is being displayed, she can get confirmation or correction. If correction is needed then she can take additional education and training.
+
+After the user is confident in her abilities she can take the real test. In the final exam no correction is given. The user is shown a microexpression once for a brief one twenty-fifth of a second, and then she must select what the microexpression is and then wait to be graded at the end.
+
+This type of training tool can take years off of your learning curve in becoming proficient at reading microexpressions. One caveat: Dr. Ekman, as well as his contemporaries, state that even though you may become proficient in reading microexpressions, a microexpression is limited. What does that mean?
+
+One of the tricks actors use to be able to successfully show proper emotion is to remember and focus on a time when they truly felt the emotion they need to portray; for example, a moment of happiness that produced a real smile. As mentioned earlier, making a real smile is very difficult to fake if you aren’t truly feeling happy, but if you can bring up a memory when you felt that emotion your muscles will remember and react.
+
+Therefore, although you can become proficient at reading the emotion, you cannot read the why behind it. The why is often lost to science. I had a friend who had some bad experiences as a child with a person who closely resembled a good friend of mine. Whenever my friend would come around she had strong emotional reactions. If you were to read her microexpression you would probably see fear, contempt, and then anger on her face. She did not hate my friend, but she hated the person in her memory who resembled my friend.
+
+This is a good point to remember when you are learning how to read microexpressions. The expression is linked to an emotion, but the expression doesn’t tell you why the emotion is being displayed. I know when I first started learning about microexpressions and then became somewhat “proficient” at reading certain expressions, I felt like I was a mind reader. Although this is far from the truth, the caution is to not be assumptive. You may become very good at reading microexpressions; however, later sections discuss how to combine this skill with interrogation tactics, body language skills, and elicitation skills to not only figure out what targets are thinking, but also to lead them down the path you want.
+
+The question you still may have is, “How can I use these skills as a social engineer?”
+
+How Social Engineers Use Microexpressions
+
+This whole section leads up to this: As fascinating as the research is, as amazing as the science is behind this psychology, how do you utilize microexpressions in a social engineer audit and how do malicious social engineers use them?
+
+This section discusses two methods of how to use microexpressions in social engineering. The first method is using microexpressions (ME) to elicit or cause an emotion, and the second method is how to detect deceit.
+
+Let me start with the first method, using your own ME to cause an emotional response in others. I recently read a research paper that changed my view of ME and opened my eyes to a new area of research. Researchers Wen Li, Richard E. Zinbarg, Stephan G. Boehm, and Ken A. Paller performed a study called “Neural and Behavioral Evidence for Affective Priming from Unconsciously Perceived Emotional Facial Expressions and the Influence of Trait Anxiety” that changes the face of microexpression usage in modern science.
+
+The researchers connected dozens of mini-EKGs to muscle points on their subjects’ faces. The devices would register any muscular movements in their face and head. They then played videos for them that had one-twenty-fifth-second flashes of microexpressions in frames. Li et al., found that in almost every case the subject’s muscular movement would begin to mirror that which was embedded in the video. If it was fear or sadness, the subject’s facial muscles would register those emotions. When interviewed about the emotion the subject was feeling it was the emotion embedded in the video.
+
+To me, this groundbreaking research proves that a person can manipulate another person to a certain emotional state by displaying subtle hints of that emotion. I have started conducting some research into this from a security angle and I am calling it “neurolinguistic hacking,” mainly because it takes much from microexpressions as well as neurolinguistic programming (discussed in the next section) and combines them to create these emotional states within a target.
+
+Imagine this scenario. A social engineer wants to walk into a company with the goal of getting the receptionist to insert a malicious USB key into the computer. His pretext is that he has a meeting with the HR manager, but on the way in, he spilled coffee all over his last resume. He really needs this job and to help, would she print him out another copy of the resume?
+
+This is a solid pretext that tugs on the receptionist’s heartstrings and has worked for me in the past. Yet, if the social engineer allows his own emotional state to run rampant he might be showing signs of fear, which is linked to nervousness. That fear can translate to an uneasy feeling in the receptionist and failure or rejection of the request. Whereas if he were to control his emotions and flash subtle hints of sad microexpressions, which is closely linked with empathy, then he might have a very good chance at his request being honored.
+
+Recall the previous discussion of the commercials that encourage people to donate “only a dollar a day” to feed a child in need. Before requesting money, before flashing a phone number and URL, before telling you that credit cards are accepted, many long images of very sad children flash across your TV screen. Those images of children in need and children in pain put your brain in the emotional state that is needed to comply with the request.
+
+Do those commercials work on everyone? No, of course not. But although not everyone donates, it will affect almost everyone’s emotional state. That is how a social engineer can use ME to the fullest. Learning to exhibit the subtle hints of these ME can cause the neurons in your target’s brain to mirror the emotional state they feel you are displaying, making your target more willing to comply with your request.
+
+This usage of ME can be malicious, so I want to take a moment to talk about a mitigation (see also Chapter 9). Being aware of how ME can be used doesn’t mean you need to start training everyone in your company to be an ME expert. What it does mean is that good security awareness training does need to occur. Even when requests are designed to make you desire to help, desire to save, desire to nurture, the security policy must take precedence. A simple, “I’m sorry we cannot insert foreign USB keys into our computers. But two miles down the road is a FedEx Kinko’s shop. You can print another resume there. Should I tell Mrs. Smith you will be a few minutes late?”
+
+In this scenario, such a statement would have squashed the social engineer’s plans as well as given the target the feeling of being helpful.
+
+To utilize the power of ME, sometimes you have to combine it with other aspects of human behavior as well. The second method, how to detect deceit, describes how you can do this. The second method for using ME as a social engineer is in detecting deception. Wouldn’t it be nice if you could ask a question and know whether the response was truth or not? This subject has been a source of heated debate among many professionals who claim that eye patterns, body language, facial expression, or a combination of all the preceding can indicate truth or deception. While some do not believe this to be the case, others feel these can be used as an exact science.
+
+Although some truth may exist in each of those thoughts, how can you use microexpressions to detect deception?
+
+To answer this question you must take into account more than just microexpressions because, as identified throughout this section, microexpressions are based on emotions and reactions to emotions. Keep this in mind while reading this section, which analyzes some causes and effects.
+
+Four things can help you detect deceit in a target:
+
+Contradictions
+
+Hesitation
+
+Changes in behavior
+
+Hand gestures
+
+
+
+The following sections discuss these items in more detail.
+
+Contradictions
+
+Contradictions are particularly tricky because they often can and do occur in factual accounts. I know in my case I often forget details, and my wife will fill them in quickly. After I get a little hint here or there I often can remember the full story. This doesn’t mean that I am always lying at the beginning of a story or conversation, but I don’t always remember all the details clearly enough to comment on them at first, or I think I do remember the details but I really don’t. Even after I “remember” the details, the details may be my version of reality and not the way the story actually happened.
+
+This inadvertent dishonesty is important to consider when evaluating contradictions as a clue to lying. What a contradiction should do is prompt you to dig more. Watching the person’s microexpressions while you question him about a contradiction is also helpful.
+
+For example, suppose you have developed a pretext as a visiting salesperson. You are going to try to gain physical access to the CEO to deliver a CD with a special offer. You know the CEO is very partial to a certain charity so you developed the pretext around that. As you walk into the lobby the front desk person says, “Sorry, he is not in, you can just leave it with me.”
+
+You know that if you leave the CD a greater chance exists that your “malicious” CD will never be used. You also feel he is in because you see his car in the parking lot and you know today was a normal work day for him. With those facts in mind and without wanting to embarrass the front desk person you say, “Oh, he’s really not? I called the other day and asked when I could visit and was told today was a good day. Did I mix up my days?”
+
+If you’ve played your cards right and your expressions are genuine, this can turn out two ways:
+
+She may hold steady and again say, “Sorry, he’s not in.”
+
+She may contradict herself (which can be a clue that she is not being truthful): “Let me check whether he is in or not.”
+
+
+
+What? She went from a stern “He is not in” to “Let me check.” That contradiction is enough to signal that you should dig more. What was her ME when she did that? Did she show shame or maybe some sadness at lying? Was she angry at being caught in a lie? Was she embarrassed that she was wrong and maybe confused? You cannot automatically assume she is lying, because maybe she really didn’t know, and when you rebutted she decided to really find out.
+
+After she confirms whether he is in you can choose to dig a little deeper and probe more to determine truthfulness if needed. Again, playing your card of “Maybe I mixed up my days” and watching her facial expressions can be a good indicator of her truthfulness or not.
+
+If in your first go-round you saw any hints of anger, continuing to enquire can cause her to be more angry and embarrassed and end your interaction. At this point, you may want to ask something like, “If Mr. Smith isn’t in right now and I really mixed up my days or times, when can I stop in to see him? What time is the best?”
+
+This type of question allows her to save face, as well as gives you another opportunity to read some facial expressions. If you didn’t notice anger but maybe saw she looked a little sad or embarrassed then you might want to respond with empathy and understanding to open her up. “I could have sworn that he said today was a good time to drop it off, but you know, my memory is so bad, my wife tells me I am getting Alzheimer’s. I bought one of these smart phones, but I’ll be darned if I can figure it out. I don’t want to be a bother, but when can I just drop this off for him? I want to make sure it gets right into his hands.”
+
+Be very observant of minor contradictions as they can be key indicators in deceit and help you get your foot in the door.
+
+Hesitation
+
+Similarly to contradiction, you can use someone’s hesitation to detect a potential untruth. If you ask a question and the answer should have come quickly from the person, but he hesitates beforehand, it can be an indication that he was using the time to fabricate an answer.
+
+For example, when my wife asks me how much my new electronic gadget costs, she knows I know the answer. A hesitation can mean either I am evaluating whether I want to answer truthfully or I might just be remembering the price.
+
+When I get a progress report from my son’s school that says he missed X number of days at school and I only know about two or three valid absences, I ask him where the rest of these missed days are from. If his answer was, “Dad, don’t you remember I had that doctor appointment and then you kept me home that day to help you with that project?” Most likely that is full-on truth because it was quick and has facts in the response. However, if he hesitates and comes back with, “Wow, I don’t know—maybe the report is wrong,” then noting his microexpression during his response is a good idea. Does it indicate anger, maybe at being caught, or sadness at the imagined punishment? Either way, it is time for me to investigate more and find out where he was those days.
+
+Another thing to look out for is a well-known hesitation tactic of repeating the question back to you as if asking for verification that the question is correct. Doing so allows for time to fabricate a response. The use of hesitation to detect deception is not an exact science, but it can be a good indicator. Some people just think before they speak. I am from New York, so I speak fast. If someone speaks slower than me it is not an indication of deceit. You must be able to use the ME to determine if someone is just slow at speaking or trying to fabricate a response.
+
+If the emotion does not match the question asked then it might be worth looking into.
+
+Changes in Behavior
+
+During a discussion the target may change his behavior every time a certain topic is brought up. Maybe you notice an expression change or a shift in the way he sits, or a marked hesitation. All of these actions can indicate deceit. Whether these actions amount to deceit is not certain, but they should cause you to probe more on the topics being discussed in a way that does not alert suspicion. These behaviors can be signs that the person is using the time delays to generate a story, recall facts, or decide whether he wants to reveal those facts.
+
+Hand Gestures
+
+People often paint pictures with their hands using gestures. For example, someone may use his hands to show how big something is, how fast something was going, or to show how many times something was said. Many professionals feel that when someone is being untruthful he will touch or rub his face often. Some psychological connection exists between rubbing the face and generating a fabrication. Some of the cues used by psychologists and body language experts to detect deceit are discussed here: www.examiner.com/mental-health-in-new-orleans/detecting-deception-using-body-language-and-verbal-cues-to-detect-lies.
+
+Taking note of a change in the size, frequency, or duration of hand gestures during a conversation is important. In addition, you should watch facial expressions during gestures that can raise a flag in your mind.
+
+When you detect deceit, having a plan for how to respond is important and a good idea. In the earlier scenario with the front desk person and her “out-of-the-office” boss, calling her out on her lie would most likely have raised all sorts of red flags, embarrassing her, and ruining any chances of success. If your pretext is someone with authority, like a manager or department supervisor, and you catch someone in a lie you can then use that to your advantage. By “forgiving” the person you are now owed a favor in return. But in the same scenario, if the position you are in is lower (someone in a non-management position such as a secretary, receptionist, or sales position) than the target, playing that card can be dangerous. The authority action would not fit the pretext of someone in a non-management position.
+
+What it boils down to simply is that as a social engineer auditor you must learn to use a person’s microexpressions to determine whether he is presenting the truth or a lie and to determine whether you are affecting the target the way you want. In some cases you can even use certain expressions to manipulate the target into a certain state of mind.
+
+Remember, microexpressions alone are not enough to determine why an emotion is occurring. Determining that someone is angry or sad, for instance, doesn’t tell you why that person is angry or sad. Be cautious when using microexpressions to take into consideration all factors to determine, as closely as possible, the reason for the emotion.
+
+Malicious social engineers employ these tactics of using microexpressions discussed in this section but their goals are completely different from those of a social engineer doing an audit. They often don’t care about the residual effect on the target. If damaging a person’s belief system, psychological stability, or even job stability can lead the malicious social engineer to a payday he will take that path.
+
+Earlier in this book you read about some scams that came up during the attacks in New York City after 9/11. People who saw an opportunity to cash in on people’s sympathy and the tragedy that occurred didn’t seem to care whether their actions hurt others. Many came out of the shadows claiming to have family who were lost in those attacks. Some of these malicious people received money, gifts, sympathy, and even media attention only for it to be discovered down the road that the stories were all false accounts.
+
+The malicious social engineer spends a lot of time learning about people and what makes them tick. This knowledge makes locating an acceptable target to attack easier.
+
+This section just scratched the surface of microexpressions; the work of many professionals in the field has filled volumes. Seek out training, become proficient in reading and using microexpressions, and you will see an increase in your communication abilities with others. In addition, this proficiency will enhance your ability to have success in your audits.
+
+
+
+
+
+Neurolinguistic Programming (NLP)
+
+Neurolinguistic programming (NLP) studies the structure of how humans think and experience the world. It is very controversial in itself because the structure of NLP does not lend itself to precise, statistical formulas. Many scientists will argue or debate the principles of NLP due to this fact, but the structure does lead to models of how the principles work. From these models, techniques for quickly and effectively changing thoughts, behaviors, and beliefs that limit people have been developed.
+
+As stated in Wikipedia (source: Oxford English Dictionary), neurolinguistic programming is “a model of interpersonal communication chiefly concerned with the relationship between successful patterns of behavior and the subjective experiences (esp. patterns of thought) underlying them,” and “a system of alternative therapy based on this which seeks to educate people in self-awareness and effective communication, and to change their patterns of mental and emotional behavior.”
+
+This book is far from a self-help book, so although the principles in it can assist in changing deep-seated thought patterns and habits in yourself, its focus is on how you can use NLP to understand and then manipulate those around you.
+
+If you are unfamiliar with NLP your first instinct may be to run to a computer and type the term into Google. I want to ask you not to do that just yet. You will find that similar to social engineering, what you will often find first are many videos and demonstrations that just seem very unrealistic, such as videos of someone touching another person’s shoulder and changing that person’s brain patterns to think brown is white or somesuch. These videos make out NLP to be some form of mysticism, and for those who are leery of these things, these types of videos discredit it.
+
+Instead the following sections break NLP down into a few parts. Up next is a very brief history of NLP, which can help you to understand that its roots are not with street magicians; instead, it has deep psychological roots.
+
+The History of Neurolinguistic Programming
+
+Neurolinguistic programming (NLP) was developed in the 1970s by Richard Bandler and John Grinder with the guidance of Gregory Bateson. Its roots came from Bandler and Grinder’s research into some of the most successful therapists of their time.
+
+From this initial research they developed the “code” concepts of NLP. This early research led to the development of a meta-model, which recognizes the use of language patterns to influence change.
+
+Both Bandler and Grinder were students at the University of California and used the principles of their research to develop a therapy model called the meta-model. After writing a few books based on this model they began to refine the core principles that would become what we call NLP today. This included things like anchoring, swish pattern, reframing, belief change, nesting loops, chaining states, and submodalities applications.
+
+After graduating with degrees in psychology, Bandler and Grinder began hosting seminars and practice groups, which served as places for them to practice and test their newly discovered patterns while allowing them to transfer the skills to the participants. During this period, a creative group of students and psychotherapists who formed around Grinder and Bandler made valuable contributions to NLP, helping refine NLP even more.
+
+In the recent years, NLP became the new buzzword again for managers, driving rapid growth of trainers, classes, and experts. Without any regulating body, the field grew as everybody wanted to learn to control others, lie without getting caught, or solve all their psychological problems. Practitioners were not licensed, so each group taught its own form and concept of NLP and issued its own certification as experts. All of this is what led to NLP being viewed somewhat unfavorably.
+
+Despite its rocky history, the core foundation of NLP can enhance your abilities as a social engineer. The next section discusses some of the core codes of NLP so you can analyze them more deeply.
+
+Codes of Neurolinguistic Programming
+
+In the early 1970s NLP had a code comprised of the collective body of learning and investigation that generated the first books and the term neurolinguistic programming. As time went on John Grinder and others have continued to contribute to the field of NLP. The “new code of NLP” is an ethical and aesthetic framework for NLP development.
+
+New Code of NLP
+
+NLP’s original ideas were born in the 1970s. As time passed, John Grinder began to realize that much of the old code must change to be brought into modern times. He began working with Gregory Bateson and Judith DeLozier and produced the “new code” that focused more on what the person thinks or believes will happen and changing that belief. Learning techniques for expanding your perceptions, overcoming old thought patterns, and changing habits all help in self-change.
+
+The new code focuses on the key concepts of states, conscious/unconscious relationships, and perceptual filters, all of these pointing to states of your mind and your perception of those mental states. These new concepts are meant to move NLP forward and help practitioners think about it in new ways. Many of the basic tenets from the new code are being taught now as part of the standard NLP courseware. This new code is best understood by reading Turtles All the Way Down by Grinder and DeLozier. It’s compiled from their seminar “Prerequisites to Personal Genius.”
+
+In essence, the new code states that to make a change the client must involve their unconscious mind, the new behavior must satisfy their original positive intention, and the change must occur internally at the state of mind rather than at the behavioral level. This new code suggests how NLP can create serious and drastic changes to a person’s thinking.
+
+This is a key concept for social engineers because, as you investigate and analyze the new code, you will begin to see how it can be used to manipulate others. Before doing that, though, you need to understand the scripts that the new code uses.
+
+Scripts in the New Code
+
+People tend to have common problems, so groups of scripts have been developed to help therapists use NLP in their practice. These scripts lead the participant through a series of thoughts that help guide the person to the desired end. Several good books on NLP scripts exist, with The Big Book of NLP Techniques: 200+ Patterns & Strategies of Neuro Linguistic Programming being highly recommended.
+
+An example of one script is an outline of how to increase your sales by getting someone to start talking about their dreams. Once you have them talking about certain goals or aspirations, you can posit your product or service as answering one of the needs to reach those goals. By positively building on your product as fitting a need they have, you give your potential sale’s brain a way to connect your product with positive sales.
+
+If you take time to Google much of the information included here you will see that NLP can take on a life of its own. You can take many angles and paths when studying NLP. Despite all the plethora of information out there the question remains, how can a social engineer use NLP?
+
+How to Use NLP as a Social Engineer
+
+Many of the scripts and principles of NLP tend to lean toward hypnosis and similar avenues. Even though you will not use hypnosis to social engineer a target, you can use many of the principles of NLP as a social engineer. For example, NLP can teach you how to use your voice, language, and choice of words to guide people down the path you want.
+
+Voice in NLP
+
+You can use your voice to inject commands into people just as you would use code to inject commands into a SQL database. The way you say things is where the injection occurs; this single moment of injection is framed within regular conversation. Sometimes how you say something is more important than what you say.
+
+NLP promotes the use of embedded commands to influence a target to think a certain way or take a certain action. Also, using the tones of your voice to emphasize certain words in a sentence can cause a person’s unconscious mind to focus on those words. For example:
+
+For instance, ask “Don’t you agree?” Instead of putting an upswing on the word “agree,” like you would normally at the end of a question, put a downswing to make the question more of a command.
+
+Another one I have heard used effectively is, “My customers usually do the things I say. Do you want to begin?” The way that sentence is used and surrounded by other statements can make this a very commanding statement.
+
+More on this in the next section, but this skill alone can change the way you interact with others; the principles for it are steeped in NLP.
+
+Sentence Structure
+
+In English, the sound of the person’s voice at the end of sentence indicates whether what is being said is a question, statement, or command. A person’s voice goes up at the end of a sentence for questions. The voice stays the same through the end of the sentence in statements, and the voice lowers at the sentence close for commands.
+
+For the next few paragraphs, the bold font denotes to lower (deepen) your voice tone.
+
+
+
+Try this exercise: When you ask a question such as, “Is that your dog?” your voice will rise at the end of that sentence. Yet you can embed subtle commands into sentences by just changing them to a downward point during the sentence, not at the end. Here are a few simple commands for you to practice. Notice how they have the command injected inside the sentence.
+
+“Remember how clean your room looked last Christmas?” The embedded command is “clean your room,” which includes a time shift to a happier time. This is an example of a pleasant, painless injection.
+
+“Buy now, you can see the benefits!” This one starts with the voice low, then up to a normal tone, then back down for benefits.
+
+“The higher my company goes in consulting, the more nice people like you we encounter.” Implanting the higher my company with a pleasant comment has just increased your chance of being hired, partly because of the play on words (Higher sounds like hire—thus what the listener hears is hire my company).
+
+
+
+From a social engineering standpoint you can form sentences when performing an audit over the phone to maximize the potential for success, such as:
+
+“This is Larry from tech support; we are giving all reps new passwords. Your new password is…”
+
+The following are tips for using your voice in successful social engineering:
+
+Practice. You have to practice speaking in this manner so you don’t sound like a teenage boy entering puberty. Your rising and falling tones can’t sound canned; they must be subtle.
+
+Have careful sentence structure. Develop sentences that maximize your ability to accomplish your tasks. Don’t go for the kill, so to speak. A command like “give me access to your server room now” is probably not going to work, but you can use these voice techniques to help a target be more open to the idea.
+
+Be realistic. Don’t expect to speak and have people falling at your feet to do what you ask. These techniques can put your target in a frame of mind that will make getting what you want easier.
+
+
+
+One technique, Ultimate Voice, if mastered, does have very powerful effects. I once interviewed an NLP practitioner on a podcast who had this gift. When he spoke it was as if you could not argue with him. He spoke with such control and technique that disagreement never even entered my mind. How can one master this technique?
+
+Using Ultimate Voice in Social Engineering
+
+You can master the Ultimate Voice but it takes lots of practice. The ability to embed commands into normal conversation is a skill that is very useful when mastered. Ultimate voice is the ability to inject commands into people’s minds without their knowledge. It can sound very artificial when new people try it, until enough practice makes them sound natural.
+
+Hypnotists often use this technique like so:
+
+“You can feel yourself relaxing as you slip into calmness.”
+
+
+
+This standard therapy phrase can be adapted to nearly any command you like. Put extra emphasis on the vowels in the words you want to accent—for example, “yooouurseeelf reelaaxiing.”
+
+Planet NLP (www.planetnlp.com/) offers three exercises that you can use to work on mastering this technique.
+
+1. Move your voice around. Press your hand on your nose and say “nose.” Concentrate on your nose as you repeat the word until you can feel your nose vibrating. Now do the same exercise with your hand on your throat, saying “throat.” Do the same on your chest, saying “chest.” Keep practicing until you can really feel the vibration in each place. Notice how different each one sounds.
+
+2. Use your range. Starting from a high note, say “ar” (as in the letter r). Keeping your mouth open, allow the note to drop down until your breath runs out.
+
+Repeat this exercise ten times.
+
+Then, starting from a low note, say “ou” (as in you without the y), allowing the note to rise until you cannot support the sound.
+
+Repeat this exercise ten times.
+
+3. Resonate. To use your voice correctly, it must resonate in the mask, which is the facial area surrounding the nose and mouth.
+
+
+
+There are two ways to practice resonating:
+
+Hum at whatever pitch is most comfortable for you. After you have found your pitch then hum “umm” followed immediately by the word “ready.” Do this a few times, then try the words “now,” “one,” “two,” and “three.”
+
+Hum and then allow your lips to vibrate. You are attempting to sound like a dove. Allow the pitch to rise and fall. This is very difficult if you have any tension in the jaw or face. Done correctly for a few minutes, your face will start to feel numb.
+
+
+
+After a couple of minutes using these methods, you should notice that your voice sounds crisper. If you find it hard to notice, record yourself and listen back to see how it sounds to you.
+
+The best way to improve is to spend about five minutes a day going through these exercises.
+
+Practice can help you to learn to control this vocal technique. For example, I am generally a loud person. It seems like I don’t have the ability to whisper. For me to control my tones, pitch, and volume, I need practice. Doing simple voice exercises like these can help you to control these voice characteristics.
+
+When you speak a sentence in which you want to include a hidden command, and you want to lower your tone, being so subtle that the target doesn’t realize it is imperative. Otherwise, you will alert that person’s subconscious to trigger that something is amiss. If that occurs he may pick up on your attempts thereby shutting down your success.
+
+Like most things in social engineering, if a technique doesn’t come naturally, practice is essential. Try this voice technique on your family and friends before you ever attempt it in an audit.
+
+From personal experience, when I first started working on the Ultimate Voice techniques I decided my goal was to embed commands into questions. This goal took a while to realize but I would try simplistic things like:
+
+“Honey, what do you want to eat for dinner tonight, steak or something else?”
+
+To conclude this section, consider three things a social engineer should focus on when studying NLP:
+
+Vocal tones. As stated previously, the tones of your voice as well as the emphasis you put on certain words can change the whole meaning of a sentence. Using tone and emphasis, you can embed commands inside of the subconscious mind of the target and allow the target to be more open to suggestion.
+
+Chose your words carefully. Learn to choose the words that have maximum impact. Match positive words with thoughts you want the target to think positively on and negative words with those you want them to not think of too highly. This technique can also help the social engineer make a target more pliable.
+
+Create a list of command sentences that you can use in person or during a phone social engineering audit. Writing out and practicing command sentences will help you be able to recall and use them when in need.
+
+
+
+Most of all, practice. Controlling your vocal tones, the words you choose, and how you say them is not an easy task. Practice can make this become second nature.
+
+NLP is a powerful topic, and, much like microexpressions, this section only scratched the surface. Once you start to master the techniques in NLP and the ability to read facial expressions, a next logical step is using these tools when interacting with a target. Next, this chapter analyzes the same tactics professional interrogators use.
+
+

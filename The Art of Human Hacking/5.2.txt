@@ -1,0 +1,819 @@
+
+
+
+Interview and Interrogation
+
+Scenario 1: The door flies open and the perpetrator is noticeably nervous. Captain Bad-Mood comes over and grabs the perp by the collar and slams him up against the wall. Getting about an inch from his face he screams, “You’ll tell me what I want to know, one way or another!”
+
+Scenario 2: The bad guy is tied to a chair, already bruised from the previous 30 minutes of beatings, and as the interrogator grabs a pair of shiny pliers he says, “You’ll be talking in no time….”
+
+Scenario 3: The perp is sitting in a chair and two police officers enter the room. Calmly they walk over to the table and set a file labeled “Evidence” down on the table. Before they sit down they ask, “Do you need a coffee or a soda or something?”
+
+Cracking open an ice-cold soda the first officer says, “Thanks for coming in today to help us out….”
+
+Which one of the preceding scenarios is a real-life interrogation? If you guessed the third one, you’re right. It is how a real interrogation often goes. The first two have been portrayed in Hollywood movies and television series so much that many of us might think they are real. Outside of wartime scenarios and nations that do not ban the use of torture, the third scenario is most likely the way most interrogations begin.
+
+Rarely will you as a social engineer be in a situation where your target is waiting in a room for you to question him. With that in mind, you might ask, how can you use the tactics of professional interrogators and interviewers as a social engineer?
+
+Before going further you should know the differences between an interrogation and an interview. The following table presents some of these differences, but this topic has many different angles, viewpoints, and opinions, so more could exist.
+
+Interview Interrogation
+
+Subject talks, you listen. You talk to subject about his statements.
+
+Subject leads direction of conversation; you clarify his statements and listen, then apply NLP skills. You lead direction. Apply NLP skills here.
+
+
+
+Non-accusatory. Accusatory.
+
+Soft in nature. Hard in nature.
+
+Subject’s location, subject at ease. Interrogation room, subject is tense.
+
+You gather information (who, what, when, where, why, and how). If you reveal certain information, you can learn details.
+
+Early in investigation. Final questioning session.
+
+The main difference between an interview and interrogation is that an interview is in an atmosphere where the target is comfortable both physically and psychologically, whereas in an interrogation the goal is to put some pressure on the target by creating discomfort with the location or the questions asked, with the goal of gaining a confession or some knowledge the target possesses.
+
+Good interrogation is an art that you can master through experience. Many social engineering skills tie into to being a good interrogator. Skills like elicitation (see Chapter 3); reading people, faces, and gestures; and having insight into human behavior can all help you become a legendary interrogator.
+
+Interviewing is a great skill to have, but as long as you can master the use of elicitation you can become great at conducting interviews.
+
+Interrogation principles are used widely by successful social engineers. Putting a target in some psychological or physical discomfort to make gathering information from them easier is a skill most social engineers will spend a considerable time obtaining.
+
+Professional Interrogation Tactics
+
+Before conducting any interview or interrogation, the social engineer will need to have done thorough information gathering. You must obtain as much information about the target, the company, the situation, and details of each as possible. You must know how to approach a target and what to say, and have in mind the path you will take with the target. Be careful to observe your surroundings as well as any changes in the target during the conversation and initial approach.
+
+One of the mistakes people new to interviewing and interrogation make is assuming every behavioral change has major meaning. A target’s crossing her arms doesn’t just mean a closed thought; she could also be cold, have underarm stink, or feel increased stress because of your questions.
+
+Watch not for only one sign; watch for groups of signs. For example, a target crosses her arms, turns her head, and places her feet flat on the floor. This is a closed person; in other words, her body language indicates that she will divulge no more information or cooperate any longer—this door has been shut. A group of changes is the most important thing to watch for, so note the topic that was being discussed when the group of changes occurred.
+
+When starting an interview or interrogation here are areas to observe for changes in the subject:
+
+Body posture: Upright, slumped, leaning away
+
+Skin color: Pale, red, white, changes
+
+Head position: Upright, tilted, forward/back
+
+Eyes: Direction, openness
+
+Hands/feet: Movement, position, color
+
+Mouth/lips: Position, color, turned up/down
+
+Primary sense: Visual, aural, kinetic, feeling
+
+Voice: Pitch, rate, changes
+
+Words: Short, long, number of syllables, dysfunctions, pauses
+
+
+
+Changes can indicate a question or line of questioning that needs more attention. For example, if the body posture is very relaxed when you ask, “Is Mr. CEO in? I would like to leave this information packet for his review,” and then the body posture changes to a defensive posture—the torso pointing away and the eyes averting from looking at you—it may be a good indication that there is some untruth coming up and further questioning might reveal the truth on this topic.
+
+Especially be sure to pay attention to the words a target uses. During the interview or interrogation process, pay particular attention to the subject’s voice and how she answers questions. When you ask a question, how long does it take for her to answer? Blurting out answers quickly is believed to be a sign of practicing the answer. If she takes too long, maybe she was thinking up the answer. Response time depends on each person, though, because you have to determine what is “natural” for each person.
+
+Determining what is natural in a target (that is, the baseline) is not a small matter in a social engineering gig and must be done very fast. Being very observant is the key to success with this skill. One method of creating a baseline involves asking questions that cause the suspect to access different parts of his brain. The interrogator asks nonthreatening questions that require simple memory and questions that require creative thinking. Then look for outward manifestation of his brain activating the memory center, such as microexpressions or body language cues.
+
+Another area to listen for is changes in verb tense and pronoun use. These shifts from past tense to future tense show areas you might want to investigate further. Switching tense can indicate deception. When a target switches tense they may be fabricating an answer or thinking of a past statement to fabricate an answer. Further questioning can reveal the truth here also. Other areas of change you should listen to are the pitch of the voice (is it going up with stress?) and the speed of speaking.
+
+You don’t have to learn how to do all this at the same time. The more practice you get actively listening and observing people the easier it becomes for you to do it without thinking.
+
+Professional interrogation is comprised of a number of parts. The following sections discuss each one, in the context of how it pertains to a social engineer.
+
+Positive Confrontation
+
+In law enforcement positive confrontation doesn’t mean anything positive and good; on the contrary, it means the officer is telling the suspect he is the one who committed the crime; in other words, the officer is making a strong accusation. In a social engineering audit, though, you already have identified the “target” you want and now you are going to tell (maybe using the NLP tactics previously mentioned) that target that he will do what you are asking of him.
+
+You confront the target with the objective of starting him on the path to doing what you want. For example, a social engineer may approach the receptionist and ask, “Is Mr. CEO in? I have a meeting with him.” Or, to use a positive-confrontation angle, “I am here for my meeting with Mr. CEO at 11 am.” Notice the second example positively states the meeting as being set, expected, and in such a way that you are sure it is happening.
+
+Theme Development
+
+Theme development in police interrogations is when the interrogator develops a story to postulate why the suspect may have committed a crime. Many times that story is relayed to the suspect during the interrogation. “So he insulted you and you got so mad, you grabbed the pipe and began hitting his windshield with it.” While the officer is telling the story, he or his partner is watching the body language and microexpressions of the suspect to see if there are any clues that would constitute agreement.
+
+Although social engineers can use this method, I also like to state that from a social engineering viewpoint, theme development needs to be seeing your pretext from the eyes of the target. What would a “tech support rep,” “manager,” or “fellow employee” look like, say, and do? How would he act?
+
+Theme development for social engineers is when your supporting evidence that is displayed feeds directly into the theme of who you are portraying. Your approach to a target, whether on the phone or in person, often involves a pretext of some sort. The pretext, of course, supports your storyline or theme. This part of the interrogation is where you offer reasons or support for the pretext (see Chapter 4 for a refresher on pretexting).
+
+For example, in one audit my pretext was very simple—I was just an employee who belonged. Armed with a trade publication I found in the trash, I followed a few employees through the door and past the security guard. As we approached the security guard I began a very simple conversation with one of the employees about an article in the journal. All of my actions contributed to theme development. Your goal is to give the people who would normally stop you justification for not doing their job.
+
+The more you fit in, the less you stand out, and the easier it is for security guards and the like to justify not stopping you and letting you in.
+
+Handling Denials and Overcoming Objections
+
+Whether on the phone or in person, what is the plan of action if you are denied access to the place or information you are seeking? I like to call these conversation stoppers. People use them with salespeople all the time, “I’m not interested.” “I don’t have time right now.” “I was just leaving….”
+
+Whatever flavor of stopper targets throw out, you must have a plan to overcome it and handle the denial of access. I like to preemptively dismiss objections if I feel the situation warrants.
+
+When I was in sales, I worked with a man named Tony who had a tactic that involved knocking on a door and introducing himself, and without pausing saying, “I know you might want to say you are not interested, but before you do, can you answer this one question: Is five minutes of your time worth $500?”
+
+At this point, the person was much less likely say, “I’m not interested.” By diminishing the possibility of denial and following up with a question, Tony was able to get the target to think about something else besides her objection.
+
+In a social engineering engagement you can’t walk up to the security guard and say, “I know you don’t want to let strange people in the door but…” because it would raise way too much suspicion. Using this methodology to overcome objections is much more complex for social engineers.
+
+You have to think about what objections might arise and organize your theme, story, dress, and person to pre-empt those objections. Yet you still have to have a good answer to give for when objections come up. You can’t just run out the door or hang up the phone. A good exit strategy enables you to come back to attack later on.
+
+An exit strategy can be as simple as, “Well, ma’am, I’m sorry you won’t let me in to see Mr. Smith. I know he will be greatly disappointed because he was expecting me, but I will give him a call later and set up another appointment.”
+
+Keeping the Target’s Attention
+
+If you handled your social engineering move correctly up to this point and you are in front of the target, then the target may start to think about what would happen if she does not allow access, take the file, or do what you are asking. You need to feed off of that inherent fear and use it to continue to move the target to your goal.
+
+A few short statements like, “Thank you for your help. I was so nervous about this interview that I obviously put the wrong date down in the calendar. I hope that Mrs. HR Manager is some place warmer than here?” Allow for a response then continue, “I want to thank you for your help. When will she be back so I can call to make another appointment?”
+
+Presenting an Alternate Route
+
+When you are interrogating the target in a social engineering audit, the possibility exists that your first path will not be greeted with smiles, so having a lesser but just as effective path of action ready is a good idea.
+
+Maybe you have used all these tactics to try to get Sally, the receptionist, to let you in to see Mr. Smith. The tactics are all failing and you are being shut down. You should have an alternative path prepared, such as, “Sally, I appreciate you have to make sure things are done by appointment only. I am just not sure when I will be back through the area. Can I leave you with this CD of information for Mr. Smith and then I can follow up with a phone call tomorrow to see whether he will set up an appointment?”
+
+Having a few CDs prepared with some maliciously encoded PDFs can help to make this path a reality, as well as having practiced and then using interrogation tactics quickly.
+
+A contact I have sent me a document, entitled “Interview and Interrogation,” that is used by the Department of Defense to train its staff in passing the polygraph. It outlines the different approaches that professional interrogators use, and I have provided them here. Looking at these different approaches one can learn a lot about different methods that might make sense for a social engineer.
+
+Direct approach: The interrogator assumes an air of confidence in this approach. The attitude and manner of the interrogator rules out that the suspect is innocent at all. Without threatening, the interrogator disarms the suspect by telling him anyone else would have done the same thing.
+
+
+
+As a social engineer, you can utilize this approach depending on your pretext. Maybe you are management, a consultant, or another person who has power over the target. This means you must have an air of confidence and assume that the target “owes” you the response you seek.
+
+
+
+Indirect approach: The suspect is allowed to tell his side of the story in detail and the interrogator looks for omissions, discrepancies, and distortions. The interrogator’s job is to let the suspect know that the best course of action is to tell the truth.
+
+
+
+As a social engineer you can use this approach by not approaching the target in any role, but maybe as an elicitation, a question designed to elicit information from the target. The social engineer can gather information from the target by letting him do most of the talking.
+
+
+
+Sympathetic approach: The DOD manual offers some excellent thoughts on this approach. The interrogator drops his voice and talks in a lower, quieter tone that gives the impression he is an understanding person. He sits close to the suspect and maybe puts his hand on the suspect’s shoulder or pats him on the arm. Physical contact at the right time is very effective.
+
+
+
+The social engineer can use this approach in the very same manner as the interrogator. Maybe you overhear some employees complaining about the boss as you are waiting to tailgate in the door. Or maybe you have followed the target to the local bar and get into a conversation where you can show empathy to a situation. You can use this approach all around, and it is very effective.
+
+
+
+Emotional approach: This approach plays on the morals or emotions of the suspect. Questions such as, “What will your wife or kids think about this?” are used in this interrogation tactic. The thoughts that are aroused emotionally upset him and make him nervous; as these emotions manifest themselves, the interrogator can capitalize on them.
+
+
+
+You can use this approach in a similar manner to the preceding, in which you play on a weakness identified in the target. In one engagement, I knew the target was partial to charities for children who suffer from cancer. Playing on those emotions I was able to get the target to take an action he should not have taken, and it compromised his operation.
+
+
+
+Logical approach: This non-emotional approach presents strong evidence of guilt. The interrogator should sit erectly and be business-like, displaying confidence.
+
+
+
+You can use this matter-of-fact approach when presenting evidence of your legitimate reasons for being present—for example, such as being dressed and armed as an IT repairman and having the air of confidence that you belong there.
+
+
+
+Aggressive approach: For an interrogator, a fine line exists between gathering information and infringing on the target’s rights that must not be crossed. The voice should be raised, and the look and act should be aggressive, but the suspect’s civil rights should never be violated.
+
+
+
+The social engineer auditor needs to keep this fine line in mind. As in the case of Hewlett-Packard, discussed in Chapter 4, being hired to social engineer a company does not give you the right to break civil laws. Most of the time the company hiring you has no right to allow you to tap home phones, read personal e-mails, or invade people’s privacy.
+
+
+
+Combination approach: One interrogator may combine two approaches to have maximum effect. This would be decided upon based on the suspect’s personality.
+
+
+
+As a social engineer you may use the same technique—combine your attacks and approaches for maximum effect. For instance, after you discover some personal details about a target—such as their favorite local bar—you can approach the target and start a conversation. Such a tactic, especially when employed in a relaxed atmosphere, can go a long way toward opening people up.
+
+
+
+Indifferent approach: This approach is very interesting because the interrogator acts as if he does not need the confession because the case is solved. At that point the interrogator may try manipulating the suspect into giving his side of the story.
+
+
+
+As a social engineer you may not be able to use this approach unless caught. If you’re caught in an area or situation you should not be in, you can act indifferent instead of afraid that you are caught. Acting indifferent can cause the person who caught you to not be alarmed as much and afford you an opportunity to dispel any worries. Kevin Mitnick (see Chapter 8 for more on Mitnick) was great at this technique. He had the ability to think quickly on his feet. Also, acting indifferent when he was in a precarious situation allowed him to get away with a lot.
+
+
+
+Face-saving approach: The interrogator should rationalize the offense, giving the suspect a way out and an excuse to confess and save face. An interrogator should not make the excuse so good, however, that the suspect can use it in court as a defense.
+
+
+
+A social engineer can really utilize this approach. An interrogator does not want to give someone too good an excuse, but a social engineer does. You want the excuse to be so good the target doesn’t even need to think before rationalizing it as an excuse for complying with you.
+
+
+
+One approach is to say a higher-level person asked you to be there. You can follow this up by saying, “I can understand how you might feel now, but I don’t even want to imagine how upset Mr. Smith will be if I don’t fix that massive e-mail blunder before he returns on Monday.” This approach gives the target the ability to save face and comply.
+
+
+
+Egotistical approach: This approach is all about pride. For it to work you need a suspect who is very proud of an accomplishment. Bragging on good looks, intelligence, or the way the crime was performed may stroke his ego enough that he wants to confess to show that, indeed, he was that smart.
+
+
+
+In social engineering gigs this method is often used. Playing up someone’s accomplishments gets them to spill their deepest secrets. In the case of the U.S. nuclear engineer in China (refer to Chapter 3), social engineers loaded the man with compliments, and he spilled the beans and divulged information he shouldn’t have.
+
+
+
+Exaggeration approach: If an interrogator overexaggerates the case facts, the suspect may admit to what was real. One example would be if an interrogator accuses a thief of wanting to commit rape and saying, “Why else would someone break into a bedroom in the middle of the night?” This often causes the suspect to admit to only wanting to steal and not commit rape.
+
+
+
+You can also use this approach by overexaggerating the task you are there to perform. By overexaggerating the reason for being there you can give the target a reason for providing you lesser access. For example, you can say, “I know Mr. Smith wanted me to fix his computer personally because he lost a lot of data, but if you don’t feel comfortable with that, I can potentially fix his problem from another computer in the office.”
+
+
+
+Wedging the alibi: A suspect seldom confesses his transgressions all at once. Getting him to make minor admissions, such as he was on the site, owned the weapon in question, or owned a similar car, can move him toward admitting more and more, eventually leading to a complete confession.
+
+
+
+Maybe you get stopped at the door during a social engineering gig and the gatekeeper refuses you access to the building. See whether you can “gain access” by using a line like this: “I understand Mr. Smith is busy and can’t meet with me. Would you mind giving him this CD of information about our products and I will follow up with a phone call later on today or tomorrow?”
+
+
+
+It is a lesser admission, but nevertheless would get if not you, then one of your tools in the door.
+
+
+
+The End Goal
+
+To prepare to use proper interview or interrogation tactics, as a social engineer you may want to answer a few questions of your own. I encourage you to write these down in a notepad because doing so can help you prepare for your encounter with the target. Plus, writing down your answers makes them real and gives you a path to work on during the preparation for your interrogation.
+
+Answer these questions:
+
+Who: With whom is the interrogation or encounter being conducted? What role does he play? List names, titles, and other information about him that is relevant to the interrogation.
+
+What: Exactly what preparation has been done and what is going to be your goal during the interrogation? You must have a definite aim.
+
+When: What is the timeframe of the interrogation? What time of day or night? What are the circumstances at the business that lead to this decision about when to make your move? Is there a party you overheard about? Is it a time when a large portion of the employees are on vacation? Is it during lunch time? Is it during the changing of the security staff?
+
+Where: What is the location of the interrogation? Are you going to be at the target’s location? Are you tracking the person to his or her gym, local bar, or daycare? Where is the best place to try to obtain the information you need from the target?
+
+Why: People hear this question often enough from their kids, but it must be asked. What is the purpose of this interrogation? To make the target admit to the location of something? To make him give out information he should not? For you to gain access to a room or a server?
+
+How: What methods will you use in this interrogation? NLP? Embedded commands? Human buffer overflow (discussed at the end of this chapter)? Microexpressions?
+
+
+
+Of course, in a criminal interrogation the goal is confession to a crime. With interrogation as a social engineer the goal is a confession of a different sort. You want people to feel comfortable giving you information, and using the interrogation tactics discussed earlier you can make that easier to do. In the end, your social engineering interrogations should be like smooth interviews. However, a social engineer can use some other techniques to help while using interview and interrogation tactics on a target.
+
+Gesturing
+
+Gestures have a wide variation due to the fact that they are very much culturally dependent. Unlike microexpressions, which are universal, gestures from the United States can actually be insulting in other parts of the world, or have no meaning at all.
+
+Here is an exercise to help you better understand gesturing differences. If you want you can write down your answers to refer to in a few minutes. Depending on what culture you’re from, the answers will be interesting to see.
+
+Write down what you think this gesture means and whether it is rude in each case:
+
+1. Holding your palm facing upward, point at someone with your index finger and beckon to him.
+
+2. Make a “V” sign with your index and middle fingers.
+
+3. Sit with the soles of your feet showing.
+
+4. Make the “ok” symbol with your fingers.
+
+5. Wave a hand with your palm facing outward.
+
+6. Nod your head up and down.
+
+
+
+If you wrote down your answers, compare them to some of the following interesting cultural differences:
+
+1. In the U.S. this gesture simply means “Come here,” but in the Middle or Far East, Portugal, Spain, Latin America, Japan, Indonesia, and Hong Kong, beckoning someone this way is considered rude or insulting. Beckoning someone with the palms facing down and using all the fingers to beckon is more acceptable.
+
+2. In the U.S. this gesture is a “peace sign,” but in Europe it means “victory.” If you put the palm toward your face it actually means, “Shove it.”
+
+3. In the U.S. this is a comfortable way of sitting and doesn’t denote any bad intent. Yet in other countries, such as Thailand, Japan, and France, as well as countries of the Middle and Near East, showing the soles of the feet demonstrates disrespect. Exposing the lowest and dirtiest part of your body is insulting.
+
+4. In the U.S. this gesture means everything is okay. But in other parts of the world it has much different meaning. In Brazil and Germany it is an obscene gesture, in Japan it means “money,” and in France it means “worthless.”
+
+5. In the U.S. this is a greeting, a way to say hello or good-bye. In Europe it can mean “no,” and in Nigeria it is a serious insult.
+
+6. In the U.S. nodding your head is a way of saying “yes.” The same is true for many places, but in some areas, such as Bulgaria or Greece, it is a way of saying “no.”
+
+
+
+These are just a few examples of gestures that can have varying meanings depending on where you are or who you are talking to. Understanding the different meanings of gestures is important because communication is often much more than what is said.
+
+This section is intended to show that, during an interaction with a target, not only can these principles be observed but they can also be utilized to manipulate the target into a path of least resistance. Understanding the culture of the targets you approach will also keep you from performing a gesture that can have undesirable results.
+
+Anchoring
+
+Gestures can have some powerful effects when used properly. Some of these principles come from the study of NLP but can have a lot of power when you’re trying to set your target’s mind on a path you control.
+
+One such method is anchoring, which is a method of linking statements of a like kind with a certain gesture. For example, if you are talking to a target and he describes something positive and good, you can repeat it back while gesturing with your right hand only. If it is something bad you can gesture with your left hand only. After doing this gesture a few times you begin to “anchor” in your target’s mind that right-handed gestures are linked to good things.
+
+Salespeople use this method to further solidify that “their product” or “their service” is excellent and the competitor’s is not. Some politicians use this method to anchor positive thoughts or thoughts they want their audience to think of as positive with certain gestures. Bill Clinton was a great example of someone who understood this. To see this in action (albeit not former President Clinton) visit www.youtube.com/watch?v=c1v4n3LKDto&feature=player_embedded.
+
+Mirroring
+
+Another tactic when it comes to gestures is called mirroring, where you try to match your gestures to the personality of the target. Of course, this is not as easy as it sounds. But what can you discern about the target from just observation? Is she timid? Is he loud and outgoing? If you approach a timid person with large, loud gestures you will surely scare her off and potentially ruin your chances of making your social engineering attempt. By the same token, if you are more timid you will need to mirror “louder” gestures when dealing with “louder” people. Mirroring not only involves mimicking a target’s body language but also using gestures that make it easy for a person to listen to you.
+
+You can take this principle to another level. Seeing gestures a target is familiar with can be comforting to him or her. However, you must strike a careful balance, because if your target has a particular gesture he seems to be using a lot and you use it exactly the same way, then you run the risk of irritating him. You want to mirror him, but not exactly. If the target ends a thought by placing his hand on his chin you can end a thought by placing your hand on another part of your face or raise a finger to tap your chin a couple times.
+
+The following section analyzes the topic of gesturing a bit further by discussing the importance of the position and placement of a target’s arms and hands.
+
+Arm and Hand Placement
+
+Law enforcement officers are trained to notice the placement and position of the arms and hands during both interviews and interrogations. An increase in movement or “fidgeting” during an interrogation can show an increase in stress levels, signifying that the interrogation is having the desired effect. This is, of course, in a law enforcement setting; in a social engineering setting you would watch for these same signs, but signs of stress in the target might indicate you need to back off (unless your goal is to stress him or her out).
+
+Certain law enforcement officers are taught to pay attention to a couple of signs:
+
+Elbows generally hang free next to the body when a person is relaxed. When you feel threatened or scared your body’s natural reaction is to pull the elbows in towards the rib cage. In essence this position serves as a layer of protection to one’s internal organs that might be threatened.
+
+Hand gestures often can be very revealing, too. A target may describe something with his hands that he doesn’t say. For example, in a crime interrogation suspects may make a gesture that describes the activity (that is, strangling, shooting, stabbing, and so on) but just say the word crime or incident. Watching for the subtle hand gestures your target may use is important.
+
+
+
+Taking note of signs that the target is feeling threatened or scared can help you to adjust and put them back at ease. When you approach a target, much can be said with body language and arm and hand gestures before the first word is even spoken.
+
+Other gestures to take notice of include:
+
+An open palm might indicate sincerity.
+
+Steepled fingers could indicate the person feels authoritative.
+
+Tapping or drumming fingers can indicate anxiety.
+
+Touching the face can indicate thought; touching hair can indicate insecurity; and touching ears can indicate indecisiveness.
+
+
+
+Taking note of these gestures in your target can tell you a lot about his mindset. On the other hand, performing these gestures can help you to portray one of these images if this is your pretext.
+
+From a social engineering standpoint here are a few key points about gestures, which can be imperative if you are a “big” gesturer like me:
+
+No one should remember the gesture, but only the message attached to it. If people tend to say, “Wow, that guy gestures a lot” you need to calm down a bit. The message is important, not the gesture.
+
+Avoid monotony. Even in gestures you can be so bland, boring, and repetitive that the gesture can adjust the target’s perception of you to be negative.
+
+Be very concerned about exhibiting anxiety, such as tapping or drumming your fingers or making jerky movements. They tell the target you are nervous and detract from your message.
+
+Too much is too bad. Overgesturing can also detract from your message.
+
+
+
+Remember that using facial expressions, gestures, and posture is a package deal. They must all blend together, be balanced, and support your pretext.
+
+As good as all this information is, one tool in the interrogation arsenal can make or break the way you use this knowledge in your social engineering skills.
+
+Listening Your Way to Success
+
+Probably not one skill exists that can be as encompassing as listening. Listening is a major part of being a social engineer. What you have to realize is a major difference exists between hearing and listening.
+
+It is commonly believed that people retain much less than 50% of what they hear. That means if you are talking to a person for ten minutes he will remember only a few minutes of what you said. Although people eke through life this way, it is not acceptable for a social engineer.
+
+Often the little things that are said can make or break how successful you are in a social engineering endeavor. This area is where massively improving your listening skills comes in, and not just listening to what is said, but how it is said, when it is said, and with what emotion. All of these factors contribute to your perception of the information relayed.
+
+Being a good listener might sound easy, but when you are in the heat of the moment, your end goal is to gain access to the server room, and you are listening to a story by a few employees out for a smoke break who you plan on following into the building, truly listening can be hard.
+
+Yet it is during these times you might want to really listen. Maybe Susan starts to complain about her manager in HR, Mr. Jones. She tells a story about how short he has been with her lately and how she is fed up with it. Then her fellow smoker, Beth, says, “Well you should come over to the paradise of accounting. It is filled with jerks there, too.”
+
+Maybe this just sounds like the complaining chatter of two tired and ticked-off employees. Or is it more? You have both of their names, the name of a manager, the names of their departments, and some idea of the general demeanor of some of the employees. This information can be very valuable later on if you need to provide proof of your validity for being inside the building.
+
+Often the way someone says something can tell you a lot about the person, but applying this will require a lot of listening. Is the person angry, sad, or happy? Did she speed up or slow down in her delivery? Did he get emotional or did his emotion trail off? Paying attention to these types of things can tell you a lot more than the words at times.
+
+So how can you become a great listener?
+
+The following steps can help you perfect your listening skills. These tips can assist you not only in social engineering but also in life, and when applied to a social engineering audit can make a world of difference.
+
+1. Pay attention. Give your target your undue attention. Do not fiddle with your phone or other gadget. Do not drum or tap your fingers. Try to focus intently on what is being said, looking at the person speaking. Do this in a very inquisitive way, not in a scary, “I want to stalk you” way.
+
+Try hard not to think ahead and plan your next response. If you are planning your next response or rebuttal you will not be focused, and you may miss something important or give the target the impression you don’t really care. This can be very hard to control, so perfecting this tendency will take some serious work for most people.
+
+Also try to not be distracted by environmental factors. Noise in the background or a small group laughing about something can shift your focus; do not allow that to happen.
+
+Finally, pay close attention to what the speaker is not saying, too. The body language, facial cues, and other aspects of communication should be “listened” to intently.
+
+2. Provide proof that you are listening. Be open and inviting with your body language and facial expressions. Nod once in a while, not too often, but often enough to let the target know you are there. You don’t want to look like a bobble head doll, but you want to let the target know you are “with him.”
+
+Don’t forget the all-important smile. Smiling can tell the target you are with him mentally and you understand what he’s saying. As with paying attention mentioned earlier, add small smiles when appropriate. If the person is telling you her dog just died, nodding and smiling will most likely get you nowhere.
+
+3. Provide valuable feedback. Letting your personal beliefs and experiences filter the message coming your way is all too common. If you do that you may not truly “hear” what the speaker is saying.
+
+Be sure to ask relevant questions. If she is telling you about the blue sky then you say, “So how blue was the sky?” will not be effective. Your questions must show you have been actively listening and have the desire to gain a deeper understanding.
+
+Every now and then mirroring or summarizing what you have heard can work well, too. Don’t recite the conversation like a book report, but recapping some of the main thoughts can help the target see you are in tune with the message.
+
+4. Do not interrupt. Not much more needs to be said on this tip. Interrupting your target shows a lack of concern for his feelings and stops the flow of thoughts. Letting him finish and then speaking is better.
+
+However, circumstances do exist where interrupting can be useful or even a tactic. If you want to see an example, watch the movie Sneakers. When Robert Redford is trying to gain access to a locked door that he must be buzzed into, he interrupts the doorman in a heated dispute over some delivery items. He does so a few times, eventually frustrating the doorman and causing him to unlock the door with no authorization. If you think it will get you somewhere, interrupting might be a good idea. Most of the time however, it is not.
+
+5. Respond appropriately. This is the pinnacle of good or bad listening skills. If you were focused on your rebuttal or next statement, or you were thinking about the very attractive blonde that just walked by, you might put your foot in your mouth.
+
+
+
+I was once training a group of people and was telling them some aspects of very detailed manipulation tactics. I could tell two guys were not listening. I put in a random thought like, “So then you bake the lion at 350 degrees for 15 minutes til crispy.” The rest of the group broke out in laughter and I turned to one of the two and said, “What do you think, John?” He responded with a blank stare and a stuttered, “Um, yah, sounds perfect.”
+
+Do not ever do that to a target. It is a death blow to rapport (discussed later in this chapter). Be respectful, keep your emotions in check, and respond appropriately at all times when conversing with a target.
+
+Paying attention, providing proof, giving positive feedback, being careful to never interrupt, and responding appropriately can make or break you when it comes to listening. They especially come into play during extended social engineering engagements, such as when I had to interact with the gentlemen at the Chamber of Commerce social gathering by “meeting” him at the bar and then talking to him about his business. Much of the information I was seeking would have been divulged in normal, mundane conversation. Make sure you practice these tips at home or the office before the time comes for the conversation to take place. You want good listening to become second nature as part of your arsenal of talents, not something you have to think about.
+
+Your own emotions are another aspect of listening you must take into account. For example, I was raised in a strict, religious Italian family. I was taught that you didn’t disrespect women, and I shudder to tell you of the one time I called my mom a disparaging name. I will tell you that it did not end too well for me. One day many years after that incident, I was working an engagement and was talking with a guy from whom I was trying to obtain some information. I approached him in a social setting and we started a conversation. He started to talk about a woman he worked with, in a very inappropriate way. Being raised the way I was, I found a lot of anger boiling up inside me. I had a hard time containing those feelings and it must have shown on my face and in my body language, leading to that particular vector being blown. In that failure I learned a very valuable lesson��when it comes to listening during social engineering engagements, you must try your hardest to not let the built-in filters you have get in the way.
+
+Also, remember to react to the message, not the person. If you don’t agree with a person’s beliefs or stance, affording him or her dignity will go a long way in making that person feel comfortable with you. Even in situations where you might not agree you can find something empathic to say. For example:
+
+Target: “This job stinks. They make me work this horrible shift and for low pay, too.”
+
+SE: “It sounds to me like you are overwhelmed by your situation here.”
+
+Although you might be thinking “Try Harder,”™ by responding this way you let the target know you were listening, as well as empathizing with her plight in life.
+
+This technique is known as reflective responding. Reflective responding has some basic principles to it:
+
+Listen actively, as described earlier.
+
+When it’s time to respond, be aware of your emotions. Knowing what you feel as the target is speaking can help you to react properly.
+
+Repeat the content, not like a parrot, but in your words.
+
+Start your response with a non-committal phrase such as, “It sounds like,” “It seems like,” or “It appears that.” These phrases ease the message you are trying to deliver. If you need proof of this, the next time you get into an argument with your mate, boss, parents, or whomever say, “You are mad at me because…” and compare the person’s reaction with what you get when you say “It appears you are mad because of…” instead. You will see which one is taken better.
+
+
+
+Reflective responding used with active listening is a very deadly force in the trust and rapport-building skills arena.
+
+As you learn to listen better and it becomes part of your nature you will enhance your ability to react to the message you hear. A social engineer’s goal is to gather information, gain access to someplace or something you should not have access to, or cause the target to take an action he should not take. Thinking that you must be perfect at manipulation often stops people from learning and practicing great listening skills, but this is the exact reason you need to be a great listener.
+
+Consider these two scenarios:
+
+One of your neighbors comes over and asks whether you have time to help him with a project in his garage for about an hour. This neighbor has a dog that has gotten into your garbage a few times and tends to like to use your yard as a bathroom. You are just about to sit down to relax at the end of a long day and watch some TV or read a book.
+
+Your childhood friend comes over and tells you that he needs some help moving some furniture. He just got a place about five miles from you and he can’t get the couch up the stairs. You are just about to sit down to relax a bit.
+
+
+
+For which scenario are you more likely to put aside relaxing? Most people will put aside relaxing for the second scenario, but will come up with an excuse or reason to not help out in the first scenario or at least try to postpone it to another day when they are not “busy.”
+
+Why? People are very open and free with friends. When you feel comfortable with someone, you have no boundaries and will put aside your own wants and needs at times to help them out. One naturally trusts the message coming from a friend, whereas with the stranger one might start to double-guess what’s being said, trying to determine whether it is truthful or not. In the case of the relationship with the friend, this connection is called rapport.
+
+For years rapport has only been talked about when it comes to salespeople, negotiators, and the like. Rapport isn’t just for salespeople; it is a tool that anyone can use, especially the social engineer. If you are wondering how to build rapport instantly, then read on.
+
+
+
+
+
+Building Instant Rapport
+
+My former coworker, Tony, used to say that building rapport was more important than breathing. I don’t really believe that to be true, but it does have a ring of truth in that rapport building is vital.
+
+Wikipedia defines rapport as, “One of the most important features or characteristics of unconscious human interaction. It is commonality of perspective: being ‘in sync’ with, or being ‘on the same wavelength’ as the person with whom you are talking.”
+
+Why is rapport discussed in this chapter? It is a key element in developing a relationship with any person. Without rapport you are at an impasse. Within the psychological principles behind social engineering, rapport is one of the pillars.
+
+Before getting into the aspects of how to use rapport as a social engineer you must know how to build rapport. Building rapport is an important tool in a social engineer’s arsenal.
+
+Imagine that you could make people you meet want to talk to you, want to tell you their life story, and want to confide in you. Have you ever met someone like that, someone you met recently but feel totally at ease telling him or her very personal things? Many psychological reasons may play into why that may be the case, but the case may be that you and that person just had good rapport.
+
+The following sections outline important points about building rapport and how to use rapport in social engineering.
+
+Be Genuine about Wanting to Get to Know People
+
+How important are people to you? Do you enjoy meeting new people? It is a mindset about life, not something that can be taught. The prerequisite to building rapport is liking people. People can see through a fake interest.
+
+To be a good social engineer and to be able to use rapport, people need to be important to you. You must like people and enjoy interacting with them. You have to want to learn about people. People can see through fake smiles and fake interest. Developing a genuine interest in your target can go a long way toward building rapport.
+
+Take Care with Your Appearance
+
+You cannot change some things that may affect your interaction with others. Unfortunately, people can still hold your skin color, gender, or age against you before you facilitate any interaction. You can’t control those things, but you can control aspects of your appearance such as clothing, body odor, and cleanliness, as well as your eye contact, body movements, and facial expressions. I read a statement once that I have seen proven true too many times to ignore: “If a person is not comfortable with himself, others will not be comfortable with him either.”
+
+Be aware of your pretext and your target. If your pretext is the janitor, make sure your demeanor, dress, attitude, and words reflect someone in that position. If your pretext is a manager of a business, then make sure you act and dress appropriately. This takes research but nothing kills rapport easier than not looking the part. Your goal in some instances is to keep people in the autopilot mode that will let them not question you. Having your dress, grooming, or demeanor out of place removes the target from autopilot and hurts your chances at success.
+
+Be a Good Listener
+
+See the earlier section for more details. The importance of good listening can’t be overstated.
+
+Whether you are trying to make a friend or make a social engineering move, listening is a skill you need to master.
+
+Be Aware of How You Affect People
+
+One time I saw an older woman drop an item as she left a grocery store. I picked it up and followed her out to the parking lot. By the time I caught up with her she had her trunk open and was loading groceries into her car. I came up behind this short, little elderly woman and with all 6’ 3” of me looming over her said, “Excuse me, ma’am.” I was obviously too close for her comfort and when she turned around she screamed out, “Help! He’s trying to mug me. Help!”
+
+I obviously needed to think about how my presence might affect this woman during my interaction with her. I should have realized that an elderly woman all alone in a parking lot who was not expecting a huge man to walk up behind her might freak out. I should have come around and approached her from a different angle.
+
+Be aware of how your appearance and other personal aspects might affect those you will be in contact with. Do you need a breath mint? Make sure no food is on your face or in your teeth. Try to be relatively sure that nothing is glaring in your personal appearance that will turn the person off.
+
+UCLA Professor of Psychology Albert Mehrabian is known for the 7-38-55 Rule, which states that statistics show that only 7% of normal communication is the words we say, whereas much more lies in the body language and vocal tones. Try to be aware of yourself, but also pay attention to the first few seconds of interaction with a person. His or her reaction to your approach can tell you whether you possibly missed something, or whether you need to change something to be more effective.
+
+As a social engineer, be aware of how you affect people. If your end goal is all that is on your mind you will affect the people you come into contact with negatively. Think about how your appearance, words, and body language may affect your target. You want to appear open and inviting.
+
+Keep the Conversation off Yourself
+
+We all love to talk about ourselves and even more so if we feel we have a great story or account to share—it is human nature. Talking about yourself is one way to kill rapport. Let the other person talk about himself until he gets tired of it; you will be deemed an “amazing friend,” a “perfect husband,” “great listener,” “perfect sales guy,” or whatever other title you are seeking. People feel good when they can talk about themselves; I guess we are all a little narcissistic, but by letting the other person do the talking you will leave that interaction with his liking you a lot more.
+
+Keep the conversation off yourself. This point is especially cogent for social engineers. You have a definite goal in mind and sometimes your judgment and direction can be clouded by what “you” want. Taking that focus off of the target is dangerous as far as success goes. Let targets talk about their jobs, roles, and projects, and be amazed at how much information they release.
+
+Remember That Empathy Is Key to Rapport
+
+Empathy—defined by Random House Dictionary as “the intellectual identification with or vicarious experiencing of the feelings, thoughts, or attitudes of another”— is lacking in many people today and is especially hard to feel if you think you have the solution to someone’s problem. However, really listening to what someone is saying, trying to identify and understand the underlying emotions, and then using reflection skills can make a person feel as if you are really in tune with him.
+
+I felt it necessary to provide the definition of empathy because understanding what it is you have to do is important. Notice that you must “intellectually identify” with and then experience “the feelings, thoughts, or attitudes” of someone else.
+
+These aren’t always serious, depressing, or extreme emotions. Even understanding why someone is irritated, tired, or not in the best mood can go a long way. Imagine you go to the bank drive through and the teller lady gives you a monster attitude because you forgot to sign your check and she now has to send it back. You also forgot a pen and need to ask her for yet another favor. Your reaction might be similar to mine, especially if she gave you the eye roll and the irritated glance—you want to tell her that she is here to serve you. Instead, try saying this, “It appears you might be a little irritated. I understand that; I get irritated when I have to deal with my forgetful clients, too. I hate to ask this, but could I please get a pen?”
+
+It’s important to not be patronizing when attempting to show empathy. If your empathy seems to come off haughty or arrogant, you can make the target feel like you are patronizing them.
+
+You acknowledged her being upset but without accusation, showed that you have the same feelings, and then made a request. Empathy can go a long way toward building rapport; one caveat is that rapport cannot be faked. People need to feel you are genuinely concerned to build that trust relationship. If you are not a natural at displaying empathy, then practice. Practice with your family, friends, coworkers, teachers, or classmates. However and wherever you do it, practicing being empathetic will greatly improve your relationship-building skills.
+
+Empathy is a tool of the social engineer. Unfortunately, it is also used often in malicious social engineering. When a catastrophe hits somewhere in the world a malicious social engineer is often there to “empathize” with you. The thing that probably makes this tool so easy for malicious social engineers to use in many cases is because they truly are from bad, poor, or impoverished places. Being in bad straits themselves makes appearing empathetic to others’ plights in life easy and therefore creates rapport automatically.
+
+Nothing builds rapport more when people feel like you “get them.” This is proven very true when someone is a victim of disaster. It’s a scary thought, but those who have been victims of abuse, crime, rape, natural disasters, war, or other atrocities on earth often can “understand” the feelings of those who are experiencing them. This opens victims up to trusting the wrong type of people if that rapport is built.
+
+As mentioned before, when the 9/11 attacks happened in New York City, many people claimed to have lost family or friends in terrorist attacks. That made people empathize and therefore these “victims” were given money, fame, or whatever they were seeking.
+
+As a social engineering auditor, you must be able to have a broad range of emotions that you can tap. Being closed in your emotions makes being empathetic very hard. This point goes along with really liking people. If you do, you won’t have a hard time getting to know them and their stories and empathizing with them.
+
+Be Well Rounded in Your General Knowledge
+
+Knowledge is power. You don’t have to know everything about everything, but having some knowledge about some things is a good idea. It makes you interesting and gives you something to base a conversation on.
+
+Knowledge is power. The old hacker mantra comes back to you as a social engineer. A social engineer should be a reader and a studier. If you fill your head with knowledge then you will have something to talk about when you approach a target. Don’t neglect reading, researching, and studying about the topic of the target’s occupation or hobbies. Your goal is not to be a “know-it-all” and become an expert on every topic, but rather to have enough knowledge that you don’t look at the target with a blank stare when she asks, “Did you bring an RJ-45 connector with you to fix the server’s network connection issues?”
+
+Develop Your Curious Side
+
+People normally feel a little self-righteous when it comes to their beliefs or thoughts on the way things should be done. That self-righteousness or judgmental attitude can change the way a person reacts to something being said. Even if you don’t say anything you may start to think it, which can show in your body language or facial expressions. Instead of being self-righteous, develop a curiosity about how other people think and do things. Being curious keeps you from making rash judgments. This can be applied by being humble enough to ask for help or ask for more information. Be open minded enough to look into and accept another’s thoughts on a topic, even if those thoughts differ from yours.
+
+Curiosity did not kill the social engineer. This point doesn’t change much from a non–social engineer perspective. When you become curious about others’ lifestyles, cultures, and languages you begin to understand what makes people tick. Being curious also keeps you from being rigid and unbending in your personal judgments. You may not personally agree with certain topics, beliefs, or actions but if you can remain curious and nonjudgmental then you can approach a person by trying to understand why he is, acts, or portrays a certain way, instead of judging him.
+
+Find Ways to Meet People’s Needs
+
+This point is the pinnacle of the list and is one of the most powerful points in this book. Dr. William Glasser wrote a book called Choice Theory in which he identified four fundamental psychological needs for humans:
+
+Belonging/connecting/love
+
+Power/significance/competence
+
+Freedom/responsibility
+
+Fun/learning
+
+
+
+The principle behind this point is that creating ways for people to get these needs met by conversing with you builds instant rapport. If you can create an environment to provide those needs for people, you can create bonds that are unbreakable.
+
+Let me tell you a brief story about how powerful meeting people’s needs can be. I was in a minor car accident. A young driver pulled out in front of me and then decided to stop. I had a split second to decide between hitting him going 55 mph or veering off away from him then launching my car over a small ditch into the side of a mountain. I chose in a second to not kill the three young people in the car. My car went airborne until it was stopped by solid rock. I watched my beautiful little customized Jetta crumple under the weight, and my face smacked off the windshield. I barely nicked the other driver’s rear bumper but I was moving fast enough that his car was sideways in the highway. When I was able to get my bearings we called the cops and an ambulance.
+
+The young man had a different insurance company than I did. The next morning I got a call from his agent, who politely asked me questions. He told me that an adjuster would come out to see my now-crumpled Jetta, and within 48 hours I was handed a check and a letter stating they would cover all medical costs for my recovery.
+
+I was then given up a follow-up call from his insurance agent to see whether I was okay. How many calls from my insurance company do you think I got? I got one, just to tell me how to answer questions.
+
+I understand that caring about each person is not the job of these large companies. But the other agent called me just see whether I was okay. I fought no battles to get paid and I was given a very fair price for my car.
+
+Two days after that I cancelled my insurance and went to see Eric, the insurance agent who called me, from the young man’s company. I told him I was so impressed that I wanted what he was selling. It has been 12 years now and I use Eric for every insurance need I have. About two years ago I got a call from an insurance company offering me rates that were substantially lower than what Eric and his company offer. I couldn’t even think about doing that to Eric. Why? Rapport—plain and simple. Eric is my friend, my helper, someone I can call about questions on insurance, and someone who will always give me the best advice. He cares, he knows my family, and he never tries to hard-sell me. He doesn’t have to, because I will buy whatever he has, because I trust him.
+
+This is the power of rapport. I don’t know, maybe Eric’s end game in checking on me was to get me to move to his insurance practice, although I doubt it. Knowing him, he actually cares and anyone who knows him says the same thing. His brother and he run a solid business. Rapport can create bonds between people that transcend cost or loss.
+
+Filling a need for the person you are talking to drastically increases the chances of building rapport. Do it without appearing to have an end game, do it with a genuine desire to help, and be amazed at the results. Perhaps no other avenue is more valuable for social engineers than being able to meet these needs. Learning how to create an environment that allows the target to feel comfortable and get one of the basic four fundamental needs met is a sure way to ensure unbreakable rapport.
+
+Spies use this principle of filling a need or desire often. In a recent trip to a South American country I was told that its government is infiltrated all the time via fulfilling the basic need of “connecting or love.” A beautiful woman will be sent to seduce a man, but this is no one-night stand. She will seduce him for days, weeks, months, or even years. As time continues she will get bolder with her requests for where they are intimate, eventually making their way to his office, where she gains access to plant bugs, Trojans, or clone drives. This method is devastating, but it works.
+
+Social engineers fill desires through phishing emails also. In one test 125 employees of a very reputable company were sent fake image files labeled BritneyNaked.jpg, MileyCyrusShowering.jpg, and other such names, and each image was encoded with malicious code that would give the social engineer access on the user’s computer. The results were that more than 75 percent of the images were clicked. What was found was the younger the star mentioned in the picture, the higher the click ratio.
+
+These disgusting and devastating facts show how well fulfilling people’s desires can work. In person, too, it is no different. Police interrogators use this tactic for building rapport all the time.
+
+One time I interviewed a law enforcement agent for a podcast I did at social-engineer.org (www.social-engineer.org/framework/Podcast/001_-_Interrogation_and_Interview_Tactics). The guest told a story that proves this point about the power of rapport to make people comply with requests. The officers had arrested a man who was a peeping tom. He had a fetish where he loved to invade the privacy of women who wore pink cowboy boots. The law enforcement, instead of judging him for the freak he is, used phrases like, “I like the red ones myself,” and “I saw this girl the other day wearing short shorts and high cowboy boots, wow!”
+
+After just a short time he began to relax. Why? He was among like-minded people. He felt connected, part of the crowd. Their comments put him at ease and he began to spill his guts about his “habits.”
+
+The preceding is a nice example of how to develop and build rapport, but how can you use it as a social engineer?
+
+You can build rapport in a matter of seconds by applying the principles of building rapport discussed earlier. To prove this, imagine you need to grab some cash, you don’t have your ATM card on you, and you forgot your account number, so you have to go in and ask someone for some help. Maybe you feel a little embarrassed about having to ask for your account number. You walk into a local branch of your bank you have never been into. No one is in the bank and you have your choice of tellers. Maybe you don’t think about it, most people don’t, but you will look over all the open lanes and choose the person who makes you feel the most comfortable. You will get the same results from each lane, but you will choose the one that makes you feel okay.
+
+Maybe you choose the most attractive person, or the one with the biggest smile, or the one who greets you first—whomever you choose and however you choose them you make the choice either consciously or unconsciously, but a lot of it has to do with rapport. The same principle will prove true when it comes to you and your target. As you walk up to a target she will make instantaneous snap judgments of you based on your personal appearance, demeanor, facial expressions, and, of course, her mood. Most of these factors you can control, so take pre-emptive action on them to ensure success.
+
+Building rapport properly creates a bond like strong glue that can withstand minor inconvenience and even some misunderstanding.
+
+Rapport allows a person to say and do things that only close friends can do, because he or she is brought into that inner circle of trust. It is a powerful force without which salespeople, friendships, employment, and many other situations are much more difficult.
+
+Remember Chapter 4 on pretexting? You learned that pretexting is more than just playing a part, it is living, being, and becoming the person you are portraying to the target. Having a strong pretext is imperative to building the right kind of rapport. In many social engineering engagements you will not have the time to build a storyline and use long-term seduction or rapport techniques, so your success will be based on many of the non-verbal things you will need to do.
+
+Using Other Rapport-Building Techniques
+
+Other rapport-building techniques exist that are based in NLP research. As you now know, rapport is basically connecting with someone and putting him or her at ease; some NLP techniques used by hypnotists and NLP practitioners can put people at ease instantly, as discussed next.
+
+Breathing at the Same Rate as Your Target
+
+Breathing at the same rate as someone doesn’t mean you closely listen to every breath and try to breathe in and out when your target does. But some people have very defined breathing patterns: Some have fast and short breathing, and some have long and deep breathing. Notice how the target breathes and mirror that pattern, but without parroting (that is, doing it at the same exact time).
+
+Matching Your Target’s Vocal Tone and Speech Pattern
+
+I was born in New York and raised in an Italian family. I talk fast, loud, and with my hands. In addition to being 75 percent Italian, I am 25 percent Hungarian. I am big, tall, and loud and gesture like a professional sign language translator on speed. If I approach a timid, shy, slow-talking southerner I can kill rapport if I do not slow down, put the hands away, and change my communication style. Listen to your target’s vocal tone and match yours to his, whether he is a slow, fast, loud, quiet, or soft speaker. As for accents, a good rule is: Don’t try. Unless you can do it very well don’t even attempt it. A poorly done accent is a rapport killer.
+
+Along these same lines, you can also try to listen for key phrases. People use terms like “okie dokie” or “yepper.” Listen for any key phrases, and even if they are out there, you might be able to work them into a sentence.
+
+Once I was talking with a target who would say things like, “It’s six of one and half dozen of another.” I don’t use that phrase a lot and didn’t want to screw it up, because that would create a lack of rapport. Instead, I would mix in some of the key words of that phrase and say things like, “I must have done that a half dozen times.”
+
+How someone talks is also an area where you should restrict your personal judgments. Some people are close talkers, some are whisperers, some are touchers—if you are not, you need to allow a person freedom to talk the way he or she is comfortable and then mirror it.
+
+Matching Your Target’s Body Language
+
+Matching body language is a very interesting avenue of rapport building mainly because it can work to create very strong bonds but at the same time it can kill all your rapport in a matter of seconds in the case of a mismatch.
+
+If you notice someone standing a certain way, maybe with both arms crossed, don’t assume she is shutting you out—maybe she’s just cold. Can you cross one arm across your body to mirror her stance, or fold your hands into a steeple?
+
+When sitting across from someone who is eating a meal you can take a few sips from your drink while he eats to mirror him. Don’t do everything he does, but make similar actions.
+
+People like people who are like themselves. That is just human nature. It makes them feel comfortable. Bill Philips was the genius behind the Body-for-Life program that changed the way workout programs were developed. He promoted something that was heavily tied to the mirroring principle. If you are fat and you only hang out with fat people, the chance of your changing is slim to none. Why? The answer is that you are comfortable with being fat and with people who are also comfortable with it. If you want to change, then hang out with skinny people and a mental change will quickly happen.
+
+This principle is the same in social engineering. You don’t want your targets to make a change, so you need to be like them. You want them to feel good with you.
+
+Testing Rapport
+
+Using these alternative rapport-building techniques as well as matching energy levels, facial expressions, and the like can build strong rapport on a subliminal level.
+
+After trying some of these tactics you can test your rapport by making a movement, like scratching your head or rubbing your ear, and if in the next minute or two you see your target make a similar movement you probably have developed some strong rapport.
+
+These techniques can work wonders in many parts of your life when developing, building, and starting relationships with others. Learning how to use the psychological principles included in this chapter can make a huge difference in your social engineering practice.
+
+For years, there has been a myth that the human mind can be overwritten like a program. Is it just a myth? Can the human mind be mastered?
+
+The next section reveals some of the most mind-blowing information in this book.
+
+
+
+
+
+The Human Buffer Overflow
+
+A glass can only hold so much liquid. If you have an 8-ounce glass and you try to pour 10 ounces of liquid into it, what will happen? It will overflow and spill all over the place. If you try to force the container to hold more liquid that it is meant to you can eventually break the glass due to pressure.
+
+Computer programs work in a similar manner. Imagine you have a small program that has only one purpose and two fields: User Name and Password.
+
+When the program opens you see a little screen where you type in admin in the User Name field and password in the Password field. A little box appears that says “OK,” signifying all is good.
+
+The developer allocated a certain amount of memory space for the User Name field, enough to hold the word admin a couple times. What happens if you put 20 A’s in that field and click OK?
+
+The program crashes and gives you an error message. Why? The input entered is longer than the allocated space and without proper error handling the program throws an exception and crashes.
+
+The goal of software hackers is to find the address that the program will call upon in a crash and insert malicious code into that address. By controlling the execution flow the hacker can tell the program to “execute” any program he desires. He can inject commands of any type into the memory space of that program because he now controls it. As a penetration tester few things are more exciting than seeing a program execute commands you tell it to.
+
+The human mind runs “software” and over the years you build instruction sets, buffers, and memory lengths into your “software package.”
+
+Before applying this to the human mind, definitions of a few technical terms are necessary. A buffer is an area of space that is given for something to happen or to hold data. As in the simplistic glass-of-water example, the password field is given a buffer, which is the number of characters that it is allowed to have. If a larger number than the buffer is entered the programmer needs to tell the program to do something with the larger than necessary data set.
+
+If he doesn’t, the computer crashes and your program shuts down. Often what happens in the background is the program didn’t know what to do with all the data so it overflowed the allocated space, crashed the program, and exited. Hence the term buffer overflow.
+
+The human mind works in a similar way. Space is allocated for certain datasets. If a certain dataset does not fit the space we have for it, what happens? Unlike a computer, your brain doesn’t crash, but it does open up a momentary gap that allows for a command to be injected so the brain can be told what to do with the extra data.
+
+A human buffer overflow is basically the same principle. The goal is to identify a running “program” and insert codes into that program that will allow you to inject commands and in essence control the movement of thought to a certain direction.
+
+To test this concept, take a look at a very simplistic example (see Figure 5-16).
+
+Because the picture in this book is black and white, I have put a color copy up on the website at www.social-engineer.org/resources/book/HumanBufferOverflow1.jpg.
+
+Here is the gist. Open that URL, and then as fast as you can try to read the color of the word, not what the word spells.
+
+Figure 5-16: Human buffer overflow experiment 1.
+
+
+
+This game is not as easy as it looks. If you successfully get through it, then try to do the exercise faster and faster. What will happen to most, if not all, of us, is that at least once you will read the word and not the color, or find yourself struggling through it.
+
+Why do we have such a hard time with this exercise? It is because of injected commands. Our brains want to read the words not the colors. It is the way the human mind is wired. Our brain sees the color but it reacts to the word being spelled first. Therefore, the thought in our minds is the word not the color. This exercise shows that having “code” execute in the human brain that might be the opposite of what the person is thinking or seeing is possible.
+
+Setting the Ground Rules
+
+In a paper entitled “Modification of Audible and Visual Speech” (www.prometheus-inc.com/asi/multimedia1998/papers/covell.pdf) researchers Michele Covell, Malcolm Slaney, Cristoph Bregler, and Margaret Withgott state that scientists have proven that people speak 150 words per minute but think at 500–600 words per minute. This means that most people you talk to can jump around your conversations in their heads. So overflowing the brain through fast speech seems almost impossible.
+
+You must also understand how people make decisions in life. People make most of their decisions subconsciously, including how to drive to work, get coffee, brush their teeth, and what clothes to wear without really thinking about it.
+
+Have you ever driven all the way to work and when you get there, you can’t remember what billboards you passed, what route you took or that traffic accident on the news? You were in a state of mind where your subconscious took over and did what you always do without your consciously thinking about every turn.
+
+Most decisions people make are like this. Some scientists even believe people make decisions up to seven seconds earlier in their subconscious before making them in the real world. When people finally do make a decision consciously they do it from more than just what they hear—sight, feelings, and emotions become involved in the decision.
+
+Understanding how humans work and think can be the quickest way to creating a buffer overflow, or an overflow of the natural programs of the human mind so you can inject commands.
+
+Fuzzing the Human OS
+
+In actual software hacking, a method called fuzzing is used to find errors that can be overwritten and give control to a malicious hacker. Fuzzing is where the hacker throws random data at the program in differing lengths to see what makes it crash, because it cannot handle the data. That gives the hacker a path to inject malicious code.
+
+Just like fuzzing a program, you must understand how the human mind reacts to certain types of data. Presenting people with different sets of decisions or different sets of data, then seeing how they react can tell us the “programs” they are running. Certain laws in the human mind seem to be inherent that everyone follows.
+
+For example, if you approach a building with two sets of doors (one outer and one inner) and you hold the first set open for a complete stranger, what do you think he will do next? He will either hold the next set open for you or make sure that set stays open until you get inside.
+
+If you are in a line of merging traffic and you let a complete stranger merge in front of you, most likely if you needed to merge later on he would let you in without even thinking. Why?
+
+The reason has to do with the law of expectations, which states that people usually comply with an expectation. Decisions are usually made based on what that person feels the requestor expects him or her to do. One way you can start sending your malicious “data” to the brain program is called presupposition.
+
+By giving the target something first, the request you make next will be “expected” to be followed. A simple example for you to test is with the doors. Hold a door for someone and most likely that person will at least make an attempt to ensure the next set of doors is open for you. A social engineer can do this by first giving the target a compliment or a piece of information they deem valuable, before the request is made. Giving that over first creates in them the need to comply with a future request as it is expected.
+
+Presupposition can be described best via an example:
+
+“Did you know my next door neighbor, Ralph, always drives a green Ford Escort?”
+
+In this sentence you presuppose:
+
+I know my neighbor.
+
+His name is Ralph.
+
+He has a driver’s license.
+
+He drives a green car.
+
+
+
+To use presupposition effectively you ask a question using words, body language, and a facial expression that indicates what you are asking is already accepted. The basic gist of this method is to bypass the “firewall” (the conscious mind) and gain access directly to the “root of the system” (the subconscious). The quickest way to inject your own “code” is through embedded commands, discussed next.
+
+The Rules of Embedded Commands
+
+Some basic principles of embedded commands make them work:
+
+Usually the commands are short: three to four words.
+
+Slight emphasis is needed to make them effective.
+
+Hiding them in normal sentences is the most effective use.
+
+Your facial and body language must support the commands.
+
+
+
+Embedded commands are popular in marketing with things like:
+
+“Buy now!”
+
+“Act now!”
+
+“Follow me!”
+
+
+
+In a real buffer overflow, exploit writers use padding, which is a method of adding some characters that do not interrupt the execution but allow a nice little “landing pad” that leads to the malicious code. Social engineers can utilize phrases that are like padding, to help the next command have a soft place to land when it is injected, such as:
+
+“When you…”
+
+“How do you feel when you…”
+
+“A person can…”
+
+“As you…”
+
+
+
+All of these statements create an emotion or a thought that allows you to inject code into the subconscious.
+
+Many examples of embedded commands exist, but here are a few to ponder:
+
+Using quotes or stories: The brain tends to process stories differently than other information. Some of the greatest teachers who have ever lived—Aristotle, Plato, Gamaliel, Jesus—all used stories and illustrations to teach those listening to them. Why?
+
+
+
+The unconscious mind processes stories as direct instructions. Bandler, one of the fathers of NLP, taught that NLP practioners need to learn to use quotes. He knew the power of stories or quotes would give the speaker power over the thinking of his listeners. Reading quotes, using quotes, and then embedding commands into quotes can be a powerful use of this technique.
+
+For example, in one situation I needed to manipulate a target to give me an old password so I could “change” it to a more secure password. My pretext was a support rep and they automatically questioned why there was a need to change old passwords. I used something like, “A recent study by Xavier Research Inc. stated that 74% of the people use weak passwords in corporate America. That is the reason we launched a program to change the passwords corporate-wide. I will perform that password change for you; I need for you to give me your old Windows password and then I will make that change now.” By quoting a research facility it added weight to my words about why this change had to occur.
+
+Using negation: Negation is much like reverse psychology. By telling the target to not do something too much, you can embed a command into the sentence. For example, if I tell you “Don’t spend too much time practicing the use of embedded commands,” I can slip the command “practice the use of embedded commands” into my sentence. I also can presuppose that you will practice it to some extent, and if you are stubborn you might say, “You can’t tell me what to do, I will practice all I want.”
+
+
+
+Telling a person that something is not important or relevant makes his unconscious pay extra attention so he can determine whether it is relevant or not. You can embed commands in negative sentences like the earlier example that will leave the listener no option but to take action.
+
+
+
+Forcing the listener to use his imagination: This method works when you ask the listener a question, using phrases such as “What happens…” or “How do you feel when…,” for which he must imagine something to answer it. If you ask, “What happens when you become rich and famous?” The listener has to internally imagine the time he might be rich and famous to answer that question. If I ask you, “What happens when you master the use of embedded commands?” I am forcing you to imagine becoming a master and how you will feel when that happens. Think of it this way: If I tell you, “Do not imagine a red cow,” you have to picture a red cow first to tell yourself to not think about it. Your unconscious mind is responsible for interpreting each word in a set of commands into something it can represent and then give meaning to.
+
+
+
+By the time your brain has understood the sentence, your unconscious has imagined it. The unconscious mind processes statements directly, with no regard to the context. The other great part is that the unconscious can track body language, facial expressions, voice tones, and gestures, and then connect each of them to the message being spoken. While it is connecting the dots, so to speak, the unconscious mind has little option but to comply if an embedded command exists.
+
+
+
+What’s important when using embedded commands is to not mess up your tones. If you overemphasize the words then you will sound odd and scare the person off instead of embed commands. As with a software buffer overflow, the information must match the command you are trying to overflow.
+
+
+
+
+
+Summary
+
+As you probably have already imagined, embedding commands is a vast field with a lot of room for error. You must practice to be very successful at it. Although I do not promote using this information for seduction some decent videos exist about seduction that show how embedded commands can work.
+
+Using these principles can create an environment where the target is very receptive to your suggestions.
+
+Just because you tell the person, “You will purchase from me” does not mean he always will. So why use these commands?
+
+It creates a platform to make social engineering easier. Using these types of commands is also a good lesson for companies you work with to educate them about what to look for and how to spot someone who may be trying to use this type of social engineering tactic against them.
+
+If you were to write out this principle of embedded commands as an equation, you could write it this way:
+
+Human Buffer Overflow = Law of Expectations + Mental Padding + Embedded Codes.
+
+Start a conversation with a target using phrases, body language, and assumptive speech. Presume the things you ask for are already as good as accomplished.
+
+Next, pad the human mind with some statements that make embedding commands easier, while at the same time embedding the command. In essence this is the equation for the human buffer overflow. Use this equation sparingly, but practice a lot before you attempt it. Try it at work or home. Pick a target at work that might not normally comply with simple requests and try to see whether you can get him to serve you coffee: “Tom, I see you are heading to the kitchen, will you get me a cup of coffee with two creams please?”
+
+Escalate your commands to larger tasks to see how far you can get. Try to use this equation to get commitment from people. Eventually use this equation to see how much information you can get and how many commands you can inject.
+
+This chapter covered some of the deepest and most amazing psychology principles in social engineering. This chapter alone can change your life, as well as your ability as a social engineer. Understanding how people think, why they think a certain way, and how to change their thoughts is a powerful aspect to being a social engineer. Next on the docket: how to influence your target.
+
+
+
+
+
