@@ -1,0 +1,677 @@
+chapter
+
+6
+
+“Can You Help Me?”
+
+y
+
+ou’ve seen how social engineers trick people by offering to help.
+Another favorite approach turns the tables: The social engineer
+manipulates by pretending he needs the other person to help
+him. We can all sympathize with people in a tight spot, and the approach
+proves effective over and over again in allowing a social engineer to reach
+his goal.
+
+THE OUT-OF-TOWNER
+A story in Chapter 3 showed how an attacker can talk a victim into revealing his employee number. This one uses a different approach for achieving the same result, and then shows how the attacker can make use of that
+information.
+Keeping Up with the Joneses
+In Silicon Valley there is a certain global company that shall be nameless.
+The scattered sales offices and other field installations around the world
+are all connected to that company’s headquarters over a WAN, a wide area
+network. The intruder, a smart, feisty guy named Brian Atterby, knew
+it was almost always easier to break into a network at one of the remote
+sites, where security is practically guaranteed to be more lax than at
+headquarters.
+The intruder phoned the Chicago office and asked to speak with
+Mr. Jones. The receptionist asked if he knew Mr. Jones’s first name; he
+
+07237124 Ch06.F
+
+Chapter 6
+
+78
+
+
+
+
+
+answered, “I had it here, I’m looking for it. How many Joneses do you
+have?” She said, “Three. Which department would he be in?”
+He said, “If you read me the names, maybe I’ll recognize it.” So she did:
+“Barry, Joseph, and Gordon.”
+“Joe. I’m pretty sure that was it,” he said. “And he was in . . . which
+department?”
+“Business Development.”
+“Fine. Can you connect me, please?”
+She put the call through. When Jones answered, the attacker said, “Mr.
+Jones? Hi, this is Tony in Payroll. We just put through your request to
+have your paycheck deposited directly to your credit union account.”
+“WHAT???!!! You’ve got to be kidding. I didn’t make any request like
+that. I don’t even have an account at a credit union.”
+“Oh, damn, I already put it through.”
+Jones was more than a little upset at the idea that his paycheck might be
+going to someone else’s account, and he was beginning to think the guy
+on the other end of the phone must be a little slow. Before he could even
+reply, the attacker said, “I better see what happened. Payroll changes are
+entered by employee number. What’s your employee number?”
+Jones gave the number. The caller said, “No, you’re right, the request
+wasn’t from you, then.”They get more stupid every year, Jones thought.
+“Look, I’ll see it’s taken care of. I’ll put in a correction right now. So
+don’t worry—you’ll get your next paycheck okay,” the guy said reassuringly.
+A Business Trip
+Not long after, the system administrator in the company’s Austin, Texas,
+sales office received a phone call. “This is Joseph Jones,” the caller
+announced. “I’m in Business Development at corporate. I’ll be in town
+for the week, at the Driskill Hotel. I’d like to have you set me up with a
+temporary account so I can access my email without making a long distance call.”
+“Let me get that name again, and give me your employee number,” the
+sys admin said. The false Jones gave the number and went on, “Do you
+have any high speed dial-up numbers?”
+“Hold on, buddy. I gotta verify you in the database.” After a bit, he said,
+“Okay, Joe. Tell me, what’s your building number?” The attacker had done
+his homework and had the answer ready.
+
+07237124 Ch06.F
+
+
+
+
+
+mitnick
+message
+Don’t rely on network safeguards and firewalls to protect your information. Look
+to your most vulnerable spot. You’ll usually find that vulnerability lies in your
+people.
+
+“Okay,” the sys admin told him, “you convinced me.”
+It was as simple as that. The sys admin had verified the name Joseph
+Jones, the department, and the employee number, and “Joe” had given the
+right answer to the test question. “Your username’s going to be the same
+as your corporate one, jbjones,” the sys admin said, “and I’m giving you
+an initial password of ‘changeme.’”
+
+lingo
+CANDY SECURITY A term coined by Bellovin and Cheswick of Bell Labs to
+describe a security scenario where the outer perimeter, such as a firewall, is
+strong, but the infrastructure behind it is weak. The term refers to M&M
+candy, which has a hard outer shell and soft center.
+
+79
+“Can You Help Me?”
+
+Analyzing the Con
+With a couple of phone calls and fifteen minutes of time, the attacker had
+gained access to the company’s wide area network. This was a company
+that, like many, had what I refer to as candy security, after a description
+first used by two Bell Labs researchers, Steve Bellovin and Steven
+Cheswick. They described such security as “a hard crunchy shell with a
+soft chewy center”—like an M&M candy. The outer shell, the firewall,
+Bellovin and Cheswick argued, is not sufficient protection, because once
+an intruder is able to circumvent it, the internal computer systems have
+soft, chewy security. Most of the time, they are inadequately protected.
+This story fits the definition. With a dial-up number and an account,
+the attacker didn’t even have to bother trying to defeat an Internet firewall, and, once inside, he was easily able to compromise most of the
+systems on the internal network.
+Through my sources, I understand this exact ruse was worked on one of
+the largest computer software manufacturers in the world. You would
+think the systems administrators in such a company would be trained to
+detect this type of ruse. But in my experience, nobody is completely safe
+if a social engineer is clever and persuasive enough.
+
+07237124 Ch06.F
+
+
+
+
+
+lingo
+SPEAKEASY SECURITY Security that relies on knowing where desired
+information is, and using a word or name to gain access to that information
+or computer system.
+
+SPEAKEASY SECURITY
+
+Chapter 6
+
+80
+
+In the old days of speakeasies—those Prohibition-era nightclubs where socalled bathtub gin flowed—a would-be customer gained admission by
+showing up at the door and knocking. After a few moments, a small flap
+in the door would swing open and a tough, intimidating face would peer
+out. If the visitor was in the know, he would speak the name of some frequent patron of the place (“Joe sent me” was often enough), whereupon
+the bouncer inside would unlatch the door and let him in.
+The real trick lay in knowing the location of the speakeasy because the
+door was unmarked, and the owners didn’t exactly hang out neon signs
+to mark their presence. For the most part, just showing up at the right
+place was about all it took to get in. The same degree of safekeeping is,
+unhappily, practiced widely in the corporate world, providing a level of
+nonprotection that I call speakeasy security.
+I Saw It at the Movies
+Here’s an illustration from a favorite movie that many people will remember. In Three Days of the Condor the central character, Turner (played by
+Robert Redford), works for a small research firm contracted by the CIA.
+One day he comes back from a lunch run to find that all his coworkers
+have been gunned down. He’s left to figure out who has done this and
+why, all the while knowing that the bad guys, whoever they are, are looking for him.
+Late in the story, Turner manages to get the phone number of one the
+bad guys. But who is this person, and how can Turner pin down his location? He’s in luck: The screenwriter, David Rayfiel, has happily given
+Turner a background that includes training as a telephone lineman with
+the Army Signal Corps, making him knowledgeable about techniques and
+practices of the phone company. With the bad guy’s phone number in
+hand, Turner knows exactly what to do. In the screenplay, the scene reads
+like this:
+
+07237124 Ch06.F
+
+
+
+
+
+TURNER RECONNECTS and TAPS OUT ANOTHER NUMBER.
+RING! RING! Then:
+WOMAN’S VOICE (FILTER)
+CNA, Mrs. Coleman speaking.
+TURNER (into test set)
+This is Harold Thomas, Mrs. Coleman. Customer Service.
+CNA on 202-555-7389, please.
+WOMAN’S VOICE (FILTER)
+One moment, please.
+(almost at once)
+Leonard Atwood, 765 MacKensie Lane, Chevy Chase,
+Maryland.
+
+Fooling the Phone Company
+In the real world, the phone number for CNA is a closely guarded secret.
+Although the phone companies finally caught on and these days are less
+generous about handing out information so readily, at the time they operated on a variation of speakeasy security that security professionals call
+security through obscurity. They presumed that anybody who called CNA
+and knew the proper lingo (“Customer service. CNA on 555-1234,
+please,” for example) was a person authorized to have the information.
+
+lingo
+SECURITY THROUGH OBSCURITY An ineffective method of computer
+security that relies on keeping secret the details of how the system works
+(protocols, algorithms, and internal systems). Security through obscurity
+relies on the false assumption that no one outside a trusted group of people
+will be able to circumvent the system.
+
+81
+“Can You Help Me?”
+
+Ignoring the fact that the screenwriter mistakenly uses a Washington,
+D.C., area code for a Maryland address, can you spot what just happened
+here?
+Turner, because of his training as a telephone lineman, knew what number to dial in order to reach a phone company office called CNA, the
+Customer Name and Address bureau. CNA is set up for the convenience
+of installers and other authorized phone company personnel. An installer
+could call CNA, and give them a phone number. The CNA clerk would
+respond by providing the name of the person the phone belongs to and
+his address.
+
+07237124 Ch06.F
+
+
+
+
+
+mitnick
+message
+Security through obscurity does not have any effect in blocking social engineering attacks. Every computer system in the world has at least one human that uses
+it. So, if the attacker is able to manipulate people who use the systems, the
+obscurity of the system is irrelevant.
+
+Chapter 6
+
+82
+
+There was no need to verify or identify oneself, no need to give an
+employee number, no need for a password that was changed daily. If you
+knew the number to call and you sounded authentic, then you must be
+entitled to the information.
+That was not a very solid assumption on the part of the telephone company. Their only effort at security was to change the phone number on a
+periodic basis, at least once a year. Even so, the current number at any particular moment was very widely known among phone phreaks, who
+delighted in taking advantage of this convenient source of information,
+and in sharing the how-to-do-it with their fellow phreaks. The CNA
+Bureau trick was one of the first things I learned when I was introduced
+to the hobby of phone phreaking as a teenager.
+Throughout the world of business and government, speakeasy security
+is still prevalent. It’s likely that any semiskilled intruder can pass himself
+off as an authorized person just by putting together enough information
+about your company’s departments, people, and lingo. Sometimes less
+than that: Sometimes an internal phone number is all it takes.
+
+THE CARELESS COMPUTER MANAGER
+Though many employees in organizations are negligent, unconcerned, or
+unaware of security dangers, you’d expect someone with the title of
+manager in the computer center of a Fortune 500 corporation to be thoroughly knowledgeable about best security practices, right?
+You would not expect a computer center manager—someone who is
+part of his company’s Information Technology department—to fall victim
+to a simplistic and obvious social engineering con game. Especially not if
+the social engineer is hardly more than a kid, barely out of his teens. But
+sometimes your expectations can be wrong.
+Tuning In
+Years ago it was an amusing pastime for many people to keep a radio
+tuned to the local police or fire department frequencies, listening in on the
+
+07237124 Ch06.F
+
+
+
+
+
+occasional highly charged conversations about a bank robbery in progress,
+an office building on fire, or a high-speed chase as the event unfolded. The
+radio frequencies used by law enforcement agencies and fire departments
+used to be available in books at the corner bookstore; today they’re
+provided in listings on the Web, and from a book you can buy at Radio
+Shack—frequencies for local, county, state, and, in some cases, even federal agencies.
+Of course, it wasn’t just the curious who were listening in. Crooks robbing a store in the middle of the night could tune in to hear if a police car
+was being dispatched to the location. Drug dealers could keep a check on
+activities of the local Drug Enforcement Agency agents. An arsonist could
+enhance his sick pleasure by lighting a blaze and then listening to all the
+radio traffic while firemen struggled to put it out.
+Over recent years developments in computer technology have made it
+possible to encrypt voice messages. As engineers found ways to cram more
+and more computing power onto a single microchip, they began to build
+small, encrypted radios for law enforcement that kept the bad guys and
+the curious from listening in.
+83
+“Can You Help Me?”
+
+Danny the Eavesdropper
+A scanner enthusiast and skilled hacker we’ll call Danny decided to see
+if he couldn’t find a way to get his hands on the super-secret encryption
+software—the source code—from one of the top manufacturers of secure
+radio systems. He was hoping a study of the code would enable him to
+learn how to eavesdrop on law enforcement, and possibly also use the
+technology so that even the most powerful government agencies would
+find it difficult to monitor his conversations with his friends.
+The Dannys of the shadowy world of hackers belong to a special category that falls somewhere in between the merely-curious-but-entirelybenign and the dangerous. Dannys have the knowledge of the expert,
+combined with the mischievous hacker’s desire to break into systems and
+networks for the intellectual challenge and for the pleasure of gaining
+insight into how technology works. But their electronic breaking-andentering stunts are just that—stunts. These folks, these benign hackers,
+illegally enter sites for the sheer fun and exhilaration of proving they can
+do it. They don’t steal anything, they don’t make any money from their
+exploits; they don’t destroy any files, disrupt any network connections, or
+crash any computer system. The mere fact of their being there, snaring
+copies of files and searching emails for passwords behind the backs of
+security and network administrators, tweaks the noses of the people
+
+07237124 Ch06.F
+
+Chapter 6
+
+84
+
+
+
+
+
+responsible for keeping out intruders like them. The one-upmanship is a
+big part of the satisfaction.
+In keeping with this profile, our Danny wanted to examine the details
+of his target company’s most closely guarded product just to satisfy his
+own burning curiosity and to admire whatever clever innovations the
+manufacturer might have come up with.
+The product designs were, needless to say, carefully guarded trade
+secrets, as precious and protected as just about anything in the company’s
+possession. Danny knew that. And he didn’t care a bit. After all, it was just
+some big, nameless company.
+But how to get the software source code? As it turned out, grabbing the
+crown jewels of the company’s Secure Communications Group proved to
+be all too easy, even though the company was one of those that used twofactor authentication, an arrangement under which people are required to
+use not one but two separate identifiers to prove their identity.
+Here’s an example you’re probably already familiar with. When your
+renewal credit card arrives, you’re asked to phone the issuing company to
+let them know that the card is in possession of the intended customer, and
+not somebody who stole the envelope from the mail. The instructions
+with the card these days generally tell you to call from home. When you
+call, software at the credit card company analyzes the ANI, the automatic
+number identification, which is provided by the telephone switch on tollfree calls that the credit card company is paying for.
+A computer at the credit card company uses the calling party’s number
+provided by the ANI, and matches that number against the company’s
+database of cardholders. By the time the clerk comes on the line, her or
+his display shows information from the database giving details about the
+customer. So the clerk already knows the call is coming from the home of
+a customer; that’s one form of authentication.
+The clerk then picks an item from the information displayed about
+you—most often social security number, date of birth, or mother’s maiden
+name—and asks you for this piece of information. If you give the right
+
+lingo
+TWO-FACTOR AUTHENTICATION The use of two different types of authentication to verify identity. For example, a person might have to identify himself by calling from a certain identifiable location and knowing a password.
+
+07237124 Ch06.F
+
+
+
+
+
+Storming the Fortress
+Danny began by doing his homework. Before long he had managed to put
+together enough pieces to masquerade as a real employee. He had an
+employee’s name, department, phone number, and employee number, as
+well as the manager’s name and phone number.
+Now was the calm before the storm. Literally. Going by the plan he had
+worked out, Danny needed one more thing before he could take the next
+step, and it was something he had no control over: He needed a snowstorm. Danny needed a little help from Mother Nature in the form of
+weather so bad that it would keep workers from getting into the office.
+In the winter in South Dakota, where the manufacturing plant in question was located, anyone hoping for bad weather did not have very long
+
+85
+“Can You Help Me?”
+
+answer, that’s a second form of authentication—based on information you
+should know.
+At the company manufacturing the secure radio systems in our story,
+every employee with computer access had their usual account name and
+password, but in addition was provided with a small electronic device
+called Secure ID. This is what’s called a time-based token. These devices
+come in two types: One is about half the size of a credit card but a little
+thicker; another is small enough that people simply attach it to their key
+chains.
+Derived from the world of cryptography, this particular gadget has a
+small window that displays a series of six digits. Every sixty seconds, the
+display changes to show a different six-digit number. When an authorized
+person needs to access the network from offsite, she must first identify
+herself as an authorized user by typing in her secret PIN and the digits displayed on her token device. Once verified by the internal system, she then
+authenticates with her account name and password.
+For the young hacker Danny to get at the source code he so coveted, he
+would have to not only compromise some employee’s account name and
+password (not much of a challenge for the experienced social engineer)
+but also get around the time-based token.
+Defeating the two-factor authentication of a time-based token combined with a user’s secret PIN code sounds like a challenge right out of
+Mission Impossible. But for social engineers, the challenge is similar to that
+faced by a poker player who has more than the usual skill at reading his
+opponents. With a little luck, when he sits down at a table he knows he’s
+likely to walk away with a large pile of other people’s money.
+
+07237124 Ch06.F
+
+Chapter 6
+
+86
+
+
+
+
+
+to wait. On Friday night, a storm arrived. What had begun as snow
+quickly turned to freezing rain so that, by morning, the roads were coated
+with a slick, dangerous sheet of ice. For Danny, this was a perfect
+opportunity.
+He telephoned the plant, asked for the computer room and reached one
+of the worker bees of IT, a computer operator who announced himself as
+Roger Kowalski.
+Giving the name of the real employee he had obtained, Danny said,
+“This is Bob Billings. I work in the Secure Communications Group. I’m
+at home right now and I can’t drive in because of the storm. And the problem is that I need to access my workstation and the server from home, and
+I left my Secure ID in my desk. Can you go fetch it for me? Or can somebody? And then read off my code when I need to get in? Because my team
+has a critical deadline and there’s no way I can get my work done. And
+there’s no way I can get to the office—the roads are much too dangerous
+up my way.”
+The computer operator said, “I can’t leave the Computer Center.”
+Danny jumped right in: “Do you have a Secure ID yourself?”
+“There’s one here in the Computer Center,” he said. “We keep one for
+the operators in case of an emergency.”
+“Listen,” Danny said. “Can you do me a big favor? When I need to dial
+into the network, can you let me borrow your Secure ID? Just until it’s safe
+to drive in.”
+“Who are you again?” Kowalski asked.
+“Bob Billings.”
+“Who do you work for?”
+“For Ed Trenton.”
+“Oh, yeah, I know him.”
+When he’s liable to be faced with tough sledding, a good social engineer
+does more than the usual amount of research. “I’m on the second floor,”
+Danny went on. “Next to Roy Tucker.”
+He knew that name, as well. Danny went back to work on him. “It’d be
+much easier just to go to my desk and fetch my Secure ID for me.”
+Danny was pretty certain the guy would not buy into this. First of all,
+he would not want to leave in the middle of his shift to go traipsing down
+corridors and up staircases to some distant part of the building. He would
+also not want to have to paw through someone else’s desk, violating somebody’s personal space. No, it was a safe bet he wouldn’t want to do that.
+
+07237124 Ch06.F
+
+
+
+
+
+An Inside Job
+Once he was inside the company’s computer system, then what? How
+would Danny find his way to the server with the software he wanted?
+He had already prepared for this.
+Many computer users are familiar with newsgroups, that extensive set of
+electronic bulletin boards where people can post questions that other
+people answer, or find virtual companions who share an interest in music,
+computers, or any of hundreds of other topics.
+What few people realize when they post any message on a newsgroup
+site is that their message remains on line and available for years. Google,
+for example, now maintains an archive of seven hundred million messages,
+some dating back twenty years! Danny started by going to the Web address
+http://groups.google.com.
+
+87
+“Can You Help Me?”
+
+Kowalski didn’t want to say no to a guy who needed some help, but he
+didn’t want to say yes and get in trouble, either. So he sidestepped the
+decision: “I’ll have to ask my boss. Hang on.” He put the phone down,
+and Danny could hear him pick up another phone, put in the call, and
+explain the request. Kowalski then did something unexplainable: He actually vouched for the man using the name Bob Billings. “I know him,” he
+told his manager. “He works for Ed Trenton. Can we let him use the
+Secure ID in the Computer Center?” Danny, holding on to the phone,
+was amazed to overhear this extraordinary and unexpected support for his
+cause. He couldn’t believe his ears or his luck.
+After another couple of moments, Kowalski came back on the line and
+said, “My manager wants to talk to you himself,” and gave him the man’s
+name and cell phone number.
+Danny called the manager and went through the whole story one more
+time, adding details about the project he was working on and why his
+product team needed to meet a critical deadline. “It’d be easier if someone
+just goes and fetches my card,” he said. “I don’t think the desk is locked,
+it should be there in my upper left drawer.”
+“Well,” said the manager, “just for the weekend, I think we can let you
+use the one in the Computer Center. I’ll tell the guys on duty that when
+you call, they should read off the random-access code for you,” and he
+gave him the PIN number to use with it.
+For the whole weekend, every time Danny wanted to get into the corporate computer system, he only had to call the Computer Center and ask
+them to read off the six digits displayed on the Secure ID token.
+
+07237124 Ch06.F
+
+Chapter 6
+
+88
+
+
+
+
+
+As search terms, Danny entered “encryption radio communications”
+and the name of the company, and found a years-old message on the subject from an employee. It was a posting that had been made back when
+the company was first developing the product, probably long before police
+departments and federal agencies had considered scrambling radio signals.
+The message contained the sender’s signature, giving not just the man’s
+name, Scott Press, but his phone number and even the name of his workgroup, the Secure Communications Group.
+Danny picked up the phone and dialed the number. It seemed like a long
+shot—would he still be working in the same organization years later? Would
+he be at work on such a stormy weekend? The phone rang once, twice, three
+times, and then a voice came on the line. “This is Scott,” he said.
+Claiming to be from the company’s IT Department, Danny manipulated Press (in one of the ways now familiar to you from earlier chapters)
+into revealing the names of the servers he used for development work.
+These were the servers that could be expected to hold the source code
+containing the proprietary encryption algorithm and firmware used in the
+company’s secure radio products.
+Danny was moving closer and closer, and his excitement was building.
+He was anticipating the rush, the great high he always felt when he succeeded at something he knew only a very limited number of people could
+accomplish.
+Still, he wasn’t home free yet. For the rest of the weekend he’d be able to
+get into the company’s network whenever he wanted to, thanks to that
+cooperative computer center manager. And he knew which servers he
+wanted to access. But when he dialed in, the terminal server he logged on
+to would not permit him to connect to the Secure Communications
+Group development systems. There must have been an internal firewall or
+router protecting the computer systems of that group. He’d have to find
+some other way in.
+The next step took nerve: Danny called back to Kowalski in Computer
+Operations and complained “My server won’t let me connect,” and told
+the IT guy, “I need you to set me up with an account on one of the computers in your department so I can use Telnet to connect to my system.”
+The manager had already approved disclosing the access code displayed
+on the time-based token, so this new request didn’t seem unreasonable.
+Kowalski set up a temporary account and password on one of the
+Operation Center’s computers, and told Danny to “call me back when
+you don’t need it any more and I’ll remove it.”
+
+07237124 Ch06.F
+
+
+
+
+
+Once logged into the temporary account, Danny was able to connect
+over the network to the Secure Communications Group’s computer systems. After an hour of on-line searching for a technical vulnerability that
+would give him access to a main development server, he hit the jackpot.
+Apparently the system or network administrator wasn’t vigilant in keeping
+up with the latest news on security bugs in the operating system that
+allowed remote access. But Danny was.
+Within a short time he had located the source code files that he was after
+and was transferring them remotely to an e-commerce site that offered
+free storage space. On this site, even if the files were ever discovered, they
+would never be traced back to him.
+He had one final step before signing off: the methodical process of erasing his tracks. He finished before the Jay Leno show had gone off the air
+for the night. Danny figured this had been one very good weekend’s work.
+And he had never had to put himself personally at risk. It was an intoxicating thrill, even better than snowboarding or skydiving.
+Danny got drunk that night, not on scotch, gin, beer, or sake, but on
+his sense of power and accomplishment as he poured through the files he
+had stolen, closing in on the elusive, extremely secret radio software.
+89
+“Can You Help Me?”
+
+Analyzing the Con
+As in the previous story, this ruse only worked because one company
+employee was all too willing to accept at face value that a caller was really
+the employee he claimed to be. That eagerness to help out a coworker with
+a problem is, on the one hand, part of what greases the wheels of industry, and part of what makes the employees of some companies more pleasant to work with than employees of others. But on the other hand, this
+helpfulness can be a major vulnerability that a social engineer will attempt
+to exploit.
+One bit of manipulation Danny used was delicious: When he made the
+request that someone get his Secure ID from his desk, he kept saying he
+wanted somebody to “fetch” it for him. Fetch is a command you give your
+dog. Nobody wants to be told to fetch something. With that one word,
+Danny made it all the more certain the request would be refused and some
+other solution accepted instead, which was exactly what he wanted.
+The Computer Center operator, Kowalski, was taken in by Danny
+dropping the names of people Kowalski happened to know. But why
+would Kowalski’s manager—an IT manager, no less—allow some stranger
+access to the company’s internal network? Simply because the call for help
+can be a powerful, persuasive tool in the social engineer’s arsenal.
+
+07237124 Ch06.F
+
+
+
+
+
+mitnick
+message
+This story goes to show that time-based tokens and similar forms of authentication are not a defense against the wily social engineer. The only defense is a conscientious employee who follows security policies and understands how others
+can maliciously influence his behavior.
+
+Could something like that ever happen in your company? Has it already?
+
+PREVENTING THE CON
+
+Chapter 6
+
+90
+
+It seems to be an often-repeated element in these stories that an attacker
+arranges to dial in to a computer network from outside the company,
+without the person who helps him taking sufficient measures to verify that
+the caller is really an employee and entitled to the access. Why do I return
+to this theme so often? Because it truly is a factor in so many social engineering attacks. For the social engineer, it’s the easiest way to reach his
+goal. Why should an attacker spend hours trying to break in, when he can
+do it instead with a simple phone call?
+One of the most powerful methods for the social engineer to carry out
+this kind of attack is the simple ploy of pretending to need help—an
+approach frequently used by attackers. You don’t want to stop your
+employees from being helpful to coworkers or customers, so you need to
+arm them with specific verification procedures to use with anybody making a request for computer access or confidential information. That way
+they can be helpful to those who deserve to be helped, but at the same
+time protect the organization’s information assets and computer systems.
+Company security procedures need to spell out in detail what kind of
+verification mechanisms should be used in various circumstances. Chapter 17 provides a detailed list of procedures, but here are some guidelines
+to consider:
+•
+
+One good way to verify the identity of a person making a
+request is to call the phone number listed in the company
+directory for that person. If the person making the request is
+actually an attacker, the verification call will either let you
+speak to the real person on the phone while the imposter is on
+hold, or you will reach the employee’s voice mail so that you
+can listen to the sound of his voice, and compare it to the
+speech of the attacker.
+
+07237124 Ch06.F
+
+
+
+•
+
+•
+
+•
+
+•
+
+
+If employee numbers are used in your company for verifying
+identity, then those numbers have to be treated as sensitive
+information, carefully guarded and not given out to strangers.
+The same goes for all other kinds of internal identifiers, such
+as internal telephone numbers, departmental billing identifiers, and even email addresses.
+Corporate training should call everyone’s attention to the common practice of accepting unknown people as legitimate
+employees on the grounds that they sound authoritative or
+knowledgeable. Just because somebody knows a company
+practice or uses internal terminology is no reason to assume
+that his identity doesn’t need to be verified in other ways.
+Security officers and system administrators must not narrow
+their focus so that they are only alert to how security-conscious
+everyone else is being. They also need to make sure they themselves are following the same rules, procedures, and practices.
+Passwords and the like must, of course, never be shared, but
+the restriction against sharing is even more important with
+time-based tokens and other secure forms of authentication. It
+should be a matter of common sense that sharing any of these
+items violates the whole point of the company’s having
+installed the systems. Sharing means there can be no accountability. If a security incident takes place or something goes
+wrong, you won’t be able to determine who the responsible
+party is.
+As I reiterate throughout this book, employees need to be
+familiar with social engineering strategies and methods to
+thoughtfully analyze requests they receive. Consider using
+role-playing as a standard part of security training, so that
+employees can come to a better understanding of how the
+social engineer works.
+
+91
+“Can You Help Me?”
+
+•
+
+
+07237124 Ch06.F
+
+
+
+
+
+08237124 Ch07.F
+
+
+
+
+

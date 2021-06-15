@@ -1,0 +1,651 @@
+chapter
+
+9
+
+The Reverse Sting
+
+t
+
+he Sting, mentioned elsewhere in this book (and in my opinion
+probably the best movie that’s ever been made about a con operation), lays out its tricky plot in fascinating detail. The sting operation in the movie is an exact depiction of how top grifters run “the wire,”
+one of the three types of major swindles referred to as “big cons.” If you
+want to know how a team of professionals pulls off a scam raking in a
+great deal of money in a single evening, there’s no better textbook.
+But traditional cons, whatever their particular gimmick, run according
+to a pattern. Sometimes a ruse is worked in the opposite direction, which
+is called a reverse sting. This is an intriguing twist in which the attacker
+sets up the situation so that the victim calls on the attacker for help, or a
+coworker has made a request, which the attacker is responding to.
+How does this work? You’re about to find out.
+
+THE ART OF FRIENDLY PERSUASION
+When the average person conjures up the picture of a computer hacker,
+what usually comes to mind is the uncomplimentary image of a lonely,
+introverted nerd whose best friend is his computer and who has difficulty
+carrying on a conversation, except by instant messaging. The social engineer, who often has hacker skills, also has people skills at the opposite end
+
+lingo
+REVERSE STING
+attacker for help.
+
+A con in which the person being attacked asks the
+
+10237124 Ch09.F
+
+
+
+
+
+of the spectrum—well-developed abilities to use and manipulate people
+that allow him to talk his way into getting information in ways you would
+never have believed possible.
+Angela’s Caller
+Place: Valley branch, Industrial Federal Bank.
+Time: 11:27 A.M.
+
+Chapter 9
+
+134
+
+Angela Wisnowski answered a phone call from a man who said he was just
+about to receive a sizeable inheritance and he wanted information on the
+different types of savings accounts, certificates of deposit, and whatever
+other investments she might be able to suggest that would be safe, but
+earn decent interest. She explained there were quite a number of choices
+and asked if he’d like to come in and sit down with her to discuss them.
+He was leaving on a trip as soon as the money arrived, he said, and had a
+lot of arrangements to make. So she began suggesting some of the possibilities and giving him details of the interest rates, what happens if you sell
+a CD early, and so on, while trying to pin down his investment goals.
+She seemed to be making progress when he said, “Oh, sorry, I’ve got to
+take this other call. What time can I finish this conversation with you so
+I can make some decisions? When do you leave for lunch?” She told him
+Louis’s Caller
+Major banks use internal security codes that change every
+day. When somebody from one branch needs information
+from another branch, he proves he’s entitled to the information by demonstrating he knows the day’s code. For an added
+degree of security and flexibility, some major banks issue
+multiple codes each day. At a West Coast outfit I’ll call
+Industrial Federal Bank, each employee finds a list of five
+codes for the day, identified as A through E, on his or her
+computer each morning.
+
+Place: Same.
+Time: 12:48 P.M., same day.
+Louis Halpburn didn’t think anything of it when a call came in
+that afternoon, a call like others he handled regularly several
+times a week.
+
+10237124 Ch09.F
+
+
+
+
+
+“Hello,” the caller said. “This is Neil Webster. I’m calling from
+branch 3182 in Boston. Angela Wisnowski, please.”
+“She’s at lunch. Can I help?”
+“Well, she left a message asking us to fax some information
+on one of our customers.”
+The caller sounded like he had been having a bad day.
+“The person who normally handles those requests is out
+sick,” he said. “I’ve got a stack of these to do, it’s almost
+4 o’clock here and I’m supposed to be out of this place
+to go to a doctor’s appointment in half an hour.”
+The manipulation—giving all the reasons why the other
+person should feel sorry for him—was part of softening up
+the mark. He went on, “Whoever took her phone message,
+the fax number is unreadable. It’s 213-something. What’s the
+rest?”
+Louis gave the fax number, and the caller said, “Okay, thanks.
+Before I can fax this, I need to ask you for Code B.”
+“But you called me,” he said with just enough chill so the
+man from Boston would get the message.
+
+To Louis, he said, “I’ve got a branch manager that’s just
+turned paranoid about getting verification before we
+send anything out, is all. But listen, if you don’t need
+us to fax the information, it’s okay. No need to verify.”
+“Look,” Louis said, “Angela will be back in half an hour or
+so. I can have her call you back.”
+“I’ll just tell her I couldn’t send the information today
+because you wouldn’t identify this as a legitimate
+request by giving me the code. If I’m not out sick
+tomorrow, I’ll call her back then.”
+“Okay.”
+“The message says ‘Urgent.’ Never mind, without verification my hands are tied. You’ll tell her I tried to send it
+but you wouldn’t give the code, okay?”
+Louis gave up under the pressure. An audible sigh of annoyance came winging its way down the phone line.
+“Well,” he said, “wait a minute; I have to go to my computer.
+Which code did you want?”
+“B,” the caller said.
+
+135
+The Reverse Sting
+
+This is good, the caller thought. It’s so cool when people don’t
+fall over at the first gentle shove. If they don’t resist a little,
+the job is too easy and I could start getting lazy.
+
+10237124 Ch09.F
+
+
+
+
+
+He put the call on hold and then in a bit picked up the line
+again. “It’s 3184.”
+“That’s not the right code.”
+“Yes it is—B is 3184.”
+“I didn’t say B, I said E.”
+“Oh, damn. Wait a minute.”
+Another pause while he again looked up the codes.
+“E is 9697.”
+“9697—right. I’ll have the fax on the way. Okay?”
+“Sure. Thanks.”
+
+Walter’s Caller
+“Industrial Federal Bank, this is Walter.”
+
+Chapter 9
+
+136
+
+“Hey, Walter, it’s Bob Grabowski in Studio City, branch 38,”
+the caller said. “I need you to pull a sig card on a customer account and fax it to me.” The sig card, or signature card, has more than just the customer’s signature
+on it; it also has identifying information, familiar items
+such as the social security number, date of birth,
+mother’s maiden name, and sometimes even a driver’s
+license number. Very handy to a social engineer.
+“Sure thing. What’s Code C?”
+“Another teller is using my computer right now,” the caller
+said. “But I just used B and E, and I remember those.
+Ask me one of those.”
+“Okay, what’s E?”
+“E is 9697.”
+A few minutes later, Walter faxed the sig card as requested.
+
+Donna Plaice’s Caller
+“Hi, this is Mr. Anselmo.”
+“How can I help you today?”
+“What’s that 800 number I’m supposed to call when I want
+to see if a deposit has been credited yet?”
+“You’re a customer of the bank?”
+“Yes, and I haven’t used the number in a while and now I
+don’t know where I wrote it down.”
+“The number is 800-555-8600.”
+“Okay, thanks.”
+
+10237124 Ch09.F
+
+
+
+
+
+137
+The Reverse Sting
+
+Vince Capelli’s Tale
+The son of a Spokane street cop, Vince knew from an early age that he
+wasn’t going to spend his life slaving long hours and risking his neck for
+minimum wage. His two main goals in life became getting out of
+Spokane, and going into business for himself. The laughter of his homies
+all through high school only fired him up all the more—they thought it
+was hilarious that he was so busted on starting his own business but had
+no idea what business it might be.
+Secretly Vince knew they were right. The only thing he was good at was
+playing catcher on the high school baseball team. But not good enough to
+capture a college scholarship, no way good enough for professional baseball. So what business was he going to be able to start?
+One thing the guys in Vince’s group never quite figured out: Anything
+one of them had—a new switchblade knife, a nifty pair of warm gloves, a
+sexy new girlfriend—if Vince admired it, before long the item was his. He
+didn’t steal it, or sneak behind anybody’s back; he didn’t have to. The guy
+who had it would give it up willingly, and then wonder afterward how it had
+happened. Even asking Vince wouldn’t have gotten you anywhere: He didn’t
+know himself. People just seemed to let him have whatever he wanted.
+Vince Capelli was a social engineer from an early age, even though he
+had never heard the term.
+His friends stopped laughing once they all had high school diplomas in
+hand. While the others slogged around town looking for jobs where you
+didn’t have to say “Do you want fries with that?” Vince’s dad sent him off
+to talk to an old cop pal who had left the force to start his own private
+investigation business in San Francisco. He quickly spotted Vince’s talent
+for the work, and took him on.
+That was six years ago. He hated the part about getting the goods on
+unfaithful spouses, which involved achingly dull hours of sitting and
+watching, but felt continually challenged by assignments to dig up asset
+information for attorneys trying to figure out if some miserable stiff was
+rich enough to be worth suing. These assignments gave him plenty of
+chances to use his wits.
+Like the time he had to look into the bank accounts of a guy named Joe
+Markowitz. Joe had maybe worked a shady deal on a one-time friend of
+his, which friend now wanted to know, if he sued, was Markowitz flush
+enough that the friend might get some of his money back?
+Vince’s first step would be to find out at least one, but preferably two, of
+the bank’s security codes for the day. That sounds like a nearly impossible
+
+10237124 Ch09.F
+
+
+
+
+
+challenge: What on earth would induce a bank employee to knock a chink
+in his own security system? Ask yourself—if you wanted to do this, would
+you have any idea of how to go about it?
+For people like Vince, it’s too easy.
+
+Chapter 9
+
+138
+
+People trust you if you know the inside lingo of their job and their company. It’s like showing you belong to their inner circle. It’s like a secret
+handshake.
+I didn’t need much of that for a job like this. Definitely not brain surgery. All’s I needed to get started was a branch number. When I dialed the
+Beacon Street office in Buffalo, the guy that answered sounded like a
+teller.
+“This is Tim Ackerman,” I said. Any name would do, he wasn’t going
+to write it down. “What’s the branch number there?”
+“The phone number or the branch number?” he wanted to know, which
+was pretty stupid because I had just dialed the phone number, hadn’t I?
+“Branch number.”
+“3182,” he said. Just like that. No, “Whad’ya wanna know for?” or anything. ’Cause it’s not sensitive information, it’s written on just about every
+piece of paper they use.
+Step Two, call the branch where my target did his banking, get the name
+of one of their people, and find out when the person would be out for
+lunch. Angela. Leaves at 12:30. So far, so good.
+Step Three, call back to the same branch during Angela’s lunch break,
+say I’m calling from branch number such-and-such in Boston, Angela
+needs this information faxed, gimme a code for the day. This is the tricky
+part; it’s where the rubber meets the road. If I was making up a test to be
+a social engineer, I’d put something like this on it, where your victim gets
+suspicious—for good reason—and you still stick in there until you break
+him down and get the information you need. You can’t do that by reciting lines from a script or learning a routine, you got to be able to read your
+victim, catch his mood, play him like landing a fish where you let out a
+little line and reel in, let out and reel in. Until you get him in the net and
+flop him into the boat, splat!
+So I landed him and had one of the codes for the day. A big step. With
+most banks, one is all they use, so I would’ve been home free. Industrial
+Federal Bank uses five, so having just one out of five is long odds. With
+two out of five, I’d have a much better chance of getting through the next
+
+10237124 Ch09.F
+
+
+
+
+
+Analyzing the Con
+The key to this entire episode was obtaining the all-important day codes,
+and to do that the attacker, Vince, used several different techniques.
+He began with a little verbal arm-twisting when Louis proved reluctant
+to give him a code. Louis was right to be suspicious—the codes are
+designed to be used in the opposite direction. He knew that in the usual
+flow of things, the unknown caller would be giving him a security code.
+This was the critical moment for Vince, the hinge on which the entire success of his effort depended.
+In the face of Louis’s suspicion, Vince simply laid it on with manipulation, using an appeal to sympathy (“going to the doctor”), and pressure
+(“I’ve got a stack to do, it’s almost 4 o’clock”), and manipulation (“Tell her
+
+139
+The Reverse Sting
+
+act of this little drama. I love that part about “I didn’t say B, I said E.”
+When it works, it’s beautiful. And it works most of the time.
+Getting a third one would have been even better. I’ve actually managed
+to get three on a single call—“B,” “D,” and “E” sound so much alike that
+you can claim they misunderstood you again. But you have to be talking
+to somebody who’s a real pushover. This man wasn’t. I’d go with two.
+The day codes would be my trump to get the signature card. I call, and
+the guy asks for a code. C he wants, and I’ve only got B and E. But it’s not
+the end of the world. You gotta stay cool at a moment like this, sound
+confident, keep right on going. Real smooth, I played him with the one
+about, “Somebody’s using my computer, ask me one of these others.”
+We’re all employees of the same company, we’re all in this together, make
+it easy on the guy—that’s what you’re hoping the victim is thinking at a
+moment like this. And he played it right by the script. He took one of the
+choices I offered, I gave him the right answer, he sent the fax of the sig card.
+Almost home. One more call gave me the 800 number that customers
+use for the automated service where an electronic voice reads you off the
+information you ask for. From the sig card, I had all of my target’s account
+numbers and his PIN number, because that bank used the first five or
+last four digits of the social security number. Pen in hand, I called the
+800 number and after a few minutes of pushing buttons, I had the latest
+balance in all four of the guy’s accounts, and just for good measure, his
+most recent deposits and withdrawals in each.
+Everything my client had asked for and more. I always like to give a
+little extra for good measure. Keep the clients happy. After all, repeat business is what keeps an operation going, right?
+
+10237124 Ch09.F
+
+Chapter 9
+
+140
+
+
+
+
+
+you wouldn’t give me the code”). Cleverly, Vince didn’t actually make a
+threat, he just implied one: If you don’t give me the security code, I won’t
+send the customer information that your coworker needs, and I’ll tell her
+I would have sent it but you wouldn’t cooperate.
+Still, let’s not be too hasty in blaming Louis. After all, the person on the
+phone knew (or at least appeared to know) that coworker Angela had
+requested a fax. The caller knew about the security codes, and knew they
+were identified by letter designation. The caller said his branch manager
+was requiring it for greater security. There didn’t really seem any reason
+not to give him the verification he was asking for.
+Louis isn’t alone. Bank employees give up security codes to social engineers every day. Incredible but true.
+There’s a line in the sand where a private investigator’s techniques stop
+being legal and start being illegal. Vince stayed legal when he obtained the
+branch number. He even stayed legal when he conned Louis into giving
+him two of the day’s security codes. He crossed the line when he had confidential information on a bank customer faxed to him.
+But for Vince and his employer, it’s a low-risk crime. When you steal
+money or goods, somebody will notice it’s gone. When you steal information, most of the time no one will notice because the information is
+still in their possession.
+mitnick
+message
+Verbal security codes are equivalent to passwords in providing a convenient and
+reliable means of protecting data. But employees need to be knowledgeable
+about the tricks that social engineers use, and trained not to give up the keys to
+the kingdom.
+
+COPS AS DUPES
+For a shady private investigator or social engineer, there are frequent occasions when it would be handy to know someone’s driver’s license number—
+for example, if you want to assume another person’s identity in order to
+obtain information about her bank balances.
+Short of lifting the person’s wallet or peering over her shoulder at an
+opportune moment, finding out the driver’s license number ought to be
+next to impossible. But for anyone with even modest social engineering
+skills, it’s hardly a challenge.
+
+10237124 Ch09.F
+
+
+
+
+
+Eric’s Sting
+First he called telephone information and asked for the phone number of
+DMV headquarters in the state capitol. He was given the number 503555-5000; that, of course, is the number for calls from the general public.
+He then called a nearby sheriff ’s station and asked for Teletype—the office
+where communications are sent to and received from other law enforcement agencies, the national crime database, local warrants, and so forth.
+When he reached Teletype, he said he was looking for the phone number
+for law enforcement to use when calling the DMV state headquarters.
+
+141
+The Reverse Sting
+
+One particular social engineer—Eric Mantini, I’ll call him, needed to
+get driver’s license and vehicle registration numbers on a regular basis. Eric
+figured it was unnecessarily increasing his risk to call the Department of
+Motor Vehicles (DMV) and go through the same ruse time after time
+whenever he needed that information. He wondered whether there wasn’t
+some way to simplify the process.
+Probably no one had ever thought of it before, but he figured out a way
+to get the information in a blink, whenever he wanted it. He did it by taking advantage of a service provided by his state’s Department of Motor
+Vehicles. Many state DMVs (or whatever the department may be called in
+your state) make otherwise-privileged information about citizens available
+to insurance firms, private investigators, and certain other groups that the
+state legislature has deemed entitled to share it for the good of commerce
+and the society at large.
+The DMV, of course, has appropriate limitations on which types of data
+will be given out. The insurance industry can get certain types of information from the files, but not others. A different set of limitations applies
+to PIs, and so on.
+For law enforcement officers, a different rule generally applies: The
+DMV will supply any information in the records to any sworn peace officer who properly identifies himself. In the state Eric then lived in, the
+required identification was a Requestor Code issued by the DMV, along
+with the officer’s driver’s license number. The DMV employee would
+always verify by matching the officer’s name against his driver’s license
+number and one other piece of information—usually date of birth—
+before giving out any information.
+What social engineer Eric wanted to do was nothing less than cloak
+himself in the identity of a law enforcement officer.
+How did he manage that? By running a reverse sting on the cops!
+
+10237124 Ch09.F
+
+
+
+
+
+“Who are you?” the police officer in Teletype asked.
+“This is Al. I was calling 503-555-5753,” he said. This was partly an
+assumption, and partly a number he pulled out of thin air; certainly the
+special DMV office set up to take law enforcement calls would be in the
+same area code as the number given out for the public to call, and it was
+almost as certain that the next three digits, the prefix, would be the same,
+as well. All he really needed to find out was the last four.
+A sheriff ’s Teletype room doesn’t get calls from the public. And the caller
+already had most of the number. Obviously he was legitimate.
+“It’s 503-555-6127,” the officer said.
+So Eric now had the special phone number for law enforcement officers
+to call the DMV. But just the one number wasn’t enough to satisfy him;
+the office would have a good many more than the single phone line, and
+Eric needed to know how many lines there were, and the phone number
+of each.
+
+Chapter 9
+
+142
+
+The Switch
+To carry out his plan, he needed to gain access to the telephone switch
+that handled the law enforcement phone lines into DMV. He called the
+state Telecommunications Department and claimed he was from Nortel,
+the manufacturer of the DMS-100, one of the most widely used commercial telephone switches. He said, “Can you please transfer me to one
+of the switch technicians that works on the DMS-100?”
+When he reached the technician, he claimed to be with the Nortel
+Technical Assistance Support Center in Texas, and explained that they were
+creating a master database to update all switches with the latest software
+upgrades. It would all be done remotely—no need for any switch technician to participate. But they needed the dial-in number to the switch so
+that they could perform the updates directly from the Support Center.
+It sounded completely plausible, and the technician gave Eric the phone
+number. He could now dial directly into one of the state’s telephone
+switches.
+To defend against outside intruders, commercial switches of this type
+are password-protected, just like every corporate computer network. Any
+good social engineer with a phone-phreaking background knows that
+Nortel switches provide a default account name for software updates:
+NTAS (the abbreviation for Nortel Technical Assistance Support; not very
+subtle). But what about a password? Eric dialed in several times, each time
+
+10237124 Ch09.F
+
+
+
+
+
+A Call to DMV
+Shortly before 8 o’clock that morning, the cell phone rang. This part was
+the best, the most delicious. Here was Eric, the social engineer, talking to
+a cop, someone with the authority to come and arrest him, or get a search
+warrant and conduct a raid to collect evidence against him.
+And not just one cop would call, but a string of them, one after another.
+On one occasion, Eric was sitting in a restaurant having lunch with
+friends, fielding a call every five minutes or so, writing the information on
+a paper napkin using a borrowed pen. He still finds this hilarious.
+But talking to police officers doesn’t faze a good social engineer in the
+least. In fact, the thrill of deceiving these law enforcement agencies probably added to Eric’s enjoyment of the act.
+
+143
+The Reverse Sting
+
+trying one of the obvious and commonly used choices. Entering the same
+as the account name, NTAS, didn’t work. Neither did “helper.” Nor did
+“patch.”
+Then he tried “update” . . . and he was in. Typical. Using an obvious,
+easily guessed password is only very slightly better than having no password at all.
+It helps to be up to speed in your field; Eric probably knew as much
+about that switch and how to program and troubleshoot it as the technician. Once he was able to access the switch as an authorized user, he would
+gain full control over the telephone lines that were his target. From his
+computer, he queried the switch for the phone number he had been given
+for law enforcement calls to the DMV, 555-6127. He found there were
+nineteen other phone lines into the same department. Obviously they
+handled a high volume of calls.
+For each incoming call, the switch was programmed to “hunt” through
+the twenty lines until it found one that wasn’t busy.
+He picked line number eighteen in the sequence, and entered the code
+that added call forwarding to that line. For the call-forwarding number,
+he entered the phone number of his new, cheap, prepaid cell phone, the
+kind that drug dealers are so fond of because they’re inexpensive enough
+to throw away after the job is over.
+With call forwarding now activated on the eighteenth line, as soon as
+the office got busy enough to have seventeen calls in progress, the next call
+to come in would not ring in the DMV office but would instead be forwarded to Eric’s cell phone. He sat back and waited.
+
+10237124 Ch09.F
+
+Chapter 9
+
+144
+
+
+
+
+
+According to Eric, the calls went something like this:
+“DMV, may I help you?”
+“This is Detective Andrew Cole.”
+“Hi, detective. What can I do for you today?”
+“I need a Soundex on driver’s license 005602789,” he might say, using
+the term familiar in law enforcement to ask for a photo—useful, for example, when officers are going out to arrest a suspect and want to know what
+he looks like.
+“Sure, let me bring up the record,” Eric would say. “And, Detective
+Cole, what’s your agency?”
+“Jefferson County.” And then Eric would ask the hot questions:
+“Detective, what’s your requestor code?” “What’s your driver’s license
+number?” “What’s your date of birth?”
+The caller would give his personal identifying information. Eric would
+go through some pretense of verifying the information, and then tell the
+caller that the identifying information had been confirmed, and ask for
+the details of what the caller wanted to find out from the DMV. He’d pretend to start looking up the name, with the caller able to hear the clicking
+of the keys, and then say something like, “Oh, damn, my computer just
+went down again. Sorry, detective, my computer has been on the blink
+all week. Would you mind calling back and getting another clerk to
+help you?”
+This way he’d end the call tying up the loose ends without arousing any
+suspicion about why he wasn’t able to assist the officer with his request.
+Meanwhile Eric had a stolen identity—details he could use to obtain confidential DMV information whenever he needed to.
+After taking calls for a few hours and obtaining dozens of requestor
+codes, Eric dialed into the switch and deactivated the call forwarding.
+For months after that, he’d carry on the assignments jobbed out to him
+by legitimate PI firms that didn’t want to know how he was getting his
+information. Whenever he needed to, he’d dial back into the switch, turn
+on call forwarding, and gather another stack of police officer credentials.
+Analyzing the Con
+Let’s run a playback on the ruses Eric pulled on a series of people to make
+this deceit work. In the first successful step, he got a sheriff ’s deputy in
+a Teletype room to give out a confidential DMV phone number to a
+
+10237124 Ch09.F
+
+
+
+
+
+mitnick
+message
+If you have a telephone switch at your company facilities, what would the person
+in charge do if he received a call from the vendor, asking for the dial-in number?
+And by the way, has that person ever changed the default password for the
+switch? Is that password an easy-to-guess word found in any dictionary?
+
+145
+The Reverse Sting
+
+complete stranger, accepting the man as a deputy without requesting any
+verification.
+Then someone at the state Telecom Department did the same thing,
+accepting Eric’s claim that he was with an equipment manufacturer, and
+providing the stranger with a phone number for dialing into the telephone
+switch serving the DMV.
+Eric was able to get into the switch in large measure because of weak
+security practices on the part of the switch manufacturer in using the same
+account name on all their switches. That carelessness made it a walk in the
+park for the social engineer to guess the password, knowing once again
+that switch technicians, just like almost everybody else, choose passwords
+that will be a cinch for them to remember.
+With access to the switch, he set up call forwarding from one of the
+DMV phone lines for law enforcement to his own cell phone.
+And then, the capper and most blatant part, he conned one law enforcement officer after another into revealing not only their requestor codes but
+their own personal identifying information, giving Eric the ability to
+impersonate them.
+While there was certainly technical knowledge required to pull off this
+stunt, it could not have worked without the help of a series of people who
+had no clue that they were talking to an imposter.
+This story was another illustration of the phenomenon of why people
+don’t ask “Why me?” Why would the Teletype officer give this information to some sheriff ’s deputy he didn’t know—or, in this case, a stranger
+passing himself off as a sheriff ’s deputy—instead of suggesting he get the
+information from a fellow deputy or his own sergeant? Again, the only
+answer I can offer is that people rarely ask this question. It doesn’t occur
+to them to ask? They don’t want to sound challenging and unhelpful?
+Maybe. Any further explanation would just be guesswork. But social engineers don’t care why; they only care that this little fact makes it easy to get
+information that otherwise might be a challenge to obtain.
+
+10237124 Ch09.F
+
+
+
+
+
+PREVENTING THE CON
+
+Chapter 9
+
+146
+
+A security code, properly used, adds a valuable layer of protection. A security code improperly used can be worse than none at all because it gives
+the illusion of security where it doesn’t really exist. What good are codes
+if your employees don’t keep them secret?
+Any company with a need for verbal security codes needs to spell out
+clearly for its employees when and how the codes are used. Properly
+trained, the character in the first story in this chapter would not have had
+to rely on his instincts, easily overcome, when asked to give a security code
+to a stranger. He sensed that he should not be asked for this information
+under the circumstances, but lacking a clear security policy—and good
+common sense—he readily gave in.
+Security procedures should also set up steps to follow when an employee
+fields an inappropriate request for a security code. All employees should
+be trained to immediately report any request for authentication credentials, such as a daily code or password, made under suspicious circumstances. They should also report when an attempt to verify the identity of
+a requestor doesn’t check out.
+At the very least, the employee should record the caller’s name, phone
+number, and office or department, and then hang up. Before calling back,
+he should verify that the organization really does have an employee of that
+name, and that the callback phone number matches the phone number in
+the on-line or hard-copy company directory. Most of the time, this simple
+tactic will be all that’s needed to verify that the caller is who he says he is.
+Verifying becomes a bit trickier when the company has a published
+phone directory instead of an on-line version. People get hired; people
+leave; people change departments, job positions, and phone numbers. The
+hard-copy directory is already out of date the day after it’s published,
+even before being distributed. Even on-line directories can’t always be
+relied on, because social engineers know how to modify them. If an
+employee can’t verify the phone number from an independent source, she
+should be instructed to verify by some other means, such as contacting the
+employee’s manager.
+
+11237124 Part03/Ch10.F
+
+
+
+
+
+3
+
+part
+
+intruder
+alert
+
+11237124 Part03/Ch10.F
+
+
+
+
+
+11237124 Part03/Ch10.F
+
+
+
+
+

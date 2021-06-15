@@ -1,0 +1,920 @@
+
+
+
+Security at a Glance
+
+t
+
+he following lists and charts provide a quick reference version of
+social engineering methods discussed in Chapters 2 to 14, and verification procedures detailed in Chapter 16. Modify this information
+for your organization, and make it available for employees to refer to when
+an information security question arises.
+
+IDENTIFYING A SECURITY ATTACK
+These tables and checklists will assist you in spotting a social engineering
+attack.
+The Social Engineering Cycle
+ACTION
+Research
+
+DESCRIPTION
+May include open source information such as SEC
+filings and annual reports, marketing brochures,
+patent applications, press clippings, industry magazines, Web site content. Also Dumpster diving.
+Developing
+Use of insider information, misrepresenting
+rapport and trust identity, citing those known to victim, need for
+help, or authority.
+Exploiting trust Asking for information or an action on the part
+of the victim. In reverse sting, manipulate victim
+to ask attacker for help.
+Utilize
+If the information obtained is only a step to
+information
+final goal, attacker returns to earlier steps in
+cycle till goal is reached.
+
+18237124 SecurityataGlance.F
+
+
+
+
+
+Common Social Engineering Methods
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Security at a Glance
+
+332
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Posing as a fellow employee
+Posing as an employee of a vendor, partner company, or law
+enforcement
+Posing as someone in authority
+Posing as a new employee requesting help
+Posing as a vendor or systems manufacturer calling to offer a
+system patch or update
+Offering help if a problem occurs, then making the problem
+occur, thereby manipulating the victim to call them for help
+Sending free software or patch for victim to install
+Sending a virus or Trojan Horse as an email attachment
+Using a false pop-up window asking user to log in again or
+sign on with password
+Capturing victim keystrokes with expendable computer
+system or program
+Leaving a floppy disk or CD around the workplace with
+malicious software on it
+Using insider lingo and terminology to gain trust
+Offering a prize for registering at a Web site with username
+and password
+Dropping a document or file at company mail room for
+intraoffice delivery
+Modifying fax machine heading to appear to come from an
+internal location
+Asking receptionist to receive then forward a fax
+Asking for a file to be transferred to an apparently internal
+location
+Getting a voice mailbox set up so callbacks perceive attacker
+as internal
+Pretending to be from remote office and asking for email
+access locally
+
+18237124 SecurityataGlance.F
+
+
+
+
+
+Warning Signs of an Attack
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Refusal to give callback number
+Out-of-ordinary request
+Claim of authority
+Stresses urgency
+Threatens negative consequences of noncompliance
+Shows discomfort when questioned
+Name dropping
+Compliments or flattery
+Flirting
+
+Common Targets of Attacks
+TARGET TYPE
+Unaware of value
+of information
+Special privileges
+
+Factors That Make Companies More Vulnerable
+to Attacks
+•
+•
+•
+•
+•
+•
+•
+
+Large number of employees
+Multiple facilities
+Information on employee whereabouts left in voice mail
+messages
+Phone extension information made available
+Lack of security training
+Lack of data classification system
+No incident reporting/response plan in place
+
+333
+Security at a Glance
+
+EXAMPLES
+Receptionists, telephone operators,
+administrative assistants, security guards.
+Help desk or technical support, system
+administrators, computer operators, telephone system administrators.
+Manufacturer/
+Computer hardware, software manufacturers,
+vendor
+voice mail systems vendors.
+Specific departments Accounting, human resources.
+
+18237124 SecurityataGlance.F
+
+
+
+
+
+VERIFICATION AND DATA CLASSIFICATION
+These tables and charts will help you to respond to requests for information or action that may be social engineering attacks.
+Verification of Identity Procedure
+ACTION
+Caller ID
+Callback
+Vouching
+Shared common
+secret
+Supervisor or
+manager
+
+Security at a Glance
+
+334
+
+Secure email
+Personal voice
+recognition
+Dynamic
+passwords
+In person
+
+DESCRIPTION
+Verify call is internal, and name or extension
+number matches the identity of the caller.
+Look up requester in company directory and call
+back the listed extension.
+Ask a trusted employee to vouch for requester’s
+identity.
+Request enterprise-wide shared secret, such as a
+password or daily code.
+Contact employee’s immediate supervisor and
+request verification of identity and employment
+status.
+Request a digitally signed message.
+For a caller known to employee, validate by
+caller’s voice.
+Verify against a dynamic password solution such
+as Secure ID or other strong authentication
+device.
+Require requester to appear in person with an
+employee badge or other identification.
+
+Verification of Employment Status Procedure
+ACTION
+DESCRIPTION
+Employee directory check Verify that requester is listed in on-line
+directory.
+Requester’s manager
+Call requester’s manager using phone
+verification
+number listed in company directory.
+Requester’s department
+Call requester’s department or
+or workgroup verification workgroup and determine that
+requester is still employed by company.
+
+18237124 SecurityataGlance.F
+
+
+
+
+
+Procedure to Determine Need to Know
+ACTION
+Consult job title/
+workgroup/
+responsibilities list
+Obtain authority
+from manager
+Obtain authority
+from the information
+Owner or designee
+Obtain authority with
+an automated tool
+
+DESCRIPTION
+Check published lists of which employees
+are entitled to specific classified
+information.
+Contact your manager, or the manager of
+the requester, for authority to comply
+with the request.
+Ask Owner of information if requester has
+a need to know.
+Check proprietary software database for
+authorized personnel.
+
+Criteria for Verifying Non-Employees
+CRITERION
+Relationship
+
+Nondisclosure
+Access
+
+Data Classification
+CLASSIFICATION DESCRIPTION
+Public
+Can be freely
+released to the
+public.
+Internal
+For use within
+the company.
+
+PROCEDURE
+No need to verify.
+
+Verify identity of requester
+as active employee or
+verify nondisclosure
+agreement on file and
+management approval
+for nonemployees.
+
+335
+Security at a Glance
+
+Identity
+
+ACTION
+Verify that requester’s firm has a vendor, strategic
+partner, or other appropriate relationship.
+Verify requester’s identity and employment status
+at the vendor/partner firm.
+Verify that the requester has a signed nondisclosure agreement on file.
+Refer the request to management when the
+information is classified above Internal.
+
+18237124 SecurityataGlance.F
+
+
+
+
+
+Data Classification (Continued)
+
+Security at a Glance
+
+336
+
+CLASSIFICATION
+Private
+
+DESCRIPTION
+Information of a
+personal nature
+intended for use
+only within
+the organization.
+
+Confidential
+
+Shared only with
+people with an
+absolute need to
+know within the
+organization.
+
+PROCEDURE
+Verify identity of
+requester as active
+employee or
+nonemployee with
+authorization. Check
+with human resources
+department to disclose
+Private information to
+authorized employees
+or external requesters.
+Verify identity
+of requester and
+need to know
+from designated
+information Owner.
+Release only with prior
+written consent of
+manager, or information Owner or
+designee. Check for
+nondisclosure agreement on file. Only
+management personnel
+may disclose to persons
+not employed by the
+company.
+
+18237124 SecurityataGlance.F
+
+
+
+
+
+Responding to a Request for Information
+The Golden Questions
+How do I know this person is who he says he is?
+How do I know this person has the authority to make this request?
+Request Information
+About...
+
+EXAMPLES
+
+Any Passwords
+
+Yes
+
+NEVER disclose
+your password
+under any
+circumstances.
+
+No
+
+Personnel reporting
+structure, employee names
+and titles
+
+Organizational
+Chart Details
+
+Yes
+
+Follow procedures
+for disclosure
+of internal
+information.
+
+No
+
+Company Directory/
+Telephone Lists
+
+Yes
+
+Follow procedures
+for disclosure
+of internal
+information.
+
+No
+
+Personal telephone numbers
+(home or cellular), social
+security number, home
+address, prior work
+history, and salary
+
+Personal
+Information
+
+Yes
+
+Follow procedures
+for disclosure
+of internal
+information.
+
+No
+
+Type of operating system,
+remote access procedures,
+dial-up numbers, and names
+assigned to computer
+systems
+
+Computer System
+Procedures or
+Information
+
+Yes
+
+Follow procedures
+for disclosure
+of internal
+information.
+
+No
+
+Manufacturing processes,
+strategic plans, proprietary
+source code, customer lists,
+and trade secrets
+
+Confidential or
+Private Information
+
+Yes
+
+Determine data
+classification;
+follow appropriate
+procedures for
+disclosure.
+
+All information is considered sensitive unless specifically designated for public disclosure.
+
+337
+Security at a Glance
+
+Internal telephone numbers
+assigned to staff, internal fax
+numbers, internal building
+numbers, and departmental
+lists
+
+18237124 SecurityataGlance.F
+
+
+
+
+
+Responding to a Request for Action
+The Golden Rules
+No Implicit Trust of Anyone without Verification.
+Challenging Requests Is Encouraged.
+
+Request Action
+Regarding...
+No
+
+NOTES
+
+Open Email
+Attachment
+
+Yes
+
+Do not open
+attachment unless
+previously
+expected; scan all
+attachments with
+anitvirus
+software.
+
+No
+
+Change Your
+Password
+
+Yes
+
+NEVER change
+your password to
+something known
+to anyone else,
+even for a moment!
+
+No
+
+Security at a Glance
+
+338
+
+Propriety source code,
+trade secrets, manufacturing
+process, formulas, product
+specifications, marketing
+data or business plans
+
+Electronically
+Transfer Internal
+Information
+
+Yes
+
+Determine data
+classification;
+follow appropriate
+disclosure
+procedures.
+
+No
+
+Never enter unfamiliar
+commands or run programs
+at the request of any person
+unless specifically approved
+by the IT department
+
+Entering Commands
+into Any Computer
+
+Yes
+
+Requestor must be
+IT department only;
+go to Employee
+Verification
+Procedures.
+
+No
+
+Only install software from
+trusted sources that can be
+authenticated by digital
+signature
+
+Download, Install,
+Remove, or Disable
+Any Software
+
+Yes
+
+Requestor must be
+IT department only;
+go to Employee
+Verification
+Procedures.
+
+No
+
+Do not change any settings
+within BIOS, the operating
+system, or any applications
+(including personal firewall
+or antivirus utilities) unless
+specifically approved by the
+IT department
+
+Change Computer
+System/Network
+Settings
+
+Yes
+
+Requestor must be
+IT department only;
+go to Employee
+Verification
+Procedures.
+
+All actions you take on the behalf of others may result in compromising
+your company's assets. Verify. Verify. Verify.
+
+19237124 Resources.F
+
+
+
+
+
+sources
+CHAPTER 1
+BloomBecker, Buck. 1990. Spectacular Computer Crimes: What They
+Are and How They Cost American Business Half a Billion Dollars a
+Year. Irwin Professional Publishing.
+Littman, Jonathan. 1997. The Fugitive Game: Online with Kevin
+Mitnick. Little Brown & Co.
+Penenberg, Adam L. April 19, 1999. “The Demonizing of a Hacker.”
+Forbes.
+
+CHAPTER 2
+The Stanley Rifkin story is based on the following accounts:
+Computer Security Insitute. Undated. “Financial losses due to
+Internet intrusions, trade secret theft and other cyber crimes soar.”
+Press release.
+Epstein, Edward Jay. Unpublished. “The Diamond Invention.”
+Holwick, Rev. David. Unpublished account.
+Mr. Rifkin himself was gracious in acknowledging that accounts of his
+exploit differ because he has protected his anonymity by declining
+to be interviewed.
+
+CHAPTER 16
+Cialdini, Robert B. 2000. Influence: Science and Practice, 4th edition.
+Allyn and Bacon.
+Cialdini, Robert B. February 2001. “The Science of Persuasion.”
+Scientific American. 284:2.
+
+19237124 Resources.F
+
+
+
+
+
+CHAPTER 17
+Some policies in this chapter are based on ideas contained in: Wood,
+Charles Cresson. 1999. “Information Security Policies Made Easy.”
+Baseline Software.
+
+Sources
+
+340
+
+20237124 Acknowledgments.F
+
+
+
+
+
+Acknowledgments
+FROM KEVIN MITNICK
+True friendship has been defined as one mind in two bodies; not many
+people in anyone’s life can be called a true friend. Jack Biello was a loving
+and caring person who spoke out against the extraordinary mistreatment
+I endured at the hands of unethical journalists and overzealous government prosecutors. He was a key voice in the Free Kevin movement and a
+writer who had an extraordinary talent for writing compelling articles
+exposing the information that the government doesn’t want you to know.
+Jack was always there to fearlessly speak out on my behalf and to work
+together with me preparing speeches and articles, and, at one point, represented me as a media liaison.
+This book is therefore dedicated with love to my dearest friend Jack
+Biello, whose recent death from cancer just as we finished the manuscript
+has left me feeling a great sense of loss and sadness.
+This book would not have been possible without the love and support
+of my family. My mother, Shelly Jaffe, and my grandmother, Reba
+Vartanian, have given me unconditional love and support throughout my
+life. I am so fortunate to have been raised by such a loving and dedicated
+mother, who I also consider my best friend. My grandmother has been
+like a second mom to me, providing me with the same nurturing and love
+that only a mother could give. As caring and compassionate people,
+they’ve taught me the principles of caring about others and lending a helping hand to the less fortunate. And so, by imitating the pattern of giving
+and caring, I in a sense follow the paths of their lives. I hope they’ll forgive me for putting them in second place during the process of writing
+this book, passing up chances to see them with the excuse of work and
+
+20237124 Acknowledgments.F
+
+Acknowledgments
+
+342
+
+
+
+
+
+deadlines to meet. This book would not have been possible without their
+continued love and support that I’ll forever hold close to my heart.
+How I wish my dad, Alan Mitnick, and my brother, Adam Mitnick,
+would have lived long enough to break open a bottle of champagne with
+me on the day this book first appears in a bookstore. As a salesman and
+business owner, my father taught me many of the finer things that I will
+never forget. During the last months of my Dad’s life I was fortunate
+enough to be able to be at his side to comfort him the best I could, but it
+was a very painful experience from which I still have not recovered.
+My aunt Chickie Leventhal will always have a special place in my heart;
+although she was disappointed with some of the stupid mistakes I’ve
+made, nevertheless she was always there for me, offering her love and support. During my intense devotion to writing this book, I sacrificed many
+opportunities to join her, my cousin, Mitch Leventhal, and her boyfriend,
+Dr. Robert Berkowitz, for our weekly Shabbat celebration.
+I must also give my warmest thanks to my mother’s boyfriend, Steven
+Knittle, who was there to fill in for me and provide my mother with love
+and support.
+My dad’s brother clearly deserves much praise; one could say I inherited
+my craft of social engineering from Uncle Mitchell, who knew how to
+manipulate the world and its people in ways that I never even hope to
+understand, much less master. Lucky for him, he never had my passion for
+computing technology during the years he used his charming personality
+to influence anyone he desired. He will always hold the title of the grandmaster social engineer.
+And as I write these acknowledgements, I realize I have so many people
+to thank and to express appreciation to for offering their love, friendship,
+and support. I cannot begin to remember the names of all the kind and
+generous people that I’ve met in recent years, but suffice it to say I would
+need a computer to store them all. There have been so many people from
+all over the world who have written to me with words of encouragement,
+praise, and support. These words have meant a great deal to me, especially
+during the times I needed it most.
+I’m especially thankful to all my supporters who stood by me and spent
+their valuable time and energy getting the word out to anyone who would
+listen, voicing their concern and objection over my unfair treatment and
+the hyperbole created by those who sought to profit from the “The Myth
+of Kevin Mitnick.”
+
+20237124 Acknowledgments.F
+
+
+
+
+
+343
+Acknowledgments
+
+I have had the extraordinary fortune of being teamed up with best-selling
+author Bill Simon, and we worked diligently together despite our different work patterns. Bill is highly organized, rises early, and works in a
+deliberate and well-planned style. I’m grateful that Bill was kind enough
+to accommodate my late-night work schedule. My dedication to this project and long working hours kept me up well into the early morning that
+conflicted with Bill’s regular working schedule.
+Not only was I lucky to be teamed with someone who could transform
+my ideas into sentences worthy of a sophisticated reader, but also Bill is
+(mostly) a very patient man who put up with my programmer’s style of
+focusing on the details. Indeed we made it happen. Still, I want to apologize to Bill in these acknowledgments that I will always regret being the
+one, because of my orientation to accuracy and detail, who caused him to
+be late for a deadline for the first and only time in his long writing career.
+He has a writer’s pride that I have finally come to understand and share;
+we hope to do other books together.
+The delight of being at the Simon home in Rancho Santa Fe to work
+and to be pampered by Bill’s wife, Arynne, could be considered a highlight
+of this writing project. Arynne’s conversation and cooking will battle in
+my memory for first place. She is a lady of quality and wisdom, full of fun,
+who has created a home of warmth and beauty. And I’ll never drink a diet
+soda again without hearing Arynne’s voice in the back of my mind
+admonishing me on the dangers of Aspartame.
+Stacey Kirkland means a great deal to me. She has dedicated many hours
+of her time assisting me on the Macintosh to design the charts and graphics that helped give visual authority to my ideas. I admire her wonderful
+qualities; she is truly a loving and compassionate person who deserves only
+the good things in life. She gave me encouragement as a caring friend and
+is someone who I care deeply about. I wish to thank her for all her loving
+support, and for being there for me whenever I needed it.
+Alex Kasper, Nexspace, is not only my best friend, but also a business
+partner and colleague. Together we hosted a popular Internet talk radio
+show known as “The Darkside of the Internet” on KFI AM 640 in Los
+Angeles under the skillful guidance of Program Director David G. Hall.
+Alex graciously provided his invaluable assistance and advice to this book
+project. His influence has always been positive and helpful with a kindness and generosity that often extended far beyond midnight. Alex and I
+recently completed a film/video to help businesses train their people on
+preventing social engineering attacks.
+
+20237124 Acknowledgments.F
+
+Acknowledgments
+
+344
+
+
+
+
+
+Paul Dryman, Informed Decision, is a family friend and beyond. This
+highly respected and trusted private investigator helped me to understand
+trends and processes of conducting background investigations. Paul’s
+knowledge and experience helped me address the personnel security issues
+described in Part 4 of this book.
+One of my best friends, Candi Layman, has consistently offered me support and love. She is truly a wonderful person who deserves the best out
+of life. During the tragic days of my life, Candi always offered encouragement and friendship. I am fortunate to have met such a wonderful,
+caring, and compassionate human being, and want to thank her for being
+there for me.
+Surely my first royalty check will go to my cellular phone company for
+all the time I spent talking with Erin Finn. Without a doubt, Erin is like
+my soul mate. We are alike in so many ways it’s scary. We both have a love
+for technology, the same tastes in food, music, and movies. AT&T
+Wireless is definitely losing money for giving me all the “free nights and
+weekend” calls to her home in Chicago. At least I am not using the Kevin
+Mitnick plan anymore. Her enthusiasm and belief in this book boosted
+my spirits. How lucky I am to have her as a friend.
+I’m eager to thank those people who represent my professional career
+and are dedicated in extraordinary ways. My speaking engagements are
+managed by Amy Gray (an honest and caring person who I admire and
+adore); David Fugate, of Waterside Productions, is a book agent who went
+to bat for me on many occasions before and after the book contract was
+signed; and Los Angeles attorney Gregory Vinson, who was on my defense
+team during my years-long battle with the government. I’m sure he can
+relate to Bill’s understanding and patience for my close attention to detail;
+he has had the same experience working with me on legal briefs he has
+written on my behalf.
+I have had too many experiences with lawyers but I am eager to have a
+place to express my thanks for the lawyers who, during the years of my
+negative interactions with the criminal justice system, stepped up and
+offered to help me when I was in desperate need. From kind words to deep
+involvement with my case, I met many who don’t at all fit the stereotype
+of the self-centered attorney. I have come to respect, admire, and appreciate the kindness and generosity of spirit given to me so freely by so many.
+They each deserve to be acknowledged with a paragraph of favorable
+words; I will at least mention them all by name, for every one of them lives
+in my heart surrounded by appreciation: Greg Aclin, Bob Carmen, John
+
+20237124 Acknowledgments.F
+
+
+
+
+
+345
+Acknowledgments
+
+Dusenbury, Sherman Ellison, Omar Figueroa, Carolyn Hagin, Rob Hale,
+Alvin Michaelson, Ralph Peretz, Vicki Podberesky, Donald C. Randolph,
+Dave Roberts, Alan Rubin, Steven Sadowski, Tony Serra, Richard
+Sherman, Skip Slates, Karen Smith, Richard Steingard, the Honorable
+Robert Talcott, Barry Tarlow, John Yzurdiaga, and Gregory Vinson.
+I very much appreciate the opportunity that John Wiley & Sons has
+given me to author this book, and for their confidence in a first-time
+author. I wish to thank the following Wiley people who made this dream
+possible: Ellen Gerstein, Bob Ipsen, Carol Long (my editor and fashion
+designer), and Nancy Stevenson.
+Other family members, personal friends, business associates who have
+given me advice and support, and have reached out in many ways, are
+important to recognize and acknowledge. They are: J. J. Abrams, David
+Agger, Bob Arkow, Stephen Barnes, Dr. Robert Berkowitz, Dale
+Coddington, Eric Corley, Delin Cormeny, Ed Cummings, Art Davis,
+Michelle Delio, Sam Downing, John Draper, Paul Dryman, Nick Duva,
+Roy Eskapa, Alex Fielding, Lisa Flores, Brock Frank, Steve Gibson, Jerry
+Greenblatt, Greg Grunberg, Bill Handle, David G. Hall, Dave Harrison,
+Leslie Herman, Jim Hill, Dan Howard, Steve Hunt, Rez Johar, Steve
+Knittle, Gary Kremen, Barry Krugel, Earl Krugel, Adrian Lamo, Leo
+Laporte, Mitch Leventhal, Cynthia Levin, CJ Little, Jonathan Littman,
+Mark Maifrett, Brian Martin, Forrest McDonald, Kerry McElwee, Alan
+McSwain, Elliott Moore, Michael Morris, Eddie Munoz, Patrick Norton,
+Shawn Nunley, Brenda Parker, Chris Pelton, Kevin Poulsen, Scott Press,
+Linda and Art Pryor, Jennifer Reade, Israel and Rachel Rosencrantz, Mark
+Ross, William Royer, Irv Rubin, Ryan Russell, Neil Saavedra, Wynn
+Schwartu, Pete Shipley, Joh Siff, Dan Sokol, Trudy Spector, Matt Spergel,
+Eliza Amadea Sultan, Douglas Thomas, Roy Tucker, Bryan Turbow,
+Ron Wetzel, Don David Wilson, Darci Wood, Kevin Wortman, Steve
+Wozniak, and all my friends on the W6NUT (147.435 MHz) repeater in
+Los Angeles.
+And my probation officer, Larry Hawley, deserves special thanks for giving me permission to act as advisor and consultant on security-related
+matters by authoring this book.
+And finally I must acknowledge the men and women of law enforcement. I simply do not hold any malice towards these people who are just
+doing their jobs. I firmly believe that putting the public’s interest ahead of
+one’s own and dedicating your life to public service is something that
+deserves respect, and while I’ve been arrogant at times, I want all of you
+
+20237124 Acknowledgments.F
+
+
+
+
+
+to know that I love this country, and will do everything in my power to
+help make it the safest place in the world, which is precisely one of the reasons why I’ve written this book.
+
+FROM BILL SIMON
+
+Acknowledgments
+
+346
+
+I have this notion that there is a right person out there for everyone; it’s
+just that some people aren’t lucky enough ever to find their Mr. or Ms.
+Right. Others get lucky. I got lucky early enough in life to spend a good
+many years already (and count on spending many more) with one of
+God’s treasures, my wife, Arynne. If I ever forget how lucky I am, I only
+need to pay attention to how many people seek and cherish her company.
+Arynne—I thank you for walking through life with me.
+During the writing of this book, I counted on the help of a loyal group
+of friends who provided the assurance that Kevin and I were achieving our
+goal of combining fact and fascination into this unusual book. Each of
+these people represents true and loyal value and knows he or she may be
+called on as I get into my next writing project. In alphabetical order: JeanClaude Beneventi, Linda Brown, Walt Brown, Lt. Gen. Don Johnson,
+Dorothy Ryan, Guri Stark, Chris Steep, Michael Steep, and John Votaw.
+Special recognition goes to John Lucich, president of the Network
+Security Group, who was willing to take time for a friend-of-a-friend
+request, and to Gordon Garb, who graciously fielded numerous phone
+calls about IT operations.
+Sometimes in life, a friend earns an exalted place by introducing you to
+someone else who becomes a good friend. At literary agency Waterside
+Productions, in Cardiff, California, Agent David Fugate was responsible
+for conceiving the idea for this book, and for putting me together with
+coauthor-turned-friend Kevin. Thanks, David. And to the head of
+Waterside, the incomparable Bill Gladstone, who manages to keep me
+busy with one book project after another: I’m happy to have you in my
+corner.
+In our home and my office-at-home, Arynne is helped by an able staff
+that includes administrative assistant Jessica Dudgeon and housekeeper
+Josie Rodriguez.
+I thank my parents Marjorie and I. B. Simon, who I wish were here on
+earth to enjoy my success as a writer. I also thank my daughter, Victoria.
+When I am with her I realize how much I admire, respect, and take pride
+in who she is.
+
+21237124 Index.F
+
+

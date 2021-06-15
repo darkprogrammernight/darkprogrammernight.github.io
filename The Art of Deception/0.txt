@@ -1,0 +1,548 @@
+THE ART OF
+DECEPTION
+Controlling the Human Element of Security
+
+KEVIN D. MITNICK
+& William L. Simon
+
+02237124 Part01/Ch01.F
+
+
+
+
+
+01237124 FM.F
+
+
+
+
+
+THE ART OF
+DECEPTION
+Controlling the Human Element of Security
+
+KEVIN D. MITNICK
+& William L. Simon
+
+237124 FM.F
+
+
+
+
+
+Publisher: Robert Ipsen
+Editor: Carol Long
+Developmental Editor: Nancy Stevenson
+Managing Editor: John Atkins
+Interior Design: Marie Kristine Parial-Leonardo
+Text Design & Composition: Wiley Composition Services
+Chart Design: Stacey Kirkland
+Designations used by companies to distinguish their products are often claimed as trademarks.
+In all instances where Wiley Publishing, Inc., is aware of a claim, the product names appear in
+initial capital or ALL CAPITAL LETTERS. Readers, however, should contact the appropriate
+companies for more complete information regarding trademarks and registration.
+This book is printed on acid-free paper. ∞
+Copyright © 2002 by Kevin D. Mitnick. All rights reserved.
+Published by Wiley Publishing, Inc., Indianapolis, Indiana
+Published simultaneously in Canada
+No part of this publication may be reproduced, stored in a retrieval system, or transmitted
+in any form or by any means, electronic, mechanical, photocopying, recording, scanning, or
+otherwise, except as permitted under Section 107 or 108 of the 1976 United States Copyright
+Act, without either the prior written permission of the Publisher, or authorization through
+payment of the appropriate per-copy fee to the Copyright Clearance Center, Inc., 222 Rosewood Drive, Danvers, MA 01923, (978) 750-8400, fax (978) 750-4470. Requests to the
+Publisher for permission should be addressed to the Legal Department, Wiley Publishing, Inc.,
+10475 Crosspoint Blvd., Indianapolis, IN 46256, (317) 572-3447, fax (317) 572-4447,
+Email: permcoordinator@wiley.com.
+Limit of Liability/Disclaimer of Warranty: While the publisher and author have used their
+best efforts in preparing this book, they make no representations or warranties with respect to
+the accuracy or completeness of the contents of this book and specifically disclaim any implied
+warranties of merchantability or fitness for a particular purpose. No warranty may be created or
+extended by sales representatives or written sales materials. The advice and strategies contained
+herein may not be suitable for your situation. You should consult with a professional where
+appropriate. Neither the publisher nor author shall be liable for any loss of profit or any other
+commercial damages, including but not limited to special, incidental, consequential, or other
+damages.
+For general information on our other products and services please contact our Customer
+Care Department within the United States at (800) 762-2974, outside the United States at
+(317) 572-3993 or fax (317) 572-4002.
+Wiley also publishes its books in a variety of electronic formats. Some content that appears in
+print may not be available in electronic books.
+ISBN: 0-471-23712-4
+Printed in the United States of America
+10 9 8 7 6 5 4 3 2 1
+
+01237124 FM.F
+
+
+
+
+
+For Reba Vartanian, Shelly Jaffe, Chickie Leventhal, and Mitchell
+Mitnick, and for the late Alan Mitnick, Adam Mitnick,
+and Jack Biello
+For Arynne, Victoria, and David, Sheldon,
+Vincent, and Elena
+
+01237124 FM.F
+
+
+
+
+
+Social Engineering
+
+s
+
+ocial engineering uses influence and persuasion to deceive people
+by convincing them that the social engineer is someone he is not,
+or by manipulation. As a result, the social engineer is able to take
+advantage of people to obtain information with or without the use of
+technology.
+
+contents
+
+1
+
+Foreword
+
+vii
+
+Preface
+
+ix
+
+Introduction
+
+xv
+
+Part 1
+
+1
+
+Behind the Scenes
+
+Chapter 1
+
+Part 2
+
+Security’s Weakest Link
+
+The Art of the Attacker
+
+3
+
+13
+
+Chapter 2
+
+When Innocuous Information Isn’t
+
+15
+
+Chapter 3
+
+The Direct Attack: Just Asking for It
+
+31
+
+Chapter 4
+
+Building Trust
+
+41
+
+Chapter 5
+
+“Let Me Help You”
+
+55
+
+Chapter 6
+
+“Can You Help Me?”
+
+77
+
+Chapter 7
+
+Phony Sites and Dangerous Attachments
+
+93
+
+Chapter 8
+
+Using Sympathy, Guilt, and Intimidation
+
+105
+
+Chapter 9
+
+The Reverse Sting
+
+133
+
+Part 3
+
+Intruder Alert
+
+147
+
+Chapter 10
+
+Entering the Premises
+
+149
+
+Chapter 11
+
+Combining Technology and Social Engineering
+
+173
+
+Chapter 12
+
+Attacks on the Entry-Level Employee
+
+195
+
+Chapter 13
+
+Clever Cons
+
+209
+
+Chapter 14
+
+Industrial Espionage
+
+225
+
+Part 4
+
+Contents
+
+vi
+
+Raising the Bar
+
+243
+
+Chapter 15
+
+Information Security Awareness and Training
+
+245
+
+Chapter 16
+
+Recommended Corporate Information Security Policies
+
+259
+
+Security at a Glance
+
+331
+
+Sources
+
+339
+
+Acknowledgments
+
+341
+
+Index
+
+347
+
+foreword
+
+w
+
+e humans are born with an inner drive to explore the nature
+of our surroundings. As young men, both Kevin Mitnick and
+I were intensely curious about the world and eager to prove
+ourselves. We were rewarded often in our attempts to learn new things,
+solve puzzles, and win at games. But at the same time, the world around
+us taught us rules of behavior that constrained our inner urge toward free
+exploration. For our boldest scientists and technological entrepreneurs, as
+well as for people like Kevin Mitnick, following this inner urge offers the
+greatest thrills, letting us accomplish things that others believe cannot be
+done.
+Kevin Mitnick is one of the finest people I know. Ask him, and he will
+say forthrightly that what he used to do—social engineering—involves
+conning people. But Kevin is no longer a social engineer. And even when
+he was, his motive never was to enrich himself or damage others. That’s
+not to say that there aren’t dangerous and destructive criminals out there
+who use social engineering to cause real harm. In fact, that’s exactly why
+Kevin wrote this book—to warn you about them.
+The Art of Deception shows how vulnerable we all are—government,
+business, and each of us personally—to the intrusions of the social engineer. In this security-conscious era, we spend huge sums on technology to
+protect our computer networks and data. This book points out how easy
+it is to trick insiders and circumvent all this technological protection.
+Whether you work in business or government, this book provides a
+powerful road map to help you understand how social engineers work and
+what you can do to foil them. Using fictionalized stories that are both
+entertaining and eye-opening, Kevin and coauthor Bill Simon bring to life
+the techniques of the social engineering underworld. After each story,
+they offer practical guidelines to help you guard against the breaches and
+threats they’ve described.
+
+Technological security leaves major gaps that people like Kevin can help
+us close. Read this book and you may finally realize that we all need to
+turn to the Mitnick’s among us for guidance.
+— Steve Wozniak
+
+Foreword
+
+viii
+
+preface
+
+s
+
+ome hackers destroy people’s files or entire hard drives; they’re
+called crackers or vandals. Some novice hackers don’t bother learning the technology, but simply download hacker tools to break
+into computer systems; they’re called script kiddies. More experienced
+hackers with programming skills develop hacker programs and post them
+to the Web and to bulletin board systems. And then there are individuals
+who have no interest in the technology, but use the computer merely as a
+tool to aid them in stealing money, goods, or services.
+Despite the media-created myth of Kevin Mitnick, I am not a malicious
+hacker.
+But I’m getting ahead of myself.
+
+STARTING OUT
+My path was probably set early in life. I was a happy-go-lucky kid, but
+bored. After my father split when I was three, my mother worked as a
+waitress to support us. To see me then—an only child being raised by a
+mother who put in long, harried days on a sometimes-erratic schedule—
+would have been to see a youngster on his own almost all his waking
+hours. I was my own babysitter.
+Growing up in a San Fernando Valley community gave me the whole of
+Los Angeles to explore, and by the age of twelve I had discovered a way to
+travel free throughout the whole greater L.A. area. I realized one day while
+riding the bus that the security of the bus transfer I had purchased relied on
+the unusual pattern of the paper-punch that the drivers used to mark day,
+time, and route on the transfer slips. A friendly driver, answering my carefully planted question, told me where to buy that special type of punch.
+The transfers are meant to let you change buses and continue a journey
+to your destination, but I worked out how to use them to travel anywhere
+I wanted to go for free. Obtaining blank transfers was a walk in the park.
+
+The trash bins at the bus terminals were always filled with only-partlyused books of transfers that the drivers tossed away at the end of their
+shifts. With a pad of blanks and the punch, I could mark my own transfers and travel anywhere that L.A. buses went. Before long, I had all but
+memorized the bus schedules of the entire system. (This was an early
+example of my surprising memory for certain types of information; I can
+still, today, remember phone numbers, passwords, and other seemingly
+trivial details as far back as my childhood.)
+Another personal interest that surfaced at an early age was my fascination with performing magic. Once I learned how a new trick worked, I
+would practice, practice, and practice some more until I mastered it. To
+an extent, it was through magic that I discovered the enjoyment in gaining secret knowledge.
+
+Preface
+
+x
+
+From Phone Phreak to Hacker
+My first encounter with what I would eventually learn to call social engineering came about during my high school years when I met another
+student who was caught up in a hobby called phone phreaking. Phone
+phreaking is a type of hacking that allows you to explore the telephone
+network by exploiting the phone systems and phone company employees.
+He showed me neat tricks he could do with a telephone, like obtaining
+any information the phone company had on any customer, and using a
+secret test number to make long-distance calls for free. (Actually it was
+free only to us. I found out much later that it wasn’t a secret test number
+at all. The calls were, in fact, being billed to some poor company’s MCI
+account.)
+That was my introduction to social engineering—my kindergarten, so
+to speak. My friend and another phone phreaker I met shortly thereafter
+let me listen in as they each made pretext calls to the phone company. I
+heard the things they said that made them sound believable; I learned
+about different phone company offices, lingo, and procedures. But that
+“training” didn’t last long; it didn’t have to. Soon I was doing it all on my
+own, learning as I went, doing it even better than my first teachers.
+The course my life would follow for the next fifteen years had been set.
+In high school, one of my all-time favorite pranks was gaining unauthorized access to the telephone switch and changing the class of service
+of a fellow phone phreak. When he’d attempt to make a call from home,
+he’d get a message telling him to deposit a dime because the telephone
+company switch had received input that indicated he was calling from a
+pay phone.
+
+Becoming a Social Engineer
+Some people get out of bed each morning dreading their daily work routine at the proverbial salt mines. I’ve been lucky enough to enjoy my work.
+In particular, you can’t imagine the challenge, reward, and pleasure I had
+in the time I spent as a private investigator. I was honing my talents in the
+performance art called social engineering (getting people to do things they
+wouldn’t ordinarily do for a stranger) and being paid for it.
+For me it wasn’t difficult becoming proficient in social engineering. My
+father’s side of the family had been in the sales field for generations, so the
+art of influence and persuasion might have been an inherited trait. When
+you combine that trait with an inclination for deceiving people, you have
+the profile of a typical social engineer.
+
+xi
+Preface
+
+I became absorbed in everything about telephones, not only the electronics, switches, and computers, but also the corporate organization, the
+procedures, and the terminology. After a while, I probably knew more
+about the phone system than any single employee. And I had developed
+my social engineering skills to the point that, at seventeen years old, I was
+able to talk most telco employees into almost anything, whether I was
+speaking with them in person or by telephone.
+My much-publicized hacking career actually started when I was in high
+school. While I cannot describe the detail here, suffice it to say that one
+of the driving forces in my early hacks was to be accepted by the guys in
+the hacker group.
+Back then we used the term hacker to mean a person who spent a great
+deal of time tinkering with hardware and software, either to develop more
+efficient programs or to bypass unnecessary steps and get the job done
+more quickly. The term has now become a pejorative, carrying the meaning of “malicious criminal.” In these pages I use the term the way I have
+always used it—in its earlier, more benign sense.
+After high school I studied computers at the Computer Learning Center
+in Los Angeles. Within a few months, the school’s computer manager realized I had found vulnerability in the operating system and gained full
+administrative privileges on their IBM minicomputer. The best computer
+experts on their teaching staff couldn’t figure out how I had done this. In
+what may have been one of the earliest examples of “hire the hacker,” I
+was given an offer I couldn’t refuse: Do an honors project to enhance the
+school’s computer security, or face suspension for hacking the system. Of
+course, I chose to do the honors project, and ended up graduating cum
+laude with honors.
+
+You might say there are two specialties within the job classification of
+con artist. Somebody who swindles and cheats people out of their money
+belongs to one sub-specialty, the grifter. Somebody who uses deception,
+influence, and persuasion against businesses, usually targeting their information, belongs to the other sub-specialty, the social engineer. From the
+time of my bus-transfer trick, when I was too young to know there was
+anything wrong with what I was doing, I had begun to recognize a talent
+for finding out the secrets I wasn’t supposed to have. I built on that talent
+by using deception, knowing the lingo, and developing a well-honed skill
+of manipulation.
+One way I worked on developing the skills of my craft, if I may call it a
+craft, was to pick out some piece of information I didn’t really care about
+and see if I could talk somebody on the other end of the phone into providing it, just to improve my skills. In the same way I used to practice my
+magic tricks, I practiced pretexting. Through these rehearsals, I soon found
+that I could acquire virtually any information I targeted.
+As I described in Congressional testimony before Senators Lieberman
+and Thompson years later:
+
+Preface
+
+xii
+
+I have gained unauthorized access to computer systems at some of the
+largest corporations on the planet, and have successfully penetrated some
+of the most resilient computer systems ever developed. I have used both
+technical and nontechnical means to obtain the source code to various
+operating systems and telecommunications devices to study their vulnerabilities and their inner workings.
+All of this activity was really to satisfy my own curiosity; to see what I
+could do; and find out secret information about operating systems, cell
+phones, and anything else that stirred my curiosity.
+
+FINAL THOUGHTS
+I’ve acknowledged since my arrest that the actions I took were illegal, and
+that I committed invasions of privacy.
+My misdeeds were motivated by curiosity. I wanted to know as much as
+I could about how phone networks worked and the ins-and-outs of computer security. I went from being a kid who loved to perform magic tricks
+to becoming the world’s most notorious hacker, feared by corporations and
+the government. As I reflect back on my life for the last 30 years, I admit I
+made some extremely poor decisions, driven by my curiosity, the desire to
+learn about technology, and the need for a good intellectual challenge.
+
+I’m a changed person now. I’m turning my talents and the extensive
+knowledge I’ve gathered about information security and social engineering tactics to helping government, businesses, and individuals prevent,
+detect, and respond to information-security threats.
+This book is one more way that I can use my experience to help others
+avoid the efforts of the malicious information thieves of the world. I think
+you will find the stories enjoyable, eye-opening, and educational.
+
+xiii
+Preface
+
+01237124 FM.F
+
+
+
+
+
+01237124 FM.F
+
+
+
+
+
+introduction
+
+t
+
+his book contains a wealth of information about information security and social engineering. To help you find your way, here’s a quick
+look at how this book is organized:
+In Part 1 I’ll reveal security’s weakest link and show you why you and
+your company are at risk from social engineering attacks.
+In Part 2 you’ll see how social engineers toy with your trust, your desire
+to be helpful, your sympathy, and your human gullibility to get what they
+want. Fictional stories of typical attacks will demonstrate that social engineers can wear many hats and many faces. If you think you’ve never
+encountered one, you’re probably wrong. Will you recognize a scenario
+you’ve experienced in these stories and wonder if you had a brush with
+social engineering? You very well might. But once you’ve read Chapters 2
+through 9, you’ll know how to get the upper hand when the next social
+engineer comes calling.
+Part 3 is the part of the book where you see how the social engineer ups
+the ante, in made-up stories that show how he can step onto your corporate premises, steal the kind of secret that can make or break your company, and thwart your hi-tech security measures. The scenarios in this
+section will make you aware of threats that range from simple employee
+revenge to cyber terrorism. If you value the information that keeps your
+business running and the privacy of your data, you’ll want to read
+Chapters 10 through 14 from beginning to end.
+It’s important to note that unless otherwise stated, the anecdotes in this
+book are purely fictional.
+In Part 4 I talk the corporate talk about how to prevent successful social
+engineering attacks on your organization. Chapter 15 provides a blueprint
+for a successful security-training program. And Chapter 16 might just save
+your neck—it’s a complete security policy you can customize for your
+organization and implement right away to keep your company and information safe.
+
+01237124 FM.F
+
+
+
+
+
+Finally, I’ve provided a Security at a Glance section, which includes
+checklists, tables, and charts that summarize key information you can use
+to help your employees foil a social engineering attack on the job. These
+tools also provide valuable information you can use in devising your own
+security-training program.
+Throughout the book you’ll also find several useful elements: Lingo
+boxes provide definitions of social engineering and computer hacker
+terminology; Mitnick Messages offer brief words of wisdom to help
+strengthen your security strategy; and notes and sidebars give interesting
+background or additional information.
+
+Introduction
+
+xvi
+
+02237124 Part01/Ch01.F
+
+
+
+
+
+1
+
+part
+
+behind the
+scenes
+
+02237124 Part01/Ch01.F
+
+
+
+
+
+02237124 Part01/Ch01.F
+
+
+
+
+

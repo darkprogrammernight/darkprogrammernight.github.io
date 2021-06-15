@@ -1,0 +1,823 @@
+CHAPTER 2
+
+
+
+
+Creating Value in Negotiation
+
+By October 2000, Richard Holbrooke, U.S. ambassador to the United Nations, was facing a rapidly deteriorating situation. Members of the U.S. Senate were calling for a U.S. withdrawal from the United Nations. Meanwhile, at the UN, U.S. representatives were being sidelined in committee meetings, and the United States was on the verge of losing its vote in the General Assembly. The conflict was over a large sum of money—more than $1 billion. The United States owed this amount in arrears to the UN, but was unwilling to pay unless the UN agreed to a variety of reforms.
+
+The conflict could be traced back to the founding of the United Nations. In 1945, the United States had agreed to pay 50 percent of the UN’s yearly regular budget. The amount owed by each country was recalibrated several times over the ensuing years as other nations began to develop economically and wanted more influence in the UN. The most recent adjustment affecting the United States had been in 1972, when the U.S. assessment was reduced to 25 percent of the regular UN budget. The U.S. was also paying approximately 30 percent of the peacekeeping budget, which, due to conflicts in Somalia, Rwanda, and Bosnia, was increasingly seen as an unpredictable and hefty commitment. As a result, by the end of the decade, the United States was demanding another recalibration of assessments. Feeling that the United States was paying too high a share of the dues, Congress decided to hold the nearly $1 billion debt hostage. The U.S. demand (as manifested in the Helms-Biden bill) was this: the United States would pay what it owed if the UN agreed to a variety of reforms, in particular a reduction of the U.S. assessment from 25 percent to 22 percent.
+
+There were three serious problems with this demand. First, other nations viewed it as unfair: the United States was essentially asking for a concession in return for something it already owed. Second, this was not a two-party negotiation in which the United States simply had to convince a UN delegation. Because UN regulations stipulated that such a change could only be approved with the consensus of all UN member states, Ambassador Holbrooke would have to convince all 189 countries to agree to the U.S. demands. Third, Holbrooke was facing a deadline. The Helms-Biden bill had appropriated $1 billion toward payment of arrears, but this money would disappear from the budget on January 1, 2001.
+
+It became clear early in the process that negotiations between the UN and the United States would not be easy. Holbrooke’s team had hoped that Japan and the Europeans would pick up most of the slack created by the reduction in U.S. assessments. The Japanese, however, made it clear that not only were they unwilling to increase their dues, but that if the U.S. received a reduction, they, too, would demand one. Japan was the second-highest contributor to the UN, paying a little over 20 percent of the regular budget. The Japanese felt this amount was too high given that Japan did not even have a seat on the UN Security Council. The Europeans also appeared extremely hesitant to approve an increase in their assessments.
+
+In the face of such resistance, how could Holbrooke and his team convince even one nation to increase its assessment? How could they avoid an impasse?
+
+As the year 2000 wore on, Holbrooke and his team decided to start from scratch. They drew up a chart of every UN member state and determined how much each was currently paying. They then began to visit representatives from every single country—not to convince them, but simply to understand their perspective. They quickly confirmed that no country wanted an increase in its assessment. But that was not the whole story. Holbrooke pushed further in his discussions to discover why they could not pay more. The reasons varied widely, but one important—and unforeseen—reason soon became salient. One of the problems faced by many countries—that would otherwise agree to increase their contributions—was the fact that fiscal year 2000 was coming to an end, and their federal budgets for 2001 were already fixed. Holbrooke was asking for a change in assessments before January 1, 2001. This deadline was making the deal unworkable.
+
+As the reason underlying the reticence of these UN member states became apparent, so did the solution. Holbrooke proposed that the U.S. assessments be reduced from 25 percent to 22 percent immediately to meet the Helms-Biden deadline, but that other nations not be asked to increase their contributions until 2002. “That made a fantastic difference,” recalled Ambassador Holbrooke, “that really worked.”1
+
+On the surface, the negotiation with UN member states appeared to be a zero-sum negotiation: whatever one party gained resulted in an equivalent loss to another. As in the Hamilton Real Estate case discussed in Chapter 1, there appeared to be only one salient issue—in this case, assessments—and the parties were making incompatible demands. Holbrooke’s genius lay in discovering that the dispute entailed not one but two issues: the size of assessments and their timing. Only when the negotiators stopped haggling over one divisive issue (assessment size) and broadened their focus to include the issue of timing could they strike a deal.
+
+While the final agreement required compromise by both sides, it also allowed each side to get what it wanted most on the issue it cared about most: the U.S. got the assessment size it wanted, and other countries got the timing they wanted. You might still wonder how such a deal was possible, given that it would create a shortfall in dues for the year 2001. As it turns out, thanks to another successful negotiation by Ambassador Holbrooke, philanthropist Ted Turner agreed to cover the one-year budget shortfall with a personal donation of over $30 million, and the Republicans in Congress, though initially reluctant to permit a donation from a politically liberal contributor, eventually accepted the deal.
+
+A MULTI-ISSUE NEGOTIATION
+
+In Chapter 1, we looked at a relatively simple, one-issue negotiation that allowed us to begin developing our negotiation framework and to answer some important questions regarding negotiation strategy. As the Holbrooke negotiation suggests, however, dealmaking is often more complicated than it was in the Hamilton Real Estate case. Effective negotiators need to prepare to execute complex negotiations that entail multiple issues, complex analysis, and considerable uncertainty.
+
+The case in this chapter contains many more variables and identifies additional tactics and strategies that should be part of your negotiation toolkit. Specifically, we will address questions such as these: How should you prepare for a multi-issue negotiation? Should you negotiate the easiest issues first, the hardest issues first, or neither? How should you structure your offers? How should you handle sharp differences in beliefs or expectations regarding the value of the deal? What is the role of compromise in negotiation? What should you do after negotiating an agreement?
+
+The following case, entitled “Moms.com,” concerns the sale of syndication rights for a television program. As in Hamilton Real Estate, you have been assigned the role of seller and given a packet of background information. How would you approach this negotiation?
+
+MOMS.COM2
+
+You are Terry Schiller, the syndicated sales representative for Hollyville, Inc., a multimedia corporation that specializes in producing television shows and motion pictures. You represent the company in negotiating the sale of syndicated programs to local television stations. Programs in syndication are typically sold to local stations after having run as regular shows on one of the major networks. While few shows ever make it into syndication, revenue from the sale of syndication rights can be a major component of a producer’s revenue.
+
+Your firm, Hollyville, has just decided to release its one hundred episodes of Moms.com, a popular situation comedy (“sitcom”), to syndication this year. The plot of Moms.com revolves around three women who are trying to balance their lives as business executives and mothers of teenage children. The show has received strong ratings and appeals primarily to women in the 25–54 age bracket. This makes the show potentially quite valuable, as advertisers are willing to pay a great deal to reach this market.
+
+Your current negotiation is focused on the Chicago market, in which two local stations are potential buyers. WWIN has already made you an offer. However, WCHI is the more attractive buyer because it has a stronger audience base in the 25–54 age bracket. How much a potential buyer is willing to pay for Moms.com depends on its expected advertising revenue from the show. Expected revenue, in turn, will depend on the ratings that the show receives. You estimate that the show will produce $7 million in net revenue over the life of the five-year contract if ratings fall within the 2–3 point range. (Rating points signify the percentage of all television households that are watching a particular show.) Advertising revenue would likely increase by $1 million with each point increase above a 3-point rating.
+
+To evaluate the show’s expected revenue to the buyer, you have estimated the likelihood of various ratings that it might receive. Your analysis appears in Table 2.1.
+
+
+
+Table 2.1
+
+
+
+Ratings
+
+Likelihood
+
+Ad Revenue Generated
+
+
+
+2–3
+
+10%
+
+$7 million
+
+
+
+3–4
+
+30%
+
+$8 million
+
+
+
+4–5
+
+30%
+
+$9 million
+
+
+
+5–6
+
+50%
+
+$10 million
+
+
+
+6–7
+
+20%
+
+$11 million
+
+
+
+
+
+You estimate that the show will likely receive a rating of 5–6, making it quite profitable for WCHI (even after taking into account the costs they will incur to market and run the show); thus, the station should be willing to pay you handsomely for Moms.com. The licensing fee that you negotiate with WCHI is the primary determinant of how much you make from the sale of Moms.com. You are hoping to negotiate a licensing fee close to $7 million for the five-year contract.
+
+While licensing fee is a salient feature of the agreement, for the deal to be finalized, you and the seller must also agree on another important issue: runs per episode. The show’s expected revenues (as calculated above) assume that the buyer has the right to run each of the one hundred episodes six times over the term of the contract. (Six runs per episode is the current industry standard for this particular market.) However, WCHI has already alerted you that it wants the right to run each episode eight times. You want to avoid “overexposing” the show and prefer that runs per episode be limited to four. If the same episode of the show is aired too often, the residual value of the show diminishes. When the contract term ends, and the rights to Moms.com return to Hollyville, it will be a much less valuable show if all of the episodes have already been shown many times.
+
+The financial impact of this diminishing residual value is significant. Table 2.2 shows how the number of runs will affect your expected revenue from the show after the contract term ends. Your analysts project that for each additional run per episode above six that you allow you will lose an estimated $250,000. If you can limit the number of runs to less than six, you can save up to $500,000.
+
+
+
+Table 2.2
+
+
+
+Runs per Episode
+
+Effect on Your Revenue
+
+
+
+4
+
+Save $500,000
+
+
+
+5
+
+Save $250,000
+
+
+
+6
+
+No effect
+
+
+
+7
+
+Lose $250,000
+
+
+
+8
+
+Lose $500,000
+
+
+
+
+
+While your goal in this negotiation is to get the best deal possible, you also want to maintain a good working relationship with WCHI because it is possible that you (Hollyville) would do more business with the station in the near future. For example, Hollyville is very interested in selling a new show, Juniors, for the upcoming season. (Another Chicago station has already offered you $1 million for Juniors, however, an offer you are inclined to accept.)
+
+Your assigned task in the current negotiation, then, is to structure an agreement for the sale of Moms.com that maximizes profit, preserves the relationship, and is superior to pursuing your BATNA. Your BATNA is to sell Moms.com to WWIN; the deal you have negotiated with that station is worth $3.5 million (you have agreed to six runs per episode with WWIN). If you are to finalize the deal with WCHI instead, you must agree on both the licensing fee and the number of runs. Hollyville management has asked you to report back after the negotiation with the agreed-upon terms on both of these issues and on any other terms of the signed contract. You will be negotiating with Kim Taylor, the general manager of WCHI.
+
+Take some time to think about how you would approach this negotiation. How would you prepare? Which issue would you discuss first? How would you structure your offer? What information, if any, would you plan to share? What information, if any, would you try to acquire? How would you incorporate the lessons of Chapter 1 into your negotiation strategy? Once you have thought through these questions and others that may occur to you, read ahead as we narrate how your negotiation might have unfolded.
+
+MAKING THE DEAL
+
+You and Kim met and quickly got down to the business at hand. You suggested that while there were many issues to discuss, licensing fee had the biggest financial impact and should be discussed first. You had thought ahead about WCHI’s BATNA and RV, and felt comfortable making an aggressive first offer. You asked for $9 million and justified this figure using selective precedents involving prior shows you had sold. Kim made it clear that he did not like your offer at all, but he stayed at the table. The two of you discussed the licensing fee for the next hour. Kim argued that Moms.com would probably receive ratings of 3–4 and that advertising revenues would likely be much lower than the licensing fee you had proposed. You responded that your projections suggested the show would receive higher ratings (5–6). Privately, you were unsure whether Kim was being honest about his projections; it was in his interest to convince you that the show would earn low revenues in order to justify paying you less. At one point, Kim alluded to the possibility of purchasing Juniors from you. Because he seemed to be mentioning his interest in purchasing Juniors only as a way of softening your demands for Moms.com, you suggested that the Juniors discussion be kept separate. The rest of the negotiation focused on Moms.com. Eventually, you reached an agreement of $5.5 million for the licensing fee and turned your attention to number of runs. Kim opened aggressively on this issue, but you convinced him that you simply could not accept seven or eight runs; eventually you settled on six runs. In retrospect, any other outcome would have required one of you to make a larger compromise than the other, which could have soured the relationship. Having reached agreement on both issues, you submitted a report to Hollyville management that contained the following financial analysis:
+
+
+
+Licensing fee received from WCHI:
+
+$5,500,000
+
+
+
+Revenue adjustment based on six runs:
+
+No effect
+
+
+
+Net revenue:
+
+$5,500,000
+
+
+
+Value of the BATNA (sell to WWIN):
+
+–$3,500,000
+
+
+
+Net value of the negotiated agreement:
+
+$2,000,000
+
+
+
+
+
+How would you feel at the end of this negotiation? What do you think you did right? What, if anything, could you have done better? How could you evaluate whether you got a good deal, a great deal, or a bad deal?
+
+NEGOTIATION POSTMORTEM
+
+The best way to evaluate how well you did is to systematically analyze how well you could have done. We do so by focusing on each issue in the negotiation from the perspective of both the buyer and the seller.
+
+ISSUE 1: LICENSING FEE
+
+You entered the negotiation hoping to negotiate a licensing fee close to $7 million. What you did not know was that Kim’s reservation value was $6.5 million. In other words, WCHI would have been unwilling to pay any amount greater than this. Meanwhile, assuming six runs per episode, you would have been unwilling to accept any amount less than $3.5 million (the value of your BATNA). This means that there was $3 million of value up for grabs on this issue ($6.5 million—$3.5 million). Because you anchored sufficiently aggressively (at $9 million), you were able to capture much of the ZOPA by securing a $5.5 million licensing fee. When MBA students and executives participate in this exercise, we observe an extremely wide range of outcomes on this issue; some sellers successfully negotiate fees close to the reservation value of the buyer, while others agree to accept very low licensing fees. Much of the variance in outcomes is explained by the aggressiveness of opening offers and counteroffers. Another reason for different outcomes on this issue, of course, is that it is affected by how the other issue is handled.
+
+ISSUE 2: RUNS PER EPISODE
+
+The buyer pushed aggressively for seven or eight runs, but you would lose money if you allowed WCHI to air each Moms.com episode more than six times. You negotiated six runs and are fairly certain that you could not have pushed the buyer any lower on this issue. The agreement of six runs entailed a perfect compromise; you met in the middle of each side’s opening demand. Sounds good, right?
+
+Well, it isn’t. To understand the critical mistake you made, consider Table 2.3, which reveals the financial impact of increasing the number of runs on Hollyville (which you knew) and on WCHI (which you did not know). Notice anything interesting? Clearly, this issue has a significant effect on revenue for both parties—but it has a greater impact on WCHI than on Hollyville. For each additional run granted, WCHI revenue increases by $800,000, but Hollyville revenue decreases by only $250,000. In other words, increasing runs helps WCHI more than it hurts Hollyville. What are the implications of this?
+
+
+
+
+
+* * *
+
+
+
+Table 2.3
+
+
+
+* * *
+
+
+
+
+
+Runs per Episode
+
+Effect on Hollyville’s Revenue
+
+Effect on WCHI’s Revenue
+
+
+
+4
+
+Save $500,000
+
+Lose $1,600,000
+
+
+
+5
+
+Save $250,000
+
+Lose $800,000
+
+
+
+6
+
+No effect
+
+No effect
+
+
+
+7
+
+Lose $250,000
+
+Save $800,000
+
+
+
+8
+
+Lose $500,000
+
+Save $1,600,000
+
+
+
+CREATING VALUE THROUGH LOGROLLING
+
+Rational negotiators should agree to grant eight runs per episode to WCHI. By providing eight runs instead of six, the negotiators can create $1.1 million in total value ($1.6 million benefit to WCHI minus $500,000 cost to Hollyville). WCHI will obviously agree to this, but why should Hollyville? Because it is in Hollyville’s best interest as well. Hollyville should agree to eight runs in exchange for other things that it values, such as a higher licensing fee. Let’s see how this works by comparing your agreement with an alternative agreement that you could have negotiated:
+
+
+
+Your original agreement (Agreement O):
+
+Licensing fee of $5.5 million, six runs per episode
+
+Alternative agreement (Agreement X):
+
+Licensing fee of $6.5 million, eight runs per episode
+
+
+
+Agreement X forces you to give up two additional runs but provides you with a higher licensing fee. What is the net impact of these changes? You lose $500,000 by giving up two additional runs but gain $1 million from the higher licensing fee. The result: you are better off by $500,000. How would this alternative agreement affect WCHI? WCHI would lose $1 million by giving you a higher licensing fee, but would gain $1.6 million from additional runs. The result: WCHI is better off by $600,000. In other words, Agreement X makes both parties better off!
+
+Negotiations such as Moms.com differ fundamentally from negotiations such as Hamilton Real Estate in Chapter 1. One-issue negotiations such as Hamilton Real Estate, in which the two sides have directly opposing interests, are zero-sum (when one party gains something, the other side loses an equivalent amount). Negotiations with multiple issues, such as Moms.com, can be non-zero-sum negotiations: it is often possible for one party to achieve gains without hurting the other party. In short, negotiating multiple issues allows for value creation. In the Moms.com negotiation, negotiators maximize the “size of the pie” (i.e., the value of the deal) when they agree to eight runs. Table 2.4 shows the effect on value creation of revising your agreement.
+
+
+
+Table 2.4
+
+
+
+3Agreement
+
+3Value to You
+
+3Value to WCHI
+
+3Total Value Created
+
+
+
+3Original (O)
+
+3$2,000,000
+
+3$1,000,000
+
+3$3,000,000
+
+
+
+3Revised (X)
+
+3$2,500,000
+
+3$1,600,000
+
+3$4,100,000
+
+
+
+
+
+As Table 2.4 suggests, the total value of the deal (when you reach Agreement X) is $4.1 million. By contrast, in your original deal (Agreement O), the total value is only $3.0 million. In other words, agreeing to eight runs creates $1.1 million in value. Meanwhile, negotiators who do not agree to sell eight runs end up with an outcome that burns money; these dollars cannot be recovered.
+
+Note that the amount to which you agree for the licensing fee does not affect how much value is created; it only determines who captures a bigger piece of the pie. Because both parties value the licensing fee equally, any change in the fee helps one party to the same degree that it hurts the other party. In other words, this negotiation is not just about value creation; claiming value is still an important element. However, negotiation geniuses do not let the value-claiming component derail their value-creation strategies.
+
+As the Moms.com case suggests, effective negotiators look for opportunities to create value by making trades across multiple issues—for example, giving up runs in exchange for a higher licensing fee. The act of trading across issues is called logrolling. Logrolling requires that you not only know your own priorities, but that you learn about the priorities of the other side. If the other side values something more than you do, you should give it to them in exchange for reciprocity on issues that are a higher priority for you. In his negotiations with the UN member nations, Ambassador Holbrooke demonstrated this knowledge implicitly. Once he discovered that the size of assessments was relatively less important to other nations than the timing of assessments, he structured a deal that gave the United States what it valued most (change in assessment amount) and gave other contributing nations what they valued most (delay in implementation).
+
+Now imagine how negotiations might proceed if you intensely dislike Kim Taylor, WCHI’s representative. You think he is selfish and arrogant and cares only about his own negotiated outcome. In this case, how many runs per episode should you prefer? If you answered four—or even six—you might want to think again. In negotiation, you should consider giving up something that you value—even to someone you do not care about—if that person values it more than you do. This is not a matter of altruism or kindness, but of value creation. If you create value, you have the opportunity to capture a portion of this created value for yourself, as happened when we moved from Agreement O to Agreement X.
+
+This insight is critical: negotiators should seize every opportunity to create value. If the other party values something more than you do, let them have it—but don’t give it away, sell it. Of course, if you do care about the other side, all the more reason to create value. But remember that creating value is not just what a “nice” negotiator does when she cares about the other side. It’s what a negotiation genius will do categorically.
+
+CREATING VALUE BY ADDING ISSUES
+
+The only issues you were required to negotiate in this deal were licensing fee and runs. However, you had the potential to bring up other issues that could create additional value for both parties. Specifically, you were interested in selling Juniors at a price higher than $1 million (the amount of your other offer for this show). Kim signaled to you during your negotiation that WCHI might be willing to purchase the show, but you set aside that discussion. What would have happened if you had engaged Kim in a discussion about their interest in Juniors? You may have discovered that WCHI was willing to pay up to $2 million for the show! In this case, failure to negotiate the sale of Juniors resulted in a net loss of $1 million for the two parties. Put another way, the ZOPA for Juniors consisted of all prices between $1–2 million—yet both parties walked away from the negotiation without agreeing to a sale.
+
+How might the sale of Juniors have impacted final outcomes? Table 2.5 builds on Table 2.4 by including an agreement (Agreement Y) in which the buyer and seller agree to sell Juniors for $1.5 million. This agreement provides an additional $500,000 to each party. (Notice that if the parties had agreed to a higher price for Juniors, you [the seller] would have captured more value; if the price was lower, WCHI would have captured more of the value. In either case, the total value created by including the sale of Juniors would be $1 million.)
+
+
+
+* * *
+
+
+
+Table 2.5
+
+
+
+* * *
+
+
+
+Agreement
+
+Value to You
+
+Value to WCHI
+
+Total Value Created
+
+
+
+Original (O)
+
+$2,000,000
+
+$1,000,000
+
+$3,000,000
+
+
+
+Revised (X)
+
+$2,500,000
+
+$1,600,000
+
+$4,100,000
+
+
+
+Agreement Y
+
+$3,000,000
+
+$2,100,000
+
+$5,100,000
+
+
+
+
+
+The Juniors issue highlights an important difference between a good negotiator and a negotiation genius. A good negotiator will do whatever it takes to close the deal, while a negotiation genius will do whatever it takes to maximize value in the deal. A good negotiator plays the game well; a negotiation genius changes the nature of the game itself. In this case, that means identifying and pursuing opportunities for value creation that are not obvious.
+
+Adding issues to a negotiation is an important tactic for value creation because of a simple formula: more issues = more currency. The more issues you have to play with, the easier it will be to find opportunities for logrolling. Imagine that you have agreed to seven runs and a licensing fee of $6.5 million. You know that moving to eight runs will create additional value, but you are only willing to do so if the buyer gives you something in return. Unfortunately, WCHI has reached its limit on the licensing fee issue; it cannot pay more than $6.5 million. Does this mean that you must forgo the opportunity to create value? Yes—if there are only two issues in the negotiation. But if you add another issue—Juniors—you can engineer the value-creating trade. “It’s costly for me to give up any more runs,” you might tell Kim. “However, depending on the kind of deal we can structure for Juniors, I may be able to give you the additional runs you want.” If Kim agrees to purchase Juniors for any price between $1.25 million and $2.8 million, in return for adding the eighth run, both of you will be better off! Notice that Kim may be willing to pay even more for Juniors than it is worth (up to $800,000 more), because doing so allows WCHI to gain $800,000 in revenue on the issue of runs. As this example reveals, the goal of negotiation is not to get the best possible outcome on any one issue, but to negotiate the best possible package deal based on a consideration of all of the issues.
+
+This discussion also highlights an important distinction between logrolling and compromise. Many negotiators, including some seasoned dealmakers, believe that negotiation is about compromise. This is not true. Negotiation often entails compromise, but it is not about compromise. For example, when our executive students negotiate Moms.com, they often compromise across all issues. “We started at four runs versus eight runs,” someone might argue, “and compromised at six runs, which is a win-win outcome that makes both people happy.” Yet both parties could have been happier if they had been sophisticated enough to realize that logrolling to achieve eight runs is better for both parties than compromising to achieve six runs. Our goal here is not simply to help you reach agreements that both parties consider to be “win-win” our goal is to help you maximize value. What does that require?
+
+As it turns out, even a desire to make the other side happy is not enough to help maximize value creation. People in close relationships (such as spouses) often negotiate worse outcomes than do people who care less about their counterpart.3 Why? Because those in close relationships compromise across the board in order to avoid being perceived as greedy or overly self-interested. As a result, they often ignore opportunities for logrolling and, instead, destroy value rather than create it! Excellent partners—in personal and business relationships alike—master the ability to communicate openly and share information about their real needs and priorities. In doing so, they identify all of the potentially relevant issues and cooperate to create maximum value. And, once you have created the conditions for value maximization, you can focus on capturing as much of that value for yourself as you deem appropriate given your relationship with the other party and your desire to be fair.
+
+Adding issues to the negotiation may be most critical when the deal is centered on one divisive issue and no one is willing to compromise. For example, in the United States in the early 1800s, when the northern and southern states were embattled over the issue of slavery, they argued over whether states newly admitted to the Union would be “free” states or “slave” states. In 1819, the country was in balance (numerically, certainly not morally), with eleven free and eleven slave states. But when Missouri petitioned to join the Union, a major dispute arose between pro-slavery and anti-slavery forces. Because giving numerical dominance to one side on the issue of slavery would upset the balance of power in the U.S. Senate, no deal seemed possible. Eventually, a deal was structured—the “Missouri Compromise”—but only after Maine petitioned to join the Union in 1820. The two issues were purposely linked: both sides agreed to allow Maine to enter as a free state and for Missouri to enter without restrictions on the issue of slavery.
+
+In business negotiations, price is often the divisive issue. Smart negotiators recognize the limitations of one-issue deals and work to broaden the scope. Here are a few of the negotiable issues that you can introduce into the discussion the next time the other side appears entirely focused on price:
+
+
+
+• delivery date
+
+• financing
+
+• quality
+
+• contract length
+
+• last-look provisions
+
+• arbitration clauses
+
+• exclusivity clauses
+
+• level of service support
+
+• warranties
+
+• future business
+
+
+
+The more issues there are available to play with, the more likely it is that each party will obtain what it values most and become willing to compromise on issues of relatively less importance.
+
+YOUR GOAL SHOULD BE TO MAXIMIZE VALUE
+
+Table 2.5 demonstrates how both parties can be made better off when an additional issue is added to the negotiation. In technical terms, such a revision of the agreement is referred to as a Pareto improvement: changes to a deal that make at least one person better off without making anyone worse off. As you can see, Pareto improvements create value in negotiation. One of your goals in every negotiation should be to look constantly for Pareto improvements until you have reached an agreement that is Pareto efficient: that is, until there is no way to make one party better off without hurting the other. According to Table 2.5, the only Pareto-efficient outcomes are those that create a total value of $5.1 million.
+
+The virtue of Pareto efficiency is that it ensures that no money is left on the table (i.e., burned) at the end of the deal. But notice that Pareto efficiency says nothing about how the created value is divided between parties. It is possible to have an efficient agreement in Moms.com where all of the created value goes to one party. An agreement in which you get $1 million and WCHI gets $4.1 million is still Pareto efficient because, at this point, there is no way to make one of you better off without hurting the other. In other words, the parties may jointly agree to eight runs and a sale of Juniors, but the party that does a better job of haggling over the licensing fee and the price for Juniors will capture the lion’s share of the value. For this reason, Pareto efficiency is seldom your only goal; you will also strive to capture as much of the value for yourself as possible. Or, if your priority is to reach a “fair” deal and build a strong relationship, you may choose to give up some of the created value to the other side.
+
+How do you know whether you have reached a Pareto-efficient outcome? Unfortunately, there is no definitive answer; bells will not sound and flowers will not fall from the sky. But one good test is to consider how well you understand the concerns of the other side. If you leave the negotiation table without knowing very much about their interests and priorities, you have probably left value on the table.
+
+This brings us back to Moms.com. Guess what? You missed another opportunity to create value in that negotiation.
+
+CREATING VALUE THROUGH CONTINGENCY CONTRACTS
+
+In your Moms.com negotiation, recall your disagreement with Kim regarding how much revenue the show is likely to bring to WCHI. Kim argued that the show was likely to receive low ratings (3–4). You suspected he was lying; your research showed expected ratings of 5–6. What did you do when that difference of opinion surfaced? You essentially ignored it, decided to “agree to disagree” on the issue, and moved ahead with other substantive discussions. Is that the best way to handle such disagreements? Very often, it is not. Let’s consider a better, more systematic approach for handling disagreements regarding expectations about the future success, quality, or performance of a good or a service that you might be negotiating.
+
+First, try to figure out who is right and who is wrong. For example, you might share your research with each other and work together to analyze the data. You might agree to conduct additional research together, or you might bring in a disinterested third party whom you both trust to do the research. Any of these approaches will help you resolve your differences and allow you to negotiate based on shared assumptions and analyses. You hope, of course, that the additional research will support your contention (in this case, that the show’s ratings will be high). If both parties can agree that expected ratings and expected revenue are high rather than low, you stand to make more money in the sale.
+
+Another solution to the disagreement is for both parties to compromise. In other words, you might agree to assume that both sides are probably somewhat incorrect and that an average (4–5) is a reasonable best estimate of ratings. The benefit of this approach is that you do not have to waste extra time or money gathering additional data or hiring a third party. A problem with this approach is that if you truly believe that your numbers are correct—and that the other side is either incompetent or dishonest—you will not want to compromise. Why would you throw away your own numbers simply because the other party (who has an incentive to lowball the estimate) is telling you that you are wrong?
+
+This brings us to a third solution, one that avoids the costs of gathering more data, avoids the hassle of trying to convince the other side that you are correct, and avoids capitulating to the desires of a party you do not trust: negotiate a contingency contract. As discussed in Chapter 1, contingency contracts allow negotiators to avoid arguing about the likelihood of some future event (in this case, the show’s ratings) and instead wait to see what actually transpires. In the Moms.com negotiation, the negotiators could agree to the following deal:
+
+
+
+Agreement Z:
+
+
+
+Licensing fee:
+
+$6.5M
+
+
+
+Runs:
+
+8
+
+
+
+Price for Juniors:
+
+$1.5M
+
+
+
+
+
+Contingency clause:
+
+
+
+• If the ratings next year are less than 4, WCHI receives a $1 million rebate.
+
+• If the ratings next year are greater than 5, WCHI pays a $1 million surcharge to Hollyville.
+
+
+
+In other words, if the show does very well (as you suspect it will), WCHI will owe Hollyville an additional sum of money. But if WCHI’s projections are correct, Hollyville will refund some of the money paid in the licensing fee. Would both parties agree to such a clause? If they truly believe their own projections, they should!
+
+
+
+
+
+* * *
+
+
+
+Table 2.6
+
+
+
+* * *
+
+
+
+Ratings
+
+Likelihood Based on Hollyville’s Projection
+
+Likelihood Based on WCHI’s Projection
+
+
+
+2–3
+
+10%
+
+20%
+
+
+
+3–4
+
+10%
+
+50%
+
+
+
+4–5
+
+10%
+
+10%
+
+
+
+5–6
+
+50%
+
+10%
+
+
+
+6–7
+
+20%
+
+10%
+
+
+
+
+
+Let’s examine this issue in more detail. Table 2.6 displays rating projections for each party. (Going into the negotiation, you only knew Hollyville’s projections.) As the table reveals, the buyer and seller had a genuine difference of opinion regarding the show’s likely success. Given these different beliefs, how would each party have evaluated the contingency clause described above? Hollyville believes it has a 70 percent chance of being correct and “winning the bet” because ratings will be greater than 5, a 20 percent chance of being wrong and “losing the bet” because ratings will be less than 4, and a 10 percent chance that no money will change hands because ratings will be 4. Meanwhile, WCHI also believes that it has a 70 percent chance of winning the bet, a 20 percent chance of losing the bet, and a 10 percent chance of being unaffected. Based on these projections, the expected value of the contingency clause to each party can be calculated as follows:
+
+
+
+
+
+* * *
+
+
+
+
+
+Rating > 5 Rating = 4 Rating < 4
+
+
+
+
+
+Hollyville (.70 x $1M) + (.10 x $0) + (.20 x -$1M) = $500,000
+
+
+
+
+
+WCHI (.20 x -$1M) + (.10 x $0) + (.70 x $1M) = $500,000
+
+
+
+
+
+* * *
+
+
+
+
+
+In other words, both parties expect to receive an additional $500,000 as a result of this clause, and both should be willing to agree to it. Table 2.7 compares the value created by Agreement Z (which includes the contingency clause) with the value created in the other agreements we have considered.
+
+
+
+* * *
+
+
+
+Table 2.7
+
+
+
+* * *
+
+
+
+Agreement
+
+Value to You
+
+Value to WCHI
+
+Total Value Created
+
+
+
+Original (O)
+
+$2,000,000
+
+$1,000,000
+
+$3,000,000
+
+
+
+Revised (X)
+
+$2,500,000
+
+$1,600,000
+
+$4,100,000
+
+
+
+Agreement Y
+
+$3,000,000
+
+$2,100,000
+
+$5,100,000
+
+
+
+Agreement Z
+
+$3,500,000
+
+$2,600,000
+
+$6,100,000
+
+
+
+
+
+In Chapter 1, we showed you how contingency contracts can protect you from dishonest negotiators. That same benefit exists here as well. If Kim was being dishonest about WCHI’s projections and knew that the show would receive higher ratings, he would never accept the contingency contract. His unwillingness to “put his money where his mouth is” could alert you to possible deception.
+
+The Moms.com contingency contract reveals another benefit of such contracts: they can create value by allowing negotiators to stop arguing about their different beliefs and instead leverage their differences through bets that both sides expect to win. In this case, both parties are better off (in terms of expected revenue) when the contingency contract is signed because both are confident in their projections. Technically, this contingency clause does not actually “create” value in the way that logrolling or adding issues creates value. This is because when the ratings are revealed next year, the contract will simply force one party to transfer $1 million to the other party. Although essentially a zero-sum transfer, the contingency contract does create expected value. At the time of the deal, both parties are made better off in terms of expected revenue from the deal—a Pareto improvement.
+
+Such clauses are of even greater value and consequence when the beliefs of each party are extremely different and no deal is possible unless these different expectations are managed. For example, if a client doubts her lawyer’s ability to win in court, she may choose to hire the lawyer based on a contingency contract: the lawyer will be paid a large sum if the client wins and not at all if she loses. Similarly, book publishers typically pay the author a sum of money up front, followed by a fixed percentage of sales revenue. If the publisher is skeptical about the author’s ability to write a best seller, it should be willing to pay the author a higher percentage of sales revenue (or offer a bonus if the book becomes a best seller) in exchange for less money up front. If the author is confident, he will agree.
+
+As a final example of the ability of contingency contracts to salvage deals, consider the 1997 negotiations between basketball star Dennis Rodman and the Chicago Bulls. Rodman was known for his superior ability to rebound and play defense; he was also known for his unpredictability, his disdain for professional norms, and his propensity to miss games. In the previous season alone, he had missed twenty-seven of eighty-two games. As a result of his guaranteed contract, the Bulls paid Rodman close to $3 million for games he did not even play! Determined not to repeat the mistake, the team negotiated an unprecedented contingency-laden contract with Rodman. He would have the ability to earn as much as $10.5 million, but he would be guaranteed only $4.5 million. The rest of the salary was tied to various clauses, including $1 million for playing in all playoff games, $500,000 for winning another rebounding title, and $185,000 for each game he played above fifty-nine. What was the result? Rodman won his seventh consecutive rebounding title and played in eighty of the season’s eighty-two games (he missed two games due to injury), and the Bulls won another championship.
+
+While contingency contracts are powerful tools for creating value and motivating performance, they are not always desirable. Here are some caveats to keep in mind:
+
+
+
+• Contingency contracts are dangerous if the other party is more knowledgeable than you. For example, if WCHI has access to better ratings data than Hollyville, and WCHI is offering to bet on the basis of ratings, Hollyville should be wary.
+
+• Contingency contracts are useful only if uncertainty will be resolved in ways that can be measured objectively. If you hire an employee and offer to promote her “if she performs well,” make sure that both parties understand what “performs well” means. Will you base performance on revenue generated? Hours worked? Projects completed? A good work ethic? Not all of these standards are easy to measure objectively. A rule of thumb: if you’re going to argue about who won the bet, it’s not worth betting in the first place. In the Moms.com negotiation, parties could agree to base the contingency clause on ratings reported from a specific source (e.g., Nielsen Media Research).
+
+• Make sure you understand the effect of contingency contracts on the incentives of the other party. Imagine that your contingency clause in Moms.com was not for $1 million but $20 million. If you were to calculate your expected value for the clause, you would discover that your expected revenue is $10 million. Sounds great! But there’s a big problem. You have just bet a lot on the possibility that the show will receive high ratings—but who now has the incentive, and the ability, to make sure the show receives extremely poor ratings? WCHI. They can choose not to advertise the show, to air it on an unpopular day, or to air it in the middle of the night. While this would hurt their revenues (worth approximately $7 million), it would help them receive $10 million from you based on the contingency clause. For this reason, make sure your contingency contracts are incentive compatible. That is, the clause you negotiate should provide incentives for the other party to behave in ways that are compatible with the spirit of your agreement.
+
+PREPARATION STRATEGIES FOR VALUE CREATION
+
+Now that we have considered the logic of value creation and highlighted some key methods for doing so, let’s step back and consider how negotiators who are interested in creating value and achieving efficient agreements should prepare for negotiation. In the previous chapter, we discussed the necessity of assessing your BATNA, calculating your reservation value, and evaluating the ZOPA prior to every negotiation. In this section, we add to this list of preparation tasks.
+
+STRATEGY 1: IDENTIFY YOUR MULTIPLE INTERESTS
+
+Most negotiators take the domain of negotiation as given. For example, they enter talks thinking, “Today we’re going to be haggling over salary,” or “We’re meeting with the client to negotiate an extension of the contract length,” or “This negotiation is about the sale of our company.” A more effective strategy is to think about all of the things that you value that the other party might have the ability to provide. For example, in addition to negotiating your salary, perhaps you should also negotiate your start date, vacation days, signing bonus, job description, promotion schedule, and stock options.
+
+The goal is not to overwhelm the other party with demands, but to give them a lot of different ways to compensate you and make you happy. If they cannot increase your salary but they can make you equally happy with some combination of signing bonus, change in job description, and more aggressive promotion opportunities, both of you stand to gain. They get to hire their preferred candidate (you) without paying a high salary, and you get a compensation package that makes you happy. Similarly, when approaching the sale of your company, it is critical that you think about everything that you value. For example, you might care about the preservation of your company’s legacy, maintaining a seat on the board, having a minority stake in the company, or safeguarding the continued employment of your workers. It may be that you are unwilling to accept the price offered when it is the only issue being negotiated, but the price becomes acceptable if you can retain some shares, are given a seat on the board, and have the ability to protect your workers. Unfortunately, some such issues never see the light of day because the seller assumes that “they will never agree to give me a seat on the board” or that “they’ve already decided whether they will keep or lay off my employees.”
+
+STRATEGY 2: CREATE A SCORING SYSTEM
+
+Identifying issues is only the first step. Next, you need to think about your relative priorities over the many issues. For example, how much are you willing to give up on price to get more favorable financing terms or a better delivery date? How do you trade off salary against stock options, starting date, or promotion track? How much would you be willing to give up in salary to work in a specific division of the firm?
+
+A scoring system offers a way to organize your interests and priorities so that you can answer these questions efficiently. To create a scoring system, list each issue and weight it according to its importance using a computer spreadsheet program. You will need to think of a common metric for evaluating each issue. For example, you might start with a hundred points and distribute these points across the issues (and across potential outcomes for each issue) in proportion to their relative importance. Another easy metric involves converting everything into dollar values (e.g., each additional day of vacation equals $600 in salary). Having a common metric across all issues will help you evaluate the package offers the other party makes and also help you structure your counteroffers more carefully and strategically.
+
+STRATEGY 3: CALCULATE A PACKAGE RESERVATION VALUE
+
+Instead of having a reservation value for each issue (“The lowest salary I will accept is $X, the lowest signing bonus is $Y, and the lowest number of stock options is Z”), you should use your scoring system to calculate an overall reservation value. For example, if your BATNA is to accept an offer from Company A, entering the specifics of the offer from Company A into your scoring system will give you the total value (in points or dollar terms) of that offer. This is your package reservation value (PRV). Now, in your current negotiation, you know not to accept any offer that gives you a total value less than your PRV.
+
+The problem with having a separate reservation value for each issue is that your options become limited. You may not want a salary below $X, but are you sure you would not be willing to accept a lower salary if the other side made significant concessions on many or all of the other issues you value? Often, negotiators set arbitrary limits on individual issues (such as salary, bonus, stock options, delivery dates, closing dates, up-front payment, et cetera) because they think that anything beyond that limit would be “unfair” or “unreasonable.” But doing so only limits the negotiator’s flexibility. If the other party cannot stay within your limit on that one issue, but can more than make up for it with other concessions and guarantees, you both may stand to lose because of the limit you have set.
+
+For example, a consultant or contractor may not be able to lower their price enough to beat all other offers, but if that consultant or contractor can provide much better service, give more comprehensive guarantees, and throw in additional work for free, you might want to reconsider the reservation value you placed on the issue of price. Unfortunately, far too many firms, organizations, and governments will make purchases or hire contractors and consultants entirely based on the service provider’s ability to compete on only one issue (price). This practice can be highly inefficient.
+
+STRATEGY 4: IDENTIFY THE OTHER PARTY’S MULTIPLE INTERESTS
+
+In negotiation, there often will be issues that you do not care about—but that the other side cares about very much! It is critical to identify these issues. For example, you may be indifferent between whether you start your new job in June or July. But if your potential employer strongly prefers that you start as soon as possible, that’s a valuable piece of information. Now you are in a position to give them something that they value (at no cost to you) and get something of value in return. For example, you might start a month earlier and receive a larger signing bonus for doing so. Similarly, when Deepak was purchasing his home, he discovered that the seller was very interested in closing the deal as soon as possible. With far fewer constraints on his ability to close the deal early or late, Deepak was more than willing to oblige. He agreed to close one month earlier than originally offered, and the seller agreed to a lower price.
+
+EXECUTION STRATEGIES FOR VALUE CREATION
+
+Once talks begin, it is common for negotiators to focus primarily on value-claiming strategies and to forgo opportunities for value creation. This is not surprising. Most people view negotiation as a battle in which the object is to outwit, out-think, and out-negotiate the other side. This mentality leads to the dangerous belief that they lose = you win. As we saw in the Moms.com negotiation, this is simply not the case. In fact, almost all negotiations entail the possibility of at least some—and often a lot of—value creation. In Part II, we will look more closely at the psychological biases that can lead to a they lose = you win mentality and discuss ways in which to overcome these biases. For now, we focus on the correct approach for executing negotiations so that you create value and reach efficient agreements, while still capturing much of that value for yourself.
+
+STRATEGY 1: NEGOTIATE MULTIPLE ISSUES SIMULTANEOUSLY
+
+We often ask seasoned negotiators the following question: when you are involved in a complex, multi-issue deal, which issues do you negotiate first, the easiest or the toughest? Most negotiators respond that it’s best to start with the easy issues. According to this logic, starting with easy issues allows negotiators to build trust and gather momentum toward an agreement; if you start with a difficult issue, you might derail the negotiation from the start. Another benefit of starting with an easy issue is that it allows you to make a low-cost concession early and set the stage for the other side to reciprocate later on issues of more value to you. While this strategy seems reasonable, some negotiators tell us that it is a better idea to start with the tough issues first. They point out that some issues are “make or break” if you can’t reach agreement on them, there’s no point in wasting time on other, less important issues. Finally, a third group of negotiators responds with the seemingly fail-safe answer “It depends.”
+
+As it turns out, we disagree with all three responses. While negotiators typically find it more natural (and easier) to negotiate one issue at a time, a much better strategy is to negotiate multiple issues simultaneously. Why? Because negotiating one issue at a time eliminates the possibility of logrolling. For example, in the Moms.com negotiation, if you have already reached agreement on the licensing fee and are now negotiating the number of runs, it will be extremely difficult to agree to eight runs. The only way Hollyville will allow eight runs is if WCHI concedes on a different issue—but if you have already put aside the other issues, this is not possible. Notice that, when considered separately, both issues in the Moms.com negotiation are effectively zero-sum; the buyer and seller have diametrically opposed interests on each issue. Only when they negotiate these issues simultaneously can they create a non-zero-sum negotiation that allows for value creation. In other words, although the buyer and seller will be in conflict on each issue, they are not equally passionate about each issue. The relative importance of each issue to each party only becomes apparent when the issues are discussed simultaneously.
+
+STRATEGY 2: MAKE PACKAGE OFFERS
+
+Negotiating multiple issues simultaneously does not mean that you must literally talk about every issue at the same time. It does mean that you should avoid reaching final agreement on any one issue until you have had the opportunity to discuss every issue. Especially when there are many complex issues to discuss, a particularly productive approach is to begin with a discussion of each side’s perspective and preferred outcome on each issue. Once you have shared preliminary information, you can begin comparing relative preferences across issues. Finally, when it is time to exchange offers, make package offers. That is, instead of making an offer or demand on one issue (such as price or salary), propose a package deal that communicates to the other side your preferred outcome across all of the issues. This helps the other party isolate aspects of the offer that are particularly problematic and propose counteroffers that do not simply ask for more on each issue. Instead, your counterpart can signal flexibility on some issues while making demands on others.
+
+Consider the following two approaches for negotiating the price of a service agreement between your firm and a potential client. Which approach is likely to create more value in the end?
+
+
+
+A. “Thank you for providing me with a detailed list of the services that your firm requires and for explaining that you would like to begin the service period in July. We can provide these services at a cost of $650,000.”
+
+B. “Thank you for providing me with a detailed list of the services that your firm requires and for explaining that you would like to begin the service period in July. Thank you also for signaling that you have some flexibility on when the service period begins and for your interest in exploring the ‘premium’ service option that I described. This gives us a number of different ways to price the services you value. Here are two options:
+
+“Option 1: If the service period begins in July, and without the premium service, we can provide these services at a cost of $650,000. If you would like to add the premium service, that will come at a cost of $50,000, for a total price of $700,000.
+
+“Option 2: If the service period begins earlier, in March, and without the premium service, we can lower the price to $635,000. If you would like to add the premium service, that will come at a cost of $45,000, for a total price of $680,000.”
+
+
+
+Approach B helps your potential client understand what trade-offs are possible, and makes it much more likely that the two of you will reach an efficient agreement.
+
+STRATEGY 3: LEVERAGE DIFFERENCES OF ALL TYPES TO CREATE VALUE
+
+Because people are different, conflict is natural. We have different perspectives, interests, needs, constraints, careers, educational backgrounds, and experiences. But while differences often lead to conflict, they also provide a means of resolving conflict. The reason logrolling creates value, for instance, is that parties have different priorities. If their priorities were identical, there would be no way for one person to concede on Issue A in return for more of Issue B. Similarly, consider the essence of contingency contracts: they create value because the two parties have different expectations about the future. If their expectations were identical, they would have no opportunity to introduce clauses that increase both parties’ expected value.
+
+Negotiation geniuses understand this crucial insight: you can leverage differences of all types to create value. For example, consider differences in risk preferences. If you are risk averse and someone else is risk neutral, you are in a position to pay that person to take on your risk. Sounds funny, right? But that is exactly what an insurance company does. You pay your health, automobile, or home insurance company a premium to cover your losses in case something goes wrong. On average, you will lose money when you buy insurance. But because you are risk averse, you are willing to lose some money in exchange for paying the risk-neutral company to take away your risk. This makes both of you better off and no one worse off—which means value has been created!
+
+As another example, consider differences in time preferences. If you are not currently using something you own, but another party needs it right away, you can give them what you have in return for a payment. If this sounds familiar, it’s because this is what happens when you deposit some of your money with a bank. You give your money to the bank because you do not need to spend it immediately. In return, the bank gives your money to its borrowers and pays you for the use of your money in the form of interest. This exchange makes both of you better off.
+
+When negotiating, rather than trying to ignore, reconcile, or overcome your differences with the other party, you should try to seek out differences, and then find ways to leverage them to create value. For example, the next time someone strenuously objects to a particular aspect of your proposal, do not be dismayed. Instead, try to discover how much the other side values getting their way on this aspect of the deal. If they value it sufficiently, they may be in a position to make the deal even sweeter for you by making other concessions in return for your flexibility.
+
+POST-NEGOTIATION STRATEGIES FOR VALUE CREATION
+
+Negotiation geniuses do not stop after having created value during the negotiation; they continue to seek out Pareto improvements even after the deal is signed. A powerful tool for value creation is the use of post-settlement settlements (PSS), settlements that are reached after the initial agreement is signed.4 Imagine the following:
+
+
+
+After weeks of negotiation, you have just signed a complex deal with the CEO of Firm X. You are satisfied with the deal and so is the other party. You want nothing more than to go home, take a shower, and pop open some champagne. But you reconsider, deciding to try something a little different. You ask the CEO of Firm X whether she would be willing to take another look at the agreement and see if it can be improved. She is surprised by the suggestion and asks if you’re having second thoughts about the deal.
+
+
+
+Often, the last thing you want to do after a long negotiation is to open up a can of worms and potentially derail the agreement. You do not want to appear to be reneging on the deal you just signed, nor do you want to suggest that you held back in your ability to make concessions earlier. You are also unwilling to give away any more ground to the other party.
+
+Why, then, might you propose a post-settlement settlement? Because, for a variety of reasons, a PSS can lead to Pareto improvements. First, the already-signed agreement confirms the parties’ ability to work together to reach value-creating deals and creates an environment of optimism. Second, once a signed agreement exists, parties feel less anxious and are often more willing to share information. Third, if presented correctly, both sides will understand that they will only accept a PSS if it improves both of their outcomes. In other words, the recently signed agreement becomes the new BATNA for both parties.
+
+This is a crucial point: you don’t want the other side to perceive the PSS as your attempt to renege or squeeze last-minute concessions out of them. On the contrary, you should present the idea of a PSS as an opportunity for both parties to benefit. Indeed, state this ground rule explicitly at the outset: either we both benefit, or we stick with what we have agreed to already.
+
+Consider the following story, recounted by one of our former executive students, the CEO of a small firm in the pharmaceutical industry:
+
+
+
+“I had agreed…to sell the rights to eight different drugs I have in development…I had negotiated for five straight days on this deal and it closed…before the Harvard course. After your classes I call up the pharmaceutical company that is buying the rights and said that I needed more money up-front. The company was taken aback by my call.
+
+However…I used this opportunity to explain exactly why I wanted different terms. Once they heard my rationale—that I wanted the money to start more projects, that I wanted the money to help me with cash flow, and that I wanted the money to be able to go to some angel investors to raise even more money—they understood. All they wanted in return was a right of first refusal on any future projects I develop with the additional cash flow in the next two years.
+
+Now instead of using a line of credit to support all these development programs, I have three or four more projects that I will start this summer versus end of ’04. And both sides have a better value under these terms…”
+
+
+
+As the story suggests, the pharmaceutical company was initially surprised (and not particularly thrilled) by the executive’s request to reopen negotiations. This was largely due to the perception that the executive was simply coming back for more money without concern for the other side’s interests. The situation improved once the executive shared more information regarding his interests and communicated a willingness to give the pharmaceutical company something in return. PSSs not only facilitate logrolling, they can also help to identify and add issues that were not even part of the initial negotiation; in the above example, the parties had never discussed a right of first refusal in the formal negotiations that preceded the PSS.
+
+It is easy to see how a PSS might have improved the outcome in the Moms.com negotiation. Had the parties continued to negotiate and share information after the initial agreement was signed, they might have discovered the value of shifting to eight runs, making a deal on Juniors, and/or including a contingency clause that leveraged different ratings expectations.
+
+Despite these potential benefits, post-settlement settlements are a severely underutilized tool. Many people have never heard of PSS, others are wary of the risks associated with renegotiating, others doubt that a PSS can really be of benefit, and still others do not know how to propose a PSS. We have addressed the first three issues. Now let’s consider how you might propose a PSS:
+
+
+
+Step 1: Start by acknowledging the progress that was already made in reaching the initial agreement.
+
+Step 2: Suggest that there are aspects of the deal that you wish could be improved; acknowledge that they probably feel similarly.
+
+Step 3: Suggest that you may have already conceded everything that you can afford, but that you are willing to try to think “outside the box” if that will help the other party.
+
+Step 4: State that it is important for both of you to realize that you are not looking for a new agreement, but for an improved agreement that both parties prefer to the current agreement.
+
+
+
+As an example, you might say the following:
+
+
+
+“Congratulations! I think that our hard work has really paid off in a great deal. We’re probably both ready to call it a day. I’m wondering, though, whether you might be open to an idea. Though we’re both satisfied with the agreement, there are inevitably aspects of the deal that I wish could have been better for me, and you probably feel the same way about other aspects. What if we spent a few more minutes talking about potential improvements to the deal that would make both of us better off? Maybe we’ve already exhausted those possibilities—but it might be a good idea to see if there are any stones left unturned. Of course, if we can’t find ways to make both parties happier, we’ll be even more confident that our signed agreement is the right one for everyone. If you’re up for it, let’s give it a try…”
+
+
+
+Keep in mind that it is not necessary for you to have this conversation immediately upon signing the initial deal. You might want to sleep on it. You might even wait a week or a month before revisiting the deal. The key, however, is to realize that your negotiation should not end when the deal is signed—it should end when you feel that you have exhausted all options for value creation.
+
+THE GENIUS OF VALUE CREATION
+
+As the ideas, strategies, and tactics we’ve presented in this chapter suggest, getting a good deal in negotiation is not simply about claiming as much value as you can. Often, a much more important (and difficult) task is to create value and increase the size of the pie. Unfortunately, too many negotiators focus most of their energy on claiming value. In doing so, they leave money on the table and walk away confident, satisfied—and also poor. As you finish this chapter, consider the following question: would you rather claim 70 percent of a $100 pie, or 70 percent of a $200 pie? That is the type of choice you will face in most of your real-world negotiations. Even if you get a slightly smaller portion of a large pie (say, 50–60 percent), this trade-off may be very profitable for you.
+
+It is important to realize that we are not preaching the gospel of altruism and benevolence, but rather teaching the art and science of value creation. Even the most self-interested negotiators must rely on others to satisfy their own interests. Remember: to take what is there, you must work with the other side to make what is there. And if you care about your reputation and your relationship with the other party, all the more reason to exercise the genius of value creation.
+
+
+
+
+

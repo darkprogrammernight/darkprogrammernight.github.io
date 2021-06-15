@@ -1,0 +1,389 @@
+chapter
+
+3
+
+The Direct Attack: Just
+Asking for It
+
+m
+
+any social engineering attacks are intricate, involving a number of steps and elaborate planning, combining a mix of
+manipulation and technological know-how.
+But I always find it striking that a skillful social engineer can often
+achieve his goal with a simple, straightforward, direct attack. Just asking
+outright for the information may be all that’s needed—as you’ll see.
+
+AN MLAC QUICKIE
+Want to know someone’s unlisted phone number? A social engineer can
+tell you half a dozen ways (and you’ll find some of them described in other
+stories in these pages), but probably the simplest scenario is one that uses
+a single phone call, like this one.
+Number, Please
+The attacker dialed the private phone company number for the MLAC,
+the Mechanized Line Assignment Center. To the woman who answered,
+he said:
+“Hey, this is Paul Anthony. I’m a cable splicer. Listen, a terminal box out
+here got fried in a fire. Cops think some creep tried to burn his own house
+down for the insurance. They got me out here alone trying to rewire this
+entire two hundred-pair terminal. I could really use some help right now.
+What facilities should be working at 6723 South Main?”
+
+04237124 Ch03.F
+
+
+
+
+
+In other parts of the phone company, the person called would know that
+reverse lookup information on nonpub (nonpublished) numbers is supposed to be given out only to authorized phone company people. But
+MLAC is supposed to be known only to company employees. And while
+they’d never give out information to the public, who would want to refuse
+a little help to a company man coping with that heavy-duty assignment?
+She feels sorry for him, she’s had bad days on the job herself, and she’ll
+bend the rules a little to help out a fellow employee with a problem. She
+gives him the cable and pairs and each working number assigned to the
+address.
+Analyzing the Con
+As you’ll notice repeatedly in these stories, knowledge of a company’s
+lingo, and of its corporate structure—its various offices and departments,
+what each does and what information each has—is part of the essential
+bag of tricks of the successful social engineer.
+mitnick
+message
+
+Chapter 3
+
+32
+
+It’s human nature to trust our fellow man, especially when the request meets the
+test of being reasonable. Social engineers use this knowledge to exploit their victims and to achieve their goals.
+
+YOUNG MAN ON THE RUN
+A man we’ll call Frank Parsons had been on the run for years, still wanted
+by the federal government for being part of an underground antiwar
+group in the 1960s. In restaurants he sat facing the door and he had a way
+of glancing over his shoulder every once in a while that other people found
+disconcerting. He moved every few years.
+At one point Frank landed in a city he didn’t know, and set about job
+hunting. For someone like Frank, with his well-developed computer skills
+(and social engineering skills as well, even though he never listed those on
+a job application), finding a good job usually wasn’t a problem. Except in
+times when the economy is very tight, people with good technical computer knowledge usually find their talents in high demand and they have
+little problem landing on their feet. Frank quickly located a well-paying
+
+04237124 Ch03.F
+
+
+
+
+
+mitnick
+message
+Savvy information swindlers have no qualms about ringing up federal, state, or
+local government officials to learn about the procedures of law enforcement. With
+such information in hand, the social engineer may be able to circumvent your
+company’s standard security checks.
+
+33
+The Direct Attack: Just Asking for It
+
+job opportunity at a large, upscale, long-term care facility near where he
+was living.
+Just the ticket, he thought. But when he started plodding his way
+through the application forms, he came upon an uh-oh: The employer
+required the applicant to provide a copy of his state criminal history
+record, which he had to obtain himself from the state police. The stack of
+employment papers included a form to request this document, and the
+form had a little box for providing a fingerprint. Even though they were
+asking for a print of just the right index finger, if they matched his print
+with one in the FBI’s database, he’d probably soon be working in food
+service at a federally funded resort.
+On the other hand, it occurred to Frank that maybe, just maybe, he
+might still be able to get away with this. Perhaps the state didn’t send those
+fingerprint samples to the FBI at all. How could he find out?
+How? He was a social engineer—how do you think he found out? He
+placed a phone call to the state patrol: “Hi. We’re doing a study for the
+State Department of Justice. We’re researching the requirements to implement a new fingerprint identification system. Can I talk to somebody
+there that’s really familiar with what you’re doing who could maybe help
+us out?”
+And when the local expert came on the phone, Frank asked a series of
+questions about what systems they were using, and the capabilities to
+search and store fingerprint data. Had they had any equipment problems?
+Were they tied into the National Crime Information Center’s (NCIC)
+Fingerprint Search or just within the state? Was the equipment pretty easy
+for everybody to learn to use?
+Slyly, he sneaked the key question in among the rest.
+The answer was music to his ears: No, they weren’t tied into the NCIC,
+they only checked against the state’s Criminal Information Index (CII).
+
+04237124 Ch03.F
+
+
+
+
+
+That was all Frank needed to know. He didn’t have any record in that
+state, so he submitted his application, was hired for the job, and nobody
+ever showed up at his desk one day with the greeting, “These gentlemen
+are from the FBI and they’d like to have a little talk with you.”
+And, according to him, he proved to be a model employee.
+
+ON THE DOORSTEP
+In spite of the myth of the paperless office, companies continue to print out
+reams of paper every day. Information in print at your company may be vulnerable, even if you use security precautions and stamp it confidential.
+Here’s one story that shows you how social engineers might obtain your
+most secret documents.
+
+Chapter 3
+
+34
+
+Loop-Around Deception
+Every year the phone company publishes a volume called the Test Number
+Directory (or at least they used to, and because I am still on supervised
+release, I’m not going to ask if they still do). This document was highly
+prized by phone phreaks because it was packed with a list of all the closely
+guarded phone numbers used by company craftsmen, technicians, and
+others for things like trunk testing or checking numbers that always
+ring busy.
+One of these test numbers, known in the lingo as a loop-around, was particularly useful. Phone phreaks used it as a way to find other phone
+phreaks to chat with, at no cost to them. Phone phreaks also used it as
+a way to create a callback number to give to, say, a bank. A social engineer
+would tell somebody at the bank the phone number to call to reach him
+at his office. When the bank called back to the test number (loop-around),
+the phone phreak would be able to receive the call, yet he had the
+protection of having used a phone number that could not be traced back
+to him.
+A Test Number Directory provided a lot of neat information that could
+be used by any information-hungry, testosteroned, phone phreak. So
+when the new directories were published each year, they were coveted
+by a lot of youngsters whose hobby was exploring the telephone network.
+
+04237124 Ch03.F
+
+
+
+
+
+mitnick
+message
+Security training with respect to company policy designed to protect information
+assets needs to be for everyone in the company, not just any employee who has
+electronic or physical access to the company’s IT assets.
+
+Stevie’s Scam
+Naturally phone companies don’t make these books easy to get hold of, so
+phone phreaks have to be creative to get one. How can they do this? An
+eager youngster with a mind bent on acquiring the directory might enact
+a scenario like this.
+
+35
+The Direct Attack: Just Asking for It
+
+Late one day, a mild evening in the southern California autumn, a guy I’ll
+call Stevie phones a small telephone company central office, which is the
+building from which phone lines run to all the homes and businesses in
+the established service area.
+When the switchman on duty answers the call, Stevie announces that
+he’s from the division of the phone company that publishes and distributes printed materials. “We have your new Test Number Directory,” he
+says. “But for security reasons, we can’t deliver your copy until we pick up
+the old one. And the delivery guy is running late. If you wanna leave your
+copy just outside your door, he can swing by, pick up yours, drop the new
+one, and be on his way.”
+The unsuspecting switchman seems to think that sounds reasonable.
+He does exactly as asked, putting out on the doorstep of the building his
+copy of the directory, its cover clearly marked in big red letters with the
+warning, “COMPANY CONFIDENTIAL—WHEN NO LONGER
+NEEDED, THIS DOCUMENT MUST BE SHREDDED.”
+Stevie drives by and looks around carefully to spot any cops or phone
+company security people who might be lurking behind trees or watching
+for him from parked cars. Nobody in sight. He casually picks up the coveted directory and drives away.
+Here’s just one more example of how easy it can be for a social engineer
+to get what he wants by following the simple principle of “just ask for it.”
+
+04237124 Ch03.F
+
+
+
+
+
+GAS ATTACK
+Not only company assets are at risk in a social engineering scenario.
+Sometimes it’s a company’s customers who are the victims.
+Working as a customer-service clerk brings its share of frustrations, its
+share of laughs, and its share of innocent mistakes—some of which can
+have unhappy consequences for a company’s customers.
+Janie Acton’s Story
+Janie Acton had been manning a cubicle as a customer service rep for
+Hometown Electric Power, in Washington, D.C., for just over three years.
+She was considered to be one of the better clerks, smart and conscientious.
+
+Chapter 3
+
+36
+
+It was Thanksgiving week when this one particular call came in. The caller
+said, “This is Eduardo in the Billing Department. I’ve got a lady on hold,
+she’s a secretary in the executive offices that works for one of the vice presidents, and she’s asking for some information and I can’t use my computer.
+I got an email from this girl in Human Resources that said ‘ILOVEYOU,’
+and when I opened the attachment, I couldn’t use my machine any more.
+A virus. I got caught by a stupid virus. Anyways, could you look up some
+customer information for me?”
+“Sure,” Janie answered. “It crashed your computer? That’s terrible.”
+“Yeah.”
+“How can I help?” Janie asked.
+Here the attacker called on information from his advance research to
+make himself sound authentic. He had learned that the information he
+wanted was stored in something called the Customer Billing Information
+System, and he had found out how employees referred to the system. He
+asked, “Can you bring up an account on CBIS?”
+“Yes, what’s the account number?”
+“I don’t have the number; I need you to bring it up by name.”
+“Okay, what’s the name?”
+“It’s Heather Marning.” He spelled the name, and Janie typed it in.
+“Okay, I have it up.”
+“Great. Is the account current?”
+“Uh huh, it’s current.”
+“What’s the account number?” he asked.
+“Do you have a pencil?”
+
+04237124 Ch03.F
+
+
+
+
+
+“Ready to write.”
+“Account number BAZ6573NR27Q.”
+He read the number back and then said, “And what’s the service
+address?”
+She gave him the address.
+“And what’s the phone?”
+Janie obligingly read off that information, too.
+The caller thanked her, said good-bye, and hung up. Janie went on to
+the next call, never thinking further about it.
+
+A man contacted me who was writing a book about the Cabinet in the
+Nixon years, and was looking for a researcher who could get the inside
+scoop on William E. Simon, who had been Nixon’s Treasury secretary. Mr.
+Simon had died, but the author had the name of a woman who had
+been on his staff. He was pretty sure she still lived in D.C., but hadn’t been
+able to get an address. She didn’t have a telephone in her name, or at least
+none that was listed. So that’s when he called me. I told him, sure, no
+problem.
+This is the kind of job you can usually bring off in a phone call or two,
+if you know what you’re doing. Every local utility company can generally
+be counted on to give the information away. Of course, you have to BS a
+little. But what’s a little white lie now and then—right?
+I like to use a different approach each time, just to keep things interesting. “This is so-and-so in the executive offices” has always worked well
+for me. So has “I’ve got somebody on the line from Vice President
+Somebody’s office,” which worked this time, too.
+
+37
+The Direct Attack: Just Asking for It
+
+Art Sealy’s Research Project
+Art Sealy had given up working as a freelance editor for small publishing
+houses when he found he could make more money doing research for
+writers and businesses. He soon figured out that the fee he could charge
+went up in proportion to how close the assignment took him to the sometimes hazy line between the legal and the illegal. Without ever realizing it,
+certainly without ever giving it a name, Art became a social engineer,
+using techniques familiar to every information broker. He turned out to
+have a native talent for the business, figuring out for himself techniques
+that most social engineers had to learn from others. After a while, he
+crossed the line without the least twinge of guilt.
+
+04237124 Ch03.F
+
+
+
+
+
+mitnick
+message
+Never think all social engineering attacks need to be elaborate ruses so complex
+that they’re likely to be recognized before they can be completed. Some are inand-out, strike-and-disappear, very simple attacks that are no more than . . . well,
+just asking for it.
+
+You have to sort of develop the social engineer’s instinct, get a sense of
+how cooperative the person on the other end is going to be with you. This
+time I lucked out with a friendly, helpful lady. In a single phone call, I had
+the address and phone number. Mission accomplished.
+
+Chapter 3
+
+38
+
+Analyzing the Con
+Certainly Janie knew that customer information is sensitive. She would
+never discuss one customer’s account with another customer, or give out
+private information to the public.
+But naturally, for a caller from within the company, different rules apply.
+For a fellow employee it’s all about being a team player and helping each
+other get the job done. The man from Billing could have looked up the
+details himself if his computer hadn’t been down with a virus, and she was
+glad to be able to help a coworker.
+Art built up gradually to the key information he was really after, asking
+questions along the way about things he didn’t really need, such as the
+account number. Yet at the same time, the account number information
+provided a fallback: If the clerk had become suspicious, he’d call a second
+time and stand a better chance of success, because knowing the account
+number would make him sound all the more authentic to the next clerk
+he reached.
+It never occurred to Janie that somebody might actually lie about something like this, that the caller might not really be from the billing department at all. Of course, the blame doesn’t lie at Janie’s feet. She wasn’t well
+versed in the rule about making sure you know who you’re talking to
+before discussing information in a customer’s file. Nobody had ever told
+her about the danger of a phone call like the one from Art. It wasn’t in the
+company policy, it wasn’t part of her training, and her supervisor had
+never mentioned it.
+
+04237124 Ch03.F
+
+
+
+
+
+PREVENTING THE CON
+
+39
+The Direct Attack: Just Asking for It
+
+A point to include in your security training: Just because a caller or visitor knows the names of some people in the company, or knows some of
+the corporate lingo or procedures, doesn’t mean he is who he claims to be.
+And it definitely doesn’t establish him as anybody authorized to be given
+internal information, or access to your computer system or network.
+Security training needs to emphasize: When in doubt, verify, verify,
+verify.
+In earlier times, access to information within a company was a mark of
+rank and privilege. Workers stoked the furnaces, ran the machines, typed
+the letters, and filed the reports. The foreman or boss told them what to
+do, when, and how. It was the foreman or boss who knew how many
+widgets each worker should be producing on a shift, how many and in
+what colors and sizes the factory needed to turn out this week, next week,
+and by the end of the month.
+Workers handled machines and tools and materials, and bosses handled
+information. Workers needed only the information specific to their specific jobs.
+The picture is a little different today, isn’t it? Many factory workers use
+some form of computer or computer-driven machine. For a large part of
+the workforce, critical information is pushed down to the users’ desktops
+so that they can fulfill their responsibility to get their work done. In
+today’s environment, almost everything employees do involves the handling of information.
+That’s why a company’s security policy needs to be distributed enterprisewide, regardless of position. Everybody must understand that it’s not just
+the bosses and executives who have the information that an attacker might
+be after. Today, workers at every level, even those who don’t use a computer, are liable to be targeted. The newly hired rep in the customer service group may be just the weak link that a social engineer breaks to achieve
+his objective.
+Security training and corporate security policies need to strengthen that
+link.
+
+04237124 Ch03.F
+
+
+
+
+
+05237124 Ch04.F
+
+
+
+
+

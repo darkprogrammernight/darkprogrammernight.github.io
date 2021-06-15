@@ -1,0 +1,235 @@
+CHAPTER 7
+
+
+
+
+Strategies of Influence
+
+Throughout the earlier chapters of this book, we have emphasized the need to understand the other side’s perspective. For example, the principles and strategies of investigative negotiation are critical because discovering the hidden interests, priorities, and constraints of the other side allows you to create and claim value more effectively. One of our fundamental messages is that negotiation success is typically more a function of how well we listen than how well we talk.
+
+But that is not the whole story. When you are making a pitch, asking for concessions, or trying to amass support for your proposal, success also depends on your ability to “sell” your ideas, persuade reluctant opponents, and convince others regarding the merits of your case. These skills not only help you claim value for yourself, but also create value for both parties. One of the most common complaints of seasoned negotiators is that defensive, untrusting, or incompetent people can stymie even mutually beneficial ideas and proposals. Thus, would-be negotiation geniuses must find ways to overcome not only the reasonable objections of others, but also their close-mindedness.
+
+In this chapter, we leverage some of the most fascinating current research on the psychology of influence and persuasion—including the pioneering work of renowned social psychologist Robert Cialdini1—to develop strategies that will help you convince others to comply with your requests, proposals, and ideas. Note that these influence strategies are not designed to help you improve the merits of your proposal. Rather, they will increase the likelihood that others will say yes to your proposals without the need for you to improve them. Of course, you can also expect to be the target of influence tactics originating from the other side. This chapter provides numerous “defense strategies” for resisting their ploys, as well as a host of factors to consider before you say yes.
+
+STRATEGY 1: HIGHLIGHT THEIR POTENTIAL LOSSES RATHER THAN THEIR POTENTIAL GAINS
+
+A representative from your local power company comes to your neighborhood offering free energy audits to homeowners. You agree to the audit, after which the representative advises you to invest in products and services that will help insulate your home and lower your energy costs. Will you say yes? As researchers at the University of Santa Cruz discovered, your answer probably depends on exactly how the pitch is made. In the Santa Cruz study, the representative told half of the homeowners the following: “If you insulate your home, you will save X cents per day.” (The value of X was determined by the audit.) For the other half of homeowners, the pitch was reversed: “If you fail to insulate your home, you will lose X cents per day.” Notice that the information content of these two statements is identical. However, those who were told how much they stood to lose by not complying with the recommendation were significantly more likely to purchase the insulation!2
+
+As this study illustrates, people are more motivated to avoid losses than they are to accrue gains, consistent with the principle of loss aversion.3 In other words, decision makers weigh information about potential losses more heavily than they do information about potential gains—even when the gains and losses are of equal magnitude. As a result, when you frame the exact same set of information as a loss, it will be more influential in negotiation than when you frame it as a gain.
+
+Consider the following ways to leverage the power of loss aversion in negotiation:
+
+
+
+• State your proposal in terms of what potential gains the other side stands to forgo if your idea or proposal is rejected, rather than on what he or she stands to gain by accepting.
+
+• When holding an auction, tell bidders “you will miss out on the opportunity to have X if you do not increase your bid” rather than “you will have the opportunity to get X if you increase your bid.”
+
+• Point out that “the offer from our competitor does not give you X, Y, or Z,” instead of pointing out that “our offer gives you X, Y, and Z.”
+
+
+
+In each of these cases, the information content of the proposal remains unchanged when you adopt a loss frame rather than a gain frame. The influence content, however, changes dramatically.
+
+Once you are aware of the principle of loss aversion, you will start to notice how often the tactic crops up, not only in negotiations, but also in your life as a manager, consumer, and citizen. For example, when a consultant or a task-force representative tells you that “failure to implement these changes will result in a revenue loss of 1.5 percent,” you are at the receiving end of an influence strategy. Loss aversion is also one reason why negative political ads are so effective, even though everyone professes to hate them: when candidates warn you about the dangers associated with electing their opponent (rather than touting their own merits), they are leveraging this strategy.
+
+The principle of loss aversion can also be aimed toward benevolent ends. In a study conducted at a medical clinic in a U.S. city, women were shown videos designed to promote HIV testing. In one version of the video (the “control” condition), information was framed in terms of the benefits associated with getting tested. In another version (the “loss-frame” condition), the information was framed in terms of the costs and risks associated with not getting tested (e.g., “By not getting tested a woman is putting herself, the people she loves, and her unborn children if she becomes pregnant at risk”). Sixty-three percent of women who were shown the loss-frame video chose to be tested for HIV within two weeks. Among those who were shown the gain-frame video, only 23 percent chose to be tested.4 In similar research, loss frames were also more effective in persuading people to obtain skin cancer detection exams5 and in increasing the likelihood that women would conduct breast self-examinations.6
+
+Despite its power to motivate compliance with demands and proposals, we have one important caveat on the use of this strategy: an overreliance on loss frames can sour relationships. Those who focus only on risks, costs, losses, and downsides may be perceived as hostile, threatening, or simply unpleasant. These attributions can create barriers to negotiation if they induce the other party to retaliate in kind. Thus, your use of loss frames should be strategic and targeted, not pervasive. It may be best to reserve the use of loss frames for summarizing your argument, or making your “final pitch” statement, and to avoid negativity earlier in your presentation or discussion.
+
+STRATEGY 2: DISAGGREGATE THEIR GAINS AND AGGREGATE THEIR LOSSES
+
+Which of these two situations would likely make you happier?
+
+
+
+Scenario 1: You are walking down the street and find a $20 bill.
+
+Scenario 2: You are walking down the street and find a $10 bill. The next day, as you are walking on a different street, you find another $10 bill.
+
+
+
+Notice that the two scenarios have identical payoffs: both result in a $20 gain. However, the vast majority of people believe that they would be happier in Scenario 2. Why? Before we try to answer this, let’s consider another two scenarios.
+
+Which of the following would make you unhappier?
+
+
+
+Scenario X: You open your wallet and discover you have lost a $20 bill.
+
+Scenario Y: You open your wallet and discover you have lost a $10 bill. The following day you lose another $10 bill.
+
+
+
+Again, the scenarios are identical with regard to financial outcome. However, this time the vast majority of people claim that Scenario Y would make them unhappier.
+
+As these two exercises demonstrate, people seem to prefer finding money in installments but losing money in one lump sum.7 In order to maximize pleasure, then, you should separate the total gain into lots of small wins (rather than one big win). Meanwhile, to minimize pain, you should put all of the losses together—this gives you only one loss to absorb.
+
+Here are the implications of this finding for negotiators:
+
+
+
+Disaggregate Their Gains:
+
+• If you have the ability to make concessions, do not make them all at once. For example, if you can increase your offer by $100, break up this concession into smaller concessions that add up to $100 and distribute the smaller concessions individually. Your counterpart will evaluate this string of concessions more positively than one lump-sum concession.
+
+• If you have good news to share, try to parcel the information into smaller “gems” that will give the other party more occasions to smile. For example, if you have completed a project under budget and also earlier than scheduled, do not share all of this good news with your client all at once. You will make your client happier if, one day, you tell her you have completed the project early, and on another day, you tell her you were also under budget.
+
+• If you have benefits or rewards to offer, separate them into installments that you can make over time. For example, if you have been authorized to give an unsuspecting employee both a raise and a promotion, you will make the employee happier if you tell them about the raise today and about the promotion tomorrow.
+
+
+
+Aggregate Their Losses:
+
+• If you are requesting or demanding that the other side make concessions, make one comprehensive demand rather than several partial demands.
+
+• If you have bad news to share, share it all at once.
+
+• If you have costs or burdens to impose, combine them into one.
+
+STRATEGY 3: EMPLOY THE “DOOR IN THE FACE” TECHNIQUE
+
+Many salespeople swear by this old rule of thumb: “Keep them saying yes!” The theory behind this approach is that, as the seller in a negotiation, you should strive to keep the buyer in a positive, agreeable, and accommodating mood. After all, the longer she agrees with you, the more likely she is to believe that your interests are compatible with hers. There is also the issue of momentum to consider: you want to build momentum toward final acceptance of your demands—not ultimate rejection.
+
+Like so many rules of thumb, this one is only partially true. In fact, one way to get the “yes” you want is to allow (or provoke) the other party to say “no” first. Consider some fascinating research conducted by Professor Robert Cialdini of Arizona State University. Cialdini’s research assistants went around the city posing as workers from the county juvenile detention center. They stopped people on the street at random and asked them for a favor: “Would you be willing to chaperone a group of juvenile delinquents on a day trip to the zoo?” As you might imagine, most people were taken aback by the extreme request, and only 17 percent said yes. The researchers then tried a different approach. This time when they stopped a person, they asked for an even greater favor: “Would you be willing to serve as a counselor at the juvenile detention center? This will require two hours of your time each week for three years.” Not surprisingly, everyone turned down this request. Without skipping a beat, the researchers then went on to ask: “Well, if you can’t do that, would you be willing to chaperone a group of juvenile delinquents on a day trip to the zoo?” The response was staggering. Now, 50 percent of those asked to chaperone agreed to comply! When the exact same proposal—a request to chaperone—was preceded by an extreme demand that was sure to be rejected, three times as many people said yes.
+
+Why does compliance increase after an initial rejection? Because, according to Cialdini, when the person making the request moderates his demands (and asks for something less extreme), the other side views this as a concession that must be reciprocated.8 In other words, because the rejected party has “compromised” by asking for less, it is incumbent on the other side to “meet them halfway.” Another factor is the contrast effect—our tendency to judge the size of something based on the context in which it is situated. Placed next to the request for a three-year investment of time, chaperoning a zoo trip does not seem like much to ask! Cialdini refers to this extreme-then-moderate approach as the “door in the face” (DITF) strategy, referring to the image of a salesperson having the door slammed in his face when he makes an outrageous request. Of course, in this case, the salesperson does not walk away after the door is slammed; instead, she makes a second, less outrageous request.
+
+The negotiation implications of Cialdini’s study are obvious, and we’ve already covered some of them in our discussion of first offers and anchors in Chapter 1. Simply put, if you want something, ask for more than you want (or expect), and be prepared to make concessions. Unfortunately, negotiators often censor themselves, assuming that too aggressive an offer will be rejected—but as Cialdini’s research demonstrates, rejection is not necessarily a bad thing. There are, of course, some risks associated with making outrageous demands. Your counterpart might consider your request to be ignorant, crazy, or plain offensive (though the zoo-trip study suggests that you can sometimes get away with some fairly outrageous requests!). In Strategy 5, we will consider one powerful way to mitigate the possibility of offending the other party when you have made an extreme demand.
+
+STRATEGY 4: EMPLOY THE “FOOT IN THE DOOR” TECHNIQUE
+
+Consider the results of the following experiment.9 In a study conducted near a college campus, the bartender at a local bar identified a set of regular patrons and asked half of them to sign a petition against drunk driving. They all did so. The bartender did not approach the other half of the group with this request. Over the next six weeks, the bartender noted when any of the identified patrons became intoxicated. Then, as the inebriated patron prepared to leave the bar, the bartender made a second request: “May I call a taxi to take you home?” Among those who had not been asked to sign a petition, only 10 percent agreed to wait for the taxi. In contrast, 58 percent of those who had signed were willing to wait.
+
+Why did more people agree to the more onerous request (wait for a taxi) after they had first complied with a less burdensome request (sign a petition)? Research suggests that once someone has agreed to an initial request, they are more psychologically committed to seeing the process through to its end. Thus, willingness to agree with one request leads to an increased commitment to agree with additional requests that naturally follow from the initial request. The critical factor here is the motivation that people have to justify past decisions and to preserve consistency between their statements and actions. Once someone has said yes to the bartender’s initial request, she is psychologically committed. She begins to see herself as someone who takes a stand against drunk driving. When confronted with the bartender’s second request, she may feel she has no choice but to comply; if she does not, it becomes difficult to justify her willingness to sign the petition in the first place.10
+
+This approach, which has been referred to as the “foot in the door” (FITD) strategy, may appear to contradict Cialdini’s “door in the face” strategy in which the more extreme request is made initially. However, these strategies have different underlying mechanisms and objectives. DITF (aim for rejection, then moderate your demand) is appropriate (as in the zoo-trip study) when your goal is to make your key demand seem reasonable. The FITD (aim for compliance with a simple request, then increase your demands) is appropriate when you are in need of building commitment toward your key demand.
+
+For example, a car salesman may employ the DITF technique by showing a potential buyer a more expensive car first, even though he has already determined that the buyer is only considering the cheaper model. Because of the contrast effect, seeing the more expensive car first will make the price of the cheaper car seem reasonable. Later, during the same interaction, the salesman might also use the FITD technique. He can do this by asking the buyer to take the cheaper car for a test drive (a moderate request). Once the test drive is over, and the buyer has increased his commitment to the cheaper car, the salesman is in a better position to ask the buyer to purchase it (the more extreme request).
+
+There is another important distinction between using the DITF and FITD strategies: When applying the DITF (extreme-then-moderate) strategy, try to make the moderate request very soon after the other side rejects your extreme request. Otherwise, the contrast effect diminishes and the moderate request is perceived not as a concession, but as an entirely different demand. The FITD (moderate-then-extreme) approach, in contrast, seems to work better when the extreme request is made after some time has passed since the moderate request was accepted (assuming the earlier agreement has not been forgotten). If the second demand is made too soon, there is less time for feelings of commitment to be processed; also, making a second demand right after the first may be seen as overly aggressive, pushy, or blatantly strategic.
+
+STRATEGY 5: LEVERAGE THE POWER OF JUSTIFICATION
+
+Harvard psychologist Ellen Langer and her colleagues set the stage for another fascinating study when they asked the university librarian to shut down all but one of the copy machines in the library. As a result of this conspiracy, long lines began to form at the one remaining copy machine. The researchers were interested in finding out what would convince people who were in line to let others cut in front of them. In some instances, a researcher simply said, “Excuse me, I have five pages. May I use the Xerox machine?” Sixty percent of those approached this way allowed the researcher to cut in front of them. Other people were approached with a slightly different request: “Excuse me, I have five pages. May I use the Xerox machine because I have to make some copies?” As you can see, the second approach added an entirely inane justification (obviously, the reason for wanting to cut in line at a copy machine is to make copies!). What was the response this time? Ninety-three percent of those approached with this request allowed the researcher to cut in front of them!11
+
+As these results suggest, even entirely frivolous justifications have the power to induce compliance. Why? Because human beings are “hardwired” to accommodate the (seemingly) legitimate demands and impositions of others because doing so allows us to build mutually rewarding relationships with them. In other words, we are willing to go the extra mile in order to help those who will become obligated to us, but not to help those who feel they can simply impose their will upon us and who may not ever reciprocate. And so, even though people tend to resist the demands you impose upon them, they are willing to lower their resistance and consider your demands if they feel that at least you think the demands are justified. To make these judgments, according to Langer and her colleagues, humans use heuristics, or simple “rules of thumb,” and even a simple signal such as the word “because” is often sufficient to win compliance. In the copy machine experiment, for example, the lack of substantive information following the “because” was less relevant than the word itself.
+
+How can negotiators use this insight? Here is one critical piece of advice, which we first shared in Chapter 1: refrain from making demands (especially aggressive offers) that will not fit into a sentence with approximately the following structure: “I am asking for X because…” In other words, if you can find some way to justify your position, that justification will probably increase the odds of compliance—or, at the very least, mitigate the risk that your demand will be perceived as illegitimate, unfounded, crazy, or offensive. Even if your goal is not to “sell” an extreme demand (as in the DITF technique), adding a justification can strengthen your case and make it less likely that the other side will simply walk away.
+
+What are some potential justifications for your demands? Typically, many potential justifications exist, and negotiators must choose the one that best suits the desired outcome. The seller of a piece of real estate might try to maximize bids by citing the high sale prices of recent properties in the area, the above-average condition of the property being sold, or the optimistic projections of analysts regarding real-estate prices in the region. Meanwhile, a buyer might justify her low offer on the same piece of property based on the low recent valuation, the risk that current prices are inflated due to a nationwide real-estate bubble, or the low price of another property that she saw earlier that day.
+
+As another example, consider the difference among the following three scripts that an employee might use in her attempt to negotiate a higher salary.
+
+
+
+Offer A: “You had asked how much of a salary increase I feel that I deserve. I have thought about it, and I believe that a 10 percent raise would be fair.”
+
+Offer B: “You had asked how much of a salary increase I feel that I deserve. I have thought about it, and I believe that a 10 percent raise would be fair because my performance over the last year has been exceptional.”
+
+Offer C: “You had asked how much of a salary increase I feel that I deserve. I have thought about it, and I believe that a 10 percent raise would be fair because my performance over the last year has been exceptional. Here is some data on the revenues I have generated that support my claim.”
+
+
+
+Offer B is clearly superior to Offer A because it provides a justification for the demand (a 10 percent increase in salary). However, Offer C represents the best approach: it provides a justification and follows that up with evidence to support this justification. There are potentially many ways to measure work performance, but by taking control of the discussion early on, you have an opportunity to define what is the appropriate measure. Offer C, then, includes a justification for the demand, but also frames the negotiation in a way that helps maximize the power of the justification. More generally, in negotiation, don’t let your offer “speak for itself” provide a justification for your demand and then tell a story that legitimizes your justification.
+
+STRATEGY 6: LEVERAGE THE POWER OF SOCIAL PROOF
+
+In recent years, “infomercials”—long advertisements that provide extensive information regarding the benefits, application, or celebrity use of a product—have become a hallmark of late-night television in the United States. At various points during the typical thirty-minute infomercial, the host will ask viewers to “call the number on the screen” to purchase the advertised product at discounted prices. Many of us have wondered what in the world would persuade someone to actually pick up the phone in the middle of the night to buy something like a self-cleaning oven mitt. Apparently, an infomercial writer named Colleen Szot spent a lot of time wondering the exact same thing. At one point, she decided to change the standard request that appeared in virtually all infomercials: “Operators are standing by, please call now.” She simply changed three words in the statement: “If operators are busy, please call again.” What was the result? The number of calls skyrocketed!12
+
+Why? On the surface, both statements seem to convey identical information, and neither says anything about the product. But what message does each statement convey about the behavior of other viewers? The old message seems to suggest that very few (if any) people are calling and that the operators are simply waiting for the phone to ring. The second message, in contrast, suggests that the phones are ringing off the hook and that you may have to try calling multiple times because other people are buying this product. Psychologists refer to this phenomenon as the power of social proof.13 As every teenager knows, whenever there is uncertainty or ambiguity regarding the appropriate course of action, you should look to the behavior of similar others for guidance (“But, Mom, everybody’s doing it!”). As it turns out, teenagers are not the only ones who think this way. This is why bars and nightclubs maintain long lines outside the entrance even when the interior is almost empty (you would think they would prefer to sell alcohol to these people). It is also why television sitcoms use “laugh tracks”: we think a joke is funnier when we hear other people laughing at it.
+
+How can the principle of social proof improve your negotiation outcomes? Consider the following tactics:
+
+
+
+• The seller of a house limits the open-house viewing of the property to only one hour so that all potential buyers will be present at the same time.
+
+• When a potential client asks her to provide a list of dates on which to schedule an initial meeting, the consultant (who is secretly desperate for work) provides very few available dates in the following week.
+
+• A sales representative begins his pitch by listing his firm’s many other clients. (Or a business school fills its brochures with the names and photographs of famous alumni.)
+
+STRATEGY 7: MAKE TOKEN UNILATERAL CONCESSIONS
+
+Some years ago, a national trade association for construction subcontractors determined that it needed to survey its membership. They were aware, however, of one of the key barriers to such market research: target audiences are notoriously reluctant to respond to surveys and questionnaires. In the hopes of learning how best to increase response rates, they decided to test the power of providing a financial incentive for filling out the survey. One randomly chosen subgroup of members was sent the questionnaire with no financial incentive. Of this subgroup, 20.7 percent returned a completed questionnaire. Another randomly chosen subgroup of members was promised a $50 payment for completing and returning the questionnaire. Unfortunately, the $50 incentive did not significantly change behavior; this time, 23.3 percent of members responded. Why such a weak effect? One plausible theory is that the incentive was not large enough; perhaps the association should have promised $100 or $200. However, consider what happened with a third group of members. This group was sent the questionnaire and, along with it, a single $1 bill. This time, 40.7 percent of members returned a completed questionnaire!14
+
+Standard economic theories fail to explain the behavior of these survey respondents. Not only was the $1 incentive considerably smaller than the $50 incentive, but the $1 incentive was not really an “incentive” at all—it was guaranteed payment regardless of whether the member complied with the request. While economic theorists rush to create a model that explains this behavior, the rest of us might note that it is precisely because the $1 was not an incentive, but rather a unilateral concession—or gift—that the recipients felt obliged to reciprocate. What is striking, nonetheless, is the fact that such a small concession would be so effective. Research on trust and reciprocity suggests that recipients of gifts and concessions are often insensitive to the degree of cost incurred by the giver;15 thus, even a low-cost (i.e., “token”) concession may be sufficient to induce reciprocity, compliance, or agreement.
+
+For example, consider some token concessions that you might make in your next negotiation:
+
+
+
+• You agree to meet at a time—or at a location—that is more convenient for the other side than it is for you.
+
+• On the way to the negotiation, you purchase doughnuts and coffee to share with your negotiation counterpart.
+
+• You begin substantive discussions by agreeing to one of the smaller requests that the other side had made.
+
+
+
+In each case, the more salient your concession is to the other side (e.g., the other side knows that you have agreed to the location despite its inconvenience for you), the more likely it is that they will be compelled to reciprocate in substantive ways.
+
+STRATEGY 8: USE REFERENCE POINTS TO MAKE YOUR OFFERS AND DEMANDS SEEM REASONABLE
+
+In a recent negotiation training session for executives, we presented the following scenario (adapted from the work of Daniel Kahneman and Amos Tversky16) to half of the participants:
+
+
+
+Scenario A: Imagine that you are about to purchase a calculator for $50. The calculator salesperson informs you that this calculator is on sale at the store’s other branch, located a twenty-minute drive away from where you are now. Assuming that you cannot negotiate the price at your current location, what is the minimum discount you would need at the other location to make it worth the twenty-minute trip?
+
+
+
+Before you read further, take a moment to write down your own response to Scenario A. Then consider the next scenario, which was presented to the other half of the participants in the session.
+
+
+
+Scenario B: Imagine that you are about to purchase a laptop computer for $2,000. The computer salesperson informs you that this computer is on sale at the store’s other branch, located a twenty-minute drive from where you are now. Assuming that you cannot negotiate the price at your current location, what is the minimum discount you would need at the other location to make it worth the twenty-minute trip?
+
+
+
+If you look closely, you will notice that both scenarios are asking the same question: how much is twenty minutes of your time worth? But consider how differently executives valued twenty minutes of their time, depending on whether they read Scenario A or Scenario B. Those who read Scenario A said that they would need, on average, a discount of $20 for it to be worth driving across town. Those who read Scenario B said that they would need, on average, a discount of almost $200 for it to be worth the same trip!
+
+As this experiment suggests, the way in which people value their own interests (in this case, their time) is open to influence. Going across town to save $20 may seem foolish when we are purchasing a big-ticket item (such as a computer or an automobile). But if there was a $20 discount on something relatively cheap (such as a calculator or a $60 sweater), we might feel compelled to make the trip. In other words, people do not objectively evaluate the cost of an item or an issue; rather, they evaluate costs in comparison with salient reference points (e.g., the total amount they are spending that day). This is exactly why car salespeople get away with selling so many add-ons. When you are already paying $30,000 for the car, paying an additional $200–$500 for floor mats or scratch proofing does not seem like a big deal. On the other hand, if you already owned the car and someone came to your door selling floor mats or scratch proofing at the same prices, you would probably slam the door in their face!
+
+There is another reason why the executives in our training session were willing to chase a $20 discount on a calculator but not on a computer: people care not only about the value of the item they are purchasing, but also about getting a “good deal.” The desire to get a good or “fair” deal makes negotiators susceptible to influence.17 For example, shoppers will be more likely to pay $500 for an item when they discover that it was originally priced at $750, regardless of how much the item is truly worth to them. Likewise, in a study conducted by economist Richard Thaler, people were willing to pay significantly more for a beer purchased from a “fancy resort hotel” than from a “run-down grocery store,” even though they would consume the beer at the beach in both cases. In other words, even when the value of the deal is identical, negotiators are likely to find it more or less attractive depending on how it is presented, what it is compared with, and how much of a “steal” it represents.
+
+DEFENDING YOURSELF AGAINST STRATEGIES OF INFLUENCE
+
+All of the strategies we have described are grounded not only in scientific research, but also in the experience of practitioners who make their living by inducing you to concur, consent, or comply with their wishes and demands. As a negotiator, you will likely be confronted by many skilled wielders of influence. Unfortunately, simply learning about the strategies is unlikely to protect you from their powerful effects. To protect yourself, you must make a conscious effort to anticipate and mitigate them.18 Here, we review a number of defense strategies that you can employ in your own negotiations.
+
+DEFENSE STRATEGY 1: PREPARE SYSTEMATICALLY
+
+One of the best ways to defend against influence strategies is to prepare systematically and comprehensively for negotiations. This entails a rigorous BATNA analysis, a careful evaluation of the ZOPA, and a thorough investigation of all the issues. Negotiators who have carefully evaluated their interests and priorities prior to entering talks are unlikely to accept an unfavorable offer simply because of the way in which it is presented.
+
+DEFENSE STRATEGY 2: CREATE A SCORING SYSTEM
+
+As described in Chapter 2, a scoring system allows you to objectively evaluate the total value of a stated offer by comparing it with the total value of alternative offers, to the value of your BATNA, or to the degree of your aspirations. Influence strategies are less likely to persuade a negotiator who can objectively evaluate every proposal that is made.
+
+DEFENSE STRATEGY 3: EXPLICITLY SEPARATE INFORMATION FROM INFLUENCE
+
+As explained in Chapter 1, negotiation geniuses understand that everything that the other side says is part information and part influence. Your task is to explicitly separate the two before reacting or responding. When the other side makes a seemingly compelling statement, effective negotiators ask themselves questions such as these: “Did I learn something new here? If so, what did I learn? How should I evaluate what she said in the context of my interests and my priorities?” Here is another line of questioning that can help separate influence from information: “Would I be willing to do this for anyone else? Would I have been willing to do this yesterday—or even an hour ago? Can I defend my decision to critical others?”
+
+DEFENSE STRATEGY 4: REPHRASE THEIR OFFER IN OTHER TERMS
+
+You can also mitigate the impact of influence strategies by taking time to rephrase substantive statements that the other party makes. You might rephrase their loss-frame statement (to yourself ) using a gain frame—and then see how tempting their proposal seems. For example, if the other side says, “If you do not increase your bid, you will lose the opportunity to win this deal,” you may be tempted to submit a higher bid. Before you do, take a moment and rephrase their statement as follows: “If I want to have a chance at winning this deal, I will have to increase my bid.” Are you just as tempted to bid higher? The key is to identify whether your reaction to their proposal stems from its merits or from their presentation.
+
+DEFENSE STRATEGY 5: APPOINT A DEVIL’S ADVOCATE
+
+As suggested in Chapter 4, a useful negotiation strategy is to appoint someone on your side to play the role of devil’s advocate. This person’s role is to question your beliefs regarding everything that is relevant to the negotiation. Your devil’s advocate need not be present during the negotiation; you might find it more appropriate to structure a process that allows you to “call in” every so often to confer with her.
+
+DEFENSE STRATEGY 6: IF POSSIBLE, DO NOT NEGOTIATE UNDER TIME PRESSURE
+
+Influence tactics are more likely to have an effect when their target must respond quickly. This suggests that negotiators should try to set aside ample time to negotiate, be willing to wait a day or more before making important decisions, and be comfortable asking other parties to allow time for consideration of the offer or proposal. For example, it is likely that many of those approached in the zoo-trip study would have rejected the request to chaperone juvenile delinquents if given the chance to sleep on it.
+
+
+
+Of course, these defense strategies are not mutually exclusive. Negotiation geniuses rely simultaneously on many or all of them. Furthermore, these strategies are not simply useful for countering influence tactics; all of them are sound negotiation advice in any situation.
+
+THE LIMITS OF INFLUENCE
+
+The influence strategies that we have described will not help you improve your ideas or offers; rather, they simplify the task of selling what you have to offer. And, while these strategies are a powerful means of persuading others to accept your offers and comply with your demands, negotiators who rely exclusively on influence strategies are likely to achieve only limited success, for two reasons. First, as highlighted in Chapter 3, those who focus exclusively on “selling” rather than on “negotiating” will forgo opportunities to learn about the other side’s interests, and as a consequence, to create value. Second, if you are up against a tough negotiator—or embroiled in a bitter dispute—your ability to get the other side to comply, concur, or consent may be seriously limited. If all you have to fall back on are the “soft” strategies of influence, you will be seriously outgunned. Not all negotiations go smoothly, and not all negotiators are amicable. Negotiation geniuses anticipate this, and they know what to do when times get tough. In the following chapters (and especially in Chapter 12, which focuses on strategies for handling difficult negotiators), we will share their secrets.
+
+
+
+
+

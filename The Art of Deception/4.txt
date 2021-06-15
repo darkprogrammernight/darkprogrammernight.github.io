@@ -1,0 +1,609 @@
+chapter
+
+4
+
+Building Trust
+
+s
+
+ome of these stories might lead you to think that I believe everyone in business is a complete idiot, ready, even eager, to give away
+every secret in his or her possession. The social engineer knows
+that isn’t true. Why are social engineering attacks so successful? It isn’t
+because people are stupid or lack common sense. But we, as human
+beings, are all vulnerable to being deceived because people can misplace
+their trust if manipulated in certain ways.
+The social engineer anticipates suspicion and resistance, and he’s always
+prepared to turn distrust into trust. A good social engineer plans his attack
+like a chess game, anticipating the questions his target might ask so he can
+be ready with the proper answers.
+One of his common techniques involves building a sense of trust on
+the part of his victim. How does a con man make you trust him? Trust me,
+he can.
+
+TRUST: THE KEY TO DECEPTION
+The more a social engineer can make his contact seem like business as
+usual, the more he allays suspicion. When people don’t have a reason to
+be suspicious, it’s easy for a social engineer to gain their trust.
+Once he’s got your trust, the drawbridge is lowered and the castle door
+thrown open so he can enter and take whatever information he wants.
+
+05237124 Ch04.F
+
+
+
+
+
+note
+You may notice I refer to social engineers, phone phreaks, and con-game
+operators as “he” through most of these stories. This is not chauvinism; it
+simply reflects the truth that most practitioners in these fields are male. But
+though there aren’t many women social engineers, the number is growing.
+There are enough female social engineers out there that you shouldn’t let
+your guard down just because you hear a woman’s voice. In fact, female
+social engineers have a distinct advantage because they can use their sexuality to obtain cooperation. You’ll find a small number of the so-called gentler sex represented in these pages.
+
+The First Call: Andrea Lopez
+Andrea Lopez answered the phone at the video rental store
+where she worked, and in a moment was smiling: It’s always
+a pleasure when a customer takes the trouble to say he’s
+happy about the service. This caller said he had had a very
+good experience dealing with the store, and he wanted to
+send the manager a letter about it.
+
+Chapter 4
+
+42
+
+He asked for the manager’s name and the mailing address,
+and she told him it was Tommy Allison, and gave him
+the address. As he was about to hang up, he had another
+idea and said, “I might want to write to your company headquarters, too. What’s your store number?” She gave him that
+information, as well. He said thanks, added something pleasant about how helpful she had been, and said good-bye.
+“A call like that,” she thought, “always seems to make the
+shift go by faster. How nice it would be if people did
+that more often.”
+
+The Second Call: Ginny
+“Thanks for calling Studio Video. This is Ginny, how can I
+help you?”
+“Hi, Ginny,” the caller said enthusiastically, sounding as if he
+talked to Ginny every week or so. “It’s Tommy Allison,
+manager at Forest Park, Store 863. We have a customer
+in here who wants to rent Rocky 5 and we’re all out of
+copies. Can you check on what you’ve got?”
+She came back on the line after a few moments and said,
+“Yeah, we’ve got three copies.”
+“Okay, I’ll see if he wants to drive over there. Listen, thanks.
+If you ever need any help from our store, just call and
+ask for Tommy. I’ll be glad to do whatever I can for you.”
+
+05237124 Ch04.F
+
+
+
+
+
+Three or four times over the next couple of weeks, Ginny got
+calls from Tommy for help with one thing or another. They
+were seemingly legitimate requests, and he was always very
+friendly without sounding like he was trying to come on to
+her. He was a little chatty along the way, as well—”Did you
+hear about the big fire in Oak Park? Bunch of streets closed
+over there,” and the like. The calls were a little break from the
+routine of the day, and Ginny was always glad to hear from
+him.
+One day Tommy called sounding stressed. He asked, “Have
+you guys been having trouble with your computers?”
+“No,” Ginny answered. “Why?”
+“Some guy crashed his car into a telephone pole, and the
+phone company repairman says a whole part of the city
+will lose their phones and Internet connection till they
+get this fixed.”
+“Oh, no. Was the man hurt?”
+“They took him away in an ambulance. Anyway, I could use
+a little help. I’ve got a customer of yours here who
+wants to rent Godfather II and doesn’t have his card
+with him. Could you verify his information for me?”
+“Yeah, sure.”
+
+“Any late returns or balance owed?” Tommy asked.
+“Nothing showing.”
+“Okay, great. I’ll sign him up by hand for an account here
+and put it in our database later on when the computers
+come back up again. And he wants to put this charge
+on the Visa card he uses at your store, and he doesn’t
+have it with him. What’s the card number and expiration
+date?”
+She gave it to him, along with the expiration date. Tommy
+said, “Hey, thanks for the help. Talk to you soon,” and
+hung up.
+
+Doyle Lonnegan’s Story
+Lonnegan is not a young man you would want to find waiting when you
+open your front door. A one-time collection man for bad gambling debts,
+he still does an occasional favor, if it doesn’t put him out very much. In this
+case, he was offered a sizable bundle of cash for little more than making
+
+43
+Building Trust
+
+Tommy gave the customer’s name and address, and Ginny
+found him in the computer. She gave Tommy the
+account number.
+
+05237124 Ch04.F
+
+
+
+
+
+some phone calls to a video store. Sounds easy enough. It’s just that none
+of his “customers” knew how to run this con; they needed somebody with
+Lonnegan’s talent and know-how.
+
+Chapter 4
+
+44
+
+People don’t write checks to cover their bets when they’re unlucky or stupid at the poker table. Everybody knows that. Why did these friends of
+mine keep on playing with a cheat that didn’t have green out on the table?
+Don’t ask. Maybe they’re a little light in the IQ department. But they’re
+friends of mine—what can you do?
+This guy didn’t have the money, so they took a check. I ask you! Should
+of drove him to an ATM machine, is what they should of done. But no,
+a check. For $3,230.
+Naturally, it bounced. What would you expect? So then they call me;
+can I help? I don’t close doors on people’s knuckles any more. Besides,
+there are better ways nowadays. I told them, 30 percent commission, I’d
+see what I could do. So they give me his name and address, and I go up
+on the computer to see what’s the closest video store to him.
+I wasn’t in a big hurry. Four phone calls to cozy up to the store manager,
+and then, bingo, I’ve got the cheat’s Visa card number.
+Another friend of mine owns a topless bar. For fifty bucks, he put the
+guy’s poker money through as a Visa charge from the bar. Let the cheat
+explain that to his wife. You think he might try to tell Visa it’s not his
+charge? Think again. He knows we know who he is. And if we could get
+his Visa number, he’ll figure we could get a lot more besides. No worries
+on that score.
+Analyzing the Con
+Tommy’s initial calls to Ginny were simply to build up trust. When time
+came for the actual attack, she let her guard down and accepted Tommy
+for who he claimed to be, the manager at another store in the chain.
+And why wouldn’t she accept him—she already knew him. She’d only
+met him over the telephone, of course, but they had established a business
+friendship that is the basis for trust. Once she had accepted him as an
+authority figure, a manager in the same company, the trust had been
+established and the rest was a walk in the park.
+
+05237124 Ch04.F
+
+
+
+
+
+mitnick
+message
+The sting technique of building trust is one of the most effective social engineering tactics. You have to think whether you really know the person you’re talking
+to. In some rare instances, the person might not be who he claims to be.
+Accordingly, we all have to learn to observe, think, and question authority.
+
+VARIATION ON A THEME: CARD CAPTURE
+Building a sense of trust doesn’t necessarily demand a series of phone calls
+with the victim, as suggested by the previous story. I recall one incident I
+witnessed where five minutes was all it took.
+
+45
+Building Trust
+
+Surprise, Dad
+I once sat at a table in a restaurant with Henry and his father. In the course
+of conversation, Henry scolded his father for giving out his credit card
+number as if it were his phone number. “Sure, you have to give your card
+number when you buy something,” he said. “But giving it to a store that
+files your number in their records—that’s real dumb.”
+“The only place I do that is at Studio Video,” Mr. Conklin said, naming the same chain of video stores. “But I go over my Visa bill every
+month. If they started running up charges, I’d know it.”
+“Sure,” said Henry, “but once they have your number, it’s so easy for
+somebody to steal it.”
+“You mean a crooked employee.”
+“No, anybody—not just an employee.”
+“You’re talking through your hat,” Mr. Conklin said.
+“I can call up right now and get them to tell me your Visa number,”
+Henry shot back.
+“No, you can’t,” his father said.
+“I can do it in five minutes, right here in front of you without ever leaving the table.”
+Mr. Conklin looked tight around the eyes, the look of somebody feeling sure of himself, but not wanting to show it. “I say you don’t know
+what you’re talking about,” he barked, taking out his wallet and slapping
+a fifty dollar bill down on the table. “If you can do what you say, that’s
+yours.”
+
+05237124 Ch04.F
+
+Chapter 4
+
+46
+
+
+
+
+
+“I don’t want your money, Dad,” Henry said.
+He pulled out his cell phone, asked his father which branch he used, and
+called Directory Assistance for the phone number, as well as the number
+of the store in nearby Sherman Oaks.
+He then called the Sherman Oaks store. Using pretty much the same
+approach described in the previous story, he quickly got the manager’s
+name and the store number.
+Then he called the store where his father had an account. He pulled the
+old impersonate-the-manager trick, using the manager’s name as his own
+and giving the store number he had just obtained. Then he used the same
+ruse: “Are your computers working okay? Ours have been up and down.”
+He listened to her reply and then said, “Well, look, I’ve got one of your
+customers here who wants to rent a video, but our computers are down
+right now. I need you to look up the customer account and make sure he’s
+a customer at your branch.”
+Henry gave him his father’s name. Then, using only a slight variation in
+technique, he made the request to read off the account information:
+address, phone number, and date the account was opened. And then he
+said, “Hey, listen, I’m holding up a long line of customers here. What’s the
+credit card number and expiration date?”
+Henry held the cell phone to his ear with one hand while he wrote on a
+paper napkin with the other. As he finished the call, he slid the napkin in
+front of his father, who stared at it with his mouth hanging open. The
+poor guy looked totally shocked, as if his whole system of trust had just
+gone down the drain.
+Analyzing the Con
+Think of your own attitude when somebody you don’t know asks you for
+something. If a shabby stranger comes to your door, you’re not likely to let
+him in; if a stranger comes to your door nicely dressed, shoes shined, hair
+perfect, with polite manner and a smile, you’re likely to be much less suspicious. Maybe he’s really Jason from the Friday the 13th movies, but
+you’re willing to start out trusting that person as long as he looks normal
+and doesn’t have a carving knife in his hand.
+What’s less obvious is that we judge people on the telephone the same
+way. Does this person sound like he’s trying to sell me something? Is he
+friendly and outgoing or do I sense some kind of hostility or pressure?
+Does he or she have the speech of an educated person? We judge these
+things and perhaps a dozen others unconsciously, in a flash, often in the
+first few moments of the conversation.
+
+05237124 Ch04.F
+
+
+
+
+
+mitnick
+message
+It’s human nature to think that it’s unlikely you’re being deceived in any particular
+transaction, at least until you have some reason to believe otherwise. We weigh
+the risks and then, most of the time, give people the benefit of the doubt. That’s
+the natural behavior of civilized people . . . at least civilized people who have never
+been conned or manipulated or cheated out of a large amount of money.
+As children our parents taught us not to trust strangers. Maybe we should all
+heed this age-old principle in today’s workplace.
+
+THE ONE-CENT CELL PHONE
+Many people look around until they find a better deal; social engineers
+don’t look for a better deal, they find a way to make a deal better. For
+example, sometimes a company launches a marketing campaign that’s so
+good you can hardly bear to pass it up, while the social engineer looks at
+the offer and wonders how he can sweeten the deal.
+
+47
+Building Trust
+
+At work, people make requests of us all the time. Do you have an email
+address for this guy? Where’s the latest version of the customer list? Who’s
+the subcontractor on this part of the project? Please send me the latest
+project update. I need the new version of the source code.
+And guess what: Sometimes people who make those requests are people
+you don’t personally know, folks who work for some other part of the company, or claim they do. But if the information they give checks out, and
+they appear to be in the know (“Marianne said . . .”; “It’s on the K-16
+server . . .”; “. . . revision 26 of the new product plans”), we extend our circle of trust to include them, and blithely give them what they’re asking for.
+Sure, we may stumble a little, asking ourselves “Why does somebody in
+the Dallas plant need to see the new product plans?” or “Could it hurt
+anything to give out the name of the server it’s on?” So we ask another
+question or two. If the answers appear reasonable and the person’s manner
+is reassuring, we let down our guard, return to our natural inclination to
+trust our fellow man or woman, and do (within reason) whatever it is
+we’re being asked to do.
+And don’t think for a moment that the attacker will only target people
+who use company computer systems. What about the guy in the mail
+room? “Will you do me a quick favor? Drop this into the intracompany
+mail pouch?” Does the mail room clerk know it contains a floppy disk
+with a special little program for the CEO’s secretary? Now that attacker
+gets his own personal copy of the CEO’s email. Wow! Could that really
+happen at your company? The answer is, absolutely.
+
+05237124 Ch04.F
+
+
+
+
+
+Not long ago, a nationwide wireless company had a major promotion
+underway offering a brand-new phone for one cent when you signed up
+for one of their calling plans.
+As lots of people have discovered too late, there are a good many questions a prudent shopper should ask before signing up for a cell phone calling plan—whether the service is analog, digital, or a combination; the
+number of anytime minutes you can use in a month; whether roaming
+charges are included . . . and on, and on. Especially important to understand up front is the contract term of commitment—how many months
+or years will you have to commit to?
+Picture a social engineer in Philadelphia who is attracted by a cheap
+phone model offered by a cellular phone company on sign-up, but he
+hates the calling plan that goes with it. Not a problem. Here’s one way he
+might handle the situation.
+The First Call: Ted
+
+48
+
+“Electron City. This is Ted.”
+
+Chapter 4
+
+First, the social engineer dials an electronics chain store on
+West Girard.
+
+“Hi, Ted. This is Adam. Listen, I was in a few nights ago
+talking to a sales guy about a cell phone. I said I’d call
+him back when I decided on the plan I wanted, and I
+forgot his name. Who’s the guy who works in that
+department on the night shift?
+“There’s more than one. Was it William?”
+“I’m not sure. Maybe it was William. What’s he look like?”
+“Tall guy. Kind of skinny.”
+“I think that’s him. What’s his last name, again?
+“Hadley. H—A—D—L—E— Y.”
+“Yeah, that sounds right. When’s he going to be on?”
+“Don’t know his schedule this week, but the evening people
+come in about five.”
+“Good. I’ll try him this evening, then. Thanks, Ted.”
+
+The Second Call: Katie
+The next call is to a store of the same chain on North Broad
+Street.
+“Hi, Electron City. Katie speaking, how can I help you?”
+
+05237124 Ch04.F
+
+
+
+
+
+“Katie, hi. This is William Hadley, over at the West Girard
+store. How’re you today?”
+“Little slow, what’s up?”
+“I’ve got a customer who came in for that one-cent cell
+phone program. You know the one I mean?”
+“Right. I sold a couple of those last week.”
+“You still have some of the phones that go with that plan?”
+“Got a stack of them.”
+“Great. ‘Cause I just sold one to a customer. The guy passed
+credit; we signed him up on the contract. I checked
+the damned inventory and we don’t have any phones
+left. I’m so embarrassed. Can you do me a favor? I’ll
+send him over to your store to pick up a phone. Can
+you sell him the phone for one cent and write him up a
+receipt? And he’s supposed to call me back once he’s
+got the phone so I can talk him through how to program it.”
+“Yeah, sure. Send him over.”
+“Okay. His name is Ted. Ted Yancy.”
+When the guy who calls himself Ted Yancy shows up at the
+North Broad St. store, Katie writes up an invoice and sells him
+the cell phone for one cent, just as she had been asked to do
+by her “coworker.” She fell for the con hook, line, and sinker.
+
+He’s then free to go to another wireless company that uses
+the same model of phone, and choose any service plan he
+likes. Preferably one on a month-to-month basis, with no
+commitment required.
+
+Analyzing the Con
+It’s natural for people to have a higher degree of acceptance for anyone
+who claims to be a fellow employee, and who knows company procedures
+and lingo. The social engineer in this story took advantage of that by finding out the details of a promotion, identifying himself as a company
+employee, and asking for a favor from another branch. This happens
+between branches of retail stores and between departments in a company,
+where people are physically separated and deal with fellow employees
+whom they have never actually met day in and day out.
+
+Building Trust
+
+When it’s time to pay, the customer doesn’t have any pennies
+in his pocket, so he reaches into the little dish of pennies at
+the cashier’s counter, takes one out, and gives it to the girl at
+the register. He gets the phone without paying even the one
+cent for it.
+
+49
+
+05237124 Ch04.F
+
+
+
+
+
+HACKING INTO THE FEDS
+
+Chapter 4
+
+50
+
+People often don’t stop to think about what materials their organization is
+making available on the Web. For my weekly show on KFI Talk Radio in
+Los Angeles, the producer did a search on line and found a copy of an
+instruction manual for accessing the database of the National Crime
+Information Center. Later he found the actual NCIC manual itself on
+line, a sensitive document that gives all the instructions for retrieving
+information from the FBI’s national crime database.
+The manual is a handbook for law enforcement agencies that gives the
+formatting and codes for retrieving information on criminals and crimes
+from the national database. Agencies all over the country can search the
+same database for information to help solve crimes in their own jurisdiction. The manual contains the codes used in the database for designating
+everything from different kinds of tattoos, to different boat hulls, to
+denominations of stolen money and bonds.
+Anybody with access to the manual can look up the syntax and the commands to extract information from the national database. Then, following
+instructions from the procedures guide, with a little nerve, anyone can
+extract information from the database. The manual also gives phone
+numbers to call for support in using the system. You may have similar
+manuals in your company offering product codes or codes for retrieving
+sensitive information.
+The FBI almost certainly has never discovered that their sensitive manual and procedural instructions are available to anyone on line, and I don’t
+think they’d be very happy about it if they knew. One copy was posted by
+a government department in Oregon, the other by a law enforcement
+agency in Texas. Why? In each case, somebody probably thought the
+information was of no value and posting it couldn’t do any harm. Maybe
+somebody posted it on their intranet just as a convenience to their own
+employees, never realizing that it made the information available to everyone on the Internet who has access to a good search engine such as
+Google—including the just-plain-curious, the wannabe cop, the hacker,
+and the organized crime boss.
+Tapping into the System
+The principle of using such information to dupe someone in the government or a business setting is the same: Because a social engineer knows
+how to access specific databases or applications, or knows the names of a
+company’s computer servers, or the like, he gains credibility. Credibility
+leads to trust.
+
+05237124 Ch04.F
+
+
+
+
+
+Analyzing the Con
+An accomplished social engineer wouldn’t stop for a minute to ponder
+ways of breaking into the NCIC database. Why should he, when a simple
+call to his local police department, and some smooth talking so he sounds
+convincingly like an insider, is all it takes to get the information he wants?
+And the next time, he just calls a different police agency and uses the same
+pretext.
+
+lingo
+SOSH
+
+Law enforcement slang for a social security number.
+
+51
+Building Trust
+
+Once a social engineer has such codes, getting the information he needs
+is an easy process. In this example, he might begin by calling a clerk in a
+local state police Teletype office, and asking a question about one of the
+codes in the manual—for example, the offense code. He might say something like, “When I do an OFF inquiry in the NCIC, I’m getting a
+‘System is down’ error. Are you getting the same thing when you do an
+OFF? Would you try it for me?” Or maybe he’d say he was trying to look
+up a wpf—police talk for a wanted person’s file.
+The Teletype clerk on the other end of the phone would pick up the cue
+that the caller was familiar with the operating procedures and the commands to query the NCIC database. Who else other than someone trained
+in using NCIC would know these procedures?
+After the clerk has confirmed that her system is working okay, the conversation might go something like this:
+“I could use a little help.”
+“What’re you looking for?”
+“I need you to do an OFF command on Reardon, Martin. DOB
+10/18/66.”
+“What’s the sosh?” (Law enforcement people sometimes refer to the
+social security number as the sosh.)
+“700-14-7435.”
+After looking for the listing, she might come back with something like,
+“He’s got a 2602.”
+The attacker would only have to look at the NCIC on line to find the
+meaning of the number: The man has a case of swindling on his record.
+
+05237124 Ch04.F
+
+
+
+
+
+You might wonder, isn’t it risky to call a police department, a sheriff ’s
+station, or a highway patrol office? Doesn’t the attacker run a huge risk?
+The answer is no . . . and for a specific reason. People in law enforcement, like people in the military, have ingrained in them from the first day
+in the academy a respect for rank. As long as the social engineer is posing
+as a sergeant or lieutenant—a higher rank than the person he’s talking
+to—the victim will be governed by that well-learned lesson that says you
+don’t question people who are in a position of authority over you. Rank,
+in other words, has its privileges, in particular the privilege of not being
+challenged by people of lower rank.
+But don’t think law enforcement and the military are the only places
+where this respect for rank can be exploited by the social engineer. Social
+engineers often use authority or rank in the corporate hierarchy as a
+weapon in their attacks on businesses—as a number of the stories in these
+pages demonstrate.
+
+PREVENTING THE CON
+
+Chapter 4
+
+52
+
+What are some steps your organization can take to reduce the likelihood
+that social engineers will take advantage of your employees’ natural instinct
+to trust people? Here are some suggestions.
+Protect Your Customers
+In this electronic age many companies that sell to the consumer keep
+credit cards on file. There are reasons for this: It saves the customer the
+nuisance of having to provide the credit card information each time he visits the store or the Web site to make a purchase. However, the practice
+should be discouraged.
+If you must keep credit card numbers on file, that process needs to be
+accompanied by security provisions that go beyond encryption or using
+access control. Employees need to be trained to recognize social engineering scams like the ones in this chapter. That fellow employee you’ve never
+met in person but who has become a telephone friend may not be who
+he or she claims to be. He may not have the “need to know” to access
+mitnick
+message
+Everyone should be aware of the social engineer’s modus operandi: Gather as
+much information about the target as possible, and use that information to gain
+trust as an insider. Then go for the jugular!
+
+05237124 Ch04.F
+
+
+
+
+
+sensitive customer information, because he may not actually work for the
+company at all.
+
+What Belongs on Your Intranet?
+Parts of your intranet may be open to the outside world, other parts
+restricted to employees. How careful is your company in making sure sensitive information isn’t posted where it’s accessible to audiences you meant
+to protect it from? When is the last time anyone in your organization
+checked to see if any sensitive information on your company’s intranet
+had inadvertently been made available through the public-access areas of
+your Web site?
+If your company has implemented proxy servers as intermediaries to
+protect the enterprise from electronic security threats, have those servers
+been checked recently to be sure they’re configured properly?
+In fact, has anyone ever checked the security of your intranet?
+
+53
+Building Trust
+
+Trust Wisely
+It’s not just the people who have access to clearly sensitive information—
+the software engineers, the folks in R&D, and so on—who need to be on
+the defensive against intrusions. Almost everyone in your organization
+needs training to protect the enterprise from industrial spies and information thieves.
+Laying the groundwork for this should begin with a survey of enterprisewide information assets, looking separately at each sensitive, critical, or
+valuable asset, and asking what methods an attacker might use to compromise those assets through the use of social engineering tactics. Appropriate training for people who have trusted access to such information
+should be designed around the answers to these questions.
+When anyone you don’t know personally requests some information or
+material, or asks you to perform any task on your computer, have your
+employees ask themselves some questions. If I gave this information to my
+worst enemy, could it be used to injure me or my company? Do I completely understand the potential effect of the commands I am being asked
+to enter into my computer?
+We don’t want to go through life being suspicious of every new person
+we encounter. Yet the more trusting we are, the more likely that the next
+social engineer to arrive in town will be able to deceive us into giving up
+our company’s proprietary information.
+
+05237124 Ch04.F
+
+
+
+
+
+06237124 Ch05.F
+
+
+
+
+

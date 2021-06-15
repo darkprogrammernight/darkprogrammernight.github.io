@@ -1,0 +1,624 @@
+chapter
+
+15
+
+Information Security
+Awareness and Training
+
+a
+
+social engineer has been given the assignment of obtaining the
+plans to your hot new product due for release in two months.
+What’s going to stop him?
+Your firewall? No.
+Strong authentication devices? No.
+Intrusion detection systems? No.
+Encryption? No.
+Limited access to phone numbers for dial-up modems? No.
+Code names for servers that make it difficult for an outsider to determine which server might contain the product plans? No.
+The truth is that there is no technology in the world that can prevent a
+social engineering attack.
+
+SECURITY THROUGH TECHNOLOGY,
+TRAINING, AND PROCEDURES
+Companies that conduct security penetration tests report that their
+attempts to break into client company computer systems by social engineering methods are nearly 100 percent successful. Security technologies
+can make these types of attacks more difficult by removing people from
+the decision-making process. However the only truly effective way to
+mitigate the threat of social engineering is through the use of security
+technologies combined with security policies that set ground rules for
+employee behavior, and appropriate education and training for employees.
+
+16237124 Part04/Ch15.F
+
+Chapter 15
+
+246
+
+
+
+
+
+There is only one way to keep your product plans safe and that is by
+having a trained, aware, and a conscientious workforce. This involves
+training on the policies and procedures, but also—and probably even
+more important—an ongoing awareness program. Some authorities
+recommend that 40 percent of a company’s overall security budget be
+targeted to awareness training.
+The first step is to make everyone in the enterprise aware that unscrupulous people exist who will use deception to psychologically manipulate
+them. Employees must be educated about what information needs to be
+protected, and how to protect it. Once people have a better understanding of how they can be manipulated, they are in a far better position to
+recognize that an attack is underway.
+Security awareness also means educating everyone in the enterprise
+on the company’s security policies and procedures. As discussed in Chapter 17, policies are necessary rules to guide employee behavior to protect
+corporate information systems and sensitive information.
+This chapter and the next one provide a security blueprint that could
+save you from costly attacks. If you don’t have trained and alert employees following well-thought-out procedures, it’s not a matter of if, but when
+you will lose valuable information to a social engineer. Don’t wait for an
+attack to happen to you before instituting these policies: It could be devastating to your business and to your employees’ welfare.
+
+UNDERSTANDING HOW ATTACKERS TAKE
+ADVANTAGE OF HUMAN NATURE
+To develop a successful training program, you have to understand why
+people are vulnerable to attacks in the first place. By identifying these tendencies in your training—for example, by drawing attention to them in
+role-playing discussions—you can help your employees to understand
+why we can all be manipulated by social engineers.
+Manipulation has been studied by social scientists for at least fifty years.
+Robert B. Cialdini, writing in Scientific American (February 2001), summarized this research, presenting six “basic tendencies of human nature”
+that are involved in an attempt to obtain compliance to a request.
+These six tendencies are those that social engineers rely on (consciously
+or, most often, unconsciously) in their attempts to manipulate.
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+Authority
+People have a tendency to comply when a request is made by a person in
+authority. As discussed elsewhere in these pages, a person can be convinced to comply with a request if he or she believes the requestor is a person in authority or a person who is authorized to make such a request.
+In his book Influence, Dr. Cialdini writes of a study at three Midwestern
+hospitals in which twenty-two separate nurses’ stations were contacted by
+a caller who claimed to be a hospital physician, and given instructions for
+administering a prescription drug to a patient on the ward. The nurses
+who received these instructions did not know the caller. They did not even
+know whether he was really a doctor (he was not). They received the
+instructions for the prescription by telephone, which was a violation of
+hospital policy. The drug they were told to administer was not authorized
+for use on the wards, and the dosage they were told to administer was
+twice the maximum daily dosage, and thus could have endangered the life
+of the patient. Yet in 95 percent of the cases, Cialdini reported, “the nurse
+proceeded to obtain the necessary dosage from the ward medicine cabinet
+and was on her way to administer it to the patient” before being intercepted by an observer and told of the experiment.
+
+Liking
+People have the tendency to comply when the person making a request
+has been able to establish himself as likable, or as having similar interests,
+beliefs, and attitudes as the victim.
+Examples of attacks: Through conversation, the attacker manages to learn a
+hobby or interest of the victim, and claims an interest and enthusiasm for
+the same hobby or interest. Or he may claim to be from the same state or
+school, or to have similar goals. The social engineer will also attempt to
+mimic the behaviors of his target to create the appearance of similarity.
+
+Reciprocation
+We may automatically comply with a request when we have been given or
+promised something of value. The gift may be a material item, or advice,
+
+247
+Information Security Awareness and Training
+
+Examples of attacks: A social engineer attempts to cloak himself in the
+mantle of authority by claiming that he is with the IT department, or
+that he is an executive or works for an executive in the company.
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+or help. When someone has done something for you, you feel an inclination to reciprocate. This strong tendency to reciprocate exists even in situations where the person receiving the gift hasn’t asked for it. One of the
+most effective ways to influence people to do us a “favor” (comply with a
+request) is by giving some gift or assistance that forms an underlying
+obligation.
+Members of the Hare Krishna religious cult were very effective at
+influencing people to donate to their cause by first giving them a book
+or flower as a gift. If the recipient tried to return the gift, the giver
+would refuse remarking, “It’s our gift to you.” This behavioral principle
+of reciprocation was used by the Krishnas to substantially increase
+donations.
+
+Chapter 15
+
+248
+
+Examples of attacks: An employee receives a call from a person who identifies himself as being from the IT department. The caller explains that
+some company computers have been infected with a new virus not recognized by the antivirus software that can destroy all files on a computer,
+and offers to talk the person through some steps to prevent problems.
+Following this, the caller asks the person to test a software utility that has
+just been recently upgraded for allowing users to change passwords. The
+employee is reluctant to refuse, because the caller has just provided help
+that will supposedly protect the user from a virus. He reciprocates by
+complying with the caller’s request.
+
+Consistency
+People have the tendency to comply after having made a public commitment or endorsement for a cause. Once we have promised we will do
+something, we don’t want to appear untrustworthy or undesirable and will
+tend to follow through in order to be consistent with our statement or
+promise.
+Example of attack: The attacker contacts a relatively new employee and
+advises her of the agreement to abide by certain security policies and procedures as a condition of being allowed to use company information systems. After discussing a few security practices, the caller asks the user for
+her password “to verify compliance” with policy on choosing a difficultto-guess password. Once the user reveals her password, the caller makes a
+recommendation to construct future passwords in such a way that the
+attacker will be able to guess it. The victim complies because of her prior
+agreement to abide by company policies and her assumption that the
+caller is merely verifying her compliance.
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+Social Validation
+People have the tendency to comply when doing so appears to be in line
+with what others are doing. The action of others is accepted as validation
+that the behavior in question is the correct and appropriate action.
+Examples of attacks: The caller says he is conducting a survey and names
+other people in the department who he claims have already cooperated
+with him. The victim, believing that cooperation by others validates the
+authenticity of the request, agrees to take part. The caller then asks a series
+of questions, among which are questions that draw the victim into revealing his computer username and password.
+
+Scarcity
+People have the tendency to comply when it is believed that the object
+sought is in short supply and others are competing for it, or that it is available only for a short period of time.
+
+CREATING TRAINING AND AWARENESS
+PROGRAMS
+Issuing an information security policy pamphlet or directing employees to
+an intranet page that details security policies will not, by itself, mitigate
+your risk. Every business must not only define the rules with written policies, but must make the extra effort to direct everyone who works with corporate information or computer systems to learn and follow the rules.
+Furthermore, you must ensure that everyone understands the reason
+behind each policy so that people don’t circumvent the rule as a matter of
+convenience. Otherwise, ignorance will always be the worker’s excuse, and
+the precise vulnerability that social engineers will exploit.
+The central goal of any security awareness program is to influence people to change their behavior and attitudes by motivating every employee
+
+249
+Information Security Awareness and Training
+
+Example of attack: The attacker sends emails claiming that the first 500
+people to register at the company’s new Web site will win free tickets to a
+hot new movie. When an unsuspecting employee registers at the site, he is
+asked to provide his company email address and to choose a password.
+Many people, motivated by convenience, have the propensity to use the
+same or a similar password on every computer system they use. Taking
+advantage of this, the attacker then attempts to compromise the target’s
+work and home computer systems with the username and password that
+have been entered during the Web site registration process.
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+to want to chip in and do his part to protect the organization’s information assets. A great motivator in this instance is to explain how their participation will benefit not just the company, but the individual employees
+as well. Since the company retains certain private information about every
+worker, when employees do their part to protect information or information systems, they are actually protecting their own information, too.
+A security training program requires substantial support. The training
+effort needs to reach every person who has access to sensitive information
+or corporate computer systems, must be on-going, and must be continuously revised to update personnel on new threats and vulnerabilities.
+Employees must see that senior management is fully committed to the
+program. That commitment must be real, not just a rubber-stamped “We
+give our blessings” memo. And the program must be backed up with sufficient resources to develop, communicate, test it, and to measure success.
+
+Chapter 15
+
+250
+
+Goals
+The basic guideline that should be kept in mind during development of
+an information security training and awareness program is that the program needs to focus on creating in all employees an awareness that their
+company might be under attack at any time. They must learn that each
+employee plays a role in defending against any attempt to gain entry to
+computer systems or to steal sensitive data.
+Because many aspects of information security involve technology, it’s
+too easy for employees to think that the problem is being handled by firewalls and other security technologies. A primary goal of training should
+be to create awareness in each employee that they are the front line needed
+to protect the overall security of the organization.
+Security training must have a significantly greater aim than simply
+imparting rules. The training program designer must recognize the strong
+temptation on the part of employees, under pressure of getting their jobs
+done, to overlook or ignore their security responsibilities. Knowledge
+about the tactics of social engineering and how to defend against the
+attacks is important, but it will only be of value if the training is designed
+to focus heavily on motivating employees to use the knowledge.
+The company can count the program as meeting its bottom-line goal if
+everyone completing the training is thoroughly convinced and motivated
+by one basic notion: that information security is part of his or her job.
+Employees must come to appreciate and accept that the threat of social
+engineering attacks is real, and that a serious loss of sensitive corporate
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+information could endanger the company as well as their own personal
+information and jobs. In a sense, being careless about information security at work is equivalent to being careless with one’s ATM PIN or credit
+card number. This can be a compelling analogy for building enthusiasm
+for security practices.
+
+251
+Information Security Awareness and Training
+
+Establishing the Training and Awareness Program
+The person responsible for designing the information security program
+needs to recognize that this is not a one-size-fits-all project. Rather, the
+training needs to be developed to suit the specific requirements of several
+different groups within the enterprise. While many of the security policies
+outlined in Chapter 16 apply to all employees across the board, many
+others are unique. At a minimum, most companies will need training
+programs tailored to these distinct groups: managers; IT personnel; computer users; nontechnical personnel; administrative assistants; receptionists; and security guards. (See the breakdown of policies by job assignment
+in Chapter 16.)
+Since the personnel of a company’s industrial security force are not ordinarily expected to be computer proficient, and, except perhaps in a very
+limited way, do not come into contact with company computers, they are
+not usually considered when designing training of this kind. However,
+social engineers can deceive security guards or others into allowing them
+into a building or office, or into performing an action that results in a computer intrusion. While members of the guard force certainly don’t need the
+full training of personnel who operate or use computers, nonetheless they
+must not be overlooked in the security awareness program.
+Within the corporate world there are probably few subjects about which
+all employees need to be educated that are simultaneously as important
+and as inherently dull as security. The best designed information security
+training programs must both inform and capture the attention and enthusiasm of the learners.
+The aim should be to make security information awareness and training
+an engaging and interactive experience. Techniques could include demonstrating social engineering methods through role-playing; reviewing media
+reports of recent attacks on other less fortunate businesses and discussing
+the ways the companies could have prevented the loss; or showing a
+security video that’s entertaining and educational at the same time. There
+are several security awareness companies that market videos and related
+materials.
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+note
+For those businesses that do not have the resources to develop a program
+in-house, there are several training companies that offer security awareness
+training services. Trade shows such as Secure World Expo (www.secure
+worldexpo.com) are gathering places for these companies.
+
+The stories in this book provide plenty of material to explain the methods and tactics of social engineering, to raise awareness of the threat, and
+to demonstrate the vulnerabilities in human behavior. Consider using
+their scenarios as a basis for role-playing activities. The stories also offer
+colorful opportunities for lively discussion on how the victims could have
+responded differently to prevent the attacks from being successful.
+A skillful course developer and skillful trainers will find plenty of challenges, but also plenty of opportunities, for keeping the classroom time
+lively, and, in the process, motivate people to become part of the solution.
+
+Chapter 15
+
+252
+
+Structure of the Training
+A basic security awareness training program should be developed that all
+employees are required to attend. New employees should be required to
+attend the training as part of their initial indoctrination. I recommend
+that no employee be provided computer access until he has attended a
+basic security awareness session.
+For this initial awareness and training, I suggest a session focused
+enough to hold attention, and short enough that the important messages
+will be remembered. While the amount of material to be covered certainly
+justifies longer training, the importance of providing awareness and motivation along with a reasonable number of essential messages in my view
+outweighs any notion of half-day or full-day sessions that leave people
+numb with too much information.
+The emphasis of these sessions should be on conveying an appreciation
+of the harm that can be done to the company, and to employees individually, unless all employees follow good security work habits. More important than learning about specific security practices is the motivation that
+leads employees to accept personal responsibility for security.
+In situations where some employees cannot readily attend classroom sessions, the company should consider developing awareness training using
+other forms of instruction, such as videos, computer-based training,
+online courses, or written materials.
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+Training Course Contents
+When reduced to their fundamentals, all social engineering attacks have
+the same common element: deception. The victim is led to believe that
+the attacker is a fellow employee or some other person who is authorized
+to access sensitive information, or authorized to give the victim instructions that involve taking actions with a computer or computer-related
+equipment. Almost all of these attacks could be foiled if the targeted
+employee simply follows two steps:
+•
+•
+
+Verify the identity of the person making the request: Is the person making the request really who he claims to be?
+Verify whether the person is authorized: Does the person have
+the need to know, or is he otherwise authorized to make this
+request?
+
+253
+Information Security Awareness and Training
+
+After the initial short training session, longer sessions should be
+designed to educate employees about specific vulnerabilities and attack
+techniques relative to their position in the company. Refresher training
+should be required at least once a year. The nature of the threat and the
+methods used to exploit people are ever-changing, so the content of the
+program should be kept up to date. Moreover, people’s awareness and
+alertness diminish over time, so training must be repeated at reasonable
+intervals to reinforce security principles. Here again the emphasis needs to
+be as much on keeping employees convinced of the importance of security policies and motivated to adhere to them, as on exposing specific
+threats and social engineering methods.
+Managers must allow reasonable time for their subordinates to become
+familiar with security policies and procedures, and to participate in the
+security awareness program. Employees should not be expected to study
+security policies or attend security classes on their own time. New
+employees should be given ample time to review security policies and published security practices prior to beginning their job responsibilities.
+Employees who change positions within the organization to a job that
+involves access to sensitive information or computer systems should, of
+course, be required to complete a security training program tailored to
+their new responsibilities. For example, when a computer operator
+becomes a systems administrator, or a receptionist becomes an administrative assistant, new training is required.
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+note
+Because security awareness and training are never perfect, use security technologies whenever possible to create a system of defense in depth. This
+means that the security measure is provided by the technology rather than
+by individual employees, for example, when the operating system is configured to prevent employees from downloading software from the Internet, or
+choosing a short, easily guessed password.
+
+If awareness training sessions could change behavior so that each
+employee would always be consistent about testing any request against
+these criteria, the risk associated with social engineering attacks would be
+dramatically reduced.
+A practical information security awareness and training program that
+addresses human behavior and social engineering aspects should include
+the following:
+
+254
+
+•
+
+Chapter 15
+
+•
+
+•
+•
+•
+•
+
+•
+
+•
+
+•
+
+A description of how attackers use social engineering skills to
+deceive people.
+The methods used by social engineers to accomplish their
+objectives.
+How to recognize a possible social engineering attack.
+The procedure for handling a suspicious request.
+Where to report social engineering attempts or successful
+attacks.
+The importance of challenging anyone who makes a suspicious request, regardless of the person’s claimed position or
+importance.
+The fact that they should not implicitly trust others without
+proper verification, even though their impulse is to give others
+the benefit of the doubt.
+The importance of verifying the identity and authority of any
+person making a request for information or action. (See
+“Verification and Authorization Procedures,” Chapter 16, for
+ways to verify identity.)
+Procedures for protecting sensitive information, including
+familiarity with any data classification system.
+
+16237124 Part04/Ch15.F
+
+•
+
+•
+
+•
+
+
+
+
+
+The location of the company’s security policies and procedures, and their importance to the protection of information
+and corporate information systems.
+A summary of key security policies and an explanation of their
+meaning. For example, every employee should be instructed in
+how to devise a difficult-to-guess password.
+The obligation of every employee to comply with the policies,
+and the consequences for noncompliance.
+
+Social engineering by definition involves some kind of human interaction. An attacker will very frequently use a variety of communication
+methods and technologies in attempting to achieve his or her goal. For
+this reason, a well-rounded awareness program should attempt to cover
+some or all of the following:
+•
+•
+•
+
+•
+•
+•
+
+Also, if the company plans to use penetration testing to determine the
+effectiveness of defenses against social engineering attacks, a warning
+should be given putting employees on notice of this practice. Let employees know that at some time they may receive a phone call or other communication using an attacker’s techniques as part of such a test. Use the
+results of those tests not to punish, but to define the need for additional
+training in some areas.
+Details concerning all of the above items will be found in Chapter 16.
+
+255
+Information Security Awareness and Training
+
+•
+•
+
+Security policies related to computer and voice mail passwords.
+The procedure for disclosing sensitive information or materials.
+Email usage policy, including the safeguards to prevent malicious code attacks including viruses, worms, and Trojan Horses.
+Physical security requirements such as wearing a badge.
+The responsibility to challenge people on the premises who
+aren’t wearing a badge.
+Best security practices of voice mail usage.
+How to determine the classification of information, and the
+proper safeguards for protecting sensitive information.
+Proper disposal of sensitive documents and computer media
+that contain, or have at any time in the past contained, confidential materials.
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+TESTING
+Your company may want to test employees on their mastery of the information presented in the security awareness training, before allowing
+computer system access. If you design tests to be given on line, many
+assessment design software programs allow you to readily analyze test
+results to determine areas of the training that need to be strengthened.
+Your company may also consider providing a certificate testifying to the
+completion of the security training as a reward and employee motivator.
+As a routine part of completing the program, it is recommended that
+each employee be asked to sign an agreement to abide by the security policies and principles taught in the program. Research suggests that a person
+who makes the commitment of signing such an agreement is more likely
+to make an effort to abide by the procedures.
+
+ONGOING AWARENESS
+
+Chapter 15
+
+256
+
+Most people are aware that learning, even about important matters, tends
+to fade unless reinforced periodically. Because of the importance of
+keeping employees up to speed on the subject of defending against social
+engineering attacks, an ongoing awareness program is vital.
+One method to keep security at the forefront of employee thinking is to
+make information security a specific job responsibility for every person in
+the enterprise. This encourages employees to recognize their crucial role in
+the overall security of the company. Otherwise there is a strong tendency
+to feel that security “is not my job.”
+While overall responsibility for an information security program is
+normally assigned to a person in the security department or the information technology department, development of an information security
+awareness program is probably best structured as a joint project with the
+training department.
+The ongoing awareness program needs to be creative and use every
+available channel for communicating security messages in ways that are
+memorable so that employees are constantly reminded about good security habits. Methods should use all of the traditional channels, plus as
+many nontraditional ones as the people assigned to develop and implement the program can imagine. As with traditional advertising, humor
+and cleverness help. Varying the wording of messages keeps them from
+becoming so familiar that they are ignored.
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+The list of possibilities for an ongoing awareness program might
+include:
+•
+•
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+•
+
+•
+•
+•
+
+The threat is constant; the reminders must be constant as well.
+
+WHAT’S IN IT FOR ME?
+In addition to security awareness and training programs, I strongly
+recommend an active and well-publicized reward program. You must
+
+257
+Information Security Awareness and Training
+
+•
+
+Providing copies of this book to all employees.
+Including informational items in the company newsletter:
+articles, boxed reminders (preferably short, attention-getting
+items), or cartoons, for example.
+Posting a picture of the Security Employee of the Month.
+Hanging posters in employee areas.
+Posting bulletin-board notices.
+Providing printed enclosures in paycheck envelopes.
+Sending email reminders.
+Using security-related screen savers.
+Broadcasting security reminder announcements through the
+voice mail system.
+Printing phone stickers with messages such as “Is your caller
+who he says he is?”
+Setting up reminder messages to appear on the computer when
+logging in, such as “If you are sending confidential information in an email, encrypt it.”
+Including security awareness as a standard item on employee
+performance reports and annual reviews.
+Providing security awareness reminders on the intranet, perhaps using cartoons or humor, or in some other way enticing
+employees to read them.
+Using an electronic message display board in the cafeteria, with
+a frequently changing security reminder.
+Distributing flyers or brochures.
+And think gimmicks, such as free fortune cookies in the cafeteria, each containing a security reminder instead of a fortune.
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+acknowledge employees who have detected and prevented an attempted
+social engineering attack, or in some other way significantly contributed
+to the success of the information security program. The existence of
+the reward program should be made known to employees at all security
+awareness sessions, and security violations should be widely publicized
+throughout the organization.
+On the other side of the coin, people must be made aware of the consequences of failing to abide by information security policies, whether
+through carelessness or resistance. Though we all make mistakes, repeated
+violations of security procedures must not be tolerated.
+
+Chapter 15
+
+258
+
+17237124 Ch16.F
+
+
+
+
+

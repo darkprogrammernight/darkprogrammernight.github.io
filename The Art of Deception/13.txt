@@ -1,0 +1,684 @@
+chapter
+
+13
+
+Clever Cons
+
+b
+
+y now you’ve figured out that when a stranger calls with a request
+for sensitive information or something that could be of value to
+an attacker, the person receiving the call must be trained to get
+the caller’s phone number, and call back to verify that the person is really
+who he claims to be—a company employee, or an employee of a business
+partner, or a technical support representative from one of your vendors,
+for example.
+Even when a company has an established procedure that the employees
+follow carefully for verifying callers, sophisticated attackers are still able to
+use a number of tricks to deceive their victims into believing they are who
+they claim to be. Even security conscious employees can be duped by
+methods such as the following.
+
+THE MISLEADING CALLER ID
+Anyone who has ever received a call on a cell phone has observed the feature known as caller ID—that familiar display showing the telephone
+number of the caller. In a business setting, it offers the advantage of allowing a worker to tell at a glance whether the call coming in is from a fellow
+employee or from outside the company.
+Many years ago some ambitious phone phreakers introduced themselves
+to the wonders of caller ID before the phone company was even allowed
+to offer the service to the public. They had a great time freaking people
+out by answering the phone and greeting the caller by name before they
+said a word.
+
+14237124 Ch13.F
+
+
+
+
+
+Just when you thought it was safe, the practice of verifying identity by
+trusting what you see—what appears on the caller ID display—is exactly
+what the attacker may be counting on.
+Linda’s Phone Call
+Day/Time: Tuesday, July 23, 3:12 P.M.
+Place: The offices of the Finance Department, Starbeat Aviation
+
+Chapter 13
+
+210
+
+Linda Hill’s phone rang just as she was in the middle of writing a memo
+to her boss. She glanced at her caller ID, which showed that the call was
+from the corporate office in New York, but from someone named Victor
+Martin—not a name she recognized.
+She thought of letting the call roll over to voice mail so she wouldn’t
+break the flow of thought on the memo. But curiosity got the better of
+her. She picked up the phone and the caller introduced himself and said
+he was from PR, and working on some material for the CEO. “He’s on his
+way to Boston for meetings with some of our bankers. He needs the topline financials for the current quarter,” he said. “And one more thing. He
+also needs the financial projections on the Apache project,” Victor added,
+using the code name for a product that was to be one of the company’s
+major releases in the spring.
+She asked for his email address, but he said he was having a problem
+receiving email that tech support was working on, so could she fax it
+instead? She said that would be fine, and he gave her the internal phone
+extension to his fax machine.
+She sent the fax a few minutes later.
+But Victor did not work for the PR department. In fact, he didn’t even
+work for the company.
+Jack’s Story
+Jack Dawkins had started his professional career at an early age as a pickpocket working games at Yankee Stadium, on crowded subway platforms,
+and among the nighttime throng of Times Square tourists. He proved so
+nimble and artful that he could take a watch off a man’s wrist without his
+knowing. But in his awkward teenage years he had grown clumsy and
+been caught. In Juvenile Hall, Jack learned a new trade with a much lower
+risk of getting nabbed.
+His current assignment called for him to get a company’s quarterly
+profit and loss statement and cash flow information, before the data was
+
+14237124 Ch13.F
+
+
+
+
+
+211
+Clever Cons
+
+filed with the Securities and Exchange Commission (SEC) and made public. His client was a dentist who didn’t want to explain why he wanted the
+information. To Jack the man’s caution was laughable. He’d seen it all
+before—the guy probably had a gambling problem, or else an expensive
+girlfriend his wife hadn’t found out about yet. Or maybe he had just been
+bragging to his wife about how smart he was in the stock market; now he
+had lost a bundle and wanted to make a big investment on a sure thing by
+knowing which way the company’s stock price was going to go when they
+announced their quarterly results.
+People are surprised to find out how little time it takes a thoughtful
+social engineer to figure out a way of handling a situation he’s never faced
+before. By the time Jack got home from his meeting with the dentist, he
+had already formed a plan. His friend Charles Bates worked for a company, Panda Importing, that had its own telephone switch, or PBX.
+In terms familiar to people knowledgeable about phone systems, the
+PBX was connected to a digital telephone service known as a T1, configured as Primary Rate Interface ISDN (integrated services digital network)
+or PRI ISDN. What this meant was that every time a call was placed from
+Panda, setup and other call processing information went out over a data
+channel to the phone company’s switch; the information included the
+calling party number, which (unless blocked) is delivered to the caller ID
+device at the receiving end.
+Jack’s friend knew how to program the switch so the person receiving
+the call would see on his caller ID, not the actual phone number at the
+Panda office, but whatever phone number he had programmed into the
+switch. This trick works because local phone companies do not bother to
+validate the calling number received from the customer against the actual
+phone numbers the customer is paying for.
+All Jack Dawkins needed was access to any such telephone service.
+Happily his friend and sometime partner in crime, Charles Bates, was
+always glad to lend a helping hand for a nominal fee. On this occasion,
+Jack and Charles temporarily reprogrammed the company’s telephone
+switch so that calls from a particular telephone line located on the Panda
+premises would spoof Victor Martin’s internal telephone number, making
+the call appear to be coming from within Starbeat Aviation.
+The idea that your caller ID can be made to show any number you wish
+is so little known that it’s seldom questioned. In this case, Linda was happy
+to fax the requested information to the guy she thought was from PR.
+When Jack hung up, Charles reprogrammed his company’s telephone
+switch, restoring the telephone number to the original settings.
+
+14237124 Ch13.F
+
+
+
+
+
+Analyzing the Con
+Some companies don’t want customers or vendors to know the telephone
+numbers of their employees. For example, Ford may decide that calls from
+their Customer Support Center should show the 800-number for the
+Center and a name like “Ford Support,” instead of the real direct-dial
+phone number of each support representative placing a call. Microsoft
+may want to give their employees the option of telling people their phone
+number, instead of having everyone they call be able to glance at their
+caller ID and know their extension. In this way the company is able to
+maintain the confidentiality of internal numbers.
+But this same capability of reprogramming provides a handy tactic
+for the prankster, bill collector, telemarketer, and, of course, the social
+engineer.
+
+VARIATION: THE PRESIDENT OF THE
+UNITED STATES IS CALLING
+
+Chapter 13
+
+212
+
+As co-host of a radio show in Los Angeles called “Darkside of the
+Internet” on KFI Talk Radio, I worked under the station’s program director. David, one of the most committed and hardworking people I’ve ever
+met, is very difficult to reach by telephone because he’s so busy. He’s one
+of those people who doesn’t answer a call unless he sees from the caller ID
+that it’s someone he needs to talk to.
+When I’d phone him, because I have call blocking on my cell phone, he
+could not tell who was calling and wouldn’t pick up the call. It would roll
+over to voice mail, and it became very frustrating for me.
+I talked over what to do about this with a long-time friend who is the
+cofounder of a real estate firm that provides office space for high-tech
+companies. Together we came up with a plan. He had access to his company’s Meridian telephone switch, which gives him the ability to program
+the calling party number, as described in the previous story. Whenever I
+needed to reach the program director and couldn’t get a call through, I
+would ask my friend to program any number of my choosing to appear
+on the caller ID. Sometimes I’d have him make the call look as if it was
+coming from David’s office assistant, or sometimes from the holding company that owns the station.
+But my favorite was programming the call to appear from David’s own
+home telephone number, which he always picked up. I’ll give the guy
+credit, though. He always had a good sense of humor about it when he’d
+pick up the phone and discover I had fooled him once again. The best part
+
+14237124 Ch13.F
+
+
+
+
+
+213
+Clever Cons
+
+was that he’d then stay on the line long enough to find out what I wanted
+and resolve whatever the issue was.
+When I demonstrated this little trick on the Art Bell Show, I spoofed
+my caller ID to display the name and number of the Los Angeles headquarters of the FBI. Art was quite shocked about the whole affair and
+admonished me for doing something illegal. But I pointed out to him that
+it’s perfectly legal, as long as it’s not an attempt to commit fraud. After the
+program I received several hundred emails asking me to explain how I had
+done it. Now you know.
+This is the perfect tool to build credibility for the social engineer. If, for
+example, during the research stage of the social engineering attack cycle,
+it was discovered that the target had caller ID, the attacker could spoof his
+or her own number as being from a trusted company or employee. A
+bill collector can make his or her calls appear to come from your place of
+business.
+But stop and think about the implications. A computer intruder can call
+you at home claiming to be from the IT department at your company.
+The person on the line urgently needs your password to restore your files
+from a server crash. Or the caller ID displays the name and number of
+your bank or stock brokerage house, the pretty sounding girl just needs to
+verify your account numbers and your mother’s maiden name. For good
+measure, she also needs to verify your ATM PIN because of some system
+problem. A stock market boiler-room operation can make their calls seem
+to come from Merrill Lynch or Citibank. Someone out to steal your identity could call, apparently from Visa, and convince you to tell him your
+Visa card number. A guy with a grudge could call and claim to be from
+the IRS or the FBI.
+If you have access to a telephone system connected to a PRI, plus a bit
+of programming knowledge that you can probably acquire from the system vendor’s Web site, you can use this tactic for playing cool tricks on
+your friends. Know anybody with overblown political aspirations? You
+could program the referral number as 202 456-1414, and his caller ID
+will display the name “WHITE HOUSE.”
+He’ll think he’s getting a call from the president!
+The moral of the story is simple: Caller ID cannot be trusted, except
+when being used to identify internal calls. Both at work and at home,
+everyone needs to become aware of the caller ID trick and recognize that
+the name or phone number shown in a caller ID display cannot ever be
+trusted for verification of identity.
+
+14237124 Ch13.F
+
+
+
+
+
+mitnick
+message
+The next time you receive a call and your caller ID shows it’s from your dear old
+mom, you never know—it might be from a sweet little old social engineer.
+
+THE INVISIBLE EMPLOYEE
+
+Chapter 13
+
+214
+
+Shirley Cutlass has found a new and exciting way to make fast money. No
+more putting in long hours at the salt mine. She has joined the hundreds
+of other scam artists involved in the crime of the decade. She is an identity thief.
+Today she has set her sights on getting confidential information from
+the customer service department of a credit card company. After doing the
+usual kind of homework, she calls the target company and tells the switchboard operator who answers that she’d like to be connected to the Telecom
+Department. Reaching Telecom, she asks for the voice mail administrator.
+Using information gathered from her research, she explains that her
+name is Norma Todd from the Cleveland office. Using a ruse that should
+by now be familiar to you, she says she’ll be traveling to corporate headquarters for a week, and she’ll need a voice mailbox there so she won’t have
+to make long distance calls to check her voice mail messages. No need for
+a physical telephone connection, she says, just a voice mailbox. He says
+he’ll take care of it, he’ll call her back when it’s set up to give her the information she’ll need.
+In a seductive voice, she says “I’m on my way into a meeting, can I call
+you back in an hour?”
+When she calls back, he says it’s all set up, and gives her the information—
+her extension number and temporary password. He asks whether she
+knows how to change the voice mail password, and she lets him talk her
+through the steps, though she knows them at least as well as he does.
+“And by the way,” she asks, “from my hotel, what number do I call to
+check my messages?” He gives her the number.
+Shirley phones in, changes the password, and records her new outgoing
+greeting.
+Shirley Attacks
+So far it’s all been an easy setup. She’s now ready to use the art of deception.
+
+14237124 Ch13.F
+
+
+
+
+
+She calls the customer service department of the company. “I’m with
+Collections, in the Cleveland office,” she says, and then launches into a
+variation on the by-now familiar excuse. “My computer is being fixed by
+technical support and I need your help looking up this information.” And
+she goes on to provide the name and date of birth of the person whose
+identity she is intent on stealing. Then she lists the information she wants:
+address, mother’s maiden name, card number, credit limit, available
+credit, and payment history. “Call me back at this number,” she says, giving the internal extension number that the voice mail administrator set up
+for her. “And if I’m not available, just leave the information on my voice
+mail.”
+She keeps busy with errands for the rest of the morning, and then checks
+her voice mail that afternoon. It’s all there, everything she asked for.
+Before hanging up, Shirley clears the outgoing message; it would be careless to leave a recording of her voice behind.
+And identify theft, the fastest growing crime in America, the “in” crime
+of the new century, is about to have another victim. Shirley uses the
+credit-card and identity information she just obtained, and begins running up charges on the victim’s card.
+215
+
+mitnick
+message
+Try calling your own voice mail once in a while; if you hear an outgoing message
+that’s not yours, you may have just encountered your first social engineer.
+
+Clever Cons
+
+Analyzing the Con
+In this ruse, the attacker first duped the company’s voice mail administrator into believing she was an employee, so that he would set up a temporary voice mailbox. If he bothered to check at all, he would have found
+that the name and telephone number she gave matched the listings in the
+corporate employee database.
+The rest was simply a matter of giving a reasonable excuse about a computer problem, asking for the desired information, and requesting that the
+response be left on voice mail. And why would any employee be reluctant
+to share information with a coworker? Since the phone number that
+Shirley provided was clearly an internal extension, there was no reason for
+any suspicion.
+
+14237124 Ch13.F
+
+
+
+
+
+THE HELPFUL SECRETARY
+
+Chapter 13
+
+216
+
+Cracker Robert Jorday had been regularly breaking into the computer networks of a global company, Rudolfo Shipping, Inc. The company eventually recognized that someone was hacking into their terminal server, and
+that through that server the user could connect to any computer system at
+the company. To safeguard the corporate network, the company decided
+to require a dial-up password on every terminal server.
+Robert called the Network Operations Center posing as an attorney
+with the Legal Department and said he was having trouble connecting to
+the network. The network administrator he reached explained that there
+had been some recent security issues, so all dial-up access users would need
+to obtain the monthly password from their manager. Robert wondered
+what method was being used to communicate each month’s password to
+the managers and how he could obtain it. The answer, it turned out, was
+that the password for the upcoming month was sent in a memo via office
+mail to each company manager.
+That made things easy. Robert did a little research, called the company
+just after the first of the month, and reached the secretary of one manager,
+who gave her name as Janet. He said, “Janet, hi. This is Randy Goldstein,
+in Research and Development. I know I probably got the memo with this
+month’s password for logging into the terminal server from outside the
+company but I can’t find it anywhere. Did you get your memo for this
+month?”
+Yes, she said, she did get it.
+He asked her if she would fax it to him, and she agreed. He gave her the
+fax number of the lobby receptionist in a different building on the company campus, where he had already made arrangements for faxes to
+be held for him, and would then arrange for the password fax to be
+forwarded. This time, though, Robert used a different fax-forwarding
+method. He gave the receptionist a fax number that went to an on-line fax
+service. When this service receives a fax, the automated system sends it to
+the subscriber’s email address.
+The new password arrived at the email dead drop that Robert set up on
+a free email service in China. He was sure that if the fax was ever traced,
+the investigator would be pulling out his hair trying to gain cooperation
+from Chinese officials, who, he knew, were more than a little reluctant to
+be helpful in matters like this. Best of all, he never had to show up physically at the location of the fax machine.
+
+14237124 Ch13.F
+
+
+
+
+
+mitnick
+message
+The skilled social engineer is very clever at influencing other people to do favors
+for him. Receiving a fax and forwarding it to another location appears so harmless that it’s all too easy to persuade a receptionist or someone else to agree to
+do it. When somebody asks for a favor involving information, if you don’t know
+him or can’t verify his identity, just say no.
+
+TRAFFIC COURT
+Probably everyone who has ever been given a speeding ticket has daydreamed about some way of beating it. Not by going to traffic school, or
+simply paying the fine, or taking a chance on trying to convince the judge
+about some technicality like how long it has been since the police-car
+speedometer or the radar gun was checked. No, the sweetest scenario
+would be beating the ticket by outsmarting the system.
+
+First Steps
+“LAPD, Hollenbeck Division.”
+“Hi, I’d like to talk to the Subpoena Control.”
+“I’m the subpoena clerk.”
+“Fine. This is Attorney John Leland, of Meecham, Meecham,
+and Talbott. I need to subpoena an officer on a case.”
+“Okay, which officer?”
+“Do you have Officer Kendall in your division?”
+“What’s his serial number?”
+“21349.”
+“Yes. When do you need him?”
+“Some time next month, but I need to subpoena several
+other witnesses on the case and then tell the court what
+days will work for us. Are there any days next month
+Officer Kendall won’t be available?”
+
+217
+Clever Cons
+
+The Con
+Although I would not recommend trying this method of beating a traffic
+ticket (as the saying goes, don’t try this at home) still, this is a good example of how the art of deception can be used to help the social engineer.
+Let’s call this traffic violater Paul Durea.
+
+14237124 Ch13.F
+
+
+
+
+
+“Let’s see . . . He has vacation days on the 20th through the
+23rd, and he has training days on the 8th and 16th.”
+“Thanks. That’s all I need right now. I’ll call you back when
+the court date is set.”
+
+Municipal Court, Clerk’s Counter
+Paul: “I’d like to schedule a court date on this traffic ticket.”
+Clerk: “Okay. I can give you the 26th of next month.”
+“Well, I’d like to schedule an arraignment.”
+“You want an arraignment on a traffic ticket?”
+“Yes.”
+“Okay. We can set the arraignment tomorrow in the morning
+or afternoon. What would you like?”
+“Afternoon.”
+“Arraignment is tomorrow at 1:30 P.M. in Courtroom Six.”
+“Thanks. I’ll be there.”
+
+Chapter 13
+
+218
+
+Municipal Court, Courtroom Six
+Date: Thursday, 1:45 P.M.
+Clerk: “Mr. Durea, please approach the bench.”
+Judge: “Mr. Durea, do you understand the rights that have
+been explained to you this afternoon?”
+Paul: “Yes, your honor.”
+Judge: “Do you want to take the opportunity to attend traffic school? Your case will be dismissed after successful
+completion of an eight-hour course. I’ve checked your
+record and you are presently eligible.”
+Paul: “No, your honor. I respectfully request that the case
+be set for trial. One more thing, your honor, I’ll be traveling out of the country, but I’m available on the 8th or
+9th. Would it be possible to set my case for trial on
+either of those days? I’m leaving on a business trip for
+Europe tomorrow, and I return in four weeks.”
+Judge: “Very well. Trial is set for June 8th, 8:30 A.M.,
+Courtroom Four.”
+Paul: “Thank you, your honor.”
+
+14237124 Ch13.F
+
+
+
+
+
+Municipal Court, Courtroom Four
+Paul arrived at court early on the 8th. When the judge came
+in, the clerk gave him a list of the cases for which the officers
+had not appeared. The judge called the defendants, including
+Paul, and told them their cases were dismissed.
+
+219
+Clever Cons
+
+Analyzing the Con
+When an officer writes a ticket, he signs it with his name and his badge
+number (or whatever his personal number is called in his agency). Finding
+his station is a piece of cake. A call to directory assistance with the name
+of the law enforcement agency shown on the citation (highway patrol,
+county sheriff, or whatever) is enough to get a foot in the door. Once the
+agency is contacted, they can refer the caller to the correct telephone number for the subpoena clerk serving the geographical area where the traffic
+stop was made.
+Law enforcement officers are subpoenaed for court appearances with
+regularity; it comes with the territory. When a district attorney or a
+defense lawyer needs an officer to testify, if he knows how the system
+works, he first checks to make sure the officer will be available. That’s easy
+to do; it just takes a call to the subpoena clerk for that agency.
+Usually in those conversations, the attorney asks if the officer in question will be available on such-and-such a date. For this ruse, Paul needed
+a bit of tact; he had to offer a plausible reason why the clerk should tell
+him what dates the officer would not be available.
+When he first went to the court building, why didn’t Paul simply tell the
+court clerk what date he wanted? Easy—from what I understand, trafficcourt clerks in most places don’t allow members of the public to select court
+dates. If a date the clerk suggests doesn’t work for the person, she’ll offer
+an alternative or two, but that’s as far as she will bend. On the other hand,
+anyone who is willing to take the extra time of showing up for an arraignment is likely to have better luck.
+Paul knew he was entitled to ask for an arraignment. And he knew the
+judges are often willing to accommodate a request for a specific date. He
+carefully asked for dates that coincided with the officer’s training days,
+knowing that in his state, officer training takes precedence over an appearance in traffic court.
+
+14237124 Ch13.F
+
+
+
+
+
+mitnick
+message
+The human mind is a marvelous creation. It’s interesting to note how imaginative
+people can be at developing deceptive ways to get what they want or to get out
+of a sticky situation. You have to use the same creativity and imagination to safeguard information and computer systems in the public and private sectors. So,
+folks, when devising your company’s security policies—be creative and think outside the box.
+
+Chapter 13
+
+220
+
+And in traffic court, when the officer does not show up—case dismissed. No fines. No traffic school. No points. And, best of all, no record
+of a traffic offense!
+My guess is that some police officials, court officers, district attorneys
+and the like will read this story and shake their heads because they know
+that this ruse does work. But shaking their heads is all they’ll do. Nothing
+will change. I’d be willing to bet on it. As the character Cosmo says in the
+1992 movie Sneakers, “It’s all about the ones and zeros”—meaning that in
+the end, everything comes down to information.
+As long as law enforcement agencies are willing to give information
+about an officer’s schedule to virtually anyone who calls, the ability to get
+out of traffic tickets will always exist. Do you have similar gaps in your
+company or organization’s procedures that a clever social engineer can take
+advantage of to get information you’d rather they didn’t have?
+
+SAMANTHA’S REVENGE
+Samantha Gregson was angry.
+She had worked hard for her college degree in business, and stacked up
+a pile of student loans to do it. It had always been drummed into her that
+a college degree was how you got a career instead of a job, how you earned
+the big bucks. And then she graduated and couldn’t find a decent job
+anywhere.
+How glad she had been to get the offer from Lambeck Manufacturing.
+Sure, it was humiliating to accept a secretarial position, but Mr. Cartright
+had said how eager they were to have her, and taking the secretarial job
+would put her on the spot when the next nonadministrative position
+opened up.
+Two months later she heard that one of Cartright’s junior product managers was leaving. She could hardly sleep that night, imagining herself on
+the fifth floor, in an office with a door, attending meetings and making
+decisions.
+
+14237124 Ch13.F
+
+
+
+
+
+The next morning she went first thing to see Mr. Cartright. He said they
+felt she needed to learn more about the industry before she was ready for
+a professional position. And then they went and hired an amateur from
+outside the company who knew less about the industry than she did.
+It was about then that it began to dawn on her: The company had
+plenty of women, but they were almost all secretaries. They weren’t going
+to give her a management job. Ever.
+
+TO: C. Pelton, IT dept.
+FROM: L. Cartright, Development
+Martin Johansson will be working with a special projects
+team in my department.
+I hereby authorize him to have access to the servers used
+by the engineering group. Mr. Johansson’s security profile is
+to be updated to grant him the same access rights as a
+product developer.
+Louis Cartright
+
+lingo
+SHOULDER SURFING The act of watching a person type at his computer
+keyboard to detect and steal his password or other user information.
+
+221
+Clever Cons
+
+Payback
+It took her almost a week to figure out how she was going to pay them
+back. About a month earlier a guy from an industry trade magazine had
+tried to hit on her when he came in for the new product launch. A few
+weeks later he called her up at work and said if she would send him some
+advance information on the Cobra 273 product, he’d send her flowers,
+and if it was really hot information that he used in the magazine, he’d
+make a special trip in from Chicago just to take her out to dinner.
+She had been in young Mr. Johannson’s office one day shortly after that
+when he logged onto the corporate network. Without thinking, she had
+watched his fingers (shoulder surfing, this is sometimes called). He had
+entered “marty63” as his password.
+Her plan was beginning to come together. There was a memo she
+remembered typing not long after she came to the company. She found a
+copy in the files and typed up a new version, using language from the original one. Her version read:
+
+14237124 Ch13.F
+
+
+
+
+
+When most everybody was gone at lunch, she cut Mr. Cartright’s signature from the original memo, pasted it onto her new version, and daubed
+Wite-Out around the edges. She made a copy of the result, and then made
+a copy of the copy. You could barely see the edges around the signature.
+She sent the fax from the machine near Mr. Cartright’s office.
+Three days later, she stayed after hours and waited till everyone left. She
+walked into Johannson’s office, and tried logging onto the network with
+his username and the password, marty63. It worked.
+In minutes she had located the product specification files for the Cobra
+273, and downloaded them to a Zip disk.
+The disk was safely in her purse as she walked in the cool nighttime
+breeze to the parking lot. It would be on its way to the reporter that night.
+
+Chapter 13
+
+222
+
+Analyzing the Con
+A disgruntled employee, a search through the files, a quick cut-paste-andWite-Out operation, a little creative copying, and a fax. And, voilà!—she
+has access to confidential marketing and product specifications.
+And a few days later, a trade magazine journalist has a big scoop with
+the specs and marketing plans of a hot new product that will be in
+the hands of magazine subscribers throughout the industry months in
+advance of the product’s release. Competitor companies will have several
+months head start on developing equivalent products and having their ad
+campaigns ready to undermine the Cobra 273.
+Naturally the magazine will never say where they got the scoop.
+
+PREVENTING THE CON
+When asked for any valuable, sensitive, or critical information that could
+be of benefit to a competitor or anyone else, employees must be aware that
+using caller ID as a means of verifying the identity of an outside caller is
+not acceptable. Some other means of verification must be used, such as
+checking with the person’s supervisor that the request was appropriate and
+that the user has authorization to receive the information.
+The verification process requires a balancing act that each company
+must define for itself: Security versus productivity. What priority is going
+to be assigned to enforcing security measures? Will employees be resistant
+to following security procedures, and even circumvent them in order to
+complete their job responsibilities? Do employees understand why security is important to the company and themselves? These questions need to
+
+14237124 Ch13.F
+
+
+
+
+
+223
+Clever Cons
+
+be answered to develop a security policy based on corporate culture and
+business needs.
+Most people inevitably see anything that interferes with getting their
+work done as an annoyance, and may circumvent any security measures
+that appear to be a waste of time. Motivating employees to make security
+part of their everyday responsibilities through education and awareness
+is key.
+Although caller ID service should never be used as a means of authentication for voice calls from outside the company, another method called
+automatic number identification (ANI) can. This service is provided when
+a company subscribes to toll-free services where the company pays for the
+incoming calls and is reliable for identification. Unlike caller ID, the telephone company switch does not use any information that is sent from a
+customer when providing the calling number. The number transmitted by
+ANI is the billing number assigned to the calling party.
+Note that several modem manufacturers have added a caller ID feature
+into their products, protecting the corporate network by allowing remoteaccess calls only from a list of preauthorized telephone numbers. Caller ID
+modems are an acceptable means of authentication in a low-security environment but, as should be clear by now, spoofing caller ID is a relatively
+easy technique for computer intruders, and so should not be relied on for
+proving the caller’s identity or location in a high-security setting.
+To address the case of identity theft, as in the story about deceiving an
+administrator to create a voice mailbox on the corporate phone system,
+make it a policy that all phone service, all voice mailboxes, and all entries
+to the corporate directory, both in print and on line, must be requested in
+writing, on a form provided for the purpose. The employee’s manager
+should sign the request, and the voice mail administrator should verify the
+signature.
+Corporate security policy should require that new computer accounts or
+increases in access rights be granted only after positive verification of the
+person making the request, such as a callback to the system manager or
+administrator, or his or her designee, at the phone number listed in the
+print or on-line company directory. If the company uses secure email
+where employees can digitally sign messages, this alternative verification
+method may also be acceptable.
+Remember that every employee, regardless of whether he has access to
+company computer systems, may be duped by a social engineer. Everyone
+must be included in security awareness training. Administrative assistants,
+
+14237124 Ch13.F
+
+
+
+
+
+receptionists, telephone operators, and security guards must be made
+familiar with the types of social engineering attack most likely to be
+directed against them so that they will be better prepared to defend against
+those attacks.
+
+Chapter 13
+
+224
+
+15237124 Ch14.F
+
+
+
+
+

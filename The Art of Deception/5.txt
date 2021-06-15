@@ -1,0 +1,971 @@
+chapter
+
+5
+
+“Let Me Help You”
+
+w
+
+e’re all grateful when we’re plagued by a problem and somebody with the knowledge, skill, and willingness comes along
+offering to lend us a hand. The social engineer understands
+that, and knows how to take advantage of it.
+He also knows how to cause a problem for you . . . then make you grateful when he resolves the problem . . . and finally play on your gratitude
+to extract some information or a small favor from you that will leave your
+company (or maybe you, individually) very much worse off for the
+encounter. And you may never even know you’ve lost something of value.
+Here are some typical ways that social engineers step forward to “help.”
+
+THE NETWORK OUTAGE
+Day/Time: Monday, February 12, 3:25 p.m.
+Place: Offices of Starboard Shipbuilding
+
+The First Call: Tom DeLay
+“Tom DeLay, Bookkeeping.”
+“Hey, Tom, this is Eddie Martin from the Help Desk. We’re
+trying to troubleshoot a computer networking problem.
+Do you know if anyone in your group has been having
+trouble staying on line?”
+“Uh, not that I know of.”
+“And you’re not having any problems yourself.”
+“No, seems fine.”
+
+06237124 Ch05.F
+
+
+
+
+
+“Okay, that’s good. Listen, we’re calling people who might
+be affected ‘cause it’s important you let us know right
+away if you lose your network connection.”
+“That doesn’t sound good. You think it might happen?”
+“We hope not, but you’ll call if it does, right?”
+“You better believe it.”
+“Listen, sounds like having your network connection go
+down would be a problem for you . . .”
+“You bet it would.”
+“. . . so while we’re working on this, let me give you my cell
+phone number. Then you can reach me directly if you
+need to.”
+“That’d be great. Go ahead.”
+“It’s 555 867 5309.”
+“555 867 5309. Got it. Hey, thanks. What was your name
+again?”
+“It’s Eddie. Listen, one other thing—I need to check which
+port your computer is connected to. Take a look on
+your computer and see if there’s a sticker somewhere
+that says something like ‘Port Number’.”
+“Hang on. . . . No, don’t see anything like that.”
+
+Chapter 5
+
+56
+
+“Okay, then in the back of the computer, can you recognize
+the network cable.”
+“Yeah.”
+“Trace it back to where it’s plugged in. See if there’s a label
+on the jack it’s plugged into.”
+“Hold on a second. Yeah, wait a minute—I have to squat
+down here so I can get close enough to read it. Okay—it
+says Port 6 dash 47.”
+“Good—that’s what we had you down as, just making
+sure.”
+
+The Second Call: The IT Guy
+Two days later, a call came through to the same company’s
+Network Operations Center.
+“Hi, this is Bob; I’m in Tom DeLay’s office in Bookkeeping.
+We’re trying to troubleshoot a cabling problem. I need
+you to disable Port 6-47.”
+The IT guy said it would be done in just a few minutes, and
+to let them know when he was ready to have it enabled.
+
+06237124 Ch05.F
+
+
+
+
+
+The Third Call: Getting Help from the Enemy
+About an hour later, the guy who called himself Eddie Martin
+was shopping at Circuit City when his cell phone rang. He
+checked the caller ID, saw the call was from the shipbuilding
+company, and hurried to a quiet spot before answering.
+“Help Desk, Eddie.”
+“Oh, hey, Eddie. You’ve got an echo, where are you?”
+“I’m, uh, in a cabling closet. Who’s this?
+“It’s Tom DeLay. Boy, am I glad I got ahold of you. Maybe
+you remember you called me the other day? My network
+connection just went down like you said it might, and
+I’m a little panicky here.”
+“Yeah, we’ve got a bunch of people down right now. We
+should have it taken care of by the end of the day. That
+okay?”
+“NO! Damn, I’ll get way behind if I’m down that long. What’s
+the best you can do for me?”
+“How pressed are you?”
+“I could do some other things for right now. Any chance you
+could take care of it in half an hour?”
+“HALF AN HOUR! You don’t want much. Well, look, I’ll drop
+what I’m doing and see if I can tackle it for you.”
+
+57
+
+“Hey, I really appreciate that, Eddie.”
+
+“Let Me Help You”
+
+The Fourth Call: Gotcha!
+Forty-five minutes later . . .
+“Tom? It’s Eddie. Go ahead and try your network connection.”
+After a couple of moments:
+“Oh, good, it’s working. That’s just great.”
+“Good, glad I could take care of it for you.”
+“Yeah, thanks a lot.”
+“Listen, if you want to make sure your connection doesn’t
+go down again, there’s some software you oughta be
+running. Just take a couple of minutes.”
+“Now’s not the best time.”
+“I understand . . . It could save us both big headaches the
+next time this network problem happens.”
+
+06237124 Ch05.F
+
+
+
+
+
+“Well . . . if it’s only a few minutes.”
+“Here’s what you do . . .”
+Eddie then took Tom through the steps of downloading a
+small application from a Web site. After the program had
+downloaded, Eddie told Tom to double-click on it. He tried,
+but reported:
+“It’s not working. It’s not doing anything.”
+“Oh, what a pain. Something must be wrong with the program. Let’s just get rid of it, we can try again another
+time.” And he talked Tom through the steps of deleting
+the program so it couldn’t be recovered.
+Total elapsed time, twelve minutes.
+
+Chapter 5
+
+58
+
+The Attacker’s Story
+Bobby Wallace always thought it was laughable when he picked up a good
+assignment like this one and his client pussyfooted around the unasked
+but obvious question of why they wanted the information. In this case he
+could only think of two reasons. Maybe they represented some outfit that
+was interested in buying the target company, Starboard Shipbuilding,
+and wanted to know what kind of financial shape they were really in—
+especially all the stuff the target might want to keep hidden from a potential buyer. Or maybe they represented investors who thought there was
+something fishy about the way the money was being handled and wanted
+to find out whether some of the executives had a case of hands-in-thecookie-jar.
+And maybe his client also didn’t want to tell him the real reason because,
+if Bobby knew how valuable the information was, he’d probably want
+more money for doing the job.
+
+There are a lot of ways to crack into a company’s most secret files. Bobby
+spent a few days mulling over the choices and doing a little checking
+around before he decided on a plan. He settled on one that called for an
+approach he especially liked, where the target is set up so that he asks the
+attacker for help.
+For starters, Bobby picked up a $39.95 cell phone at a convenience
+store. He placed a call to the man he had chosen as his target, passed himself off as being from the company help desk, and set things up so the man
+would call Bobby’s cell phone any time he found a problem with his network connection.
+
+06237124 Ch05.F
+
+
+
+
+
+lingo
+TROJAN HORSE A program containing malicious or harmful code,
+designed to damage the victim’s computer or files, or obtain information
+from the victim’s computer or network. Some Trojans are designed to hide
+within the computer’s operating system and spy on every keystroke or
+action, or accept instructions over a network connection to perform some
+function, all without the victim being aware of its presence.
+
+59
+“Let Me Help You”
+
+He left a pause of two days so as not to be too obvious, and then made
+a call to the network operations center (NOC) at the company. He
+claimed he was trouble-shooting a problem for Tom, the target, and asked
+to have Tom’s network connection disabled. Bobby knew this was the
+trickiest part of the whole escapade—in many companies, the help desk
+people work closely with the NOC; in fact, he knew the help desk is often
+part of the IT organization. But the indifferent NOC guy he spoke with
+treated the call as routine, didn’t ask for the name of the help desk person
+who was supposedly working on the networking problem, and agreed to
+disable the target’s network port. When done, Tom would be totally isolated from the company’s intranet, unable to retrieve files from the server,
+exchange files with his coworkers, download his email, or even send a page
+of data to the printer. In today’s world, that’s like living in a cave.
+As Bobby expected, it wasn’t long before his cell phone rang. Of course
+he made himself sound eager to help this poor “fellow employee” in distress. Then he called the NOC and had the man’s network connection
+turned back on. Finally, he called the man and manipulated him once
+again, this time making him feel guilty for saying no after Bobby had done
+him a favor. Tom agreed to the request that he download a piece of software to his computer.
+Of course, what he agreed to wasn’t exactly what it seemed. The software
+that Tom was told would keep his network connection from going down
+was really a Trojan Horse, a software application that did for Tom’s
+computer what the original deception did for the Trojans: It brought
+the enemy inside the camp. Tom reported that nothing happened when
+he double-clicked on the software icon; the fact was that, by design, he
+couldn’t see anything happening, even though the small application was
+installing a secret program that would allow the infiltrator covert access to
+Tom’s computer.
+With the software running, Bobby was provided with complete control
+over Tom’s computer, an arrangement known as a remote command shell.
+When Bobby accessed Tom’s computer, he could look for the accounting
+
+06237124 Ch05.F
+
+
+
+
+
+files that might be of interest and copy them. Then, at his leisure, he’d
+examine them for the information that would give his clients what they
+were looking for.
+And that wasn’t all. He could go back at any time to search through
+the email messages and private memos of the company’s executives, running a text search for words that might reveal any interesting tidbits of
+information.
+Late on the night that he conned his target into installing the Trojan
+Horse software, Bobby threw the cell phone into a Dumpster. Of course
+he was careful to clear the memory first and pull the battery out before he
+tossed it—the last thing he wanted was for somebody to call the cell
+phone’s number by mistake and have the phone start ringing!
+
+Chapter 5
+
+60
+
+Analyzing the Con
+The attacker spins a web to convince the target he has a problem that, in
+fact, doesn’t really exist—or, as in this case, a problem that hasn’t happened yet, but that the attacker knows will happen because he’s going
+to cause it. He then presents himself as the person who can provide the
+solution.
+The setup in this kind of attack is particularly juicy for the attacker:
+Because of the seed planted in advance, when the target discovers he has
+a problem, he himself makes the phone call to plead for help. The attacker
+just sits and waits for the phone to ring, a tactic fondly known in the trade
+as reverse social engineering. An attacker who can make the target call him
+gains instant credibility: If I place a call to someone I think is on the help
+
+lingo
+REMOTE COMMAND SHELL A nongraphical interface that accepts textbased commands to perform certain functions or run programs. An attacker
+who exploits technical vulnerabilities or is able to install a Trojan Horse program on the victim’s computer may be able to obtain remote access to a
+command shell.
+REVERSE SOCIAL ENGINEERING A social engineering attack in which the
+attacker sets up a situation where the victim encounters a problem and contacts the attacker for help. Another form of reverse social engineering turns
+the tables on the attacker. The target recognizes the attack, and uses psychological principles of influence to draw out as much information as possible from the attacker so that the business can safeguard targeted assets.
+
+06237124 Ch05.F
+
+
+
+
+
+mitnick
+message
+If a stranger does you a favor, then asks you for a favor, don’t reciprocate without thinking carefully about what he’s asking for.
+
+desk, I’m not going to start asking him to prove his identity. That’s when
+the attacker has it made.
+In a con like this one, the social engineer tries to pick a target who is
+likely to have limited knowledge of computers. The more he knows, the
+more likely that he’ll get suspicious, or just plain figure out that he’s being
+manipulated. What I sometimes call the computer-challenged worker,
+who is less knowledgeable about technology and procedures, is more likely
+to comply. He’s all the more likely to fall for a ruse like “Just download
+this little program,” because he has no idea of the potential damage a software program can inflict. What’s more, there’s a much smaller chance he’ll
+understand the value of the information on the computer network that
+he’s placing at risk.
+
+A LITTLE HELP FOR THE NEW GAL
+
+Helpful Andrea
+“Human Resources, Andrea Calhoun.”
+“Andrea, hi, this is Alex, with Corporate Security.”
+“Yes?”
+“How’re you doing today?”
+“Okay. What can I help you with?”
+“Listen, we’re developing a security seminar for new
+employees and we need to round up some people to try
+it out on. I want to get the name and phone number of
+all the new hires in the past month. Can you help me
+with that?”
+“I won’t be able to get to it ‘til this afternoon. Is that okay?
+What’s your extension?”
+
+“Let Me Help You”
+
+New employees are a ripe target for attackers. They don’t know many people yet, they don’t know the procedures or the dos and don’ts of the company. And, in the name of making a good first impression, they’re eager to
+show how cooperative and quick to respond they can be.
+
+61
+
+06237124 Ch05.F
+
+
+
+
+
+“Sure, okay, it’s 52 . . . oh, uh, but I’ll be in meetings most
+of today. I’ll call you when I’m back in my office, probably after four.”
+When Alex called about 4:30, Andrea had the list ready, and
+read him the names and extensions.
+
+A Message for Rosemary
+Rosemary Morgan was delighted with her new job. She had
+never worked for a magazine before and was finding the people much friendlier than she expected, a surprise because of
+the never-ending pressure most of the staff was always under
+to get yet another issue finished by the monthly deadline.
+The call she received one Thursday morning reconfirmed that
+impression of friendliness.
+“Is that Rosemary Morgan?”
+“Yes.”
+“Hi, Rosemary. This is Bill Jorday, with the Information
+Security group.”
+“Yes?”
+
+Chapter 5
+
+62
+
+“Has anyone from our department discussed best security
+practices with you?”
+“I don’t think so.”
+“Well, let’s see. For starters, we don’t allow anybody to
+install software brought in from outside the company.
+That’s because we don’t want any liability for unlicensed
+use of software. And to avoid any problems with software that might have a worm or a virus.”
+“Okay.”
+“Are you aware of our email policies?”
+“No.”
+“What’s your current email address?”
+“Rosemary@ttrzine.net.”
+“Do you sign in under the username Rosemary?”
+“No, it’s R-underscore-Morgan.”
+“Right. We like to make all our new employees aware that it
+can be dangerous to open any email attachment you
+aren’t expecting. Lots of viruses and worms get sent
+around and they come in emails that seem to be from
+people you know. So if you get an email with an attachment you weren’t expecting you should always check to
+be sure the person listed as sender really did send you
+the message. You understand?”
+“Yes, I’ve heard about that.”
+
+06237124 Ch05.F
+
+
+
+
+
+“Good. And our policy is that you change your password
+every ninety days. When did you last change your
+password?”
+“I’ve only been here three weeks; I’m still using the one I
+first set.”
+“Okay, that’s fine. You can wait the rest of the ninety days.
+But we need to be sure people are using passwords that
+aren’t too easy to guess. Are you using a password that
+consists of both letters and numbers?”
+“No.”
+We need to fix that. What password are you using now?”
+“It’s my daughter’s name—Annette.”
+“That’s really not a secure password. You should never
+choose a password that’s based on family information.
+Well, let’s see . . . you could do the same thing I do. It’s
+okay to use what you’re using now as the first part of
+the password, but then each time you change it, add a
+number for the current month.”
+“So if I did that now, for March, would I use three, or ohthree.”
+“That’s up to you. Which would you be more comfortable
+with?”
+“I guess Annette-three.”
+
+“No, I know how.”
+“Good. And one more thing we need to talk about. You have
+antivirus software on your computer and it’s important
+to keep it up to date. You should never disable the automatic update even if your computer slows down every
+once in a while. Okay?”
+“Sure.”
+“Very good. And do you have our phone number over here,
+so you can call us if you have any computer problems?”
+She didn’t. He gave her the number, she wrote it down carefully, and went back to work, once again, pleased at how well
+taken care of she felt.
+
+Analyzing the Con
+This story reinforces an underlying theme you’ll find throughout this
+book: The most common information that a social engineer wants from
+an employee, regardless of his ultimate goal, is the target’s authentication
+credentials. With an account name and password in hand from a single
+employee in the right area of the company, the attacker has what he needs
+
+“Let Me Help You”
+
+“Fine. Do you want me to walk you through how to make
+the change?”
+
+63
+
+06237124 Ch05.F
+
+
+
+
+
+mitnick
+message
+Before new employees are allowed access to any company computer systems,
+they must be trained to follow good security practices, especially policies about
+never disclosing their passwords.
+
+to get inside and locate whatever information he’s after. Having this information is like finding the keys to the kingdom; with them in hand, he can
+move freely around the corporate landscape and find the treasure he seeks.
+
+NOT AS SAFE AS YOU THINK
+
+Chapter 5
+
+64
+
+“The company that doesn’t make an effort to protect its sensitive information is just plain negligent.” A lot of people would agree with that statement. And the world would be a better place if life were so obvious and
+so simple. The truth is that even those companies that do make an effort
+to protect confidential information may be at serious risk.
+Here’s a story that illustrates once again how companies fool themselves
+every day into thinking their security practices, designed by experienced,
+competent, professionals, cannot be circumvented.
+Steve Cramer’s Story
+It wasn’t a big lawn, not one of those expensively seeded spreads. It garnered no envy. And it certainly wasn’t big enough to give him an excuse
+for buying a sit-down mower, which was fine because he wouldn’t have
+used one anyway. Steve enjoyed cutting the grass with a hand-mower
+because it took longer, and the chore provided a convenient excuse to
+focus on his own thoughts instead of listening to Anna telling him stories
+about the people at the bank where she worked or explaining errands for
+him to do. He hated those honey-do lists that had become an integral part
+of his weekends. It flashed though his mind that 12-year-old Pete was
+damn smart to join the swimming team. Now he’d have to be at practice
+or a meet every Saturday so he wouldn’t get stuck with Saturday chores.
+Some people might think Steve’s job designing new devices for
+GeminiMed Medical Products was boring; Steve knew he was saving lives.
+Steve thought of himself as being in a creative line of work. Artist, music
+composer, engineer—in Steve’s view they all faced the same kind of challenge he did: They created something that no one had ever done before.
+And his latest, an intriguingly clever new type of heart stent, would be his
+proudest achievement yet.
+
+06237124 Ch05.F
+
+
+
+
+
+It was almost 11:30 on this particular Saturday, and Steve was annoyed
+because he had almost finished cutting the grass and hadn’t made any real
+progress in figuring out how to reduce the power requirement on the heart
+stent, the last remaining hurdle. A perfect problem to mull over while
+mowing, but no solution had come.
+
+65
+“Let Me Help You”
+
+Anna appeared at the door, her hair covered in the red paisley cowboy
+scarf she always wore when dusting. “Phone call,” she shouted to him.
+“Somebody from work.”
+“Who?” Steve shouted back.
+“Ralph something. I think.”
+Ralph? Steve couldn’t remember anybody at GeminiMed named Ralph
+who might be calling on a weekend. But Anna probably had the name
+wrong.
+“Steve, this is Ramon Perez in Tech Support.” Ramon—how in the
+world did Anna get from a Hispanic name to Ralph, Steve wondered.
+“This is just a courtesy call,” Ramon was saying. “Three of the servers
+are down, we think maybe a worm, and we have to wipe the drives and
+restore from backup. We should be able to have your files up and running
+by Wednesday or Thursday. If we’re lucky.”
+“Absolutely unacceptable,” Steve said firmly, trying not to let his frustration take over. How could these people be so stupid? Did they really
+think he could manage without access to his files all weekend and most of
+next week? “No way. I’m going to sit down at my home terminal in just
+about two hours and I will need access to my files. Am I making this
+clear?”
+“Yeah, well, everybody I’ve called so far wants to be at the top of the list.
+I gave up my weekend to come in and work on this and it’s no fun having everybody I talk to get pissed at me.”
+“I’m on a tight deadline, the company is counting on this; I’ve got to get
+work done this afternoon. What part of this do you not understand?”
+“I’ve still got a lot of people to call before I can even get started,” Ramon
+said. “How about we say you’ll have your files by Tuesday?”
+“Not Tuesday, not Monday, today. NOW!” Steve said, wondering who he
+was going to call if he couldn’t get his point through this guy’s thick skull.
+“Okay, okay,” Ramon said, and Steve could hear him breathe a sigh of
+annoyance. “Let me see what I can do to get you going. You use the RM22
+server, right?”
+
+06237124 Ch05.F
+
+Chapter 5
+
+66
+
+
+
+
+
+“RM22 and the GM16. Both.”
+“Right. Okay, I can cut some corners, save some time—I’ll need your
+username and password.”
+Uh oh, Steve thought. What’s going on here? Why would he need my password? Why would IT, of all people, ask for it?
+“What did you say your last name was? And who’s your supervisor?”
+“Ramon Perez. Look, I tell you what, when you were hired, there was a
+form you had to fill out to get your user account, and you had to put
+down a password. I could look that up and show you we’ve got it on file
+here. Okay?”
+Steve mulled that over for a few moments, then agreed. He hung on
+with growing impatience while Ramon went to retrieve documents from
+a file cabinet. Finally back on the phone, Steve could hear him shuffling
+through a stack of papers.
+“Ah, here it is,” Ramon said at last. “You put down the password
+‘Janice.’”
+Janice, Steve thought. It was his mother’s name, and he had indeed
+sometimes used it as a password. He might very well have put that down
+for his password when filling out his new-hire papers.
+“Yes, that’s right,” he acknowledged.
+“Okay, we’re wasting time here. You know I’m for real, you want me to
+use the shortcut and get your files back in a hurry, you’re gonna have to
+help me out here.”
+“My ID is s, d, underscore, cramer—c-r-a-m-e-r. The password is
+‘pelican1.’”
+“I’ll get right on it,” Ramon said, sounding helpful at last. “Give me a
+couple of hours.”
+Steve finished the lawn, had lunch, and by the time he got to his computer found that his files had indeed been restored. He was pleased with
+himself for handling that uncooperative IT guy so forcefully, and hoped
+Anna had heard how assertive he was. Would be good to give the guy or
+his boss an attaboy, but he knew it was one of those things he’d never get
+around to doing.
+Craig Cogburne’s Story
+Craig Cogburne had been a salesman for a high-tech company, and done
+well at it. After a time he began to realize he had a skill for reading a customer, understanding where the person was resistant and recognizing
+
+06237124 Ch05.F
+
+
+
+
+
+some weakness or vulnerability that made it easy to close the sale. He
+began to think about other ways to use this talent, and the path eventually led him into a far more lucrative field: corporate espionage.
+
+67
+“Let Me Help You”
+
+This one was a hot assignment. Didn’t look to take me very long and
+worth enough to pay for a trip to Hawaii. Or maybe Tahiti.
+The guy that hired me, he didn’t tell me the client, of course, but it figured to be some company that wanted to catch up with the competition
+in one quick, big, easy leap. All I’d have to do is get the designs and product specs for a new gadget called a heart stent, whatever that was. The
+company was called GeminiMed. Never heard of it, but it was a Fortune
+500 outfit with offices in half a dozen locations—which makes the job
+easier than a smaller company where there’s a fair chance the guy
+you’re talking to knows the guy you’re claiming to be and knows you’re
+not him. This, like pilots say about a midair collision, can ruin your
+whole day.
+My client sent me a fax, a bit from some doctor’s magazine that said
+GeminiMed was working on a stent with a radical new design and it
+would be called the STH-100. For crying out loud, some reporter has
+already done a big piece of the legwork for me. I had one thing I needed
+even before I got started, the new product name.
+First problem: Get names of people in the company who worked on the
+STH-100 or might need to see the designs. So I called the switchboard
+operator and said, “I promised one of the people in your engineering
+group I’d get in touch with him and I don’t remember his last name, but
+his first name started with an S.” And she said, “We have a Scott Archer
+and a Sam Davidson.” I took a long shot. “Which one works in the STH100 group?” She didn’t know, so I just picked Scott Archer at random, and
+she rang his phone.
+When he answered, I said, “Hey, this is Mike, in the mail room. We’ve
+got a FedEx here that’s for the Heart Stent STH-100 project team. Any
+idea who that should go to?” He gave me the name of the project leader,
+Jerry Mendel. I even got him to look up the phone number for me.
+I called. Mendel wasn’t there but his voice mail message said he’d be on
+vacation till the thirteenth, which meant he had another week left for skiing or whatever, and anybody who needed something in the meantime
+should call Michelle on 9137. Very helpful, these people. Very helpful.
+I hung up and called Michelle, got her on the phone and said, “This is
+Bill Thomas. Jerry told me I should call you when I had the spec ready
+
+06237124 Ch05.F
+
+Chapter 5
+
+68
+
+
+
+
+
+that he wanted the guys on his team to review. You’re working on the heart
+stent, right?” She said they were.
+Now we were getting to the sweaty part of the scam. If she started sounding suspicious, I was ready to play the card about how I was just trying to
+do a favor Jerry had asked me for. I said, “Which system are you on?”
+“System?”
+“Which computer servers does your group use?”
+“Oh,” she said, “RM22. And some of the group also use GM16.”
+Good. I needed that, and it was a piece of information I could get from
+her without making her suspicious. Which softened her up for the next
+bit, done as casually as I could manage. “Jerry said you could give me a list
+of email addresses for people on the development team,” I said, and held
+my breath.
+“Sure. The distribution list is too long to read off, can I email it to you?”
+Oops. Any email address that didn’t end in GeminiMed.com would be
+a huge red flag. “How about you fax it to me?” I said.
+She had no problem with doing that.
+“Our fax machine is on the blink. I’ll have to get the number of another
+one. Call you back in a bit,” I said, and hung up.
+Now, you might think I was saddled with a sticky problem here, but
+it’s just another routine trick of the trade. I waited a while so my voice
+wouldn’t sound familiar to the receptionist, then called her and said, “Hi,
+it’s Bill Thomas, our fax machine isn’t working up here, can I have a fax
+sent to your machine?” She said sure, and gave me the number.
+Then I just walk in and pick up the fax, right? Of course not. First rule:
+Never visit the premises unless you absolutely have to. They have a hard
+time identifying you if you’re just a voice on the telephone. And if they
+can’t identify you, they can’t arrest you. It’s hard to put handcuffs around
+a voice. So I called the receptionist back after a little while and asked her,
+did my fax come? “Yes,” she said.
+“Look,” I told her, “I’ve got to get that to a consultant we’re using.
+Could you send it out for me?” She agreed. And why not—how could any
+receptionist be expected to recognize sensitive data? While she sent the fax
+out to the “consultant,” I had my exercise for the day walking over to a
+stationery store near me, the one with the sign out front “Faxes
+Sent/Rcvd.” My fax was supposed to arrive before I did, and as expected,
+it was there waiting for me when I walked in. Six pages at $1.75. For a
+$10 bill and change, I had the group’s entire list of names and email
+addresses.
+
+06237124 Ch05.F
+
+
+
+
+
+Getting Inside
+
+lingo
+PASSWORD HASH A string of gibberish that results from processing a
+password through a one-way encryption process. The process is supposedly
+irreversible; that is, it’s believed that it is not possible to reconstruct the
+password from the hash.
+
+69
+“Let Me Help You”
+
+Okay, so I had by now talked to three or four different people in only a
+few hours and was already one giant step closer to getting inside the
+company’s computers. But I’d need a couple more pieces before I was
+home.
+Number one was the phone number for dialing into the Engineering
+server from outside. I called GeminiMed again and asked the switchboard
+operator for the IT Department, and asked the guy who answered for
+somebody who could give me some computer help. He transferred me,
+and I put on an act of being confused and kind of stupid about anything
+technical. “I’m at home, just bought a new laptop, and I need to set it up
+so I can dial in from outside.”
+The procedure was obvious but I patiently let him talk me through it
+until he got to the dial-in phone number. He gave me the number like it
+was just another routine piece of information. Then I made him wait
+while I tried it. Perfect.
+So now I had passed the hurdle of connecting to the network. I dialed
+in and found they were set up with a terminal server that would let a caller
+connect to any computer on their internal network. After a bunch of tries
+I stumbled across somebody’s computer that had a guest account with no
+password required. Some operating systems, when first installed, direct the
+user to set up an ID and password, but also provide a guest account. The
+user is supposed to set his or her own password for the guest account or
+disable it, but most people don’t know about this, or just don’t bother.
+This system was probably just set up and the owner hadn’t bothered to
+disable the guest account.
+Thanks to the guest account, I now had access to one computer, which
+turned out to be running an older version of the UNIX operating system.
+Under UNIX, the operating system maintains a password file which contains the encrypted passwords of everybody authorized to access that computer. The password file contains the one-way hash (that is, a form of
+encryption that is irreversible) of every user’s password. With a one-way
+hash an actual password such as, say, “justdoit” would be represented by a
+
+06237124 Ch05.F
+
+Chapter 5
+
+70
+
+
+
+
+
+hash in encrypted form; in this case the hash would be converted by
+UNIX to thirteen alphanumeric characters.
+When Billy Bob down the hall wants to transfer some files to a computer, he’s required to identify himself by providing a username and password. The system program that checks his authorization encrypts the
+password he enters, and then compares the result to the encrypted password (the hash) contained in the password file; if the two match, he’s
+given access.
+Because the passwords in the file were encrypted, the file itself was made
+available to any user on the theory that there’s no known way to decrypt
+the passwords. That’s a laugh—I downloaded the file, ran a dictionary
+attack on it (see Chapter 12 for more about this method) and found that
+one of the engineers on the development team, a guy named Steven
+Cramer, currently had an account on the computer with the password
+“Janice.” Just on the chance, I tried entering his account with that password on one of the development servers; if it had worked, it would have
+saved me some time and a little risk. It didn’t.
+That meant I’d have to trick the guy into telling me his username and
+password. For that, I’d wait until the weekend.
+You already know the rest. On Saturday I called Cramer and walked him
+through a ruse about a worm and the servers having to be restored from
+backup to overcome his suspicions.
+What about the story I told him, the one about listing a password when
+he filled out his employee papers? I was counting on him not remembering that had never happened. A new employee fills out so many forms
+that, years later, who would remember? And anyway, if I had struck out
+with him, I still had that long list of other names.
+With his username and password, I got into the server, fished around for
+a little while, and then located the design files for the STH-100. I wasn’t
+exactly sure which ones were key, so I just transferred all the files to a dead
+drop, a free FTP site in China, where they could be stored without anybody getting suspicious. Let the client sort through the junk and find
+what he wants.
+
+lingo
+DEAD DROP A place for leaving information where it is unlikely to be
+found by others. In the world of traditional spies, this might be behind a
+loose stone in a wall; in the world of the computer hacker, it’s commonly an
+Internet site in a remote country.
+
+06237124 Ch05.F
+
+
+
+
+
+71
+“Let Me Help You”
+
+Analyzing the Con
+For the man we’re calling Craig Cogburne, or anyone like him equally
+skilled in the larcenous-but-not-always-illegal arts of social engineering,
+the challenge presented here was almost routine. His goal was to locate
+and download files stored on a secure corporate computer, protected by a
+firewall and all the usual security technologies.
+Most of his work was as easy as catching rainwater in a barrel. He began
+by posing as somebody from the mail room and furnished an added sense
+of urgency by claiming there was a FedEx package waiting to be delivered.
+This deception produced the name of the team leader for the heart-stent
+engineering group, who was on vacation, but—convenient for any social
+engineer trying to steal information—he had helpfully left the name and
+phone number of his assistant. Calling her, Craig defused any suspicions
+by claiming that he was responding to a request from the team leader.
+With the team leader out of town, Michelle had no way to verify his
+claim. She accepted it as the truth and had no problem providing a list
+of people in the group—for Craig, a necessary and highly prized set of
+information.
+She didn’t even get suspicious when Craig wanted the list sent by fax
+instead of by email, ordinarily more convenient on both ends. Why was
+she so gullible? Like many employees, she didn’t want her boss to return
+to town and find she had stonewalled a caller who was just trying to do
+something the boss had asked him for. Besides, the caller said that the boss
+had not just authorized the request, but asked for his assistance. Once
+again, here’s an example of someone displaying the strong desire to be a
+team player, which makes most people susceptible to deception.
+Craig avoided the risk of physically entering the building simply by
+having the fax sent to the receptionist, knowing she was likely to be
+helpful. Receptionists are, after all, usually chosen for their charming
+personalities and their ability to make a good impression. Doing small
+favors like receiving a fax and sending it on comes with the receptionist’s
+territory, a fact that Craig was able to take advantage of. What she was
+sending out happened to be information that might have raised alarm
+bells with anyone knowing the value of the information—but how could
+a receptionist be expected to know which information is benign and
+which sensitive?
+Using a different style of manipulation, Craig acted confused and naïve
+to convince the guy in computer operations to provide him with the dialup access number to the company’s terminal server, the hardware used as a
+connection point to other computer systems within the internal network.
+
+06237124 Ch05.F
+
+
+
+
+
+mitnick
+message
+Everybody’s first priority at work is to get the job done. Under that pressure, security practices often take second place and are overlooked or ignored. Social engineers rely on this when practicing their craft.
+
+Chapter 5
+
+72
+
+Craig was able to connect easily by trying a default password that had
+never been changed, one of the glaring, wide-open gaps that exist
+throughout many internal networks that rely on firewall security. In fact,
+the default passwords for many operating systems, routers, and other types
+of products, including PBXs, are made available on line. Any social engineer, hacker, or industrial spy, as well as the just plain curious, can find the
+list at http://www.phenoelit.de/dpl/dpl.html. (It’s absolutely incredible
+how easy the Internet makes life for those who know where to look. And
+now you know, too.)
+Cogburne then actually managed to convince a cautious, suspicious
+man (“What did you say your last name was? Who’s your supervisor?”) to
+divulge his username and password so that he could access servers used by
+the heart-stent development team. This was like leaving Craig with an
+open door to browse the company’s most closely guarded secrets and
+download the plans for the new product.
+What if Steve Cramer had continued to be suspicious about Craig’s call?
+It was unlikely he would do anything about reporting his suspicions until
+he showed up at work on Monday morning, which would have been too
+late to prevent the attack.
+One key to the last part of the ruse: Craig at first made himself sound
+lackadaisical and uninterested in Steve’s concerns, then changed his tune
+and sounded as if he was trying to help so Steve could get his work done.
+Most of the time, if the victim believes you’re trying to help him or do him
+some kind of favor, he will part with confidential information that he
+would have otherwise protected carefully.
+
+PREVENTING THE CON
+One of the most powerful tricks of the social engineer involves turning the
+tables. That’s what you’ve seen in this chapter. The social engineer creates
+the problem, and then magically solves the problem, deceiving the victim
+into providing access to the company’s most guarded secrets. Would your
+employees fall for this type of ruse? Have you bothered to draft and distribute specific security rules that could help to prevent it?
+
+06237124 Ch05.F
+
+
+
+
+
+Keeping Sensitive Information Safe
+When people are approached by a stranger offering to help, as seen in the
+stories in this chapter, they have to fall back on corporate security policy
+that is tailored as appropriate to the business needs, size, and culture of
+your company.
+Never cooperate with a stranger who asks you to look up information,
+enter unfamiliar commands into a computer, make changes to software
+settings or—the most potentially disastrous of all—open an email attachment
+
+note
+Personally, I don’t believe any business should allow any exchange of passwords. It’s much easier to establish a hard rule that forbids personnel from
+ever sharing or exchanging confidential passwords. It’s safer, too. But each
+business has to assess its own culture and security concerns in making this
+choice.
+
+73
+“Let Me Help You”
+
+Educate, Educate, and Educate . . .
+There’s an old story about a visitor to New York who stops a man on the
+street and asks, “How do I get to Carnegie Hall?” The man answers,
+“Practice, practice, practice.” Everyone is so vulnerable to social engineering attacks that a company’s only effective defense is to educate and train
+your people, giving them the practice they need to spot a social engineer.
+And then keep reminding people on a consistent basis of what they
+learned in the training, but are all too apt to forget.
+Everyone in the organization must be trained to exercise an appropriate
+degree of suspicion and caution when contacted by someone he or she
+doesn’t personally know, especially when that someone is asking for any
+sort of access to a computer or network. It’s human nature to want to
+trust others, but as the Japanese say, business is war. Your business cannot
+afford to let down its guard. Corporate security policy must clearly define
+appropriate and inappropriate behavior.
+Security is not one-size-fits-all. Business personnel usually have disparate roles and responsibilities and each position has associated vulnerabilities. There should be a base level of training that everyone in the
+company is required to complete, and then people must also be trained
+according to their job profile to adhere to certain procedures that will
+reduce the chance that they will become part of the problem. People who
+work with sensitive information or are placed in positions of trust should
+be given additional specialized training.
+
+06237124 Ch05.F
+
+
+
+
+
+or download unchecked software. Any software program—even one that
+appears to do nothing at all—may not be as innocent as it appears to be.
+There are certain procedures that, no matter how good our training, we
+tend to grow careless about over time. Then we forget about that training
+at crunch time, just when we need it. You would think that not giving out
+your account name and password is something that just about everybody
+knows (or should know) and hardly needs to be told: it’s simple common
+sense. But in fact, every employee needs to be reminded frequently that
+giving out the account name and password to their office computer, their
+home computer, or even the postage machine in the mail room is equivalent to giving out the PIN number for their ATM card.
+There is occasionally—very occasionally—a quite valid circumstance
+when it’s necessary, perhaps even important, to give someone else confidential information. For that reason, it’s not appropriate to make an
+absolute rule about “never.” Still, your security policies and procedures do
+need to be very specific about circumstances under which an employee
+may give out his or her password and—most importantly—who is authorized to ask for the information.
+
+Chapter 5
+
+74
+
+Consider the Source
+In most organizations, the rule should be that any information that can
+possibly cause harm to the company or to a fellow employee may be given
+only to someone who is known on a face-to-face basis, or whose voice is
+so familiar that you recognize it without question.
+In high-security situations, the only requests that should be granted are
+ones delivered in person or with a strong form of authentication—for
+example, two separate items such as a shared secret and a time-based
+token.
+Data classification procedures must designate that no information be
+provided from a part of the organization involved with sensitive work to
+anyone not personally known or vouched for in some manner.
+So how do you handle a legitimate-sounding request for information
+from another company employee, such as the list of names and email
+addresses of people in your group? In fact, how do you raise awareness so
+that an item like this, which is clearly less valuable than, say, a spec sheet
+for a product under development, is recognized as something for internal
+use only? One major part of the solution: Designate employees in each
+department who will handle all requests for information to be sent
+outside the group. An advanced security-training program must then be
+
+06237124 Ch05.F
+
+
+
+
+
+note
+Incredibly, even looking up the name and phone number of the caller in
+the company’s employee database and calling him back is not an absolute
+guarantee—social engineers know ways of planting names in a corporate
+database or redirecting telephone calls.
+
+provided to make these designated employees aware of the special verification procedures they should follow.
+
+75
+“Let Me Help You”
+
+Forget Nobody
+Anyone can quickly rattle off the identity of organizations within her
+company that need a high degree of protection against malicious attacks.
+But we often overlook other places that are less obvious, yet highly vulnerable. In one of these stories, the request for a fax to be sent to a phone
+number within the company seemed innocent and secure enough, yet
+the attacker took advantage of this security loophole. The lesson here:
+Everybody from secretaries and administrative assistants to company executives and high-level managers needs to have special security training so
+that they can be alert to these types of tricks. And don’t forget to guard the
+front door: Receptionists, too, are often prime targets for social engineers
+and must also be made aware of the deceptive techniques used by some
+visitors and callers.
+Corporate security should establish a single point of contact as a kind of
+central clearinghouse for employees who think they may have been the
+target of a social engineering ruse. Having a single place to report security
+incidents will provide an effective early-warning system that will make it
+clear when a coordinated attack is under way, so that any damage can be
+controlled immediately.
+
+06237124 Ch05.F
+
+
+
+
+
+07237124 Ch06.F
+
+
+
+
+

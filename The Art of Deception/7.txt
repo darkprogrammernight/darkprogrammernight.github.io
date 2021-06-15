@@ -1,0 +1,534 @@
+chapter
+
+7
+
+Phony Sites and
+Dangerous Attachments
+
+t
+
+here’s an old saying that you never get something for nothing.
+Still, the ploy of offering something for free continues to be a big
+draw for both legitimate (“But wait—there’s more! Call right now
+and we’ll throw in a set of knives and a popcorn popper!”) and not-solegitimate (“Buy one acre of swampland in Florida and get a second acre
+free!”) businesses.
+And most of us are so eager to get something free that we may be distracted from thinking clearly about the offer or the promise being made.
+We know the familiar warning, “buyer beware,” but it’s time to heed
+another warning: Beware of come-on email attachments and free software.
+The savvy attacker will use nearly any means to break into the corporate
+network, including appealing to our natural desire to get a free gift. Here
+are a few examples.
+
+“WOULDN’T YOU LIKE A FREE (BLANK)?”
+Just as viruses have been a curse to mankind and medical practitioners
+since the beginning of time, so the aptly named computer virus represents
+a similar curse to users of technology. The computer viruses that get most
+of the attention and end up in the spotlight, not coincidentally, do the
+most damage. These are the product of computer vandals.
+Computer nerds turned malicious, computer vandals strive to show off
+how clever they are. Sometimes their acts are like a rite of initiation, meant
+to impress older and more experienced hackers. These people are motivated to create a worm or virus intended to inflict damage. If their work
+
+08237124 Ch07.F
+
+
+
+
+
+destroys files, trashes entire hard drives, and emails itself to thousands of
+unsuspecting people, vandals puff with pride at their accomplishment. If
+the virus causes enough chaos that newspapers write about it and the network news broadcasts warn against it, so much the better.
+Much has been written about vandals and their viruses; books, software
+programs, and entire companies have been created to offer protection, and
+we won’t deal here with the defenses against their technical attacks. Our
+interest at the moment is less in the destructive acts of the vandal than in
+the more targeted efforts of his distant cousin, the social engineer.
+
+Chapter 7
+
+94
+
+It Came in the Email
+You probably receive unsolicited emails every day that carry advertising
+messages or offer a free something-or-other that you neither need nor
+want. You know the kind. They promise investment advice, discounts on
+computers, televisions, cameras, vitamins, or travel, offers for credit cards
+you don’t need, a device that will let you receive pay television channels
+free, ways to improve your health or your sex life, and on and on.
+But every once in a while an offer pops up in your electronic mailbox
+for something that catches your eye. Maybe it’s a free game, an offer of
+photos of your favorite star, a free calendar program, or inexpensive shareware that will protect your computer against viruses. Whatever the offer,
+the email directs you to download the file with the goodies that the message has convinced you to try.
+Or maybe you receive a message with a subject line that reads “Don, I
+miss you,” or “Anna, why haven’t you written me,” or “Hi, Tim, here’s the
+sexy photo I promised you.” This couldn’t be junk advertising mail, you
+think, because it has your own name on it and sounds so personal. So you
+open the attachment to see the photo or read the message.
+All of these actions—downloading software you learned about from an
+advertising email, clicking on a link that takes you to a site you haven’t
+heard of before, opening an attachment from someone you don’t really
+know—are invitations to trouble. Sure, most of the time what you get
+is exactly what you expected, or at worst something disappointing or
+offensive, but harmless. But sometimes what you get is the handiwork of
+a vandal.
+Sending malicious code to your computer is only a small part of the
+attack. The attacker needs to persuade you to download the attachment
+for the attack to succeed.
+The most damaging forms of malicious code—worms with names like
+Love Letter, SirCam, and Anna Kournikiva, to name a few—have all
+
+08237124 Ch07.F
+
+
+
+
+
+note
+One type of program known in the computer underground as a RAT, or
+Remote Access Trojan, gives the attacker full access to your computer, just
+as if he were sitting at your keyboard!
+
+relied on social engineering techniques of deception and taking advantage
+of our desire to get something for nothing in order to be spread. The
+worm arrives as an attachment to an email that offers something tempting, such as confidential information, free pornography, or—a very clever
+ruse—a message saying that the attachment is the receipt for some expensive item you supposedly ordered. This last ploy leads you to open the
+attachment for fear your credit card has been charged for an item you
+didn’t order.
+It’s astounding how many people fall for these tricks; even after being
+told and told again about the dangers of opening email attachments,
+awareness of the danger fades over time, leaving each of us vulnerable.
+
+lingo
+MALWARE Slang for malicious software, a computer program, such as a
+virus, worm, or Trojan Horse, that performs damaging tasks.
+
+95
+Phony Sites and Dangerous Attachments
+
+Spotting Malicious Software
+Another kind of malware—short for malicious software—puts a program
+onto your computer that operates without your knowledge or consent, or
+performs a task without your awareness. Malware may look innocent
+enough, may even be a Word document or PowerPoint presentation, or
+any program that has macro functionality, but it will secretly install an
+unauthorized program. For example, malware may be a version of the
+Trojan Horse talked about in Chapter 6. Once this software is installed on
+your machine, it can feed every keystroke you type back to the attacker,
+including all your passwords and credit card numbers.
+There are two other types of malicious software you may find shocking.
+One can feed the attacker every word you speak within range of your computer microphone, even when you think the microphone is turned off.
+Worse, if you have a Web cam attached to your computer, an attacker
+using a variation of this technique may be able to capture everything that
+takes place in front of your terminal, even when you think the camera is
+off, day or night.
+
+08237124 Ch07.F
+
+
+
+
+
+mitnick
+message
+Beware of geeks bearing gifts, otherwise your company might endure the same
+fate as the city of Troy. When in doubt, to avoid an infection, use protection.
+
+A hacker with a malicious sense of humor might try to plant a little program designed to be wickedly annoying on your computer. For example,
+it might make your CD drive tray keep popping open, or the file you’re
+working on keep minimizing. Or it might cause an audio file to play a
+scream at full volume in the middle of the night. None of these is much
+fun when you’re trying to get sleep or get work done . . . but at least they
+don’t do any lasting damage.
+
+MESSAGE FROM A FRIEND
+
+Chapter 7
+
+96
+
+The scenarios can get even worse, despite your precautions. Imagine:
+You’ve decided not to take any chances. You will no longer download any
+files except from secure sites that you know and trust, such as
+SecurityFocus.com or Amazon.com. You no longer click on links in email
+from unknown sources. You no longer open attachments in any email that
+you were not expecting. And you check your browser page to make sure
+there is a secure site symbol on every site you visit for e-commerce transactions or to exchange confidential information.
+And then one day you get an email from a friend or business associate
+that carries an attachment. Couldn’t be anything malicious if it comes
+from someone you know well, right? Especially since you would know
+who to blame if your computer data were damaged.
+You open the attachment, and . . . BOOM! You just got hit with a worm
+or Trojan Horse. Why would someone you know do this to you? Because
+some things are not as they appear. You’ve read about this: the worm
+that gets onto someone’s computer, and then emails itself to everyone in
+that person’s address book. Each of those people gets an email from someone he knows and trusts, and each of those trusted emails contains the
+worm, which propagates itself like the ripples from a stone thrown into a
+still pond.
+The reason this technique is so effective is that it follows the theory
+of killing two birds with one stone: The ability to propagate to other
+unsuspecting victims, and the appearance that it originated from a trusted
+person.
+
+08237124 Ch07.F
+
+
+
+
+
+mitnick
+message
+Man has invented many wonderful things that have changed the world and our
+way of life. But for every good use of technology, whether a computer, telephone,
+or the Internet, someone will always find a way to abuse it for his or her own purposes.
+
+It’s a sad fact of life in the current state of technology that you may get
+an email from someone close to you and still have to wonder if it’s safe to
+open.
+
+VARIATIONS ON A THEME
+In this era of the Internet, there is a kind of fraud that involves misdirecting you to a Web site that is not what you expected. This happens regularly, and it takes a variety of forms. This example, which is based on an
+actual scam perpetrated on the Internet, is representative.
+
+Season’s Greetings Valued PayPal Customer;
+As the New Year approaches and as we all get ready to
+move a year ahead, PayPal would like to give you a $5
+credit to your account!
+All you have to do to claim your $5 gift from us is update
+your information on our secure Pay Pal site by January 1st,
+2002. A year brings a lot of changes, by updating your
+information with us you will allow for us to continue providing you and our valued customer service with excellent
+service and in the meantime, keep our records straight!
+
+97
+Phony Sites and Dangerous Attachments
+
+Merry Christmas . . .
+A retired insurance salesman named Edgar received an email one day from
+PayPal, a company that offers a fast and convenient way of making on-line
+payments. This kind of service is especially handy when a person in one
+part of the country (or the world, for that matter) is buying an item from
+an individual he doesn’t know. PayPal charges the purchaser’s credit card
+and transfers the money directly to the seller’s account.
+As a collector of antique glass jars Edgar did a lot of business through
+the on-line auction company eBay. He used PayPal often, sometimes several times a week. So Edgar was interested when he received an email in
+the holiday season of 2001 that seemed to be from PayPal, offering him a
+reward for updating his PayPal account. The message read:
+
+08237124 Ch07.F
+
+
+
+
+
+To update your information now and to receive $5 in your
+PayPal account instantly, click this link:
+http://www.paypal-secure.com/cgi-bin
+Thank you for using PayPal.com and helping us grow to be
+the largest of our kind!
+Sincerely wishing you a very “Merry Christmas and Happy
+New Year,”
+PayPal Team
+
+A Note about E-commerce Web Sites
+
+Chapter 7
+
+98
+
+You probably know people who are reluctant to buy goods on line,
+even from brand-name companies such as Amazon and eBay, or the
+Web sites of Old Navy, Target, or Nike. In a way, they’re right to be
+suspicious. If your browser uses today’s standard of 128-bit encryption, the information you send to any secure site goes out from your
+computer encrypted. This data could be unencrypted with a lot of
+effort, but probably is not breakable in a reasonable amount of time,
+except perhaps by the National Security Agency (and the NSA, so far
+as we know, has not shown any interest in stealing credit card numbers of American citizens or trying to find out who is ordering sexy
+videotapes or kinky underwear).
+These encrypted files could actually be broken by anyone with the
+time and resources. But really, what fool would go to all that effort to
+steal one credit card number when many e-commerce companies make
+the mistake of storing all their customer financial information unencrypted in their databases? Worse, a number of e-commerce companies that use a particular SQL database software badly compound the
+problem: They have never changed the default system administrator
+password for the program. When they took the software out of the
+box, the password was “null,” and it’s still “null” today. So the contents
+of the database are available to anyone on the Internet who decides to
+try to connect to the database server. These sites are under attack all
+the time and information does get stolen, without anyone being the
+wiser.
+On the other hand, the same people who won’t buy on the Internet
+because they’re afraid of having their credit card information stolen
+
+08237124 Ch07.F
+
+
+
+
+
+have no problem buying with that same credit card in a brick-andmortar store, or paying for lunch, dinner, or drinks with the card—
+even in a back-street bar or restaurant they wouldn’t take their mother
+to. Credit card receipts get stolen from these places all the time, or
+fished out of trash bins in the back alley. And any unscrupulous clerk
+or waiter can jot down your name and card info, or use a gadget readily available on the Internet, a card-swiping device that stores data
+from any credit card passed through it, for later retrieval.
+There are some hazards to shopping on line, but it’s probably as safe
+as shopping in a bricks-and-mortar store. And the credit card companies offer you the same protection when using your card on line—if
+any fraudulent charges get made to the account, you’re only responsible for the first $50.
+So in my opinion, fear of shopping online is just another misplaced
+worry.
+
+Analyzing the Con
+Edgar had been taken in by a commonplace Internet scam. It’s a scam that
+comes in a variety of forms. One of them (detailed in Chapter 9) involves
+a decoy login screen created by the attacker that looks identical to the real
+thing. The difference is that the phony screen doesn’t give access to the
+computer system that the user is trying to reach, but instead feeds his username and password to the hacker.
+Edgar had been taken in by a scam in which the crooks had registered a
+Web site with the name “paypal-secure.com”—which sounds as if it
+should have been a secure page on the legitimate PayPal site, but it isn’t.
+When he entered information on that site, the attackers got just what they
+wanted.
+
+99
+Phony Sites and Dangerous Attachments
+
+Edgar didn’t notice any of the several tell-tale signs that something was
+wrong with this email (for example, the semicolon after the greeting line,
+and the garbled text about “our valued customer service with excellent
+service”). He clicked on the link, entered the information requested—
+name, address, phone number, and credit card information—and sat back
+to wait for the five-dollar credit to show up on his next credit-card
+bill. What showed up instead was a list of charges for items he never
+purchased.
+
+08237124 Ch07.F
+
+
+
+
+
+mitnick
+message
+While not foolproof (no security is), whenever visiting a site that requests information you consider private, always ensure that the connection is authenticated
+and encrypted. And even more important, do not automatically click Yes in any
+dialog box that may indicate a security issue, such as an invalid, expired, or
+revoked digital certificate.
+
+VARIATIONS ON THE VARIATION
+How many other ways are there to deceive computer users into going to a
+bogus Web site where they provide confidential information? I don’t suppose anyone has a valid, accurate answer, but “lots and lots” will serve the
+purpose.
+
+Chapter 7
+
+100
+
+The Missing Link
+One trick pops up regularly: Sending out an email that offers a tempting
+reason to visit a site, and provides a link for going directly to it. Except
+that the link doesn’t take you to the site you think you’re going to, because
+the link actually only resembles a link for that site. Here’s another example that has actually been used on the Internet, again involving misuse of
+the name PayPal:
+www.PayPai.com
+
+At a quick glance, this looks as if it says PayPal. Even if the victim notices,
+he may think it’s just a slight defect in the text that makes the “l” of Pal
+look like an “i.” And who would notice at a glance that:
+www.PayPa1.com
+
+uses the number 1 instead of a lowercase letter L? There are enough people who accept misspellings and other misdirection to make this gambit
+continually popular with credit card bandits. When people go to the
+phony site, it looks like the site they expected to go to, and they blithely
+enter their credit card information. To set up one of these scams, an
+attacker only needs to register the phony domain name, send out his
+emails, and wait for suckers to show up, ready to be cheated.
+In mid-2002, I received an email, apparently part of a mass mailing that
+was marked as being from “Ebay@ebay.com.” The message is shown in
+Figure 8.1.
+
+08237124 Ch07.F
+
+
+
+
+
+msg: Dear eBay User,
+It has become very noticeable that another party has
+been corrupting your eBay account and has violated our User Agreement
+policy listed:
+4. Bidding and Buying
+You are obligated to complete the transaction with the
+seller if you purchase an item through one of our fixed price formats or
+are the highest bidder as described below. If you are the highest
+bidder at the end of an auction (meeting the applicable minimum bid or
+reserve requirements) and your bid is accepted by the seller, you are
+obligated to complete the transaction with the seller, or the transaction is
+prohibited by law or by this Agreement.
+You received this notice from eBay because it has come
+to our attention that your current account has caused interruptions with
+other eBay members and eBay requires immediate verification for your
+account. Please verify your account or the account may become disabled.
+Click Here To Verify Your Account – http://error_ebay.tripod.com
+************************************************
+Designated trademarks and brands are the property of
+their respective owners. eBay and the eBay logo are trademarks of eBay Inc.
+101
+Figure 8.1
+
+The link in this or any other email should be used with caution.
+
+Phony Sites and Dangerous Attachments
+
+Victims who clicked on the link went to a Web page that looked very
+much like an eBay page. In fact, the page was well designed, with an
+authentic eBay logo, and “Browse,” “Sell” and other navigation links that,
+if clicked, took the visitor to the actual eBay site. There was also a security
+logo in the bottom right corner. To deter the savvy victim, the designer
+had even used HTML encryption to mask where the user-provided information was being sent.
+It was an excellent example of a malicious computer-based social engineering attack. Still, it was not without several flaws.
+The email message was not well written; in particular, the paragraph
+beginning “You received this notice” is clumsy and inept (the people
+responsible for these hoaxes never hire a professional to edit their copy,
+and it always shows). Also, anybody who was paying close attention would
+have become suspicious about eBay asking for the visitor’s PayPal information; there is no reason eBay would ask a customer for this private
+information involving a different company.
+And anyone knowledgeable about the Internet would probably
+recognize that the hyperlink connects not to the eBay domain but to
+
+08237124 Ch07.F
+
+
+
+
+
+note
+Why are people allowed to register deceptive or inappropriate domain
+names? Because under the current law and on-line policy, anyone can register any site name that’s not already in use.
+Companies try to fight this use of copycat addresses, but consider what
+they’re up against. General Motors filed suit against a company that registered f**kgeneralmotors.com (but without the asterisks) and pointed the URL
+to General Motor’s Web site. GM lost.
+
+tripod.com, which is a free Web hosting service. This was a dead giveaway
+that the email was not legitimate. Still, I bet a lot of people entered their
+information, including a credit card number, onto this page.
+
+Chapter 7
+
+102
+
+Be Alert
+As individual users of the Internet, we all need to be alert, making a
+conscious decision about when it’s okay to enter personal information,
+passwords, account numbers, PINs, and the like.
+How many people do you know who could tell you whether a particular Internet page they’re looking at meets the requirements of a secure
+page? How many employees in your company know what to look for?
+Everyone who uses the Internet should know about the little symbol that
+often appears somewhere on a Web page and looks like a drawing of a
+padlock. They should know that when the hasp is closed, the site has been
+certified as being secure. When the hasp is open or the lock icon is missing, the Web site is not authenticated as genuine, and any information
+transmitted is in the clear—that is, unencrypted.
+However, an attacker who manages to compromise administrative
+privileges on a company computer may be able to modify or patch the
+operating system code to change the user’s perception of what is really
+happening. For example, the programming instructions in the browser
+software that indicate a Web site’s digital certificate is invalid can be modified to bypass the check. Or the system could be modified with something called a root kit, installing one or more back doors at the operating
+system level, which are harder to detect.
+A secure connection authenticates the site as genuine, and encrypts the
+information being communicated, so an attacker cannot make use of
+any data that is intercepted. Can you trust any Web site, even one that
+uses a secure connection? No, because the site owner may not be vigilant
+about applying all the necessary security patches, or forcing users or
+
+08237124 Ch07.F
+
+
+
+
+
+lingo
+BACK DOOR A covert entry point that provides a secret way into a user’s
+computer that is unknown to the user. Also used by programmers while
+developing a software program so that they can go into the program to fix
+problems.
+
+Becoming Virus Savvy
+A special note about virus software: It is essential for the corporate
+intranet, but also essential for every employee who uses a computer.
+Beyond just having antivirus software installed on their machines, users
+obviously need to have the software turned on (which many people don’t
+like because it inevitably slows down some computer functions).
+With antivirus software there’s another important procedure to keep in
+mind, as well: Keeping the virus definitions up to date. Unless your company is set up to distribute software or updates over the network to every
+user, each individual user must carry the responsibility of downloading the
+
+103
+Phony Sites and Dangerous Attachments
+
+administrators to respect good password practices. So you can’t assume
+that any supposedly secure site is invulnerable to attack.
+Secure HTTP (hypertext transfer protocol) or SSL (secure sockets layer)
+provides an automatic mechanism that uses digital certificates not only to
+encrypt information being sent to the distant site, but also to provide
+authentication (an assurance that you are communicating with the genuine Web site). However, this protection mechanism does not work for
+users who fail to pay attention to whether the site name displayed in the
+address bar is in fact the correct address of the site they’re trying to access.
+Another security issue, mostly ignored, appears as a warning message
+that says something like “This site is not secure or the security certificate
+has expired. Do you want to go to the site anyway?” Many Internet users
+don’t understand the message, and when it appears, they simply click
+Okay or Yes and go on with their work, unaware that they may be on
+quicksand. Be warned: On a Web site that does not use a secure protocol,
+you should never enter any confidential information such as your address
+or phone number, credit card or bank account numbers, or anything else
+you want to keep private.
+Thomas Jefferson said maintaining our freedom required “eternal vigilance.” Maintaining privacy and security in a society that uses information
+as currency requires no less.
+
+08237124 Ch07.F
+
+
+
+
+
+lingo
+SECURE SOCKETS LAYER A protocol developed by Netscape that provides authentication of both client and server in a secure communication on
+the Internet.
+
+Chapter 7
+
+104
+
+latest set of virus definitions on his own. My personal recommendation is
+to have everyone set the virus software preferences so that new virus definitions are automatically updated every day.
+Simply put, you’re vulnerable unless the virus definitions are updated
+regularly. And even so, you’re still not completely safe from viruses or
+worms that the antivirus software companies don’t yet know about or
+haven’t yet published a detection pattern file for.
+All employees with remote access privileges from their laptops or home
+computers need to have updated virus software and a personal firewall on
+those machines at a minimum. A sophisticated attacker will look at the
+big picture to seek out the weakest link, and that’s where he’ll attack.
+Reminding people with remote computers regularly about the need for
+personal firewalls and updated, active virus software is a corporate responsibility, because you can’t expect that individual workers, managers, sales
+people, and others remote from an IT department will remember the dangers of leaving their computers unprotected.
+Beyond these steps, I strongly recommend use of the less common, but
+no less important, software packages that guard against Trojan Horse
+attacks, so-called anti-Trojan software. At the time of this writing, two of
+the better-known programs are The Cleaner (www.moosoft.com), and
+Trojan Defense Sweep (www.diamondcs.com.au).
+Finally, what is probably the most important security message of all for
+companies that do not scan for dangerous emails at the corporate gateway:
+Since we all tend to be forgetful or negligent about things that seem
+peripheral to getting our jobs done, employees need to be reminded over
+and over again, in different ways, about not opening email attachments
+unless they are certain that the source is a person or organization they can
+trust. And management also needs to remind employees that they must
+use active virus software and anti-Trojan software that provides invaluable
+protection against the seemingly trustworthy email that may contain a
+destructive payload.
+
+09237124 Ch08.F
+
+
+
+
+

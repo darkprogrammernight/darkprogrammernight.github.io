@@ -1,0 +1,799 @@
+chapter
+
+14
+
+Industrial Espionage
+
+t
+
+he threat of information attacks against government, corporations,
+and university systems is well established. Almost every day, the
+media reports a new computer virus, denial of service attack, or theft
+of credit card information from an e-commerce Web site.
+We read about cases of industrial espionage such as Borland accusing
+Symantec of stealing trade secrets, Cadence Design Systems filing a suit
+charging the theft of source code by a competitor. Many business people
+read these stories and think it could never happen at their company.
+It’s happening every day.
+
+VARIATION ON A SCHEME
+The ruse described in the following tale has probably been pulled off
+many times, even though it sounds like something taken out of a
+Hollywood movie like The Insider, or from the pages of a John Grisham
+novel.
+Class Action
+Imagine that a massive class-action lawsuit is raging against a major pharmaceutical company, Pharmomedic. The suit claims that they knew one
+of their very popular drugs had a devastating side effect, but one that
+would not be evident until a patient had been on the medication for years.
+The suit alleges that they had results from a number of research studies
+that revealed this danger, but suppressed the evidence and never turned it
+over to the FDA as required.
+
+15237124 Ch14.F
+
+Chapter 14
+
+226
+
+
+
+
+
+William (“Billy”) Chaney, the attorney of record on the masthead of the
+New York law firm that filed the class-action suit, has depositions from
+two Pharmomedic doctors supporting the claim. But both are retired, neither has any files or documentation, and neither would make a strong,
+convincing witness. Billy knows he’s on shaky ground. Unless he can get
+a copy of one of those reports, or some internal memo or communication
+between company executives, his whole case will fall apart.
+So he hires a firm he’s used before: Andreeson and Sons, private investigators. Billy doesn’t know how Pete and his people get the stuff they do,
+and he doesn’t want to know. All he knows is that Pete Andreeson is one
+good investigator.
+To Andreeson, an assignment like this is what he calls a black bag job.
+The first rule is that the law firms and companies that hire him never learn
+how he gets his information so that they always have complete, plausible
+deniability. If anybody is going to have his feet shoved into boiling water,
+it’s going to be Pete, and for what he collects in fees on the big jobs, he
+figures it’s worth the risk. Besides, he gets such personal satisfaction from
+outsmarting smart people.
+If the documents that Chaney wants him to find actually existed and
+haven’t been destroyed, they’ll be somewhere in the files of Pharmomedic.
+But finding them in the massive files of a large corporation would be a
+huge task. On the other hand, suppose they’ve turned copies over to their
+law firm, Jenkins and Petry? If the defense attorneys knew those documents existed and didn’t turn them over as part of the discovery process,
+then they have violated the legal profession’s canon of ethics, and violated
+the law, as well. In Pete’s book, that makes any attack fair game.
+Pete’s Attack
+Pete gets a couple of his people started on research and within days he
+knows what company Jenkins and Petry uses for storing their offsite backups. And he knows that the storage company maintains a list of the names
+of people whom the law firm has authorized to pick up tapes from storage. He also knows that each of these people has his or her own password.
+Pete sends two of his people out on a black bag job.
+The men tackle the lock using a lock pick gun ordered on the Web at
+www.southord.com. Within several minutes they slip into the offices of
+the storage firm around 3 A.M. one night and boot up a PC. They smile
+when they see the Windows 98 logo because it means this will be a piece
+of cake. Windows 98 does not require any form of authentication. After a
+
+15237124 Ch14.F
+
+
+
+
+
+Analyzing the Con
+Because of lax physical security, the bad guys were easily able to pick the
+lock of the storage company, gain access to the computer, and modify the
+mitnick
+message
+Valuable information must be protected no matter what form it takes or where it
+is located. An organization’s customer list has the same value whether in hardcopy form or an electronic file at your office or in a storage box. Social engineers
+always prefer the easiest to circumvent, least defended point of attack. A company’s offsite backup storage facility is seen as having less risk of detection or
+getting caught. Every organization that stores any valuable, sensitive, or critical
+data with third parties should encrypt their data to protect its confidentiality.
+
+227
+Industrial Espionage
+
+bit of searching, they locate a Microsoft Access database with the names
+of people authorized by each of the storage company customers to pick up
+tapes. They add a phony name to the authorization list for Jenkins and
+Petry, a name matching one on a phony driver’s license one of the men has
+already obtained. Could they have broken into the locked storage area and
+tried to locate the tapes their client wanted? Sure—but then all the company’s customers, including the law firm, would have certainly been notified of the breach. And the attackers would have lost an advantage:
+Professionals always like to leave an opening for future access, should the
+need arise.
+Following a standard practice of industrial spies to keep something in
+the back pocket for future use, just in case, they also made a copy of the
+file containing the authorization list onto a floppy disk. None of them had
+any idea how it might ever prove useful, but it’s just one of those “We’re
+here, we might just as well” things that every now and then turns out to
+be valuable.
+The next day, one of the same men called the storage company, used the
+name they had added to the authorization list, and gave the corresponding
+password. He asked for all the Jenkins and Petry tapes dated within the
+last month, and said that a messenger service would come by to pick up
+the package. By midafternoon, Andreeson had the tapes. His people
+restored all the data to their own computer system, ready to search at
+leisure. Andreeson was very pleased that the law firm, like most other
+businesses, didn’t bother encrypting their backup data.
+The tapes were delivered back to the storage company the next day and
+no one was the wiser.
+
+15237124 Ch14.F
+
+
+
+
+
+database containing the list of people authorized to have access to the storage unit. Adding a name to the list allowed the imposters to obtain the
+computer backup tapes they were after, without having to break into the
+firm’s storage unit. Because most businesses don’t encrypt backup data,
+the information was theirs for the taking.
+This incident provides one more example of how a vendor company
+that does not exercise reasonable security precautions can make it easy for
+an attacker to compromise their customer’s information assets.
+
+THE NEW BUSINESS PARTNER
+Social engineers have a big advantage over con men and grifters, and the
+advantage is distance. A grifter can only cheat you by being in your presence, allowing you to give a good description of him afterward or even call
+the cops if you catch on to the ruse early enough.
+Social engineers ordinarily avoid that risk like the plague. Sometimes,
+though, the risk is necessary, and justified by the potential reward.
+
+Chapter 14
+
+228
+
+Jessica’s Story
+Jessica Andover was feeling very good about getting a job with a hot-shot
+robotics company. Sure, it was only a start-up and they couldn’t pay very
+much, but it was small, the people were friendly, and there was the excitement of knowing her stock options just might turn out to make her rich.
+Okay, maybe not a millionaire like the company founders would be, but
+rich enough.
+Which was how it happened that Rick Daggot got a glowing smile when
+he walked into the lobby that Tuesday morning in August. In his expensivelooking suit (Armani) and his heavy gold wrist-watch (a Rolex President),
+with his immaculate haircut, he had that same manly, self-confident air
+that had driven all the girls crazy when Jessica was in high school.
+“Hi,” he said. “I’m Rick Daggot and I’m here for my meeting with
+Larry.”
+Jessica’s smile faded. “Larry?” she said. “Larry’s on vacation all week.”
+“I have an appointment with him at one o’clock. I just flew in from
+Louisville to meet with him,” Rick said, as he drew out his Palm, turned
+it on, and showed her.
+She looked at it and gave a small shake of her head. “The 20th,” she
+said. “That’s next week.” He took the palmtop back and stared at it. “Oh,
+no!” he groaned. “I can’t believe what a stupid mistake I made.”
+
+15237124 Ch14.F
+
+
+
+
+
+229
+Industrial Espionage
+
+“Can I book a return flight for you, at least?” she asked, feeling sorry for
+him.
+While she made the phone call, Rick confided that he and Larry had
+arranged to set up a strategic marketing alliance. Rick’s company was producing products for the manufacturing and assembly line, items that
+would perfectly complement their new product, the C2Alpha. Rick’s
+products and the C2Alpha together would make a strong solution that
+would open up important industrial markets for both companies.
+When Jessica had finished making his reservation on a late afternoon
+flight, Rick said, “Well, at least I could talk to Steve if he’s available.” But
+Steve, the company’s VP and cofounder, was also out of the office.
+Rick, being very friendly to Jessica and flirting just a little, then suggested that, as long as he was there and his flight home wasn’t till late afternoon, he’d like to take some of the key people to lunch. And he added,
+“Including you, of course—is there somebody who can fill in for you at
+lunchtime?”
+Flushed at the idea of being included, Jessica asked, “Who do you want
+to come?” He tapped his palmtop again and named a few people—two
+engineers from R&D, the new sales and marketing man, and the finance
+guy assigned to the project. Rick suggested she tell them about his relationship with the company, and that he’d like to introduce himself to
+them. He named the best restaurant in the area, a place where Jessica had
+always wanted to go, and said he’d book the table himself, for 12:30, and
+would call back later in the morning to make sure everything was all set.
+When they gathered at the restaurant—the four of them plus Jessica—
+their table wasn’t ready yet, so they settled at the bar, and Rick made it
+clear that drinks and lunch were on him. Rick was a man with style and
+class, the kind of person who makes you feel comfortable from the very
+first, the same way you feel with someone you’ve known for years. He
+always seemed to know just the right thing to say, had a lively remark or
+something funny whenever the conversation lagged, and made you feel
+good just being around him.
+He shared just enough details about his own company’s products that
+they could envision the joint marketing solution he seemed so animated
+about. He named several Fortune 500 companies that his firm was already
+selling to, until everyone at the table began to picture their product
+becoming a success from the day the first units rolled out of the factory.
+Then Rick walked over to Brian, one of the engineers. While the others
+chatted among themselves, Rick shared some ideas privately with Brian,
+and drew him out about the unique features of the C2Alpha and what set
+
+15237124 Ch14.F
+
+Chapter 14
+
+230
+
+
+
+
+
+it apart from anything the competition had. He found out about a couple
+of features the company was downplaying that Brian was proud of and
+thought really “neat.”
+Rick worked his way along the line, chatting quietly with each. The
+marketing guy was happy for a chance to talk about the roll-out date and
+marketing plans. And the bean counter pulled an envelope from his
+pocket and wrote down details of the material and manufacturing costs,
+price point and expected margin, and what kind of deal he was trying to
+work out with each of the vendors, which he listed by name.
+By the time their table was ready, Rick had exchanged ideas with everybody and had won admirers all along the line. By the end of the meal,
+they each shook hands with Rick in turn and thanked him. Rick
+swapped business cards with each and mentioned in passing to Brian, the
+engineer, that he wanted to have a longer discussion as soon as Larry
+returned.
+The following day Brian picked up his telephone to find that the caller
+was Rick, who said he had just finished speaking with Larry. “I’ll be coming back in on Monday to work out some of the specifics with him,” Rick
+said, “and he wants me to be up to speed on your product. He said you
+should email the latest designs and specs to him. He’ll pick out the parts
+he wants me to have and forward them on to me.”
+The engineer said that would be fine. “Good,” Rick answered. He went
+on, “Larry wanted you to know he’s having a problem retrieving his email.
+Instead of sending the stuff to his regular account, he arranged with the
+hotel’s business center to set up a Yahoo mail account for him. He says you
+should send the files to larryrobotics@yahoo.com.”
+The following Monday morning, when Larry walked into the office
+looking tanned and relaxed, Jessica was primed and eager to gush over
+Rick. “What a great guy. He took a bunch of us to lunch, even me.” Larry
+looked confused. “Rick? Who the hell is Rick?”
+“What’re you talking about?—your new business partner.”
+“What!!!???”
+“And everybody was so impressed with what good questions he asked.”
+“I don’t know any Rick ...”
+“What’s the matter with you? Is this a joke, Larry—you’re just fooling
+with me, right?”
+“Get the executive team into the conference room. Like now. No matter what they’re doing. And everybody who was at that lunch. Including
+you.”
+
+15237124 Ch14.F
+
+
+
+
+
+231
+Industrial Espionage
+
+They sat around the table in a somber mood, hardly speaking. Larry
+walked in, sat down and said, “I do not know anybody named Rick. I do
+not have a new business partner I’ve been keeping secret from all of you.
+Which I would have thought was obvious. If there’s a practical joker in
+our midst, I want him to speak up now.”
+Not a sound. The room seemed to be growing darker moment by
+moment.
+Finally Brian spoke. “Why didn’t you say something when I sent you
+that email with the product specs and source code?”
+“What email!?”
+Brian stiffened. “Oh . . . shit!”
+Cliff, the other engineer, chimed in. “He gave us all business cards. We
+just need to call him and see what the hell’s going on.”
+Brian pulled out his palmtop, called up an entry, and scooted the device
+across the table to Larry. Still hoping against hope, they all watched as if
+entranced while Larry dialed. After a moment, he stabbed the speakerphone button and everyone heard a busy signal. After trying the number
+several times over a period of twenty minutes, a frustrated Larry dialed the
+operator to ask for an emergency interruption.
+A few moments later, the operator came back on the line. She said in a
+challenging tone, “Sir, where did you get this number?” Larry told her it was
+on the business card of a man he needed to contact urgently. The operator,
+said, “I’m sorry. That’s a phone company test number. It always rings busy.”
+Larry started making a list of what information had been shared with
+Rick. The picture was not pretty.
+Two police detectives came and took a report. After listening to the
+story, they pointed out that no state crime had been committed; there was
+nothing they could do. They advised Larry to contact the FBI because
+they have jurisdiction over any crimes involving interstate commerce.
+When Rick Daggot asked the engineer to forward the test results by misrepresenting himself, he may have committed a federal crime, but Rick
+would have to speak with the FBI to find out.
+Three months later Larry was in his kitchen reading the morning paper
+over breakfast, and almost spilled his coffee. The thing he had been dreading since he had first heard about Rick had come true, his worst nightmare. There it was in black and white, on the front page of the business
+section: A company he’d never heard of was announcing the release of a
+new product that sounded exactly like the C2Alpha his company had
+been developing for the past two years.
+
+15237124 Ch14.F
+
+
+
+
+
+Through deceit, these people had beaten him to market. His dream was
+destroyed. The millions of dollars invested in research and development
+wasted. And he probably couldn’t prove a single thing against them.
+Sammy Sanford’s Story
+Smart enough to be earning a big salary at a legitimate job, but crooked
+enough to prefer making a living as a con man, Sammy Sanford had done
+very well for himself. In time he came to the attention of a spy who had
+been forced into early retirement because of a drinking problem; bitter
+and revengeful, the man had found a way of selling the talents that the
+government had made him an expert in. Always on the lookout for people he could use, he had spotted Sammy the first time they met. Sammy
+had found it easy, and very profitable, to shift his focus from lifting people’s money to lifting company secrets.
+
+Chapter 14
+
+232
+
+Most people wouldn’t have the guts to do what I do. Try to cheat people
+over the telephone or over the Internet and nobody ever gets to see you.
+But any good con man, the old-fashioned, face-to-face kind (and there are
+plenty of them still around, more than you would think) can look you in
+the eye, tell you a whopper, and get you to believe it. I’ve known a prosecutor or two who think that’s criminal. I think it’s a talent.
+But you can’t go walking in blind, you have to size things up first. A
+street con, you can take a man’s temperature with a little friendly conversation and couple of carefully worded suggestions. Get the right responses
+and Bingo!—you’ve bagged a pigeon.
+A company job is more like what we call a big con. You’ve got setup to
+do. Find out what their buttons are, find out what they want. What they
+need. Plan an attack. Be patient, do your homework. Figure out the role
+you’re going to play and learn your lines. And don’t walk in the door until
+you’re ready.
+I spent better than three weeks getting up to speed for this one. The
+client gave me a two-day session in what I should say “my” company did
+and how to describe why it was going to be such a good joint marketing
+alliance.
+Then I got lucky. I called the company and said I was from a venture
+capital firm and we were interested in setting up a meeting and I was juggling schedules to find a time when all of our partners would be available
+sometime in the next couple of months, and was there any time slot I
+
+15237124 Ch14.F
+
+
+
+
+
+Analyzing the Con
+Anyone who works a face-to-face con has to cloak himself in a look that
+will make him acceptable to the mark. He’ll put himself together one way
+to appear at the race track, another to appear at a local watering hole, still
+another for an upscale bar at a fancy hotel.
+It’s the same way with industrial espionage. An attack may call for a suit
+and tie and an expensive briefcase if the spy is posing as an executive of an
+established firm, a consultant, or a sales rep. On another job, trying to
+
+233
+Industrial Espionage
+
+should avoid, any period when Larry wasn’t going to be in town? And she
+said, Yes, he hadn’t had any time off in the two years since they started the
+company but his wife was dragging him away on a golf vacation the first
+week in August.
+That was only two weeks away. I could wait.
+Meanwhile an industry magazine gave me the name of the firm’s PR
+company. I said I liked the amount of space they were getting for their
+robotics company client and I wanted to talk to whoever was handling
+that account about handling my company. It turned out to be an energetic
+young lady who liked the idea she might be able to bring in a new
+account. Over a pricey lunch with one more drink than she really wanted,
+she did her best to convince me they were oh, so good at understanding a
+client’s problems and finding the right PR solutions. I played hard to convince. I needed some details. With a little prodding, by the time the plates
+were being cleared she had told me more about the new product and the
+company’s problems than I could have hoped for.
+The thing went like clockwork. The story about being so embarrassed
+that the meeting was next week but I might as well meet the team as long
+as I’m here, the receptionist swallowed whole. She even felt sorry for me
+into the bargain. The lunch set me back all of $150. With tip. And I had
+what I needed. Phone numbers, job titles, and one very key guy who
+believed I was who I said I was.
+Brian had me fooled, I admit. He seemed like the kind of guy who’d just
+email me anything I asked for. But he sounded like he was holding back
+a little when I brought up the subject. It pays to expect the unexpected.
+That email account in Larry’s name, I had it in my back pocket just in
+case. The Yahoo security people are probably still sitting there waiting for
+somebody to use the account again so they can trace him. They’ll have a
+long wait. The fat lady has sung. I’m off on another project.
+
+15237124 Ch14.F
+
+Chapter 14
+
+234
+
+
+
+
+
+pass as a software engineer, a technical person, or someone from the mail
+room, the clothes, the uniform—the whole look—would be different.
+For infiltrating the company, the man who called himself Rick Daggot
+knew he had to project an image of confidence and competence, backed
+by a thorough knowledge of the company’s product and industry.
+Not much difficulty laying his hands on the information he needed in
+advance. He devised an easy ruse to find out when the CEO would be
+away. A small challenge, but still not very tough, was finding out enough
+details about the project that he could sound “on the inside” about what
+they were doing. Often this information is known to various company
+suppliers, as well as investors, venture capitalists they’ve approached about
+raising money, their banker, and their law firm. The attacker has to take
+care, though: Finding someone who will part with insider knowledge can
+be tricky, but trying two or three sources to turn up someone who can be
+squeezed for information runs the risk that people will catch on to the
+game. That way lies danger. The Rick Daggots of the world need to pick
+carefully and tread each information path only once.
+The lunch was another sticky proposition. First there was the problem
+of arranging things so he’d have a few minutes alone with each person, out
+of earshot of the others. He told Jessica 12:30 but booked the table for 1
+P.M., at an upscale, expense-account type of restaurant. He hoped that
+would mean they’d have to have drinks at the bar, which is exactly what
+happened. A perfect opportunity to move around and chat with each
+individual.
+Still, there were so many ways that a misstep—a wrong answer or a careless remark—could reveal Rick to be an imposter. Only a supremely confident and wily industrial spy would dare take a chance of exposing
+himself that way. But years of working the streets as a confidence man had
+mitnick
+message
+While most social engineering attacks occur over the telephone or email, don’t
+assume that a bold attacker will never appear in person at your business. In most
+cases, the imposter uses some form of social engineering to gain access to a
+building after counterfeiting an employee badge using a commonly available software program such as Photoshop.
+What about the business cards with the phone company test line? The television show The Rockford Files, which was a series about a private investigator,
+illustrated a clever and somewhat humorous technique. Rockford (played by actor
+James Garner) had a portable business card printing machine in his car, which he
+used to print out a card appropriate to whatever the occasion called for. These
+days, a social engineer can get business cards printed in an hour at any copy
+store, or print them on a laser printer.
+
+15237124 Ch14.F
+
+
+
+
+
+note
+John Le Carré, author of The Spy Who Came in from the Cold, A Perfect Spy,
+and many other remarkable books, grew up as the son of a polished, engaging lifelong con man. Le Carré was struck as a youngster to discover that,
+successful as his father was in deceiving others, he was also gullible, a victim more than once to another con man or woman. Which just goes to show
+that everyone is at risk of being taken in by a social engineer, even another
+social engineer.
+
+LEAPFROG
+A challenge: The following story does not involve industrial espionage.
+As you read it, see if you can understand why I decided to put it in this
+chapter!
+Harry Tardy was back living at home, and he was bitter. The Marine
+Corps had seemed like a great escape until he washed out of boot camp.
+Now he had returned to the hometown he hated, was taking computer
+courses at the local community college, and looking for a way to strike out
+at the world.
+Finally he hit upon a plan. Over beers with a guy in one of his classes,
+he’d been complaining about their instructor, a sarcastic know-it-all, and
+together they cooked up a wicked scheme to burn the guy: They’d grab
+
+235
+Industrial Espionage
+
+built Rick’s abilities and given him the confidence that, even if he made a
+slip, he’d be able to cover it up well enough to quiet any suspicions. This
+was the most challenging, most dangerous time of the entire operation,
+and the elation he felt at bringing off a sting like this made him realize
+why he didn’t have to drive fast cars or skydive or cheat on his wife—he
+got plenty of excitement just doing his job. How many people, he wondered, could say as much?
+What leads a group of smart men and women to accept an imposter? We
+size up a situation by both instinct and intellect. If the story adds up—
+that’s the intellect part—and a con man manages to project a believable
+image, we’re usually willing to let down our guard. It’s the believable
+image that separates a successful con man or social engineer from one who
+quickly lands behind bars.
+Ask yourself: How sure am I that I would never fall for a story like
+Rick’s? If you’re sure you wouldn’t, ask yourself whether anyone has ever
+put anything over on you. If the answer to this second question is yes, it’s
+probably the correct answer to the first question, as well.
+
+15237124 Ch14.F
+
+
+
+
+
+the source code for a popular personal digital assistant (PDA) and have it
+sent to the instructor’s computer, and make sure to leave a trail so the
+company would think the instructor was the bad guy.
+The new friend, Karl Alexander, said he “knew a few tricks” and would
+tell Harry how to bring this off. And get away with it.
+
+Chapter 14
+
+236
+
+Doing Their Homework
+A little initial research showed Harry that the product had been engineered at the Development Center located at the PDA manufacturer’s
+headquarters overseas. But there was also an R&D facility in the United
+States. That was good, Karl pointed out, because for the attempt to work
+there had to be some company facility in the United States that also
+needed access to the source code.
+At that point Harry was ready to call the overseas Development Center.
+Here’s where a plea for sympathy came in, the “Oh, dear, I’m in trouble,
+I need help, please, please, help me.” Naturally the plea was a little more
+subtle than that. Karl wrote out a script, but Harry sounded completely
+phony trying to read it. In the end, he practiced with Karl so he could say
+what he needed to in a conversational tone.
+What Harry finally said, with Karl sitting by his side, went something
+like this:
+“I’m calling from R&D Minneapolis. Our server had a worm that
+infected the whole department. We had to install the operating system
+again and then when we went to restore from backup, none of the backups was any good. Guess who was supposed to be checking the integrity
+of the backups? Yours truly. So I’m getting yelled at by my boss, and management is up in arms that we’ve lost the data. Look, I need to have the
+latest revision of the source-code tree as quick as you can. I need you to
+gzip the source code and send it to me.”
+At this point Karl scribbled him a note, and Harry told the man on the
+other end of the phone that he just wanted him to transfer the file internally, to Minneapolis R&D. This was highly important: When the man
+on the other end of the phone was clear that he was just being asked to
+send the file to another part of the company, his mind was at ease—what
+could be wrong with that?
+
+lingo
+GZIP To archive files in a single compressed file using a Linux GNU utility.
+
+15237124 Ch14.F
+
+
+
+
+
+lingo
+ANONYMOUS FTP A program that provides access to a remote computer
+even though you don’t have an account by using the File Transfer protocol
+(FTP). Although anonymous FTP can be accessed without a password, generally user-access rights to certain folders are restricted.
+
+237
+Industrial Espionage
+
+He agreed to gzip and send it. Step by step, with Karl at his elbow, Harry
+talked the man there through getting started on the procedure for compressing the huge source code into a single, compact file. He also gave him
+a file name to use on the compressed file, “newdata,” explaining that this
+name would avoid any confusion with their old, corrupted files.
+Karl had to explain the next step twice before Harry got it, but it was
+central to the little game of leapfrog Karl had dreamed up. Harry was to
+call R&D Minneapolis and tell somebody there “I want to send a file to
+you, and then I want you to send it somewhere else for me”—of course all
+dressed up with reasons that would make it all sound plausible. What confused Harry was this: He was supposed to say “I’m going to send you a
+file,” when it wasn’t going to be Harry sending the file at all. He had to
+make the guy he was talking to at the R&D Center think the file was
+coming from him, when what the Center was really going to receive was
+the file of proprietary source code from Europe. “Why would I tell him
+it’s coming from me when it’s really coming from overseas?” Harry wanted
+to know.
+“The guy at the R&D Center is the linchpin,” Karl explained. “He’s got
+to think he’s just doing a favor for a fellow employee here in the U.S., getting a file from you and then just forwarding it for you.”
+Harry finally understood. He called the R&D Center, where he asked
+the receptionist to connect him to the Computer Center, where he asked
+to speak to a computer operator. A guy came on the line who sounded as
+young as Harry himself. Harry greeted him, explained he was calling from
+the Chicago fabricating division of the company and that he had this file
+he’d been trying to send to one of their partners working on a project with
+them, but, he said, “We’ve got this router problem and can’t reach their
+network. I’d like to transfer the file to you, and after you receive it, I’ll
+phone you so I can walk you through transferring it to the partner’s
+computer.”
+So far, so good. Harry then asked the young man whether his computer
+center had an anonymous FTP account, a setup that allows anyone to
+transfer files in and out of a directory where no password is required. Yes,
+
+15237124 Ch14.F
+
+
+
+
+
+an anonymous FTP was available, and he gave Harry the internal Internet
+Protocol (IP) address for reaching it.
+With that information in hand, Harry called back the Development
+Center overseas. By now the compressed file was ready, and Harry gave the
+instructions for transferring the file to the anonymous FTP site. In less
+than five minutes, the compressed source-code file was sent to the kid at
+the R&D Center.
+
+Chapter 14
+
+238
+
+Setting Up the Victim
+Halfway to the goal. Now Harry and Karl had to wait to make sure the
+file had arrived before proceeding. During the wait, they walked across the
+room to the instructor’s desk and took care of two other necessary steps.
+They first set up an anonymous FTP server on his machine, which would
+serve as a destination for the file in the last leg of their scheme.
+The second step provided a solution for an otherwise tricky problem.
+Clearly they couldn’t tell their man at the R&D Center to send the file to
+an address such as, say, warren@rms.ca.edu. The “.edu” domain would be
+a dead giveaway, since any half-awake computer guy would recognize it as
+the address of a school, immediately blowing the whole operation. To
+avoid this, they went into Windows on the instructor’s computer and
+looked up the machine’s IP address, which they would give as the address
+for sending the file.
+By then it was time to call back the computer operator at the R&D
+Center. Harry got him on the phone and said, “I just transferred the file
+that I talked to you about. Can you check that you received it?” Yes, it had
+arrived. Harry then asked him to try forwarding it, and gave him the IP
+address. He stayed on the phone while the young man made the connection and started transmitting the file, and they watched with big grins
+from across the room as the light on the hard drive of the instructor’s computer blinked and blinked—busy receiving the download.
+Harry exchanged a couple of remarks with the guy about how maybe
+one day computers and peripherals would be more reliable, thanked him
+and said good-bye.
+The two copied the file from the instructor’s machine onto a pair of Zip
+disks, one for each of them, just so they could look at it later, like stealing
+a painting from a museum that you can enjoy yourself but don’t dare show
+to your friends. Except, in this case, it was more like they had taken a
+duplicate original of the painting, and the museum still had their own
+original.
+
+15237124 Ch14.F
+
+
+
+
+
+Karl then talked Harry through the steps of removing the FTP server
+from the instructor’s machine, and erasing the audit trail so there would
+be no evidence of what they had done—only the stolen file, left where it
+could be located easily.
+As a final step, they posted a section of the source code on Usenet
+directly from the instructor’s computer. Only a section, so they wouldn’t
+do any great damage to the company, but leaving clear tracks directly back
+to the instructor. He would have some difficult explaining to do.
+
+239
+Industrial Espionage
+
+Analyzing the Con
+Although it took the combination of a number of elements to make this
+escapade work, it could not have succeeded without some skillful playacting of an appeal for sympathy and help: I’m getting yelled at by my
+boss, and management is up in arms, and so on. That, combined with a
+pointed explanation of how the man on the other end of the phone could
+help solve the problem, proved to be a powerfully convincing con. It
+worked here, and has worked many other times.
+The second crucial element: The man who understood the value of the
+file was asked to send it to an address within the company.
+And the third piece of the puzzle: The computer operator could see that
+the file had been transferred to him from within the company. That could
+only mean—or so it seemed—that the man who sent it to him could himself have sent it on to the final destination if only his external network
+connection had been working. What could possibly be wrong with helping him out by sending it for him?
+But what about having the compressed file assigned a different name?
+Seemingly a small item, but an important one. The attacker couldn’t
+afford taking a chance of the file arriving with a name identifying it as
+source code, or a name related to the product. A request to send a file with
+a name like that outside the company might have set off alarm bells.
+Having the file relabeled with an innocuous name was crucial. As worked
+out by the attackers, the second young man had no qualms about sending
+the file outside the company; a file with a name like newdata, giving no
+clue as to the true nature of the information, would hardly make him
+suspicious.
+Finally, did you figure out what this story is doing in a chapter on industrial espionage? If not, here’s the answer: What these two students did as
+a malicious prank could just as easily have been done by a professional
+industrial spy, perhaps in the pay of a competitor, or perhaps in the pay of
+
+15237124 Ch14.F
+
+
+
+
+
+mitnick
+message
+The underlying rule that every employee should have firmly planted in his or her
+brain: Except with management approval, don’t transfer files to people you don’t
+personally know, even if the destination appears to be within your company’s
+internal network.
+
+a foreign government. Either way, the damage could have been devastating to the company, severely eroding the sales of their new product once
+the competitive product reached the market.
+How easily could the same type of attack be carried out against your
+company?
+
+PREVENTING THE CON
+
+Chapter 14
+
+240
+
+Industrial espionage, which has long been a challenge to businesses, has
+now become the bread and butter of traditional spies who have focused
+their efforts on obtaining company secrets for a price, now that the Cold
+War has ended. Foreign governments and corporations are now using freelance industrial spies to steal information. Domestic companies also hire
+information brokers who cross the line in their efforts to obtain competitive intelligence. In many cases these are former military spies turned
+industrial information brokers who have the prerequisite knowledge
+and experience to easily exploit organizations, especially those that have
+failed to deploy safeguards to protect their information and educate their
+people.
+Safety Off-Site
+What could have helped the company that ran into problems with their
+off-site storage facility? The danger here could have been avoided if the
+company had been encrypting their data. Yes, encryption requires extra
+time and expense, but it’s well worth the effort. Encrypted files need to be
+spot-checked regularly to be sure that the encryption/decryption is working smoothly.
+There’s always the danger that the encryption keys will be lost or that
+the only person who knows the keys will be hit by a bus. But the nuisance
+level can be minimized, and anyone who stores sensitive information
+off-site with a commercial firm and does not use encryption is, excuse
+me for being blunt, an idiot. It’s like walking down the street in a bad
+
+15237124 Ch14.F
+
+
+
+
+
+Who Is That?
+The example in this chapter of a slick con artist who uses charm to get
+employees to share information reinforces the importance of verification
+of identity. The request to have source code forwarded to an FTP site also
+points to the importance of knowing your requester.
+
+241
+Industrial Espionage
+
+neighborhood with twenty-dollar bills sticking out of your pockets, essentially asking to be robbed.
+Leaving backup media where someone could walk off with it is a common flaw in security. Several years ago, I was employed at a firm that
+could have made better efforts to protect client information. The operation’s staff left the firm’s backup tapes outside the locked computer room
+door for a messenger to pick up each day. Anyone could have walked off
+with the backup tapes, which contained all of the firm’s word-processed
+documents in unencrypted text. If backup data is encrypted, loss of the
+material is a nuisance; if it’s not encrypted—well, you can envision the
+impact on your company better than I can.
+The need in larger companies for reliable offsite storage is pretty much
+a given. But your company’s security procedures need to include an investigation of your storage company to see how conscientious they are about
+their own security policies and practices. If they’re not as dedicated as your
+own company, all your security efforts could be undermined.
+Smaller companies have a good alternate choice for backup: Send the
+new and changed files each night to one of the companies offering on-line
+storage. Again, it’s essential that the data be encrypted. Otherwise, the
+information is available not just to a bent employee at the storage company but to every computer intruder who can breach the on-line storage
+company’s computer systems or network.
+And of course, when you set up an encryption system to protect the
+security of your backup files, you must also set up a highly secure procedure for storing the encryption keys or the pass phrases that unlock them.
+Secret keys used to encrypt data should be stored in a safe or vault.
+Standard company practice needs to provide for the possibility that the
+employee handling this data could suddenly leave, die, or take another
+job. There must always be at least two people who know the storage place
+and the encryption/decryption procedures, as well as the policies for how
+and when keys are to be changed. The policies must also require that
+encryption keys be changed immediately upon the departure of any
+employee who had access to them.
+
+15237124 Ch14.F
+
+
+
+
+
+In Chapter 16 you will find specific policies for verifying the identity of
+any stranger who makes a request for information or a request that some
+action be taken. We’ve talked about the need for verification throughout
+the book; in Chapter 16 you’ll get specifics of how this should be done.
+
+Chapter 14
+
+242
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+4
+
+part
+
+raising
+the bar
+
+16237124 Part04/Ch15.F
+
+
+
+
+
+16237124 Part04/Ch15.F
+
+
+
+
+

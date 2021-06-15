@@ -1,0 +1,1486 @@
+
+
+
+Explanation/Notes: The intention of the guest account is to provide
+temporary access for persons who do not need to have their own account.
+Several operating systems are installed by default with a guest account
+enabled. Guest accounts should always be disabled because their existence
+violates the principle of user accountability. IT should be able to audit any
+computer-related activity and relate it to a specific user.
+Social engineers are easily able to take advantage of these guest accounts
+for gaining unauthorized access, either directly or by duping authorized
+personnel into using a guest account.
+7-14 Encryption of off-site backup data
+
+Policy: Any company data that is stored off site should be encrypted to
+prevent unauthorized access.
+Explanation/Notes: Operations staff must insure that all data is recoverable in the event that any information needs to be restored. This requires
+regular test decryption of a random sampling of encrypted files to make
+sure the data can be recovered. Furthermore, keys used to encrypt data
+shall be escrowed with a trusted manager in the event the encryption keys
+are lost or unavailable.
+297
+
+Policy: All publicly accessible Ethernet access points must be on a segmented network to prevent unauthorized access to the internal network.
+Explanation/Notes: The intention of this policy is to prevent any outsiders from connecting to the internal network when on company premises. Ethernet jacks installed in conference rooms, the cafeteria, training
+centers, or other areas accessible to visitors shall be filtered to prevent
+unauthorized access by visitors to the corporate computer systems.
+The network or security administrator may choose to set up a virtual
+LAN in a switch, if available, to control access from these locations.
+7-16 Dial-in modems
+
+Policy: Modems used for dial-in calls shall be set to answer no earlier
+than the fourth ring.
+Explanation/Notes: As depicted in the movie War Games, hackers use
+a technique known as war-dialing to locate telephone lines that have
+modems connected to them. The process begins with the attacker identifying the telephone prefixes used in the area where the target company is
+located. A scanning program is then used to try every telephone number
+
+Recommended Corporate Information Security Policies
+
+7-15 Visitor access to network connections
+
+17237124 Ch16.F
+
+
+
+
+
+in those prefixes, to locate those that answer with a modem. To speed up
+the process, these programs are configured to wait for one or two rings for
+a modem response before going on to try the next number. When a company sets the auto answer on modem lines to at least four rings, scanning
+programs will fail to recognize the line as a modem line.
+7-17 Antivirus software
+
+Chapter 16
+
+298
+
+Policy: Every computer system shall have current versions of antivirus
+software installed and activated.
+Explanation/Notes: For those businesses that do not automatically
+push down antivirus software and pattern files (programs that recognize
+patterns common to virus software to recognize new viruses) to user desktops or workstations, individual users must take the responsibility for
+installing and maintaining the software on their own systems, including
+any computer systems used for accessing the corporate network remotely.
+If feasible, this software must be set for automatic update of virus and
+Trojan signatures nightly. When pattern or signature files are not pushed
+down to user desktops, computer users shall have the responsibility to
+update pattern files at least on a weekly basis.
+These provisions apply to all desktop machines and laptops used to
+access company computer systems, and apply whether the computer is
+company property or personally owned.
+7-18 Incoming email attachments (high security
+requirements)
+
+Policy: In an organization with high security requirements, the corporate firewall shall be configured to filter out all email attachments.
+Explanation/Notes: This policy applies only to businesses with high
+security requirements, or to those that have no business need to receive
+attachments through electronic mail.
+7-19 Authentication of software
+
+Policy: All new software or software fixes or upgrades, whether on physical media or obtained over the Internet, must be verified as authentic
+prior to installation. This policy is especially relevant to the information
+technology department when installing any software that requires system
+privileges.
+Explanation/Notes: Computer software referred to in this policy
+includes operating system components, application software, hot fixes,
+
+17237124 Ch16.F
+
+
+
+
+
+patches, or any software updates. Many software manufacturers have
+implemented methods whereby customers can check the integrity of any
+distribution, usually by a digital signature. In any case where the integrity
+cannot be verified, the manufacturer must be consulted to verify that the
+software is authentic.
+Computer attackers have been known to send software to a victim,
+packaged to appear as if the software manufacturer had produced it and
+shipped it to the company. It is essential that you verify any software you
+receive as authentic, especially if unsolicited, before installing it on company systems.
+Note that a sophisticated attacker might find out that your organization
+has ordered software from a manufacturer. With that information in
+hand, the attacker can cancel the order with the real manufacturer, and
+order the software himself. The software is then modified to perform some
+malicious function, and is shipped or delivered to your company, in the
+original packaging, with shrink-wrapping if necessary. Once the product
+is installed, the attacker is in control.
+7-20 Default passwords
+
+7-21 Invalid access attempts lockout (low to medium
+security)
+
+Policy: Especially in an organization with low to medium security
+requirements, whenever a specified number of successive invalid login
+attempts to a particular account have been made, the account should be
+locked out for a period of time.
+Explanation/Notes: All company workstations and servers must be set
+to limit the number of successive invalid attempts to sign in. This policy
+is necessary to prevent password guessing by trial and error, dictionary
+attacks, or brute force attempts to gain unauthorized access.
+
+299
+Recommended Corporate Information Security Policies
+
+Policy: All operating system software and hardware devices that initially
+have a password set to a default value must have their passwords reset in
+accordance with the company password policy.
+Explanation/Notes: Several operating systems and computer-related
+devices are shipped with default passwords—that is, with the same password enabled on every unit sold. Failure to change default passwords is a
+grave mistake that places the company at risk.
+Default passwords are widely known and are available on Internet Web
+sites. In an attack, the first password an intruder tries is the manufacturer’s
+default password.
+
+17237124 Ch16.F
+
+
+
+
+
+The system administrator must configure the security settings to lock
+out an account whenever the desired threshold of successive invalid
+attempts has been reached. It is recommended that an account be locked
+out for at least thirty minutes after seven successive login attempts.
+7-22 Invalid access attempts account disabled
+(high security)
+
+Chapter 16
+
+300
+
+Policy: In an organization with high security requirements, whenever a
+specified number of successive invalid login attempts to a particular
+account has been made, the account should be disabled until reset by the
+group responsible for providing account support.
+Explanation/Notes: All company workstations and servers must be
+set to limit the number of successive invalid attempts to sign in. This
+policy is a necessary control to prevent password guessing by trial and
+error, dictionary attacks, or brute force attempts to gain unauthorized
+access.
+The system administrator must configure the security settings to disable
+the account after five invalid login attempts. Following such an attack, the
+account holder will need to call technical support or the group responsible for account support to enable the account. Prior to resetting the
+account, the department responsible must positively identify the account
+holder, following the Verification and Authorization Procedures.
+7-23 Periodic change of privileged
+account passwords
+
+Policy: All privileged account holders shall be required to change their
+passwords at least every thirty days.
+Explanation/Notes: Depending on operating system limitations, the
+systems administrator must enforce this policy by configuration of security parameters in system software.
+7-24 Periodic change of user passwords
+
+Policy: All account holders must change their passwords at least every
+sixty days.
+Explanation/Notes: With operating systems that provide this feature,
+the systems administrator must enforce this policy by configuration of
+security parameters in the software.
+
+17237124 Ch16.F
+
+
+
+
+
+7-25 New account password set up
+
+Policy: New computer accounts must be established with an initial
+password that is preexpired, requiring the account holder to select a new
+password upon initial use.
+Explanation/Notes: This requirement ensures that only the account
+holder will have knowledge of his or her password.
+7-26 Boot-up passwords
+
+Policy: All computer systems must be configured to require a boot-up
+password.
+Explanation/Notes: Computers must be configured so that when the
+computer is turned on, a password is required before the operating system
+will boot. This prevents any unauthorized person from turning on and
+using another person’s computer. This policy applies to all computers on
+company premises.
+7-27 Password requirements for privileged accounts
+
+Policy: All privileged accounts must have a strong password: The password must:
+
+•
+•
+
+Not be a word found in a dictionary in any language
+Be mixed upper and lower case with at least one letter, one
+symbol, and one numeral
+Be at least 12 characters in length
+Not be related to the company or individual in any way.
+
+Explanation/Notes: In most cases computer intruders will target specific accounts that have system privileges. Occasionally the attacker will
+exploit other vulnerabilities to gain full control over the system.
+The first passwords an intruder will try are the simple, commonly used
+words found in a dictionary. Selecting strong passwords enhances the
+security by reducing the chance an attacker will find the password by trial
+and error, dictionary attack, or brute force attack.
+7-28 Wireless access points
+
+Policy: All users who access a wireless network must use VPN (Virtual
+Private Network) technology to protect the corporate network.
+
+Recommended Corporate Information Security Policies
+
+•
+•
+
+301
+
+17237124 Ch16.F
+
+
+
+
+
+Explanation/Notes: Wireless networks are being attacked by a new
+technique called war driving. This technique involves simply driving or
+walking around with a laptop equipped with an 802.11B NIC card until
+a wireless network is detected.
+Many companies have deployed wireless networks without even
+enabling WEP (wireless equivalency protocol), which is used to secure the
+wireless connection through use of encryption. But even when activated,
+the current version of WEP (mid-2002) is ineffective: It has been cracked
+wide open, and several Web sites are devoted to providing the means for
+locating open wireless systems and cracking WEP-enabled wireless access
+points.
+Accordingly, it is essential to add a layer of protection around the
+802.11B protocol by deploying VPN technology.
+7-29 Updating antivirus pattern files
+
+Chapter 16
+
+302
+
+Policy: Every computer system must be programmed to automatically
+update antivirus/anti-Trojan pattern files.
+Explanation/Notes: At a minimum, such updates shall occur at least
+weekly. In businesses where employees leave their computers turned on, it
+is highly recommended that pattern files be updated on a nightly basis.
+Antivirus software is ineffective if it is not updated to detect all new
+forms of malicious code. Since the threat of virus, worm, and Trojan
+Horse infections is substantially increased if pattern files are not updated,
+it is essential that antivirus or malicious code products be kept up to date.
+Computer Operations
+8-1 Entering commands or running programs
+
+Policy: Computer operations personnel must not enter commands or
+run programs at the request of any person not known to them. If a situation arises where an Unverified Person seems to have reason to make such
+a request, it should not be complied with without first getting manager
+approval.
+Explanation/Notes: Computer operations employees are popular targets of social engineers, since their positions usually require privileged
+account access, and the attacker expects that they will be less experienced
+and less knowledgeable about company procedures than other IT workers. The intention of this policy is to add an appropriate check and
+balance to prevent social engineers from duping computer operations
+personnel.
+
+17237124 Ch16.F
+
+
+
+
+
+8-2 Workers with privileged accounts
+
+Policy: Employees with privileged accounts must not provide assistance
+or information to any Unverified Person. In particular this refers to not
+providing computer help (such as training on application use), accessing
+any company database, downloading software, or revealing names of
+personnel who have remote access capabilities,
+Explanation/Notes: Social engineers often target employees with
+privileged accounts. The intent of this policy is to direct IT staff with
+privileged accounts to successfully handle calls that might represent social
+engineering attacks.
+8-3 Internal systems information
+
+8-4 Disclosure of passwords
+
+Policy: Computer operations staff must never reveal their password, or
+any other passwords entrusted to them, without prior approval of an
+information technology manager.
+Explanation/Notes: In general terms, revealing any password to
+another is strictly prohibited. This policy recognizes that operations
+personnel may need to disclose a password to a third party when exigent
+situations arise. This exception to the general policy prohibiting disclosure
+
+303
+Recommended Corporate Information Security Policies
+
+Policy: Computer Operations staff must never disclose any information
+related to enterprise computer systems or related devices without positively verifying the identity of the requester.
+Explanation/Notes: Computer intruders often contact computer operations employees to obtain valuable information such as system access
+procedures, external points for remote access, and dial-in telephone
+numbers that are of substantial value to the attacker.
+In companies that have technical support staff or a help desk, requests
+to the computer operations staff for information about computer systems
+or related devices should be considered unusual. Any information request
+should be scrutinized under the corporate data classification policy to
+determine whether the requester is authorized to have such information.
+When the class of information cannot be determined, the information
+should be considered to be Internal.
+In some cases, outside vendor technical support will need to communicate with persons who have access to enterprise computer systems.
+Vendors must have specific contacts in the IT department so that those
+individuals can recognize each other for verification purposes.
+
+17237124 Ch16.F
+
+
+
+
+
+of any password requires specific approval of an information technology
+manager. For extra precaution, this responsibility of disclosing authentication information should be limited to a small group of individuals who
+have received special training on verification procedures.
+8-5 Electronic media
+
+Policy: All electronic media that contains information not designated
+for public release shall be locked in a physically secure location.
+Explanation/Notes: The intention of this policy is to prevent physical
+theft of Sensitive information stored on electronic media.
+8-6 Backup media
+
+Chapter 16
+
+304
+
+Policy: Operations personnel should store backup media in a company
+safe or other secure location.
+Explanation/Notes: Backup media is another prime target of computer
+intruders. An attacker is not going to spend time attempting to compromise a computer system or network when the weakest link in the chain
+might be physically unprotected backup media. Once backup media is
+stolen, the attacker can compromise the confidentiality of any data stored
+on it, unless the data is encrypted. Therefore, physically securing backup
+media is an essential process to protect the confidentiality of corporate
+information.
+
+POLICIES FOR ALL EMPLOYEES
+Whether in IT or human resources, the accounting department, or the
+maintenance staff, there are certain security policies that every employee
+of your company must know. These policies fall into the categories of
+General, Computer Use, Email Use, policies for Telecommuters, Phone
+Use, Fax Use, Voice Mail Use, and Passwords.
+General
+9-1 Reporting suspicious calls
+
+Policy: Employees who suspect that they may be the subject of a security violation, including any suspicious requests to disclose information or
+to perform action items on a computer, must immediately report the
+event to the company’s incident reporting group.
+
+17237124 Ch16.F
+
+
+
+
+
+Explanation/Notes: When a social engineer fails to convince his or her
+target to comply with a demand, the attacker will always try someone else.
+By reporting a suspicious call or event, an employee takes the first step in
+alerting the company that an attack may be under way. Thus, individual
+employees are the first line of defense against social engineering attacks.
+9-2 Documenting suspicious calls
+
+Policy: In the event of a suspicious phone call that appears to be a social
+engineering attack, the employee shall, to the extent practical, draw out
+the caller to learn details that might reveal what the attacker is attempting
+to accomplish, and make notes of these details for reporting purposes.
+Explanation/Notes: When reported to the incident reporting group,
+such details can help them spot the object or pattern of an attack.
+9-3 Disclosure of dial-up numbers
+
+9-4 Corporate ID badges
+
+Policy: Except when in their immediate office area, all company personnel, including management and executive staff, must wear their
+employee badges at all times.
+Explanation/Notes: All workers, including corporate executives, should
+be trained and motivated to understand that wearing an ID badge is
+mandatory everywhere on company premises other than public areas and
+the person’s own office or workgroup area.
+
+305
+Recommended Corporate Information Security Policies
+
+Policy: Company personnel must not disclose company modem telephone numbers, but should always refer such requests to the help desk or
+to technical support personnel.
+Explanation/Notes: Dial-up telephone numbers must be treated as
+Internal information, to be provided only to employees who have a need
+to know such information to carry out their job responsibilities.
+Social engineers routinely target employees or departments that are
+likely to be less protective of the requested information. For example, the
+attacker may call the accounts payable department masquerading as a telephone company employee who is trying to resolve a billing problem. The
+attacker then asks for any known fax or dial-in numbers in order to resolve
+the problem. The intruder often targets an employee who is unlikely to
+realize the danger of releasing such information, or who lacks training
+with respect to company disclosure policy and procedures.
+
+17237124 Ch16.F
+
+
+
+
+
+9-5 Challenging ID badge violations
+
+Policy: All employees must immediately challenge any unfamiliar person who is not wearing an employee badge or visitor’s badge.
+Explanation/Notes: While no company wants to create a culture where
+eagle-eyed employees look for a way to ensnare coworkers for venturing
+into the hallway without their badges, nonetheless any company concerned with protecting its information needs to take seriously the threat
+of a social engineer wandering its facilities unchallenged. Motivation for
+employees who prove diligent in helping enforce the badges-always policy
+may be acknowledged in familiar ways, such as recognition in the company newspaper or on bulletin boards; a few hours off with pay; or a
+letter of commendation in their personnel records.
+9-6 Piggybacking (passing through secure entrances)
+
+Chapter 16
+
+306
+
+Policy: Employees entering a building must not allow anyone not personally known to them to follow behind them when they have used a
+secure means, such as a card key, to gain entrance (piggybacking).
+Explanation/Notes: Employees must understand that it is not rude to
+require unknown persons to authenticate themselves before helping them
+enter a facility or access a secure area.
+Social engineers frequently use a technique known as piggybacking, in
+which they lie in wait for another person who is entering a facility or
+Sensitive area, and then simply enter with them. Most people feel uncomfortable challenging others, assuming that they are probably legitimate
+employees. Another piggybacking technique is to carry several boxes so
+that an unsuspecting worker opens or holds the door to help.
+9-7 Shredding Sensitive documents
+
+Policy: Sensitive documents to be discarded must be cross-shredded;
+media including hard drives that have ever contained Sensitive information or materials must be destroyed in accordance with the procedures set
+forth by the group responsible for information security.
+Explanation/Notes: Standard shredders do not adequately destroy
+documents; cross-shredders turn documents into pulp. The best security
+practice is to presume that the organization’s chief competitors will be
+rifling through discarded materials looking for any intelligence that could
+be beneficial to them.
+
+17237124 Ch16.F
+
+
+
+
+
+Industrial spies and computer attackers regularly obtain Sensitive information from materials tossed in the trash. In some cases, business competitors have been known to attempt bribery of cleaning crews to turn
+over company trash. In one recent example, an employee at Goldman
+Sachs discovered items that were used in an insider-trading scheme from
+the trash.
+9-8 Personal identifiers
+
+Policy: Personal identifiers such as employee number, social security
+number, driver’s license number, date and place of birth, and mother’s
+maiden name should never be used as a means of verifying identity. These
+identifiers are not secret and can be obtained by numerous means.
+Explanation/Notes: A social engineer can obtain other people’s personal identifiers for a price. And in fact, contrary to popular belief, anyone with a credit card and access to the Internet can obtain these pieces of
+personal identification. Yet despite the obvious danger, banks, utility companies, and credit card companies commonly use these identifiers. This is
+one reason that identity theft is the fastest growing crime of the decade.
+9-9 Organization charts
+
+9-10 Private information about employees
+
+Policy: Any requests for private employee information must be referred
+to human resources.
+
+Recommended Corporate Information Security Policies
+
+Policy: Details shown on the company’s organization chart must not be
+disclosed to anyone other than company employees.
+Explanation/Notes: Corporate structure information includes organization charts, hierarchy charts, departmental employee lists, reporting
+structure, employee names, employee positions, internal contact numbers,
+employee numbers, or similar information.
+In the first phase of a social engineering attack, the goal is to gather
+information about the internal structure of the company. This information is then used to strategize an attack plan. The attacker can also analyze
+this information to determine which employees are likely to have access to
+the data that he seeks. During the attack, the information makes the
+attacker appear as a knowledgeable employee; making it more likely he’ll
+dupe his victim into compliance.
+
+307
+
+17237124 Ch16.F
+
+
+
+
+
+Explanation/Notes: An exception to this policy may be the telephone
+number for an employee who needs to be contacted regarding a workrelated issue or who is acting in an on-call role. However, it is always
+preferable to get the requester’s phone number, and have the employee call
+him or her back.
+Computer Use
+10-1 Entering commands into a computer
+
+Policy: Company personnel should never enter commands into a computer or computer-related equipment at the request of another person
+unless the requester has been verified as an employee of the information
+technology department.
+Explanation/Notes: One common ploy of social engineers is to request
+that an employee enter a command that makes a change to the system’s
+configuration, allows the attacker to access the victim’s computer without
+providing authentication, or allows the attacker to retrieve information
+that can be used to facilitate a technical attack.
+10-2 Internal naming conventions
+Chapter 16
+
+308
+
+Policy: Employees must not disclose the internal names of computer
+systems or databases without prior verification that the requester is
+employed by the company.
+Explanation/Notes: Social engineers will sometimes attempt to obtain
+the names of company computer systems; once the names are known, the
+attacker places a call to the company and masquerades as a legitimate
+employee having trouble accessing or using one of the systems. By knowing the internal name assigned to the particular system, the social engineer
+gains credibility.
+10-3 Requests to run programs
+
+Policy: Company personnel should never run any computer applications or programs at the request of another person unless the requester has
+been verified as an employee of the information technology department.
+Explanation/Notes: Any request to run programs, applications, or perform any activity on a computer must be refused unless the requester is
+positively identified as an employee in the information technology department. If the request involves revealing Confidential information from any
+
+17237124 Ch16.F
+
+
+
+
+
+file or electronic message, responding to the request must be in accordance
+with the procedures for releasing Confidential information. See
+Information Disclosure Policy.
+Computer attackers deceive people into executing programs that enable
+the intruder to gain control of the system. When an unsuspecting user
+runs a program planted by an attacker, the result may give the intruder
+access to the victim’s computer system. Other programs record the activities of the computer user and return that information to the attacker.
+While a social engineer can trick a person into executing computer
+instructions that may do damage, a technically based attack tricks the
+computer’s operating system into executing computer instructions that
+may cause the same sort of damage.
+10-4 Downloading or installing software
+
+10-5 Plain text passwords and email
+
+Policy: Passwords shall not be sent through email unless encrypted.
+Explanation/Notes: While it’s discouraged, this policy may be waived
+by e-commerce sites in certain limited circumstances, such as:
+•
+•
+
+Sending passwords to customers who have registered on the
+site.
+Sending passwords to customers who have lost or forgotten
+their passwords.
+
+309
+Recommended Corporate Information Security Policies
+
+Policy: Company personnel must never download or install software at
+the request of another person, unless the requester has been verified as an
+employee with the information technology department.
+Explanation/Notes: Employees should be on the alert for any unusual request that involves any sort of transaction with computer-related
+equipment.
+A common tactic used by social engineers is to deceive unsuspecting
+victims into downloading and installing a program that helps the attacker
+accomplish his or her goal of compromising computer or network security. In some instances, the program may covertly spy on the user or allow
+the attacker to take control of the computer system through use of a covert
+remote control application.
+
+17237124 Ch16.F
+
+
+
+
+
+10-6 Security-related software
+
+Policy: Company personnel must never remove or disable antivirus/
+Trojan Horse, firewall, or other security-related software without prior
+approval from the information technology department.
+Explanation/Notes: Computer users sometimes disable security-related
+software without provocation, thinking it will increase the speed of their
+computer.
+A social engineer may attempt to deceive an employee into disabling or
+removing software that is needed to protect the company against securityrelated threats.
+10-7 Installation of modems
+
+Chapter 16
+
+310
+
+Policy: No modems may be connected to any computer until prior
+approval has been obtained from the IT department.
+Explanation/Notes: It is important to recognize that modems on desktops or workstations in the workplace pose a substantial security threat,
+especially if connected to the corporate network. Accordingly, this policy
+controls modem connection procedures.
+Hackers use a technique called war dialing to identify any active modem
+lines within a range of telephone numbers. The same technique may be
+used to locate telephone numbers connected to modems within the enterprise. An attacker can easily compromise the corporate network if he or
+she identifies a computer system connected to a modem running vulnerable remote access software, which is configured with an easily guessed
+password or no password at all.
+10-8 Modems and auto-answer settings
+
+Policy: All desktops or workstations with IT-approved modems shall
+have the modem auto-answer feature disabled to prevent anyone from
+dialing into the computer system.
+Explanation/Notes: Whenever feasible, the information technology
+department should deploy a dial-out modem pool for those employees
+who need to dial out to external computer systems via modem.
+10-9 Cracking tools
+
+Policy: Employees will not download or use any software tools designed
+to defeat software protection mechanisms.
+
+17237124 Ch16.F
+
+
+
+
+
+Explanation/Notes: The Internet has dozens of sites devoted to software designed to crack shareware and commercial software products. The
+use of these tools not only violates a software owner’s copyright, but also
+is extremely dangerous. Because these programs originate from unknown
+sources, they may contain hidden malicious code that may cause damage
+to the user’s computer or plant a Trojan Horse that gives the author of the
+program access to the user’s computer.
+10-10 Posting company information on line
+
+10-11 Floppy disks and other electronic media
+
+Policy: If media used to store computer information, such as floppy
+disks or CD-ROMS have been left in a work area or on an employee’s
+desk, and that media is from an unknown source, it must not be inserted
+into any computer system.
+
+311
+Recommended Corporate Information Security Policies
+
+Policy: Employees shall not disclose any details regarding company
+hardware or software in any public newsgroup, forum, or bulletin board,
+and shall not disclose contact information other than in accordance with
+policy.
+Explanation/Notes: Any message posted to the Usenet, on-line forums,
+bulletin boards, or mailing lists can be searched to gather intelligence on
+a target company or a target individual. During the research phase of a
+social engineering attack, the attacker may search the Internet for any
+posts that contain useful information about the company, its products or
+its people.
+Some posts contain very useful tidbits of information that the attacker
+can use to further an attack. For example, a network administrator may
+post a question about configuring firewall filters on a particular brand and
+model of firewall. An attacker who discovers this message will learn valuable information about the type and configuration of the company’s firewall that enables him to circumvent it to gain access to the enterprise
+network.
+This problem can be reduced or avoided by implementing a policy that
+allows employees to post to newsgroups from anonymous accounts that
+do not identify the company from which they originated. Naturally, the
+policy must require employees not to include any contact information
+that may identify the company.
+
+17237124 Ch16.F
+
+
+
+
+
+Explanation/Notes: One method used by attackers to install malicious
+code is to place programs onto a floppy or CD-ROM and label it with
+something very enticing (for example, “Personnel Payroll Data—
+Confidential”). They then drop several copies in areas used by employees. If
+a single copy is inserted into a computer and the files on it opened, the
+attacker’s malicious code is executed. This may create a backdoor, which is
+used to compromise the system, or may cause other damage to the network.
+10-12 Discarding removable media
+
+Chapter 16
+
+312
+
+Policy: Before discarding any electronic media that ever contained
+Sensitive company information, even if that information has been deleted,
+the item shall be thoroughly degaussed or damaged beyond recovery.
+Explanation/Notes: While shredding hard-copy documents is commonplace these days, company workers may overlook the threat of
+discarding electronic media that contained Sensitive data at any time.
+Computer attackers attempt to recover any data stored on discarded
+electronic media. Workers may presume that by just deleting files, they
+ensure that those files cannot be recovered. This presumption is absolutely
+incorrect and can cause confidential business information to fall into the
+wrong hands. Accordingly, all electronic media that contains or previously
+contained information not designated as Public must be wiped clean or
+destroyed using the procedures approved by the responsible group.
+10-13 Password-protected screen savers
+
+Policy: All computer users must set a screen saver password and the inactivity time-out limit to lock the computer after a certain period of inactivity.
+Explanation/Notes: All employees are responsible for setting a screen
+saver password, and setting the inactivity timeout for no more than ten
+minutes. The intention of this policy is to prevent any unauthorized
+person from using another person’s computer. Additionally, this policy
+protects company computer systems from being easily accessed by outsiders who have gained access to the building.
+10-14 Disclosure or sharing of passwords statement
+
+Policy: Prior to creation of a new computer account, the employee or
+contractor must sign a written statement acknowledging that he or she
+
+17237124 Ch16.F
+
+
+
+
+
+understands that passwords must never be disclosed or shared with anyone, and that he or she agrees to abide by this policy.
+Explanation/Notes: The agreement should also include a notice that
+violation of such agreement may lead to disciplinary action up to and
+including termination.
+Email Use
+11-1 Email attachments
+
+11-2 Automatic forwarding to external addresses
+
+Policy: Automatic forwarding of incoming email to an external email
+address is prohibited.
+Explanation/Notes: The intention of this policy is to prevent an outsider from receiving email sent to an internal email address.
+Employees occasionally set up email forwarding of their incoming mail
+to an email address outside the company when they will be away from the
+office. Or an attacker may be able to deceive an employee into setting up
+an internal email address that forwards to an address outside the company.
+The attacker can then pose as a legitimate insider by having an internal
+company email address and get people to email Sensitive information to
+the internal email address.
+
+313
+Recommended Corporate Information Security Policies
+
+Policy: Email attachments must not be opened unless the attachment
+was expected in the course of business or was sent by a Trusted Person.
+Explanation/Notes: All email attachments must be scrutinized closely.
+You may require that prior notice be given by a Trusted Person that an
+email attachment is being sent before the recipient opens any attachment.
+This will reduce the risk of attackers using social engineering tactics to
+deceive people into opening attachments.
+One method of compromising a computer system is to trick an
+employee into running a malicious program that creates a vulnerability,
+providing the attacker with access to the system. By sending an email
+attachment that has executable code or macros, the attacker may be able
+to gain control of the user’s computer.
+A social engineer may send a malicious email attachment, then call and
+attempt to persuade the recipient to open the attachment.
+
+17237124 Ch16.F
+
+
+
+
+
+11-3 Forwarding emails
+
+Policy: Any request from an Unverified Person to relay an electronic
+mail message to another Unverified Person requires verification of the
+requester’s identity.
+11-4 Verifying email
+
+Policy: An email message that appears to be from a Trusted Person that
+contains a request to provide information not designated as Public, or to
+perform an action with any computer-related equipment, requires an
+additional form of authentication. See Verification and Authorization
+Procedures.
+Explanation/Notes: An attacker can easily forge an email message and
+its header, making it appear as if the message originated from another
+email address. An attacker can also send an email message from a compromised computer system, providing phony authorization to disclose
+information or perform an action. Even by examining the header of an
+email message you cannot detect email messages sent from a compromised
+internal computer system.
+
+Chapter 16
+
+314
+
+Phone Use
+12-1 Participating in telephone surveys
+
+Policy: Employees may not participate in surveys by answering any
+questions from any outside organization or person. Such requests must be
+referred to the public relations department or other designated person.
+Explanation/Notes: A method used by social engineers to obtain valuable information that may be used against the enterprise is to call an
+employee and claim to be doing a survey. It’s surprising how many people
+are happy to provide information about the company and themselves to
+strangers when they believe they’re taking part in legitimate research.
+Among the innocuous questions, the caller will insert a few questions that
+the attacker wants to know. Eventually, such information may be used to
+compromise the corporate network.
+12-2 Disclosure of internal telephone numbers
+
+Policy: If an Unverified Person asks an employee for his phone number
+the employee may make a reasonable determination of whether disclosure
+is necessary to conduct company business.
+Explanation/Notes: The intention of this policy is to require employees to make a considered decision on whether disclosure of their telephone
+
+17237124 Ch16.F
+
+
+
+
+
+extension is necessary. When dealing with people who have not demonstrated a genuine need to know the extension, the safest course is to
+require them to call the main company phone number and be transferred.
+12-3 Passwords in voice mail messages
+
+Policy: Leaving messages containing password information on anyone’s
+voice mailbox is prohibited.
+Explanation/Notes: A social engineer can often gain access to an
+employee’s voice mailbox because it is inadequately protected with an
+easy-to-guess access code. In one type of attack, a sophisticated computer
+intruder is able to create his own phony voice mailbox and persuade
+another employee to leave a message relaying password information. This
+policy defeats such a ruse.
+Fax Use
+13-1 Relaying faxes
+
+13-2 Verification of faxed authorizations
+
+Policy: Prior to carrying out any instructions received by facsimile, the
+sender must be verified as an employee or other Trusted Person. Placing a
+telephone call to the sender to verify the request is usually sufficient.
+Explanation/Notes: Employees must exercise caution when unusual
+requests are sent by fax, such as a request to enter commands into a computer or disclose information. The data in the header of a faxed document
+can be falsified by changing the settings of the sending fax machine.
+Therefore the header on a fax must not be accepted as a means of establishing identity or authorization.
+
+315
+Recommended Corporate Information Security Policies
+
+Policy: No fax may be received and forwarded to another party without
+verification of the requester’s identity.
+Explanation/Notes: Information thieves may trick trusted employees
+into faxing sensitive information to a fax machine located on the company’s premises. Prior to the attacker giving the fax number to the victim,
+the imposter telephones an unsuspecting employee, such as a secretary or
+administrative assistant, and asks if a document can be faxed to them for
+later pickup. Subsequently, after the unsuspecting employee receives the
+fax, the attacker telephones the employee and requests that the fax be sent
+to another location, perhaps claiming that it is needed for an urgent meeting. Since the person asked to relay the fax usually has no understanding
+of the value of the information, he or she complies with the request.
+
+17237124 Ch16.F
+
+
+
+
+
+13-3 Sending sensitive information by fax
+
+Policy: Before sending Sensitive information by fax to a machine that is
+located in an area accessible to other personnel, the sender shall transmit
+a cover page. The recipient, on receiving the page, transmits a page in
+response, demonstrating that he/she is physically present at the fax
+machine. The sender then transmits the fax.
+Explanation/Notes: This handshake process assures the sender that the
+recipient is physically present at the receiving end. Moreover, this process
+verifies that the receiving fax telephone number has not been forwarded
+to another location.
+13-4 Faxing passwords prohibited
+
+Chapter 16
+
+316
+
+Policy: Passwords must not be sent via facsimile under any circumstances.
+Explanation/Notes: Sending authentication information by facsimile is
+not secure. Most fax machines are accessible to a number of employees.
+Furthermore, they rely on the public telephone switched network, which
+can be manipulated by call forwarding the phone number for the receiving fax machine so that the fax is actually sent to the attacker at another
+number.
+Voice Mail Use
+14-1 Voice mail passwords
+
+Policy: Voice mail passwords must never be disclosed to anyone for any
+purpose. In addition, voice mail passwords must be changed every ninety
+days or sooner.
+Explanation/Notes: Confidential company information may be left in
+voice mail messages. To protect this information, employees should
+change their voice mail passwords frequently, and never disclose them. In
+addition, voice mail users should not use the same or similar voice mail
+passwords within a twelve-month period.
+14-2 Passwords on multiple systems
+
+Policy: Voice mail users must not use the same password on any
+other phone or computer system, whether internal or external to the
+company.
+Explanation/Notes: Use of a similar or identical password for multiple
+devices, such as voice mail and computer, makes it easier for social engineers to guess all the passwords of a user after identifying only one.
+
+17237124 Ch16.F
+
+
+
+
+
+14-3 Setting voice mail passwords
+
+Policy: Voice mail users and administrators must create voice mail passwords that are difficult to guess. They must not be related in any way to
+the person using it, or the company, and should not contain a predictable
+pattern that is likely to be guessed.
+Explanation/Notes: Passwords must not contain sequential or repeating digits (i.e. 1111, 1234, 1010), must not be the same as or based on
+the telephone extension number, and must not be related to address, zip
+code, birth date, license plate, phone number, weight, I.Q., or other predictable personal information.
+14-4 Mail messages marked as “old”
+
+14-5 External voice mail greetings
+
+Policy: Company workers shall limit their disclosure of information on
+their external outgoing greeting on their voice mail. Ordinarily information related to a worker’s daily routine or travel schedule should not be
+disclosed.
+Explanation/Notes: An external greeting (played to outside callers)
+should not include last name, extension, or reason for absence (such as
+travel, vacation schedule, or daily itinerary). An attacker can use this information to develop a plausible story in his attempt to dupe other personnel.
+14-6 Voice mail password patterns
+
+Policy: Voice mail users shall not select a password where one part of
+the password remains fixed, while another part changes in a predictable
+pattern.
+Explanation/Notes: For example, do not use a password such as
+743501, 743502, 743503, and so on, where the last two digits correspond
+to the current month.
+
+317
+Recommended Corporate Information Security Policies
+
+Policy: When previously unheard voice mail messages are not marked
+as new messages, the voice mail administrator must be notified of a possible security violation and the voice mail password must immediately be
+changed.
+Explanation/Notes: Social engineers may gain access to a voice mailbox
+in a variety of ways. An employee who becomes aware that messages they
+have never listened to are not being announced as new messages must
+assume that another person has obtained unauthorized access to the voice
+mailbox and listened to the messages themselves.
+
+17237124 Ch16.F
+
+
+
+
+
+14-7 Confidential or Private information
+
+Policy: Confidential or Private information shall not be disclosed in a
+voice mail message.
+Explanation/Notes: The corporate telephone system is typically more
+vulnerable than corporate computer systems. The passwords are usually a
+string of digits, which substantially limits the number of possibilities for
+an attacker to guess. Further, in some organizations, voice mail passwords
+may be shared with secretaries or another administrative staff who have
+the responsibility of taking messages for their managers. In light of the
+above, no Sensitive information should ever be left on anyone’s voice mail.
+Passwords
+15-1 Telephone security
+
+Policy: Passwords shall not be disclosed over the telephone at any time.
+Explanation/Notes: Attackers may find ways to listen in to phone conversations, either in person or through a technological device.
+15-2 Revealing computer passwords
+Chapter 16
+
+318
+
+Policy: Under no circumstances shall any computer user reveal his or
+her password to anyone for any purpose without prior written consent of
+the responsible information technology manager.
+Explanation/Notes: The goal of many social engineering attacks
+involves deceiving unsuspecting persons into revealing their account
+names and passwords. This policy is a crucial step in reducing the risk of
+successful social engineering attacks against the enterprise. Accordingly,
+this policy needs to be followed religiously throughout the company.
+15-3 Internet passwords
+
+Policy: Personnel must never use a password that is the same as or similar to one they are using on any corporate system on an Internet site.
+Explanation/Notes: Malicious Web site operators may set up a site that
+purports to offer something of value or the possibility of winning a prize.
+To register, a visitor to the site must enter an email address, username, and
+password. Since many people use the same or similar sign-on information
+repeatedly, the malicious Web site operator will attempt to use the chosen
+password and variations of it for attacking the target’s work- or homecomputer system. The visitor’s work computer can sometimes be identified by the email address entered during the registration process.
+
+17237124 Ch16.F
+
+
+
+
+
+15-4 Passwords on multiple systems
+
+Policy: Company personnel must never use the same or a similar password in more than one system. This policy pertains to various types of
+devices (computer or voice mail); various locations of devices (home or
+work); and various types of systems, devices (router or firewall), or programs (database or application).
+Explanation/Notes: Attackers rely on human nature to break into
+computer systems and networks. They know that, to avoid the hassle of
+keeping track of several passwords, many people use the same or a similar
+password on every system they access. As such, the intruder will attempt
+to learn the password of one system where the target has an account. Once
+obtained, it’s highly likely that this password or a variation thereof will
+give access to other systems and devices used by the employee.
+15-5 Reusing passwords
+
+15-6 Password patterns
+
+Policy: Employees must not select a password where one part remains
+fixed, and another element changes in a predictable pattern.
+Explanation/Notes: For example, do not use a password such as
+Kevin01, Kevin02, Kevin03, and so on, where the last two digits correspond to the current month.
+15-7 Choosing passwords
+
+Policy: Computer users should create or choose a password that adheres
+to the following requirements. The password must:
+•
+•
+
+Be at least eight characters long for standard user accounts
+and at least twelve characters long for privileged accounts.
+Contain at least one number, at least one symbol (such as $,
+_, !, &), at least one lowercase letter, and at least one uppercase letter (to the extent that such variables are supported by
+the operating system).
+
+319
+Recommended Corporate Information Security Policies
+
+Policy: No computer user shall use the same or a similar password
+within the same eighteen-month period.
+Explanation/Note: If an attacker does discover a user’s password, frequent changing of the password minimizes the damage that can be done.
+Making the new password unique from previous passwords makes it
+harder for the attacker to guess it.
+
+17237124 Ch16.F
+
+
+
+•
+
+•
+
+
+
+Not be any of the following items: words in a dictionary in
+any language; any word that is related to an employee’s family, hobbies, vehicle, work, license plate, social security number, address, telephone, pet’s name, birthday, or phrases
+containing those words.
+Not be a variation of a previously used password, with one
+element remaining the same and another element changing,
+such as kevin, kevin1, kevin2; or kevinjan, kevinfeb.
+
+Explanation/Notes: The parameters listed above will produce a password that is difficult for the social engineer to guess. Another option is the
+consonant-vowel method, which provides an easy-to-remember and
+pronounceable password. To construct this kind of password substitute
+consonants for each letter C and vowels for the letter V, using the mask of
+“CVCVCVCV.” Examples would be MIXOCASO; CUSOJENA.
+15-8 Writing passwords down
+
+Chapter 16
+
+320
+
+Policy: Employees should write passwords down only when they store
+them in a secure location away from the computer or other passwordprotected device.
+Explanation/Notes: Employees are discouraged from ever writing
+down passwords. Under certain conditions, however, it may be necessary;
+for example, for an employee who has multiple accounts on different
+computer systems. Any written passwords must be secured in a safe place
+away from the computer. Under no circumstances may a password be
+stored under the keyboard or attached to the computer display.
+15-9 Plaintext passwords in computer files
+
+Policy: Plaintext passwords shall not be saved in any computer file or
+stored as text called by pressing a function key. When necessary, passwords
+may be saved using an encryption utility approved by the IT department
+to prevent any unauthorized disclosures.
+Explanation/Notes: Passwords can be easily recovered by an attacker if
+stored in unencrypted form in computer data files, batch files, terminal
+function keys, login files, macro or scripting programs, or any data files
+which contain passwords to FTP sites.
+
+17237124 Ch16.F
+
+
+
+
+
+POLICIES FOR TELECOMMUTERS
+Telecommuters are outside the corporate firewall, and therefore more vulnerable to attack. These policies will help you prevent social engineers
+from using your telecommuter employees as a gateway to your data.
+16-1 Thin clients
+
+16-2 Security software for telecommuter
+computer systems
+
+Policy: Any external computer system that is used to connect to the corporate network must have antivirus software, anti-Trojan software, and a
+personal firewall (hardware or software). Antivirus and anti-Trojan pattern
+files must be updated at least weekly.
+Explanation/Notes: Ordinarily, telecommuters are not skilled on securityrelated issues, and may inadvertently or negligently leave their computer system and the corporate network open to attack. Telecommuters
+
+321
+Recommended Corporate Information Security Policies
+
+Policy: All company personnel who have been authorized to connect via
+remote access shall use a thin client to connect to the corporate network.
+Explanation/Notes: When an attacker analyzes an attack strategy, he or
+she will try to identify users who access the corporate network from external locations. As such, telecommuters are prime targets. Their computers
+are less likely to have stringent security controls, and may be a weak link
+that may compromise the corporate network.
+Any computer that connects to a trusted network can be booby-trapped
+with keystroke loggers, or their authenticated connection can be hijacked.
+A thin client strategy can be used to avoid problems. A thin client is similar to a diskless workstation or a dumb terminal; the remote computer
+does not have storage capabilities but instead the operating system, application programs, and data all reside on the corporate network. Accessing
+the network via a thin client substantially reduces the risk posed by
+unpatched systems, outdated operating systems, and malicious code.
+Accordingly, managing the security of telecommuters is effective and
+made easier by centralizing security controls. Rather than relying on the
+inexperienced telecommuter to properly manage security-related issues,
+these responsibilities are better left with trained system, network, or security administrators.
+
+17237124 Ch16.F
+
+
+
+
+
+therefore pose a serious security risk if they are not properly trained.
+In addition to installing antivirus and anti-Trojan Horse software to protect against malicious code, a firewall is necessary to block any hostile
+users from obtaining access to any services enabled on the telecommuter’s
+system.
+The risk of not deploying the minimal security technologies to prevent
+malicious code from propagating cannot be underestimated, as an attack
+on Microsoft proves. A computer system belonging to a Microsoft
+telecommuter, used to connect to Microsoft’s corporate network, became
+infected with a Trojan Horse program. The intruder or intruders were able
+to use the telecommuter’s trusted connection to Microsoft’s development
+network to steal developmental source code.
+
+POLICIES FOR HUMAN RESOURCES
+Human resources departments have a special charge to protect employees
+from those attempting to discover personal information through their
+workplace. HR professionals also have a responsibility to protect their
+company from the actions of unhappy ex-employees.
+
+Chapter 16
+
+322
+
+17-1 Departing employees
+
+Policy: Whenever a person employed by the company leaves or is terminated, Human Resources must immediately do the following:
+•
+•
+•
+
+Remove the person’s listing from the on-line employee/
+telephone directory and disable or forward their voice mail;
+Notify personnel at building entrances or company lobbies;
+and
+Add the employee’s name to the employee departure list,
+which shall be emailed to all personnel no less often than
+once a week.
+
+Explanation/Notes: Employees who are stationed at building entrances
+must be notified to prevent a former employee from reentering the premises. Further, notifying other personnel may prevent the former employee
+from successfully masquerading as an active employee and duping personnel into taking some action damaging to the company.
+In some circumstances, it may be necessary to require every user within
+the former employee’s department to change his or her passwords. (When
+I was terminated from GTE solely because of my reputation as a hacker,
+
+17237124 Ch16.F
+
+
+
+
+
+the company required all employees throughout the company to change
+their password.)
+17-2 IT department notification
+
+Policy: Whenever a person employed by the company leaves or is terminated, Human Resources should immediately notify the information
+technology department to disable the former employee’s computer
+accounts, including any accounts used for database access, dial-up, or
+Internet access from remote locations.
+Explanation/Notes: It’s essential to disable any former worker’s access
+to all computer systems, network devices, databases, or any other computerrelated devices immediately upon termination. Otherwise, the company
+may leave the door wide open for a disgruntled employee to access company computer systems and cause significant damage.
+17-3 Confidential information used in hiring process
+
+17-4 Employee personal information
+
+Policy: The human resources department must never release personal
+information about any current or former employee, contractor, consultant, temporary worker, or intern, except with prior express written consent of the employee or human resources manager.
+
+323
+Recommended Corporate Information Security Policies
+
+Policy: Advertisements and other forms of public solicitation of candidates to fill job openings should, to the extent possible, avoid identifying
+computer hardware and software used by the company.
+Explanation/Notes: Managers and human resources personnel should
+only disclose information related to enterprise computer hardware and
+software that is reasonably necessary to obtain resumes from qualified
+candidates.
+Computer intruders read newspapers and company press releases, and
+visit Internet sites, to find job listings. Often, companies disclose too
+much information about the types of hardware and software used to
+attract prospective employees. Once the intruder has knowledge of the
+target’s information systems, he is armed for the next phase of attack. For
+example, by knowing that a particular company uses the VMS operating
+system, the attacker may place pretext calls to determine the release version, and then send a phony emergency security patch made to appear as
+if it came from the software developer. Once the patch is installed, the
+attacker is in.
+
+17237124 Ch16.F
+
+
+
+
+
+Explanation/Notes: Head-hunters, private investigators, and identity
+thieves target private employee information such as employee numbers,
+social security numbers, birth dates, salary history, financial data including direct deposit information, and health-related benefit information.
+The social engineer may obtain this information so as to masquerade as
+the individual. In addition, disclosing the names of new hires may be
+extremely valuable to information thieves. New hires are likely to comply
+with any request by persons with seniority or in a position of authority, or
+anyone claiming to be from corporate security.
+17-5 Background checks
+
+Chapter 16
+
+324
+
+Policy: A background check should be required for all new hires, contractors, consultants, temporary workers, or interns prior to an offer of
+employment or establishing of a contractual relationship.
+Explanation/Notes: Because of cost considerations, the requirement for
+background checks may be limited to specific positions of trust. Note,
+however, that any person who is given physical access to corporate offices
+may be a potential threat. For example, cleaning crews have access to personnel offices, which gives them access to any computer systems located
+there. An attacker with physical access to a computer can install a hardware keystroke logger in less than a minute to capture passwords.
+Computer intruders will sometimes go to the effort of obtaining a job
+as a means of gaining access to a target company’s computer systems and
+networks. An attacker can easily obtain the name of a company’s cleaning
+contractor by calling the responsible employee at the target company,
+claiming to be from a janitorial company looking for their business, and
+then obtaining the name of the company that is currently providing such
+services.
+
+POLICIES FOR PHYSICAL SECURITY
+Though social engineers try to avoid showing up in person at a workplace
+they want to target, there are times when they will violate your space.
+These policies will help you to keep your physical premises secure from
+threat.
+18-1 Identification for nonemployees
+
+Policy: Delivery people and other nonemployees who need to enter company premises on a regular basis must have a special badge or other form of
+identification in accordance with policy established by corporate security.
+
+17237124 Ch16.F
+
+
+
+
+
+Explanation/Notes: Nonemployees who need to enter the building regularly (for example, to make food or beverage deliveries to the cafeteria, or
+to repair copying machines or install telephones) should be issued a special form of company identification badge provided for this purpose.
+Others who need to enter only occasionally or on a one-time basis must
+be treated as visitors and should be escorted at all times.
+18-2 Visitor identification
+
+18-3 Escorting visitors
+
+Policy: Visitors must be escorted or in the company of an employee at
+all times.
+Explanation/Notes: One popular ruse of social engineers is to arrange
+to visit a company employee (for example, visiting with a product engineer on the pretext of being the employee of a strategic partner). After
+being escorted to the initial meeting, the social engineer assures his host
+that he can find his own way back to the lobby. By this means he gains
+the freedom to roam the building and possibly gain access to Sensitive
+information.
+18-4 Temporary badges
+
+Policy: Company employees from another location who do not have
+their employee badges with them must present a valid driver’s license or
+other picture ID and be issued a temporary visitor’s badge.
+Explanation/Notes: Attackers often pose as employees from a different
+office or branch of a company to gain entrance to a company.
+
+325
+Recommended Corporate Information Security Policies
+
+Policy: All visitors must present a valid driver’s license or other picture
+identification to be admitted to the premises.
+Explanation/Notes: The security staff or receptionist should make a
+photocopy of the identification document prior to issuing a visitor’s
+badge. The copy should be kept with the visitor’s log. Alternatively, the
+identification information can be recorded in the visitor’s log by the receptionist or guard; visitors should not be permitted to write down their own
+ID information.
+Social engineers seeking to gain entrance to a building will always write
+false information in the log. Even though it’s not difficult to obtain false
+ID and to learn the name of an employee he or she can claim to be visiting, requiring that the responsible employee must log the entry adds one
+level of security to the process.
+
+17237124 Ch16.F
+
+
+
+
+
+18-5 Emergency evacuation
+
+Policy: In any emergency situation or drill, security personnel must
+ensure that everybody has evacuated the premises.
+Explanation/Notes: Security personnel must check for any stragglers
+that may be left behind in restrooms or office areas. As authorized by the
+fire department or other authority in charge of the scene, the security
+force needs to be on the alert for anyone departing the building long after
+the evacuation.
+Industrial spies or sophisticated computer intruders may cause a diversion to gain access to a building or secure area. One diversion used is to
+release a harmless chemical known as butyl mercaptan into the air. The
+effect is to create the impression that there is a natural gas leak. Once
+personnel start evacuation procedures, the bold attacker uses this diversion
+to either steal information or to gain access to enterprise computer
+systems. Another tactic used by information thieves involves remaining
+behind, sometimes in a restroom or closet, at the time of a scheduled evacuation drill, or after setting off a smoke flare or other device to cause an
+emergency evacuation.
+
+Chapter 16
+
+326
+
+18-6 Visitors in mail room
+
+Policy: No visitors should be permitted in the mail room without the
+supervision of a company worker.
+Explanation/Notes: The intention of this policy is to prevent an outsider from exchanging, sending, or stealing intracompany mail.
+18-7 Vehicle license plate numbers
+
+Policy: If the company has a guarded parking area, security staff shall
+log vehicle license plate numbers for any vehicle entering the area.
+18-8 Trash Dumpsters
+
+Policy: Trash Dumpsters must remain on company premises at all times
+and should be inaccessible to the public.
+Explanation/Notes: Computer attackers and industrial spies can obtain
+valuable information from company trash bins. The courts have held that
+trash is considered legally abandoned property, so the act of Dumpster
+diving is perfectly legal, as long as the trash receptacles are on public property. For this reason, it is important that trash receptacles be situated on
+
+17237124 Ch16.F
+
+
+
+
+
+company property, where the company has a legal right to protect the containers and their contents.
+
+POLICIES FOR RECEPTIONISTS
+Receptionists are often on the front lines when it comes to dealing with
+social engineers, yet they are rarely given enough security training to recognize and stop an invader. Institute these policies to help your receptionist better protect your company and its data.
+19-1 Internal directory
+
+19-2 Telephone numbers for specific
+departments/groups
+
+Policy: Employees shall not provide direct telephone numbers for the
+company help desk, telecommunications department, computer operations, or system administrator personnel without verifying that the
+requester has a legitimate need to contact these groups. The receptionist,
+when transferring a call to these groups, must announce the caller’s name.
+Explanation/Notes: Although some organizations may find this policy
+overly restrictive, this rule makes it more difficult for a social engineer to
+masquerade as an employee by deceiving other employees into transferring the call from their extension (which in some phone systems causes the
+call to appear to originate from within the company), or demonstrating
+knowledge of these extensions to the victim in order to create a sense of
+authenticity.
+
+327
+Recommended Corporate Information Security Policies
+
+Policy: Disclosure of information in the internal company directory
+should be limited to persons employed by the company.
+Explanation/Notes: All employee titles, names, telephone numbers,
+and addresses contained within the company directory should be considered Internal information, and should only be disclosed in accordance
+with the policy related to data classification and Internal information.
+Additionally, any calling party must have the name or extension of the
+party they are trying to contact. Although the receptionist can put a call
+through to an individual when a caller does not know the extension,
+telling the caller the extension number should be prohibited. (For those
+curious folks who follow by example, you can experience this procedure
+by calling any U.S. government agency and asking the operator to provide
+an extension.)
+
+17237124 Ch16.F
+
+
+
+
+
+19-3 Relaying information
+
+Policy: Telephone operators and receptionists should not take messages
+or relay information on behalf of any party not personally known to be an
+active employee.
+Explanation/Notes: Social engineers are adept at deceiving employees
+into inadvertently vouching for their identity. One social engineering trick
+is to obtain the telephone number of the receptionist and, on a pretext,
+ask the receptionist to take any messages that may come for him. Then,
+during a call to the victim, the attacker pretends to be an employee, asks
+for some sensitive information or to perform a task, and gives the main
+switchboard number as a callback number. The attacker later calls back to
+the receptionist and is given any message left for him by the unsuspecting
+victim.
+19-4 Items left for pickup
+
+Chapter 16
+
+328
+
+Policy: Before releasing any item to a messenger or other Unverified
+Person, the receptionist or security guard must obtain picture identification and enter the identification information into the pickup log as
+required by approved procedures.
+Explanation/Notes: One social engineering tactic is to deceive an
+employee into releasing sensitive materials to another supposedly authorized employee by dropping off such materials at the receptionist or lobby
+desk for pickup. Naturally, the receptionist or security guard assumes the
+package is authorized for release. The social engineer either shows up himself or has a messenger service pick up the package.
+
+POLICIES FOR THE INCIDENT
+REPORTING GROUP
+Every company should set up a centralized group that should be notified
+when any form of attack on corporate security is identified. What follows
+are some guidelines for setting up and structuring the activities of this
+group.
+20-1 Incident reporting group
+
+Policy: An individual or group must be designated and employees
+should be instructed to report security incidents to them. All employees
+should be provided with the contact information for the group.
+
+17237124 Ch16.F
+
+
+
+
+
+Explanation/Notes: Employees must understand how to identify a
+security threat, and be trained to report any threat to a specific incident
+reporting group. It is also important that an organization establish specific
+procedures and authority for such a group to act when a threat is reported.
+20-2 Attacks in progress
+
+Policy: Whenever the incident reporting group has received reports
+of an ongoing social engineering attack they shall immediately initiate
+procedures for alerting all employees assigned to the targeted groups.
+Explanation/Notes: The incident reporting group or responsible manager should also make a determination about whether to send a companywide alert. Once the responsible person or group has a good faith belief
+that an attack may be in progress, mitigation of damage must be made a
+priority by notifying company personnel to be on their guard.
+
+329
+Recommended Corporate Information Security Policies
+
+17237124 Ch16.F
+
+
+
+
+
+18237124 SecurityataGlance.F
+
+

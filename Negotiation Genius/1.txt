@@ -1,0 +1,473 @@
+CHAPTER 1
+
+
+
+
+Claiming Value in Negotiation
+
+The year was 1912, and the U.S. presidential election was in full swing. Former president Theodore Roosevelt had decided to return to the political arena due to his frustration with the way his successor, President William Howard Taft, had been running the country. It was a tough campaign, and every day seemed to present a new challenge. But here was a challenge that no one had anticipated: three million copies of Roosevelt’s photograph had already been printed for circulation with a campaign speech when Roosevelt’s campaign manager discovered a catastrophic blunder—the photographer had not been asked for permission to use the photograph. To make matters worse, copyright law allowed the photographer to demand as much as $1 per copy of the photograph. In 1912, a loss of $3 million would be equivalent to a loss of more than $60 million today. No campaign could afford this price. The alternative was almost equally unattractive; reprinting three million brochures would be tremendously costly and could cause serious delays. The campaign manager would have to try to negotiate a better deal with the photographer. If you were the campaign manager, how would you handle this negotiation?
+
+Now consider how Roosevelt’s manager dealt with the situation. After carefully analyzing the problem, he sent the following telegram to the photographer: “Planning to distribute three million copies of campaign speech with photographs. Excellent publicity opportunity for photographers. How much are you willing to pay to use your photographs? Respond immediately.”
+
+The photographer did not take long to issue a reply. He sent back a telegram with the following message: “Appreciate opportunity, but can only afford $250.”1
+
+Most people, when they hear this story, are taken aback. How did the campaign manager turn around such a hopeless situation so completely? The reason for this reaction is that even the most seasoned negotiators may not think systematically about negotiations, nor prepare for and execute negotiations strategically. Our goal is to make the manager’s solution to the negotiation problem appear obvious to you. By understanding and applying the principles and strategies of value claiming covered in this chapter, you, too, will be able to handle difficult negotiations with the kind of genius demonstrated by Roosevelt’s campaign manager.
+
+STRATEGIES FOR CLAIMING VALUE IN NEGOTIATION
+
+Throughout this book, we will talk a lot about value. How do we define the term, exactly? Value is whatever people find useful or desirable. You may measure value in dollars, utility, happiness, or a variety of other metrics. Negotiation helps to create value through agreements that make both parties better off than they were without an agreement. But how much better off is each party? This depends, in part, on which party managed to claim (or capture) more of the value that was created. For example, if a buyer negotiates a very low price for an item, she claims more value; the seller claims more of the value (created by the deal) when the price is high.
+
+For many people, learning to negotiate more effectively means one thing above all else: “How can I get a better deal for myself?” Or, put another way, “How can I claim the lion’s share of the value in any negotiation?” While Negotiation Genius takes a much broader view of negotiation, we, too, start with this basic goal: getting the best possible deal for yourself.
+
+We begin by considering a negotiation over the sale of real estate that allows us to address key issues that you will face in virtually all negotiations. The Hamilton Real Estate case is a relatively simple negotiation: two parties (a buyer and a seller) are negotiating over one issue (price). Within this framework, we cover all of the following aspects of negotiating: preparing to negotiate, avoiding common negotiator mistakes, deciding whether to make the first offer, responding to the other side’s offers, structuring your initial offer, finding out how far you can push the other side, haggling effectively, claiming maximum value without sacrificing the relationship, and managing your own satisfaction.
+
+When we use the Hamilton Real Estate case in our negotiation courses with executives and MBA students, we assign half of the participants to the role of “seller” and the other half to the role of “buyer.” Each side is given confidential information regarding its needs and interests, and is asked to prepare its strategy for the negotiation simulation. The two sides then meet and try to negotiate an agreement over the sale price of the property.
+
+As you read the case from the perspective of the seller, think about how you would approach this negotiation.
+
+HAMILTON REAL ESTATE2
+
+You are the executive vice president of Pearl Investments, a holding company that specializes in real-estate investments. Among your many real-estate holdings is a large piece of property located in the town of Hamilton. The Hamilton real estate is earmarked for divestment, and you are responsible for negotiating its sale.
+
+The amount that a potential buyer will pay for the Hamilton property depends on a number of factors, including the buyer’s ability to pay and their planned use of the property. Each of these factors is critical. For example, your experts have estimated that if the land were developed for commercial use (e.g., a set of office buildings), the land might be worth 1.5 to 2 times as much as if it were developed for residential use (e.g., apartment buildings). Unfortunately, commercial developers are unlikely to be interested in the property because Hamilton zoning laws do not allow for commercial development. While some local politicians have recently discussed allowing commercial development in Hamilton, they have taken no action in this direction. As a result, Hamilton has fallen off the radar for commercial developers.
+
+Over the last few weeks, you have entertained offers from a few potential buyers. All but one of these offers has fallen substantially short of your expectations. The offer of most interest to you is from Quincy Developments, a developer that is planning to construct a set of high-end apartment buildings on the Hamilton property. The offer is for $38 million.
+
+Apart from being the highest offer you have received, this deal interests you because of Quincy Developments’ reputation for bargaining in good faith. While this gives you some confidence that the offer is reasonable, you are not necessarily ready to accept it as is. You expect that you could negotiate the price up an additional 10–15 percent if you chose to pursue the offer. You do not think that Quincy Developments would go any higher than that.
+
+For now, however, you have chosen not to negotiate with Quincy Developments. Why? Because Estate One, a premier real-estate company in the region, has just sent word that it is also interested in the Hamilton property. You believe that Estate One would develop the property for the construction of luxury condominiums, as it does with virtually all of its properties. You should be able to negotiate a higher selling price for the Hamilton property if the land is to be used for luxury condominiums rather than for apartment buildings.
+
+You have decided to meet with the CEO of Estate One, Connie Vega, to negotiate a sale. If these talks are not successful, you plan to return to Quincy Developments and finalize a deal. You will not wait for other offers. Quincy Developments has said that its offer expires in three days.
+
+Here is what you know about Estate One: It is a midsize company that is one of the biggest regional developers of residential real estate. Estate One’s CEO has been with the company since its founding twenty years ago and is known to be extremely well connected politically, linked to knowledge brokers at all levels of state and local government. Estate One is not a competitor of yours.
+
+To prepare for the negotiation, you have collected as much data as possible. The following information is public knowledge, and is certainly known to the CEO of Estate One:
+
+
+
+• Pearl Investments purchased the Hamilton property seven years ago at a price of $27 million.
+
+• Since the purchase, land value in Hamilton has increased substantially. An evaluation of recent sales of somewhat comparable properties suggests that the Hamilton property could be worth $36–44 million if developed for residential use.
+
+• If the land is used for the construction of luxury condominiums instead of apartment buildings, it is probably worth an additional 20 percent.
+
+
+
+The impending Hamilton negotiation raises many questions. What would you do first in this negotiation? How would you approach the CEO of Estate One, Connie Vega? Would you make the first offer or would you let her make it? What information, if any, would you share with her? What information, if any, would you try to acquire from her? How much would you expect to earn on the Hamilton sale? How would you know if you got a good deal?
+
+PREPARING TO NEGOTIATE
+
+Over the course of training and consulting with tens of thousands of negotiators and dealmakers, we have become aware that, by far, the most common and costly mistakes in negotiation take place before talks even begin. Interestingly, the problem is usually not faulty preparation, but a lack of preparation altogether! Under the false assumption that negotiation is “all art and no science,” most people fail to prepare adequately for negotiation. When coupled with the belief that the “real action” begins at the bargaining table, even smart, thoughtful, and motivated people walk into substantive negotiations ill-prepared.
+
+Thus, it is critical that you adopt a thorough methodology to help you prepare to negotiate. Our five-step pre-negotiation framework offers a simple yet effective approach. (In the chapters that follow, we will add to this list as we confront more complex negotiations.)
+
+
+
+Step 1: Assess your BATNA. The first step in any negotiation is to ask yourself, “What will I do if the current negotiation ends in no deal?” In other words, you need to assess your BATNA, or best alternative to negotiated agreement—the course of action you will pursue if and when the current negotiation ends in an impasse.3 Without a clear understanding of your BATNA, it is impossible to know when to accept a final offer and when to walk away in order to pursue other options. Your BATNA assessment requires the following three steps:
+
+
+
+1. Identify all of the plausible alternative options you might pursue if you are unable to reach an agreement with the other party.
+
+2. Estimate the value associated with each alternative.
+
+3. Select the best alternative; this is your BATNA.
+
+
+
+In the Hamilton case, you have a number of alternatives if the negotiation with Connie Vega ends in impasse: you might wait for other offers, you might approach Quincy Developments to finalize the deal, or you might decide not to sell at all. The information available to you strongly suggests that your BATNA would be to finalize a deal with Quincy.
+
+
+
+Step 2: Calculate your reservation value. An analysis of your BATNA is critical because it allows you to calculate your reservation value (RV), or your walk-away point in the current negotiation. As the seller in the Hamilton case, your reservation value is the lowest offer you would be willing to accept from Connie Vega. What might this offer be? If the negotiation ended in impasse, you would return to Quincy and finalize the sale. Quincy has offered $38 million. Is $38 million your reservation value? Not quite, because you could negotiate this price further with Quincy. Specifically, you believe that you could negotiate a 10–15 percent increase in the offer, yielding an amount ranging from $41.8–$43.7 million. Your reservation value should fall within this range.
+
+What determines your exact reservation value within this range? If you are risk averse, you might be inclined to lean toward the lower end of the range. But if you are optimistic about your ability to negotiate with Quincy, you might lean toward the upper end. Let’s say that you decide on the midpoint of this range and set $42.65 million as your reservation value. If Connie Vega’s final offer falls below this amount, you will walk away from the deal. If it is higher than this amount, and you are sure that you cannot negotiate a still higher price with Connie, you will accept the deal. Another way to think about your reservation value is to consider it your indifference point. If Connie’s final offer is exactly $42.65 million, you are indifferent between accepting this offer and rejecting it in favor of pursuing your BATNA.
+
+As you can see, a careful assessment of your BATNA is essential if you are going to establish a rational reservation value that is based on a realistic assessment of your alternatives. Unfortunately, people often make strategic mistakes when they confuse their BATNAs with other elements of the negotiation. Keep in mind that your BATNA is not what you think is fair, or what you originally paid for the item you are selling, or the price that you hope to achieve. Your BATNA is the reality you will face if you reach no deal in the current negotiation.
+
+
+
+Step 3: Assess the other party’s BATNA. Now that you have assessed your BATNA and calculated your reservation value, you know the lowest offer you would be willing to accept in the Hamilton negotiation. Of course, you do not want to settle for a low sale price, so you will need to figure out how high a price you might be able to negotiate. In other words, you have to figure out the other party’s reservation value. Connie Vega’s reservation value is the highest amount that Estate One would be willing to pay for the Hamilton property. How can you determine this amount? How will you know how far you can push the other side? You figure this out by assessing the other party’s BATNA. This critical step can make the difference between getting a good deal and getting a great deal. Sometimes it even marks the difference between phenomenal success and utter failure.
+
+Remember Roosevelt’s campaign manager? Had he focused only on his own BATNA (reprint three million brochures) and his own reservation value (pay the photographer thousands of dollars), the negotiation would have been a disaster. The manager’s genius lay in his decision to assess the photographer’s BATNA. In other words, he asked, “What would the photographer do if the negotiation ended in impasse?” If no deal could be struck and Roosevelt decided not to use the photograph, the photographer would make little or no money on the photograph; the photographer would also lose the opportunity for national publicity. In other words, while the campaign manager’s BATNA was quite poor, so was the photographer’s! As a result, the photographer could be induced to accept little or no money at all.
+
+Similarly, in the Hamilton negotiation, thinking through Connie Vega’s alternatives can help you to discover her BATNA. Presumably, if she is unable to purchase the Hamilton property, Connie will want to invest Estate One’s dollars in a different development project; her preferred alternative may be to try to find another piece of property on which to build luxury condominiums. If such properties are in short supply in the town of Hamilton, her BATNA may be to build elsewhere—or to wait until other properties become available. You will want to think through each of these alternatives carefully—from Connie’s perspective. For now, let us presume that your analysis suggests that Connie’s BATNA is to wait it out. In other words, if she is unable to reach an agreement with you, Estate One will hold on to their cash and wait for new opportunities to arise in the future.
+
+
+
+Step 4: Calculate the other party’s reservation value. Now that you have evaluated Connie’s BATNA, a reasonable way to determine her reservation value is to consider what she is likely to do with the Hamilton property. You know that Estate One tends to develop its properties for residential construction. Furthermore, you believe that Estate One will build condominiums on the property rather than rental apartments, which makes the property more valuable to them than it would be to Quincy. Specifically, development for the construction of condominiums would increase the value of the property by 20 percent. To assess Estate One’s reservation value (or highest willingness to pay), the following reasoning may be appropriate:
+
+
+
+• Estimates suggest that the property is worth $36–44 million if used for apartment buildings.
+
+• The midpoint of this range is $40 million.
+
+• A 20 percent increase (due to development for condominiums) over $40 million yields a value of $48 million.
+
+• Thus, it is reasonable to expect that Connie Vega’s reservation value is $48 million (assuming the valuation has already factored in the costs of development).
+
+
+
+Step 5: Evaluate the ZOPA. Once you have an idea of each party’s reservation value, you can evaluate the zone of possible agreement, or ZOPA. The ZOPA is the set of all possible deals that would be acceptable to both parties. Put another way, the ZOPA is the space between the seller’s reservation value and the buyer’s reservation value. In the current negotiation, the ZOPA is any offer that falls between $42.65 million and $48 million:
+
+
+
+
+
+Figure 1.1: The Zone of Possible Agreement
+
+
+
+The ZOPA contains all possible agreements because any point in this range is a possible final deal to which both parties could agree; any point outside of this range will be rejected by one of the two parties. You will reject any offer below $42.65 million; Connie Vega will reject any price above $48 million.
+
+The ZOPA gives you the lay of the land, but tells you little about where exactly the negotiation will actually end. You will want to make a deal at a high price that is as close to Connie’s reservation value as possible, while Connie will want the price to be as low as possible. And so the negotiation begins. Your task in this negotiation is not simply to get a deal, but to claim as much value as possible. Now that you have an idea about how much value is up for grabs ($48M–$42.65M = $5.35M), you are ready to do your best at claiming the lion’s share of it.
+
+MAKING THE DEAL
+
+If you were a student in one of our negotiation courses, you would have approximately twenty minutes to negotiate this deal. This would give you enough time to reach an agreement because this is a relatively simple (price-only) negotiation. After the twenty minutes were up, we would collect all of the agreements—that is, the price agreed to by each buyer-seller pair—and then put them on the board for everyone to see. The reason for doing so is that it allows us to consider, during the class discussion, which strategies led to better (or worse) outcomes. But there is an additional benefit to making the results public: you would be amazed at how seriously most MBA and executive students take an exercise when their performance will be judged by a group of their peers!
+
+To set up our own analysis of the case, let’s consider how your negotiation with Connie might have unfolded:
+
+
+
+You met with Connie and engaged in some small talk. You were glad to learn that Connie was indeed very interested in the property. As substantive discussions began, you took control and started to make the case for a high sale price. You also mentioned that you had received several other offers and that you were seriously considering one of them. To leverage the momentum you had created, you then made an aggressive opening offer: “Considering the fact that multiple parties are showing an interest in this property, and the fact that the land is worth 20 percent more when used for condominium development, we believe that a $49 million sale price is both fair and acceptable.” Connie seemed taken aback; she shook her head as she responded: “Well, that is certainly not what we had expected.” Just as you began to wonder whether you had asked for too much, Connie, to your great relief, decided to make a counteroffer: $45 million. This offer already exceeded your RV (excellent!), but you wanted to make as much profit as you could, so you continued to haggle. At the end of the day, you were able to convince Connie to accept a price of $46 million.
+
+
+
+How would you feel at the end of this negotiation? What did you do right? What, if anything, could you have done better? How can you evaluate whether you got a good deal, a great deal, or a bad deal?
+
+NEGOTIATION POSTMORTEM
+
+One way to evaluate your performance is to ask whether you surpassed your reservation value: clearly, you did. While this is certainly good news, it may not be a great measure of negotiation success. Why? Because it’s possible to surpass your RV and yet only claim a small portion of the total value up for grabs. Another way to evaluate your performance is to consider the entire ZOPA. The price you negotiated ($46 million) seems closer to Connie’s RV than yours, suggesting that you claimed significantly more than 50 percent of the value that was up for grabs (though not all of it). Depending on how high your aspirations were at the outset of this negotiation, you might be happy or displeased with this outcome.
+
+While these two metrics are useful, they both suffer from one important drawback: they evaluate your performance relative only to what you knew before the negotiation. A more complete measure would evaluate your outcome according to what you could have discovered during the negotiation. How would you feel if you discovered that Connie’s RV was not $48 million but $46 million? Presumably, you would feel that you did even better than you had originally thought: you captured all of the ZOPA. Alternatively, how would you feel if Connie’s RV was much higher—$55 or $60 million? In that case, Connie would have captured the lion’s share of the value. As you can see, how well you actually performed in this negotiation depends on an evaluation of how well you could have done.
+
+Now consider some information that only Connie knew at the outset of the negotiation:
+
+
+
+• Estate One was actually not interested in developing the Hamilton property for residential construction; they hoped to use this property to enter the commercial development industry.
+
+• Connie Vega, with her strong political ties, was among the first to know that zoning laws in Hamilton were scheduled to change in the coming months, making commercial development possible.
+
+• Estate One would have been willing to pay up to $60 million to purchase the Hamilton property.
+
+
+
+Given this new information, how should we evaluate the deal you negotiated? Clearly, the $46 million sale price looks a lot less impressive! In this new light, the outcome you negotiated is much closer to your RV than it is to Connie’s. It looks as if Connie captured most of the value that was up for grabs. You could have done much better! But then again, is it really fair to evaluate your outcome relative to information that you did not even have during the negotiation?
+
+We think so. Negotiation geniuses are not bound by their circumstance nor limited by the information with which they are endowed. Negotiation geniuses know how to act on information they have, acquire information they do not have, and protect themselves from information they cannot obtain. As a result, they evaluate their performance by the strictest of standards.
+
+COMMON NEGOTIATOR MISTAKES
+
+Now that you have more information about what was happening on the other side of the table, take another look at your negotiation with Connie Vega. In hindsight, what mistakes did you make? What might you have done differently? How could you have claimed a larger share of the ZOPA?
+
+To start, here are a few clear mistakes:
+
+
+
+1. You made the first offer when you were not in a strong position to do so.
+
+2. You made a first offer that was not sufficiently aggressive.
+
+3. You talked but did not listen.
+
+4. You tried to influence the other party but did not try to learn from her.
+
+5. You did not challenge your assumptions about the other party.
+
+6. You miscalculated the ZOPA and did not reevaluate it during the negotiation.
+
+7. You made greater concessions than the other party did.
+
+
+
+As it turns out, these mistakes are among the most common that negotiators make as they attempt to claim value in a deal. In the following sections, we will introduce you to a better approach to the Hamilton negotiation—and to negotiations more generally—by answering a series of questions that executives, students, and clients have asked us hundreds of times. In doing so, our goal is not only to equip you with effective negotiation strategies, but also to provide you with an understanding of important psychological principles that will help you anticipate and respond to the negotiation behaviors of others.
+
+SHOULD YOU MAKE THE FIRST OFFER?
+
+When we pose this question to the executives in our classes, most insist that you should never make the first offer. Instead, they say, let the other party make the first offer; this provides valuable information and tells you where they are coming from. But there are also many executives who believe you should always make the first offer; by doing so, they argue, you take control of the dialogue and negotiate “on your terms.” The right answer—hardly surprising to those who know a trick question when they see one—is “it depends.”
+
+The primary benefit of making a first offer in negotiation is that it establishes an anchor. An anchor is a number that focuses the other negotiator’s attention and expectations. Especially when the other party is uncertain about the correct, fair, or appropriate outcome, they are likely to gravitate toward any number that helps them focus and resolve their uncertainty. As it turns out, first offers tend to serve this purpose well: they anchor the negotiation and strongly influence the final outcome.
+
+For example, imagine that you calculated Connie’s reservation value to be $48 million and that you expected her to make an aggressive first offer of about $40 million. If, instead, she makes a first offer of $32 million, you are likely to start questioning your assessment of Connie’s RV. Would Connie start so low if she could actually pay as much as $48 million? Is Estate One planning to build apartments, not condominiums? Perhaps their maximum willingness to pay is much lower than $48 million. When the other party sets an anchor, it influences not only your perceptions of their RV (and, hence, of the ZOPA), but also your counteroffer. You may have planned to start the negotiation at $50 million, but given Connie’s surprisingly low first offer, you now begin to think that you should start a little lower. An offer of $50 million now seems extreme, carrying with it the risk of impasse. Instead, you counter the $32 million offer with a more reasonable-sounding offer of $45 million. Connie’s anchor has worked.
+
+The power of anchors is substantial. Research has shown that anchors affect even those with negotiation experience and expertise. In one remarkable demonstration of the power of anchors, professors Greg Northcraft and Margaret Neale invited real-estate agents to evaluate a house that was for sale.4 The agents were allowed to walk through the house and the neighborhood, and were given a Multiple Listing Service (MLS) information sheet that provided details about the house, including its size and dimensions, the year it was built, the amenities included, et cetera. They were also given detailed information about other properties located in the same neighborhood. The information provided to each agent was identical with one exception: the “list price” on the MLS sheet that was given to the agent was randomly picked from one of the following: (a) $119,000, (b) $129,000, (c) $139,000, or (d) 149,000.5
+
+In real estate, the list price is the “first offer” made by the seller. Thus, this study manipulated the first offer to see whether it would affect the perceptions of experienced real-estate agents. After seeing the house and reading all of the information, agents were asked to evaluate the house on four dimensions:
+
+
+
+1. What is an appropriate list price for this house? (Appropriate List Price)
+
+2. What do you estimate is the appraisal value of this house? (Appraisal Value)
+
+3. As a buyer, what is a reasonable amount to pay for the house? (Willingness to Pay)
+
+4. What is the lowest offer you would accept for this house if you were the seller? (Lowest Acceptable Offer)
+
+
+
+Figure 1.2 graphs the responses to these questions by agents who were provided each of the list prices. As you can see, agents were strongly influenced by whichever list price they were arbitrarily assigned! On every measure, those given a higher list price thought the house was worth more than did those given a lower list price. Furthermore, when the agents were asked whether their answers had been influenced at all by the list price given to them on the information sheet, more than 80 percent of them said no.
+
+
+
+
+
+Figure 1.2 The Powerful Effects of Anchoring
+
+
+
+Given the powerful effects of anchoring, it becomes clear that there may be an advantage to making an aggressive first offer in a negotiation. Why, then, is it sometimes better to let the other party make the first move?
+
+When made prematurely, a first offer can be extremely costly. Consider what happened in the Hamilton negotiation. Your “aggressive” first offer of $49 million was based on your belief that Connie’s reservation value was $48 million. As it turns out, your perception was incorrect, and the first offer was disastrously low. (No wonder Connie looked taken aback when you made it!) Because Connie’s actual RV was $60 million, you probably could have negotiated a much higher sale price than you actually did. However, the moment you made a first offer of $49 million, you set the upper limit for what you could possibly capture. In other words, you lost your claim to a large portion of the ZOPA by making a first offer that was well below the other party’s reservation value. It’s not every day that you lose $11 million simply by opening your mouth! Yet even experienced negotiators who stand to lose thousands or millions of dollars often err by making a first offer when they are not in a position to do so wisely.
+
+As this discussion suggests, whether you should make the first offer or not depends upon how much information you have. If you believe you have sufficient information about the other side’s reservation value, it pays to make a reasonable (i.e., sufficiently aggressive) opening offer that anchors the discussion in your favor. If you suspect that you may not have enough information about the ZOPA, you’d be wise to defer an opening offer until you have collected more information. In this case, it may even be a good idea to let the other party make the first offer. You might forgo the opportunity to anchor the negotiation, but you also avoid the downside of not anchoring aggressively enough. Notice that a lack of information can also lead you to anchor too aggressively, demanding an amount that might offend the other side and drive them away. In other words, asking for too little diminishes the amount of value you can capture; asking for too much diminishes your chances of consummating the deal. As we will discuss shortly, negotiation geniuses know how to balance these two concerns, and they know which factors to consider when structuring their initial offer.
+
+HOW SHOULD YOU RESPOND TO THEIR INITIAL OFFER?
+
+When the other party makes the first move, you become vulnerable to the effects of anchoring. Because anchoring effects can be very subtle, this is likely to be true even if you are aware of these effects. However, there are a number of ways you can protect yourself from being overly influenced by the other side’s anchor:
+
+STRATEGY 1: IGNORE THE ANCHOR
+
+The best thing to do in the event that the other party makes an aggressive first offer—whether high or low—is to ignore it. This doesn’t mean you should pretend you didn’t hear it. Rather, respond to this effect: “Judging by your offer, I think we might be looking at this deal in very different ways. Let’s try to bridge that gap by discussing…” In this manner, you can shift the conversation to an entirely different topic, one that allows you to reassert control of the discussion.
+
+STRATEGY 2: SEPARATE INFORMATION FROM INFLUENCE
+
+Every offer is a combination of information and influence. The other party’s offer tells you something about what she believes and what she wants (information), but it also has the power to derail your strategy (influence). Your task is to separate the information contained in the particulars of the offer (and the way in which it was made) from the other side’s attempt to influence your perceptions. The best way to stave off influence is to stick to your original game plan. If you walked in with a prepared first offer, don’t allow the other side’s anchor to soften it. This does not mean that you should ignore substantial information that changes your beliefs about the actual ZOPA. For example, if the other side has just provided credible evidence that she has an attractive offer from a competitor of yours, this might be reason to adjust your counteroffer. However, it is important to realize that anchors will affect perceptions and counteroffers even in the absence of any real information provided to you. For example, the negotiator’s mind can sometimes fail to distinguish between these two statements:
+
+
+
+• Information and Influence: “We have received a better offer from Company X. As a result, we think your initial offer is low. We would like you to increase it to $7 million.”
+
+• Influence Only: “As you know, there are other companies with whom we do business. We have spoken with them. As a result, we think your initial offer is low. We would like you to increase it to $7 million.”
+
+
+
+The first statement provides some (but not much) substantive information that should prompt you to think about whether to accept, challenge, or question the statement being made. The second statement simply reiterates what you already knew, but uses phraseology that helps the other side emphasize its anchor. Thus, you have every reason to ignore this statement.
+
+STRATEGY 3: AVOID DWELLING ON THEIR ANCHOR
+
+Many negotiators believe that if someone anchors aggressively, you should push them to justify the anchor, thereby exposing the frivolous nature of their extreme demands. This is a dangerous strategy. Why? Because the more an anchor is discussed in a negotiation, the more powerful it becomes. If you ask the other party to justify their offer or discuss it further (e.g., “How did you come up with that number?”), you increase the power of that anchor to define the negotiation parameters. Almost always, your counterpart will find a way to frame the negotiation such that their offer makes at least a modicum of sense.
+
+On the other hand, you do not want to miss out on the opportunity to learn something new about the deal or about your counterpart’s perspective. To resolve this dilemma, try the following: if you are surprised by their offer, probe a little to find out if there is in fact any substantive new information that you can obtain. If no such information is forthcoming, quickly shift attention away from the anchor by sharing your own perspective and defining the negotiation in your terms.
+
+STRATEGY 4: MAKE AN ANCHORED COUNTEROFFER, THEN PROPOSE MODERATION
+
+Finally, if it is not possible to ignore or dismiss the other party’s anchor, you should offset its influence by making an aggressive counteroffer. In doing so, you retain the ability to capture as much of the ZOPA as possible. However, countering aggression with aggression comes at a risk: the possibility that both parties will become entrenched and reach an impasse. To mitigate this risk, you should offset their anchor with an aggressive counteroffer, and then suggest that you need to work together to bridge the gap. In addition, you should offer to make the first move toward moderation by discussing your own perspective (i.e., by justifying your aggressive counteroffer). This allows you to deflate their anchor while shifting from an aggressive exchange to a quest for common ground. For example, in response to an aggressive anchor, you might say:
+
+
+
+Well, based on your offer, which was unexpected, it looks like we have a lot of work ahead of us. From our perspective, a fair price would be closer to $X [your counter-anchor]. I will explain to you how we are valuing this deal, but it appears to me that if we are to reach any agreement, we will both have to work together to make it happen.
+
+STRATEGY 5: GIVE THEM TIME TO MODERATE THEIR OFFER WITHOUT LOSING FACE
+
+If the other party’s initial offer is very extreme—far outside the ZOPA—you may need to inform them that their offer is not even a basis for starting the discussion. This assertion should be followed by information regarding your own perspective and a candid invitation to reopen negotiations from a very different starting point.
+
+Of course, it may not be easy for them to quickly reduce their demands so drastically—doing so would reveal that they were simply posturing when they made their initial offer. As a result, you may want to give them some time to “think about it.” If they decide to moderate their demands, they will need time to save face. They can return to the bargaining table in a day or a week, after “having figured out a way to make this happen,” “having re-crunched the numbers,” or “having fought it out with our constituents.” In other words, when reacting to very extreme offers, your foremost goal should be to re-anchor successfully, not to convey your outrage. And re-anchoring successfully often means helping the other side find a way to retract earlier demands and arguments.
+
+WHAT SHOULD MY FIRST OFFER BE?
+
+Suppose you have collected enough information before and during the negotiation to make an appropriate first offer. How aggressively should you anchor? There are four factors to consider:
+
+
+
+1. Keep the entire ZOPA in play. How can you meet the goal of making an offer that keeps the entire ZOPA in play? By making an offer that falls outside the ZOPA—one that you know the other side will not accept. In this manner, when substantive negotiations begin, you will still have the ability to claim as much value as possible. The idea is to force the other party to negotiate their way into the ZOPA. If your first offer is already inside the ZOPA, you have given up the ability to claim value that lies between your offer and the other party’s RV from the very start. In the Hamilton negotiation, your first offer ($49 million) was well within the actual ZOPA (as revealed to you after the fact), thereby eliminating the possibility of any agreement between $49 million and $60 million.
+
+
+
+2. Provide a justification for your offer. How far outside the ZOPA should your offer be? Should your offer in the Hamilton negotiation have been $61 million? $70 million? $100 million? On the one hand, the higher your first offer, the more likely it is that if you reach an agreement, it will be closer to the other side’s reservation value than to yours (and hence more profitable for you). However, the more aggressive your first offer, the more likely it is that the other party will be offended by it, think that you are not serious, or believe that there is no way of reaching an agreement with you.
+
+How can you balance these concerns? First, consider the context: the degree of aggressiveness should be appropriate to the situation. In most real-world negotiation contexts, you will not want to be too far outside the ZOPA; otherwise, you lose credibility. In other situations (business disputes involving a mediator, contentious labor-management negotiations, haggling with a street vendor, et cetera), it is normal and expected for both parties to open with extreme demands. It would be unwise in these cases to moderate your demands too much because the other side is still likely to anchor aggressively.
+
+To determine your exact offer, ask yourself the following question: “What is the most aggressive offer that I can justify?” You should never make an offer so extreme that it cannot be stated as follows: “I would like to propose X, because…” If you cannot finish this sentence in any meaningful way, you are probably asking for too much.
+
+In the Hamilton negotiation, you could have leveraged a variety of information to justify increasingly aggressive offers to Connie Vega, as follows:
+
+
+
+• “We think $48 million is a fair price because the average of recent sale prices in the area suggests that the land is worth $40 million and because condominium development makes the land worth 20 percent more.”
+
+• “We think $52.8 million is a fair price because recent sale prices in the area suggest that the land is worth as much as $44 million and because condominium development makes the land worth 20 percent more.”
+
+• “We think $60 million is a fair price because the land can be used for commercial development, which makes it worth at least one and a half times what it is worth if used for residential development (which is $40 million on average).”
+
+• “We think $88 million is a fair price because the land can be used for commercial development, which makes it worth as much as two times what it might be worth if used for residential development (which is $44 million).”
+
+
+
+While Connie would surely respond to these different offers with varying levels of receptivity or apprehension, the inclusion of the justification would make it difficult for her to dismiss your offers out of hand. She may want to challenge your assumptions—but that’s not a problem, as it increases the amount of time that you spend dwelling on your perspective and your anchor. Connie might want to aggressively bargain down the price—also okay, because you have opened high enough that she should work to negotiate into the ZOPA (and you should allow her to do so!).
+
+Finally, the most aggressive offers ($60 and $88 million) are smart even if you do not believe that the property will be used for commercial development—and even if both of you know that it won’t. Regardless, the anchor has been set, and the other side’s counteroffer will likely be less aggressive than it otherwise would have been.
+
+
+
+3. Set high, but realistic aspirations. In our negotiation seminars, we ask participants to write down their target price—that is, the outcome they hope to achieve—before the negotiation begins. After the simulation has concluded, we analyze the relationship between negotiators’ target price and final negotiated price. These two correlate highly; that is, those who have more aggressive targets tend to achieve more favorable outcomes than do those with more modest goals.
+
+Why? First, those who set high aspirations tend to make more aggressive first offers in order to reach their target. Thus, aspirations influence first offers, which in turn influence final prices. Second, those with aggressive targets work harder at haggling once both parties’ opening offers are on the table. High aspirations serve as self-fulfilling prophecies; they motivate the kinds of behaviors that help us achieve aggressive targets.
+
+This simple advice—“Always reach for the stars!”—is nonetheless often ignored by negotiators; few set explicit targets prior to negotiation. But targets that are inspired by high aspirations and yet grounded in reality (i.e., in your assessment of the ZOPA) are effective because they motivate behavior and minimize your susceptibility to influence tactics.
+
+
+
+4. Consider the context and the relationship. The most important thing to consider when making any offer is the context of the negotiation. What type of relationship do you have with the other side? Will hard bargaining be ill-received? Are reputations at stake? What norms drive your interactions? For example, you might have evaluated the ZOPA perfectly and justified your offer brilliantly, but if you lose sight of the fact that your tactics could affect the relationship, you might lose the deal—or worse, lose the deal, damage the relationship, and ruin your reputation all at the same time. Thus, your offer and your justifications should be informed by your understanding of the needs and sensitivities of the relationship. Your goal should not simply be to get the best possible deal while preserving the relationship, but to get the best deal while strengthening the relationship and your reputation. You may have to forgo some short-term gains to meet this goal, but this sacrifice will almost always be worth the price.
+
+HOW FAR CAN I PUSH THEM?
+
+Knowing the other side’s walk-away point tells you just how far they can be pushed—and how much value you can capture. Of course, the other side has no incentive to reveal their reservation value to you. How, then, can you obtain the information that will help you estimate their RV with greater accuracy? Here are the steps to follow:
+
+
+
+Step 1. Exhaust all pre-negotiation sources of information. There are often dozens of ways to collect information that do not entail guessing or asking the other party directly. For example, in a real-world Hamilton negotiation, the seller should begin by talking to state and local politicians to assess the likelihood that commercial zoning laws will change. Connie Vega gained this information from her political ties, but that doesn’t mean it is confidential. (And, note that your own confidential role information raised this issue as well.) You could have saved millions on the deal by seeking out this information. Here are other potential sources of information in the Hamilton case:
+
+
+
+• Estate One board members or executives with whom you or others in your organization have ties.
+
+• Individuals and firms that Estate One has dealt with in the past.
+
+• Commercial developers who might be tracking proposed changes in zoning laws.
+
+• Businesses near or in Hamilton that might be affected by proposed changes in zoning laws.
+
+• Residents of Hamilton who may have heard about proposed changes in the zoning laws.
+
+
+
+Consider another situation in which such background information is key: negotiating a job offer. Often, when MBA students come to us seeking advice regarding negotiations with prospective employers, they are confused about what is negotiable, the degree to which each issue is negotiable, and how much is reasonable to demand. When we ask them what they have done to resolve this uncertainty, they usually tell us that they have only discussed these questions informally with their classmates. That is certainly not enough of an effort. We encourage them to talk to students from their program who were hired the previous year by the same firm, friends and acquaintances who have worked in (or who have offers from) firms in the same industry, and staff in the MBA placement office. They can also obtain information from industry publications or from websites that provide hiring and salary data for a wide variety of professions. More generally, in any negotiation, once you know what you do not know, it is important to seek out all potential sources of information.
+
+Gaining a clearer understanding of the ZOPA and the other side’s interests is just one benefit of acquiring information prior to negotiation. Information also helps you to avoid being manipulated or lied to during the negotiation. If the other party perceives that you have done your homework, their willingness to deceive you decreases. Yet another potential benefit of gathering information prior to negotiation is that you are likely to be taken more seriously. Your counterpart may benefit from your ignorance, but do they really want to make a deal with someone who is completely unprepared? This is unlikely. Prepared negotiators not only make fewer strategic mistakes, they also command greater respect both during and after the negotiation.
+
+
+
+Step 2. Identify your assumptions prior to the negotiation. Socrates is believed to have said: “I am likely to be wiser to this small extent, that I do not think I know what I do not know.” Such wisdom about one’s limitations is critical in negotiation. For example, you are unlikely ever to know the other side’s exact reservation value. As a result, you do not know the ZOPA; you can only estimate the ZOPA—and revise that estimate as you gather more information.
+
+Wise negotiators create a comprehensive list of what they are assuming and what they do not know prior to negotiation. In the Hamilton negotiation, you assumed that commercial development was not an option. What other assumptions did you make? Perhaps you assumed that Estate One does not know about your offer from Quincy. But what if they do? What if Connie knows the CEO of Quincy—and you have lied about the size of Quincy’s offer?
+
+Of course, in any negotiation, each party makes an infinite number of assumptions. You cannot keep track of each one—and you don’t have to. But you do need to identify and be aware of all of the assumptions that underlie your planned course of action. For example, if you do not plan to refer to Quincy’s bid, you don’t have to worry about assumptions regarding Quincy. But because your plan does require an assessment of the other party’s RV, you must keep in mind your assumptions regarding Estate One’s plans for the land.
+
+
+
+Step 3. Ask questions that challenge your assumptions. The wrong way to approach a negotiation is to start bargaining as if your assumptions are correct. Instead, ask questions to clarify matters. Consider these three alternative approaches to starting the Hamilton discussion:
+
+
+
+A. “We understand that you might be interested in developing this land for the construction of luxury condominiums. We think that’s great. Of course, we both understand that this makes the land quite valuable.”
+
+B. “Perhaps we should begin by discussing your needs. What are your plans for this excellent piece of real estate?”
+
+C. “If the land is used for commercial development, that will make it quite valuable. With that in mind, let’s discuss some specifics. What are your plans for this excellent piece of real estate?”
+
+
+
+Approach A has the merit of preparing the discussion for an aggressive anchor; the mention of the land’s high value is a nice touch. However, the problem with this approach is that it potentially gives away $11 million. Even if Connie had been willing to truthfully answer every question regarding Estate One’s plans, the fact that you didn’t ask her any direct questions makes it easy for her to let you persist in your ignorance. Approach B potentially saves you up to $11 million because it forces Connie to explicitly lie if she wants to convince you that Estate One is not planning commercial development. Approach C combines and improves on the merits of the previous approaches; here, you take an anchoring position and also ask a direct question about Estate One’s plans. This approach is even more powerful because it frames the question in terms of commercial development. This makes it difficult for Connie to lie, as it now sounds as if you already know of Estate One’s plans (even if you do not). Thus, this approach—anchoring, interrogating, and sounding sufficiently informed—encapsulates all the characteristics of an effective approach in the face of uncertainty.
+
+
+
+Step 4. Ask indirect questions. Naturally, the other party will sometimes refuse to answer questions that could help you determine their reservation value. In that case, you need to ask questions that are less direct—and less threatening. For example, you might ask Connie about the challenges her company faces, what Estate One hopes to accomplish in the next ten years, what kinds of projects you might be able to help them with in the future, or how the Hamilton purchase fits into their portfolio of projects. Given that Estate One is not a competitor of yours, these are reasonable questions for you to ask and for her to answer.
+
+Similarly, consider the questions that our MBA job candidate might ask prospective employers to determine the hiring manager’s likely reservation value:
+
+
+
+• How many hours do employees typically work each week?
+
+• What kinds of projects will I be working on?
+
+• Who will my clients be?
+
+• Whom does the firm typically hire?
+
+• With whom does the firm typically compete for hiring?
+
+• What, if any, are the formal constraints on compensation for new hires?
+
+
+
+Step 5. Protect yourself from lies and uncertainty with contingency contracts. Suppose you have done everything right: you have identified what you do not know, you have exhausted all sources of information prior to negotiation, and you have done everything you possibly can to obtain information from the other side. Yet you remain uncomfortable because you still lack certain vital information. For example, imagine that Connie has told you that Estate One will not use the Hamilton property for commercial development. Although you have no way of knowing with any certainty, you believe this is a lie. What should you do now?
+
+Consider the use of a contingency contract. Contingency contracts are agreements that leave certain elements of the deal unresolved until uncertainty is resolved in the future. In the Hamilton negotiation, a contingency contract might state: “The sale will be made at a base price of $46 million, with the condition that if the land is used for commercial development in the next seven years, Estate One will pay an additional $10 million to Pearl Investments.” The moment this clause is included in the agreement, Estate One no longer has a motivation to lie! Because the sale price is now tied to Estate One’s plans, they cannot benefit from deceiving you. Furthermore, even if Connie was not lying (i.e., Estate One is not currently planning commercial development), the contingency contract protects you against a future change of plans by Estate One.
+
+Notice that if Estate One is planning to use the land for commercial development, and if Connie wants to keep this a secret, she will likely resist the inclusion of your proposed contingency contract. What then? Her unwillingness to agree to the contingency should be a warning sign that something could be very wrong! Why would she resist this clause if Estate One were entirely uninterested in commercial development? Thus, contingency contracts not only protect you from lies, but also help you detect lies.
+
+EFFECTIVE HAGGLING STRATEGIES
+
+When most people think about negotiation, they think about haggling— the iterative give-and-take that takes place after each party has made its initial offer. Haggling is a necessary component of every negotiation. Why? Because it is not sufficient that parties discuss options that exist within the ZOPA; to reach a specific negotiated agreement, they must coordinate and ratify a mutually acceptable final deal. Since neither party wants to concede more than the other, each tends to concede slowly and, typically, only in response to the other side’s concessions. Nonetheless, some negotiators are excellent hagglers, while others fall prey to the other side’s influence tactics and end up conceding too much. In addition, some negotiators fail to take basic steps to ensure that the other party will not take advantage of them. Here we consider each of these issues and offer specific advice about effective haggling.
+
+STRATEGY 1: FOCUS ON THE OTHER PARTY’S BATNA AND RESERVATION VALUE
+
+Think back to when Roosevelt’s campaign manager discovered that he might owe as much as $3 million to a photographer. Instead of focusing on his own weak BATNA (reprint millions of brochures), the manager focused on the photographer’s weak BATNA (make no money and lose a publicity opportunity). In doing so, the manager not only avoided paying a high price, but also made some money on the deal. Negotiators who focus on their own BATNA (i.e., “What can I do without the other party?”) tend not to set high aspirations and are happy getting anything better than their RV. Meanwhile, those who focus on the other party’s BATNA (“What will they do without me?”) are paying attention to the amount of value they bring to the other party. These folks tend to set higher aspirations and capture more value in the deals they negotiate.
+
+STRATEGY 2: AVOID MAKING UNILATERAL CONCESSIONS
+
+Once each party has made an initial offer, it’s time to take measured steps toward a mutually acceptable agreement. Negotiation geniuses are willing to be flexible and to make concessions, but they also demand reciprocity. It is important to avoid making unilateral concessions. Luckily, a norm of reciprocity pervades most negotiation contexts: parties widely expect and understand that they will take turns making concessions. If the other party violates this norm, you should rectify this problem immediately. The next five points show how to do so.
+
+STRATEGY 3: BE COMFORTABLE WITH SILENCE
+
+Many people are uncomfortable with silence. As a result, they speak when they should not. A particularly dangerous time to speak is after you have made your offer and the other side is considering it. If the other side seems to be taking too long to respond, negotiators often grow nervous and start bargaining against themselves. Before your counterpart has even voiced a concern or a grievance, you might be tempted to retract your offer or to make further concessions.
+
+Experienced negotiators have told us that they use silence to their advantage in exactly this way. Instead of responding negatively to an offer, they simply wait it out. Very often, the party that has made the offer will begin to qualify it, moderate it, or simply signal a greater willingness to concede. Effective negotiators understand not only the power of silence, but also the need to be comfortable with it. Just remind yourself that if you speak when it is their turn, you will be paying by the word.
+
+STRATEGY 4: LABEL YOUR CONCESSIONS
+
+According to the norm of reciprocity, negotiators should reciprocate the concessions made by others. Because people are hardwired to feel obligated when someone has provided them something of value, this norm is a powerful motivator of behavior. Yet people are also motivated to undervalue or ignore the concessions of others in order to escape feelings of obligation. Our research has shown that it is easy for people not to reciprocate when the other party’s concessions are not top of mind.6 For this reason, it is critical to label your concessions. Instead of simply giving something away or moderating your demands, make it clear that your action is costly to you. Because labeled concessions are hard to ignore, it becomes difficult for recipients to justify nonreciprocity.
+
+STRATEGY 5: DEFINE WHAT IT MEANS TO RECIPROCATE
+
+Reciprocity is even more likely if you not only label your concession, but specify what you expect in return. This strategy eliminates another piece of ambiguity. Even if the other side acknowledges your concession, they might still reciprocate with something of low value unless you make it clear that such a move does not fulfill their obligation to reciprocate. For example, your concession might take the following form: “I understand that we are still millions of dollars apart. I’m willing to moderate my demands, though this will be very costly to me. I’m making a concession with the understanding that you will reciprocate with concessions of similar magnitude. This is the only way we will be able to reach an agreement we both can accept.”
+
+STRATEGY 6: MAKE CONTINGENT CONCESSIONS
+
+Contingent concessions explicitly tie your concessions to specific actions by the other party. In other words, you can phrase your concessions in a quid-pro-quo manner to clarify that you will only make them if the other party does their part. For example: “I can pay a higher price if you can promise me early delivery.”
+
+While such concessions are among the safest a negotiator can make, that doesn’t mean they are always appropriate. The more conditions you place on your concessions and your willingness to cooperate, the more difficult it may be to build trust and strengthen the relationship. Thus, contingent concessions should be used as needed, but not overused.
+
+STRATEGY 7: BE AWARE OF THE EFFECTS OF DIMINISHING RATES OF CONCESSIONS
+
+In most negotiations, concession rates follow a pattern: early concessions are larger in size than later concessions. In other words, negotiators tend to offer diminishing rates of concessions over the course of the negotiation. For example, at the car dealership, the salesperson might start at $45,000, then go to $44,000, then to $43,500, then to $43,300. This may be a reasonable trend; as a negotiator gets closer to his reservation value, there is less room for large concessions. As a result, most negotiators expect this pattern and take it as a signal that the other party’s RV is approaching. But it’s also possible that the other party could use this expectation strategically. That is, a party that is far from his RV might suggest that he is running out of room by offering concessions that quickly diminish in size. It is important to consider this possibility when updating your beliefs regarding the true size of the ZOPA.
+
+NEGOTIATING THE RELATIONSHIP
+
+Many people believe that you can either get a great deal for yourself, or you can play nice and make the other side happy. As it turns out, this is not the way it works. Whether the relationship is strengthened, weakened, or destroyed in the negotiation does depend on how satisfied each party is with the final outcome—but satisfaction has less to do with how well someone actually negotiated and much more to do with how well they think they negotiated. With this in mind, negotiation geniuses not only manage their own outcomes, they also manage the other side’s satisfaction. Put simply: you are negotiating not just the deal, but also the relationship.
+
+The people with whom you negotiate will be satisfied to the degree that they believe they got a good deal, the degree to which they felt respected, and the degree to which they felt the outcome was equitable. This means that your reputation as a negotiator hinges on your ability to manage the other party’s perceptions. Lest this advice be viewed as Machiavellian, keep in mind that we are not recommending that you surreptitiously take advantage of the other side. Indeed, some negotiators will get a bad deal for themselves (by giving up too much value) and yet manage the process so poorly that they also destroy their relationship with the other party. What we want you to keep in mind is that you always have two distinct goals in any negotiation: to get a good deal and to strengthen your relationship. Ignoring either one can be disastrous. Here are some of the ways that this plays out at the bargaining table.
+
+
+
+1. Responding to an offer that you love—one approach. Imagine that you have done your homework and carefully evaluated the ZOPA. You have thought hard about your first offer and have come up with one that you believe to be aggressive; it falls outside the ZOPA and should serve to anchor the negotiation effectively. You make the offer. The response? The other party grins and accepts your offer immediately! How do you feel? In all likelihood, you feel terrible. It dawns on you that you have misjudged the ZOPA, made a poor first offer, and failed to capture much of the value that was up for grabs. You blew it!
+
+Now turn the situation around. Imagine that the other side has made a first offer that you find surprisingly attractive. How should you respond? If you accept too quickly or too enthusiastically, you are likely to upset the other party. To increase their satisfaction from the deal, you might take some time to ponder the offer. Then, when you eventually accept the offer without enthusiasm, they are likely to feel that they got a great deal. The outcome is the same in both cases, but the latter approach makes the other side happier.
+
+
+
+2. Responding to an offer that you love—another approach. If you really want to increase your counterpart’s satisfaction from the deal, you might want to do more than simply wait before you respond. If you accept their first offer, even begrudgingly, they are likely to feel some regret and wonder whether they could have gotten more from you. This suggests a different strategy: make a counteroffer and ask for additional concessions. That is, if you really want the other side to feel satisfied with the negotiation, take more of their money! Even if they have to make some nominal concessions, they will be happier than if you accepted their first offer. This interesting result wonderfully illustrates the dissociation between outcomes and satisfaction in negotiation: satisfaction has everything to do with how well you think you did, and often little or nothing to do with how well you actually did.
+
+
+
+3. Responding to an offer that you love—yet another approach. Consider the following anecdote from Professor Richard Shell’s book Bargaining for Advantage.7 When, in the early 1930s, the Institute for Advanced Study at Princeton University was recruiting Albert Einstein, the head of the institute wrote to Einstein asking him how much he expected to be paid. Einstein wrote back: “$3,000 (annually), unless you think I can get by with less.” Now, this seems like a surprisingly dim-witted first offer from a man as smart as Einstein. But look at Princeton’s response: “We’ll pay you $15,000 a year.” Einstein accepted and the deal was done.
+
+Why didn’t Princeton accept Einstein’s low offer or, better yet, negotiate an even lower salary? For one thing, as the adage proclaims, “Time reveals truth.” Writing from Austria, Einstein may not have known how much he was worth to Princeton, but this would change when he joined the faculty in the United States. In other words, Einstein’s perception of the ZOPA may have been inaccurate while negotiations were under way; eventually, however, he would update his assessment. When he did, he might feel as if Princeton had negotiated in bad faith by accepting his uninformed initial offer. In addition, by offering Einstein five times what he requested, Princeton administrators sent a strong signal about the school’s integrity, their interest in his well-being, and their desire to negotiate in good faith. By declining to take advantage of his attractive first offer, they might have cheaply “purchased” the kind of loyalty and strong relationship that is hard to come by at the bargaining table.
+
+More generally, this story suggests that sometimes the smartest response to an offer that you love is to give something back. If you have been given an opportunity to strengthen the relationship or enhance your reputation, and all you need to do is reciprocate in kind to a generous (i.e., not aggressive) opening offer, it may be foolish to do otherwise.
+
+
+
+4. Responding to an offer that you love—a caveat! So far we have looked at this issue under the assumption that the other party has made a poor first offer that allows you to capture most of the value in the negotiation. But this assumes that your evaluation of the ZOPA is the correct one! As we have discussed earlier, such assumptions can be costly. If the other side makes an offer that appears to give you everything you could hope for and more, it is critical that you stop and ask yourself: “What do they know that I don’t?”
+
+For example, if the other side offers to buy something from you for more than you could have dreamed, you should ask yourself whether you made a mistake in estimating their reservation value. Maybe the item you are selling is more valuable than you thought. Maybe they are more desperate than you expected, or have a lot more money than you thought. In short, if you are surprised by an offer, don’t celebrate—think! You might still decide that they have made too generous an offer, but it is better to postpone your counteroffer until you are sure you know where things stand.
+
+MANAGING YOUR OWN SATISFACTION
+
+Earlier, we stated that one way to obtain better outcomes is to have high aspirations; those who set aggressive targets tend to capture more value. Here’s something we neglected to mention: those who set aggressive targets and get better outcomes as a result also tend to be less satisfied with the deals they negotiate!8 Why? Because when the negotiation is over, they compare their final outcome to their high initial aspirations. Naturally, those with high aspirations will be more likely to fall short, even though they achieved better outcomes than those who set low aspirations.
+
+Thus, increasing your satisfaction with a deal requires a simple change of mental habits: focus on your target during the negotiation; when it is over, shift your focus to your reservation value. By doing so, you will negotiate effectively (thanks to your high aspirations) and still be satisfied with your outcome afterward (because you are now comparing it with your RV). Because your satisfaction with a deal depends on your point of comparison, or reference point, it pays to pick a low reference point when there is nothing more that you can do to change the outcome.
+
+BEYOND CLAIMING VALUE
+
+So far, our focus has been almost exclusively on claiming value at the bargaining table. But claiming value is simply the tip of the iceberg in negotiation. In the next chapter, we begin to focus on a much more critical topic—one that is all too often ignored by even the most experienced negotiators: how to create value in negotiation. Negotiators who ignore this vital aspect of bargaining do so to their great disappointment and disadvantage.
+
+
+
+
+

@@ -1,0 +1,239 @@
+CHAPTER 8
+
+
+
+
+Blind Spots in Negotiation
+
+On December 15, 2004, Johnson & Johnson (J&J) agreed to buy medical products manufacturer Guidant for $25.4 billion.1 Initially, this appeared to be good news for both Guidant stockholders and for J&J, as the market believed the acquisition had synergy—that is, Guidant appeared to be worth more to J&J than as a stand-alone company.
+
+On May 24, 2005, well before J&J and Guidant could close the deal, a New York Times article disclosed that, for three years, Guidant had failed to tell doctors that its implantable defibrillator contained a flaw that had caused twenty-six of them to short-circuit and malfunction. The unit was implanted in 24,000 patients. The FDA opened an investigation into Guidant; a few weeks later, on June 17, Guidant announced a product recall of its defibrillator.
+
+On October 18, J&J indicated that it wanted to renegotiate the terms of its deal with Guidant, and on November 2, J&J released a statement saying that it believed the federal investigation and recall had affected Guidant’s “short-term results and long-term outlook.”2 On the same day, New York attorney general Eliot Spitzer announced a lawsuit against Guidant, and the FTC conditionally approved the J&J/Guidant merger. Under the terms of the agreement, J&J had forty-eight hours to execute and finalize the deal after the FTC had approved it. If J&J were to let the deadline expire, possibly citing a “material adverse change” in Guidant’s business, Guidant could sue J&J to force completion of the acquisition. J&J chose not to execute the deal within forty-eight hours. On November 7, Guidant sued J&J.3 Nine days later, as negative press surrounding Guidant continued to mount,4 J&J proposed a revised bid for Guidant of $21.5 billion.
+
+Meanwhile, virtually unmentioned throughout the initial reporting on the Guidant acquisition was another firm, Boston Scientific, which would be put at a strategic disadvantage if J&J were to acquire Guidant. Boston Scientific was a key competitor of J&J in the medical-care industry, which was now being reshaped by J&J’s bid for Guidant. Between December 14, 2004 (the day before J&J’s offer), and April 28 (the day after Guidant shareholders approved the offer), the stock price of Boston Scientific had fallen from $35.88 to $29.46 per share.
+
+By the time J&J proposed its revised bid of $21.5 billion, Boston Scientific’s stock price had fallen to $25 per share. On December 5, unable to stomach J&J’s acquisition of Guidant, Boston Scientific offered $24.7 billion for Guidant. Meanwhile, Guidant’s legal and public image problems continued to worsen; on December 27, the FDA made public a warning letter that it had sent to Guidant about problems with its products.5
+
+Negotiations involving these three companies continued into 2006. Preferring the structure of J&J’s deal over Boston Scientific’s higher-priced deal, Guidant tentatively accepted J&J’s raised offer of $23.2 billion on January 11. The next day, Boston Scientific raised its bid to $25 billion. The following day, Guidant tentatively accepted J&J’s newly revised bid of $24.2 billion. On the seventeenth, Boston Scientific offered to buy Guidant for $27 billion, well above the amount J&J had been willing to pay even prior to Guidant’s legal troubles.6 J&J decided against reraising its bid and made that decision public the next morning, on January 25.7 That day, Guidant accepted Boston Scientific’s bid of $27 billion.8 Boston Scientific had won the battle. But who had won the war?
+
+The day after having its bid accepted, Boston Scientific’s share price fell to $23.15—almost $2 lower than it had been prior to the company’s first bid for Guidant. Notably, J&J’s share price had fallen every time it announced a bid on Guidant; it had fallen 4.4 percent between the time that Boston Scientific first entered the bidding war and the day Guidant accepted Boston Scientific’s $27 billion offer. Months later, in June 2006, Boston Scientific was forced to recall 23,000 pacemakers from the Guidant division and to advise 27,000 patients with Guidant devices to consult their doctors. By now, Boston Scientific’s share price had fallen below $17 per share. Fortune magazine would later describe Boston Scientific’s acquisition of Guidant as “arguably the second-worst ever, trailing only the spectacular AOL Time Warner debacle.”9
+
+Why did Boston Scientific make decisions that caused its stock price to plummet by more than 50 percent? Why did Boston Scientific aggressively pursue the takeover of a company that had obvious technological, legal, financial, and public-image liabilities? Why did J&J initiate a process (via its initial bid for Guidant) that would lead to such a significant drop in its share price? Could J&J and Boston Scientific have foreseen and avoided what eventually transpired? We think so. Many organizations and individuals make poor decisions in competitive environments due to their failure to consider all of the relevant information. Very often, this information is both available and highly critical, yet a negotiator overlooks it because it is located in what we refer to as the negotiator’s “blind spot.” According to a phenomenon that Max and his colleague Dolly Chugh call bounded awareness, negotiators tend to focus narrowly on the decisions they must make and thus often ignore information that is relevant but outside the scope of their narrow focus.10
+
+In this chapter, we will identify the systematic ways in which negotiators make this common decision-making mistake. Specifically, we will reveal how negotiators often overlook the following factors:
+
+
+
+• the role of parties that are not at the bargaining table;
+
+• the ways in which other parties are likely to make decisions;
+
+• the role of information asymmetries;
+
+• the strength of competitors;
+
+• information that is not immediately relevant but that will be critical in the future.
+
+
+
+In each situation, we will also provide you with strategies for seeing more clearly the information that falls in your blind spot.
+
+WHEN PARTIES AWAY FROM THE TABLE ARE IN YOUR BLIND SPOT
+
+As we seek to clarify the flaws behind J&J and Boston Scientific’s costly pursuit of Guidant, consider this more abstract problem:
+
+
+
+Two companies, A and B, are the leading players in their industry. Company C, which falls in the next tier in the same industry, is worth $1 billion as a stand-alone company, and its management has announced that it would be interested in being acquired at a favorable price. Analysts have identified A and B as the obvious bidders, since the acquisition of C by either A or B would make either company the dominant player in the industry. Both A and B have analyzed the possible acquisition of C and both have concluded that C would be worth $1.2 billion if managed by A or B. This means that if A or B could acquire C for under $1.2 billion, it would be a profitable acquisition, but anything above $1.2 billion would create a net loss and would lead to a drop in the acquirer’s stock price. However, if A were to acquire C, B would be at a catastrophic disadvantage and would lose $0.5 billion. Similarly, if B were to acquire C, A would also lose $0.5 billion. Finally, if either A or B makes an offer for C, the other company will learn of the offer. So, as the CEO of Company A, what should you do?
+
+
+
+When we present this problem in our executive education classrooms, our students often suggest that A should offer C $1.1 billion. This offer, if accepted, would create a $100 million net benefit for A and a $100 million net benefit for C. Clearly, the $1.1 billion offer is in the ZOPA.
+
+But what about B? When you think about B’s position, it becomes clear that C will not have to accept A’s $1.1 billion offer. Once A has made this offer, B stands to lose $0.5 billion unless B outbids A. Rather than suffering a $0.5 billion loss, B is likely to offer $1.2 billion to break even.
+
+But what about A? Unless A bids again, A will now lose $0.5 billion. Thus, A will offer $1.3 billion, and the problem reverts to B.
+
+The pattern is now clear: each party is better off bidding again rather than losing $0.5 billion. As a result, we can easily predict that the auction will escalate until it reaches $1.7 billion, at which point it will end. One of the two competitors (A or B) will lose $0.5 billion because it has lost the deal, and the other will lose $0.5 billion because it has “won” the deal by overpaying by $0.5 billion for C. Unfortunately, as soon as the first bid is made, neither party can quit without suffering a $0.5 billion loss.
+
+What is the key to winning in this auction? First, you must recognize that any bid for the target (C) will lead to dysfunctional competition. Second, you should develop a (legal) strategy to discourage your competitor from initiating the value-destroying escalation process.
+
+Why do most of our executive students miss these solutions and instead propose that A make a bid for C? This strategy (A should bid $1.1 billion for C) results from an overly narrow definition of the scope of this negotiation. Specifically, the offer emerges when A views the negotiation as involving only A and C. If the world were that simple, A need only consider whether there is a ZOPA—i.e., whether C is worth more to A than as a stand-alone entity. But this analysis ignores two key elements: 1) the effect of A’s behavior on B’s outcomes, and 2) the rules that allow C to bring B into the game after it gets an offer from A.
+
+More broadly, the ABC story illustrates what happens when negotiators fail to consider the perspective of parties who are not at the bargaining table. Negotiation geniuses, in contrast, learn to broaden their focus to consider the impact of their actions on others and to think through the competitive dynamics that will result from their strategy.
+
+The ABC problem is based on a real case: a mid-1990s negotiation involving American Airlines, United Airlines, and USAir. Like Company C, USAir made public the fact that it was for sale at the right price. Business journalists quickly speculated that the two industry leaders, United and American Airlines, would end up in a bidding war for USAir, because the value of USAir was higher to an acquirer (United or American) than as a stand-alone company. The stakes for both potential acquirers were enormous: the sale of USAir to American would be a major setback for United; the sale of USAir to United would be a similarly damaging blow to American. In other words, American and United faced the same dilemma as companies A and B in the ABC problem. So, what did they do?
+
+Soon after USAir’s revelation that it was for sale, Robert Crandall, the CEO of American Airlines, wrote an open letter to American’s 118,000 employees that stated:11
+
+
+
+We continue to believe, as we always have, that the best way for American to increase its size and reach is by internal growth—not by consolidation…. So we will not be the first to make a bid for USAir. On the other hand, if United seeks to acquire USAir, we will be prepared to respond with a bid, or by other means as necessary, to protect American’s competitive position.
+
+
+
+While the letter was nominally addressed to American Airlines employees, it is quite possible that the message was actually intended for United. In other words, Crandall’s message to United was “Keep things as they are, or we will both end up losing a lot of money.” What was the result? No offers were made on USAir in the mid-1990s, and this became one of the few instances in which the U.S. airline industry avoided dysfunctional competition. As he considered the scope of a possible negotiation for USAir, Crandall clearly broadened his focus to include the dilemma United would face if American made a bid and the likely outcome of the bidding war that would ensue if either side made an offer.
+
+The USAir story is not unique; many other acquisition wars have a similar structure. Whenever two companies know that the loser of a bidding war will incur a loss of market value once the bidding begins, each has an incentive to continue bidding beyond the value of the target. In such battles, as in the $100 auction described in Chapter 4, it is easier to stay out of the bidding altogether than it is to get out safely once you have entered. From all appearances, even such market leaders as J&J and Boston Scientific are capable of falling into this trap.
+
+WHEN THE OTHER SIDE’S DECISION RULES ARE IN YOUR BLIND SPOT
+
+Imagine that your company, under your leadership, is considering making an offer to acquire a small firm that has invented a great new product that fits your company’s needs. You believe that your firm can uniquely add value to the smaller firm’s product. Your assessment is that the firm currently could be worth as little as $5 million or as much as $10 million in the marketplace, depending on valuation assumptions. But, due to the unique synergies that your firm could create, you value the smaller firm at roughly $14 million. You know that the other firm’s three founders own the entire firm in equal shares and they may have different opinions about the worth of their firm. How much will you offer to buy the company?
+
+Wait a minute! Suppose you learn that the three founders have an agreement that they will only sell the firm if all three agree to accept an offer. Does this new information change your offer? If so, what is your new offer?
+
+Now let’s try one more variation. Imagine instead that you learn that the founders have an agreement that, if they ever receive an offer, any one of the three can force the sale of the firm (unless the other two buy her shares at an equivalent price, which you are fairly certain the others cannot afford to do). Does this information change your offer? If so, what is your new offer?
+
+Once you realize that each of the founders is likely to have a different reservation value (i.e., a different minimum price that they require before they will sell), it becomes obvious that you need to consider what type of arrangement the three founders have regarding how and when to sell. In other words, you need to focus on their decision rules. What may be your best strategy when any one founder can ratify a sale is probably not the best strategy when every founder must agree to the sale.
+
+Imagine that each of the three founders has a different reservation value for selling the firm: Founder A’s reservation value is $6 million, Founder B’s reservation value is $7 million, and Founder C’s reservation value is $9 million. Clearly, if one founder can force the sale, you can successfully offer a much lower price—just above $6 million—because Founder A will accept this price and force the sale. If, however, all three founders must be in agreement, Founder C is the critical player, and you will have to offer more than $9 million to secure the deal. (And if majority rule was the arrangement, you would have to satisfy Founders A and B and offer more than $7 million.)
+
+Once we have analyzed this problem carefully, it becomes clear that we need to think through the decision rules, constraints, and politics of the other side. However, when we present this scenario to executives, they often fail to see the importance of considering the decision rights of the three founders. Moreover, they tell us that they do not typically focus on such issues in the real world. Instead, in situations such as the one we just described, many executives will focus entirely on financial and accounting issues, such as calculating revenue multiples, projecting financial synergies, et cetera. These calculations are clearly necessary, as they provide an objective valuation for the company and help you to understand the highest you should be willing to pay for your acquisition. But focusing only on these issues and overlooking the other side’s decision-making dynamics can lead you to pay more than is necessary.
+
+For most negotiators, the decision rules of other parties lie outside the bounds of awareness. In contrast, negotiation geniuses understand that they need to consider not only the interests of the other side, but also how the other side will evaluate and make their decisions.
+
+WHEN THE OTHER SIDE’S INFORMATION ADVANTAGE IS IN YOUR BLIND SPOT
+
+Read the following exercise and write down your response before reading further.
+
+
+
+
+
+ACQUIRING A COMPANY
+
+You represent Company A (the acquirer), and you are planning to make a tender offer, in cash, for 100 percent of Company T’s (the target) shares. The main complication is this: The value of Company T depends directly on the outcome of a major oil exploration project that it is currently undertaking. If the project fails, Company T under current management will be worth nothing (i.e., $0 per share). But if the project succeeds, the value of the company under current management could be as high as $100 per share. All share values between $0 and $100 are considered equally likely.
+
+By all estimates, the company will be worth 50 percent more in the hands of Company A than under current management. If the project fails, the company is worth $0 per share under either management. If the exploration project generates a $50 per share value under current management, the value under Company A will be $75 per share. Similarly, a $100 per share value under Company T implies a $150 per share value under Company A, and so on.
+
+One last detail: Your offer must be made now, before the outcome of the drilling project is known. Company T will accept your price per share if it is greater than the value under current management. However, Company T will delay its decision on your bid until the results of the project are known and then accept or reject your offer. Thus, you (Company A) will not know the results of the exploration project when submitting your offer, but Company T will know the results when deciding whether or not to accept your offer. No other firms are involved; the target will be acquired by you or by no one.
+
+As the representative of Company A, you are deliberating over price offers ranging from $0 per share (which is tantamount to making no offer at all) to $150 per share. What price per share offer would you tender for Company T’s stock?
+
+Your response: “My tender price is $_____ per share.”
+
+
+
+What should you, as the acquirer, offer for the target? The problem appears simple and straightforward, but it is in fact analytically complex for many people. The range of responses from the thousands of auditing partners, investment bankers, CEOs, and other executives who have participated in our executive programs is typically between $50 and $75 per share. This common—but dangerously incorrect—response is based on the logic that “on average, the firm will be worth $50 to the target and $75 to the acquirer; consequently, a sale price in this range will, on average, be profitable to both parties.” Put another way, the ZOPA (on average) ranges from $50–$75; thus, an offer in this range makes strategic sense.
+
+But let’s see what actually happens when we work through the logic of whether to make an offer in this range. Imagine, for instance, that you offer $60 per share:
+
+
+
+The $60 offer will be accepted 60 percent of the time—that is, whenever the firm is worth between $0 and $60 to the target. Since all values between $0 and $60 are equally likely, the firm will, on average, be worth $30 per share to the target. This means, it will be worth (on average) $45 per share to the acquirer. Because the offer is for $60 per share, the acquirer will lose (on average) $15 per share. Consequently, a $60 per share offer is unwise.
+
+
+
+If you work through the logic, a similar analysis applies to any positive offer. On average, for an offer to be accepted at all, the acquirer will get a company worth 25 percent less than the price paid. This is because, for any offer that is accepted, the value of the company (after exploration) will fall anywhere between $0 and the amount offered, with all values equally likely. Thus, on average, the firm will be worth half of the offered value to the target and three-fourths of the offered value to the acquirer. As a result, all offers above $0 per share are more likely to lose money than to make money. This means you should have offered $0 per share.
+
+The key to this paradox is the target firm’s information advantage. Specifically, because the target will accept the acquirer’s offer only after the exploration project is complete, the target will sell the firm sometimes when it is profitable for the acquirer, but very often when it is of extremely low value—that is, when it is a “lemon.”
+
+George Akerlof won the Nobel Prize in Economics for research demonstrating that the selective acceptance of offers can lead to market distortions.12 For instance, Akerlof noted, the average used car on the market is not an average-quality used car, since car owners tend to hold on to good cars or sell them to relatives or friends. The worse the car, the more likely it is to enter the general marketplace. Knowing this, buyers should reasonably become wary; the result is a lowering of the value that you can get for your used car, even when you are trying to sell a good product.
+
+Akerlof’s analysis highlights the danger of being the less-informed party in a negotiation—a common situation for buyers. But why don’t smart people foresee this problem and avoid making an offer in the “Acquiring a Company” exercise? Because we have a tendency to systematically exclude critical information regarding what the other side knows in our analysis. Specifically, we fail to recognize that the benefit to us of making an offer depends on the offer being accepted by the other party, and that acceptance is most likely to occur when we have offered too much! This phenomenon is the embodiment of the winner’s curse problem.
+
+The winner’s curse describes situations in which a bidder gets a prize, but only by paying more than the item is worth, due to his or her failure to consider the information advantage of the other party. The winner’s curse is a specific form of a blind spot in which the key is the informational advantage of the other side. Groucho Marx appeared to grasp the intuition behind the “winner’s curse” when he quipped that he didn’t want to belong to any club that would have him as a member. If a club’s standards were so low as to accept him, he didn’t want any part of it.
+
+Many people believe that experience is the key to avoiding the winner’s curse. In this case, however, experience is not the solution. Max and his colleagues Sheryl Ball and John Carroll tested the ability of bright MBA students to learn to avoid the winner’s curse.13 These students played twenty trials of the Acquiring a Company exercise, where they earned real money based on the profitability of their decisions. Participants received full feedback immediately after each trial, based on a randomly selected value of the firm; in addition, we let them observe changes (which were overwhelmingly decreases) in their asset balance. Despite the mounting evidence that bidding above $0 was poor strategy, and despite the accumulation of financial losses, across the twenty trials, participants failed to learn the correct response; the mean bid continued to hover above $50 per share. In fact, only five out of seventy-two participants from a leading MBA program learned to make a bid of zero over the course of the trials. In more recent research, these errors were shown to persist even after one hundred trials.14
+
+How, then, can you avoid becoming a victim of the winner’s curse?
+
+
+
+1. Imagine how you will feel if your offer is immediately accepted. Before making an offer, imagine that the other side will immediately accept the offer that you plan to make (for the car, the house, or the company). Now ask yourself, “Does her acceptance tell me anything about the value of the commodity? Does she know something that I don’t know, and does that reason explain her acceptance?” The winner’s curse results not from an inability to think about the decisions of other parties, but from our failure to consider the effect of their information advantage.
+
+
+
+2. Seek out objective, expert advice. Another strategy for your most important negotiations is to obtain the help of an expert, such as a mechanic’s unbiased evaluation of a used car, a professional inspector’s assessment of a house, or a high-quality, independent valuation of a target firm.
+
+
+
+3. Make your offer on a contingency basis. More generally, whenever you are dealing with a better-informed counterpart in the midst of an important transaction, you should seek to lessen the impact of the other side’s information advantage. Consider the following way in which an acquirer in the Acquiring a Company exercise could profitably offer a value above $0. Instead of offering a precise dollar value per share, the acquirer could agree to pay a fixed percentage above the firm’s value after exploration. For example, if the agreement was to pay 25 percent above value per share to Company T, both companies would stand to benefit from the eventual sale. Contingency clauses are in fact common features of acquisition agreements.
+
+WHEN THE STRENGTH OF THE COMPETITION IS IN YOUR BLIND SPOT
+
+Imagine that your company is in a patent race against four other firms. The first company to complete the scientific research needed for the patent will earn an enormous market advantage, but the research is very expensive. The four firms that lose the patent race will lose their entire R&D investment.
+
+You ask your chief scientist for an assessment of the likelihood that your company will win the patent race. “This is not a difficult engineering problem for us,” he tells you. “We have a 40 percent chance of winning.”
+
+Should you trust that assessment? How could you get a more accurate estimate?
+
+Here is another situation where recent psychological research can help you. Researcher Don Moore has shown that people are much more willing to bet on their likelihood of winning a competition against others when they are asked to perform a familiar or objectively easy task than when they are asked to perform an objectively difficult task.15 Of course, what people often fail to realize is that if the task is easy for you, it is likely to be easy for your competitor as well; the same is true for difficult tasks. In other words, if the challenge is adding up two-digit numbers, which you consider easy, you may be overconfident about winning. But if you’re hesitant about entering a juggling competition for amateurs, you may have lost sight of how hard it is for the other contestants as well. The same principle can operate in a complex R&D decision.
+
+Research on reference group neglect16 follows a similar pattern. Decision researchers Colin Camerer and Dan Lovallo show that companies tend to focus on their unique skills, products, distribution system, and so on, while the quality of their competition stays out of focus. For example, competitors often fail to assess the strength of their competition when deciding whether to enter a market—an extremely costly mistake.
+
+The good news is that it is possible to fix this problem by explicitly focusing on the unique capabilities of the competition.17 When we focus on our competitors individually, we are able to more accurately assess the other side’s likelihood of success (and by extension, our own likelihood of failure).
+
+Returning to the patent forecast, how should you interpret your chief scientist’s response? At the very least, you should ask yourself the following questions:
+
+
+
+1) Has she considered the fact that this is an easy engineering problem for us but overlooked the fact that it may also be easy for our competitors?
+
+2) Has she focused on our firm’s unique skills and overlooked the advantages and threats posed by our competitors?
+
+3) Has she considered, individually, each competing firm’s likelihood of winning, or has she lumped all “others” into one combined threat?
+
+
+
+Having considered these possibilities, you might discover that, while the 40 percent estimate may be a good indication of how well your R&D is developing (“Things are going great!”), it may not capture the threat posed by your competitors (things may be going great for them as well).
+
+WHEN THE FUTURE IS IN YOUR BLIND SPOT
+
+Max recently developed and taught (as part of a team) a course for the most senior executives of one of the twenty largest firms in the world. This firm often creates long-term contracts and makes significant investments in nations that are in flux and where business relations do not always follow Western expectations. They wanted the very best corporate diplomacy training possible.
+
+One negotiation case we presented was set in a country where many of the executives had negotiated or would soon be negotiating. The case itself was based on a recent episode involving the firm. We also invited high-level former diplomats to sit in on the classes. These diplomats had worked in the country where our case occurred, and we could call on them to provide insight into local customs, changing political circumstances, and business norms. They provided this knowledge, and also much more.
+
+The key insight offered by these diplomats was that effective negotiators must begin to think more broadly about what it means to collect “relevant” information. Often, it is not obvious what is—or might one day become—relevant, or perhaps even crucial. Because most negotiators are too focused on the “current” opportunity, problem, or crisis, they do a poor job of asking the questions and collecting the information that they will need in the future.
+
+Here are some of the important questions that the diplomats posed:
+
+
+
+• How will changing laws affect the wisdom of the transaction?
+
+• What precedent are you creating for future deals?
+
+• How can you gain information about the key personnel of an organization with which you plan to pursue a joint venture?
+
+• How will the partner firm’s competitors react to the joint venture?
+
+• How much power do these competitors have? What is the source of their power?
+
+• What assumptions are you making when you estimate the long-term success of this strategy?
+
+
+
+As the discussion continued, it became clear that the executives involved in the actual case had not asked the questions that the diplomats were now identifying; if they had done so, the corporation’s business development activities would have been more successful.
+
+This “diplomat’s perspective” is shared by many negotiators and dealmakers who have had the experience of negotiating in contexts that are culturally distinct from their own or in dynamic environments. In 2002, the Program on Negotiation at the Harvard Law School presented United Nations ambassador Lakhdar Brahimi with its annual “Great Negotiator” award. The award recognized Brahimi’s many diplomatic accomplishments, chief among them his role in mediating the political negotiations that followed the overthrow of the Taliban government as the UN secretary general’s special envoy to Afghanistan in 2002. Brahimi had also headed UN troubleshooting missions to Yemen, Liberia, Sudan, Nigeria, South Africa, and other nations in crisis. During a panel discussion, Brahimi was asked how he prepared for the difficult and complex negotiation in Afghanistan. Brahimi recalled the advice an “old British diplomat” had once given him: “You go somewhere and you try and understand that country because one day you may need to negotiate with that country.”18
+
+Negotiation geniuses—in business, in politics, and in everyday life—do not begin to focus on a situation only after it erupts into a crisis. Rather, they prepare for eventualities well in advance. They are able to do so because they understand the difference between focusing narrowly on information that seems relevant to the present concern and focusing globally on information that may one day make the difference between success and failure.
+
+WHEN WHAT IS RIGHT IN FRONT OF YOUR EYES IS IN YOUR BLIND SPOT
+
+In the 1970s, Ulric Neisser, a psychologist at Cornell University, created a now-famous video that showed two superimposed groups of students passing basketballs to each other.19 In the video, one group wore white shirts and passed a basketball to one another, and the other group wore dark shirts, and passed a different basketball to one another. We have often shown this video to our executive and MBA students and asked them to count the number of times the members of the white-shirt group pass the ball. Because the two groups were filmed separately and then superimposed, the pass-counting task is difficult; the viewers have to pay close attention to avoid confusing the two different basketballs.
+
+Many of our students are able to accurately count the total number of passes: eleven. Yet most of them miss something. After the players in the white shirts make their fourth pass, a person holding an open umbrella walks from one end of the screen to the other, passing right in front of the two groups of students. Anyone watching this video who has not been asked to count passes immediately spots the person with the umbrella. However, among viewers who are busy counting passes, typically only between 5–20 percent see the person carrying an umbrella! Full disclosure: neither Deepak nor Max saw it the first time they saw the video. Neisser referred to this phenomenon as inattentional blindness.20 This blindness is not due to a flaw in our vision; rather, it is a natural consequence of the human mind’s limited ability to focus on multiple tasks simultaneously.
+
+If it is this easy to miss an image that is (literally) right in front of your eyes, imagine how much easier it is to miss issues, interests, and perspectives that are important to the other party, but which are not in plain sight because they are less critical to you.
+
+EXPANDING YOUR AWARENESS
+
+Certainly, the ability to focus narrowly on a problem is a critical skill that allows us to complete many tasks effectively and efficiently. But the research on bounded awareness should cause you to wonder what you may have missed during periods of intense focus in negotiation. When you are busy estimating the other side’s maximum willingness to pay, are you ignoring the effect that this deal will have on your competitors? When you are focusing on the potential for synergy with your acquisition target, are you overlooking the possibility that influential and self-interested decision makers could derail the negotiation? When you are busy explaining to the customer how many of their problems your product or service will solve, are you ignoring other interests and concerns that could push them toward your competitors? When, as a new player in the industry, you are doing everything possible to increase your firm’s revenue, are you ignoring future difficulties you could face when you want to transition into a high-margin business model?
+
+If these problems sound familiar, you probably want to know how to have the best of both worlds in negotiation: focusing intently when necessary and expanding your awareness to include elements that are typically in your blind spot. How can you accomplish these seemingly contradictory tasks? First, the content of this chapter should help you predict which factors will typically fall in your blind spot. You should be extra vigilant in seeking out such commonly “invisible” information. Furthermore, the more important and complex the negotiation, the more necessary it is for you to seek out information that tends to fall in your blind spot.
+
+Another strategy is to take time to reflect on your most important past negotiations. Did you miss any important opportunities? Did you fail to explore information that may have helped you? How would you have found that information? The answers to these questions may provide hints as to how you can improve information gathering and strategy development in your current and upcoming negotiations.
+
+Finally, you can simplify the task of gathering and synthesizing information from diverse sources by enlisting the help of others in your organization. For your most important negotiations, assemble a team whose purpose is to expose blind spots. Define the roles of your team members by putting each person in charge of a particular blind spot. For instance, one person could be in charge of assessing and monitoring parties that are not at the table, another person could be in charge of evaluating the strength of competitors, and so on. Then, set aside time (e.g., during your weekly meeting) for each person to update the group and for the team to revise its strategy accordingly. Just as “many hands make light work,” the many eyes of your team can lighten the task of expanding your awareness.
+
+WHY NEGOTIATION GENIUSES HAVE FEW BLIND SPOTS
+
+Does it seem as if we have identified too many areas for you to focus on while negotiating? If so, you can make easier the task of increasing your awareness by adopting the investigative negotiation perspective outlined in Chapter 3. If you approach every negotiation as a mystery to be solved and make it a point to carefully identify your assumptions, you will naturally gravitate toward the sources of information that many negotiators ignore. It is when we overestimate the value of what we know and underestimate the value of what others know that we fall victim to those elements of negotiation that lurk in our blind spot. By adopting an investigative mind-set, negotiation geniuses avoid this fate. Genius, then, is sometimes nothing more than taking the time to see that to which others have turned a blind eye.
+
+
+
+
+

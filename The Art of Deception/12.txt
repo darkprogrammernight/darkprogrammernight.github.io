@@ -1,0 +1,638 @@
+chapter
+
+12
+
+Attacks on the
+Entry-Level Employee
+
+a
+
+s many of the stories here demonstrate, the skilled social engineer
+often targets lower-level personnel in the organizational hierarchy.
+It can be easy to manipulate these people into revealing seemingly
+innocuous information that the attacker uses to advance one step closer to
+obtaining more sensitive company information.
+An attacker targets entry-level employees because they are typically
+unaware of the value of specific company information or of the possible
+results of certain actions. Also, they tend to be easily influenced by some
+of the more common social engineering approaches—a caller who invokes
+authority; a person who seems friendly and likeable; a person who appears
+to know people in the company who are known to the victim; a request
+that the attacker claims is urgent; or the inference that the victim will gain
+some kind of favor or recognition.
+Here are some illustrations of the attack on the lower-level employee in
+action.
+
+THE HELPFUL SECURITY GUARD
+Swindlers hope to find a person who’s greedy because they are the ones
+most likely to fall for a con game. Social engineers, when targeting someone such as a member of a sanitation crew or a security guard, hope to find
+someone who is good-natured, friendly, and trusting of others. They are
+the ones most likely to be willing to help. That’s just what the attacker had
+in mind in the following story.
+
+13237124 Ch12.F
+
+
+
+
+
+Elliot’s View
+Date/time: 3:26 A.M. on a Tuesday morning in February 1998.
+Location: Marchand Microsystems facility, Nashua, New Hampshire
+
+Elliot Staley knew he wasn’t supposed to leave his station when he wasn’t
+on his scheduled rounds. But it was the middle of the night, for crying out
+loud, and he hadn’t seen a single person since he had come on duty. And
+it was nearly time to make his rounds anyway. The poor guy on the telephone sounded like he really needed help. And it makes a person feel fine
+when they can do a little good for somebody.
+
+Chapter 12
+
+196
+
+Bill’s Story
+Bill Goodrock had a simple goal, one he had held on to, unaltered, since
+age twelve: to retire by age twenty-four, not ever touching a penny of his
+trust fund. To show his father, the almighty and unforgiving banker, that
+he could be a success on his own.
+Only two years left and it’s by now perfectly clear he won’t make his fortune in the next twenty-four months by being a brilliant businessman and
+he won’t do it by being a sharp investor. He once wondered about robbing
+banks with a gun but that’s just the stuff of fiction—the risk-benefit
+tradeoff is so lousy. Instead he daydreams about doing a Rifkin—robbing
+a bank electronically.
+The last time Bill was in Europe with the family, he opened a bank
+account in Monaco with 100 Francs. It still has only 100 francs in it, but
+he has a plan that could help it reach seven digits in a hurry. Maybe even
+eight if he’s lucky.
+Bill’s girlfriend Annemarie worked in M&A for a large Boston bank.
+One day while waiting at her offices until she got out of a late meeting, he
+gave in to curiosity and plugged his laptop into an Ethernet port in the
+conference room he was using. Yes!—he was on their internal network,
+connected inside the bank’s network . . . behind the corporate firewall.
+That gave him an idea.
+He pooled his talent with a classmate who knew a young woman named
+Julia, a brilliant computer science Ph.D. candidate doing an internship at
+Marchand Microsystems. Julia looked like a great source for essential
+insider information. They told her they were writing a script for a movie
+and she actually believed them. She thought it was fun making up a story
+with them and giving them all the details about how you could actually
+bring off the caper they had described. She thought the idea was brilliant,
+actually, and kept badgering them about giving her a screen credit, too.
+
+13237124 Ch12.F
+
+
+
+
+
+They warned her about how often screenplay ideas get stolen and made
+her swear she’d never tell anyone.
+Suitably coached by Julia, Bill did the risky part himself and never
+doubted he could bring it off.
+
+echo ‘fix:x:0:0::/:/bin/sh’ >> /etc/passwd
+
+Finally he got it right, and we had now provided an account with a
+name fix. And then I had him type
+echo ‘fix::10300:0:0’ >> /etc/shadow
+
+This established the encrypted password, which goes between the double colon. Putting nothing between those two colons meant the account
+would have a null password. So just those two commands was all it took
+
+197
+Attacks on the Entry-Level Employee
+
+I called in the afternoon and managed to find out that the night supervisor of the security force was a man named Isaiah Adams. At 9:30 that
+night I called the building and talked to the guard on the lobby security
+desk. My story was all based on urgency and I made myself sound a little
+panicky. “I’m having car trouble and I can’t get to the facility,” I said. “I
+have this emergency and I really need your help. I tried calling the guard
+supervisor, Isaiah, but he’s not at home. Can you just do me this one-time
+favor, I’d really appreciate it?”
+The rooms in that big facility were each labeled with a mail-stop code
+so I gave him the mail-stop of the computer lab and asked him if he knew
+where that was. He said yes, and agreed to go there for me. He said it
+would take him a few minutes to get to the room, and I said I’d call him
+in the lab, giving the excuse that I was using the only phone line available
+to me and I was using it to dial into the network to try to fix the problem.
+He was already there and waiting by the time I called, and I told him
+where to find the console I was interested in, looking for one with a paper
+banner reading “elmer”—the host that Julia had said was used to build the
+release versions of the operating system that the company marketed.
+When he said he had found it, I knew for sure that Julia had been feeding us good information and my heart skipped a beat. I had him hit the
+Enter key a couple of times, and he said it printed a pound sign. Which
+told me the computer was logged in as root, the superuser account with
+all system privileges. He was a hunt-and-peck typist and got all in a sweat
+when I tried to talk him through entering my next command, which was
+more than a bit tricky:
+
+13237124 Ch12.F
+
+Chapter 12
+
+198
+
+
+
+
+
+to append the account fix to the password file, with a null password. Best
+of all, the account would have the same privileges as a superuser.
+The next thing I had him do was to enter a recursive directory command that printed out a long list of file names. Then I had him feed the
+paper forward, tear it off, and take it with him back to his guard desk
+because “I may need you to read me something from it later on.”
+The beauty of this was that he had no idea he had created a new
+account. And I had him print out the directory listing of filenames
+because I needed to make sure the commands he typed earlier would leave
+the computer room with him. That way the system administrator or operator wouldn’t spot anything the next morning that would alert them there
+had been a security breach.
+I was now set up with an account, a password, and full privileges. A little before midnight I dialed in and followed the instructions Julia had
+carefully typed up “for the screenplay.” In a blink I had access to one of
+the development systems that contained the master copy of the source
+code for the new version of the company’s operating system software.
+I uploaded a patch that Julia had written, which she said modified a routine in one of the operating system’s libraries. That patch would, in effect,
+create a covert backdoor that would allow remote access into the system
+with a secret password.
+
+note
+The type of backdoor used here does not change the operating system login
+program itself. Rather, a specific function contained within the dynamic
+library used by the login program is replaced to create the secret entry point.
+In typical attacks, computer intruders often replace or patch the login
+program itself, but sharp system administrators can detect the change by
+comparing it to the version shipped on media such as CD, or by other
+distribution methods.
+
+I carefully followed the instructions she had written down for me, first
+installing the patch, then taking steps that removed the fix account and
+wiped clean all audit logs so there would be no trace of my activities, effectively erasing my tracks.
+Soon the company would begin shipping the new operating system
+upgrade to their customers: Financial institutions all over the world. And
+every copy they sent out would include the backdoor I had placed into the
+master distribution before it was sent out, allowing me to access any computer system of every bank and brokerage house that installed the upgrade.
+
+13237124 Ch12.F
+
+
+
+
+
+lingo
+PATCH Traditionally a piece of code that, when placed in an executable
+program, fixes a problem.
+
+Of course, I wasn’t quite home free—there would still be work to do. I’d
+still have to gain access to the internal network of each financial institution I wanted to “visit.” Then I’d have to find out which of their computers was used for money transfers, and install surveillance software to learn
+the details of their operations and exactly how to transfer funds.
+All of that I could do long distance. From a computer located anywhere.
+Say, overlooking a sandy beach. Tahiti, here I come.
+I called the guard back, thanked him for his help, and told him he could
+go ahead and toss the printout.
+
+199
+Attacks on the Entry-Level Employee
+
+Analyzing the Con
+The security guard had instructions about his duties, but even thorough,
+well-thought-out instructions can’t anticipate every possible situation.
+Nobody had told him the harm that could be done by typing a few keystrokes on a computer for a person he thought was a company employee.
+With the cooperation of the guard, it was relatively easy to gain access
+to a critical system that stored the distribution master, despite the fact that
+it was behind the locked door of a secure laboratory. The guard, of course,
+had keys to all locked doors.
+Even a basically honest employee (or, in this case, the Ph.D. candidate
+and company intern, Julia) can sometimes be bribed or deceived into
+revealing information of crucial importance to a social engineering attack,
+such as where the target computer system is located and—the key to the
+success of this attack—when they were going to build the new release of
+the software for distribution. That’s important, since a change of this kind
+made too early has a higher chance of being detected or being nullified if
+the operating system is rebuilt from a clean source.
+Did you catch the detail of having the guard take the printout back to
+the lobby desk and later destroying it? This was an important step. When
+the computer operators came to work the next workday, the attacker
+didn’t want them to find this damning evidence on the hard-copy terminal, or notice it in the trash. Giving the guard a plausible excuse to take
+the printout with him avoided that risk.
+
+13237124 Ch12.F
+
+
+
+
+
+mitnick
+message
+When the computer intruder cannot gain physical access to a computer system or
+network himself, he will try to manipulate another person to do it for him. In
+cases where physical access is necessary for the plan, using the victim as a proxy
+is even better than doing it himself, because the attacker assumes much less risk
+of detection and apprehension.
+
+THE EMERGENCY PATCH
+You would think a tech support guy would understand the dangers of giving access to the computer network to an outsider. But when that outsider
+is a clever social engineer masquerading as a helpful software vendor, the
+results might not be what you expect.
+
+Chapter 12
+
+200
+
+A Helpful Call
+The caller wanted to know Who’s in charge of computers there? and the
+telephone operator put him through to the tech support guy, Paul Ahearn.
+The caller identified himself as “Edward, with SeerWare, your database
+vendor. Apparently a bunch of our customers didn’t get the email about
+our emergency update, so we’re calling a few for a quality control check to
+see whether there was a problem installing the patch. Have you installed
+the update yet?”
+Paul said he was pretty sure he hadn’t seen anything like that.
+Edward said, “Well, it could cause intermittent catastrophic loss of data,
+so we recommend you get it installed as soon as possible.” Yes, that was
+something he certainly wanted to do, Paul said. “Okay,” the caller
+responded. “We can send you a tape or CD with the patch, and I want to
+tell you, it’s really critical—two companies already lost several days of
+data. So you really should get this installed as soon as it arrives, before it
+happens to your company.”
+“Can’t I download it from your Web site?” Paul wanted to know.
+“It should be available soon—the tech team has been putting out all
+these fires. If you want, we can have our customer support center install it
+for you, remotely. We can either dial up or use Telnet to connect to the
+system, if you can support that.”
+“We don’t allow Telnet, especially from the Internet—it’s not secure,”
+Paul answered. “If you can use SSH, that’d be okay,” he said, naming a
+product that provides secure file transfers.
+
+13237124 Ch12.F
+
+
+
+
+
+“Yeah. We have SSH. So what’s the IP address?”
+Paul gave him the IP address, and when Andrew asked, “and what username and password can I use,” Paul gave him those, as well.
+Analyzing the Con
+Of course that phone call might really have come from the database manufacturer. But then the story wouldn’t belong in this book.
+The social engineer here influenced the victim by creating a sense of fear
+that critical data might be lost, and offered an immediate solution that
+would resolve the problem.
+Also, when a social engineer targets someone who knows the value of
+the information, he needs to come up with very convincing and persuasive arguments for giving remote access. Sometimes he needs to add the
+element of urgency so the victim is distracted by the need to rush, and
+complies before he has had a chance to give much thought to the request.
+
+THE NEW GIRL
+
+Sarah’s Call
+“Human Resources, this is Sarah.”
+“Hi, Sarah. This is George, in the parking garage. You know
+the access card you use to get into the parking garage
+and elevators? Well, we had a problem and we need to
+reprogram the cards for all the new hires from the last
+fifteen days.”
+“So you need their names?”
+“And their phone numbers.”
+“I can check our new hire list and call you back. What’s your
+phone number?”
+“I’m at 73 . . . Uh, I’m going on break, how about if I call
+you back in a half-hour?”
+“Oh. Okay.”
+When he called back, she said:
+
+201
+Attacks on the Entry-Level Employee
+
+What kind of information in your company’s files might an attacker want
+to gain access to? Sometimes it can be something you didn’t think you
+needed to protect at all.
+
+13237124 Ch12.F
+
+
+
+
+
+“Oh, yes. Well, there’s just two. Anna Myrtle, in Finance,
+she’s a secretary. And that new VP, Mr. Underwood.”
+“And the phone numbers?”
+“Right. . . . Okay, Mr. Underwood is 6973. Anna Myrtle is
+2127.”
+“Hey, you’ve been a big help. Thanks.”
+
+Anna’s Call
+“Finance, Anna speaking.”
+“I’m glad I found somebody working late. Listen, this is Ron
+Vittaro, I’m publisher of the business division. I don’t
+think we’ve been introduced. Welcome to the company.”
+“Oh, thank you.”
+“Anna, I’m in Los Angeles and I’ve got a crisis. I need to take
+about ten minutes of your time.”
+“Of course. What do you need?”
+“Go up to my office. Do you know where my office is?
+“No.”
+
+Chapter 12
+
+202
+
+“Okay, it’s the corner office on the fifteenth floor—room
+1502. I’ll call you there in a few minutes. When you get
+to the office, you’ll need to press the forward button on
+the phone so my call won’t go directly to my voice
+mail.”
+“Okay, I’m on my way now.”
+Ten minutes later she was in his office, had cancelled his call
+forwarding and was waiting when the phone rang. He told
+her to sit down at the computer and launch Internet Explorer.
+When it was running he told her to type in an address:
+www.geocities.com/ron_insen/manuscript.doc.exe.
+A dialog box appeared, and he told her to click Open. The
+computer appeared to start downloading the manuscript, and
+then the screen went blank. When she reported that something seemed to be wrong, he replied, “Oh, no. Not again. I’ve
+been having a problem with downloading from that Web site
+every so often but I thought it was fixed. Well, okay, don’t
+worry, I’ll get the file another way later.” Then he asked her to
+restart his computer so he could be sure it would start up
+properly after the problem she had just had. He talked her
+through the steps for rebooting.
+When the computer was running again properly, he thanked
+her warmly and hung up, and Anna went back to the Finance
+department to finish the job she had been working on.
+
+13237124 Ch12.F
+
+
+
+
+
+lingo
+SPYWARE Specialized software used to covertly monitor a target’s computer activities. One form is used to track the sites visited by Internet shoppers so that on-line advertisements can be tailored to their surfing habits.
+The other form is analogous to a wiretap, except that the target device is a
+computer. The software captures the activities of the user, including passwords and keystrokes typed, email, chat conversations, instant messenger,
+all the Web sites visited, and screenshots of the display screen.
+
+203
+Attacks on the Entry-Level Employee
+
+Kurt Dillon’s Story
+Millard-Fenton Publishers was enthusiastic about the new author they
+were just about to sign up, the retired CEO of a Fortune 500 company
+who had a fascinating story to tell. Someone had steered the man to a
+business manager for handling his negotiations. The business manager
+didn’t want to admit he knew zip about publishing contracts, so he hired
+an old friend to help him figure out what he needed to know. The old
+friend, unfortunately, was not a very good choice. Kurt Dillon used what
+we might call unusual methods in his research, methods not entirely
+ethical.
+Kurt signed up for a free site on Geocities, in the name of Ron Vittaro,
+and loaded a spyware program onto the new site. He changed the name of
+the program to manuscript.doc.exe, so the name would appear to be a
+Word document and not raise suspicion. In fact, this worked even better
+than Kurt had anticipated; because the real Vittaro had never changed a
+default setting in his Windows operating system called “Hide file extensions for known file types.” Because of that setting the file was actually displayed with the name manuscript.doc.
+Then he had a lady friend call Vittaro’s secretary. Following Dillon’s
+coaching, she said, “I’m the executive assistant to Paul Spadone, president
+of Ultimate Bookstores, in Toronto. Mr. Vittaro met my boss at a book
+fair a while back, and asked him to call to discuss a project they might do
+together. Mr. Spadone is on the road a lot, so he said I should find out
+when Mr. Vittaro will be in the office.”
+By the time the two had finished comparing schedules, the lady friend
+had enough information to provide the attacker with a list of dates when
+Mr. Vittaro would be in the office. Which meant he also knew when
+Vittaro would be out of the office. It hadn’t required much extra conversation to find out that Vittaro’s secretary would be taking advantage of his
+absence to get in a little skiing. For a short span of time, both would be
+out of the office. Perfect.
+
+13237124 Ch12.F
+
+
+
+
+
+lingo
+SILENT INSTALL A method of installing a software application without the
+computer user or operator being aware that such action is taking place.
+
+Chapter 12
+
+204
+
+The first day they were supposed to be gone he placed a pretext urgent
+call just to make sure, and was told by a receptionist that “Mr. Vittaro is
+not in the office and neither is his secretary. Neither of them is expected
+any time today or tomorrow or the next day.”
+His very first try at conning a junior employee into taking part in his
+scheme was successful, and she didn’t seem to blink an eye at being told
+to help him by downloading a “manuscript,” which was actually a popular, commercially available spyware program that the attacker had modified for a silent install. Using this method, the installation would not be
+detected by any antivirus software. For some strange reason, antivirus
+manufacturers do not market products that will detect commercially available spyware.
+Immediately after the young woman had loaded the software onto
+Vittaro’s computer, Kurt went back up to the Geocities site and replaced
+the doc.exe file with a book manuscript he found on the Internet. Just in
+case anyone stumbled on the ruse and returned to the site to investigate
+what had taken place, all they’d find would be an innocuous, amateurish,
+unpublishable book manuscript.
+Once the program had been installed and the computer rebooted, it was
+set to immediately become active. Ron Vittaro would return to town in a
+few days, start to work, and the spyware would begin forwarding all the
+keystrokes typed on his computer, including all outgoing emails and
+screen shots showing what was displayed on his screen at that moment. It
+would all be sent at regular intervals to a free email service provider in the
+Ukraine.
+Within a few days after Vittaro’s return, Kurt was plowing through the
+log files piling up in his Ukrainian mailbox and before long had located
+confidential emails that indicated just how far Millard-Fenton Publishing
+was willing to go in making a deal with the author. Armed with that
+knowledge, it was easy for the author’s agent to negotiate much better
+terms than originally offered, without ever running the risk of losing
+the deal altogether. Which, of course, meant a bigger commission for the
+agent.
+
+13237124 Ch12.F
+
+
+
+
+
+PREVENTING THE CON
+A social engineer will always prefer to target an employee who is unlikely
+to recognize that there is something suspicious about his requests. It
+makes his job not only easier, but also less risky—as the stories in this
+chapter illustrate.
+
+mitnick
+message
+Asking a coworker or subordinate to do a favor is a common practice. Social engineers know how to exploit people’s natural desire to help and be a team player.
+An attacker exploits this positive human trait to deceive unsuspecting employees
+into performing actions that advance him toward his goal. It’s important to understand this simple concept so you will be more likely to recognize when another
+person is trying to manipulate you.
+
+205
+Attacks on the Entry-Level Employee
+
+Analyzing the Con
+In this ruse, the attacker made his success more likely by picking a new
+employee to act as his proxy, counting on her being more willing to cooperate and be a team player, and being less likely to have knowledge of the
+company, its people, and good security practices which could thwart the
+attempt.
+Because Kurt was pretexting as a vice president in his conversation with
+Anna, a clerk in Finance, he knew that it would be very unlikely that she
+would question his authority. On the contrary, she might entertain the
+thought that helping a VP could gain her favor.
+And the process he walked Anna through that had the effect of installing
+the spyware appeared innocuous on its face. Anna had no idea that her
+seemingly innocent actions had set an attacker up to gain valuable information that could be used against the interests of the company.
+And why did he choose to forward the VP’s message to an email account
+in the Ukraine? For several reasons a far-off destination makes tracing or
+taking action against an attacker much less likely. These types of crimes
+are generally considered low priority in countries like this, where the
+police tend to hold the view that committing a crime over the Internet
+isn’t a noteworthy offense. For that reason, using email drops in countries
+that are unlikely to cooperate with U.S. law enforcement is an attractive
+strategy.
+
+13237124 Ch12.F
+
+
+
+
+
+Deceiving the Unwary
+I’ve emphasized earlier the need to train employees thoroughly enough
+that they will never allow themselves to be talked into carrying out the
+instructions of a stranger. All employees also need to understand the danger of carrying out a request to take any action on another person’s computer. Company policy should prohibit this except when specifically
+approved by a manager. Allowable situations include:
+•
+
+•
+•
+
+Chapter 12
+
+206
+
+When the request is made by a person well known to you, with
+the request made either face-to-face, or over the telephone
+when you unmistakably recognize the voice of the caller.
+When you positively verify the identity of the requestor
+through approved procedures.
+When the action is authorized by a supervisor or other person
+in authority who is personally familiar with the requestor.
+
+Employees must be trained not to assist people they do not personally
+know, even if the person making the request claims to be an executive.
+Once security policies concerning verification have been put in place,
+management must support employees in adhering to these policies, even
+when it means that an employee challenges a member of the executive
+staff who is asking the employee to circumvent a security policy.
+Every company also needs to have policies and procedures that guide
+employees in responding to requests to take any action with computers or
+computer-related equipment. In the story about the publishing company,
+the social engineer targeted a new employee who had not been trained
+on information security policies and procedures. To prevent this type of
+attack, every existing and new employee must be told to follow a simple
+rule: Do not use any computer system to perform an action requested by
+a stranger. Period.
+Remember that any employee who has physical or electronic access to a
+computer or an item of computer-related equipment is vulnerable to
+being manipulated into taking some malicious action on behalf of an
+attacker.
+Employees, and especially IT personnel, need to understand that allowing an outsider to gain access to their computer networks is like giving your
+bank account number to a telemarketer or giving your telephone calling
+card number to a stranger in jail. Employees must give thoughtful attention to whether carrying out a request can lead to disclosure of sensitive
+information or the compromising of the corporate computer system.
+
+13237124 Ch12.F
+
+
+
+
+
+IT people must also be on their guard against unknown callers posing
+as vendors. In general, a company should consider having specific people
+designated as the contacts for each technology vendor, with a policy in
+place that other employees will not respond to vendor requests for information about or changes to any telephone or computer equipment. That
+way, the designated people become familiar with the vendor personnel
+who call or visit, and are less likely to be deceived by an imposter. If a vendor calls even when the company does not have a support contract, that
+should also raise suspicions.
+Everyone in the organization needs to be made aware of information
+security threats and vulnerabilities. Note that security guards and the like
+need to be given not just security training, but training in information
+security, as well. Because security guards frequently have physical access to
+the entire facility, they must be able to recognize the types of social engineering attacks that may be used against them.
+
+FAVORITE! MUST HAVE: This powerful monitoring and spy
+program secretly captures all keystrokes and the time and
+title of all active windows to a text file, while running hidden in the background. Logs can be encrypted and automatically sent to a specified email address, or just recorded on
+the hard drive. Access to the program is password protected
+and it can be hidden from the CTRL+ALT+DEL menu.
+Use it to monitor typed URLs, chat sessions, emails and
+many other things (even passwords ;-)).
+Install without detection on ANY PC and email yourself the logs!!!!!!
+
+207
+Attacks on the Entry-Level Employee
+
+Beware Spyware
+Commercial spyware was once used mostly by parents to monitor what
+their children were doing on the Internet, and by employers, supposedly
+to determine which employees were goofing off by surfing the Internet. A
+more serious use was to detect potential theft of information assets or
+industrial espionage. Developers market their spyware by offering it as a
+tool to protect the children, when in fact their true market is people who
+want to spy on someone. Nowadays, the sale of spyware is driven to a great
+extent by people’s desire to know if their spouse or significant other is
+cheating on them.
+Shortly before I began writing the spyware story in this book, the person who receives email for me (because I’m not allowed to use the
+Internet) found a spam email message advertising a group of spyware
+products. One of the items offered was described like this:
+
+13237124 Ch12.F
+
+
+
+
+
+Antivirus Gap?
+Antivirus software doesn’t detect commercial spyware, thereby treating
+the software as not malicious even though the intent is to spy on other
+people. So the computer equivalent of wiretapping goes unnoticed,
+creating the risk that each of us might be under illegal surveillance at
+any time. Of course, the antivirus software manufacturers may argue
+that spyware can be used for legitimate purposes, and therefore should
+not be treated as malicious. But the developers of certain tools once
+used by the hacking community, which are now being freely distributed or sold as security-related software, are nonetheless treated as
+malicious code. There’s a double standard here, and I’m left wondering why.
+
+Chapter 12
+
+208
+
+Another item offered in the same email promised to capture screen shots
+of the user’s computer, just like having a video camera looking over his
+shoulder. Some of these software products do not even require physical
+access to the victim’s computer. Just install and configure the application
+remotely, and you have an instant computer wiretap! The FBI must love
+technology.
+With spyware so readily available, your enterprise needs to establish two
+levels of protection. You should install spyware-detection software such as
+SpyCop (available from www.spycop.com) on all workstations, and you
+should require that employees initiate periodic scans. In addition, you
+must train employees against the danger of being deceived into downloading a program, or opening an email attachment that could install
+malicious software.
+In addition to preventing spyware from being installed while an
+employee is away from his desk for a coffee break, lunch, or a meeting, a
+policy mandating that all employees lock their computer systems with a
+screen saver password or similar method will substantially mitigate the risk
+of an unauthorized person being able to access a worker’s computer. No
+one slipping into the person’s cubicle or office will be able to access any of
+their files, read their email, or install spyware or other malicious software.
+The resources necessary to enable the screensaver password are nil, and the
+benefit of protecting employee workstations is substantial. The cost-benefit
+analysis in this circumstance should be a no-brainer.
+
+14237124 Ch13.F
+
+
+
+
+
